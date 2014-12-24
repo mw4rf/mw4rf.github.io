@@ -12,4 +12,4 @@ markdown: kramdown
 
 # Pagination
 paginate: 5
-paginate_path: "/archives/:num/index.html"
+paginate_path: "/archives/:num"
