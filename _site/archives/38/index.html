@@ -211,16 +211,6 @@
 
   <!-- This loops through the paginated posts -->
   
-    <h1><a href="/juridique/ntic/droit%20international/2006/06/24/tribunal-competent-et-cyber-delits-theorie-de-la-focalisation.html">Tribunal compétent et cyber-délits: théorie de la focalisation</a></h1>
-    <p class="author">
-      <span class="date">2006-06-24 12:24:52 +0200</span>
-    </p>
-    <div class="content">
-      Deux arrêts rendus par la Cour d'appel de Paris à peu de jours d'intervalle décident de la compétence ou de l'incompétence des tribunaux français pour connaître de cas de cyber-délits. Les deux arrêts font application de la théorie de la focalisation.
-
-
-    </div>
-  
     <h1><a href="/propri%C3%A9t%C3%A9%20intellectuelle/2006/06/17/la-copie-privee-et-la-liceite-de-sa-source.html">La copie privée et la licéité de sa source</a></h1>
     <p class="author">
       <span class="date">2006-06-17 12:13:52 +0200</span>
@@ -259,6 +249,22 @@ Par l'arrêt commenté la Première chambre civile de la Cour de cassation défi
     </p>
     <div class="content">
       J'avais envie d'installer Linux sur mon PowerBook G4, en plus de Mac OS X. Quoique qu'aventureux, je reste prudent: il n'était pas question de compromettre mon installation de Mac OS X, que j'utilise pour les choses sérieuses et dont j'ai besoin tous les jours. Le partitionnement du disque dur principal était donc à exclure. Mon Mac étant un portable, je n'avais pas la possibilité d'installer un second disque dur interne dédié à Linux. Il ne me restait donc qu'un seul choix: utiliser les capacité d'OpenFirmware en terme de boot Firewire pour installer Linux sur un disque externe. J'ai choisi d'écrire ce billet pour raconter mes péripéties d'une telle installation (car il y en a !), et aussi pour me souvenir des procédures suivies dans l'hypothèse d'une réinstallation future. Il y aura donc un côté "narration" et un côté "description technique".
+
+
+    </div>
+  
+    <h1><a href="/web/2006/05/05/afficher-la-liste-des-enregistrements-dune-table-mysql-sur-plusieurs-pages.html">Afficher la liste des enregistrements d'une table MySQL sur plusieurs pages</a></h1>
+    <p class="author">
+      <span class="date">2006-05-05 01:28:24 +0200</span>
+    </p>
+    <div class="content">
+      <p>
+Il est courant de présenter les enregistrements d'une base de données sous forme de liste. C'est même très simple a réaliser si l'on veut afficher grâce au PHP tous les enregistrements d'une table MySQL. Cependant, un problème surgit tôt ou tard: il y a trop d'enregistrements dans la table, et ils ne peuvent pas tous être affichés sur la même page. La raison est évidente: il n'est pas raisonnable de présenter une liste de plusieurs dizaines de pages de long alors que l'utilisateur n'a besoin que des premiers enregistrements de la liste. Charge des milliers d'enregistrements dans un tableau aux proportions démesurées va à l'encontre de toute optimisation du code: la page sera longue à charger, lourde à manipuler, et pourra même aller jusqu'à faire planter le navigateur s'il y a plusieurs mégaoctets de données à afficher.
+</p>
+
+<p>
+La solution ? Afficher la liste sur plusieurs pages de X enregistrements chacune, avec en en-tête de la liste deux petits boutons "Précédente" et "Suivante" qui permettent de passer d'une page à l'autre. Eh bien, c'est plus facile à dire qu'à faire. On se heurte en effet très tôt à une difficulté: il faut prévoir les limites de la liste et enlever le bouton "Précédente" sur la première page et le bouton "Suivante" sur la dernière, sous peine de générer une erreur lors du passage de la requête SQL.
+</p>
 
 
     </div>

@@ -211,22 +211,6 @@
 
   <!-- This loops through the paginated posts -->
   
-    <h1><a href="/web/2006/05/05/afficher-la-liste-des-enregistrements-dune-table-mysql-sur-plusieurs-pages.html">Afficher la liste des enregistrements d'une table MySQL sur plusieurs pages</a></h1>
-    <p class="author">
-      <span class="date">2006-05-05 01:28:24 +0200</span>
-    </p>
-    <div class="content">
-      <p>
-Il est courant de présenter les enregistrements d'une base de données sous forme de liste. C'est même très simple a réaliser si l'on veut afficher grâce au PHP tous les enregistrements d'une table MySQL. Cependant, un problème surgit tôt ou tard: il y a trop d'enregistrements dans la table, et ils ne peuvent pas tous être affichés sur la même page. La raison est évidente: il n'est pas raisonnable de présenter une liste de plusieurs dizaines de pages de long alors que l'utilisateur n'a besoin que des premiers enregistrements de la liste. Charge des milliers d'enregistrements dans un tableau aux proportions démesurées va à l'encontre de toute optimisation du code: la page sera longue à charger, lourde à manipuler, et pourra même aller jusqu'à faire planter le navigateur s'il y a plusieurs mégaoctets de données à afficher.
-</p>
-
-<p>
-La solution ? Afficher la liste sur plusieurs pages de X enregistrements chacune, avec en en-tête de la liste deux petits boutons "Précédente" et "Suivante" qui permettent de passer d'une page à l'autre. Eh bien, c'est plus facile à dire qu'à faire. On se heurte en effet très tôt à une difficulté: il faut prévoir les limites de la liste et enlever le bouton "Précédente" sur la première page et le bouton "Suivante" sur la dernière, sous peine de générer une erreur lors du passage de la requête SQL.
-</p>
-
-
-    </div>
-  
     <h1><a href="/internet/2006/04/27/vers-une-alliance-google-firefox.html">Vers une alliance Google-Firefox ?</a></h1>
     <p class="author">
       <span class="date">2006-04-27 20:58:40 +0200</span>
@@ -263,6 +247,17 @@ La solution ? Afficher la liste sur plusieurs pages de X enregistrements chacune
     </p>
     <div class="content">
       La version 1.5 stable de <a href="http://www.koffice.org/">KOffice</a>, la suite intégrée de <a href="http://www.kde.org/">KDE</a>, viens de sortir il y a peu. Cette nouvelle version apporte une avancée majeure par rapport aux versions précédentes: le support du format <a href="http://fr.wikipedia.org/wiki/OpenDocument">OASIS OpenDocument</a>. Avide de nouveautés et frénétiquement poussé vers une mise à jour constante de mes logiciels, je n'ai pas résisté à l'envie de compiler cette dernière version de KOffice. Mon but premier était de tester le support d'OpenDoc par KWord, et de voir dans quelle mesure les documents <a href="http://fr.openoffice.org/">OpenOffice</a> au même format pouvaient être lus par l'un ou l'autre de ces deux logiciels. C'est la première partie de cet article, et ce sera rapide: la compatibilité est très bonne, sauf les réserves habituelles. La seconde partie de l'article part de ces réserves pour déboucher sur une constatation générale de la situation actuelle des formats de documents, du grave problème qui se pose pour le futur, et de ce qu'il faudra faire pour le résoudre.
+
+
+    </div>
+  
+    <h1><a href="/linux/2006/04/12/installer-kclamav-sous-linux.html">Installer K/ClamAV sous Linux ?</a></h1>
+    <p class="author">
+      <span class="date">2006-04-12 20:17:23 +0200</span>
+    </p>
+    <div class="content">
+      <img src="./images/clamav/clamav.png" align="left" alt="ClamAV Logo" />
+En lisant les nouvelles ce matin, j'ai appris que des programmeurs avaient réalisé un virus crossplatform en Assembleur. Il fonctionne aussi bien sous Windows que sous Linux, et peut servir de base à d'autres auteurs de virus pour mettre en oeuvre leur savoir destructeur. Heureusement, ce virus-là n'en est pas réellement un, c'est plutot un guide donnant les lignes directrices pour une comaptibilité avec les deux systèmes. Ca m'a donné une idée: installer l'antivirus ClamAV, opensource et gratuit. Ce n'était pas par nécessité, puisque je n'ai aucune peur de ce virus, que je sais quand comment et pourquoi je suis susceptible de me faire infecter, et que le poste sur lequel j'ai réalisé l'installation peut se permettre de planter et de voir son système réinstallé après formatage. Non, si j'ai installé cet antivirus, ce n'était que pour le tester. Et bien, je n'ai pas été déçu ! En effet, l'installation de l'interface graphique, KlamAV (qui se détâche de ClamAV, celui-ci s'exécutant normalement en ligne de commande), est un vrai parcours du combattant. C'est donc tout naturellement que j'ai entrepris d'écrire cet article qui aura pour but d'expliquer comment installer et configurer ClamAV et l'interface KlamAV sous Linux. Dernière précision avant de commencer: les étapes décrites sont basées sur une OpenSuse 10; elles demeurent valables pour la plupart des grosses distributions (RedHat, Mandrake/Mandriva, etc.), mais seront peut être légèrement différentes pour les distributions basées sur Debian.
 
 
     </div>
