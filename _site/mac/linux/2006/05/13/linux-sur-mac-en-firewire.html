@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <title>Linux sur Mac en Firewire</title>
+  <meta name="description" content="J'avais envie d'installer Linux sur mon PowerBook G4, en plus de Mac OS X. Quoique qu'aventureux, je reste prudent: il n'était pas question de compromettre m...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://yourdomain.com/mac/linux/2006/05/13/linux-sur-mac-en-firewire.html">
+  <link rel="alternate" type="application/atom+xml" title="Your awesome title" href="http://yourdomain.com/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Your awesome title</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/liens/index.html">Liens</a>
+          
+        
+          
+          <a class="page-link" href="/dockit/index.html">DockIt!</a>
+          
+        
+          
+          <a class="page-link" href="/articles-essentiels/index.html">Articles essentiels</a>
+          
+        
+          
+          <a class="page-link" href="/a-propos/index.html">A propos</a>
+          
+        
+          
+          <a class="page-link" href="/themes/index.html">Thèmes</a>
+          
+        
+          
+          <a class="page-link" href="/references/index.html">Références</a>
+          
+        
+          
+          <a class="page-link" href="/top-10/index.html">Top 10</a>
+          
+        
+          
+          <a class="page-link" href="/archives/index.html">Archives de la revue</a>
+          
+        
+          
+          <a class="page-link" href="/outils/index.html">Outils</a>
+          
+        
+          
+          <a class="page-link" href="/cours-java/index.html">Cours Java</a>
+          
+        
+          
+          <a class="page-link" href="/liste/index.html">Liste des articles</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Linux sur Mac en Firewire</h1>
+    <p class="post-meta">May 13, 2006 • {"display_name"=>"GF", "login"=>"gflorimond", "email"=>"gf@valhalla.fr", "url"=>"http://www.valhalla.fr"}</p>
+  </header>
+
+  <article class="post-content">
+    <p>J'avais envie d'installer Linux sur mon PowerBook G4, en plus de Mac OS X. Quoique qu'aventureux, je reste prudent: il n'était pas question de compromettre mon installation de Mac OS X, que j'utilise pour les choses sérieuses et dont j'ai besoin tous les jours. Le partitionnement du disque dur principal était donc à exclure. Mon Mac étant un portable, je n'avais pas la possibilité d'installer un second disque dur interne dédié à Linux. Il ne me restait donc qu'un seul choix: utiliser les capacité d'OpenFirmware en terme de boot Firewire pour installer Linux sur un disque externe. J'ai choisi d'écrire ce billet pour raconter mes péripéties d'une telle installation (car il y en a !), et aussi pour me souvenir des procédures suivies dans l'hypothèse d'une réinstallation future. Il y aura donc un côté "narration" et un côté "description technique".</p>
+<p><a id="more"></a><a id="more-103"></a></p>
+<h2>Premier épisode: YDL 4.1, Kubuntu Dapper, SuSE 10.0</h2>
+<p>(du 8 au 13 mai)</p>
+<p>Pour installer Linux en Firewire, chose assez inhabituelle, j'ai dû affronter une première difficulté: le choix de la distribution. Je suis en effet parti du principe que toutes les distributions n'étaient pas compilées pour PowerPC (Mandriva par exemple), et que toutes les distributions PowerPC n'étaient pas prévues pour booter sur un disque externe Firewire ou USB.</p>
+<p>J'ai alors choisi de tester <a href="http://www.terrasoftsolutions.com/">Yellow Dog Linux</a> (YDL 4.1 "Sagitta"), une distribution spécifiquement conçue pour tourner sur les ordinateurs Apple PPC. Distribution téléchargée, les 4 CD gravés, j'introduis le premier dans le lecteur et je redémarre en maintenant la touche C enfoncée. L'interface d'installation se lance. Les premières étapes défilent sans problème, et puis vient le partitionnement. Deux possibilités: hda, sda... que choisir ? "HDA" désignant le premier disque dur ("hard drive a"), le problème était réglé, il me fallait choisir SDA. Jusque là tout va bien, mais pas pour longtemps: j'essaye de créer les partitions automatiquement, comme me le recommande l'assistant d'installation, mais cela ne fonctionne pas. J'essaie alors de le faire manuellement, mais le logiciel de partitionnement refuse catégoriquement de créer une partition swap (pour les partitions root, home et Apple_bootstrap, cela fonctionnait correctement). Que faire ? Après quelques recherches et quelques autres essais infructueux, j'ai fini par comprendre: il faut supprimer l'entrée sda (même si le disque est vierge et fraîchement formaté) et recréer manuellement la table des partitions. Autrement dit, le logiciel de partitionnement n'est pas capable d'effacer la table des partitions tout seul, il faut le faire manuellement. Plus aucun problème après cela.</p>
+<p>Après l'installation, je redémarre mon PowerBook avec la touche Option enfoncée. Un menu apparaît et me propose de choisir quel système booter: OS X sur le disque dur, Linux sur le disque externe. C'est parti pour Linux. Le système se lance, aucun problème jusque là. Je commence à utiliser mon système, à configurer l'interface et le bureau. Je branche une clé USB pour copier quelques fichiers et là, oh stupeur, rien ne se passe. Pestant un peu contre une distribution qui me semble de plus en plus archaïque, j'ouvre une fenêtre de terminal, me connecte en root (su), crée une répertoire d'accueil (<span class="Code">mkdir /mnt/cle_usb</span>) et monte le périphérique avec la salvatrice commande <span class="Code">mount -t vfat /dev/sdb1 /mnt/cle_usb</span>. Je continue avec quelques petites manipulations de base, tout va bien. J'essaie d'installer avec le gestionnaire de RPM quelques logiciels supplémentaires, et je me rends compte qu'il n'est pas possible avec cette distribution d'effectuer une recherche dans la base de donnée des paquetages. Déception. Sachant que la configuration de ma connexion Wifi sera longue et pénible (et encore, j'étais loin du compte), je laisse pour plus tard l'installation de logiciels supplémentaires téléchargés sur Internet. Je reprends mes gentilles opérations de configuration. Le système plante. Je redémarre. Le bureau se charge, et des daemons KDE plantent en chaîne. Le système en devient totalement instable.</p>
+<p>Je me dis que l'installation a dû rater quelque part. Je réinstalle. Tout se passe bien, et je décide de configurer ma connexion Wifi. Le reconnaissance d'Airport Extreme étant pour le moins pénible à mettre en oeuvre, je décide d'utiliser ma carte PCMCIA Netgear WG511T basée sur un chipset Atheros et normalement utilisable avec le module MadWifi. MadWifi et Wireless Tools sont déjà installés et le module ath_pci déjà chargé. Super. Il ne reste plus qu'à configurer cela avec iwconfig et ifconfig. C'est une histoire de 20 secondes. Mais j'ai eu la mauvaise idée de protéger l'accès à ma connexion avec un clé WPA. Pour utiliser le WPA avec MadWifi, il faut installer wpa_supplicant. Ahah ! Ce n'est pas possible avec cette version de YDL ! wpa_supplicant se compile et s'installe bien, mais pour fonctionner il doit communiquer avec MadWifi, or, le MadWifi préinstallé avec la distribution est trop ancien pour cela. Et les dernières versions de MadWifi refusent de se compiler. Il doit bien y avoir un moyen de faire fonctionner tout ça, mais après plusieurs heures passées à trouver la source du problème, je n'avais pas envie de passer une semaine à le résoudre. Cela et l'ancienneté de la distribution m'ont conduit à me replier sur une valeur sure: <a href="http://fr.opensuse.org/">SuSE</a> <i><b>10.0</b></i>.</p>
+<p>Certaines personnes n'aiment pas SuSE: ses détracteurs argüent qu'il s'agit d'une distribution non standard. En ce qui me concerne, je la considère comme la meilleure distribution grand public du marché. Mais c'est aussi une question de goût. Je suis donc parti pour installer SuSE. Mais je sais qu'elle est difficile à installer sur PPC et qu'elle présente à ce titre plusieurs problèmes. Qu'à cela ne tienne, on verra après. Je télécharge les grave les 5 CD-ROM de la version 10.0. Une fois fait, j'introduis le premier CD dans le lecteur, et je redémarre avec la touche C enfoncée. Tout se passe bien jusqu'au partitionnement, où YAST plante. Pas grave, c'est la première difficultée, elle était prévue.</p>
+<p>Après quelques recherches, je trouve facilement la procédure. Il faut lancer l'installation avec la commande <span class="Code">install start_shell</span>. Au lieu de lancer YAST tout de suite, l'installation débute par un mode console. A partir de là, on tape <span class="Code">pdisk /dev/sda</span> pour définir la table des partitions du disque SDA. On tape <span class="Code">p</span> pour obtenir une liste des partitions existantes, et on les supprime tour à tous en entrant <span class="Code">d</span> puis le numéro associé à la partition à effacer. Une fois cela fait, on doit créer les nouvelles partitions: on tape <span class="Code">C</span> (majuscule, pour spécifier le type de partition) pour créer une partition, et on répond aux questions. Voilà ce que ça donne:</p>
+<p><span class="Code"><br />
+Command (? for help): <b>C</b><br />
+First Block: <b>2p</b><br />
+Length in blocks: <b>32m</b><br />
+Name of partition: <b>boot</b><br />
+Type of partition: <b>Apple_HFS</b><br />
+</span></p>
+<p>Le First Block désigne le numéro de la partition dans laquelle piocher l'espace libre. Ainsi, dans l'exemple ci-dessus, on prend l'espace dans la partition numéro 2 (la première est en général Apple_partition_map, à ne pas toucher). On peut voir le numéro de la partition qui contient l'espace libre en tapant <span class="Code">p</span>. La taille en blocs s'exprime en Mo ou Go: ici c'est 32 mégas. Pour créer une partition de 20 gigas, on écrira "20000m" ou "2g". Le nom de la partition l'identifie: ici c'est la partition de boot. Le type de partition est très important dans le cas de l'exemple ci-dessus puisque c'est la partition Apple_HFS ou Apple_bootstrap que cherche l'OpenFirmware au boot de la machine. Sans une telle partition, le système ne démarrera pas sur le disque externe.</p>
+<p>Après avoir créé la partition de boot, on crée une partition de swap, puis une partition pour installer le système. On peut en créer une quatrième pour nos fichiers personnels (point de montage: /home) ou placer ceux-ci dans la partition du système.</p>
+<p><span class="Code"><br />
+Command (? for help): <b>C</b><br />
+First Block: <b>3p</b><br />
+Length in blocks: <b>1500m</b><br />
+Name of partition: <b>swap</b><br />
+Type of partition: <b>Linux</b><br />
+</span></p>
+<p><span class="Code"><br />
+Command (? for help): <b>C</b><br />
+First Block: <b>4p</b><br />
+Length in blocks: <b>30g</b><br />
+Name of partition: <b>root</b><br />
+Type of partition: <b>Linux</b><br />
+</span></p>
+<p>Une fois la tape des partitions correctement définie, on l'enregistre en tapant <span class="Code">w</span>. Cela prend quelques instant (et cela efface l'ancienne table, prudence !). On quitte ensuite l'utilitaire avec la commande <span class="Code">q</span> et le shell avec la commande <span class="Code">exit</span>. Yast se lance et on continue l'installation. Bien entendu, quand il sera demandé que faire avec les partitions, on choisira simplement de les formater (boot en MacHFS sans point de montage, swap en swap au point de montage swap, root en ReiserFS ou ext3 selon la préférence au point de montage /, éventuellement la quatrième au point de montage /home). Normalement YAST propose déjà les bons choix. Il est judicieux de noter le nom des partitions sur un papier: par exemple "/dev/sda2 est associé à boot, et /dev/sda4 à root".</p>
+<p>Deuxième difficulté: YAST ne sait pas installer de bootloader avec une partition de boot Apple_HFS. Il faut alors sélectionner "aucun chargeur d'amorçage" lors de l'installation. Très bien, faisons cela. Le CD 1 est rapidement installé. Le système redémarre. Et là, que fait-on ? Aucun bootloader n'est installé, OpenFirmware ne reconnaît donc pas le disque externe comme bootable, et il ne propose de démarrer que sur OS X ou le CD-ROM. On se demande alors comment continuer l'installation ! C'est très fastidieux: il faut booter depuis le CD-ROM de SuSE, comme la première fois mais en tapant <span class="Code">install</span> au lieu de <span class="Code">install start_shell</span>, attendre 5 bonnes minutes d'arriver jusqu'à YAST, suivre les premières étapes jusqu'à ce qu'il nous demande si l'on veut installer un nouveau système ou effectuer une mise à jour. On cherche alors une petit bouton "Autres" en bas de l'écran qui nous permettra de choisir l'option "Amorçer un système installé".</p>
+<p>Le disque externe est alors monté et le système lancé. Normalement, l'installation devrait continuer avec le second CD-ROM. La première fois, l'installation a été corrompue: le second CD n'a pas été demandé, et le système à démarré directement sous Linux. Le problème dans ce cas est que le mot de passe root n'a pas été défini (c'est une des dernières étapes de la procédure d'installation). Sans mot de passe root, ce n'est pas la peine de continuer, on est bon pour tout réinstaller. Ayant subi ce coup du destin (sic), j'ai effectué une nouvelle installation depuis le début (sans redéfinir les partitions bien sûr).</p>
+<p>Le système s'est installé proprement et KDE a démarré. J'avoue que j'étais content... et pourtant je n'avais pas fini d'en baver. Il me fallait maintenant configurer le chargeur de démarrage (bootloader). Pour ce faire, on lance une fenêtre de terminal, on se connecte en root (su) et on édite le fichier de configuration, /etc/lilo.conf. Deux remarques: premièrement le fichier n'existe pas, il faut donc le créer; deuxièmement, personne m'aime utiliser Vi, il faut arrêter la mauvaise fois, alors on utilisera kate: <span class="Code">kate /etc/lilo.conf</span>. Quant au contenu du fichier:</p>
+<p><span class="Code"><br />
+boot=/dev/sda2<br />
+timeout=100<br />
+default=linux<br />
+activate<br />
+</span><br />
+<span class="Code"><br />
+image=/boot/vmlinux<br />
+initrd=/boot/initrd<br />
+label=linux<br />
+append="root=/dev/sda4 quiet sysrq=1 rootdelay=10"<br />
+</span></p>
+<p>A la première ligne, on doit mettre la partition de boot. A la 8ème ligne, on doit mettre la partition root. C'est pour cela qu'il était judicieux de noter sur un bout de papier lors de l'installation "/dev/sda2 est associé à boot, et /dev/sda4 à root". </p>
+<p>Pourquoi rootdelay=10 ? Simplement pour forcer le noyau à attendre 10 secondes que le périphérique externe soit reconnu avant de lancer le boot. Sinon, le système a de grandes chances de ne pas démarrer et de répondre laconiquement "/dev/sda4 not found". A posteriori, cela paraît tout bête. Quand on cherche plusieurs heures où se situe le problème, c'est vraiment moins évident... </p>
+<p>Une fois le fichier écrit, on écrit tout ça dans initrd en tapant en root <span class="Code">/sbin/lilo</span>. Petite précision pour les habituée de Linux sur Mac: SuSE est une distribution intelligente qui insère automatiquement l'adresse OpenFirmware du périphérique dans OFBOOT. Pas besoin de s'embêter avec ça donc. Le message de retour de la commande /sbin/lilo montrera que cette adresse a bien été détectée et insérée.</p>
+<p>Après avoir fait tout cela, je redémarre, tout content de moi, pour constater l'ampleur du désastre. Et oui, SuSE est une distribution intelligente, certes, mais loin d'être parfaite sous PPC. En effet, je tombe sur le pénible "/dev/sda4 not found" précité. J'ai mis pas mal de temps pour trouver la solution... et j'ai un peu tout essayé, et rebooté grace au CD 1 plusieurs dizaines de fois (les allers-retour Linux-OSX pour aller chercher des infos sur Internet...). La solution, la voilà: il faut lancer YAST et se rendre dans <i>le panneau d'édition /etc/sysconfig, puis dans System, Kernel et éditer la valeur de INITRD</i>. Il faut mettre <span class="Code">ieee1394 ehci1394 uhci1934 sbp2</span>. Encore une fois, ça paraît bête à posteriori, mais pourtant, ce n'est pas évident. Explication: les modules indiqués dans cette ligne sont chargés au démarrage au noyau (avant le montage de la partition root) et ils permettent de supporter la norme IEEE1394, mieux connus sous le nom de Firewire, au boot. On pourrait aussi recompiler le noyau avec ce support en dur, mais à mon avis il est préférable de garder cela en tant que modules. n'oubliez pas de vérifier que tous ces modules sont bien installés avant de rebooter: modprobe nom_du_module ne devrait pas retourner de message d'erreur.</p>
+<p>Mon Linux boot maintenant comme une fleur. Même plus besoin de démarrer en maintenant la touche Option: si le disque Firewire est branché, OpenFirmware boot dessus, sinon il boot sur OSX. C'est parti pour installer ma carte Wifi. J'installe le paquet Wlan contenant MadWifi à partir du gestionnaire de paquetages de Yast. Puis, le tape <span class="Code">modprobe ath_pci</span>. Module not found. Cool. Après une petite vérification, je constate que MadWifi n'est disponible dans ce paquetage qu'avec les distributions X86 (i386), et pas avec les PPC ! C'est reparti comme en 40, on télécharge les sources (madwifi-ng) et on compile. Tout se passe bien. Le module ath_pci se charge correctement -du moins, il semble. La carte est bien reconnue (chipset Atheros) dans l'outil de configuration réseau de Yast. Mais, rien à faire, aucune interface <i>ath0</i>, wlan0 ou encore wifi0 n'est créé. <i>iwconfig</i> et <i>ifconfig</i> persistent à n'afficher que <i>eth0</i> correspondant à la carte Ethernet. Ô rage, ô désespoir, ô madwifi ennemi ! C'est reparti pour une nouvelle galère. Après plusieurs vérifications, le verdict est sans appel: <i>dmesg</i> m'affiche un "Hardware version not supported" HAL Status 13 à l'introduction de la carte PCMCIA. J'avoue ne pas savoir exactement ce qui pose problème, madwifi ou la carte (qui, pourtant, fonctionne parfaitement). Mais toujours est-il que sous SuSE PPC, je n'ai toujours pas trouvé de moyen de la faire reconnaître correctement par le système. </p>
+<p>J'ai aussi testé au passage <a href="http://www.kubuntu.org/">Kubuntu</a> Dapper. Rien que l'interface d'installation me rebute: le bon vieux truc bien Linux à deux balles, du genre fond bleu, blocs bleu et texte blanc, avec des blocs noirs décalés en guise de relief shade. Plus minable tu meurs. Ils auraient quand même pu faire l'effort d'une interface agréable ("user friendly" comme ils disent), d'autant plus que la distribution reconnaît parfaitement ma carte graphique et mon écran. Encore une fois, comme pour Vi, on ne peut raisonnablement préférer une vieille interface pas pratique (navigation au clavier) à une agréable interface moderne. La "geek attitude" a ses limites. Bref, tout ça pour dire que je n'ai pas gardé Kubuntu car je n'avais pas envie de me prendre la tête à configurer le chargeur de démarrage. Mais peut-être devrais-je réessayer de l'installer, car Dapper gère les cartes Airport Extreme (les drivers pour le chipset Broadcom, élaborés par reverse engeneering, sont intégrés à la distribution). Affaire à suivre !</p>
+<h2>Deuxième épisode: SuSE 10.1</h2>
+<p>(le 13 mai)</p>
+<p>Le 11 mai 2006, la version 10.1 de SuSE est sortie. Les serveurs furent saturés pendant 2 jours. Le 13 mai j'ai pu récupérer les 5 CD de la distribution, les graver et me lancer dans son installation.</p>
+<p>Première remarque: YaST supporte enfin l'écriture de la table des partitions sur PPC ! Il m'a automatiquement supprimé ma partition root /dev/sda4 pour en créer deux nouvelle: une root sur /dev/sda4 et une /home sur /dev/sda5. Il l'a fait proprement, et sans aucun problème. Bravo !</p>
+<p>Deuxième remarque: YaST a été capable d'installer le bootloader (yaboot) sans aucun problème. Il a été directement configuré comme il faut pour booter sur le disque externe. Encore une fois, bravo ! Les deux problèmes majeurs qui se posaient à l'installation de la SuSE PPC sont réglés... enfin, presque !</p>
+<p>Ils ne sont pas tout à fait réglés puisque les modules de gestion du Firewire ne sont toujours pas chargés au boot. Il faudra donc prendre soin d'éditer initrd (voir la procédure précédemment décrite dans YaST) pour rajouter ieee1394 ehci1394 ohci1394 sbp2. Une fois fait, ça boot sans problème !</p>
+<p>Par contre grosse déception sur la reconnaissance de la carte graphique et de l'écran: cela ne fontionne plus ! Ainsi va Linux au fil des distributions: des problèmes sont corrigés et des avancés réalisées, mais parfois ce qui fonctionnait ne fonctionne plus... Ainsi une erreur survint (comme ils disent, "une erreur est survenue") pendant la configuration de la carte graphique et du moniteur lors de l'installation. Le premier reboot se fit en mode graphique. Sympa. Heureusement j'ai pu constater une fois de plus que SuSE est une distribution intelligente: dans le répertoire /etc/X11, on trouve deux fichier xorg.conf: celui qui est utilisé, <i>xorg.conf</i>, et celui qui semble l'avoir été pendant l'installation (qui, elle, s'est bien déroulée en mode graphique): <i>xorg.conf.install</i>. Ce dernier fichier semble tout-terrain. Tant mieux, cela règle le problème pour un moment:<br />
+<span class="Code">cp xorg.conf xorg.conf.backup</span><br />
+<span class="Code">cp xorg.conf.install xorg.conf.install.backup</span><br />
+<span class="Code">mv xorg.conf.install xorg.conf</span></p>
+<p>Avec tout cela, le système se lance sous KDE (Gnome, je ne m'y fais pas...) sans encombre. Mais SAX2 (l'utilitaire pour configurer le serveur X) ne reconnaît toujours pas le matériel. On essaie de s'en rapprocher, mais ce n'est pas exactement ça. Ainsi, je me retrouve en 1280x800 au lieu de 1280x854. On ne va pas chipoter pour 54 pixels, si ce n'est que l'image est légèrement déformée et moins agréable à lire (écran LCD oblige...). On ne devrait pas tarder à trouver des procédures sur internet pour remédier à ce problème.</p>
+<p>Concernant la carte wifi, bonne surprise: elle est reconnue ! Par contre, le paquet wlan ne semble toujours pas contenir de madwifi. Qu'à cela ne tienne: on le compile et on l'installe. Tout se passe bien, et l'interface ath0 apparaît au ifconfig/iwconfig après avoir lancé le module ath_pci (avec <i>modprobe ath_pci</i> en root). YaST est doté d'un nouveau système de configuration des conenxions wifi qui supporte directement le WPA-PSK. Bien ! Par contre la clé PSK apparaît en clair dans les fichiers de configuration... mieux vaut protéger son accès root, car ce n'est plus la sécurité du poste qui est compromise, mais celle du réseau en son ensemble. Bref, cela semble fonctionner. Et pourtant, ça ne fonctionne pas vraiment. En tout cas, le ping vers l'extérieur ne donne rien malgré une bonne configuration (iwconfig et tout le tralala, wpa_supplicant et compagnie, ifconfig up, pas de message d'erreur dans le dmesg). Mais je finirai par y arriver (na!). Suite au prochain épisode.</p>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Your awesome title</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>Your awesome title</li>
+          <li><a href="mailto:your-email@domain.com">your-email@domain.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/jekyll">
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+                </svg>
+              </span>
+
+              <span class="username">jekyll</span>
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/jekyllrb">
+              <span class="icon  icon--twitter">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+                </svg>
+              </span>
+
+              <span class="username">jekyllrb</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

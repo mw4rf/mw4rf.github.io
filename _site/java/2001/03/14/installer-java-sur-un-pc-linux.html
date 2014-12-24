@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <title>Installer Java sur un PC Linux</title>
+  <meta name="description" content="Cet article a pour but de vous montrer la marche à suivre pour installer et configurer un environnement de développent Java viable sur une machine tournant s...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://yourdomain.com/java/2001/03/14/installer-java-sur-un-pc-linux.html">
+  <link rel="alternate" type="application/atom+xml" title="Your awesome title" href="http://yourdomain.com/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Your awesome title</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/liens/index.html">Liens</a>
+          
+        
+          
+          <a class="page-link" href="/dockit/index.html">DockIt!</a>
+          
+        
+          
+          <a class="page-link" href="/articles-essentiels/index.html">Articles essentiels</a>
+          
+        
+          
+          <a class="page-link" href="/a-propos/index.html">A propos</a>
+          
+        
+          
+          <a class="page-link" href="/themes/index.html">Thèmes</a>
+          
+        
+          
+          <a class="page-link" href="/references/index.html">Références</a>
+          
+        
+          
+          <a class="page-link" href="/top-10/index.html">Top 10</a>
+          
+        
+          
+          <a class="page-link" href="/archives/index.html">Archives de la revue</a>
+          
+        
+          
+          <a class="page-link" href="/outils/index.html">Outils</a>
+          
+        
+          
+          <a class="page-link" href="/cours-java/index.html">Cours Java</a>
+          
+        
+          
+          <a class="page-link" href="/liste/index.html">Liste des articles</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Installer Java sur un PC Linux</h1>
+    <p class="post-meta">Mar 14, 2001 • {"display_name"=>"GF", "login"=>"gflorimond", "email"=>"gf@valhalla.fr", "url"=>"http://www.valhalla.fr"}</p>
+  </header>
+
+  <article class="post-content">
+    <p>
+Cet article a pour but de vous montrer la marche à suivre pour installer et configurer un environnement de développent Java viable sur une machine tournant sous le système d'exploitation Linux.<br />
+Dans ce tutoriel, nous utiliserons:</p>
+<ul>
+<li />le JDK de Sun, version 1.2.2 disponible à l'adresse suivante http://java.sun.com/products/jdk/1.2/download-linux.html
+<li />la ligne de commande, normalement disponible à partir de votrebureau Linux.
+<li />le logiciel XEmacs, fourni avec la majorité des distributions linux, disponible à l'adresse suivante: http://www.xemacs.org
+</ul>
+<p>NOTE: cette page contient 12 images haute résolution et assez grandes, cela peut prendre du temps à charger mais nous vous conseillons néanmoins d'attendre car la réalisation des étapes nécessaires et expliquées n'en sera que plus aisée.</p>
+<p>
+Commençons nos explications:</p>
+<h1>INSTALLATION</h1>
+<p>
+1. Téléchargez le JDK, dans la version que vous voulez (NOTE: à l'heure actuelle une version 1.3 existe, mais nous avons choisi la 1.2.2 pour notre tutoriel. Si vous téléchargez la 1.3, la procédure d'installation ne sera modifiée que par le nom des fichiers et des répertoires, jdk1.3 au lieu de  jdk1.2.2)</p>
+<p><center><img src="./ressources/java/old/faq/install_linux/1.jpg" alt="java" /></center></p>
+<p>
+La capture d'écran montre ici le fichier .tar.gz téléchargé sur le site de Sun (adresse ci-dessus) et enregistré sur votre disque dur, à l'adresse '/home/guillaume/Downloads/'. Ce sera notre répertoire par défaut pour ce fichier. Vous pouvez bien évidemment l'enregistrer où bon vous semble.</p>
+<p>
+2. Ensuite il nous faut décompresser cette archive, en extraire les fichiers. Pour cela, ouvrez une fenêtre de terminal, placez vous dans le répertoire où se trouve votre archive à l'aide de la commande cd, et décompactez-la grâce àla commande tar -zxvf.</p>
+<p>
+ASTUCE: tapez: 'tar zxvf jdk' puis appuyez sur 'tab' (la touchequi représente 2 flèche de sens opposé sur la gauche du clavier) et, normalement, le 'jdk' que vous venez de taper se transforme automatiquement en le nom du fichier, c-à-d ici 'jdk-1_2_2_007-linux-i386.tar.gz' qui est légèrement plus contraignant à taper... Cetteastuce est couramment utilisée par les personnes habituées aux systèmes Unix.</p>
+<p><center><img src="./ressources/java/old/faq/install_linux/2.jpg" alt="java" /></center></p>
+<p>
+La capture d'écran illustre ce qui est expliqué plus haut, et montre la commande exacte à entrer. Remplacer le nom du fichier donné ici par le nom du votre si celui-ci est différent. (en utilisant TAB...)<br />
+Quand vous appuyez sur ENTREE, une liste de fichiers défile dans la console, en voici la fin:(comme vous pouvez le voir sur la capture d'écran l'ascenseur à droite a considérablement rétréci: tous les fichiers ne sont pas affichés sur cet écran, mais vous n'avez normalement pas à vous soucier de cela).</p>
+<p><center><img src="./ressources/java/old/faq/install_linux/3.jpg" alt="java" /></center></p>
+<p>
+Admettons que votre fichier tar.gz se soit trouvé dansle répertoire '/home/guillaume/Downloads' comme ici, les fichiers serons installés dans le répertoire '/home/guillaume/Downloads/jdk1.2.2/'.<br />
+NOTE: nous vous conseillons de l'installer dans '/usr/local/' ou '/home/guillaume' (où vous remplacerez 'guillaume' par le nom de l'utilisateur voulu).</p>
+<p>
+3. Vous devez ensuite indiquer au système dans quel répertoire il trouvera les fichiers binaires que JDK. Ceci se réalise à l'aide d'un 'path' (chemin en anglais). L'instruction estla suivante: export PATH=/home/guillaume/Downloads/jdk1.2.2/bin/:$PATH<br />
+NOTE: remplacez /home/guillaume/Downloads/ par le répertoire dans lequel est décompactée votre archive.</p>
+<p><center><img src="./ressources/java/old/faq/install_linux/4.jpg" alt="java" /></center></p>
+<p>
+Voici la liste des fichiers qui doivent normalement se trouver dansle répertoire /bin/ de votre JDK. (ci-dessus)</p>
+<p><center> <img src="./ressources/java/old/faq/install_linux/5.jpg" alt="java" /></center></p>
+<p>
+Et voici l'instruction à taper pour définir une'PATH'. (ci-dessus)</p>
+<h1>UTILISATION</h1>
+<p>
+1. Ecriture d'un programme<br />
+Nous considèrerons ici que vous ne possédez pas d'IDEJava installé sur votre machine, que vous venez juste d'installer Linux et que l'éditeur XEmacs est installé sur votre système. (Il est fourni, le plus souvent installé par défaut, avecle plupart des distributions, si ce n'est toutes). Je vous conseille cependant d'installer JBuilder ou Forte si vous vous lancez dans la conception d'interfaces graphiques compliquées ou si vous désirez avoir des options d'exportation et d'internationalisation plus avancées.<br />
+Nous commençons donc par lancer cet éditeur- emacs-, par la lignede commande ou par un menu de votre interface graphique (ici, KDE sous Linux Mandrake 7.2).</p>
+<p>
+Ci-dessus: ouvrez une fenêtre de terminal et tapez simplement 'xemacs', le programme devrait se lancer. (OPTIONNEL: Si vous désirez sauvegarder à l'aide de Emacs des fichiers dans des répertoires de votre machine appartenant à l'utilisateur root (par exemple /usr/ ou /var/), tapez 'su', puis le mot de passe de root. Poursuivez ensuite avec la commande xemacs qui sera alors lancée avec les droits du root).</p>
+<p><center><img src="./ressources/java/old/faq/install_linux/6.jpg" alt="java" /></center></p>
+<p>
+Vous pouvez aussi passer par un menu pour ouvrir XEmacs.</p>
+<p><center><img src="./ressources/java/old/faq/install_linux/7.jpg" alt="java" /></center></p>
+<p>
+2. XEmacs ouvert, nous pouvons taper notre code, et profiter de la colorisation automatique du code ainsi que de l'indentation automatique (entre autres )réalisées automatiquement par Emacs.<br />
+Voici ce que ça donne:</p>
+<p><center><img src="./ressources/java/old/faq/install_linux/8.jpg" alt="java" /></center></p>
+<p>
+3. Compiler et lancer le programme<br />
+Nous pouvons compiler et lancer le programme par XEmacs, mais cela donnerait lieu à des paramétrages qui ne concernent pas notre sujet. Nous nous contenterons donc de compiler et de lancher notre programme en ligne de commande.</p>
+<p>
+Une fois le code visible dans la fenêtre XEmacs ci-dessus reproduit à l'identique, vous pouvez sauvegarder votre fichier (sous le même nom que la classe principale, c-à-d sous le nom de "test.java", en tenant compte de la casse).</p>
+<p>
+Une fois le fichier sauvegardé, il faudra ouvrir une fenêtre de terminal, se déplacer jusqu'au répertoire où sesitue le fichier "test.java" à l'aide de la command cd, etle compiler à l'aide de la commande javac.</p>
+<p>
+Dans notre cas la syntaxe est la suivante: javac test.java.</p>
+<p>
+ Si aucun message n'est renvoyé, la compilation a réussi. Pour lancer le programme il suffit d'utiliser la commande java, de la manière suivante: java test ('test' est le nom du fichier.class créé par le compileur).</p>
+<p>
+La capture d'écran ci-dessous montre comment faire:</p>
+<p><center><img src="./ressources/java/old/faq/install_linux/9.jpg" alt="java" /></center></p>
+<h1>PARAMETRAGE (optionnel!)</h1>
+<p>
+Nous allons présenter ici un des paramétrages utiles du JDK. Nous allons vous montrer comment configurer KDE (la procédure pour Gnome ou un autre window manager sera légèrement différente) pour exécuter un programme Java d'un seul clic.</p>
+<p>
+Pour cela nous devons créer un fichierJAR EXECUTABLE (la plupart des IDE permettent de le faire dans leur commande d'exportation), et assigner un "ligne de conduite" que KDE devrasuivrequand l'on cliquera sur un tel fichier.</p>
+<p>
+La procédure est la suivante: </p>
+<ul>
+<li />ouvrir le "Panneau de contrôle"
+<li />se placer dans le nemu "Applications" -&gt; "Associations des types de fichiers"
+<li />définir un programme d'ouverture par défaut, ici le programme /../jdk1.2.2/bin/java -jar, pour les fichiers JAR
+<li />enregistrer les changements et quitter.
+</ul>
+<p>&lt;/p&gt;</p>
+<p>
+La procédure en images:</p>
+<p><center><img src="./ressources/java/old/faq/install_linux/10.jpg" alt="java" /></center></p>
+<p>
+Vous trouverez l'entrée x-jar dans x-all ou x-applications.</p>
+<p><center><img src="./ressources/java/old/faq/install_linux/11.jpg" alt="java" /></center></p>
+<p>
+Cliquez sur le bouton "Ajouter" dans le panel "Applications par ordrede préférence".<br />
+La fenêtre représentée ci-dessous s'ouvre.</p>
+<p><center><img src="./ressources/java/old/faq/install_linux/12.jpg" alt="java" /></center></p>
+<p>
+Vous devez inscrire le chemin exact vers le fichier 'java' et rajouter l'option '-jar'.</p>
+<p>
+Cliquez sur OK, c'est terminé !</p>
+<p>
+Tutoriel distribué pour le FAQ Java de Java-France www.java-france.com / www.jgflsoft.com<br />
+Maintenant publié sur Valhalla GFBLOG<br />
+Ecrit à Montpellier le 14 mars 2001
+ </p>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Your awesome title</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>Your awesome title</li>
+          <li><a href="mailto:your-email@domain.com">your-email@domain.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/jekyll">
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+                </svg>
+              </span>
+
+              <span class="username">jekyll</span>
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/jekyllrb">
+              <span class="icon  icon--twitter">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+                </svg>
+              </span>
+
+              <span class="username">jekyllrb</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

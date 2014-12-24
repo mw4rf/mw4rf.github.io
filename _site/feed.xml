@@ -6,8 +6,8 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 24 Dec 2014 07:28:46 +0100</pubDate>
-    <lastBuildDate>Wed, 24 Dec 2014 07:28:46 +0100</lastBuildDate>
+    <pubDate>Wed, 24 Dec 2014 07:38:30 +0100</pubDate>
+    <lastBuildDate>Wed, 24 Dec 2014 07:38:30 +0100</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -35,6 +35,539 @@
         <category>jekyll</category>
         
         <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Safari : raccourci clavier pour afficher/masquer la barre des signets</title>
+        <description>&lt;p&gt;J&#39;aime beaucoup le comportement de Firefox qui, depuis plusieurs versions déjà, affiche les signets dans un espace situé sur la gauche de la fenêtre principale, que l&#39;on peut afficher ou masquer à loisir. Ainsi, non seulement les signets n&#39;encombrent plus l&#39;écran lorsqu&#39;on n&#39;a pas besoin d&#39;eux, mais encore cet affichage est en harmonie avec les formats modernes d&#39;écran, plus larges que hauts. Sous Yosemite, Safari permet la même chose. Seulement voilà, il y a un problème : le raccourci clavier par défaut est Commande-Contrôle-1... avec une seule main, c&#39;est presque impossible. Je préfère le raccourci de Firefox, auquel je suis habitué : Commande-B (pour &quot;Bookmarks&quot;). Peut-on utiliser ce raccourci avec Safari ?&lt;br /&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;a id=&quot;more-918&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;C&#39;est possible ! Encore faut-il savoir comment faire. Voici la procédure :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Se rendre dans les &lt;strong&gt;Préférences système&lt;/strong&gt; depuis le menu Pomme.&lt;/li&gt;
+&lt;li&gt;Se rendre dans la section &lt;strong&gt;Clavier&lt;/strong&gt; puis dans l&#39;onglet &lt;strong&gt;Raccourcis&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Sur la gauche de la fenêtre, sélectionner &lt;strong&gt;Raccourcis de l&#39;application&lt;/strong&gt; puis, sur la droite de la fenêtre, cliquer sur le bouton &lt;strong&gt;+ (plus)&lt;/strong&gt; pour ajouter un nouveau raccourci.&lt;/li&gt;
+&lt;li&gt;Une petite fenêtre s&#39;ouvre avec 3 champs. Dans le premier champ, appelé &lt;em&gt;Application&lt;/em&gt;, choisir &lt;strong&gt;Safari&lt;/strong&gt;. Dans le deuxième, &lt;em&gt;Titre du menu&lt;/em&gt;, entrer la valeur suivante : &lt;strong&gt;&lt;em&gt;Afficher la barre latérale des signets&lt;/em&gt;&lt;/strong&gt;. Enfin, placer le curseur dans le troisième champ, &lt;em&gt;Raccourci clavier&lt;/em&gt;, et appuyer sur &lt;strong&gt;Commande&lt;/strong&gt; et &lt;strong&gt;B&lt;/strong&gt; (ou une autre combinaison de touches, si vous le souhaitez).&lt;/li&gt;
+&lt;li&gt;Appuyer de nouveau sur &lt;strong&gt;+ (plus)&lt;/strong&gt; pour ajouter un autre raccourci et répétez l&#39;étape précédente avec une nuance, écrire dans le deuxième champ : &lt;strong&gt;&lt;em&gt;Masquer la barre latérale des signets&lt;/em&gt;&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Fermer les préférences système. Et voilà !&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.valhalla.fr/wp-content/uploads/2014/08/Capture-décran-2014-08-04-21.05.32.png&quot;&gt;&lt;img class=&quot;aligncenter size-medium wp-image-919&quot; src=&quot;http://www.valhalla.fr/wp-content/uploads/2014/08/Capture-décran-2014-08-04-21.05.32-300x236.png&quot; alt=&quot;Raccourcis clavier (Yosemite)&quot; width=&quot;300&quot; height=&quot;236&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 05 Aug 2014 17:27:25 +0200</pubDate>
+        <link>http://yourdomain.com/mac/informatique/2014/08/05/safari-raccourci-clavier-pour-affichermasquer-la-barre-des-signets.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/mac/informatique/2014/08/05/safari-raccourci-clavier-pour-affichermasquer-la-barre-des-signets.html</guid>
+        
+        <category>Mac</category>
+        
+        <category>software</category>
+        
+        <category>Apple</category>
+        
+        <category>Logiciels</category>
+        
+        <category>os x</category>
+        
+        
+        <category>mac</category>
+        
+        <category>informatique</category>
+        
+      </item>
+    
+      <item>
+        <title>Lancer Intellij IDEA 13 Mac avec un JDK Oracle</title>
+        <description>&lt;p&gt;IntelliJ IDEA est sans doute, actuellement, le meilleur IDE Java. Or, les développeurs Java sérieux ne peuvent se contenter du JRE 1.6 fourni par Apple dans Maverick (et la bêta publique de Yosemite, à l&#39;heure où j&#39;écris ces lignes).&lt;/p&gt;
+&lt;p&gt;Problème : IntelliJ réclame la présence du JRE fourni par Apple et refuse de se lancer, même si un JDK Oracle, 1.7 ou 1.8 est installé sur la machine.&lt;/p&gt;
+&lt;p&gt;La solution est facile, mais encore faut-il la connaître.&lt;/p&gt;
+&lt;p&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;a id=&quot;more-904&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Pour résoudre le problème, il faut effectuer un clic droit sur l&#39;icône d&#39;IntelliJ, qui se trouve dans le dossier Applications, et choisir « Afficher le contenu du paquet » dans le menu déroulant. Une fenêtre du Finder s’ouvre. Il faut ensuite ouvrir le dossier Contents, puis le fichier Info.plist (en double-cliquant dessus, ou dans n’importe quel éditeur de texte brut).&lt;/p&gt;
+&lt;p&gt;Dans le fichier Info.plist, il faut rechercher :&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;key&amp;gt;JVMVersion&amp;lt;/key&amp;gt;&lt;/code&gt;&lt;br /&gt;&lt;code&gt;&amp;lt;string&amp;gt;1.6*&amp;lt;/string&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;et remplacer par&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;key&amp;gt;JVMVersion&amp;lt;/key&amp;gt;&lt;/code&gt;&lt;br /&gt;&lt;code&gt;&amp;lt;string&amp;gt;1.8*&amp;lt;/string&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Et voilà !&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 Aug 2014 16:46:07 +0200</pubDate>
+        <link>http://yourdomain.com/mac/java/informatique/2014/08/01/lancer-intellij-idea-13-mac-avec-un-jdk-oracle.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/mac/java/informatique/2014/08/01/lancer-intellij-idea-13-mac-avec-un-jdk-oracle.html</guid>
+        
+        
+        <category>mac</category>
+        
+        <category>java</category>
+        
+        <category>informatique</category>
+        
+      </item>
+    
+      <item>
+        <title>Ubuntu 12.10 : Checklist d&#39;installation</title>
+        <description>&lt;p&gt;Un peu plus de 2 mois après sa sortie, la dernière version d&#39;Ubuntu (12.10 Quantal Quetzal) devrait être suffisamment stable pour remplacer la LTS précédente (11.04 Precise Pangolin). Pas de mise à jour ou de migration pour moi, j&#39;ai été marqué à vie par le passage à Windows Millenium et, depuis, je ne réalise plus que des &lt;em&gt;fresh install &lt;/em&gt;avec formatage préalable&lt;em&gt;.&lt;/em&gt; Problème: après l&#39;installation, il faut réinstaller ses logiciels et, surtout, rétablir leur configuration, afin de retrouver notre environnement habituel. D&#39;où cette check-list, pour mémoire, de l&#39;installation d&#39;Ubuntu 12.10 sur un laptop Lenovo X220 2012 (SSD).&lt;/p&gt;
+&lt;p&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;a id=&quot;more-886&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://pix.toile-libre.org/upload/original/1357627576.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;http://pix.toile-libre.org/upload/original/1357627576.png&quot; width=&quot;394&quot; height=&quot;222&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;Installation&lt;/h1&gt;
+&lt;p&gt;Comme d&#39;habitude, tout se passe bien avec la clé USB créée avec l&#39;ISO téléchargée depuis les serveurs officiels. La procédure n&#39;a pas changé : 1) suivre les indications sur la page de téléchargement pour créer la clé USB bootable ; 2) booter sur la clé USB ; 3) cliquer sur &quot;Suivant&quot; jusqu&#39;à ce que tout soit fini.&lt;/p&gt;
+&lt;p&gt;Quelques notes, toutefois :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;L&#39;option visant à conserver les documents personnels n&#39;est pas viable car elle conserve aussi des paquets et des fichiers de configuration, ce qui débouche sur un système à la stabilité douteuse.&lt;/li&gt;
+&lt;li&gt;L&#39;alignement pour les SSD est automatique.&lt;/li&gt;
+&lt;li&gt;Par défaut, &lt;code&gt;/&lt;/code&gt; et &lt;code&gt;/home&lt;/code&gt; ne sont plus séparés&lt;/li&gt;
+&lt;li&gt;Par défaut, une partition &lt;code&gt;swap&lt;/code&gt; est créée, dont l&#39;utilité est contestable vu la quantité de RAM installée sur les ordinateurs modernes (ici, SWAP = RAM = 6 GB)&lt;/li&gt;
+&lt;li&gt;Si la langue est l&#39;anglais, le clavier chargé est qwerty. Or, Ubuntu demande la connexion à un réseau Wifi avant le changement de clavier. Il faut donc taper le mot de passe en qwerty.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Configuration Post-Installation&lt;/h1&gt;
+&lt;h2&gt;SSD&lt;/h2&gt;
+&lt;p&gt;Le système de fichiers par défaut est ext4. La fonction TRIM, nécessaire aux disques SSD, n&#39;est pas activée par défaut.&lt;/p&gt;
+&lt;p&gt;Éditer &lt;code&gt;/etc/fstab&lt;/code&gt; et rajouter &lt;code&gt;discard,noatime&lt;/code&gt; à la ligne de chaque partition &lt;em&gt;ext4&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Pour réduire les accès en lecture/écriture au disque, placer &lt;code&gt;/tmp&lt;/code&gt; en &lt;code&gt;tmpfs&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;tmpfs      /tmp            tmpfs        defaults,size=1g           0    0&lt;/pre&gt;
+&lt;h2&gt;UID 501&lt;/h2&gt;
+&lt;p&gt;Partager un volume entre plusieurs OS est une véritable galère. Mon disque externe doit être accessible en lecture et en écriture par Mac OS X, Linux et Windows. Comment faire ? Je passe ici la discussion sur le meilleur système de fichiers (non, ce n&#39;est pas NTFS, car il ne reconnaît pas les bundles créés par OS X), pour indiquer le choix : HFS+ non journalisé. Il s&#39;agit du format natif des Mac ; des drivers sont disponibles pour Windows (Apple Bootcamp en lecture et Paragon en lecture/écriture). Sous Linux, le paquet hfsplus permet de lire et d&#39;écrire sur ces volumes (dès lors qu&#39;ils ne sont pas journalisés). Cependant, outre le format, un autre élément peut empêcher l&#39;écriture : les permissions UNIX. Il faut en effet que l&#39;utilisateur Linux ait le même identifiant (UID) que l&#39;utilisateur Mac, faute de quoi le droit d&#39;écriture sur le volume lui sera refusé. Le problème ne se pose pas avec Windows, qui ignore les permissions UNIX. Sous Linux, à moins d&#39;utiliser le volume en tant que root, ce qui n&#39;est pas pratique (et peu sûr...), il faut utiliser le même UID que sur Mac. L&#39;UID du premier utilisateur d&#39;un Mac (le premier compte créé lors de l&#39;installation) est 501. Les comptes Ubuntu débutent avec l&#39;UID 1000. Il s&#39;agit donc ici de modifier l&#39;UID du premier compte créé sur la nouvelle installation d&#39;Ubuntu, et de le fixer à 501.&lt;/p&gt;
+&lt;p&gt;1) Créer un utilisateur temporaire, soit en cherchant &lt;strong&gt;User Accounts&lt;/strong&gt; dans Unity, soit avec la commande &lt;code&gt;sudo useradd -d /home/tempuser -m -s /bin/bash -G admin tempuser &amp;amp;&amp;amp; sudo passwd tempuser&lt;/code&gt;. &lt;strong&gt;Désactiver la connexion automatique&lt;/strong&gt;, le cas échéant.&lt;/p&gt;
+&lt;p&gt;2) Relancer la machine (une déconnexion de session ne suffit généralement pas, car certains services appartenant à l&#39;utilisateur sont toujours actifs, ce qui interdit l&#39;usage de la commande usermod), se connecter avec l&#39;utilisateur temporaire, et exécuter les commandes suivantes :&lt;/p&gt;
+&lt;pre&gt;sudo usermod --uid 501 yourusername
+sudo chown -R 501:yourusername /home/yourusername&lt;/pre&gt;
+&lt;p&gt;3) Éditer le fichier &lt;strong&gt;/etc/login.defs&lt;/strong&gt; et chercher une ligne avec &lt;code&gt;UID_MIN=1000&lt;/code&gt; ; remplacer par &lt;code&gt;UID_MIN=500&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;Dropbox&lt;/h2&gt;
+&lt;p&gt;Lorsqu&#39;on a beaucoup de dossiers et de fichiers dans sa Dropbox, la configuration par défaut ne permet pas au système de tous les prendre en compte. Conséquence : la daemon Dropbox ne peut plus &quot;surveiller&quot; tout le contenu du répertoire partagé afin de repérer les modifications.&lt;/p&gt;
+&lt;p&gt;Solution: éditer le fichier &lt;strong&gt;/etc/sysctl.conf&lt;/strong&gt; en ajoutant la ligne:&lt;/p&gt;
+&lt;pre&gt;fs.inotify.max_user_watches=100000&lt;/pre&gt;
+&lt;h2&gt;Fingerprint&lt;/h2&gt;
+&lt;p&gt;Le Lenovo X220 est équipé d&#39;un lecteur d&#39;empreintes digitales. Pour le faire fonctionner sous Ubuntu :&lt;/p&gt;
+&lt;pre&gt;sudo add-apt-repository ppa:fingerprint/fingerprint-gui
+sudo apt-get update
+sudo apt-get install fingerprint-gui policykit-1-fingerprint-gui libbsapi&lt;/pre&gt;
+&lt;p&gt;À noter que, pour ce qui est de Quantal Quetzal, il ne sera pas possible d&#39;installer Gnome-Shell et le lecteur d&#39;empreintes en même temps. En effet, avec policykit-1-fingerprint-gui, Gnome Shell ne démarre pas. Pour faire démarrer Gnome Shell, il faut installer policykit-1-gnome, qui est en conflit avec policykit-1-fingerprint-gui.&lt;/p&gt;
+&lt;h1&gt;Logiciels essentiels&lt;/h1&gt;
+&lt;h2&gt;Mise à jour&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;sudo apt-get update &amp;amp;&amp;amp; sudo apt-get upgrade&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;Logiciels depuis les dépôts officiels&lt;/h2&gt;
+&lt;p&gt;Voici une bonne grosse commande qui installe : Restricted Extras (codecs propriétaires), d&#39;autres codecs, VLC, des outils d&#39;archivage (Zip, RAR, etc.), Gnome Tweak Tool, CCSM (configuration compiz), Synaptic, Gparted, Chromium (Firefox est tellement lent au démarrage...), et l&#39;extension pour Nautilus &#39;open in terminal&#39; :&lt;/p&gt;
+&lt;pre&gt;    sudo apt-get install ubuntu-restricted-extras gstreamer0.10-plugins-ugly gstreamer0.10-ffmpeg libxine1-ffmpeg gxine mencoder libdvdread4 totem-mozilla icedax tagtool easytag id3tool lame nautilus-script-audio-convert libmad0 mpg321 p7zip-rar p7zip-full unace unrar zip unzip sharutils rar uudeview mpack lha arj cabextract file-roller vlc gnome-tweak-tool compizconfig-settings-manager compiz-plugins-extra synaptic gparted chromium-browser nautilus-open-terminal&lt;/pre&gt;
+&lt;h2&gt;Logiciels depuis les PPA&lt;/h2&gt;
+&lt;p&gt;Encore une commande à rallonge qui installe Ubuntu Tweaks, RadioTray, Shutter, le Lens Unity calculatrice et Sublime Text 2 :&lt;/p&gt;
+&lt;pre&gt;sudo add-apt-repository ppa:tualatrix/ppa &amp;amp;&amp;amp; sudo add-apt-repository ppa:eugenesan/ppa &amp;amp;&amp;amp; sudo add-apt-repository ppa:shutter/ppa &amp;amp;&amp;amp; sudo add-apt-repository ppa:scopes-packagers/ppa &amp;amp;&amp;amp; sudo add-apt-repository ppa:webupd8team/sublime-text-2 &amp;amp;&amp;amp; sudo apt-get update &amp;amp;&amp;amp; sudo apt-get install ubuntu-tweak radiotray shutter unity-lens-utilities unity-scope-calculator sublime-text&lt;/pre&gt;
+&lt;p&gt;Après ces installation, il est préférable de désactiver ces PPA (en ouvrant Software Sources depuis Unity et en décochant les cases correspondantes dans l&#39;onglet Sources), afin d&#39;éviter que soient installés des paquets non désirés lors des mises à jour du système.&lt;/p&gt;
+&lt;h2&gt;Logiciels à télécharger&lt;/h2&gt;
+&lt;p&gt;Dropbox et Google Chrome.&lt;/p&gt;
+&lt;h1&gt;Vie privée&lt;/h1&gt;
+&lt;p&gt;Pour ceux qui seraient soucieux de préserver leur vie privée, voici quelques réglages à effectuer.&lt;/p&gt;
+&lt;h3&gt;Unity-Amazon&lt;/h3&gt;
+&lt;div&gt;
+&lt;p&gt;Dans les préférences système, la section &lt;strong&gt;Privacy&lt;/strong&gt; permet de désactiver les résultats de recherche d&#39;Amazon dans le Dash d&#39;Unity.&lt;/p&gt;
+&lt;p&gt;Alternativement : &lt;code&gt;sudo apt-get remove unity-lens-shopping&lt;/code&gt;&lt;/p&gt;
+&lt;h3&gt;Crash reports&lt;/h3&gt;
+&lt;div&gt;
+&lt;p&gt;Ubuntu aime bien &lt;em&gt;call home&lt;/em&gt; pour envoyer des rapports d&#39;erreur lors d&#39;un plantage de logiciel, même si le logiciel ne provient pas des dépôts officiels. Il aime tellement cela qu&#39;il le fait même sur une &lt;em&gt;fresh install&lt;/em&gt;…&lt;/p&gt;
+&lt;p&gt;Pour désactiver cela:&lt;br /&gt;
+&lt;code&gt;sudo gedit /etc/default/apport&lt;/code&gt;&lt;br /&gt;
+Rechercher la ligne: &lt;code&gt;enabled=1&lt;/code&gt;, à remplacer par &lt;code&gt;enabled=0&lt;/code&gt;&lt;br /&gt;
+Désactiver le service : &lt;code&gt;sudo service apport stop&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h3&gt;Startup items&lt;/h3&gt;
+&lt;div&gt;
+&lt;p&gt;Tous les logiciels au démarrage ne sont pas affichés dans la fenêtre Gnome dédiée à cet effet (&lt;strong&gt;Startup Applications&lt;/strong&gt;). Pour &lt;em&gt;tout&lt;/em&gt; afficher :&lt;/p&gt;
+&lt;pre&gt;sudo sed -i &#39;s/NoDisplay=true/NoDisplay=false/g&#39; /etc/xdg/autostart/*.desktop&lt;/pre&gt;
+&lt;/div&gt;
+&lt;h1&gt;Configuration Unity/Gnome&lt;/h1&gt;
+&lt;h2&gt;Bureaux virtuels&lt;/h2&gt;
+&lt;p&gt;Dans &lt;strong&gt;CCSM&lt;/strong&gt; :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Expo&lt;/strong&gt; : réduire &lt;em&gt;Zoom time&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Desktop Wall&lt;/strong&gt; : désactiver &lt;em&gt;live preview&lt;/em&gt;, réduire &lt;em&gt;wall sliding duration&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;raccourcis_clavier&quot;&gt;Raccourcis clavier&lt;/h3&gt;
+&lt;p&gt;Ubuntu adopte la philosophie Apple, &lt;em&gt;faites comme j&#39;ai prévu que vous fassiez et pas autrement&lt;/em&gt;, mais la mise en oeuvre ne suit pas… ainsi, les raccourcis clavier définis dans les préférences système sont réinitialisés à chaque boot du système ! Certains raccourcis doivent être &lt;em&gt;hardcodés&lt;/em&gt; ou que sais-je…&lt;/p&gt;
+&lt;p&gt;Ainsi, mes 4 bureaux virtuels ne sont plus assignés aux touches F1/F2/F3/F4 du clavier après un redémarrage. Pour contourner le problème, il faut créer un script &lt;code&gt;~/.fix_shortcuts&lt;/code&gt; avec le contenu suivant (qui est à adapter en fonction de vos besoins, bien entendu) :&lt;/p&gt;
+&lt;pre&gt;#!/bin/bash
+gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-1 &quot;[&#39;F1&#39;]&quot;
+gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-2 &quot;[&#39;F2&#39;]&quot;
+gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-3 &quot;[&#39;F3&#39;]&quot;
+gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-4 &quot;[&#39;F4&#39;]&quot;&lt;/pre&gt;
+&lt;p&gt;Rendre le script exécutable : &lt;code&gt;chmod +x ~/.fix_shortcuts&lt;/code&gt;, puis l&#39;ajouter dans les &lt;em&gt;startup applications&lt;/em&gt; (chercher &lt;em&gt;démarrage&lt;/em&gt; dans le shell unity).&lt;/p&gt;
+&lt;h3 id=&quot;skin&quot;&gt;Skin !&lt;/h3&gt;
+&lt;p&gt;Sur le Screenshot ci-dessus : thème FlatStudio pour Gnome 3.6, icônes Malyx-Ex, police Roboto Light 11.&lt;/p&gt;
+&lt;p&gt;Thème GTK3 : &lt;strong&gt;FlatStudio&lt;/strong&gt; – Icones : &lt;strong&gt;Malys-Ex&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;    sudo add-apt-repository ppa:noobslab/themes
+    sudo add-apt-repository ppa:noobslab/icons
+    sudo apt-get update
+    sudo apt-get install flatstudio malyx-ex&lt;/pre&gt;
+&lt;p&gt;Alternativement : Icones &lt;strong&gt;Clarity&lt;/strong&gt; : &lt;a title=&quot;http://gnome-look.org/content/show.php?content=135654&quot; href=&quot;http://gnome-look.org/content/show.php?content=135654&quot; rel=&quot;nofollow&quot;&gt;http://gnome-look.org/content/show.php?content=135654&lt;/a&gt; (configuration : &lt;code&gt;gksu change-theme&lt;/code&gt;)&lt;br /&gt;
+Alternativement : Icones &lt;strong&gt;Awoken&lt;/strong&gt; : &lt;a title=&quot;http://gnome-look.org/content/show.php?content=126344&quot; href=&quot;http://gnome-look.org/content/show.php?content=126344&quot; rel=&quot;nofollow&quot;&gt;http://gnome-look.org/content/show.php?content=126344&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Police &lt;strong&gt;Roboto&lt;/strong&gt; : &lt;a title=&quot;http://www.fontsquirrel.com/fonts/roboto&quot; href=&quot;http://www.fontsquirrel.com/fonts/roboto&quot; rel=&quot;nofollow&quot;&gt;http://www.fontsquirrel.com/fonts/roboto&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Installation&lt;/strong&gt; : copier les fichiers TTF → &lt;code&gt;sudo cp *.ttf /usr/share/fonts/truetype/&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Polices Microsoft : &lt;code&gt;sudo apt-get install ttf-mscorefonts-installer&lt;/code&gt;&lt;/p&gt;
+&lt;h1 id=&quot;troubleshooting&quot;&gt;Troubleshooting&lt;/h1&gt;
+&lt;h2 id=&quot;volumes_externes_illisibles&quot;&gt;Volumes externes illisibles&lt;/h2&gt;
+&lt;div&gt;
+&lt;p&gt;Avec un message d&#39;erreur stupide, &lt;code&gt;The location is not a folder&lt;/code&gt;, il est impossible d&#39;afficher les volumes externes dans Nautilus.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Solution&lt;/strong&gt;: &lt;code&gt;chmod 755 /media/USERNAME&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;volumes_externes_read-only&quot;&gt;Volumes externes read-only&lt;/h2&gt;
+&lt;div&gt;
+&lt;p&gt;Impossible d&#39;écrire sur les volumes externes avec Nautilus, qui les considère &lt;em&gt;read-only&lt;/em&gt;. Pourtant, des commandes comme &lt;code&gt;cp&lt;/code&gt; fonctionnent.&lt;/p&gt;
+&lt;p&gt;V. &lt;a title=&quot;https://bugs.launchpad.net/ubuntu/+source/nautilus/+bug/1021375&quot; href=&quot;https://bugs.launchpad.net/ubuntu/+source/nautilus/+bug/1021375&quot; rel=&quot;nofollow&quot;&gt;https://bugs.launchpad.net/ubuntu/+source/nautilus/+bug/1021375&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Solution&lt;/strong&gt;: c&#39;est un bug de Nautilus 3.4. Canonical a snobé Nautilus 3.6, le considérant comme une régression, sans pour autant corriger de tels bugs critiques dans 3.4. Mieux vaut un logiciel moins complet (3.6) mais fonctionnel ! La solution est donc d&#39;installer Nautilus 3.6 depuis le PPA Gnome-3.&lt;/p&gt;
+&lt;pre&gt;    sudo add-apt-repository ppa:gnome3-team/gnome3
+    sudo apt-get update &amp;amp;&amp;amp; sudo apt-get install nautilus
+    sudo add-apt-repository -r ppa:gnome3-team/gnome3
+    killall nautilus&lt;/pre&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;boot_en_low_graphics&quot;&gt;Boot en low graphics&lt;/h2&gt;
+&lt;div&gt;
+&lt;p&gt;Bug affectant les cartes Intel. Il provient de &lt;em&gt;lightdm&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;v. &lt;a title=&quot;https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1070150&quot; href=&quot;https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1070150&quot; rel=&quot;nofollow&quot;&gt;https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1070150&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;div&gt;&lt;strong&gt;Solution 1 (fix)&lt;/strong&gt;: installer et utiliser &lt;em&gt;gdm&lt;/em&gt; en lieu et place de &lt;em&gt;lightdm&lt;/em&gt;.&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;div&gt;&lt;strong&gt;Solution 2 (workaround)&lt;/strong&gt;: quand le bug se produit, &lt;kbd&gt;CTRL&lt;/kbd&gt;+&lt;kbd&gt;ALT&lt;/kbd&gt;+&lt;kbd&gt;F1&lt;/kbd&gt; et &lt;code&gt;sudo service lightdm restart&lt;/code&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;lancement_des_logiciels_avec_privileges_impossible_depuis_unity&quot;&gt;Lancement des logiciels avec privilèges impossible depuis Unity&lt;/h2&gt;
+&lt;div&gt;
+&lt;p&gt;Les logiciels qui nécessitent des privilèges ne sont plus lancés depuis le &lt;em&gt;dash&lt;/em&gt; Unity, mais on peut les lancer dans le terminal avec &lt;code&gt;gksudo&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Solution&lt;/strong&gt;: reboot.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;bookmarks_nautilus_absents_des_dialogs_opensave&quot;&gt;Bookmarks Nautilus absents des dialogs open/save&lt;/h2&gt;
+&lt;div&gt;
+&lt;p&gt;Les signets de Nautilus (barre latérale) ne s&#39;affichent pas dans les boîtes de dialogue ouvrir/enregistrer sous.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Solution&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;    rm ~/.gtk-bookmarks
+    ln -s ~/.config/gtk-3.0/bookmarks ~/.gtk-bookmarks&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Tue, 08 Jan 2013 08:42:52 +0100</pubDate>
+        <link>http://yourdomain.com/informatique/linux/2013/01/08/ubuntu-12-10-checklist-installation.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/informatique/linux/2013/01/08/ubuntu-12-10-checklist-installation.html</guid>
+        
+        <category>Linux</category>
+        
+        <category>ubuntu</category>
+        
+        
+        <category>informatique</category>
+        
+        <category>linux</category>
+        
+      </item>
+    
+      <item>
+        <title>Numéro 107 - Semaine du 2 au 8 juillet 2012</title>
+        <description>&lt;p&gt;Enfin ! Le traité ACTA est mort. &lt;a href=&quot;http://www.laquadrature.net/fr/acta-victoire-totale-pour-les-citoyens-et-la-democratie&quot;&gt;Le 4 juillet dernier, le Parlement européen a rejeté le traité ACTA, à une large majorité&lt;/a&gt;. Le derniers mois de la vie du traité avait pris l&#39;allure de la chronique d&#39;une mort annoncée, avec les conclusions assassines des diverses commissions de l&#39;UE, mais cette fois-ci, c&#39;est pour de bon, le rejet est définitif... jusqu&#39;à ce que les mêmes mesures liberticides reviennent sous la forme d&#39;un autre texte, avec un autre nom, négocié dans un enceinte différente. L&#39;enseignement à tirer est toutefois positif : la vigilance et la mobilisation citoyennes ont porté leurs fruits.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.pcinpact.com/news/72266-danone-contraint-par-justice-a-traduire-logiciel-en-francais.htm&quot;&gt;La société française Danone a été condamnée à traduire un logiciel de l&#39;anglais vers le français&lt;/a&gt;, afin que ses employés peu à l&#39;aise avec la langue de Shakespeare puissent l&#39;utiliser. Le fondement de la décision est la loi Toubon, qui impose l&#39;usage de la langue française en entreprise. Une question reste en suspend : s&#39;il s&#39;agit d&#39;un logiciel propriétaire, privatif, comment en obtenir la traduction en français ?&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.pcinpact.com/news/72246-liberte-dexpression-sur-internet-officiellement-reconnue-par-onu.htm&quot;&gt;Le Conseil des droits de l&#39;Homme de l&#39;ONU a adopté cette semaine une résolution proclamant des droits fondamentaux pour les internautes&lt;/a&gt; (v. le texte complet : &lt;a href=&quot;http://revue.valhalla.fr/wp-content/uploads/2012/07/A_HRC_20_L13.pdf&quot;&gt;A_HRC_20_L13&lt;/a&gt;). Chaque initiative de ce type doit être saluée. Cependant, on peut se demander quel effet aura ce texte dans la pratique, sachant que tant les grandes entreprises de l&#39;économie numérique que les États prennent de plus en plus de mesures restreignant les libertés des internautes. Seul l&#39;avenir le dira.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.numerama.com/magazine/23136-amazon-travaillerait-sur-un-kindle-phone.html&quot;&gt;La société américaine Amazon travaillerait sur un projet de &quot;Kindle Phone&quot;&lt;/a&gt; qui devrait concurrencer l&#39;iPhone d&#39;Apple et les terminaux Android de Google. Quant aux utilisateurs du téléphone Google Nexus, &lt;a href=&quot;http://www.numerama.com/magazine/23114-les-acheteurs-du-galaxy-nexus-vont-voir-leur-telephone-perdre-en-qualite.html&quot;&gt;ils perdront prochainement le bénéfice de la recherche vocale&lt;/a&gt;, qui viole un brevet d&#39;Apple (Siri). De son côté, &lt;a href=&quot;http://tecnologia.elpais.com/tecnologia/2012/07/06/actualidad/1341584136_676802.html&quot;&gt;Samsung fait des bénéfices record&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.numerama.com/magazine/23117-dns-changer-aurez-vous-encore-internet-ce-lundi-9-juillet.html&quot;&gt;Le 9 juillet, le FBI mettra hors-ligne les serveurs DNS de remplacement&lt;/a&gt; qu&#39;il avait utilisé pour que les ordinateurs infectés par le malware DNS Changer ne perdent pas tout accès à Internet. Il resterait encore plusieurs milliers d&#39;ordinateurs infectés qui, eux, perdront l&#39;accès au réseau dès demain.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.numerama.com/magazine/23119-wikileaks-publie-24-millions-de-mails-syriens.html&quot;&gt;WikiLeaks a publié, cette semaine, plusieurs millions de courriers électroniques envoyés ou reçus par des personnalités du régime syrien&lt;/a&gt;. On apprend notamment que de grandes sociétés occidentales auraient continué de collaborer avec le régime, après le début de la guerre civile.&lt;/p&gt;
+&lt;p&gt;Les britanniques, répondant à un sondage, &lt;a href=&quot;http://www.numerama.com/magazine/23127-les-britanniques-hostiles-a-une-extradition-pour-violation-de-droits-d-auteur.html&quot;&gt;sont à 91% hostiles à l&#39;extradition de Richard O&#39;Dwyer vers les USA&lt;/a&gt;, pour avoir administré un site Web permettant de télécharger des contenus contrefaisants.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 08 Jul 2012 13:33:32 +0200</pubDate>
+        <link>http://yourdomain.com/revue/2012/07/08/107.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/revue/2012/07/08/107.html</guid>
+        
+        <category>Internet</category>
+        
+        <category>Google</category>
+        
+        <category>Apple</category>
+        
+        <category>ACTA</category>
+        
+        <category>Wikileaks</category>
+        
+        <category>USA</category>
+        
+        <category>concurrence</category>
+        
+        <category>DNS</category>
+        
+        <category>Amazon</category>
+        
+        <category>ANdroid</category>
+        
+        
+        <category>revue</category>
+        
+      </item>
+    
+      <item>
+        <title>Numéro 106 - Semaine du 25 juin au 1er juillet 2012</title>
+        <description>&lt;p&gt;Suites de l&#39;affaire MegaUpload, dont nous avons déjà parlé &lt;a href=&quot;http://www.google.com/cse?cx=007528237610497066360%3Atooxybveeoo&amp;amp;ie=UTF-8&amp;amp;q=megaupload&amp;amp;siteurl=www.valhalla.fr%2F&amp;amp;ref=&amp;amp;ss=1078j151938j10#gsc.tab=0&amp;amp;gsc.q=megaupload&amp;amp;gsc.page=1&quot;&gt;à plusieurs reprises&lt;/a&gt; : la justice de Nouvelle-Zélande vient de &lt;a href=&quot;http://www.pcinpact.com/news/72007-megaupload-perquisitions-et-saisies-kim-dotcom-decrees-illega.htm&quot;&gt;juger illégal le mandat de perquisition émis contre Kim &quot;Dotcom&quot;&lt;/a&gt;, le patron de Megaupload. Cette décision ne devrait pas avoir d&#39;effet direct sur la saisie des serveurs de Megaupload aux États-Unis.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.numerama.com/magazine/23037-en-australie-aussi-acta-a-du-plomb-dans-l-aile.html&quot;&gt;En Australie, le traité ACTA a du plomb dans l&#39;aile&lt;/a&gt; : si le gouvernement continue de le soutenir, lea commission en charge de la ratification des traités du Parlement australien vient en effet de se prononcer contre la ratification d&#39;ACTA.&lt;/p&gt;
+&lt;p&gt;Android, le système de Google pour smartphones et tablettes, continue de progresser avec &lt;a href=&quot;http://www.pcinpact.com/news/71999-android-1-million-dactivations-par-jour-15-milliard-dapplications-par-mois.htm&quot;&gt;un million d&#39;activations par jour&lt;/a&gt;. La prochaine version du système (Jelly Bean), récemment annoncée, &lt;a href=&quot;http://http://www.pcinpact.com/news/72050-adobe-pas-fsh-pour-android-4-1-retrait-application-des-15-aout.htm&quot;&gt;fonctionnera sans Flash&lt;/a&gt;, à l&#39;instar de l&#39;iOS d&#39;Apple.&lt;/p&gt;
+&lt;p&gt;Aux États-Unis, la guerre des brevets continue entre Apple et Samsung. Apple a en effet réussi à &lt;a href=&quot;http://www.numerama.com/magazine/23062-la-justice-americaine-bloque-aussi-la-vente-du-galaxy-nexus.html&quot;&gt;faire bloquer la vente du Galaxy Nexus&lt;/a&gt;, le prochain smartphone de Samsung --le premier sous Jelly Bean--, et des tablettes Galaxy Tab 10 pouces, en se fondant sur un brevet relatif à Siri, l&#39;intelligence artificielle implémentée dans iOS 4.&lt;/p&gt;
+&lt;p&gt;En France, la ministre de la culture, Aurélie Filippetti, a évoqué &lt;a href=&quot;http://http://www.numerama.com/magazine/23048-aurelie-filippetti-souhaite-une-tva-a-55-pour-les-ebooks-des-2012.html&quot;&gt;une prochaine baisse du taux de TVA pour les livres électroniques&lt;/a&gt;. À l&#39;heure actuelle, la vente de livres électroniques est analysée comme une &lt;em&gt;prestation de services&lt;/em&gt;. Partant, elle est soumise au taux normal de 19,6%. Cette qualification relève du droit communautaire, ce qui devrait interdire au législateur français de la modifier unilatéralement. Cependant, la commissaire européenne Neelie Kroes a expliqué, &lt;a href=&quot;http://http://www.guardian.co.uk/commentisfree/2012/jun/28/ebooks-restricted-european-borders&quot;&gt;dans le Guardian&lt;/a&gt;, que le marché du livre électronique était à la peine en Europe (par rapport aux États-Unis) pour trois raisons,&lt;a href=&quot;http://www.numerama.com/magazine/23043-neelie-kroes-demande-un-marche-unique-pour-les-livres-numeriques-en-europe.html&quot;&gt; dont le taux de TVA&lt;/a&gt; différent d&#39;un pays à l&#39;autre et souvent non aligné sur celui applicable aux livres imprimés. La situation devrait donc prochainement évoluer.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 01 Jul 2012 10:14:15 +0200</pubDate>
+        <link>http://yourdomain.com/revue/2012/07/01/106.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/revue/2012/07/01/106.html</guid>
+        
+        <category>Google</category>
+        
+        <category>Apple</category>
+        
+        <category>ACTA</category>
+        
+        <category>Megaupload</category>
+        
+        <category>Europe</category>
+        
+        <category>ANdroid</category>
+        
+        <category>culture</category>
+        
+        <category>tablettes</category>
+        
+        <category>brevets</category>
+        
+        <category>smartphones</category>
+        
+        
+        <category>revue</category>
+        
+      </item>
+    
+      <item>
+        <title>Numéro 105 - Semaine du 18 au 24 juin 2012</title>
+        <description>&lt;p&gt;Alors que &lt;a href=&quot;http://www.numerama.com/magazine/22978-le-minitel-fermera-dans-une-semaine.html&quot;&gt;le Minitel tire sa révérence&lt;/a&gt; après 30 ans de bons et loyaux services, la lutte pour la protection des droits des internautes continue. C&#39;est d&#39;abord le traité ACTA qui subit un nouveau revers devant les instances européennes : la commission INTA, en charge des questions relatives au commerce international, &lt;a href=&quot;http://www.numerama.com/magazine/22947-l-accord-acta-rejete-au-parlement-europeen-le-vote-final-a-venir.html&quot;&gt;a adopté le rapport du député britannique D. Martin&lt;/a&gt;, hostile au traité. Les cinq commissions saisies du traité se seront donc prononcées contre. Reste à venir le vote du Parlement en séance plénière, le 4 juillet, qui sera décisif.&lt;/p&gt;
+&lt;p&gt;En revanche, le Conseil européen a adopté une &lt;a href=&quot;http://www.laquadrature.net/fr/les-gouvernements-de-lue-poussent-une-alliance-globale-pour-la-censure-du-net&quot;&gt;nouvelle résolution relative à la lutte contre la pédopornographie&lt;/a&gt; qui recommande l&#39;usage des technologies de filtrage et de blocage des sites Web. Nous dirons donc à nouveau ce que nous avons répété à plusieurs reprises à propos de la loi française LOPPSI 2 : le filtrage et le blocage sont inefficaces (il est facile de les contourner), contre-productifs (il incite les criminels à se cacher encore plus) et dangereux pour la liberté d&#39;expression (le risque de faux positifs est grand).&lt;/p&gt;
+&lt;p&gt;Aux USA, &lt;a href=&quot;http://www.numerama.com/magazine/22970-la-frequentation-de-facebook-recule-aux-usa.html&quot;&gt;la fréquentation de Facebook recule&lt;/a&gt;, tandis que &lt;a href=&quot;http://www.pcinpact.com/news/71867-google-langues-danger-donnees.htm&quot;&gt;Google lance un nouveau service destiné à la protection des langues&lt;/a&gt;. Au Japon, une nouvelle &lt;a href=&quot;http://www.numerama.com/magazine/22939-le-japon-va-punir-plus-severement-le-piratage-sur-internet.html&quot;&gt;loi sanctionne plus durement (peine de prison) le téléchargement&lt;/a&gt; d’œuvres contrefaisantes sur Internet. En France, &lt;a href=&quot;http://www.numerama.com/magazine/22942-les-premiers-labels-cnil-sont-delivres.html&quot;&gt;la CNIL délivre ses premiers &lt;em&gt;labels&lt;/em&gt;&lt;/a&gt; attestant du respect de la loi Informatique et Libertés... quel monde étrange dans lequel il faut obtenir une attestation du respect de la loi, alors que cela devrait aller de soi.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 24 Jun 2012 11:35:23 +0200</pubDate>
+        <link>http://yourdomain.com/revue/2012/06/24/105.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/revue/2012/06/24/105.html</guid>
+        
+        <category>Internet</category>
+        
+        <category>Google</category>
+        
+        <category>international</category>
+        
+        <category>Facebook</category>
+        
+        <category>filtrage</category>
+        
+        <category>ACTA</category>
+        
+        <category>piratage</category>
+        
+        <category>LOPPSI</category>
+        
+        <category>censure</category>
+        
+        <category>USA</category>
+        
+        <category>liberté d&#39;expression</category>
+        
+        <category>CNIL</category>
+        
+        
+        <category>revue</category>
+        
+      </item>
+    
+      <item>
+        <title>Optimiser les bureaux virtuels sous Unity (Ubuntu 12.04)</title>
+        <description>&lt;p&gt;Après plusieurs années sans évolution majeure, les interfaces de bureau ont entamé, depuis 2010, une migration progressive vers de nouveaux paradigmes censés être mieux adaptés aux écrans tactiles : iOS et Android, OS X Lion, Windows 8 et, bien sûr, Gnome Shell et Unity sous Linux. Il ne s&#39;agit pas ici de revenir sur le débat --sa fin-- des &quot;vieilles habitudes&quot; contre les &quot;nouveaux gadgets&quot;, mais simplement de présenter quelques réglages techniques qui m&#39;ont été utiles afin d&#39;optimiser Unity sous Ubuntu 12.04 Precise Pangolin. Ces optimisations rendent Unity plus rapide et fluidifient son utilisation, au détriment de la &quot;beauté&quot; de l&#39;interface. &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;a id=&quot;more-876&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Le gestionnaire de configuration CCSM&lt;/h2&gt;
+&lt;p&gt;Les réglages s&#39;effectuent pour la plupart dans le gestionnaire de configuration Compiz. Celui-ci n&#39;est pas installé par défaut sur Ubuntu. Pour l&#39;installer, il faudra lancer la commande suivante :&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;sudo apt-get install compizconfig-settings-manager&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Pour le lancer, il suffira ensuite de taper &lt;strong&gt;ccsm&lt;/strong&gt; dans le &lt;em&gt;dash&lt;/em&gt; Unity : &lt;a href=&quot;http://www.valhalla.fr/wp-content/uploads/2012/06/Menu_046.png&quot;&gt;&lt;img class=&quot;aligncenter size-full wp-image-873&quot; title=&quot;Dash Unity : Ouvrir CCSM&quot; src=&quot;http://www.valhalla.fr/wp-content/uploads/2012/06/Menu_046.png&quot; alt=&quot;&quot; width=&quot;279&quot; height=&quot;239&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Dans CCSM, les réglages qui nous intéressent ici se situent dans la section &lt;strong&gt;Bureau&lt;/strong&gt;. Il s&#39;agit de : 1) &lt;strong&gt;Expo&lt;/strong&gt; ; 2) &lt;strong&gt;Desktop Wall&lt;/strong&gt; ; 3) &lt;strong&gt;Ubuntu Unity Plugin&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.valhalla.fr/wp-content/uploads/2012/06/Sélection_047.png&quot;&gt;&lt;img class=&quot;aligncenter size-medium wp-image-874&quot; title=&quot;Paramètres CCSM&quot; src=&quot;http://www.valhalla.fr/wp-content/uploads/2012/06/Sélection_047-300x94.png&quot; alt=&quot;&quot; width=&quot;300&quot; height=&quot;94&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Expo&lt;/h3&gt;
+&lt;p&gt;Le plugin Expo permet d&#39;afficher tous les bureaux virtuels dans une mosaïque, puis de les activer par double-clic. Lorsqu&#39;il est activé, une animation remplace progressivement le bureau actuel par la mosaïque. L&#39;optimisation suggérée ici a pour but de rendre ce remplacement plus rapide, afin de gagner du temps.&lt;/p&gt;
+&lt;p&gt;Dans l&#39;onglet &lt;em&gt;&lt;strong&gt;Behavior&lt;/strong&gt;&lt;/em&gt;, abaisser la valeur de &lt;em&gt;&lt;strong&gt;Zoom Time&lt;/strong&gt;&lt;/em&gt; à &lt;strong&gt;0,1000&lt;/strong&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;http://www.valhalla.fr/wp-content/uploads/2012/06/Gestionnaire-de-Configuration-CompizConfig_049.png&quot;&gt;&lt;img class=&quot;size-thumbnail wp-image-869 aligncenter&quot; title=&quot;CCSM : Exposé&quot; src=&quot;http://www.valhalla.fr/wp-content/uploads/2012/06/Gestionnaire-de-Configuration-CompizConfig_049-150x150.png&quot; alt=&quot;&quot; width=&quot;150&quot; height=&quot;150&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 style=&quot;text-align: left;&quot;&gt;Desktop Wall&lt;/h3&gt;
+&lt;p&gt;Le plugin Desktop Wall a deux intérêts ici. D&#39;abord, il affiche une miniature de la mosaïque du plugin Expo, au centre de l&#39;écran, lorsqu&#39;on change de bureau virtuel &lt;em&gt;avec les raccourcis clavier&lt;/em&gt;. Cette miniature est totalement inutile, non seulement car l&#39;on sait généralement de quel bureau l&#39;on vient et sur quel bureau l&#39;on va, lorsqu&#39;on change de bureau, mais aussi parce qu&#39;elle est trop petite pour que le contenu des bureaux soit réellement visible (certes, CCSM permettrait d&#39;agrandir les vignettes, mais le bénéfice de ce plugin reste douteux).&lt;/p&gt;
+&lt;p&gt;Pour désactiver la mosaïque, il suffit de &lt;strong&gt;décocher&lt;/strong&gt; la case &lt;em&gt;&lt;strong&gt;Show Viewport Switcher Preview&lt;/strong&gt;&lt;/em&gt; de l&#39;onglet &lt;em&gt;&lt;strong&gt;Viewport Switch Preview&lt;/strong&gt;&lt;/em&gt;. Attention: il &lt;strong&gt;ne&lt;/strong&gt; faut &lt;strong&gt;pas&lt;/strong&gt; décocher la case &lt;em&gt;Activer Desktop Wall&lt;/em&gt;, car Unity a besoin de ce plugin pour fonctionner.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.valhalla.fr/wp-content/uploads/2012/06/Gestionnaire-de-Configuration-CompizConfig_050.png&quot;&gt;&lt;img class=&quot;aligncenter size-thumbnail wp-image-870&quot; title=&quot;CCSM : Desktop Wall (disable)&quot; src=&quot;http://www.valhalla.fr/wp-content/uploads/2012/06/Gestionnaire-de-Configuration-CompizConfig_050-150x150.png&quot; alt=&quot;&quot; width=&quot;150&quot; height=&quot;150&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ensuite, le plugin Desktop Wall contrôle le passage d&#39;un bureau virtuel à l&#39;autre, et l&#39;animation qui le caractérise. Cette animation est &lt;em&gt;trop longue&lt;/em&gt;. Elle est certes très jolie, mais à la voir plusieurs dizaines de fois par jour, l&#39;on finit à coup sûr avec un mal de crâne... J&#39;ai donc réduit le temps de l&#39;animation au strict minimum. Le passage d&#39;un bureau virtuel à l&#39;autre est beaucoup plus rapide, et l&#39;ordinateur donne l&#39;impression d&#39;être beaucoup plus réactif.&lt;/p&gt;
+&lt;p&gt;Pour ce faire, on se rend sur l&#39;onglet &lt;em&gt;&lt;strong&gt;Viewport Switching&lt;/strong&gt;&lt;/em&gt;&lt;strong&gt;&lt;/strong&gt; et l&#39;on abaisser la valeur de la propriété &lt;em&gt;&lt;strong&gt;Wall Sliding Duration&lt;/strong&gt;&lt;/em&gt;, soit à &lt;strong&gt;0,1000&lt;/strong&gt; pour conserver une rapide animation, soit à &lt;strong&gt;0,000&lt;/strong&gt; pour supprimer toute animation et changer de bureau dès l&#39;activation des raccourcis clavier.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.valhalla.fr/wp-content/uploads/2012/06/Gestionnaire-de-Configuration-CompizConfig_051.png&quot;&gt;&lt;img class=&quot;aligncenter size-thumbnail wp-image-871&quot; title=&quot;CCSM : Desktop Wall (boost)&quot; src=&quot;http://www.valhalla.fr/wp-content/uploads/2012/06/Gestionnaire-de-Configuration-CompizConfig_051-150x150.png&quot; alt=&quot;&quot; width=&quot;150&quot; height=&quot;150&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Unity&lt;/h3&gt;
+&lt;p&gt;Le plugin Unity permet de régler certaines options relatives à la partie visible d&#39;Unity. Nous ne ferons ici que 2 modifications, les autres pouvant être réalisées avec d&#39;autres outils, tels qu&#39;&lt;a href=&quot;http://ubuntu-tweak.com/&quot;&gt;Ubuntu Tweak&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;La première modification porte sur le Dock --la barre de lanceur d&#39;applications à gauche de l&#39;écran. Il est toujours présent à l&#39;écran, ce qui est le plus souvent inutile : d&#39;une part, vous êtes censé savoir quels logiciels sont actifs sur votre machine, puisque vous êtes en train de les utiliser et, d&#39;autre part, il est beaucoup plus rapide de lancer un nouveau logiciel grâce au clavier qu&#39;avec la souris. On peut donc se satisfaire d&#39;un Dock caché, qui n&#39;apparaît que lorsqu&#39;on envoie le curseur de la souris sur la gauche de l&#39;écran.&lt;/p&gt;
+&lt;p&gt;Pour effectuer cette modification, on se rend dans l&#39;onglet &lt;em&gt;&lt;strong&gt;Behavior&lt;/strong&gt;&lt;/em&gt; et l&#39;on sélectionne &lt;strong&gt;&lt;em&gt;Autohide&lt;/em&gt;&lt;/strong&gt;&lt;em&gt;&lt;/em&gt; dans le menu déroulant &lt;em&gt;&lt;strong&gt;Hide Launcher&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.valhalla.fr/wp-content/uploads/2012/06/Gestionnaire-de-Configuration-CompizConfig_052.png&quot;&gt;&lt;img class=&quot;aligncenter size-thumbnail wp-image-872&quot; title=&quot;CCSM : Unity&quot; src=&quot;http://www.valhalla.fr/wp-content/uploads/2012/06/Gestionnaire-de-Configuration-CompizConfig_052-150x150.png&quot; alt=&quot;&quot; width=&quot;150&quot; height=&quot;150&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;La deuxième modification se situe au même en droit, juste un peu plus bas : il s&#39;agit de la touche du clavier utilisée pour ouvrir le Dash Unity. Par défaut, il s&#39;agit de la touche SUPER (ou touche &lt;em&gt;Windows&lt;/em&gt;). Unity s&#39;accapare cette touche : elle est pour lui, et lui seul. Or, cette touche pourrait servir pour de nombreux raccourcis, si Unity ne s&#39;en réservait pas l&#39;usage. Je l&#39;ai donc remplacée par une combinaison de deux touches : CTRL et SUPER. Pour ce faire, il suffit de cliquer sur sur bouton à droite de &lt;em&gt;&lt;strong&gt;Key to show the launcher&lt;/strong&gt;&lt;/em&gt;, de cliquer sur &lt;em&gt;CONTROL&lt;/em&gt; et &lt;em&gt;SUPER&lt;/em&gt;, puis de valider les changements.&lt;/p&gt;
+&lt;p&gt;Ce changement fait, le Dash Unity se lancera avec la combinaison de touches CTRL+SUPER, et tous les raccourcis d&#39;Unity, habituellement assignés à SUPER+[touche] seront activable avec CTRL+SUPER+[touche]. C&#39;est un petit désagrément, mais le jeu en vaut la chandelle : la touche SUPER est désormais libérée de l&#39;influence d&#39;Unity, et l&#39;on peut l&#39;utiliser dans d&#39;autres raccourcis.&lt;/p&gt;
+&lt;h2&gt;Les raccourcis clavier pour changer de bureau virtuel&lt;/h2&gt;
+&lt;p&gt;Pour gagner du temps, j&#39;ai décidé de changer de bureau virtuel avec les combinaisons SUPER+1/2/3/4 pour les bureaux 1, 2, 3 et 4. Sur les claviers AZERTY, les touches 1, 2, 3 et 4 donnent en réalité les caractères &lt;strong&gt;&amp;amp;&lt;/strong&gt;, &lt;strong&gt;é&lt;/strong&gt;, &lt;strong&gt;&quot;&lt;/strong&gt; et &lt;strong&gt;&#39;&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Pour assigner ces raccourcis, on lancera les &lt;strong&gt;Préférences système&lt;/strong&gt; (de Gnome) &lt;span style=&quot;text-align: center;&quot;&gt;et l&#39;on se rendra dans la section &lt;/span&gt;&lt;strong style=&quot;text-align: center;&quot;&gt;Clavier&lt;/strong&gt;&lt;span style=&quot;text-align: center;&quot;&gt; : &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;size-medium wp-image-875 aligncenter&quot; title=&quot;Sélection_053&quot; src=&quot;http://www.valhalla.fr/wp-content/uploads/2012/06/Sélection_053-300x104.png&quot; alt=&quot;&quot; width=&quot;300&quot; height=&quot;104&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;L&#39;on se rendra ensuite dans l&#39;onglet &lt;strong&gt;Raccourcis&lt;/strong&gt; puis dans la section &lt;strong&gt;Navigation&lt;/strong&gt;. On cherchera les raccourcis idoines (v. la capture d&#39;écran ci-dessous) et on les réassignera avec la combinaison de touches désirée.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.valhalla.fr/wp-content/uploads/2012/06/Clavier_054.png&quot;&gt;&lt;img class=&quot;aligncenter size-thumbnail wp-image-868&quot; title=&quot;Préférences système: configuration des raccourcis clavier&quot; src=&quot;http://www.valhalla.fr/wp-content/uploads/2012/06/Clavier_054-150x150.png&quot; alt=&quot;&quot; width=&quot;150&quot; height=&quot;150&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Il est également possible de définir ses propres raccourcis dans la section &lt;strong&gt;Raccourcis &lt;/strong&gt;&lt;strong&gt;personnalisés&lt;/strong&gt;. Par exemple, SUPER+T pour ouvrir le Terminal gnome, SUPER+B pour ouvrir un navigateur Web, etc.&lt;/p&gt;
+&lt;p&gt;Pour résumer, l&#39;on a désormais :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;plus de place à l&#39;écran (le Dock est caché) ;&lt;/li&gt;
+&lt;li&gt;plus de réactivité dans le passage d&#39;un bureau virtuel à l&#39;autre ;&lt;/li&gt;
+&lt;li&gt;des raccourcis clavier performants.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 16 Jun 2012 22:23:08 +0200</pubDate>
+        <link>http://yourdomain.com/linux/2012/06/16/optimiser-unity-workspaces-precise-pangolin.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/linux/2012/06/16/optimiser-unity-workspaces-precise-pangolin.html</guid>
+        
+        <category>Linux</category>
+        
+        <category>Technique</category>
+        
+        <category>Logiciels</category>
+        
+        <category>Système</category>
+        
+        <category>interface</category>
+        
+        <category>gnome</category>
+        
+        <category>ubuntu</category>
+        
+        <category>configuration</category>
+        
+        
+        <category>linux</category>
+        
+      </item>
+    
+      <item>
+        <title>Ubuntu Software Center : tester avant d&#39;installer</title>
+        <description>&lt;p&gt;Une fonction peu connue de la logithèque Ubuntu (Software Center) permet de tester des logiciels avant de les installer. La fonction est désactivée par défaut, mais son activation est simple et rapide. Elle ne fonctionne pas avec tous les logiciels --loin de là--, et ne donne pas toujours de bons résultats... mais elle peut tout de même se révéler utile et surtout, elle est une exclusivité du monde Linux, car ni OSX ni Windows ne permettent de tester des logiciels avant de les installer.&lt;/p&gt;
+&lt;p&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;a id=&quot;more-854&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Le principe est simple: plutôt que d&#39;installer une multitude de logiciels sur votre ordinateur au prix d&#39;une détérioration des performances et de la stabilité du système d&#39;exploitation, le logiciel &lt;em&gt;qtnx&lt;/em&gt; vous permet d&#39;ouvrir une session à distance sur un serveur afin de tester un logiciel. S&#39;il vous convient, vous pourrez l&#39;installer en local, sur votre ordinateur ; dans le cas contraire, votre système ne sera pas modifié.&lt;/p&gt;
+&lt;p&gt;Pour tester des logiciels avant de les installer, il faut (et il suffit) installer le paquet &lt;strong&gt;qtnx&lt;/strong&gt;. Voici la commande à taper dans une fenêtre de terminal:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;pre&gt;&lt;code&gt;sudo apt-get install qtnx &lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;C&#39;est tout !&lt;/p&gt;
+&lt;p&gt;Après avoir installé qtnx, un nouveau bouton apparaîtra sous l&#39;image de certains logiciels, dans la logithèque Ubuntu (v. en bas à droite de l&#39;image) :&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.valhalla.fr/wp-content/uploads/2012/06/1.png&quot;&gt;&lt;img class=&quot;aligncenter size-medium wp-image-855&quot; title=&quot;qtnx: un nouveau bouton dans la logithèque&quot; src=&quot;http://www.valhalla.fr/wp-content/uploads/2012/06/1-300x174.png&quot; alt=&quot;&quot; width=&quot;300&quot; height=&quot;174&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Le bouton se transforme alors en barre de progression, indiquant que la logithèque est en train de se connecter à un serveur distant sur lequel le logiciel est ou sera installé :&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.valhalla.fr/wp-content/uploads/2012/06/2.png&quot;&gt;&lt;img class=&quot;aligncenter size-medium wp-image-856&quot; title=&quot;qtnx: progression de la connexion&quot; src=&quot;http://www.valhalla.fr/wp-content/uploads/2012/06/2-300x174.png&quot; alt=&quot;&quot; width=&quot;300&quot; height=&quot;174&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Une nouvelle icône apparaît dans le dock Unity :&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.valhalla.fr/wp-content/uploads/2012/06/3.png&quot;&gt;&lt;img class=&quot;aligncenter size-full wp-image-857&quot; title=&quot;qtnx: icône dans le dock Unity&quot; src=&quot;http://www.valhalla.fr/wp-content/uploads/2012/06/3.png&quot; alt=&quot;&quot; width=&quot;89&quot; height=&quot;227&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Une fenêtre s&#39;ouvre, avec un bureau distant. Un message d&#39;avertissement s&#39;affiche : n&#39;utilisez pas cette session à distance pour des activités illicites, elle est réservée aux tests de logiciels ! Il suffit de valider ce message en cliquant sur OK.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.valhalla.fr/wp-content/uploads/2012/06/4.png&quot;&gt;&lt;img class=&quot;aligncenter size-medium wp-image-858&quot; title=&quot;qtnx: disclaimer&quot; src=&quot;http://www.valhalla.fr/wp-content/uploads/2012/06/4-300x175.png&quot; alt=&quot;&quot; width=&quot;300&quot; height=&quot;175&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Si le logiciel n&#39;est pas installé sur le poste distant, il le sera automatiquement :&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.valhalla.fr/wp-content/uploads/2012/06/5.png&quot;&gt;&lt;img class=&quot;aligncenter size-medium wp-image-859&quot; title=&quot;qtnx: installation&quot; src=&quot;http://www.valhalla.fr/wp-content/uploads/2012/06/5-300x175.png&quot; alt=&quot;&quot; width=&quot;300&quot; height=&quot;175&quot; /&gt;&lt;/a&gt;Et puis, il se lancera :&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.valhalla.fr/wp-content/uploads/2012/06/6.png&quot;&gt;&lt;img class=&quot;aligncenter size-medium wp-image-860&quot; title=&quot;qtnx: test du logiciel&quot; src=&quot;http://www.valhalla.fr/wp-content/uploads/2012/06/6-300x175.png&quot; alt=&quot;&quot; width=&quot;300&quot; height=&quot;175&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Testez-le et, quand vous aurez fini, fermez tout simplement la fenêtre. Il se peut que qtnx plante (v. image ci-dessous), mais peu importe : il a rempli son rôle, vous avez pu tester le logiciel à distance sans rien modifier à votre système local.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.valhalla.fr/wp-content/uploads/2012/06/7.png&quot;&gt;&lt;img class=&quot;aligncenter size-medium wp-image-861&quot; title=&quot;qtnx: bug&quot; src=&quot;http://www.valhalla.fr/wp-content/uploads/2012/06/7-300x79.png&quot; alt=&quot;&quot; width=&quot;300&quot; height=&quot;79&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Voici quelques ressources sur &lt;em&gt;qtnx&lt;/em&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a title=&quot;Ubuntu Software Center Lets You Test-Drive Applications Without Installing Them [Ubuntu 11.04]&quot; href=&quot;http://www.webupd8.org/2011/03/ubuntu-software-center-lets-you-test.html&quot;&gt;Ubuntu Software Center Lets You Test-Drive Applications Without Installing Them&lt;/a&gt;&lt;a href=&quot;http://www.webupd8.org/2011/03/ubuntu-software-center-lets-you-test.html&quot;&gt; -- WebUP8 (Blog Ubuntu)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/NX_technology&quot;&gt;NX Technology (Wikipedia)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 11 Jun 2012 18:43:15 +0200</pubDate>
+        <link>http://yourdomain.com/linux/2012/06/11/ubuntu-software-center-tester-avant-dinstaller.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/linux/2012/06/11/ubuntu-software-center-tester-avant-dinstaller.html</guid>
+        
+        <category>software</category>
+        
+        <category>Linux</category>
+        
+        <category>Logiciels</category>
+        
+        <category>Système</category>
+        
+        <category>ubuntu</category>
+        
+        <category>astuce</category>
+        
+        
+        <category>linux</category>
+        
+      </item>
+    
+      <item>
+        <title>Numéro 104 - Semaine du 28 mai au 3 juin 2012</title>
+        <description>&lt;p&gt;Voici, cette semaine, un numéro thématique.&lt;/p&gt;
+&lt;h2&gt;Conflits de juridictions&lt;/h2&gt;
+&lt;p&gt;La première information importante de la semaine réside dans un&lt;a href=&quot;http://www.legalis.net/spip.php?page=jurisprudence-decision&amp;amp;id_article=3417&quot;&gt; arrêt du 22 mai 2012 rendu par la Cour d&#39;appel de Paris&lt;/a&gt; sur renvoi après cassation dans l&#39;affaire Würzburg Holding c. eBay. Il s&#39;agissait de déterminer la compétence internationale des juridictions françaises pour connaître du litige. Nous avons abordé cette question à plusieurs reprises (v. &lt;a href=&quot;http://www.valhalla.fr/2006/06/24/tribunal-competent-et-cyber-delits-theorie-de-la-focalisation/&quot;&gt;cet article&lt;/a&gt; et  &lt;a href=&quot;http://www.valhalla.fr/2007/04/25/competence-juridictions-accessibilite-cass-com-20-03-2007/&quot;&gt;celui-ci&lt;/a&gt;, le &lt;a href=&quot;http://revue.valhalla.fr/numeros/52/&quot;&gt;n°52&lt;/a&gt; de la revue pour une explication des enjeux juridiques et une présentation des thèses en présence, les numéros &lt;a href=&quot;http://revue.valhalla.fr/numeros/66/&quot;&gt;66&lt;/a&gt; et &lt;a href=&quot;http://revue.valhalla.fr/numeros/85/&quot;&gt;85&lt;/a&gt; pour la position de la CJUE, et dernièrement le &lt;a href=&quot;http://revue.valhalla.fr/numeros/100/&quot;&gt;n°100&lt;/a&gt; pour un bref rappel), et vu que s&#39;opposaient la doctrine de l&#39;accessibilité (la compétence du juge français est fondée dès lors que le site litigieux est accessible en France) et celle de la focalisation (la compétence du juge français n&#39;est établie que si, le site étant accessible en France, il est en outre focalisé vers le public français). La CJUE a pris position en faveur de la doctrine de l&#39;accessibilité, dans plusieurs décisions récentes (v. numéros &lt;a href=&quot;http://revue.valhalla.fr/numeros/66/&quot;&gt;66&lt;/a&gt; et &lt;a href=&quot;http://revue.valhalla.fr/numeros/85/&quot;&gt;85&lt;/a&gt;) rendues en interprétation du réglement 44/2001. Mais la Cour de cassation a préféré la doctrine de la focalisation. Elle a ainsi jugé dans l&#39;&lt;a href=&quot;http://www.legalis.net/spip.php?page=jurisprudence-decision&amp;amp;id_article=3307&quot;&gt;arrêt du 20 septembre 2011&lt;/a&gt;, au visa de l&#39;article 46 du Code de procédure civile, que &quot;&lt;em&gt;la seule accessibilité d’un site internet sur le territoire français n’est pas suffisante pour retenir la compétence des juridictions françaises, prises comme celles du lieu du dommage allégué, et sans rechercher si les annonces litigieuses étaient destinées au public de France, la cour d’appel a privé sa décision de base légale&lt;/em&gt;&quot;, cassé l&#39;arrêt de la Cour d&#39;appel et renvoyé l&#39;affaire devant la Cour d&#39;appel de Paris. Statuant sur renvoi, la Cour d&#39;appel de Paris reprend sa jurisprudence constante consistant à rechercher l&#39;existence de liens &quot;suffisants, substantiels ou significatifs&quot; entre le site litigieux et le public français :&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;&lt;em&gt;Et considérant qu’il est de jurisprudence constante que la seule accessibilité d’un site sur le territoire français n’est pas suffisante pour retenir la compétence des juridictions françaises, qu’il convient de rechercher si les annonces litigieuses étaient destinées au public de France et donc d’examiner si en l’espèce, il existe un lien suffisant, substantiel ou significatif entre les faits délictuels et le dommage allégué sur le territoire français eu égard à l’incidence commerciale que peut avoir la diffusion du site incriminé en France.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Puis, par un motif peu clair, la Cour relève que le site est conçu en anglais, même si le texte des annonces est, lui, rédigé en français :&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;&lt;em&gt;Que la circonstance selon laquelle les visuels seraient prédominants sur les annonces et la partie rédactionnelle en langue anglaise serait pauvre et donc compréhensible ne permet pas de déduire que le site serait destiné au public de France, qu’en effet, seule la compréhension de la partie rédactionnelle est indispensable à une utilisation pertinente du site comme permettant d’aboutir à la procédure d’une commande effective, de son suivi, des conditions d’échange ou de retour d’un produit, que la vulgarisation croissante de la langue anglaise ne saurait l’ériger comme langue nationale, naturellement et nécessairement acquise par tout français, que &lt;strong&gt;la destination d’un site vers le public de France implique l’usage par ce site de la langue du public ciblé&lt;/strong&gt;, à savoir tout acheteur ou vendeur potentiel d’un quelconque produit sur le marché&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Il y a, à notre sens, deux éléments importants dans ce motif. D&#39;abord, la Cour se fonde implicitement sur la volonté de l&#39;opérateur : en rédigeant son site en anglais, il n&#39;a pas &lt;em&gt;manifesté&lt;/em&gt; la volonté de cibler le public français car, en dépit de la vulgarisation de la langue anglaise sur Internet, la langue nationale dans le ressort territorial de la juridiction demeure le français. L&#39;idée importante est celle de la manifestation de volonté de l&#39;opérateur : s&#39;il avait voulu cibler &lt;em&gt;spécifiquement&lt;/em&gt; le public français, il aurait rédigé son site en français. C&#39;est cette spécificité qui permet d&#39;établir la compétence des juridictions françaises. En effet, un site rédigé en anglais peut viser soit un public anglophone, soit ne viser aucun public particulier et s&#39;adresser à tous les internautes, indépendamment de leur provenance géographique. En affirmant que &quot;&lt;em&gt;la destination d’un site vers le public de France implique l’usage par ce site de la langue du public ciblé&quot;&lt;/em&gt;, la Cour d&#39;appel ne dit pas qu&#39;un site doit viser le public français, entre autres, pour que sa compétence soit établie, mais que ce site soit viser &lt;em&gt;spécifiquement&lt;/em&gt; le public français. En d&#39;autres termes, un site &quot;international&quot; rédigé en anglais ne vise pas, pour la Cour, le public français parmi d&#39;autres publics, il ne vise en réalité aucun public particulier, ce qui exclut la compétence des juridictions françaises. Reste à savoir comment le critère de la langue, qui semble ici être déterminant, serait utilisé par la Cour s&#39;agissant d&#39;un site belge, suisse ou québécois...&lt;/p&gt;
+&lt;h2&gt;Filtrage&lt;/h2&gt;
+&lt;p&gt;Nous voilà dans l&#39;ère des mots-clés. Google (is not always evil) &lt;a href=&quot;http://www.numerama.com/magazine/22763-google-signale-aux-chinois-les-mots-cles-filtres.html&quot;&gt;révèle aux utilisateurs chinois les mots-clés censurés&lt;/a&gt; sur ordre du gouvernement. De leur côté, les autorités américaines font de même pour &lt;a href=&quot;http://www.numerama.com/magazine/22771-les-usa-revelent-les-mots-cles-surveilles-sur-internet.html&quot;&gt;les mots-clés surveillés par leurs agences de renseignement&lt;/a&gt;, dont &lt;a href=&quot;http://www.dailymail.co.uk/news/article-2150281/REVEALED-Hundreds-words-avoid-using-online-dont-want-government-spying-you.html&quot;&gt;la liste est plutôt effrayante&lt;/a&gt; : exercice, prévention, sécurité, morts, nuage, essence, malade, métro, annulé, en retard, intelligent, frontière, médicament, urgence, glace, neige, érosion... et tant d&#39;autres mots courants.&lt;/p&gt;
+&lt;h2&gt;Concurrence &amp;amp; Consommation&lt;/h2&gt;
+&lt;p&gt;La &lt;a href=&quot;http://www.numerama.com/magazine/22755-l-entente-entre-les-operateurs-definitivement-confirmee.html&quot;&gt;Cour de cassation vient de rejeter un pourvoi formé par Orange&lt;/a&gt; contre&lt;a href=&quot;http://www.pcinpact.com/news/71286-entente-operateurs-mobiles-orange-sfr-bouygues.htm&quot;&gt; sa condamnation par le Conseil de la concurrence pour entente sur les prix&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Aux États-Unis, &lt;a href=&quot;http://www.pcinpact.com/news/71281-microsoft-recours-collectifs-usa-utilisation.htm&quot;&gt;Microsoft modifie le contrat d&#39;adhésion le liant aux consommateurs en insérant une clause destinée à prévenir les &lt;em&gt;class action&lt;/em&gt;&lt;/a&gt;. En application de cette clause, le consommateur peut exercer un recours individuel devant les juridictions étatiques ou arbitrales, mais pas initier ou se joindre à une &lt;em&gt;class action&lt;/em&gt; regroupant plusieurs demandeurs pour une même demande. Ces clauses sont &lt;a href=&quot;http://news.cnet.com/8301-30686_3-57403475-266/why-you-cant-sue-your-wireless-carrier-in-a-class-action/&quot;&gt;autorisées en droit américain&lt;/a&gt; depuis l&#39;arrêt &lt;strong&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/AT%26T_Mobility_v._Concepcion&quot;&gt;AT&amp;amp;T v. Concepcion&lt;/a&gt; du 27 avril 2011&lt;/strong&gt; (&lt;a href=&quot;http://www.supremecourt.gov/opinions/10pdf/09-893.pdf&quot;&gt;syllabus&lt;/a&gt;).&lt;/p&gt;
+&lt;h2&gt;Propriété intellectuelle&lt;/h2&gt;
+&lt;p&gt;Avant le vote du traité ACTA au Parlement européen, cinq commissions doivent rendre leurs avis. &lt;a href=&quot;http://www.numerama.com/magazine/22757-acta-les-opposants-se-felicitent-du-rejet-des-commissions-parlementaires.html&quot;&gt;Trois d&#39;entre-elles ont rendu cette semaine un avis défavorable&lt;/a&gt; : la commission ITRE (industrie), la commission JURI (affaires juridiques) et la commission LIBE (libertés civiles). Le &lt;a href=&quot;http://www.pcinpact.com/news/71306-acta-rejet-massif-parlement-europeen.htm&quot;&gt;prochain vote&lt;/a&gt; est pour le 21 juin, et le passage en séance plénière prévu pour le mois de juillet. De leur côté, les &lt;a href=&quot;http://www.numerama.com/magazine/22742-les-deputes-neerlandais-rejettent-acta.html&quot;&gt;parlementaires des Pays-Bas ont adopté une motion demandant au gouvernement de refuser la ratification du traité&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Neutralité du Net&lt;/h2&gt;
+&lt;p&gt;L&#39;on apprend que &lt;a href=&quot;http://www.numerama.com/magazine/22745-18-des-fai-europeens-brident-le-p2p.html&quot;&gt;18% des FAI européens bloquent le trafic P2P sur les réseaux fixes&lt;/a&gt;... la &lt;a href=&quot;http://www.pcinpact.com/news/71284-fai-europeen-bride-p2p-neelie-kroes.htm&quot;&gt;neutralité du Net n&#39;est pas pour tout de suite&lt;/a&gt; !&lt;/p&gt;
+&lt;h2&gt;Sécurité&lt;/h2&gt;
+&lt;p&gt;Un &lt;a href=&quot;http://www.pcinpact.com/news/71212-flame-malware-menace-kaspersky-puissant.htm&quot;&gt;nouveau malware très élaboré&lt;/a&gt;, à l&#39;instar de Stuxnet, vient d&#39;être découvert par Kaspersky. Une &lt;a href=&quot;http://www.numerama.com/magazine/22751-un-backdoor-chinois-decouvert-sur-une-puce-electronique-utilisee-par-l-armee-us.html&quot;&gt;porte-dérobée dans des puces fabriquées en Chine et utilisées par l&#39;armée américaine&lt;/a&gt; a également été découverte récemment, par des chercheurs de l&#39;université de Cambridge. La cyber-guerre est chaude et froide à la fois...&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 03 Jun 2012 13:18:12 +0200</pubDate>
+        <link>http://yourdomain.com/revue/2012/06/03/104.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/revue/2012/06/03/104.html</guid>
+        
+        <category>Internet</category>
+        
+        <category>neutralité</category>
+        
+        <category>P2P</category>
+        
+        <category>propriété intellectuelle</category>
+        
+        <category>Google</category>
+        
+        <category>international</category>
+        
+        <category>gouvernement</category>
+        
+        <category>filtrage</category>
+        
+        <category>ACTA</category>
+        
+        <category>sécurité</category>
+        
+        <category>USA</category>
+        
+        <category>Orange</category>
+        
+        <category>FAI</category>
+        
+        <category>armée</category>
+        
+        <category>Chine</category>
+        
+        <category>jurisprudence</category>
+        
+        <category>Europe</category>
+        
+        <category>Wikipedia</category>
+        
+        <category>PC</category>
+        
+        <category>droit constitutionnel</category>
+        
+        <category>Microsoft</category>
+        
+        <category>compétence</category>
+        
+        <category>CJUE</category>
+        
+        <category>contrat</category>
+        
+        <category>blocage</category>
+        
+        <category>backdoor</category>
+        
+        
+        <category>revue</category>
         
       </item>
     
