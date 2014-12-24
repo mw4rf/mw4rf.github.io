@@ -47,15 +47,11 @@
           
         
           
-          <a class="page-link" href="/references/index.html">Références</a>
+          <a class="page-link" href="/articles-essentiels/index.html">Articles essentiels</a>
           
         
           
           <a class="page-link" href="/java/index.html">Java</a>
-          
-        
-          
-          <a class="page-link" href="/articles-essentiels/index.html">Articles essentiels</a>
           
         
           
@@ -221,13 +217,13 @@ Une fois votre client installé et configuré, choisissez un groupe et ouvrez le
 Les fichers seront automatiquement regroupés par votre logiciel qui les présentera de cette manière:<br />
 <br />
 <center><br />
-<img alt="Liste des fichiers" src="http://blog.gfblog.com/images/usenet/usenet1.png" /><br />
+<img alt="Liste des fichiers" src="/public/posts/2005-10-09-usenet/usenet1.png" /><br />
 </center></p>
 <p>
 Double cliquez sur l'archive, et le téléchargement commencera. Vous verrez, le débit est énorme ! Dans l'exemple ci-dessous, j'ai 4 connexions actives. En effet, les fournisseurs d'accès aux newsgroups limitent le nombre de connexions actives simultanément. Pour Newshosting, pas plus de 4 à la fois (ce qui est très largement suffisant).<br />
 <br />
 <center><br />
-<img alt="Téléchargement" src="http://blog.gfblog.com/images/usenet/usenet2.png" /><br />
+<img alt="Téléchargement" src="/public/posts/2005-10-09-usenet/usenet2.png" /><br />
 </center></p>
 <p>
 Vous avez sans doute remarqué que les fichiers ne portent pas l'extension AVI (pour les DivX) ou MP3. C'est en effet un problème avec Usenet: les fichiers sont découpés en plusieurs fichiers plus petits et compressés. Vous téléchargez tous ces petits fichiers, et un logiciel les assemble pour vous, de manière à obtenir le gros fichier original (split 'n merge). Mais des parties de ces petits fichiers peuvent se perdre en route, ne jamais arriver jusqu'à vous... et c'est bien bête d'obtenir un fichier de 3 GO corrompu -et donc inutilisable- parce qu'il lui manque 1 MO de données ! Des outils ont donc été créés pour remédier à ce problème.</p>
@@ -242,13 +238,13 @@ Pour résumer, une fois les fichiers téléchargés:</p>
 <center><br />
 <strong>MacPar en action: vérification de l'intégrité des fichiers</strong><br />
 <br />
-<img alt="macpar" src="http://blog.gfblog.com/images/usenet/usenet3.png" /><br />
+<img alt="macpar" src="/public/posts/2005-10-09-usenet/usenet3.png" /><br />
 </center></p>
 <p>
 <center><br />
 <strong>MacPar en action: reconstruction du fichier original à partir des archives</strong><br />
 <br />
-<img alt="macpar" src="http://blog.gfblog.com/images/usenet/usenet4.png" /><br />
+<img alt="macpar" src="/public/posts/2005-10-09-usenet/usenet4.png" /><br />
 </center></p>
 
 
@@ -263,7 +259,7 @@ Pour résumer, une fois les fichiers téléchargés:</p>
 La dernière version du système d'exploitation Apple, Mac OS 10.4 "Tiger", intègre un logiciel assez intéressant: Dashboard. Une pression sur la touche F12 du clavier, et un écran rempli de gadgets (appelés "widgets") se superpose au bureau.</p>
 <p>
 <center><br />
-<img alt="dashboard" src="http://blog.gfblog.com/images/widgets/dashboard.png" /><br />
+<img alt="dashboard" src="/public/posts/2005-10-08-widgets/dashboard.png" /><br />
 </center></p>
 <p>
 Ces petits machins c'est très utile ! Non... en fait c'est totalement superflu. En plus ça bouffe plein de mémoire et de ressources processeur. Bref, il ne vaudrait mieux ne pas les utiliser. Mais là n'est pas la question.</p>
@@ -275,37 +271,14 @@ D'ailleurs, si tous les widgets ne sont pas gratuits, ils sont tous open-source 
 Il faut d'abord ouvrir le "paquet" que constitue le widget. Pour cela, il faut se rendre dans le répertoire des widgets (<span class="Code">Macintosh HD/Utilisateurs/votre_nom/Bibliothèque/Widgets/</span>), cliquer-droit sur l'icône du widget, et choix de l'option <em>Afficher le contenu du paquet</em>.</p>
 <p>
 <center><br />
-<img alt="dashboard" src="http://blog.gfblog.com/images/widgets/widget1.png" /><br />
+<img alt="dashboard" src="/public/posts/2005-10-08-widgets/widget1.png" /><br />
 </center></p>
 <p>
 Trouvez ensuite le fichier <span class="Code">nom_du_widget.js</span>. Ouvrez ce fichier dans un éditeur de texte (<a href="http://www.barebones.com/products/bbedit/index.shtml">BBEdit</a>, <a href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a>, etc.).</p>
 <p>
 La structure du fichier est la suivante:<br />
-<span class="Code"><br />
-function ma_fonction_1()<br />
-{<br />
-... ici, plein de trucs (pas) très compliqués ;-) ...<br />
-}<br />
-</span><br />
-<span class="Code"><br />
-function ma_fonction_2()<br />
-{<br />
-... ici également, plein de trucs tout aussi (pas) compliqués ;-) ...<br />
-}<br />
-</span></p>
-<p>
-Cherchez (Pomme+F) la fonction qui gère la protection. Elle aura certainement un nom évocateur comme "register", "licence", "serial", "protection", etc. Encadrez la fonction par /* et */, de cette manière:</p>
-<p>
-<span class="Code"><br />
-/*<br />
-function ma_fonction_1()<br />
-{<br />
-}<br />
-*/<br />
-</span></p>
-<p>
-Il ne vous reste plus qu'à tester le widget. Si la protection n'est pas plus élaborée que celle décrite ci-dessus, ça fonctionnera parfaitement. Sinon, sachez qu'il est toujours possible de casser cette protection, mais qu'il vous faudra pour cela une meilleure connaissance du JavaScript.</p>
 
+</p>
 
     </div>
   
@@ -398,13 +371,13 @@ Mais ces statistiques ne sont pas totalement exhaustives, ni totalement infailli
     </p>
     <div class="content">
       <p>Les phrases et les mots qui apparaissent à l'écran sont composés de caractères. Il existe des caractères "normaux" (a,b,c,d...), des caractères accentués (é,è,à,ñ...), des caractères de ponctuation et des caractères spéciaux (tels que le symbole euro).</p>
-<p><img align="right" style="border: 1px dotted #ccc" alt="Image 1" src="http://blog.gfblog.com/images/charset/charset1.png" /></p>
+<p><img align="right" style="border: 1px dotted #ccc" alt="Image 1" src="/public/posts/2005-10-06-charset/charset1.png" /></p>
 <p>Les ordinateurs (quel que soit le système d'exploitation, windows, mac, linux ou autre) gèrent l'affichage de ces caractères de manière binaire, en associant un code chiffré à chaque caractère (autrement dit, une série de 0 et de 1). La correspondance entre le code chiffré et le caractère tel qu'il apparaît à l'écran se fait par l'intermédiaire d'une table d'encodage, ou charset.</p>
 <p>Malheureusement, il existe de multiples charsets. Le charset de base (ANSI) est anglo-saxon, il ne prend pas en compte les caractères accentués, et il est donc à exclure pour le français. Il existe également des charset pour les langues qui n'ont pas un alphabet latin: chinois, japonais, coréen, arabe, hébreux, etc. Et il existe une multitude de charsets, qui ne présentent que de minimes différentes les une entre les autres, pour la gestion des langues européennes.</p>
-<p><img align="right" style="border: 1px dotted #ccc" alt="Image 2" src="http://blog.gfblog.com/images/charset/charset2.png" /></p>
+<p><img align="right" style="border: 1px dotted #ccc" alt="Image 2" src="/public/posts/2005-10-06-charset/charset2.png" /></p>
 <p>
 Si un mauvais charset est appliqué à un bloc de texte, la conséquence pour l'affichage à l'écran des caractères non pris en compte sera désastreuse: ils seront remplacés par des espaces vides, d'autres caractères (bien souvent un point d'interrogation), ou des symboles vraiment bizarres venus d'une autre planète (si, si, ça arrive).</p>
-<p><img align="right" style="border: 1px dotted #ccc" alt="Image 3" src="http://blog.gfblog.com/images/charset/charset3.png" /></p>
+<p><img align="right" style="border: 1px dotted #ccc" alt="Image 3" src="/public/posts/2005-10-06-charset/charset3.png" /></p>
 <p>
 Il faut donc une correspondance exacte entre:<br />
 - le charset avec lequel a été écrit le texte.<br />
@@ -412,19 +385,6 @@ Il faut donc une correspondance exacte entre:<br />
 <h3>Sur Internet</h3>
 <p>
 Tous les navigateurs gèrent différents charsets. Cependant, pour les navigateurs en français, le charset par défaut est bien Latin 1. S'il a été modifié pour quelque raison que ce soit, vous devez le rétablir à sa valeur initiale.</p>
-<ul>
-<li />Pour modifier le charset de Firefox, rendez-vous dans le menu Affichage -&gt; Encodage des caractères. Choisissez Occidental ISO-8859-1.
-<li />Pour modifier le charset de InternetExplorer, rendez-vous dans le menu Affichage -&gt; Codage (-&gt; Plus) -&gt; Europe Occidentale (ISO).
-<li />Pour les autres navigateurs, la procèdure est semblable, même si le nom des menus peut changer.
-</ul>
-<p>&lt;/p&gt;</p>
-<p>
-Attention, sur Mac le charset par défaut n'est pas ISO Latin 1 mais Mac OS Roman. Il s'agit d'un charset basé sur ISO Latin 1 mais comportant des caractères supplémentaires (tels que la pomme Apple). Vérifiez que vous utilisez, pour votre navigateur, le charset générique et non pas le charset natif Mac.</p>
-<p>
-En règle générale les navigateurs gèrent l'encodage de manière automatique. C'est-à-dire que vous n'avez pas à spécifier manuellement le charset à utiliser, le navigateur sait le détecter. Néanmoins, cette détection échoue parfois, pour une raison ou pour une autre (surtout avec IE ;-)</p>
-<p>
-Pour savoir quel est le charset utilisé sur une page Web, afficher le code source de cette page (habituellement clic-droit dans la page, et un menu déroulant offrant cette possibilité s'ouvrira) et chercher une ligne du type:<br />
-<br /><span class="Code">&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;</span></p>
 
 
     </div>

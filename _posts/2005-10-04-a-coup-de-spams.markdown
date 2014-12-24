@@ -25,7 +25,7 @@ tags:
 <p>Le succès d'internet est avant tout le succès des e-mails. Pouvoir faire parvenir une lettre en quelques secondes, c'est merveilleux. Mais l'e-mail a sa contrepartie: le spam. Tout le monde a un jour été spammé comme tout le monde a un jour reçu de la pub dans sa boîte aux lettres.</p>
 <p>J'ai choisi de rédiger cet article pour exposer mon point de vue quant au spam, expliquer comment ça marche, et surtout donner quelques conseils pour s'en protéger</p>
 <h3>Spam: définition</h3>
-<p><img src="http://blog.gfblog.com/images/spam/spam.jpg" alt="spam" align="right" /></p>
+<p><img src="/public/posts/2005-10-04-spam/spam.jpg" alt="spam" align="right" /></p>
 <p>
 Le spam... c'est ça ! Des conserves américaines de viande. C'est une marque. Tout comme "Frigidaire", "Tuperware", "K-way" ou "fermeture Eclair" sont passés dans le langage courants. "Spam" désigne maintenant ce que les québécois se complaisent à appeler "pourriels". Des e-mails (bon, je le dis: courriels) pourris, en somme. De la pub sale. De la merde. On peut également dire qu'un spam est un e-mail non sollicité, mais ça ne serait pas vraiment exact. Ou du moins, ça ne l'est plus. Il y a encore 5 ans, j'aurais appelé "Spam" un message HTML bien écrit et bien présenté (avec des images et une belle mise en page) envoyé par une entreprise commerciale pour promouvoir ses produits. Je les considère maintenant comme des courriers normaux, au vu de ce qu'est le "vrai" spam. Le vrai spam, c'est un message de ce type (je vous en ai recopié un vrai de vrai !):</p>
 <p><span class="Code"><br />

@@ -57,13 +57,13 @@ Une fois votre client installé et configuré, choisissez un groupe et ouvrez le
 Les fichers seront automatiquement regroupés par votre logiciel qui les présentera de cette manière:<br />
 <br />
 <center><br />
-<img alt="Liste des fichiers" src="http://blog.gfblog.com/images/usenet/usenet1.png" /><br />
+<img alt="Liste des fichiers" src="/public/posts/2005-10-09-usenet/usenet1.png" /><br />
 </center></p>
 <p>
 Double cliquez sur l'archive, et le téléchargement commencera. Vous verrez, le débit est énorme ! Dans l'exemple ci-dessous, j'ai 4 connexions actives. En effet, les fournisseurs d'accès aux newsgroups limitent le nombre de connexions actives simultanément. Pour Newshosting, pas plus de 4 à la fois (ce qui est très largement suffisant).<br />
 <br />
 <center><br />
-<img alt="Téléchargement" src="http://blog.gfblog.com/images/usenet/usenet2.png" /><br />
+<img alt="Téléchargement" src="/public/posts/2005-10-09-usenet/usenet2.png" /><br />
 </center></p>
 <p>
 Vous avez sans doute remarqué que les fichiers ne portent pas l'extension AVI (pour les DivX) ou MP3. C'est en effet un problème avec Usenet: les fichiers sont découpés en plusieurs fichiers plus petits et compressés. Vous téléchargez tous ces petits fichiers, et un logiciel les assemble pour vous, de manière à obtenir le gros fichier original (split 'n merge). Mais des parties de ces petits fichiers peuvent se perdre en route, ne jamais arriver jusqu'à vous... et c'est bien bête d'obtenir un fichier de 3 GO corrompu -et donc inutilisable- parce qu'il lui manque 1 MO de données ! Des outils ont donc été créés pour remédier à ce problème.</p>
@@ -77,11 +77,11 @@ Pour résumer, une fois les fichiers téléchargés:</p>
 <center><br />
 <strong>MacPar en action: vérification de l'intégrité des fichiers</strong><br />
 <br />
-<img alt="macpar" src="http://blog.gfblog.com/images/usenet/usenet3.png" /><br />
+<img alt="macpar" src="/public/posts/2005-10-09-usenet/usenet3.png" /><br />
 </center></p>
 <p>
 <center><br />
 <strong>MacPar en action: reconstruction du fichier original à partir des archives</strong><br />
 <br />
-<img alt="macpar" src="http://blog.gfblog.com/images/usenet/usenet4.png" /><br />
+<img alt="macpar" src="/public/posts/2005-10-09-usenet/usenet4.png" /><br />
 </center></p>

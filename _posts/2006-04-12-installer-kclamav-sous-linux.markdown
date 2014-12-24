@@ -11,7 +11,7 @@ author:
 author_login: gflorimond
 author_email: gf@valhalla.fr
 author_url: http://www.valhalla.fr
-excerpt: "<img src=\"./images/clamav/clamav.png\" align=\"left\" alt=\"ClamAV Logo\"
+excerpt: "<img src=\"/public/posts/2006-04-12-clamav/clamav.png\" align=\"left\" alt=\"ClamAV Logo\"
   />\r\nEn lisant les nouvelles ce matin, j'ai appris que des programmeurs avaient
   réalisé un virus crossplatform en Assembleur. Il fonctionne aussi bien sous Windows
   que sous Linux, et peut servir de base à d'autres auteurs de virus pour mettre en
@@ -42,7 +42,7 @@ tags:
 - sécurité
 - Linux
 ---
-<p><img src="./images/clamav/clamav.png" align="left" alt="ClamAV Logo" /><br />
+<p><img src="/public/posts/2006-04-12-clamav/clamav.png" align="left" alt="ClamAV Logo" /><br />
 En lisant les nouvelles ce matin, j'ai appris que des programmeurs avaient réalisé un virus crossplatform en Assembleur. Il fonctionne aussi bien sous Windows que sous Linux, et peut servir de base à d'autres auteurs de virus pour mettre en oeuvre leur savoir destructeur. Heureusement, ce virus-là n'en est pas réellement un, c'est plutot un guide donnant les lignes directrices pour une comaptibilité avec les deux systèmes. Ca m'a donné une idée: installer l'antivirus ClamAV, opensource et gratuit. Ce n'était pas par nécessité, puisque je n'ai aucune peur de ce virus, que je sais quand comment et pourquoi je suis susceptible de me faire infecter, et que le poste sur lequel j'ai réalisé l'installation peut se permettre de planter et de voir son système réinstallé après formatage. Non, si j'ai installé cet antivirus, ce n'était que pour le tester. Et bien, je n'ai pas été déçu ! En effet, l'installation de l'interface graphique, KlamAV (qui se détâche de ClamAV, celui-ci s'exécutant normalement en ligne de commande), est un vrai parcours du combattant. C'est donc tout naturellement que j'ai entrepris d'écrire cet article qui aura pour but d'expliquer comment installer et configurer ClamAV et l'interface KlamAV sous Linux. Dernière précision avant de commencer: les étapes décrites sont basées sur une OpenSuse 10; elles demeurent valables pour la plupart des grosses distributions (RedHat, Mandrake/Mandriva, etc.), mais seront peut être légèrement différentes pour les distributions basées sur Debian.</p>
 <p><a id="more"></a><a id="more-96"></a></p>
 <h2>Première étape: Installation du moteur ClamAV</h2>
@@ -52,10 +52,14 @@ En lisant les nouvelles ce matin, j'ai appris que des programmeurs avaient réal
 - <a href="ftp://ftp.suse.com/pub/projects/clamav">Sur un FTP non-officiel</a> (RPM)</p>
 <p>Pour installer le RPM, vous n'aurez normalement aucun problème: téléchargement sur le bureau par exemple, (double)clic sur l'icône du RPM, clic sur le bouton "Installer", mot de passe root, on attend quelques secondes et c'est fini. Je vous conseille d'installer ClamAV par ce moyen, sauf si vous avez envie de le compiler.</p>
 <p>Pour compiler ClamAV depuis les sources, ce n'est pas bien difficile. Il vous faut cependant avoir installé le compileur et les librairies nécessaires. L'installation se déroule normalement:<br />
-<span class="Code"><br />
-./configure<br />
-make<br />
-sudo make install</span> [Un mot de passe adminsitrateur (root) est demandé ici]</p>
+    
+{%highlight bash %}
+./configure
+make
+sudo make install 
+[Un mot de passe adminsitrateur (root) est demandé ici]
+{% endhighlight %}
+
 <p>En avant pour une explication, une bonne fois pour toutes:<br />
 1) Ces commandes sont à taper dans le terminal. Si un mot de passe est demandé, il faut bien entendu le fournir (il n'apparaît pas à l'écran pendant qu'on l'écrit, pour des raisons de sécurité).<br />
 2) Il ne faut pas s'affoler si "tout plein" de messages défilent à l'écran: ignorez-les, tant que ça défile c'est que tout va bien. Si au contraire cela ne défile plus, deux possibilités: c'est fini, il y a un problème. S'il y a un problème, dans 99% des cas, ce sera un dépendance non satisfaite.<br />
@@ -79,25 +83,32 @@ sudo make install</span> [Un mot de passe adminsitrateur (root) est demandé ici
 <li /><span class="Code">libgcc</span> (idem!)
 </ul>
 <p>Une fois les sources installées, vous devez le configurer. C'est un peu plus difficile. Ouvrez une fenêtre de terminal, et tapez:<br />
-<span class="Code"><br />
-cd /usr/src/linux<br />
-make cloneconfig<br />
-make modules_prepare<br />
-</span></p>
+
+{%highlight bash %}
+cd /usr/src/linux
+make cloneconfig
+make modules_prepare
+{% endhighlight %}
+
 <p>La dernière ligne devrait être quelque chose dans le genre (SUSE):<br />
-<span class="Code"><br />
+
+{%highlight bash %}
   CHK     /usr/src/linux-2.6.13-15/include/linux/version.h<br />
 make[1]: `arch/i386/kernel/asm-offsets.s' is up to date.<br />
-</span><br />
+{% endhighlight %}
+
 Sinon, refaire un "make modules_prepare".</p>
+
 <p>Si plus loin lors de la compilation (make) de KlamAV, vous avez le message suivant (ou un message approchant), c'est que cette étape n'a pas été réalisée, ou a été mal réalisée: <span class="Code">/bin/sh scripts/basic/fixdep: File not found</span>.</p>
 <p>Vous devrez ensuite configurer <i>Module.symvers</i>, absent des sources par défaut:<br />
-<span class="Code"><br />
+
+{%highlight bash %}
 cp /boot/symvers-2.6.13-15-i386-default.gz /usr/src/linux<br />
 mv symvers-2.6.13-15-i386-default.gz Module.symvers.gz<br />
 gunzip /usr/src/linux/Module.symvers.gz<br />
 make modules_prepare<br />
-</span></p>
+{% endhighlight %}
+
 <p>Si plus loin lors de la compilation (make) de KlamAV, vous avez le message suivant (ou un message approchant), c'est que cette étape n'a pas été réalisée, ou a été mal réalisée: <span class="Code">/bin/sh scripts/modules/Module.symvers: File not found</span>.</p>
 <p>C'est terminé pour Dazuko. Si vous avez décidé d'installer Dazuko et KlamAV séparément, sans utiliser "l'installer" de KlamAV, vous pouvez dors et déjà installer Dazuko. En revanche, si vous suivez à la lettre cet article, attendez un peu, il nous reste quelques petites choses à régler avant de lancer l'installation conjointe des deux éléments.</p>
 <h2>Quatrième étape: préparation de l'installation de KlamAV</h2>

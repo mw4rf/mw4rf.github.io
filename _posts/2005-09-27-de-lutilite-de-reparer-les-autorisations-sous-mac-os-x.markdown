@@ -83,7 +83,7 @@ On peut également lire que réparer les autorisations sur un volume externe peu
 <td>D'ailleurs, l'utilitaire de disque de Mac OS X l'explique très bien...</td>
 </tr>
 <tr>
-<td><img alt="Utilitaire de disque" src="http://blog.gfblog.com/images/autorisations/utildisque.png" /></td>
+<td><img alt="Utilitaire de disque" src="/public/posts/2005-09-27-autorisations/utildisque.png" /></td>
 </tr>
 </table>
 <p>

@@ -27,7 +27,7 @@ tags:
 La dernière version du système d'exploitation Apple, Mac OS 10.4 "Tiger", intègre un logiciel assez intéressant: Dashboard. Une pression sur la touche F12 du clavier, et un écran rempli de gadgets (appelés "widgets") se superpose au bureau.</p>
 <p>
 <center><br />
-<img alt="dashboard" src="http://blog.gfblog.com/images/widgets/dashboard.png" /><br />
+<img alt="dashboard" src="/public/posts/2005-10-08-widgets/dashboard.png" /><br />
 </center></p>
 <p>
 Ces petits machins c'est très utile ! Non... en fait c'est totalement superflu. En plus ça bouffe plein de mémoire et de ressources processeur. Bref, il ne vaudrait mieux ne pas les utiliser. Mais là n'est pas la question.</p>
@@ -39,33 +39,36 @@ D'ailleurs, si tous les widgets ne sont pas gratuits, ils sont tous open-source 
 Il faut d'abord ouvrir le "paquet" que constitue le widget. Pour cela, il faut se rendre dans le répertoire des widgets (<span class="Code">Macintosh HD/Utilisateurs/votre_nom/Bibliothèque/Widgets/</span>), cliquer-droit sur l'icône du widget, et choix de l'option <em>Afficher le contenu du paquet</em>.</p>
 <p>
 <center><br />
-<img alt="dashboard" src="http://blog.gfblog.com/images/widgets/widget1.png" /><br />
+<img alt="dashboard" src="/public/posts/2005-10-08-widgets/widget1.png" /><br />
 </center></p>
 <p>
 Trouvez ensuite le fichier <span class="Code">nom_du_widget.js</span>. Ouvrez ce fichier dans un éditeur de texte (<a href="http://www.barebones.com/products/bbedit/index.shtml">BBEdit</a>, <a href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a>, etc.).</p>
 <p>
 La structure du fichier est la suivante:<br />
-<span class="Code"><br />
-function ma_fonction_1()<br />
-{<br />
-... ici, plein de trucs (pas) très compliqués ;-) ...<br />
-}<br />
-</span><br />
-<span class="Code"><br />
-function ma_fonction_2()<br />
-{<br />
-... ici également, plein de trucs tout aussi (pas) compliqués ;-) ...<br />
-}<br />
-</span></p>
+
+{% highlight java %}
+function ma_fonction_1()
+{
+... ici, plein de trucs (pas) très compliqués ;-) ...
+}
+
+function ma_fonction_2()
+{
+... ici également, plein de trucs tout aussi (pas) compliqués ;-) ...
+}
+{% endhighlight %}
+
 <p>
 Cherchez (Pomme+F) la fonction qui gère la protection. Elle aura certainement un nom évocateur comme "register", "licence", "serial", "protection", etc. Encadrez la fonction par /* et */, de cette manière:</p>
 <p>
-<span class="Code"><br />
-/*<br />
-function ma_fonction_1()<br />
-{<br />
-}<br />
-*/<br />
-</span></p>
+
+{% highlight java %}
+/*
+function ma_fonction_1()
+{
+}
+*/
+{% endhighlight %}
+
 <p>
 Il ne vous reste plus qu'à tester le widget. Si la protection n'est pas plus élaborée que celle décrite ci-dessus, ça fonctionnera parfaitement. Sinon, sachez qu'il est toujours possible de casser cette protection, mais qu'il vous faudra pour cela une meilleure connaissance du JavaScript.</p>

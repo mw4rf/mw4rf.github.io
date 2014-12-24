@@ -49,7 +49,7 @@ Nous allons procéder par étapes:</p>
 <li /><b>Bonus - <i>Paramétrer Dreamweaver pour utiliser PHP et MySQL</i></b>: Bien que, à mon sens, le développement sous Dreamweaver ne présente pas de gros avantages par rapport à un développement BBEdit/Navigateur, je pense que bon nombre de personnes seront intéressées de savoir comment le paramétrer pour l'utiliser avec la configuration issue des explications de cet article.
 </ul></p>
 <p>
-Vous pouvez vous reporter à <a href="http://www.valhalla.fr/index.php/2005/09/25/construire-une-base-de-donnees-simple-avec-php-et-mysql/">cet article</a> pour la théorie concernant le fonctionnement général et le rôle d'Apache, PHP et MySQL.</p>
+Vous pouvez vous reporter à <a href="{% post_url 2005-09-25-construire-une-base-de-donnees-simple-avec-php-et-mysql %}">cet article</a> pour la théorie concernant le fonctionnement général et le rôle d'Apache, PHP et MySQL.</p>
 <h1>Etape #1 - Rassembler les éléments nécessaires</h1>
 <p>Voilà ce qu'il nous faut:</p>
 <ul>
@@ -73,11 +73,11 @@ Le serveur Apache est intégré à Mac OS X. Il vous suffit de l'activer. Pour c
 </ul>
 <p><center><br />
 <i>Image 1</i><br />
-<img alt="Image 1" src="http://www.valhalla.fr/images/phpmysql/phpmysql1.png" /><br />
+<img alt="Image 1" src="/public/posts/2005-10-21-phpmysql/phpmysql1.png" /><br />
 </center></p>
 <p><center><br />
 <i>Image 2</i><br />
-<img alt="Image 2" src="http://www.valhalla.fr/images/phpmysql/phpmysql2.png" /><br />
+<img alt="Image 2" src="/public/posts/2005-10-21-phpmysql/phpmysql2.png" /><br />
 </center></p>
 <h1>Etape #3 - Activer le support de PHP sous Apache</h1>
 <p>
@@ -193,11 +193,11 @@ Rendez-vous ensuite dans les <b>Préférences système</b> dans le <b>menu Pomme
 Cliquez sur l'icône <b>MySQL</b> <i>(Image 3)</i> pour afficher le panneau de préférences correspondant à MySQL <i>(Image 4)</i>.</p>
 <p><center><br />
 <i>Image 3</i><br />
-<img alt="Image 3" src="http://www.valhalla.fr/images/phpmysql/phpmysql3.png" /><br />
+<img alt="Image 3" src="/public/posts/2005-10-21-phpmysql/phpmysql3.png" /><br />
 </center></p>
 <p><center><br />
 <i>Image 4</i><br />
-<img alt="Image 4" src="http://www.valhalla.fr/images/phpmysql/phpmysql4.png" /><br />
+<img alt="Image 4" src="/public/posts/2005-10-21-phpmysql/phpmysql4.png" /><br />
 </center></p>
 <p>
 Dans le panneau de préférences de MySQL <i>(Image 4, ci-dessus)</i>,</p>

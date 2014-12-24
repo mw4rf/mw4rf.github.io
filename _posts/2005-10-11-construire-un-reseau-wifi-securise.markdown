@@ -83,19 +83,19 @@ Pour ce cas d'école, je vais reproduire un schéma simple: une LiveBox connect�
 <p>
 <center><br />
 Voici le schéma de ce réseau: <br />
-<img alt="Réseau Wifi sécurisé" src="/images/wifi/wifi_schema.png" /><br />
+<img alt="Réseau Wifi sécurisé" src="/public/posts/2005-10-11-wifi/wifi_schema.png" /><br />
 </center></p>
 <p>
 La première chose à faire est de désactiver le réseau Wifi sur la LiveBox (car elle fait tout mal... c'est un vrai désastre ce truc). Pour cela, tapez l'adresse <span class="Code">http://192.168.1.1/</span> dans votre navigateur, puis identifiez vous. Vous accèderez à la page d'accueil du logiciel d'administration de la LiveBox. Cliquez sur <em>Réseau sans fil</em> dans le menu principal (1). Cliquez ensuite sur le bouton <em>Désactiver</em> qui se transformera en <em>Activer</em> immédiatement après cela (2). L'état de la diffusion Wifi de la LiveBox devrait maintenant être passé à <em>désactivé</em> (3).</p>
 <p>
 <center><br />
-<img alt="Réseau Wifi sécurisé" src="/images/wifi/wifi0.png" /><br />
+<img alt="Réseau Wifi sécurisé" src="/public/posts/2005-10-11-wifi/wifi0.png" /><br />
 </center></p>
 <p>
 Branchez la première borne Airport à la LiveBox par Ethernet (cable droit), en utilisant la prise rouge. Installez également la seconde borne Airport, qui ne sera pour l'instant connectée à aucun appareil. Lancez l'<em>Utilitaire Admin Airport</em> situé dans <span class="Code">Application/Utilitaires</span> sur Mac ou dans le menu démarrer de Windows, après installation des drivers fournis sur le CD allant avec la borne Airport. Vous devriez voir les deux bornes dans la liste, avec leurs noms d'origine: <em>Base Station XXXX</em>. Dans l'image ci-dessous, les noms originaux ont été changés.</p>
 <p>
 <center><br />
-<img alt="Réseau Wifi sécurisé" src="/images/wifi/wifi1.png" /><br />
+<img alt="Réseau Wifi sécurisé" src="/public/posts/2005-10-11-wifi/wifi1.png" /><br />
 </center></p>
 <table border="0">
 <tr>
@@ -112,18 +112,18 @@ Sélectionnez la borne branchée à la Livebox et paramétrez là ainsi:<br />
 <li /><b>Réseau: Options sans fil</b>: pour paramétrer le portée de la borne.
 </ul>
 </td>
-<td align="center"><a href="/images/wifi/wifi2.png"><br />
-<img alt="Réseau Wifi sécurisé" src="/images/wifi/_wifi2.png" /><br />
+<td align="center"><a href="/public/posts/2005-10-11-wifi/wifi2.png"><br />
+<img alt="Réseau Wifi sécurisé" src="/public/posts/2005-10-11-wifi/_wifi2.png" /><br />
 </a></td>
 </tr>
 <tr>
-<td align="center"><a href="/images/wifi/wifi3.png"><br />
-<img alt="Réseau Wifi sécurisé" src="/images/wifi/_wifi3.png" /><br />
+<td align="center"><a href="/public/posts/2005-10-11-wifi/wifi3.png"><br />
+<img alt="Réseau Wifi sécurisé" src="/public/posts/2005-10-11-wifi/_wifi3.png" /><br />
 </a></td>
 </tr>
 <tr>
-<td align="center"><a href="/images/wifi/wifi4.png"><br />
-<img alt="Réseau Wifi sécurisé" src="/images/wifi/_wifi4.png" /><br />
+<td align="center"><a href="/public/posts/2005-10-11-wifi/wifi4.png"><br />
+<img alt="Réseau Wifi sécurisé" src="/public/posts/2005-10-11-wifi/_wifi4.png" /><br />
 </a></td>
 </tr>
 </table>
@@ -131,16 +131,16 @@ Sélectionnez la borne branchée à la Livebox et paramétrez là ainsi:<br />
 Rendez vous ensuite sur l'onglet <em>Accès</em> et entrez les adresses MAC de vos différents ordinateurs comme montré dans l'image ci-dessous.<br />
 <br />
 <center><br />
-<a href="/images/wifi/wifi5.png"><br />
-<img alt="Réseau Wifi sécurisé" src="/images/wifi/_wifi5.png" /><br />
+<a href="/public/posts/2005-10-11-wifi/wifi5.png"><br />
+<img alt="Réseau Wifi sécurisé" src="/public/posts/2005-10-11-wifi/_wifi5.png" /><br />
 </a><br />
 </center></p>
 <p>
 Pour finir, rendez vous sur l'onglet <em>WDS</em>, activez la borne en tant que <em>borne principale</em>, permettez l'accès aux clients sans fil et cliquez sur le bouton " + " pour ajouter automatiquement votre seconde borne Airport (dont le nom est donné dans la liste des bornes disponibles, voir ci-dessus). Validez en cliquant sur "Mettre à jour" pour que vos deux bornes Airport se configurent et redémarrent.<br />
 <br />
 <center><br />
-<a href="/images/wifi/wifi6.png"><br />
-<img alt="Réseau Wifi sécurisé" src="/images/wifi/_wifi6.png" /><br />
+<a href="/public/posts/2005-10-11-wifi/wifi6.png"><br />
+<img alt="Réseau Wifi sécurisé" src="/public/posts/2005-10-11-wifi/_wifi6.png" /><br />
 </a><br />
 </center></p>
 <p>
