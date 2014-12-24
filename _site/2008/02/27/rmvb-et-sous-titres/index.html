@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <title>RMVB et sous-titres</title>
+  <meta name="description" content="On trouve tous les formats de vidéo sur Internet, certains sont très répandus, d'autres moins. Le plus répandu est certainement le format AVI, utilisant un c...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://127.0.0.1:4000//2008/02/27/rmvb-et-sous-titres/">
+  <link rel="alternate" type="application/atom+xml" title="Valhalla.fr" href="http://127.0.0.1:4000//feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Valhalla.fr</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about.html">A propos</a>
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/outils/index.html">Outils</a>
+          
+        
+          
+          <a class="page-link" href="/references/index.html">Références</a>
+          
+        
+          
+          <a class="page-link" href="/java/index.html">Java</a>
+          
+        
+          
+          <a class="page-link" href="/articles-essentiels/index.html">Articles essentiels</a>
+          
+        
+          
+          <a class="page-link" href="/archives/index.html">Archives</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">RMVB et sous-titres</h1>
+    <p class="post-meta">Feb 27, 2008 • {"display_name"=>"GF", "login"=>"gflorimond", "email"=>"gf@valhalla.fr", "url"=>"http://www.valhalla.fr"}</p>
+  </header>
+
+  <article class="post-content">
+    <p>On trouve tous les formats de vidéo sur Internet, certains sont très répandus, d'autres moins. Le plus répandu est certainement le format AVI, utilisant un codec DivX ou Xvid. A l'autre extrémité, le format RMVB (RealPlayer Media Files) est très peu souvent utilisé. Et pour cause... c'est un format dont la compatibilité laisse à désirer et qui souffre de terribles lacunes. Ainsi, il ne gère pas les sous-titres et seul le lecteur Real Media le reconnaît. En possession d'un fichier RMVB accompagné de sous-titres, j'ai recherché comment jouer la vidéo avec ces sous-titres. Voici le récit de l'aventure.</p>
+<p><a id="more"></a><a id="more-137"></a></p>
+<p>Il faut le dire dès à présent : ce format RMV est vraiment pitoyable. Une vidéo qui n'est même pas protégée par un DRM est très difficilement lisible avec d'autres logiciels que le lecteur Real. Les gens qui créent des fichiers RMVB devraient sérieusement envisager d'utiliser un autre format, facilement lisible sur différentes plateformes. Si la vidéo est destinée à être sous-titrée, alors il faut abandonner l'idée d'utiliser le format RMVB. En dehors du format AVI, point de solution satisfaisante.</p>
+<p>Il existe pourtant une solution, qui n'a pas été facile à trouver. Elle est assez complexe mais elle permet, <i>in fine</i>, de lire les sous-titres en même temps que la vidéo. Pour parvenir à cela, j'ai essayé plusieurs méthodes.</p>
+<h2>Premier essai : Lecture</h2>
+<p>La première chose qui vient à l'esprit est d'essayer de lire le fichier avec différents logiciels prévus pour cela. Sur Mac, VLC (http://www.videolan.org) et MPlayer (http://www.mplayerhq.hu/) sont les deux meilleurs lecteurs. Malheureusement, aucun de ces deux logiciels ne permet de lire les fichiers RMVB (en l'occurrence, version 10 du codec). MPlayer permet tout juste de lire els versions 1 à 4 du codec, c'est-à-dire les fichiers RM. Il faudra parfois ruser et installer des bibliothèques externes pour lire ces fichiers. En ce qui concerne VLC, ce dernier n'est même pas capable de lire les vieux fichiers RM.</p>
+<p>Les deux logiciels sont donc totalement incapables de lire les fichiers RMVB. Il faut chercher ailleurs. Après une brève investigation, j'ai renoncé à chercher une alternative au lecteur Real.</p>
+<h2>Deuxième essai : Documentation</h2>
+<p>Soit, partons sur le lecteur Real. Après tout, peut-être permettra-t-il de lire les sous-titres ? Et bien non. Il ne le permet pas. Ce n'est pas faute d'avoir cherché de la documentation sur le Web : il n'y a aucune possibilité en ce qui concerne les fichiers RMVB. La seule possibilité passe par un plug-in pour Windows qui exige des fichiers AVI. C'est bien évident : lorsqu'on a un fichier AVI, on n'essaie pas de le lire avec Real Player... Ce logiciel, en plus d'être horriblement lourd et mal fait, ne permet même pas de lire les fichiers SRT. Quelle honte ! Vraiment, ce format Real et le lecteur associé sont de véritables plaies !</p>
+<h2>Troisième essai : Conversion</h2>
+<p>Résumons nous : il est impossible de lire un fichier RMVB dans un autre lecteur que le lecteur Real et celui-ci ne gère pas les sous-titres au format SRT. Que faire ? Il reste l'option de convertir le fichier récalcitrant dans un autre format, AVI par exemple, qui pourra être lu par un lecteur décent gérant les sous-titres.</p>
+<p>Pour convertir une vidéo sous Mac, il n'y a pas 36 solutions. Ou bien la vidéo est lisible par QuickTime et elle pourra être convertie dans de nombreux formats, ou elle ne l'est pas et il devient nécessaire de recourir à un logiciel tiers. Bien évidemment, les fichiers RMVB ne sont pas lisibles par QuickTime. J'ai donc tenté d'utiliser, sans succès, VisualHub (http://www.techspansion.com/visualhub/) et ffmpegx (http://homepage.mac.com/major4/fr/) qui sont les deux meilleurs logiciels de conversion pour Mac.</p>
+<p>Dans les deux cas, la conversion a échoué. Ces logiciels basés sur de puissants outils Unix sont incapables de convertir une vidéo RMVB, codec version 10.</p>
+<h2>Quatrième essai : Bidouillage</h2>
+<p>Aucune des solutions "propres" n'ayant fonctionné, j'ai dû me replier sur une solution bien moins élégante. La vidéo n'est pas lisible en plein écran et deux logiciels de lecture vidéo doivent être lancés en même temps, ce qui exige un ordinateur relativement puissant. A part cela, j'ai réussi à avoir vidéo et sous-titres.</p>
+<p>1) La première étape est la création d'une vidéo qui diffuse en boucle un écran noir. Il y a plusieurs manières de faire cela, mais celle qui passe par QuickTime est certainement la plus facile. </p>
+<p>On commence par extraire une image noire sur 1 ou 2 secondes. Si vous avez une vidéo qui présente une telle image noire sur une durée d'au moins 1 seconde, utilisez-la (en général, au début ou à la fin de la vidéo). Sinon, vous pouvez capturer une courte séquence avec SnapzProX et l'enregistrer au format MOV.</p>
+<p>Placez le curseurs de la barre de progression de QuickTime au début et à la fin de la séquence noire à extraire. Copiez ensuite cette séquence (Commande+C), créer une nouvelle vidéo QT (Commande+N) et collez la sélection (Commande+V). Collez-la à nouveau plusieurs fois, jusqu'à avoir un total d'une dizaine de secondes de vidéo. Sélectionnez tout (Commande+A), copiez (Commande+C) et collez (Commande+V) plusieurs fois. Répétez plusieurs fois l'opération jusqu'à ce que la vidéo soit assez longue (sa durée doit être au moins égale à celle de la vidéo RMVB).</p>
+<p><center><a href="http://www.flickr.com/photos/valhallafr/2296768636/" title="Image 2 de GF @ valhalla.fr, sur Flickr"><img src="http://farm4.static.flickr.com/3241/2296768636_6d67806efa_o.png" width="354" height="156" alt="Image 2" /></a></center></p>
+<p>2) Une fois la vidéo "noire" créée, exportez la au format AVI. Vous pouvez l'exporter depuis QuickTime (Fichier&gt;Exporter) ou enregistrer un fichier MOV (Fichier&gt;Enregistrer sous...) et le convertir avec VisualHub ou ffmpegx.</p>
+<p>3) Donnez le même nom à votre vidéo noire et au fichier SRT contenant les sous-titres, et placez les deux fichiers dans le même répertoire. Par exemple "Video-soustitres.avi" et "Video-soustitres.srt". Ouvrez ensuite le fichier AVI que vous venez de créer dans VLC, Mplayer ou QuickTime (ce dernier, sous réserve d'utiliser Perian - http://perian.org/).</p>
+<p>4) Ouvrez votre fichier RMV dans le lecteur Real et arrangez les deux fenêtres de manière à avoir la vidéo RMVB en haut et la vidéo noire avec sous-titres juste en dessous. Ce n'est pas très beau, ce n'est pas très pratique, mais ça fonctionne !</p>
+<p><center><a href="http://www.flickr.com/photos/valhallafr/2296763256/" title="Image 1 de GF @ valhalla.fr, sur Flickr"><img src="http://farm4.static.flickr.com/3294/2296763256_c0229d8812.jpg" width="500" height="413" alt="Image 1" /></a></center></p>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Valhalla.fr</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>Valhalla.fr</li>
+          <li><a href="mailto:your-email@domain.com">your-email@domain.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/mw4rf">
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+                </svg>
+              </span>
+
+              <span class="username">mw4rf</span>
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/jekyllrb">
+              <span class="icon  icon--twitter">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+                </svg>
+              </span>
+
+              <span class="username">jekyllrb</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">Ad Absurdum</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

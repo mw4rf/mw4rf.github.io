@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <title>Convertir un blog Wordpress en UTF-8</title>
+  <meta name="description" content="L'encodage d'un site utilisant un logiciel de publication stockant le contenu des pages dans une base de données, comme le font les logiciels de blog, de for...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://127.0.0.1:4000//2010/03/20/convertir-blog-wordpress-utf8/">
+  <link rel="alternate" type="application/atom+xml" title="Valhalla.fr" href="http://127.0.0.1:4000//feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Valhalla.fr</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about.html">A propos</a>
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/outils/index.html">Outils</a>
+          
+        
+          
+          <a class="page-link" href="/references/index.html">Références</a>
+          
+        
+          
+          <a class="page-link" href="/java/index.html">Java</a>
+          
+        
+          
+          <a class="page-link" href="/articles-essentiels/index.html">Articles essentiels</a>
+          
+        
+          
+          <a class="page-link" href="/archives/index.html">Archives</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Convertir un blog Wordpress en UTF-8</h1>
+    <p class="post-meta">Mar 20, 2010 • {"display_name"=>"GF", "login"=>"gflorimond", "email"=>"gf@valhalla.fr", "url"=>"http://www.valhalla.fr"}</p>
+  </header>
+
+  <article class="post-content">
+    <p>L'encodage d'un site utilisant un logiciel de publication stockant le contenu des pages dans une base de données, comme le font les logiciels de blog, de forum ou de CMS, est une chose importante et <a href="http://www.valhalla.fr/2005/10/06/un-probleme-dencodage-peut-etre/">susceptible de créer bien des soucis</a> au Webmaster. Les premières versions du célèbre logiciel de blog Wordpress, qui est par ailleurs utilisé pour éditer ce site, utilisaient le charset Latin1 (norme ISO-8859-1), conçu pour afficher toutes les lettres de l'alphabet latin, ainsi que certains caractères accentués (é, ê, ù, à...) et spéciaux (ç, œ, ñ, ß...). Mais l'internationalisation du Web a peu à peu engendré la nécessité d'un charset plus large que le Latin1, prenant en charge plus de caractères. C'est ainsi que Wordpress, comme la plupart des logiciels CMS, de forum ou de blog, a remplacé Latin1 par UTF-8 comme charset par défaut. Ce changement ne pose bien évidemment aucun problème pour les blogs créés postérieurement, toute la mécanique de l'encodage étant transparente pour l'utilisateur. Toutefois, UTF-8 étant incompatible avec le charset Latin1 -- c'est-à-dire qu'il prend en charge de manière différente des caractères accentués utilisés par les deux charsets --, les sites créés en Latin1 doivent faire l'objet de certaines modifications afin de pouvoir être affichés en UTF-8. Cet article a pour but de présenter les modifications qui doivent être apportées à un site utilisant Wordpress, afin de remplacer Latin1 par UTF-8 comme encodage par défaut.</p>
+<p><a id="more"></a><a id="more-456"></a></p>
+<blockquote>
+<p>Pourquoi modifier l'encodage de son site, au profit de l'UTF-8 ?</p>
+<p>Il est nécessaire de répondre à cette question avant d'expliquer la procédure de modification. Disons le d'emblée : celui qui se pose la question doit en principe connaître la réponse. S'il ne la connaît pas, c'est qu'il n'a pas de réelle raison d'opter pour UTF-8, et qu'il peut laisser son site en Latin1. Voyons toutefois les deux avantages de l'UTF-8.</p>
+<p>En premier lieu, l'UTF-8 gère plus de caractères que le Latin1. Pour les sites du Web 2.0, qui invitent des internautes partout dans le monde à apporter du contenu, c'est permettre à un plus grand nombre de personnes d'écrire dans leur langue, avec leur alphabet.</p>
+<p>En second lieu, et c'est là le point essentiel, la plupart des sites et des logiciels utilisent désormais par défaut l'UTF-8. Il en va donc de même des extensions, des thèmes, et des plug-in développés pour ces logiciels. Par exemple, la traduction officielle de Wordpress en français est encodée en UTF-8, et n'est donc utilisable que sur les sites utilisant le charset UTF-8. Utiliser la traduction française de Wordpress en UTF-8 sur un site dont le charset est Latin1 génère nombre d'erreurs dans l'affichage des pages (les caractères accentués ne sont pas affichés correctement). Il en va de même pour de nombreuses extensions qui ont pour but de rapatrier ou d'agréger du contenu extérieur au site : un add-on Twitter ou RSS, par exemple. Enfin, la plupart des API AJAX utilisent par défaut l'UTF-8. Le contenu récupéré depuis la base de données de manière asynchrone sera donc mal affiché, à moins d'être explicitement converti en Latin1.</p>
+<p>Pour l'ensemble de ces raisons, il est préférable d'utiliser le charset UTF-8, qui devient peu à peu la norme sur le Web.</p>
+</blockquote>
+<p>La modification globale de l'encodage d'un site nécessite plusieurs interventions, à plusieurs niveaux, sur ce site. On peut voir cela comme une chaîne, composée de quatre maillons : la base de données, le contenu des tables, le logiciel de blog, le site. S'il manque un des maillons, des erreurs d'affichage se produiront. Voyons donc les quatre maillons, en détails, pour Wordpress.</p>
+<h2>Premier maillon : la base de données</h2>
+<p>L'encodage utilisé par le serveur de base de données est une contrainte à prendre en compte lors de l'installation d'un logiciel d'édition Web. L'hébergeur du domaine Valhalla.fr, par exemple, avait paramétré le serveur MySQL 4 pour utiliser le charset Latin1 par défaut, lors de la mise en place de ce site sous Wordpress. Aujourd'hui, la version de production est MySQL 5, et l'encodage par défaut est UTF-8.</p>
+<p>Il existe plusieurs manières de connaître l'encodage utilisé par défaut par MySQL, et l'encodage utilisé pour chacune des tables d'une base de données. Le plus simple, avec un hébergement mutualisé, est de se rendre sur la page d'accueil de phpMyAdmin -- celui-ci est habituellement fourni par l'hébergeur, mais il est généralement possible de l'installer soi-même sur le serveur--.</p>
+<p>Avec un accès SSH au serveur, la commande <code>SHOW TABLE STATUS nom_de_la_base;</code> <a href="http://dev.mysql.com/doc/refman/5.0/fr/show-table-status.html">[cf. documentation]</a> permet d'afficher le charset de chacune des tables d'une base de données, sous cette forme :</p>
+<p><code>wp_posts |MyISAM| 10 |Dynamic | 439 | 16576 | 7276888 | 281474976710655 | 45056 | 0 | 454 | 2010-03-20 12:48:04 | 2010-03-20 12:48:05 | 2010-03-20 12:48:05 | <u>latin1_swedish_ci</u> |</code></p>
+<p>Pour commencer, il est toujours bon de créer une sauvegarde des données, et de travailler sur la sauvegarde plutôt que sur les données originales. Pour créer une sauvegarde, on peut utiliser 1) la ligne de commande, si l'on a un accès SSH au serveur ; 2) un logiciel client ; 3) un logiciel en ligne comme phpMyAdmin.</p>
+<blockquote>
+<p>L'utilisation de la ligne de commande est souvent la meilleure solution. Elle nécessite toutefois un accès SSH au serveur, cet celui-ci est rarement fourni dans le cadre d'un hébergement mutualisé. Pour sauvegarde la base de données en ligne de commande, on utilisera l'instruction suivante :</p>
+<p><code>mysqldump --opt -u nom_dutilisateur -p nom_de_la_base &gt; ma_sauvegarde.sql</code></p>
+<p>A défaut d'un accès SSH, on peut utiliser un logiciel client. <a href="http://www.navicat.com/">Navicat</a> (Windows/Mac/Linux) est connu pour son efficacité, tout comme <a href="http://www.sqlmanager.net/products/mysql/manager/">EMS SQL manager</a> et <a href="http://www.webyog.com/en/">SQLYog</a> (Windows-only). Il en existe également des gratuits, tel que <a href="http://www.sequelpro.com/">Sequel Pro</a> (Mac), Toad (Windows) ou encore <a href="http://dev.mysql.com/downloads/gui-tools/5.0.html">ceux fournis par MySQL</a> (Windows/Mac/Linux).</p>
+<p>Enfin, s'il est impossible de contacter le serveur MySQL depuis le réseau, on utilisera <a href="http://www.phpmyadmin.net/">phpMyAdmin</a> ou un logiciel local équivalent. Ce n'est toutefois pas la meilleure solution, car elle impose de scinder la sauvegarde en plusieurs fichiers.</p>
+</blockquote>
+<p>Une fois la base de données sauvegardée dans un fichier .sql, il faut éditer ce fichier, dans un éditeur de texte brut (NotePad sous Windows, TextEdit sous Mac, par exemple) et remplacer <code>DEFAULT CHARSET = latin1</code> par <code>DEFAULT CHARSET = utf8</code> dans tout le fichier. Ceci n'est pas à faire manuellement, mais en utilisant la fonction <i>Rechercher et remplacer</i> de l'éditeur de texte.</p>
+<p>Reste à créer une nouvelle base de données vide, en spécifiant lors de la création qu'elle doit utiliser le charset UTF-8. Cela est possible avec les logiciels précités, ou en ligne de commande avec l'instruction suivante :</p>
+<p><code>CREATE DATABASE ma_nouvelle_base DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;</code></p>
+<p>La nouvelle base étant créée, il reste à injecter les données provenant de la sauvegarde -- c'est-à-dire le fichier .sql modifié à l'étape précédente. Encore une fois, on utilisera l'un ou l'autre des logiciels précités, ou la commande suivante, si l'accès SSH au serveur de base de données est possible :</p>
+<p><code>mysql -u nom_dutilisateur -p ma_nouvelle_base &lt; ma_sauvegarde.sql</code></p>
+<h2>Deuxième maillon : le contenu des tables</h2>
+<p>Il existe plusieurs manières de modifier le contenu des tables. Ouvrir le fichier de sauvegarde et modifier son encodage dans un éditeur de texte ne sera généralement pas suffisant.</p>
+<p>La première manière est d'utiliser la fonction PHP iconv() sur le texte du fichier de sauvegarde :</p>
+<p><code>iconv -f iso-8859-1 -t utf8 ma_sauvegarde_latin1.sql &gt; ma_sauvegarde_utf8.sql</code></p>
+<p>On peut également utiliser un script qui remplace les caractères un par un dans le fichier :</p>
+<p><code>&lt;?php<br />
+$source = file_get_contents('ma_sauvegarde_latin1.sql');<br />
+$destination = fopen('ma_sauvegarde_utf8.sql','wb');<br />
+fwrite($destination, "\xEF\xBB\xBF".utf8_encode($source));<br />
+fclose($destination);<br />
+?&gt;</code></p>
+<p>Après avoir modifié le fichier, on restaurera la sauvegarde dans la nouvelle base créée, comme indiqué ci-avant. La troisième solution est la plus élégante. Contrairement aux deux autres, elle doit être mise en oeuvre après l'insertion de la sauvegarde dans la base de données. Il s'agit de demander à MySQL (à partir de la version 5 seulement) d'opérer la conversion, grâce à l'instruction suivante :</p>
+<p><code>ALTER TABLE ma_table CONVERT TO CHARACTER SET utf8;</code></p>
+<p>Cette instruction peut être exécutée avec les logiciels précités, depuis n'importe quel script sur le serveur ou par la ligne de commande. Elle devra bien entendu être répétée pour chacune des tables de la base de données :</p>
+<p><code>ALTER TABLE wp_comments CONVERT TO CHARACTER SET utf8;<br />
+ALTER TABLE wp_commentmeta CONVERT TO CHARACTER SET utf8;<br />
+ALTER TABLE wp_links CONVERT TO CHARACTER SET utf8;<br />
+ALTER TABLE wp_options CONVERT TO CHARACTER SET utf8;<br />
+ALTER TABLE wp_postmeta CONVERT TO CHARACTER SET utf8;<br />
+ALTER TABLE wp_term_relationships CONVERT TO CHARACTER SET utf8;<br />
+ALTER TABLE wp_term_taxonomy CONVERT TO CHARACTER SET utf8;<br />
+ALTER TABLE wp_terms CONVERT TO CHARACTER SET utf8;<br />
+ALTER TABLE wp_users CONVERT TO CHARACTER SET utf8;<br />
+ALTER TABLE wp_usermeta CONVERT TO CHARACTER SET utf8;<br />
+ALTER TABLE wp_posts CONVERT TO CHARACTER SET utf8;</code></p>
+<h2>Troisième maillon : le logiciel</h2>
+<p>Certains logiciels indiquent <i>en dur</i>, dans leurs fichiers de configuration, l'encodage utilisé. C'est le cas de Wordpress. Le fichier à éditer porte le nom de <code>wp-config.php</code> ; il se situe à la racine du répertoire d'installation de Wordpress.</p>
+<p>Pour modifier l'encodage, il faut modifier --ou rajouter, le cas échéant-- la ligne suivante (en début de fichier) :</p>
+<p><code>define('DB_CHARSET', 'utf8');</code></p>
+<p>Il faudra aussi, le cas échéant, demander à Wordpress d'utiliser les données de la nouvelle base, encodée en UTF-8 :</p>
+<p><code>define('DB_NAME', 'ma_nouvelle_base_en_utf8');</code></p>
+<h2>Quatrième maillon : le site</h2>
+<p>Les pages générées par Wordpress (et par tous les autres logiciels d'édition) indiquent au navigateur du lecteur quel charset utiliser pour un affichage correct. Cette indication se situe dans l'en-tête du code HTML généré (pour le voir : clic-droit dans la page, et affichage du code source) :</p>
+<p><code>&lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /&gt;</code></p>
+<p>Pour que Wordpress utilise UTF-8 dans cette instruction, il faut modifier la valeur de l'encodage dans l'interface d'administration de son site (mon_site/wp-admin), section <i><b>Settings</b></i> (Configuration), sous-section <i><b>Reading</b></i> (Lecture).<br />[L'adresse directe est la suivante : http://mon_site/wp-admin/options-reading.php].</p>
+<p>Et voilà ! Après toutes ces opérations, qui peuvent rapidement se révéler un parcours du combattant, le site devrait s'afficher en UTF-8, avec tous les caractères spéciaux et accentués.</p>
+<p>
+à Montpellier, le 20 mars 2010</p>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Valhalla.fr</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>Valhalla.fr</li>
+          <li><a href="mailto:your-email@domain.com">your-email@domain.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/mw4rf">
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+                </svg>
+              </span>
+
+              <span class="username">mw4rf</span>
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/jekyllrb">
+              <span class="icon  icon--twitter">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+                </svg>
+              </span>
+
+              <span class="username">jekyllrb</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">Ad Absurdum</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

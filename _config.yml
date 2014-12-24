@@ -13,3 +13,6 @@ markdown: kramdown
 # Pagination
 paginate: 5
 paginate_path: "/archives/:num"
+
+# Permalinks
+permalink:     /:year/:month/:day/:title/
