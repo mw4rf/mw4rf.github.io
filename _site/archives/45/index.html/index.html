@@ -1,0 +1,2091 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <title>Valhalla.fr</title>
+  <meta name="description" content="Ad Absurdum">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://127.0.0.1:4000//archives/45//">
+  <link rel="alternate" type="application/atom+xml" title="Valhalla.fr" href="http://127.0.0.1:4000//feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Valhalla.fr</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/liens/index.html">Liens</a>
+          
+        
+          
+          <a class="page-link" href="/dockit/index.html">DockIt!</a>
+          
+        
+          
+          <a class="page-link" href="/articles-essentiels/index.html">Articles essentiels</a>
+          
+        
+          
+          <a class="page-link" href="/a-propos/index.html">A propos</a>
+          
+        
+          
+          <a class="page-link" href="/themes/index.html">Thèmes</a>
+          
+        
+          
+          <a class="page-link" href="/references/index.html">Références</a>
+          
+        
+          
+          <a class="page-link" href="/top-10/index.html">Top 10</a>
+          
+        
+          
+          <a class="page-link" href="/archives/index.html">Archives de la revue</a>
+          
+        
+          
+          <a class="page-link" href="/outils/index.html">Outils</a>
+          
+        
+          
+          <a class="page-link" href="/cours-java/index.html">Cours Java</a>
+          
+        
+          
+          <a class="page-link" href="/liste/index.html">Liste des articles</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="home">
+
+  <!-- This loops through the paginated posts -->
+  
+    <h1><a href="/mac/2005/09/27/de-lutilite-de-reparer-les-autorisations-sous-mac-os-x.html">De l'utilité de réparer les autorisations sous Mac OS X</a></h1>
+    <p class="author">
+      <span class="date">2005-09-27 22:46:44 +0200</span>
+    </p>
+    <div class="content">
+      <p>
+Mac OS X est un système très robuste, basé sur un coeur (kernel) dérivé des systèmes BSD: Darwin. C'est même certainement -au sens véritable du terme- le système le plus robuste et le plus sécurisé accessible au grand public. Néanmoins puisqu'il est possible, comme sous tout système d'exploitation qui se respecte, d'installer de nombreuses applications qui modifient plus ou moins la configuration logicielle système, Mac OS X n'est pas totalement à l'abris des dysfonctionnements. Pour corriger ces dysfonctionnements et restaurer l'état du système, il existe de nombreux moyens qui tendent tous plus ou moins à la même chose: revenir à l'état d'avant la modification entraînant le dysfonctionnement. Un de ces moyens s'appelle la <em>réparation des autorisations</em>.</p>
+<p>
+Dans tous les sites internet d'aide à l'utilisation du Mac, sur tous les forums et dans toute la presse Mac, le premier conseil que l'on donne lorsqu'un comportement anormal du système ou d'une application est détecté est de réparer les autorisations. C'est une aberration. Un mauvais conseil qui s'est bien trop vite répandu, véhiculé par des gens qui ne savent définitivement pas de quoi ils parlent. Dans 99% des cas, réparer les autorisations ne résoudra pas le problème.</p>
+<p>
+Je vous propose de découvrir dans cet article les raisons pour lesquelles la réparation des autorisations n'est pas un remède miracle. Je vous propose également de comprendre dans quels cas la réparation des autorisations est efficiente, et dans quels cas elle ne l'est pas. Je vais pour cela m'appuyer sur la trame de fond d'un excellent article de blog écrit en mai 2005 par Rosyna de l'équipe Unsanity.</p>
+<h3>Le pavé dans la marre</h3>
+<p>
+Comme l'explique Apple <strong>(*)</strong> dans un <a href="http://docs.info.apple.com/article.html?artnum=25751" target="_blank">article de sa Knowledge Base</a> dédié à l'utilitaire de disque, <u>la réparation des autorisations ne s'applique pas aux logiciels tierce-partie n'ayant pas été installés grâce à l'assistant d'installation Apple</u> (<i>Installer.app</i>). Elle ne s'applique donc pas aux logiciels installés par glisser-déposer (<i>drag&amp;drop</i>) à partir d'une image disque, et aux logiciels installés à partir d'un assistant d'installation non-Apple (par exemple, ceux d'Allume et de MindVision). La réparation des autorisations ne fonctionne donc que pour les logiciels installés grâce au logiciel d'installation Apple, dès lors que leur éditeur a prévu la création d'un reçu d'installation (<i>Receipt</i>) contenant les informations correctes relatives aux autorisations des fichiers copiés sur le disque lors de l'installation -- ce qui n'est pas forcément le cas. De la même manière, <u>la réparation automatique des autorisations n'a pas d'effet sur les fichiers personnels que l'utilisateur a créé ou importé sur son Mac</u>.</p>
+<blockquote><p>
+<strong>(*)</strong> Mise à jour : la page de la Knowledge Base Apple a été modifiée depuis la rédaction originale de cet article et explique désormais --à l'heure de Snow Leopard-- la situation de manière très claire : <i>« Utilitaire de disque vérifie-t-il les autorisations de tous les fichiers ? Non. Les fichiers qui ne sont pas installés par un paquet d’installation Apple ne sont pas répertoriés dans un reçu. Ils ne sont donc pas vérifiés »</i>. Cela est en parfait accord avec ce qui est expliqué ici.
+</p></blockquote>
+<p>
+La réparation des autorisations ne règlera pas votre problème dans la majorité des cas. Elle n'empêchera pas non plus des problèmes de survenir dans le futur. Elle ne sert à rien en tant qu'opération planifiée de maintenance. Vous pouvez quand même écouter les conseils prodigués sur les forums par des gens qui s'y connaissent plus ou moins, mais qui n'ont rien compris aux autorisations, et les réparer: cela ne nuira pas à votre système, et pour cause puisque cela ne produira sans doute aucun effet.</p>
+<p>
+Je ne peux pas résister à l'envie de vous traduire une discussion entre Homer et Lisa Simpson dans le célère dessin animé du même nom, que Rosyna retranscrit dans son article:</p>
+<ul style="list-style-type: none;">
+<li /> <strong>Homer:</strong> Pas un seul ours en vue. La patrouille anti-ours doit vraiment bien fonctionner !
+<li /> <strong>Lisa:</strong> C'est un bon raisonnement, papa.
+<li /> <strong>Homer:</strong> Merci, ma chérie.
+<li /> <strong>Lisa:</strong> En suivant le même raisonnement, je pourrais dire que cette pierre tient les tigres à l'écart.
+<li /> <strong>Homer:</strong> Ah ! Et comment ça marche ?
+<li /> <strong>Lisa:</strong> Ca ne marche pas.
+<li /> <strong>Homer:</strong> Hu-hu...
+<li /> <strong>Lisa:</strong> Ce n'est qu'une bête pierre.
+<li /> <strong>Homer:</strong> Hu-hu...
+<li /> <strong>Lisa:</strong> Mais il n'y a aucun tigre à l'horizon, n'est-ce pas ?
+<li /> <em>[Homer y réfléchit et sort quelques billets de sa poche]</em>
+<li /> <strong>Homer:</strong> Lisa, je veux acheter ta pierre.
+<li /> <em>[Lisa commence par refuser, puis accepte l'échange]</em>
+</ul>
+<h3>Ce que la réparation des autorisations fait et ne fait pas</h3>
+<p>
+La réparation des autorisations parcourt tous les paquetages (<em>packages</em>) dans le répertoire <em>/Library/Receipts/</em>. Un <em>reçu</em> de package est créé seulement quand un logiciel est installé avec l'assistant d'installation d'Apple (<em>Installer.app</em>). Cet assistant crée d'abord un package temporaire avec tous les fichiers du package d'origine. Lors de l'installation, un package contenant la liste de tous les fichiers installés à partir du package d'origine est créé. Les packages du répertoire /Library/Receipts/ ne contiennent donc que des références vers les fichiers, ils ne contiennent pas directement les fichiers.</p>
+<p>
+Il est possible d'afficher le contenu du package depuis le Terminal en utilisant la commande <a href="http://developer.apple.com/documentation/Darwin/Reference/ManPages/man8/lsbom.8.html" taget="_blank">lsbom</a> de cette manière: <span class="Code">lsbom /Library/Receipts/MacOSX10.4.pkg/Contents/Archive.bom</span>.</p>
+<p>
+Ainsi, l'utilitaire de disque parcourt le répertoire /Library/Receipts/ du <a href="http://docs.info.apple.com/article.html?artnum=25751" target="_blank">volume cible</a>. Cela implique que, pour que les autorisations soient réparées, le volume cible <u>doit</u> avoir un répertoire /Library/Receipts/. Les conséquences sont multiples. La première et la plus évidente est qu'<u>il ne peut y avoir de réparation des autorisations sur un volume sur lequel Mac OS X n'est pas installé</u>. Adieu donc les disque durs annexes (aussi bien internes qu'externes) qui ne servent pas au boot du système. La deuxième implication est beaucoup plus vicieuse. En effet, Installer.app ne permet pas dans la majorité des cas de choisir le répertoire de destination de l'installation. On peut donc en conclure que, sauf si vous avez utilisé un des Installer.app qui permettent de choisir le répertoire de destination (ce qui n'est généralement pas le cas des Installer.app distribués par Apple), la réparation des autorisations n'aura strictement aucun effet sur les fichiers de votre répertoire utilisateur home. La troisième conséquence est qu'aucun des fichiers générés lors de l'utilisation de Mac OS X (les fichiers temporaires, cache, de swap, etc.) n'est modifié. Cette règle peut ainsi être généralisée: <u><em>aucun fichier non créé par Installer.app ne sera modifié par la réparation des autorisations</em></u>.</p>
+<h3>Un peu d'Histoire</h3>
+<p>
+Apple a introduit le <a href="http://docs.info.apple.com/article.html?artnum=106900" target="_blank">Repair Privileges Utility</a> pour le système 10.1.5. Et la raison était simple: à cette époque les Mac pouvaient encore booter sur OS 9. Or, OS 9 n'a cure des permissions (ce n'est pas un Unix). Un utilisateur pouvait donc corrompre un installation de OS X depuis OS 9, en manipulant des fichiers système, ou pire encore en utilisant un utilitaire tierce-partie comme Norton. De nos jours, le seul système présent sur la machine est OS X. Il n'y a plus de OS 9, ni même de Classic. Le problème ne se pose donc plus.</p>
+<p>
+Une autre des raisons qui motivèrent Apple pour inclure la réparation des autorisations dans l'Utilitaire de Disque est la présence sur notre plateforme d'assistants d'installation tierce-partie comme ceux d'<a href="http://www.allume.com/mac/" target="_blank">Allume</a> ou de <a href="http://www.mindvision.com/" target="_blank">MindVision</a>. Ces deux programmes ont longtemps été relativement dangereux pour un système sous OS X. Ils sont à l'heure actuelle très stables, et ne m'ont personnellement jamais causé de problème d'autorisations (et à Rosyna non plus d'ailleurs).</p>
+<p>
+La troisième raison est la faiblesse des utilisateurs eux-mêmes. Il est courant dans la communauté Mac de dire que le seul virus identifié sous OS X se situe entre la chaise et le clavier... Il est vrai que l'utilisateur peut manipuler des fichiers système et altérer leurs autorisations. Dans ce cas, la réparation est utile.</p>
+<h3>Dans un cas, la réparation est nécessaire</h3>
+<p>
+Les autorisations ne changement pas toutes seules. Pour qu'elles changent, <u>il faut que</u> <em>quelque chose</em> les change. Pour cette raison, réparer les autorisations de temps en temps, en guise d'opération de maintenance, est <u>totalement inutile</u>.</p>
+<p>
+Il y a cependant un cas dans lequel la réparation des autorisations est absolument nécessaire -et résoud les problèmes. Quand vous sauvegardez votre système vers un disque externe via <a href="http://developer.apple.com/documentation/Darwin/Reference/ManPages/man1/ditto.1.html" target="_blank">ditto</a> ou <a href="http://www.bombich.com/software/ccc.html" target="_blank">Carbon Copy Cloner</a>, en ignorant les autorisations du volume source. En réparant les autorisations dans cette situation, on permet au disque de redevenir bootable, mais on ne touche toujours pas aux fichiers indépendants du systèmes ou appartenant à l'utilisateur, ce qui peut laisser ouverts d'énormes trous de sécurité.</p>
+<h3>C'est trop bête...</h3>
+<p>
+Il n'est pas rare de voir sur les forums des gens conseiller à d'autres de réparer les autorisations avant et après une mise à jour du système par l'utilitaire de mise à jour du menu Pomme. C'est complètement stupide. L'utilitaire de mise à jour s'exécute comme <em>root</em> et n'a que faire des autorisations. L'utilisateur <em>root</em> est <u>dieu</u> sur les systèmes Unix: il peut tout faire, il n'est soumis à aucune contrainte. Bonnes autorisations, mauvaises autorisations, pas d'autorisations: c'est pour lui du pareil au même. La réparation des autorisations ne modifie en rien les chances de réussir l'installation. Pour cette raison, il est inutile de réparer les autorisations avant l'installation d'une mise à jour. Et c'est également inutile après la mise à jour: puisque les fichiers viennent d'être mis à jour, ils ont forcément les bonnes autorisations !</p>
+<p>
+On peut également lire que réparer les autorisations sur un volume externe peut être utile, lorsque les autorisations des fichiers de ce volume sont corrompues. C'est une pure aberration car, comme expliqué ci-avant, la réparation des autorisations n'est effective que sur les volumes sur lesquels Mac OS X est installé. Pas de répertoire /Library/Receipts/, pas de réparation des autorisations. Point.</p>
+<table border="0" align="center">
+<tr>
+<td>D'ailleurs, l'utilitaire de disque de Mac OS X l'explique très bien...</td>
+</tr>
+<tr>
+<td><img alt="Utilitaire de disque" src="http://blog.gfblog.com/images/autorisations/utildisque.png" /></td>
+</tr>
+</table>
+<p>
+Certains disent encore que la réparation des autorisations a résolu un problème avec un logiciel tierce-partie. C'est en fait peu probable. Les gros logiciels comme ceux de Microsoft, Adobe ou Macromedia n'utilisent pas Installer.app. Il est donc théoriquement impossible que la réparation des autorisations puisse résoudre un problème ne touchant qu'un seul de ces logiciels. Il est en revanche beaucoup plus probable qu'une série d'autorisations corrompues sur le système engendre des comportements étranges pour plusieurs de ces logiciels. Par exemple, si les permissions de /Library/ sont fixées à 000, tout explose...</p>
+<h3>Comment résoudre les problèmes ?</h3>
+<p>
+Si une application crash (elle "plante"), et laisse un rapport de bug (bug report) à envoyer à Apple, vous pourrez voir les détails du rapport. Dans ce cas, faites un copier/coller du rapport dans TextEdit et lisez calmement. Vous verrez peut-être quelque chose qui vous met la puce à l'oreille. C'est ainsi que j'ai par exemple découvert que la dernière version d'<a href="http://www.unsanity.com/haxies/ape" target="_new">Application Enhancer</a> faisait planter Dreamweaver 2004. Solution express: mettre DW dans la Master Exclude List d'APE, et le problème est résolu.</p>
+<p>
+Vous pouvez également consulter les logs système, notamment en lisant ce que dit la Console (Applications/Utilitaires/Console). Si vous avez un problème, la Console vous en indiquera la source. A vous de trouver ensuite la solution.</p>
+<p>
+Si le problème vient d'un logiciel, effacez ses préférences et redémarrez-le. Réinstaller un logiciel ne sert la plupart du temps à rien car seul l'exécutable (le package) sera remplacé, et pas les préférences. Or, l'exécutable n'est, dans la majorité des cas, pas modifiable (le problème ne peut donc pas venir de lui), contrairement aux préférences (appelées "prefs") qui se corrompent facilement. Les préférences sont situées dans le répertoire <i>~/Library/Preferences/</i><i> (ou </i><i>~/Bibliothèque/Préférences/</i>), ou dans un autre emplacement, mais ont l'extension .plist. Vous pouvez faire une recherche avec Spotlight : "<i>nom-du-logiciel .plist</i>".</p>
+<p>
+Vous pouvez aussi supprimer les fichiers annexes créés par le logiciel. Ils sont peut être à l'origine de la corruption de ce logiciel (c'est même fréquent). Ces fichiers sont situés à l'emplacement suivant: <i>~/Library/Application Support/[Nom du logiciel]</i> (ou <i>~/Bibliothèque/...</i>).</p>
+<p>
+Si le problème se pose pour un logiciel qui admet des <i>plug-ins</i> ou des <i>add-ons</i>, pensez à désactiver ces <i>plug-ins</i> ou <i>add-ons</i>. Pour les logiciels Apple, ils se situent dans le répertoire <i>~/Library/[Nom du logiciel]</i><i> (ou </i><i>~/Bibliothèque/...</i>). Par exemple, pour Apple Mail, c'est <i>~/Library/Mail/Bundles</i><i>. Le logiciel peut aussi permettre de désactiver ces extensions : c'est le cas de Firefox. Vous pourrez alors identifier la source du problème sans tout désinstaller.<br />
+</i></p>
+<p>
+Si vous avez installé un nouveau périphérique, désactivez le et désinstallez ses <i>drivers</i> (ou <i>pilotes</i>) avant de vérifier si le problème persiste. Les périphériques USB notamment sont connus pour générer des Kernel Panic sous Mac OS X (c'était particulièrement vrai dans les premières versions d'OS X, c'est un peu moins vrai maintenant, mais sait-on jamais...).</p>
+<p>
+Enfin, n'oubliez jamais qu'il y a un choix à faire:</p>
+<ul style="list-style-type: none;">
+<li />Installer des jeux, utilitaires, sharewares et freewares, dernières versions ou versions plus anciennes, les désinstaller, les manipuler, modifier les programmes existants, trifouiller les préférences... et ne pas avoir peur de formater et opérer une <em>clean install</em> quand les choses vont trop mal.
+<li />Installer une bonne fois pour toutes ce dont on a besoin, et ne plus rien toucher. C'est ainsi que vous pourrez utiliser votre Mac pendant 10 ans sans jamais formater.
+</ul>
+<p>&lt;/p&gt;</p>
+<p><i><br />
+à Montpellier le 27/09/2005<br />
+mis à jour à Montpellier le 29/07/2007<br />
+mis à jour à Montpellier le 23/03/2010 (concernant l'article de la KB Apple et Installer.app : aucune modification de fond)<br />
+</i></p>
+
+
+    </div>
+  
+    <h1><a href="/internet/web/featured/2005/09/25/construire-une-base-de-donnees-simple-avec-php-et-mysql.html">Construire une base de données simple avec PHP et MySQL</a></h1>
+    <p class="author">
+      <span class="date">2005-09-25 17:14:08 +0200</span>
+    </p>
+    <div class="content">
+      <p>
+	Cet article constitue un tutoriel simple et rapide montrant comment construire une base de données en utilisant les technologies PHP et MySQL. Cette base de données sera accessible depuis internet à l'aide d'un navigateur.
+	</p>
+<p>
+	Nous allons aborder les points suivants:</p>
+<ul>
+<li />Qu'allons-nous faire ?
+<li />Comment le faire ?
+<li />Etape 1: Créer la base de données.
+<li />Etape 2: Ajouter une entrée dans la base de données.
+<li />Etape 3: Afficher les entrées de la base de données.
+<li />Etape 4: Rechercher des entrées dans la base de données.
+<li />Etape 5: Modifier et supprimer une entrée dans la base de données.
+<li />Bonus: Sécuriser l'accès à la base de données.
+		</ul>
+<p>&lt;/p&gt;</p>
+<h1>Qu'allons-nous faire ?</h1>
+<p>
+	Nous allons créer une base de données, et un logiciel permettant d'exploiter cette base de données. Une base de données stocke des informations remplissant certains critères. Elle permet de trier les informations qu'elle contient selon ces critères. Imaginez-vous un tableau Excel: des colonnes et des lignes. Une base de données fonctionne exactement sur le même principe.
+	</p>
+<p>
+	En effet, si nous voulons stocker les informations "nom", "prénom" et "âge" pour différentes personnes, il nous faudra créer 3 colonnes, une pour chaque information; et X lignes, une par personne.
+	</p>
+<p>
+	Cette illustration représente la structure de la base de données que nous allons créer:<br />
+	</p>
+<table>
+<tr>
+<td></td>
+<td>Colonne 1</td>
+<td>Colonne 2</td>
+<td>Colonne 3</td>
+</tr>
+<tr>
+<td></td>
+<td>Nom</td>
+<td>Prénom</td>
+<td>Âge</td>
+</tr>
+<tr>
+<td>Ligne 1</td>
+<td><i>Martin</i></td>
+<td><i>Pierre</i></td>
+<td><i>42</i></td>
+</tr>
+<tr>
+<td>Ligne 2</td>
+<td><i>Dupont</i></td>
+<td><i>Pierre</i></td>
+<td><i>38</i></td>
+</tr>
+<tr>
+<td>Lignes n</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+</tr>
+</table>
+<p>
+	Vous l'aurez compris, le nombre de colonnes est fixe, tandis que le nombre de lignes est indéterminée: un nouvel enregistrement dans la base de données représente une ligne supplémentaire.
+	</p>
+<p>
+	Pour comprendre les mécanismes de fonctionnement des bases de données, vous pouvez vous exercer à créer des feuilles de calcul sous Excel (ou un autre tableur) et à manipuler les données qu'elles contiennent. Excel se comporte en effet comme une base de données en stockant et manipulant les informations à la manière d'une base de données.
+	</p>
+<p>
+	Dans le tableau ci-dessus, j'ai omis une colonne. Il s'agit de la colonne "identifiant" (nous l'appellerons "id"). A chaque ligne de cette colonne id est attribué un chiffre ou un nombre. Le premier enregistrement de la base de données aura ainsi l'identifiant 1, le second aura l'identifiant 2, et ainsi de suite. L'id permet par la suite de manipuler les lignes très facilement.
+	</p>
+<p>
+	Une dernière précision importante: chaque colonne n'accepte qu'un type précis de données. Dans notre cas, la colonne id ne devra stocker que des nombres entiers, les colonnes nom et prénom des chaînes de texte (que nous appellerons dorénavant "string"), et la colonne âge un nombre entier (que nous appellerons "int" de l'anglais "integer"). Il est absolument nécessaire de bien déterminer dès le début de la conception d'une base de données le type de données stockées dans chaque colonne. En effet, si l'on veut trier les enregistrements suivant le critère "âge", et qu'un enregistrement contient, pour cette colonne, un string au lieu d'un entier, le tri ne pourra pas avoir lieu correctement. "Dupont" est-il inférieur ou supérieur à 52 ? Impossible à dire, on ne peut comparer que des données du même type.
+	</p>
+<h1>Comment le faire ?</h1>
+<p>
+	Il existe de nombreuses manières de construire une base de données. En effet, chaque base de données repose sur un "serveur", et il existe une multitude de serveurs différents. Parmi les plus célèbres: Oracle, Sybase, Access, FileMaker, PostgreSQL et MySQL. Les deux premiers sont des serveurs professionnels qui coûtent plusieurs centaines de milliers d'euro et qui sont destinés à stocker des millions d'enregistrements. Access et FileMaker sont des serveurs propriétaires qui ne fonctionnent que par le biais d'un logiciel que vous devez installer sur votre système. Enfin, les deux derniers sont gratuits et permettent une consultation par internet grâce à l'intégration du langage de requêtes (SQL, le langage permettant de donner ses instructions au serveur) à la technologie web PHP.
+	</p>
+<p>
+	Nous allons donc voir dans un premier temps comment fonctionnent les échanges entre serveur et client, pour voir ensuite ce que sont MySQL, SQL et PHP et, enfin, comprendre comment tous ces éléments s'imbriquent les uns dans les autres.
+	</p>
+<h2>Internet: dialogue entre un client et un serveur</h2>
+<p>
+	Vous tapez une adresse dans la barre d'adresse de votre navigateur, et vous appuyez sur "Entrée". La page se charge à l'écran. Cela paraît simple, mais il s'agit en réalité du résultat d'un dialogue entre client (votre navigateur) et serveur (l'ordinateur qui contient l'information que vous demandez).
+	</p>
+<p>
+	Lorsque vous appuyez sur "Entrée", votre navigateur contacte le serveur qui gère l'adresse que vous avez tapée. Le serveur vous envoie l'information demandée, et le navigateur l'affiche. Imaginez un fichier Word: vous double-cliquez dessus, il s'ouvre dans Word, et vous pouvez ainsi le lire. Dans notre cas, le client dit au serveur <em>je veux voir tel document</em>, ce qui correspond au double-clic. Le serveur envoie alors ce document au navigateur qui l'interprète et l'affiche à l'écran. Il l'interprète car, au même titre que votre fichier Word, c'est un fichier qui est envoyé du serveur au navigateur. Ce fichier est écrit dans un langage de programmation spécial que reconnaît le navigateur. Ce langage est le HTML.
+	</p>
+<p>
+	Le navigateur reçoit par exemple l'information suivante: <span class="Code">&lt;i&gt;Bonjour&lt;/i&gt;</span>. Il sait que tout texte compris entre la balise &lt;i&gt; et la balise &lt;/i&gt; devra être affiché en italique. Il affichera donc: <i>Bonjour !</i>.
+	</p>
+<p>
+	Il est particulièrement important pour la suite de comprendre ce mécanisme: le serveur émet un document rempli de texte (le code source définissant la mise en page et la présentation, et le contenu lui même), il ne traite pas ce texte. C'est le navigateur qui traite ce texte, et l'interprète pour afficher le résultat attendu.
+	</p>
+<h2>MySQL, SQL, PHP ?</h2>
+<p>
+	Le principe du PHP, un autre langage de programmation, est tout à fait différent. En effet, dans ce cas c'est le serveur qui exécute le code source et qui renvoit le résultat au navigateur. Le serveur ne se contente pas d'envoyer les données, il les analyse et leur applique un traitement avant de les envoyer. On dit que le PHP "s'éxécute côté serveur" alors que le HTML est traité côté client.
+	</p>
+<p>
+	Vous remarquerez que je n'emploie pas le verbe "s'exécuter" pour parler du HTML. Il s'agit là d'une autre différence -majeure- entre le HTML et le PHP: le HTML n'est pas exécutable, il est purement statique. En d'autres termes, alors que le HTML se borne à décrire une situation de faits (tel mot est en italique, telle phrase est en gras, telle image doit être affichée, etc.), le PHP peut avoir des comportements qui produisent des effets sous certaines conditions. Par exemple: <em>si le <strong>nom</strong> est <strong>Dupont</strong>, alors il devra être affiché en <strong>rouge</strong></em>.
+	</p>
+<p>
+	Le PHP est le langage que nous allons utiliser pour le traitement du contenu de la base de données.
+	</p>
+<p>
+	MySQL est le nom du serveur de base de données. C'est un logiciel installé sur le serveur qui interprête et exécute les requêtes qui lui sont soumises grâce au langage SQL. Par exemple, le code suivant permet de retenir, dans la base de données appelée "mabase", tous les prénoms des personnes qui ont plus de 40 ans, en rejetant les prénoms des personnes qui ne remplissent pas ce critère: &lt;span class=Code&gt;SELECT prenoms FROM mabase WHERE age &gt; 40.
+	</p>
+<h2>Conjonction de ces éléments</h2>
+<p>
+	Si vous avez compris les explications ci-dessus, vous devriez comprendre les deux phrases suivantes: "<em>Le contenu et la structure de la base de données seront stockés sur le serveur MySQL auquel accèderont des fonction PHP utilisant le langage SQL. La formation des requêtes SQL se fera grâce à des opérations logiques réalisées en PHP, et l'affichage des résultats de ces requêtes se fera grâce à un code HTML généré par d'autres fonctions PHP.</em>"
+	</p>
+<h1>Etape 1: Créer la base de données</h1>
+<h2>Connexion au serveur de base de données</h2>
+<p>
+	Je suppose que votre base de données existe déjà, mais ne contient aucune donnée. Lorsque vous activez MySQL chez un hébergeur Web, une base de données associée à votre compte est automatiquement créée. Cependant, elle ne contient aucune "table". Une "table" est le conteneur d'un ensemble de colonnes et lignes. Nous allons nous connecter à la base de données, et créer la table utile à cet exercice.
+	</p>
+<p>
+	Créez donc un fichier appelé <span class="Code">connexion.php</span>:
+	</p>
+<p><span class="Code">
+<ol class="Code">
+<li />&lt;?php
+<li />$host = &quot;localhost&quot;; /* L&#x27;adresse du serveur */
+<li />$login = &quot;&quot;; /* Votre nom d&#x27;utilisateur */
+<li />$password = &quot;&quot;; /* Votre mot de passe */
+<li />$base = &quot;&quot;; /* Le nom de la base */
+<li />&nbsp;
+<li />function connexion()
+<li />{
+<li />global $host, $login, $password, $base;
+<li />$db = mysql_connect($host, $login, $password);
+<li />mysql_select_db($base,$db);
+<li />}
+<li />?&gt;
+	</ol>
+<p>	
+	</p>
+<p>
+	La ligne 1 contient le "tag" ou "balise" en français qui permet de déterminer le type de script utilisé: il s'agit de PHP. La ligne 13 informe le serveur que le script est terminé.
+	</p>
+<p>
+	Les lignes 2 à 5 définissent des variables. Par exemple, votre "login" ou nom d'utilisateur est "pierre_martin_128765b". Vous assignez cette valeur à la variable $login pour qu'à chaque fois que vous fassiez référence à $login le serveur comprenne "pierre_martin_128765b". De même pour les autres valeurs.
+	</p>
+<p>
+	La ligne 7 marque la création d'une fonction. Une fonction regroupe une série d'instructions qui seront exécutées dès que cette dernière est appélée. Ainsi, au lieu d'écrire les lignes 9, 10 et 11, vous écrirez dorénavant <span class="Code">connexion();</span>. Les lignes 8 et 12 présentent des accolades qui délimitent la portée de la fonction: elle englobe toutes les lignes entre ces accolades.
+	</p>
+<h2>Création de la table</h2>
+<p>
+	Créez ensuite un autre fichier appelé <span class="Code">installation.php</span>:
+	</p>
+<p><span class="Code">
+<ol class="Code">
+<li />&lt;?php
+<li />include(&quot;connexion.php&quot;);
+<li />&nbsp;
+<li />connexion();
+<li />&nbsp;
+<li />$sql= &quot;CREATE TABLE IF NOT EXISTS `mabase` (&quot;;
+<li />$sql .= &quot;`id` int(11) NOT NULL auto_increment,&quot;;
+<li />$sql .= &quot;`nom` text NOT NULL,&quot;;
+<li />$sql .= &quot;`prenom` text NOT NULL,&quot;;
+<li />$sql .= &quot;`age` int NOT NULL,&quot;;
+<li />$sql .= &quot;PRIMARY KEY  (`id`),&quot;;
+<li />$sql .= &quot;UNIQUE KEY `id_2` (`id`),&quot;;
+<li />$sql .= &quot;KEY `id` (`id`)&quot;;
+<li />$sql .= &quot;) ENGINE=MyISAM;&quot;;
+<li />&nbsp;
+<li />mysql_query($sql) or die(mysql_error());
+<li />?&gt;
+	</ol>
+<p>	
+	</p>
+<p>
+	A la ligne 2, par l'instruction <span class="Code">include("connexion.php");</span>, nous incluons le contenu de ce fichier dans le fichier courant. Nous pourrons ainsi accéder à son contenu, notamment en appelant la fonction <span class="Code">connexion()</span> à la ligne 4.
+	</p>
+<p>
+	Les lignes 6 à 14 contiennent les instructions de formation de la requête SQL. La requête est découpée et insérée dans la variable <span class="Code">$sql</span>. Notez que le symbole exmployé est <span class="Code">.=</span> qui signifie <em>ajoutez ce qui suit à la fin de la variable, après ce qu'elle contient déjà</em>.
+	</p>
+<p>
+	A la ligne 6, nous créons la table, si elle n'existe pas déjà, et nous lui donnons le nom "mabase". A la ligne 7, nous insérons dans la table la colonne "id" de type int (entier), qui ne peut pas être une valeur nulle et qui s'incrémente automatiquement à chaque nouvel ajout dans la base de données. Cet élément, id, sera la clé qui identifie chaque enregistrement (lignes 11 à 13). A la ligne 8 nous insérons la colonne "nom" de type "texte" et qui ne peut être nulle. La ligne 14 détermine le type de table, thème qui dépasse l'objet de cet article.
+	</p>
+<p>
+	La ligne 16 soumet la requête formée à la base de données, et affiche une éventuelle erreur à l'écran.
+	</p>
+<h1>Etape 2: Ajouter une entrée dans la base de données</h1>
+<h2>Utilisation des variables et formation de la requête SQL</h2>
+<p>
+	Quand on ajoute une entrée dans la base de données, une nouvelle ligne est créée. A chaque colonne de cette nouvelle ligne est assignée une valeur.
+	</p>
+<p>
+	Nous allons donc utiliser une requête SQL pour attribuer une valeur à chaque colonne de la nouvelle ligne: <span class="Code">INSERT INTO mabase(id,nom,prenom,age) VALUES('','Martin','Pierre','42')</span>. En français, cela donnerait: <em>Insérez dans la table appelée "mabase", respectivement pour les colonnes "id", "nom", "prénom" et "age", les valeurs "(vide)", "Martin", "Pierre" et "42"</em>.
+	</p>
+<p>
+	Nous avons vu que le langage PHP utilisait des variables. On peut donc remplacer les valeurs que l'on veut insérer par la nom des variables qui les contiennent.
+	</p>
+<p>
+	Dans un premier temps, on assigne les valeurs aux variables:
+	</p>
+<p>
+	<span class="Code">
+<ol class="Code">
+<li />$nom = &#x27;Martin&#x27;;
+<li />$prenom = &#x27;Pierre&#x27;;
+<li />$age = &#x27;42&#x27;
+	</ol>
+<p>	
+	</p>
+<p>
+	On pourra ainsi, dans un second temps, insérer ces variables au lieu des valeurs associées dans la requête SQL: <span class="Code">INSERT INTO mabase(id,nom,prenom,age) VALUES('','$nom','$prenom','$age')</span>.
+	</p>
+<h2>Création du formulaire</h2>
+<p>
+	Vous savez maintenant former la requête SQL d'ajout d'un enregisterment dans la base de données en utilisant des variables. Il nous faut à présent créer un formulaire pour récupérer les données à ajouter.
+	</p>
+<p>
+	Un formulaire est un ensemble d'objets que manipule l'utilisateur -le visiteur de la page-. Il y a ainsi des champs de texte, des cases à cocher, des menus déroulants, des boutons, etc. Notre formulaire sera simple: 3 champs et 1 bouton.
+	</p>
+<p>
+	Voici le code du formulaire:
+	</p>
+<p>
+	<span class="Code">
+<ol class="Code">
+<li />&lt;form name=&quot;formulaire&quot; method=&quot;post&quot; action=&quot;ajouter.php&quot;&gt;
+<li />&lt;table width=&quot;200&quot; border=&quot;1&quot;&gt;
+<li />&lt;tr&gt;
+<li />&lt;td&gt;Nom:&lt;/td&gt;
+<li />&lt;td&gt;&lt;input name=&quot;nom&quot; type=&quot;text&quot; id=&quot;nom&quot;&gt;&lt;/td&gt;
+<li />&lt;/tr&gt;
+<li />&lt;tr&gt;
+<li />&lt;td&gt;Pr&eacute;nom:&lt;/td&gt;
+<li />&lt;td&gt;&lt;input name=&quot;prenom&quot; type=&quot;text&quot; id=&quot;prenom&quot;&gt;&lt;/td&gt;
+<li />&lt;/tr&gt;
+<li />&lt;tr&gt;
+<li />&lt;td&gt;Age:&lt;/td&gt;
+<li />&lt;td&gt;&lt;input name=&quot;age&quot; type=&quot;text&quot; id=&quot;age&quot; size=&quot;3&quot; maxlength=&quot;3&quot;&gt;&lt;/td&gt;
+<li />&lt;/tr&gt;
+<li />&lt;tr&gt;
+<li />&lt;td colspan=&quot;2&quot;&gt;&lt;div align=&quot;center&quot;&gt;
+<li />&lt;input type=&quot;submit&quot; name=&quot;Submit&quot; value=&quot;Envoyer&quot;&gt;
+<li />&lt;/div&gt;&lt;/td&gt;
+<li />&lt;/tr&gt;
+<li />&lt;/table&gt;
+<li />&lt;/form&gt;
+	</ol>
+<p>	
+	</p>
+<p>
+	Et voilà le résultat:
+	</p>
+<div align="center">
+<form name="formulaire" method="post" action="">
+<table width="200" border="1">
+<tr>
+<td>Nom:</td>
+<td><input name="nom" type="text" id="nom" /></td>
+</tr>
+<tr>
+<td>Pr&eacute;nom:</td>
+<td><input name="prenom" type="text" id="prenom" /></td>
+</tr>
+<tr>
+<td>Age:</td>
+<td><input name="age" type="text" id="age" size="3" maxlength="3" /></td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+        		<input type="submit" name="Submit" value="Envoyer" />
+			</td>
+</tr>
+</table></form>
+</div>
+<p>
+	Ce code mérite quelques explications. A la ligne 1 on crée le formulaire, et on lui donne un nom (ici: "formulaire"). Puis, on indique la méthode de transmission des données. Il en existe deux: POST et GET. Pour les formulaires, on utilise en règle générale POST. Ces deux méthodes sortent de l'objet de cet article. Enfin, on indique vers quel fichier le contenu du formulaire sera envoyé: "ajouter.php".
+	</p>
+<p>
+	La balise &lt;table&gt; sert à créer un tableau. Ici, il a les attributs suivants: largeur de 200 pixels, épaisseur de la bordure de 1 pixel.<br />
+	Les balises &lt;tr&gt; et &lt;td&gt; servent, respectivement, à créer une ligne et une colonne.
+	</p>
+<p>
+	Les champs de texte sont créés grâce à la balise &lt;input&gt;. Ainsi, à la ligne 5 on crée un objet de type input, qui est un champ de texte (type="text"), et dont le nom et l'identifiant sont "nom". A la ligne 13, il s'agit du champ pour la valeur âge: la taille maximale du texte entré sera de 3 caractères, la taille du champ sera de 3 caractères.
+	</p>
+<p>
+	Pour finir, à la ligne 17, on crée un bouton qui servira à valider le formulaire, et à envoyer les valeurs des champs vers le fichier spécifié à la ligne 1 et avec la méthode spécifiée à cette même ligne.
+	</p>
+<h2>Récupération des valeurs du formulaire</h2>
+<p>
+	Nous avons créé le formulaire qui permet à l'utilisateur de saisir ses données, nous allons maintenant créer la page <em>ajouter.php</em> qui nous permettra d'ajouter les données soumises dans la base de données.
+	</p>
+<p>
+	Créez donc le fichier <span class="Code">ajouter.php</span> et ajoutez le code qui suit, de manière à se connecter à la base de données:
+	</p>
+<p>
+	<span class="Code">
+<ol class="Code">
+<li />&lt;?php
+<li />include(&quot;connexion.php&quot;);
+<li />&nbsp;
+<li />connexion();
+	</ol>
+<p>	
+	</p>
+<p>
+	Une fois connecté à la base de données, il nous faut récupérer les valeurs du formulaire. On utilise pour cela un tableau ou matrice qui peut contenir plusieurs valeurs différentes. Il s'agit du tableau <span class="Code">$_POST</span>. Dans notre formulaire, nous avons donné ces noms aux champs: nom, prenom, age. Pour récupérer les valeurs saisiez dans ces champs, il suffira d'écrire, respectivement: <span class="Code">$_POST['nom']</span>, <span class="Code">$_POST['prenom']</span> et <span class="Code">$_POST['age']</span>.
+	</p>
+<p>
+	Ce système nous permet de former la requête SQL très simplement: <span class="Code">INSERT INTO mabase(id,nom,prenom,age) VALUES('','".$_POST['nom']."','".$_POST['prenom']."','".$_POST['age']."')</span>.
+	</p>
+<p>
+	Ce qui donne, au final le code suivant (à la suite du début du fichier décrit plus haut):
+	</p>
+<p>
+	<span class="Code">
+<ol class="Code">
+<li /> $sql = &quot;INSERT INTO mabase(id,nom,prenom,age) &quot;;
+<li /> $sql .= &quot;VALUES(&#x27;&#x27;,&#x27;&quot;.$_POST[&#x27;nom&#x27;].&quot;&#x27;,&#x27;&quot;.$_POST[&#x27;prenom&#x27;].&quot;&#x27;,&#x27;&quot;.$_POST[&#x27;age&#x27;].&quot;&#x27;)&quot;;
+<li />&nbsp;
+<li />mysql_query($sql) or die(mysql_error());
+<li />?&gt;
+	</ol>
+<p>	
+	</p>
+<h2>Contrôle des valeurs saisies</h2>
+<p>
+	Le code présente ci-avant est parfaitement fonctionnel. Il présente cependant un gros défaut: les valeurs saisies par l'utilisateur ne sont pas contrôlées. Ainsi, un utilisateur pourrait omettre de donner son nom, ce qui aurait pour conséquence l'insertion d'un valeur vide dans la base de données.
+	</p>
+<p>
+	Un programmeur PHP doit toujours se poser la question suivante: <em>comment se comportera mon code s'il est appelé anormalement ou en dehors de son contexte ?</em>. Dans notre cas, si on tape l'adresse du fichier <em>ajouter.php</em> dans un navigateur, si on appelle le fichier sans passer par le formulaire, on aura droit à un beau bug, et pour cause puisque le tableau $_POST n'existe que lorsqu'il y a un formulaire utilisant la méthode POST en amont !
+	</p>
+<p>
+	Il nous faut donc contrôler deux choses: que POST existe bien, et que tous les champs ont été renseignés. Ces deux choses se réalisent en une seule opération, à l'aide d'une expression conditionnelle.
+	</p>
+<p>
+	Les expressions conditionnelles permettent de déterminer quel comportement aura le programme, en fonction d'éléments et de conditions déterminés. La logique est la suivante: <em>si A alors B sinon C</em>.
+	</p>
+<p>
+	En PHP, cela donne:
+	</p>
+<p>
+	<span class="Code">
+<ol class="Code">
+<li />if ($POST[&#x27;nom&#x27;] != &#x27;&#x27; AND $POST[&#x27;prenom&#x27;] != &#x27;&#x27; AND $POST[&#x27;age&#x27;] != &#x27;&#x27;)
+<li />{ // c&#x27;est bon, on peut copier/coller ici le code vu ci-dessus
+<li />}
+<li />else
+<li />{
+<li />echo &#x27;Erreur ! Vous devez remplir tous les champs !&#x27;;
+<li />}
+	</ol>
+<p>	
+	</p>
+<p>
+	<em>if</em> signifie <em>si</em>, <em>else</em> signifie <em>sinon</em>.
+	</p>
+<p>
+	La syntaxe est la suivante : <em>if(la condition à remplir) {le code à exécuter si la condition est remplie} else { le code à exécuter si la condition n'est pas remplie }</em>.
+	</p>
+<p>
+	Dans notre cas la condition est simple. On prend le contenu de notre tableau et on vérifie qu'aucune des entrées n'est vide. Par exemple, pour le nom: d'un côté on a <em>$POST['nom']</em> qui représente ce que l'utilisateur a saisi, d'un autre côté <em>''</em> qui représente un contenu inexistant (une chaîne de texte vide), et enfin, au milieu <em>!=</em> qui est un opérateur de comparaison signifiant <em>différent de</em>. On répète cela pour les champs prénom et âge, en mettant l'opérateur booléen <em>AND</em> qui signifie <em>et</em>.
+	</p>
+<p>
+	La condition peut ainsi se lire: <em>SI la valeur du champ NOM du formulaire N'EST PAS une CHAÎNE VIDE, ET SI la valeur du champ PRENOM du formulaire N'EST PAS une CHAÎNE VIDE, ET SI la valeur du champ AGE du formulaire N'EST PAS une CHAÎNE VIDE; alors exécuter le code qui suit...</em>
+	</p>
+<p>
+	L'instruction <span class="Code">echo</span> permet d'afficher quelque chose à l'écran. Dans notre cas, un message d'erreur indiquant que tous les champs n'ont pas été renseignés.
+	</p>
+<p>
+	Le code final du fichier <span class="Code">ajouter.php</span> est le suivant:
+	</p>
+<p>
+	<span class="Code">
+<ol class="Code">
+<li />&lt;?php
+<li />include(&quot;connexion.php&quot;);
+<li />&nbsp;
+<li />if ($POST[&#x27;nom&#x27;] != &#x27;&#x27; AND $POST[&#x27;prenom&#x27;] != &#x27;&#x27; AND $POST[&#x27;age&#x27;] != &#x27;&#x27;)
+<li />{
+<li />connexion();
+<li />&nbsp;
+<li /> $sql = &quot;INSERT INTO mabase(id,nom,prenom,age) &quot;;
+<li /> $sql .= &quot;VALUES(&#x27;&#x27;,&#x27;$_POST[&#x27;nom&#x27;]&#x27;,&#x27;$_POST[&#x27;prenom&#x27;]&#x27;,&#x27;$_POST[&#x27;age&#x27;]&#x27;)&quot;;
+<li />&nbsp;
+<li />mysql_query($sql) or die(mysql_error());
+<li />}
+<li />else
+<li />{
+<li />echo &#x27;Erreur ! Vous devez remplir tous les champs !&#x27;;
+<li />}
+<li />?&gt;
+	</ol>
+<p>	
+	</p>
+<h1>Etape 3: Afficher les entrées de la base de données</h1>
+<h2>Principe: afficher des données tabulaires</h2>
+<p>
+	Les données tabulaires s'affichent sous forme de tableaux à plusieurs dimensions, exactement comme elles sont stockées sur le serveur de base de données. Il est dont logique de les afficher dans des tableaux HTML.
+	</p>
+<p>
+	Comme exposé plus haut, les tableaux HTML se construisent à l'intérieur de la balise &lt;table&gt;, les balises &lt;tr&gt; délimitant les lignes et les balises &lt;td&gt; les colonnes.
+	</p>
+<p>
+	Voici un exemple:
+	</p>
+<p>
+	<span class="Code">
+<ol class="Code">
+<li />&lt;table&gt;
+<li />&nbsp;&nbsp;&lt;tr&gt;
+<li />&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Colonne 1 / Ligne 1&lt;/td&gt;
+<li />&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Colonne 2 / Ligne 1&lt;/td&gt;
+<li />&nbsp;&nbsp;&lt;/tr&gt;
+<li />&nbsp;&nbsp;&lt;tr&gt;
+<li />&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Colonne 1 / Ligne 2&lt;/td&gt;
+<li />&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Colonne 2 / Ligne 2&lt;/td&gt;
+<li />&nbsp;&nbsp;&lt;/tr&gt;
+<li />&nbsp;&nbsp;&lt;tr&gt;
+<li />&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Colonne 1 / Ligne 3&lt;/td&gt;
+<li />&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Colonne 2 / Ligne 3&lt;/td&gt;
+<li />&nbsp;&nbsp;&lt;/tr&gt;
+<li />&lt;/table&gt;
+	</ol>
+<p>	
+	</p>
+<p>
+	Ce qui donne:
+	</p>
+<table style="border: 1px #000000 solid;">
+<tr>
+<td style="border: 1px #000000 solid;">Colonne 1 / Ligne 1</td>
+<td style="border: 1px #000000 solid;">Colonne 2 / Ligne 1</td>
+</tr>
+<tr>
+<td style="border: 1px #000000 solid;">Colonne 1 / Ligne 2</td>
+<td style="border: 1px #000000 solid;">Colonne 2 / Ligne 2</td>
+</tr>
+<tr>
+<td style="border: 1px #000000 solid;">Colonne 1 / Ligne 3</td>
+<td style="border: 1px #000000 solid;">Colonne 2 / Ligne 3</td>
+</tr>
+</table>
+<h2>Mise en pratique: affichage en liste</h2>
+<p>
+	Nous allons créer un fichier <span class="Code">liste.php</span> destiné à afficher la liste de tous les enregistrements de la base de données. Le début ne change pas:
+	</p>
+<p>
+	<span class="Code">
+<ol class="Code">
+<li />&lt;php?
+<li />&nbsp;
+<li />include(&quot;connexion.php&quot;);
+<li />&nbsp;
+<li />connexion();
+	</ol>
+<p>	
+	</p>
+<p>
+	Il nous faut ensuite écrire la requête SQL. Dans ce cas, elle est simple et elle dit <em>Afficher TOUS les enregistrements de la table "mabase"</em>: <span class="Code">SELECT * FROM mabase</span>.
+	</p>
+<p>	<span class="Code">
+<ol class="Code">
+<li />$sql = 'SELECT * FROM mabase';
+	</ol>
+<p>	</p>
+<p>
+	Nous envoyons ensuite la requête au serveur, le résultat de cette requête étant stocké dans la variable <span class="Code">$req</span>.
+	</p>
+<p>
+	<span class="Code">
+<ol class="Code">
+<li />$req = mysql_query($sql) or die(mysql_error());
+	</ol>
+<p>	
+	</p>
+<p>
+	La variable <span class="Code">$req</span> stocke plusieurs éléments. Nous allons les extraire et les afficher un par un. Cela est possible grâce à l'instruction <span class="Code">while()</span> qui permet d'exécuter un certain code tant qu'une condition n'est pas remplie. Dans notre cas, la logique est la suivante: <em>Etant donné qu'une ligne du tableau HTML représente un enregistrement de la base de donnée, créez une ligne et remplissez chacune de ses colonnes tant qu'il reste des enregistrements dans la base de données.</em>
+	</p>
+<p>
+	Les boucles while sont très intéressantes: il n'est pas nécessaire de savoir combien d'enregistrements il y a dans la base de données, puisque le même code sera exécuté <em>tant qu'il en reste</em>.
+	</p>
+<p>
+	Voici donc le code:
+	</p>
+<p>
+	<span class="Code">
+<ol class="Code">
+<li />echo &#x27;&lt;table&gt;&#x27;;
+<li />while($data = mysql_fetch_assoc($req))
+<li />{
+<li />&nbsp;&nbsp; echo &#x27;&lt;tr&gt;&#x27;;
+<li />&nbsp;&nbsp; echo &#x27;&lt;td&gt;$data["id"]&lt;/td&gt;&#x27;;
+<li />&nbsp;&nbsp; echo &#x27;&lt;td&gt;$data["nom"]&lt;/td&gt;&#x27;;
+<li />&nbsp;&nbsp; echo &#x27;&lt;td&gt;$data["prenom"]&lt;/td&gt;&#x27;;
+<li />&nbsp;&nbsp; echo &#x27;&lt;td&gt;$data["age"]&lt;/td&gt;&#x27;;
+<li />&nbsp;&nbsp; echo &#x27;&lt;/tr&gt;&#x27;;
+<li />}
+<li />echo &#x27;&lt;/table&gt;&#x27;;
+	</ol>
+<p>	
+	</p>
+<p>
+	Rappelez-vous, la commande <span class="Code">echo</span> permet d'afficher un élément à l'écran. Nous affichons ici des balises HTML et du contenu.
+	</p>
+<h2>Affichage en liste: Tri par colonnes</h2>
+<p>
+	Nous venons d'afficher les données de la base en liste, sous la forme d'un tableau: une colonne par propriété, une ligne par enregistrement. L'intérêt d'un tel affichage -données tabulaires- est de pouvoir effectuer des tris rapidement. Par exemple, classer les enregistrements en ordre croissant ou décroissant, par nom, prénom ou âge.
+	</p>
+<p>
+	Pour effectuer un tel tri, il faudra passer une requête SQL de plus. Celle-ci est très simple: <span class="Code">SELECT * FROM mabase ORDER BY xxx yyy</span> où "xxx" représente le champ à prendre en considération, et "yyy" la méthode de tri. Par exemple, nous avons un champ "id" qui associe à chaque enregistrement de la base de données un numéro. Le premier enregistrement est "1", le second est "2", etc. Par défaut, lorsqu'on passe la requête pour afficher les données tabulaires, MySQL renvoie d'abord le premier enregistrement, puis le second, et ainsi de suite jusqu'au dernier. Le tableau se présentera donc de la façon suivante: le premier enregistrement -le plus vieux- en haut, le dernier -le plus récent- en bas. On appelle cela ordre "ascendant" ou croissant. Mais on peut vouloir l'inverse (et c'est fréquent dans ce cas): le dernier enregistrement, le plus récent, en haut, et le premier, le plus vieux, en bas. Dans ce cas, il faut trier les données par ordre "descendant" ou décroissant. L'instruction SQL sera: <span class="Code">SELECT * FROM mabase ORDER BY id DESC</span>. On écrit "DESC" pour ordre décroissant, et "ASC" pour ordre croissant.
+	</p>
+<p>
+	Ne vous y trompez pas, ceci n'a rien à voir avec la commande SQL "WHERE". Nous avons vu au début de cet article que la requête <span class="Code">SELECT prenoms FROM mabase WHERE age &gt; 40</span> affichait le prénom des gens qui ont plus de 40 ans. Cela implique que ceux qui ont moins de 40 ans seront ignorés. Si vous avez deux enregistrements dans votre base de données, l'un correspondant à une personne de 50 ans, et l'autre à une personne de 30 ans, alors seul le premier enregistrement sera affiché. Le second ne sera pas affiché, il sera ignoré. A l'inverse, la commande ORDER BY prend en compte tous les enregistrements: il ne s'agit pas de <em>rechercher</em> les enregistrements remplissant certains critères, en excluant ceux qui ne remplissent pas ces critères, mais de <em>trier</em> tous les enregistrements selon certains critères.
+	</p>
+<p>
+	Vous pouvez intégrer tout cela à votre programme de manière très simple. Tout en haut de la page sur laquelle est affiché votre tableau -vos données tabulaires-, créez deux liens:
+	</p>
+<p>
+	<span class="Code">
+<ol class="Code">
+<li />&lt;a href=&quot;liste.php?orderby=asc&quot;&gt;Trier par ordre croissant&lt;/a&gt;
+<li />&lt;a href=&quot;liste.php?orderby=desc&quot;&gt;Trier par ordre décroissant&lt;/a&gt;
+	</ol>
+<p>	
+	</p>
+<p>
+	Ensuite, dans votre fichier "liste.php", adaptez votre vode. La requête SQL sera formée de manière différente, selon que l'utilisateur a cliqué sur le lien "Trier par ordre croissant" ou sur le lien "Trier par ordre décroissant".
+	</p>
+<p>
+	<span class="Code">
+<ol class="Code">
+<li />if($_GET[&quot;orderby&quot;] == &quot;asc&quot;) // si on veut un ordre croissant
+<li />{		$sql = &quot;SELECT * FROM mabase ORDER BY id ASC&quot;;
+<li />}
+<li />elseif($_GET[&quot;orderby&quot;] == &quot;desc&quot;) // si on veut un ordre décroissant
+<li />{		$sql = &quot;SELECT * FROM mabase ORDER BY id DESC&quot;;
+<li />}
+<li />else // si rien n&#x27;a été précisé
+<li />{		$sql = &quot;SELECT * FROM mabase&quot;;
+<li />}
+	</ol>
+<p>	
+	</p>
+<p>
+	Le principe est le même pour les autres champs. Si par exemple vous voulez trier les personnes par âge croissant, les plus jeunes en haut et les plus vieux en bas, il vous suffira de passer la requête suivante: <span class="Code">SELECT * FROM mabase ORDER BY age ASC</span>.
+	</p>
+<h2>Astuce: affichage par fiche</h2>
+<p>
+	Nous venons d'afficher <em>tous</em> les enregistrements de la base de données. Peut-être que pour chaque enregistrement vous avez une trentaine de colonnes, et que ce n'est pas pratique pour vous de tout afficher en bloc. Dans ce cas là notre champ "id" va servir !
+	</p>
+<p>
+	La solution est d'afficher la liste complète (comme dans l'exemple ci-dessus), en omettant par exemple les colonnes prenom et age. A la place, un lien de ce type: <span class="Code">echo '&lt;td&gt;&lt;a href="fiche.php?q='.$data["id"].'&gt;Voir la fiche&lt;/a&gt;&lt;/td&gt;';</span>
+	</p>
+<p>
+	Ce code produira un lien renvoyant vers la page <span class="Code">fiche.php?q=XX</span>, XX étant le contenu de la colonne id pour celle ligne.
+	</p>
+<p>
+	On récupère ensuite, dans le fichier <em>fiche.php</em>, la valeur de XX grâce à la variable <span class="Code">$_GET['q']</span>. Nous avons utilisé la méthode POST pour le formulaire, et nous utilisons maintenant la méthode GET ! La valeur de XX ainsi récupérée, il ne nous reste plus qu'à former la requête SQL: <span class="Code">$sql = "SELECT * FROM mabase WHERE id='".$_GET["q"]."'";</span>.
+	</p>
+<p>
+	Au final, cela donne:
+	</p>
+<p>
+	<span class="Code">
+<ol class="Code">
+<li />$id = $_GET[&#x27;id&#x27;];
+<li />$sql = &quot;SELECT * FROM mabase WHERE id=&#x27;$id&#x27;&quot;;
+<li />$req = mysql_query($sql) or die(mysql_error());
+<li />$data = mysql_fetch_assoc($req);
+<li />&nbsp;
+<li />echo &#x27; Id: &#x27;.$data[&#x27;id&#x27;];
+<li />echo &#x27; Nom: &#x27;.$data[&#x27;nom&#x27;];
+<li />echo &#x27; Prénom: &#x27;.$data[&#x27;prenom&#x27;];
+<li />echo &#x27; Âge: &#x27;.$data[&#x27;age&#x27;];
+	</ol>
+<p>	
+	</p>
+<p>
+	Je vous laisse écrire le reste du code, notamment la méthode de connexion à la base de donné qui ne change pas ; et la méthode de vérification de l'existence et de la non-nullité de la variable $_GET, puisque la procédure avec <em>if...else</em> est la même pour la variable $_GET et pour la variable $_POST. Une astuce en passant : pour sécuriser l'acquisition des données, il est conseillé de contrôler le <i>type</i> de ces données. Ici, <i>id</i> est censé être un <i>nombre</i>, c'est-à-dire de type <i>numérique</i>. On peut donc encadrer le code dans un bloc <span class="Code">if(is_numeric($_GET['id']))</span>.
+	</p>
+<h1>Etape 4: Recherche dans la base de données</h1>
+<p>
+	Pour rechercher dans la base de données, il faut utiliser un peu toutes les notions que nous venons de voir. Comme il est inutile que je me répète, je ne fournirai pas de code complet.
+	</p>
+<p>
+	La première étape est de créer un formulaire. La seconde étape est de créer un fichier PHP qui récupère les données de ce formulaire. La troisième étape est la formation de la requête SQL à partir des données récupérées.
+	</p>
+<p>
+	La requête de recherche se construit exactement comme expliqué dans l'exemple ci-dessus. En effet, nous avons recherché tous les enregistrements dont l'id est XX. L'id étant une valeur unique, il n'y a forcément qu'un seul résultat !
+	</p>
+<p>
+	La recherche exacte se construit ainsi: <span class="Code">SELECT * FROM mabase WHERE nom_colonne = Y</span>. Le caractère <em>*</em> implique que l'on veut toutes les colonnes dans les résultats. Si l'on ne veut que certaines colonnes, il suffira d'écrire leurs noms séparés de virgules. <em>Y</em> correspond à ce que l'on veut rechercher.
+	</p>
+<p>
+	La recherche approximative se construit de cette manière: <span class="Code">SELECT * FROM mabase WHERE nom_colonne LIKE '%S'</span>. On recherche ainsi toutes les entrées qui finissent par S. Le symbole <em>%</em> est un marqueur générique. Par exemple, si j'écris <em>Constit%</em>, me seront renvoyés aussi bien Constitution que Constitutionnel ou Constitutionnellement.
+	</p>
+<p>
+	La quatrième étape est l'affichage des résultats. Vous pouvez reprendre le code d'affichage en liste et remplacer la requête SQL de ce code par la nouvelle requête SQL de recherche que vous venez de générer.
+	</p>
+<h1>Etape 5: Modifier et supprimer une entrée de la base de données</h1>
+<p>
+	Encore une fois, les mécanismes sont les mêmes. Il vous faut récupérer l'id de l'enregistrement à modifier ou supprimer comme expliqué ci-avant, et construire la requête SQL correspondante.
+	</p>
+<p>
+	Pour mettre à jour, le mot clé SQL est <em>UPDATE</em>: <span class="Code">UPDATE mabase SET nom='$nom', prenom='$prenom, date='$date' WHERE id='$id'</span>.
+	</p>
+<p>
+	Pour supprimer une entrée, le mot clé SQL est <em>DELETE</em>: <span class="Code">DELETE FROM mabase WHERE id='$id'</span>.
+	</p>
+<h1>Bonus: Sécuriser l'accès à la base de données</h1>
+<p>
+	Il existe de nombreuses méthodes pour sécuriser l'accès aux données, et notamment: les htaccess, le cryptage et les sessions PHP. Je vais développer ici les sessions PHP. Le principe est le suivant: l'administrateur de la base de données définit qui peut y accéder en définissant des couples login / mot de passe; et toute personne désirant utiliser la base de données devra saisir un des couples définis par l'administrateur.
+	</p>
+<p>
+	Les sessions PHP sont très pratiques. Elles reposent sur un principe simple: le tableau $SESSION[] est créé et stocké sur le serveur. Il peut contenir n'importe quel type de données. De plus, il est <em>statique</em>. Cela signifie qu'il est accessible dans n'importe laquelle de vos pages (classes) PHP sans avoir à être redéclaré. Il n'est pas non plus réinitialisé d'une page à une autre. Pour le réinitialiser, deux méthodes: soit en écrivant <span class="Code">$SESSION[] = array();</span>, soit simplement en quittant votre navigateur !
+	</p>
+<p>
+	Pour commencer, on crée les couples. Le premier login est <em>Martin</em>, et il est associé au mot de passe <em>abc</em>. De même pour les autres couples.
+	</p>
+<p>
+	<span class="Code">
+<ol class="Code">
+<li />$admin_array = array(&#x27;Martin&#x27; =&gt; &#x27;abc&#x27;, &#x27;Dupont&#x27; =&gt; &#x27;def&#x27;, &#x27;Robert&#x27; =&gt; &#x27;ghi&#x27;);
+	</ol>
+<p>	
+	</p>
+<p>
+	On ouvre ensuite la session en écrivant <span class="Code">session_start();</span> au début de nos fichiers PHP.
+	</p>
+<p>
+	On crée un formulaire, avec un champ de texte pour le login, un champ de texte pour le mot de passe, et un bouton pour envoyer les résultats avec la méthode POST. Puis, on récupère les valeurs soumises par le biais du formulaire dans une fonction qui les analyse et les compare aux valeurs de <span class="Code">$admin_array</span>. Cette fonction pourrait être construite ainsi:
+	</p>
+<p>
+	<span class="Code">
+<ol class="Code">
+<li />foreach($admin_array as $logg =&gt; $passwd)
+<li />{	if($_POST[&#x27;login&#x27;] == $logg AND $_POST[&#x27;password&#x27;] == $passwd)
+<li />&nbsp;&nbsp;	{	$_SESSION[&#x27;identifie&#x27;] = 1;
+<li />&nbsp;&nbsp;&nbsp;&nbsp;		return;
+<li />&nbsp;&nbsp;	}
+<li />}
+	</ol>
+<p>	
+	</p>
+<p>
+	Il nous faut maintenant créer une autre fonction qui vérifie si l'utilisateur est enregistré, c'est-à-dire si $_SESSION['identifie'] est égal à 1. Si c'est le cas, la fonction renverra la valeur "true", et elle renverra "false" dans tous les autres cas. A chaque fois que vous voudrez savoir si l'utilisateur est identifié, vous pourrez appeler la fonction suivante et vérifier la valeur qu'elle retourne.
+	</p>
+<p>
+	<span class="Code">
+<ol class="Code">
+<li />function checkauth()
+<li />{ if($_SESSION[&#x27;identifie&#x27;] == 1) return true;
+<li />&nbsp; else return false;
+<li />}
+	</ol>
+<p>	
+	</p>
+<p>
+	Dernière étape: on utilise la fonction checkauth() avant d'afficher un quelconque contenu, et avant d'exécuter une quelconque opération. Pour cela, on englobe les codes vus dans cet article dans une instruction if...else. Si la fonction renvoie "true", on peut afficher les données, sinon non. A noter que <span class="Code">if(checkauth())</span> est équivalent à <span class="Code">if(checkauth() == true)</span>.
+	</p>
+<p>
+	<span class="Code">
+<ol class="Code">
+<li />if(checkauth())
+<li />{
+<li /> // n&#x27;importe quelle opération sur la base de donnée
+<li />}
+<li />else
+<li />{
+<li /> // le code qui correspond au formulaire d&#x27;identification
+<li />}
+	</ol>
+<p>	
+	</p>
+<p>A Ledenon, le 25/09/2005<br />
+Mis à jour à Montpellier le 21/12/2005<br />
+Mis à jour à Paris le 11/04/2009</p>
+
+
+</span></p></span></p></span></p></span></p></span></p></span></p></span></p></span></p></span></p></span></p></span></p></span></p></span></p></span></p></span></p></span></p></span></p></span></p></span></p></span></p>
+
+    </div>
+  
+    <h1><a href="/internet/web/2005/09/14/administrer-un-forum-1-precis-de-moderation.html">Administrer un forum #1 - Précis de modération</a></h1>
+    <p class="author">
+      <span class="date">2005-09-14 22:46:09 +0200</span>
+    </p>
+    <div class="content">
+      <p>Je vous propose dans cet article une ressource tr&egrave;s importante pour tout administrateur de forum: le pr&eacute;cis de mod&eacute;ration que devront lire et suivre tous les mod&eacute;rateurs. Tous les forums ne disposent pas de mod&eacute;rateurs qui connaissent d&eacute;j&agrave; leur boulot, ce sont souvent des gens motiv&eacute;s mais qui n'ont aucune exp&eacute;rience de mod&eacute;ration, et qu'il faut par cons&eacute;quent former.</p>
+<p>Vous pouvez vous inspirer de ce qui suit pour r&eacute;diger votre propre pr&eacute;cis de mod&eacute;ration. Le texte est bien entendu &agrave; modifier en fonction de votre forum, mais il peut offrir une trame &agrave; suivre, et il peut vous &eacute;viter d'oublier des choses importantes. A noter &eacute;galement que les captures d'&eacute;cran sont absentes (&agrave; vous de les refaire, en fonction de votre forum). Ce pr&eacute;cis a &eacute;t&eacute; r&eacute;dig&eacute; pour un forum vBulletin, mais il peut facilement &ecirc;tre adapt&eacute; pour un IPB, phpBB, etc. </p>
+<p>Ce fil de discussion est un pr&eacute;cis de mod&eacute;ration. Il s'agit en fait d'une compilation de 4 articles &eacute;crits &agrave; des moments diff&eacute;rents et concernant la mod&eacute;ration.</p>
+<p>Ce fil de discussion a plusieurs buts:<br />
+  - faire comprendre au lecteur la notion de mod&eacute;ration et de mod&eacute;rateur.<br />
+  - informer le lecteur sur ce que l'on attend de lui s'il est mod&eacute;rateur.<br />
+  - indiquer au lecteur, s'il est mod&eacute;rateur, les moyens dont il dispose pour mettre en oeuvre sa mission.</p>
+<p>Il s'agit en quelque sorte d'une r&eacute;f&eacute;rence rapide de mod&eacute;ration, destin&eacute;e tant aux mod&eacute;rateurs novices (qui apprendront &agrave; mod&eacute;rer un forum) qu'aux habitu&eacute;s de la mod&eacute;ration (qui verront les particularit&eacute;s de ces forums).</p>
+<p align="center"><strong>Sommaire</strong></p>
+<p align="center"><strong>#1. Qu'est-ce qu'un mod&eacute;rateur ?</strong></p>
+<p align="center"> Avant propos<br />
+  Introduction<br />
+  I - La d&eacute;finition du mod&eacute;rateur<br />
+  II - Le r&ocirc;le, les buts et les motivations du mod&eacute;rateur<br />
+  III - Le statut des mod&eacute;rateurs<br />
+IV - Les possibilit&eacute;s offertes aux mod&eacute;rateurs (introduction)</p>
+<p align="center"><strong>#2. Mod&eacute;rateurs et super-mod&eacute;rateurs</strong></p>
+<p align="center"> I - Les principales diff&eacute;rences entre mod&eacute;rateurs et super-mod&eacute;rateurs<br />
+II - Les fonctions propres aux super-mod&eacute;rateurs</p>
+<p align="center"><strong>#3. Mise en oeuvre de la mod&eacute;ration</strong></p>
+<p align="center"> I - Les deux principaux menus accessibles aux mod&eacute;rateurs.<br />
+  II - Comment scinder une discussion.<br />
+  III - Comment fusionner deux discussions.<br />
+  IV - Comment d&eacute;placer / copier une discussion.<br />
+  V - Comment &quot;g&eacute;rer&quot; une discussion.<br />
+VI - Comment supprimer un message ou une discussion.</p>
+<p align="center"><strong>#4. Droits et obligation du mod&eacute;rateur, et exemples de mod&eacute;ration</strong></p>
+<p align="center"> I - Les obligations des mod&eacute;rateurs<br />
+  II - Les droits des mod&eacute;rateurs<br />
+  III - Quelques exemples de mod&eacute;ration</p>
+<h1 align="justify">
+1- Qu'est-ce qu'un mod&eacute;rateur ?</h1>
+<p>Avant-propos :<br />
+  On quitte un instant la sph&egrave;re virtuelle pour se placer dans l'optique des cons&eacute;quences de ce forum dans la vie r&eacute;elle.</p>
+<p>En France, comme dans tous les pays d'europe, il existe des lois relatives au contenu publi&eacute; sur internet. Ces lois ne sont pas diff&eacute;rences de celles applicables au contenu publi&eacute; sur papier.</p>
+<p>Les forums, et celui-ci particuli&egrave;rement, offrent un espace de libre expression aux internautes, sous la responsabilit&eacute; de leurs g&eacute;rants.</p>
+<p>Il est interdit de publier dans des forums des contenus sanctionn&eacute;s par les lois en vigueur. En cas de non respect de ces interdictions, non seulement est engag&eacute;e la responsabilit&eacute; de l'auteur du contenu, mais aussi celle des responsables de l'h&eacute;bergement de ce contenu. Ainsi, la responsabilit&eacute; de l'association, de son &eacute;quipe dirigeante, et des administrateurs du forum peuvent &ecirc;tre engag&eacute;es.</p>
+<p>En tant qu'administrateur, je n'ai pas plus envie que vous de me retrouver en correctionnelle. Ainsi, nous devons r&eacute;aliser un contr&ocirc;le attentif du contenu. Un message ill&eacute;gal peut de temps en temps passer (par exemple mettre en ligne un contenu dont les droits ne sont pas tr&egrave;s clairs), mais cela ne doit en aucun cas devenir syst&eacute;matique.</p>
+<p>La mod&eacute;ration doit donc &ecirc;tre faite avec s&eacute;rieux.</p>
+<h2>Introdution</h2>
+<p>Il est n&eacute;cessaire, pour aider les mod&eacute;rateurs &agrave; comprendre quelle est leur mission, de faire un post explicatif des points essentiels concernant la mod&eacute;ration, comme : la d&eacute;finition du mod&eacute;rateur (I), le r&ocirc;le, les buts et les motivations d'un mod&eacute;rateur (II), le statut des mod&eacute;rateurs (III), et les possibilit&eacute;s offertes aux membres de l'&eacute;quipe de mod&eacute;ration (IV).</p>
+<h2>(I) La d&eacute;finition du mod&eacute;rateur</h2>
+<p>La mod&eacute;ration est le contr&ocirc;le pr&eacute;alable, ou a priori, des posts. Les mod&eacute;rateurs contr&ocirc;lent ainsi la conformit&eacute; des messages des utilisateurs &agrave; la charte du forum, apr&egrave;s qu'ils aient &eacute;t&eacute; post&eacute;s mais avant qu'ils n'apparaissent parmi les messages visibles sur le forum. Ainsi, si le message est jug&eacute; conforme &agrave; la charte, il sera valid&eacute; par le mod&eacute;rateur et imm&eacute;diatement affich&eacute; sur le forum ; par contre, s'il est jug&eacute; contraire &agrave; la charte, il sera &laquo; mod&eacute;r&eacute; &raquo;, c'est &agrave; dire corrig&eacute; si l'irr&eacute;gularit&eacute; n'est que partielle et que la correction est possible sans d&eacute;naturer le contenu, ou supprim&eacute; dans le cas contraire.</p>
+<p>Sur ce site, aucun forum n'est mod&eacute;r&eacute;. C'est-&agrave;-dire qu'il n'y a pas de contr&ocirc;le a priori des messages, mais un contr&ocirc;le a posteriori. Ainsi, le mod&eacute;rateur n'est plus celui qui permet aux messages d'&ecirc;tre affich&eacute;s s'ils sont conformes &agrave; la charte du forum, mais celui qui supprime les messages post&eacute;s d&egrave;s lors qu'ils vont &agrave; l'encontre de cette charte. Le mod&eacute;rateur est, &agrave; la base, un utilisateur &laquo; normal &raquo; du forum qui passe r&eacute;guli&egrave;rement lire les nouveaux messages ; mais qui, contrairement &agrave; un utilisateur &laquo; normal &raquo; qui n'est pas mod&eacute;rateur, peut contr&ocirc;ler la r&eacute;gularit&eacute; des messages. Ce contr&ocirc;le est d&eacute;taill&eacute; plus bas.</p>
+<p>Par d&eacute;finition, le mod&eacute;rateur est une personne qui :<br />
+  - Vient r&eacute;guli&egrave;rement sur le forum.<br />
+  - Est d&eacute;cid&eacute; &agrave; s'investir dans la vie du forum, &agrave; apporter sa pierre &agrave; l'&eacute;difice.<br />
+  - Conna&icirc;t 'au moins un peu' le fonctionnement technique du forum.<br />
+  - Conna&icirc;t par c&oelig;ur les diff&eacute;rents forums et sous-forums, et sait &agrave; quoi chaque forum ou sous-forum correspond. Voir ici : (mettre ici: descriptif des forums, ou annonce)</p>
+<h2>
+  (II) Le r&ocirc;le, les buts et les motivations du mod&eacute;rateur</h2>
+<h3>(A) Le r&ocirc;le du mod&eacute;rateur</h3>
+<p>Le r&ocirc;le du mod&eacute;rateur est multiple. Il se caract&eacute;rise notamment par :<br />
+  - L'animation du forum.<br />
+  - Le renseignement des utilisateurs.<br />
+  - Le contr&ocirc;le de la conformit&eacute; des messages &agrave; la charte et aux r&egrave;gles g&eacute;n&eacute;rales d'utilisation du forum.<br />
+  - La prise de sanctions contre les utilisateurs fautifs.</p>
+<p>L'animation du forum est sans aucun doute le point le plus important. En effet, un forum n'est int&eacute;ressant que s'il est vivant, et un forum vivant n'est pas seulement un forum auquel beaucoup de gens sont inscrits, mais aussi un forum qui pr&eacute;sente une bonne ambiance et un fonctionnement fluide. Le r&ocirc;le des mod&eacute;rateurs est ici d'assurer le maintien de la bonne ambiance et la fluidit&eacute; du fonctionnement quotidien du forum. Ainsi, le mod&eacute;rateur devra essayer, dans la mesure du possible, de motiver les utilisateurs et de les inciter &agrave; participer. C'est particuli&egrave;rement vrai dans le cas o&ugrave; le mod&eacute;rateur occupe &eacute;galement des fonctions de direction au sein de l'association, ou est un d&eacute;l&eacute;gu&eacute; (il a en ce sens un pouvoir, une autorit&eacute; et une l&eacute;gitimit&eacute; suppl&eacute;mentaires pour &laquo; motiver les troupes &raquo;).</p>
+<p>Le renseignement des utilisateurs est le second r&ocirc;le du mod&eacute;rateur. Bien qu'il soit souvent oubli&eacute; car la plupart des gens ne pensent pas &agrave; communiquer aux mod&eacute;rateurs leurs probl&egrave;mes dans l'utilisation du forum, il reste n&eacute;anmoins tr&egrave;s important. La seule obligation faite au mod&eacute;rateur dans ce sens est de conna&icirc;tre l'objet de chaque forum et sous-forum, et minimalement le fonctionnement du logiciel. Il pourra ainsi orienter un utilisateur perdu vers le bon forum ou sous-forum, et l'aider dans l'utilisation quotidienne du forum (utiliser son profil d'utilisateur, ses MP, poster des messages, cr&eacute;er des sondages, comprendre la politique g&eacute;n&eacute;rale du forum et ses conditions de fonctionnement, son ambiance, son &laquo; esprit &raquo;). Le mod&eacute;rateur n'est pas l&agrave; pour r&eacute;gler les probl&egrave;mes techniques tels que les bugs, c'est le r&ocirc;le exclusif de l'administrateur du forum vers lequel le mod&eacute;rateur devra faire suivre les demandes qui sortent de sa comp&eacute;tence ou auxquelles, pour une raison ou pour une autre, il n'a pas r&eacute;ponse.</p>
+<p>Le contr&ocirc;le de conformit&eacute; des messages est un r&ocirc;le subsidiaire, puisque si le forum est vivant et qu'il fonctionne correctement, les utilisateurs &eacute;tant suffisamment renseign&eacute;s, la plupart des messages post&eacute;s seront conformes &agrave; la charte et n'auront pas &agrave; &ecirc;tre mod&eacute;r&eacute;s. Cependant, dans le cas contraire, le mod&eacute;rateur pourra &agrave; titre d'exemple modifier le texte d'un message insultant, d&eacute;placer un message post&eacute; dans un mauvais forum au regard de son th&egrave;me, fermer une discussion qui tourne au &laquo; flood &raquo;, etc.</p>
+<p>Enfin, la prise de sanctions &agrave; l'encontre des utilisateurs qui ne veulent pas respecter les r&egrave;gles de base de fonctionnement du forum est un r&ocirc;le &eacute;galement subsidiaire. Parce que les mod&eacute;rateurs ne sont pas des &laquo; flics &raquo;, les sanctions lourdes telles que l'exclusion temporaire ou d&eacute;finitive d'un utilisateur ou la suppression d'un thread entier rel&egrave;vent exclusivement, dans ce forum, de la comp&eacute;tence des administrateurs. Les mod&eacute;rateurs devront simplement faire suivre le probl&egrave;me aux administrateurs s'ils n'arrivent pas &agrave; le r&eacute;gler par le dialogue ou en appliquant des sanctions l&eacute;g&egrave;res qui font office moins de punitions que d'avertissements.</p>
+<h3>(B) Les buts du mod&eacute;rateur</h3>
+<p>Les buts des mod&eacute;rateurs agissant en tant quel tels doivent &ecirc;tre orient&eacute;s vers le maintien de l'ordre dans le forum (sanction du flood, flam, etc.), et de sa bonne ambiance (&laquo; motiver les troupes &raquo;). Il va de soi que les buts du mod&eacute;rateur doivent &ecirc;tre altruistes, car celui-ci ne peut pas agir &agrave; des fins personnelles. Tant que le mod&eacute;rateur fait de son mieux pour assurer la bonne marche du forum, son but est l&eacute;gitime.</p>
+<h3>(C) Les motivations du mod&eacute;rateur</h3>
+<p>L'action du mod&eacute;rateur ne doit pas &ecirc;tre arbitraire, elle doit &ecirc;tre motiv&eacute;e. Ainsi, les d&eacute;cisions des mod&eacute;rateurs seront motiv&eacute;es implicitement ou explicitement, en r&eacute;f&eacute;rence aux r&egrave;gles g&eacute;n&eacute;rales de fonctionnement du forum ou, &agrave; d&eacute;faut, en r&eacute;f&eacute;rence &agrave; ce qu'ils croien &ecirc;tre la meilleure solution dans les circonstances.</p>
+<p>La motivation peut &ecirc;tre implicite, par exemple quand un message contient une insulte il est l&eacute;gitime que le mod&eacute;rateur l'&eacute;dite pour supprimer le mot injurieux. Il devra alors signaler son intervention par une simple phrase : &laquo; il est con &raquo; deviendra &laquo; il est *** (Edit : Mod&eacute;rateur X) &raquo;. De m&ecirc;me, un post signalant que &laquo; le thread a &eacute;t&eacute; d&eacute;plac&eacute; du forum X vers le forum X qui correspond mieux &agrave; son th&egrave;me &raquo; est souvent une bonne mani&egrave;re de justifier l'acte de mod&eacute;ration.</p>
+<p>A ce propos, les mod&eacute;rateurs signaleront leurs actions de mod&eacute;ration par une phrase dans la couleur verte.</p>
+<p>La motivation doit &ecirc;tre explicite pour des actes plus lourds de cons&eacute;quences. N&eacute;anmoins, en l'&eacute;tat actuel des choses les mod&eacute;rateurs n'ont pas &agrave; prendre ce genre de d&eacute;cisions. Le seul cas pouvant se pr&eacute;senter est celui dans lequel, suite &agrave; une discussion avec un utilisateur r&eacute;fractaire, le mod&eacute;rateur demande &agrave; un administrateur de prendre une sanction : une petite explication sera n&eacute;cessaire pour aider l'administrateur &agrave; comprendre la situation.</p>
+<p>Le mod&eacute;rateur se r&eacute;f&egrave;rera aux r&egrave;gles g&eacute;n&eacute;rales de fonctionnement du forum (voir ci-dessous) pour base &agrave; ses actions de mod&eacute;ration. En l'absence de r&egrave;gle explicite, il poss&egrave;de un pouvoir discr&eacute;tionnaire qui lui permet de faire ce qu'il estime le plus appropri&eacute;.</p>
+<p>Les r&egrave;gles g&eacute;n&eacute;rales de fonctionnement du forum proviennent de deux sources :<br />
+  - Les diff&eacute;rents textes composant la charte (post&eacute;s par les administrateurs).<br />
+  - Les discussions entre mod&eacute;rateurs dans les forums de mod&eacute;rations. Ces discussions ont une grande importance pour qu'une politique commune soit d&eacute;termin&eacute;e et appliqu&eacute;e de mani&egrave;re coh&eacute;rente.</p>
+<p>Voici la charte dans son &eacute;tat actuel, telle qu'elle est pr&eacute;sent&eacute;e aux utilisateurs dans l'annonce de bienvenue:<br />
+&lt;&lt;Mettre ici un lien vers la charte&gt;&gt;</p>
+<h2>(III) Le statut des mod&eacute;rateurs</h2>
+<p>Les mod&eacute;rateurs sont des utilisateurs &laquo; normaux &raquo; qui ont en plus le statut de mod&eacute;rateur. C'est-&agrave;-dire qu'ils appartiennent principalement au groupe &quot;Mod&eacute;rateurs&quot;, et subsidiairement au groupe qui correspond &agrave; leur qualit&eacute; (Promotion 2005, Registered, etc.).<br />
+  Ainsi, les mod&eacute;rateurs ont acc&egrave;s, en plus des forums visibles &agrave; leur rang, aux forums de mod&eacute;ration.</p>
+<p>Les mod&eacute;rateurs peuvent exercer les pouvoirs de mod&eacute;ration en fonction de leur rang de base, et/ou en fonction de leurs choix. Par exemple, une personne qui n'est pas dirigeant de l'association ne pourra pas mod&eacute;rer les forums d&eacute;di&eacute;s &agrave; l'association, mais pourra mod&eacute;rer les forums de sa promotion et les forums publics, sauf s'il a express&eacute;ment demand&eacute; de n'&ecirc;tre mod&eacute;rateur que d'un forum sp&eacute;cial (par exemple, du forum &quot;Vivre &agrave; Paris&quot;) en raison de sa sp&eacute;cialisation dans le domaine correspondant.</p>
+<p>Les mod&eacute;rateurs sont nomm&eacute;s et r&eacute;voqu&eacute;s unilat&eacute;ralement et discr&eacute;tionnairement (qui a dit &quot;ad nutum&quot; ? ) par les administrateurs.</p>
+<h2>(IV) Les possibilit&eacute;s offertes aux membres de l'&eacute;quipe de mod&eacute;ration</h2>
+<p>Les mod&eacute;rateurs peuvent :</p>
+<p>1) Ouvrir et fermer une discussion.<br />
+  2) D&eacute;placer et copier une discussion : d&eacute;placer vers un autre forum, avec ou sans redirection, voire copier la discussion vers un autre forum et maintenant l'originale dans le forum d'origine.<br />
+  3) Rendre une discussion importante et modifier son statut.<br />
+  4) Supprimer une discussion (&agrave; &eacute;viter, sauf cas tr&egrave;s graves).<br />
+  5) Supprimer des messages (&agrave; &eacute;viter, sauf cas tr&egrave;s graves).<br />
+  6) Editer les messages : modifier le texte d'un message post&eacute; par n'importe quel utilisateur n'ayant pas le statut d'administrateur.<br />
+  7) Fusionner et scinder les discussions : couper une discussion (thread) en deux, ou fusionner deux discussions en une seule.<br />
+  8) Monter ou descendre un sujet (en test).<br />
+  9) Contr&ocirc;ler la validit&eacute; d'un profil d'utilisateur.</p>
+<p>Pour cela, le mod&eacute;rateur pourra utiliser le menu d&eacute;roulant en haut de la liste des trheads d'un forum ou en haut des posts d'un thread (voir les pi&egrave;ces jointes ci-dessous). Pour editer un message, rien de plus simple : il suffit de cliquer sur le bouton &laquo; Editer &raquo; en bas du message, sous la derni&egrave;re ligne du texte &agrave; droite.</p>
+<p>L'utilisation des fonctions de mod&eacute;ration est assez intuitive, cependant il est possible qu'une fonction en particulier puisse poser des probl&egrave;mes. Dans ce cas, il existe deux solutions : premi&egrave;rement faire des tests dans le &laquo; FORUM DE TESTS &raquo; dont vous &ecirc;tes tous les mod&eacute;rateurs ; et deuxi&egrave;mement demander la solution aux autres mod&eacute;rateurs (dans ce forum) ou &agrave; un administrateur (dans ce forum ou en MP).</p>
+<p>En outre, les mod&eacute;rateurs disposent de pr&eacute;rogatives quant &agrave; l'espace allou&eacute; au stockage des pi&egrave;ces-jointes, &agrave; l'espace de stockage des messages priv&eacute;s (MP), et au nombre de destinataires simultan&eacute;s d'un m&ecirc;me MP (voir plus bas pour le d&eacute;tail).</p>
+<h1>2 - Mod&eacute;rateurs et Super-mod&eacute;rateurs</h1>
+<p>Il existe 2 cat&eacute;gories de membres dans l'&eacute;quipe de mod&eacute;ration:</p>
+<ul>
+<li> Les mod&eacute;rateurs</li>
+<li>Les super-mod&eacute;rateurs
+  </li>
+</ul>
+<p>Nous allons voir les principales diff&eacute;rences entre ces deux types d'utilisateurs (I), puis les fonctions propres aux super-mod&eacute;rateurs (II).</p>
+<h2>I - Les principales diff&eacute;rences entre mod&eacute;rateurs et super-mod&eacute;rateurs</h2>
+<h3>a - Principe</h3>
+<p>Les mod&eacute;rateurs r&eacute;pondent &agrave; la d&eacute;finition indiqu&eacute;e ci-dessus. Les super-mod&eacute;rateurs ont exactement le m&ecirc;me r&ocirc;le que les mod&eacute;rateurs, mais ce r&ocirc;le est g&eacute;n&eacute;ralis&eacute;.</p>
+<p>C'est &agrave; dire que les mod&eacute;rateurs exercent les fonctions de mod&eacute;ration sur un forum ou un groupe de forums d&eacute;termin&eacute;, alors que les super-mod&eacute;rateurs exercent ces fonctions sur tous les forums sans restriction. Ils disposent &agrave; ce titre de moyens suppl&eacute;mentaires.</p>
+<h3>b - Moyens</h3>
+<p>Les super-mod&eacute;rateurs disposent, contrairement aux mod&eacute;rateurs, d'un acc&egrave;s au panel de mod&eacute;ration. Ce panel de mod&eacute;ration permet d'effectuer des op&eacute;rations qui ont une implication sur le forum entier. Les mod&eacute;rateurs, eux, ne peuvent qu'agir en utilisant les commandes des menus d&eacute;roulants &quot;Outils du forum&quot; et &quot;Outils de la discussion&quot; propres &agrave; chaque forum ou discussion.</p>
+<p>Les super-mod&eacute;rateurs disposent de pr&eacute;rogatives sp&eacute;ciales:</p>
+<p>Espace disponible pour les pi&egrave;ces-jointes<br />
+  - Utilisateur de base: 500 KO<br />
+  - R&eacute;dacteur: 1 MO<br />
+  - Mod&eacute;rateur: 1 MO<br />
+  - Super-Mod&eacute;rateur: 2 MO</p>
+<p>Nombre de messages priv&eacute;s (MP) avant saturation de la bo&icirc;te<br />
+  - Utilisateur de base: 50<br />
+  - R&eacute;dacteur: 200<br />
+  - Mod&eacute;rateur: 200<br />
+  - Super-Mod&eacute;rateur: 500</p>
+<p>Nombre de destinataires possibles pour un MP<br />
+  - Utilisateur de base: 5<br />
+  - R&eacute;dacteur: 50<br />
+  - Mod&eacute;rateur: 50<br />
+  - Super-Mod&eacute;rateur: 100</p>
+<h3>a - Nomination et r&eacute;vocation</h3>
+<p>Les super-mod&eacute;rateurs sont nomm&eacute;s unilat&eacute;ralement par les administrateurs parmi les mod&eacute;rateurs qui en feront la demande et qui seront jug&eacute;s aptes &agrave; remplir cette mission et dignes de confiance. Ils sont r&eacute;vocables unilat&eacute;ralement et sans pr&eacute;avis par les administrateurs.</p>
+<p>Il est formellement interdit de:<br />
+  - Faire usage des commandes &quot;D&eacute;placement de masse&quot; et &quot;Suppression de masse&quot;.<br />
+  - Supprimer physiquement un message ou une discussion.<br />
+  - Exclure un utilisateur pour une dur&eacute;e sup&eacute;rieure &agrave; une semaine.<br />
+  - Publier des annonces sur l'ensemble des forums (r&eacute;serv&eacute; aux administrateurs)<br />
+  - Utiliser du contenu HTML dans les annonces. .<br />
+  Toute utilisation par un super-mod&eacute;rateur de ces fonctions sera sanctionn&eacute;e par une r&eacute;trogradation imm&eacute;diate, voire une exclusion. La raison de ces restriction est le maintien d'un niveau de s&eacute;curit&eacute; minimal au sein du forum, tant pour les utilisateurs que pour la base de donn&eacute;es elle-m&ecirc;me.</p>
+<h2>II - Les fonctions propres aux super-mod&eacute;rateurs</h2>
+<p>Les super-mod&eacute;rateurs ont acc&egrave;s au panneau de mod&eacute;ration, en cliquant sur le lien &quot;Mod&quot; dans le pied de page de chaque page du forum.</p>
+<p>Voir en pi&egrave;ce attach&eacute;s &agrave; ce forum une archive ZIP contenant les captures d'&eacute;cran illustrant les explications qui suivent. T&eacute;l&eacute;chargez l'archive ZIP, d&eacute;compressez-la, et visualisez les images au fil de la lecture des explications.</p>
+<p>1 - Vous devez entrer votre login et mot de passe utilisateur pour acc&eacute;der au panneau de mod&eacute;ration.</p>
+<p>2 - Accueil: vous pouvez rechercher rapidement un utilisateur en entrant son nom dans la case appropri&eacute;e. Vous pouvez consulter les fonctions PHP et SQL, mais cela n'est utile qu'aux administrateurs, pas aux super-mod&eacute;rateurs.</p>
+<p>3 - Annonce globale: vous pouvez ajouter des annonces globales ou non. Les annonces sont affich&eacute;es en haut de la liste des messages des forums. Vous devez d&eacute;finir ici sur quels forums sera visible votre annonce, de quand &agrave; quand elle sera affich&eacute;e, son contenu, et quel type de formatage est autoris&eacute;. Le HTML n'est jamais autoris&eacute;.</p>
+<p>4 - Pour ajouter et voir les annonces dans les forums au cas par cas.</p>
+<p>5 - Mod&eacute;rer: discussions, messages, pi&egrave;ces-jointes, &eacute;v&egrave;nements. Il s'agit ici de validation a priori de ces &eacute;l&eacute;ments. Reportez vous au post ci-dessus pour de plus amples informations.</p>
+<p>6 - Recherche d'utilisateurs par leur nom, comme sur la page d'accueil.</p>
+<p>7 - L'exclusion d'un utilisateur. Elle ne doit jamais exc&eacute;der une semaine. Il suffit d'entrer le nom de l'utilisateur et de sp&eacute;cifier la dur&eacute;e (laisser le groupe sur &quot;banned users&quot; ou &quot;banis&quot;). Faites attention en utilisant cette fonction svp, l'utilisateur n'aura plus du tout acc&egrave;s au forum jusqu'&agrave; la lev&eacute;e de l'exclusion...</p>
+<p>8 - Rechercher les utilisateurs par leur adresse IP. Ce n'est vraiment utile qu'aux administrateurs.</p>
+<p>3 - Mise en oeuvre de la mod&eacute;ration</p>
+<p>Je vous propose quelques petits tutoriaux en image pour apprendre &agrave; manier les fonctions les plus courantes de mod&eacute;ration.</p>
+<p>Nous verrons:</p>
+<ul>
+<li> I - Les deux principaux menus accessibles aux mod&eacute;rateurs.</li>
+<li>II - Comment scinder une discussion.</li>
+<li>III - Comment fusionner deux discussions.</li>
+<li>IV - Comment d&eacute;placer / copier une discussion.</li>
+<li>V - Comment &quot;g&eacute;rer&quot; une discussion.</li>
+<li>VI - Comment supprimer un message ou une discussion.
+  </li>
+</ul>
+<p>NB: pour des raisons de lisibilit&eacute; et de mise en page, les captures d'&eacute;cran seront mises en lien. Cliquez dessus pour visualiser l'image correspondante.</p>
+<h3>I - Les deux principaux menus accessibles aux mod&eacute;rateurs</h3>
+<p>Les deux menus de mod&eacute;ration forment la base de la mod&eacute;ration. Le premier est relatif aux op&eacute;rations portant sur un forum, et le second est relatif aux op&eacute;rations portant sur un fil de discussion. Toutes les fonctions qui sont trait&eacute;es ici sont des fonctions appartenant &agrave; ces menus de mod&eacute;ration.</p>
+<p>
+  Citation:<br />
+  Image 1 - Le menu de mod&eacute;ration d'un forum</p>
+<p>Ce menu peut changer en fonction du rang de l'utilisateur. Par exemple, en &eacute;tant administrateur, j'ai une fonction &quot;Ajouter un mod&eacute;rateur&quot; que les simples mod&eacute;rateurs n'auront pas. Les super-mod&eacute;rateurs auront acc&egrave;s au d&eacute;placement en masse des discussions, &agrave; ne pas utiliser sauf cas vraiment exceptionnel. Ce menu existe, mais en pratique vous ne l'utiliserez jamais.</p>
+<p>
+  Citation:<br />
+Image 2 - Le menu de mod&eacute;ration d'un fil de discussion</p>
+<p>Ce menu permet de:</p>
+<ul>
+<li> <strong>Fermer (Ouvrir) la discussion</strong>: personne ne pourra envoyer de nouveau message dans une discussion ferm&eacute;e. Fermer une discussion est le meilleur moyen pour couper-court &agrave; un d&eacute;but de flood ou de hors-sujet.
+  </li>
+<li><strong>D&eacute;placer / Copier la discussion</strong>: permet de d&eacute;placer la discussion vers un forum plus appropri&eacute;, si par exemple l'auteur s'est tromp&eacute; en choisissant le forum de destination. Copier la discussion permet d'en faire un copier/coller dans un autre forum, la discussion originale restant intacte. Pour le d&eacute;placement, il existe 2 possibilit&eacute;s: avec ou sans redirection. Une discussion post&eacute;e dans le forum A doit &ecirc;tre d&eacute;plac&eacute;e vers le forum B. Le forum A doit-il garder une r&eacute;f&eacute;rence de la discussion, qui indique aux utilisateurs qu'elle a &eacute;t&eacute; d&eacute;plac&eacute;e vers le forum B (redirection), ou non (sans redirection) ?
+  </li>
+<li><strong>Rendre la discussion importante (normale)</strong>: permet de &quot;scotcher&quot; la discussion en haut de toutes les autres. Elle ne descendra plus dans la liste lorsqu'une discussion plus r&eacute;cente sera cr&eacute;&eacute;e.
+  </li>
+<li><strong>G&eacute;rer la discussion</strong>: permet d'acc&eacute;der &agrave; des fonctions avanc&eacute;es tr&egrave;s int&eacute;ressantes: modifier le titre de la discussion, ajouter une note lisible par les autres mod&eacute;rateurs (par exemple: &quot;gardez cette discussion &agrave; l'oeil, elle risque de d&eacute;g&eacute;n&eacute;rer&quot;), voir l'historique de mod&eacute;ration.
+  </li>
+<li><strong>Supprimer la discussion</strong>: permet de supprimer la discussion. La suppression d&eacute;finitive n'&eacute;tant pas autoris&eacute;e, les mod&eacute;rateurs ne pourront supprimer les discussions que de mani&egrave;re relative: elles pourront &ecirc;tre restaur&eacute;es &agrave; posteriori. Cela peut &ecirc;tre pratique si un mod&eacute;rateur veut faire une annonce qui sera publi&eacute;e par exemple le 1er janvier &agrave; minuit, mais qu'&agrave; ce moment l&agrave; il sera en train de f&ecirc;ter le nouvel an et n'aura pas le temps de r&eacute;diger le texte. Il pourra alors cr&eacute;er la discussion la veille, la supprimer, et la restaurer en 20 secondes le 1er janvier &agrave; minuit. Il est &eacute;galement possible de supprimer une discussion en laissant une note de mod&eacute;ration: par exemple supprimer une discussion &agrave; titre pr&eacute;ventif si l'on a un doute de sa conformit&eacute; &agrave; la charte, en attendant qu'elle soit relue par un autre mod&eacute;rateur ou un administrateur pour confirmation. Cette fonction peut &ecirc;tre pratique dans les deux cas &eacute;voqu&eacute;s, mais elle doit toujours &ecirc;tre utilis&eacute;e avec parcimonie.
+  </li>
+<li><strong>Supprimer les messages</strong>: m&ecirc;me chose que pour la suppression des discussions.
+  </li>
+<li><strong>Fusionner les discussions</strong>: permet de fusionner 2 discussions en une seule. Plus exactement, permet de couper/coller le contenu d'une discussion B dans une discussion A.
+  </li>
+<li><strong>Scinder la discussion</strong>: permet de couper en deux une discussion pour en cr&eacute;er deux distinctes.
+  </li>
+<li><strong>Retirer les redirections</strong>: cf. d&eacute;placer une discussion. Si une redirection est laiss&eacute;e parce que cela est n&eacute;cessaire quelques temps, quand cela n'est plus n&eacute;cessaire cette fonction permet de retirer la redirection.
+  </li>
+</ul>
+<h3>II - Comment scinder une discussion.</h3>
+<p>Citation:<br />
+  Image 3 - Au d&eacute;part, une seule discussion.</p>
+<p>Citation:<br />
+  Image 4 - Cette discussion contient plusieurs messages.</p>
+<p>La discussion contient 4 messages, on veut la couper apr&egrave;s le 2&egrave;me.</p>
+<p>Citation:<br />
+  Image 5 - Scission de discussion</p>
+<p>On sp&eacute;cifie:</p>
+<ul>
+<li> Dans quel forum devra &ecirc;tre la nouvelle discussion cr&eacute;&eacute;e par la scission (dans l'exemple, il s'agit du m&ecirc;me forum).</li>
+<li>Quel sera le titre de cette nouvelle discussion.</li>
+<li>Quels messages devront partir vers la seconde discussion (cocher les cases correspondantes), et quels messages devront rester dans la premi&egrave;re discussion (ne pas cocher les cases correspondantes).
+  </li>
+</ul>
+<p>Apr&egrave;s validation, on se retrouve avec 2 discussions distinctes.</p>
+<p>Citation:<br />
+  Image 6 - Deux discussions distinctes.</p>
+<h3>III - Comment fusionner deux discussions.</h3>
+<p>Maintenant que nous avons scind&eacute;, en cr&eacute;ant deux diff&eacute;rentes, nous allons regrouper les deux discussions pour recr&eacute;er la discussions originale.</p>
+<p>Il faut, dans un premier temps, copier l'adresse de la discussion &agrave; coller. Les modifications seront ensuite appliqu&eacute;es &agrave; la discussions h&ocirc;te, celle sur laquelle on colle la discussion &agrave; coller.</p>
+<p>Pour copier l'adresse, il existe deux proc&eacute;dures:</p>
+<ul>
+<li> Premi&egrave;re possibilit&eacute;: faire un click-droit sur le titre de la discussion, et choisir la fonction du menu d&eacute;roulant qui permet de copier l'adresse. Le nom de cette fonction change selon les navigateurs, elle sera du genre: &quot;Copier l'adresse du lien&quot;, &quot;Copier l'URL du lien&quot;, &quot;Copier l'URL&quot;, &quot;Copier l'adresse&quot;, &quot;Copier le lien&quot;, etc.</li>
+<li>Deuxi&egrave;me possibilit&eacute;: afficher la discussion et copier l'adresse qui appara&icirc;t dans la barre d'adresses du navigateur (Ctrl+C ou menu Edition&gt;Copier).
+  </li>
+</ul>
+<p>Citation:<br />
+  Image 7 - Copier l'adresse de la discussion &agrave; coller</p>
+<p>On se place ensuite dans la discussion h&ocirc;te, et on actionne la fonction &quot;Fusionner les discussions&quot; du menu de mod&eacute;ration de la discussion.</p>
+<p>On doit indiquer:</p>
+<ul>
+<li> Le titre de la nouvelle discussion, apr&egrave;s fusion. On peut conserver le m&ecirc;me titre qu'une des deux discussions fusionn&eacute;es, mais l'usage veut que l'on utilise &quot;[FUSION]&quot; devant ce titre. Par exemple, on a les discussions &quot;Liste logements dans le 13eme&quot; et &quot;Loue logement dans le 13&egrave;me&quot;, on fusionnera pour cr&eacute;er &quot;[FUSION] Logements dans le 13&egrave;me&quot;.</li>
+<li>L'adresse de la discussion &agrave; coller. Comme on l'a copi&eacute;e, il suffit de la coller (Ctrl+V ou menu Edition&gt;Coller).
+  </li>
+</ul>
+<p>Citation:<br />
+  Image 8 - Fusionner les discussions</p>
+<h3>IV - Comment d&eacute;placer / copier une discussion.</h3>
+<p>Il suffit de sp&eacute;cifier le forum de destination, &eacute;ventuellement le nouveau titre de la discussion, s'il s'agit d'une copie ou d'un d&eacute;placement, et dans cette derni&egrave;re &eacute;ventualit&eacute; si une redirection doit &ecirc;tre laiss&eacute;e (voir ci-dessus pour une explication concernant les redirections).</p>
+<p>Citation:<br />
+  Image 9 - D&eacute;placer / Copier une discussion</p>
+<h3>V - Comment &quot;g&eacute;rer&quot; une discussion.</h3>
+<p>La gestion des discussions est une fonction tr&egrave;s int&eacute;ressante. Elle offre les possibilit&eacute;s d&eacute;crites ci-dessus.</p>
+<p>Citation:<br />
+  Image 10 - G&eacute;rer une discussion</p>
+<h3>VI - Comment supprimer un message ou une discussion</h3>
+<p>On commence par les discussions. J'ai cr&eacute;&eacute; une discussion sp&eacute;ciale dans un forum pour les besoins de ce test. Elle est affich&eacute;e dans la liste des discussions tout &agrave; fait normalement, tout le monde peut la voir et y participer.</p>
+<p>Citation:<br />
+  Image 11 - Une discussion normale</p>
+<p>Puis, &agrave; l'aide du menu de mod&eacute;ration de la discussion, je la supprime. La suppression est logique et non pas physique. C'est &agrave; dire que la discussion n'est pas r&eacute;ellement supprim&eacute;e, elle est juste cach&eacute;e aux utilisateurs du forum. Seuls les administration peuvent acc&eacute;der &agrave; la suppression physique d'une discussion, et ce pour deux raisons: premi&egrave;rement parce qu'elle est d&eacute;finitive et irr&eacute;versible, deuxi&egrave;mement parce que supprimer un &eacute;l&eacute;ment de la base de donn&eacute;es est une op&eacute;ration qui semble anodine, mais qui pr&eacute;sente un risque dans certains cas (corruption de la base de donn&eacute;e en cas d'erreur lors de la suppression).</p>
+<p>Il est possible de supprimer les pi&egrave;ces-jointes attach&eacute;es &agrave; la discussion. En g&eacute;n&eacute;ral, ce n'est pas recommand&eacute;, pour la raison suivante: comme nous ne disposons pas de beaucoup d'espace disque, quand la m&ecirc;me pi&egrave;ce jointe appara&icirc;t dans plusieurs messages, elle n'est en r&eacute;alit&eacute; cr&eacute;&eacute;e qu'une seule fois sur le serveur. La premi&egrave;re pi&egrave;ce jointe est le fichier r&eacute;el, les suivante ne sont que des liens logiques vers ce fichier. Ainsi, si elle est supprim&eacute;e, elle le sera pour tous les messages qui la concernent.</p>
+<p>Citation:<br />
+  Image 12 - Suppression logique de la discussion</p>
+<p>En revenant sur la page pr&eacute;sentant la liste des messages, on remarque que la discussion est bien marqu&eacute;e comme supprim&eacute;e. Une note de suppression est ajout&eacute;e, le nom du mod&eacute;rateur ayant effectu&eacute; l'op&eacute;ration est indiqu&eacute;, et on trouve un lien appel&eacute; &quot;G&eacute;rer&quot; destin&eacute; &agrave; modifier les param&egrave;tres de la discussion.</p>
+<p>Citation:<br />
+  Image 13 - La discussion a &eacute;t&eacute; supprim&eacute;e</p>
+<p>Pour restaurer la discussion, il suffit de cliquer sur le lien &quot;G&eacute;rer&quot;.</p>
+<p>Citation:<br />
+  Image 14 - Gestion de la discussion supprim&eacute;e</p>
+<p>Une fois la discussion restaur&eacute;e, elle s'affiche de nouveau dans la liste des discussions du forum. Si l'on utilise la fonction &quot;G&eacute;rer la discussion&quot; du menu de mod&eacute;ration, on aura acc&egrave;s au log (ce qui signifie, en gros, historique des op&eacute;rations) de mod&eacute;ration indiquant la suppression et la restauration.</p>
+<p>Citation:<br />
+  Image 15 - Gestion de la discussion et log de mod&eacute;ration</p>
+<p>Pour la suppression d'un message, le principe est exactement le m&ecirc;me:<br />
+  Citation:<br />
+  Image 16 - Un message normal<br />
+  Image 17 - S&eacute;lection du message &agrave; supprimer et suppression de ce message<br />
+  Image 18 - Le message a bien &eacute;t&eacute; supprim&eacute;</p>
+<h1>4 - Droits et obligations du mod&eacute;rateur, et exemples de mod&eacute;ration</h1>
+<p>Apr&egrave;s cette description th&eacute;orique de ce que sont les mod&eacute;rateurs et les super-mod&eacute;rateurs, il est n&eacute;cessaire de d&eacute;crire, d'un point de vue plus concret, les obligations des mod&eacute;rateurs (I), les droits des mod&eacute;rateurs (II), et de donner quelques exemples de mod&eacute;ration (III).</p>
+<h1>I - Les obligations des mod&eacute;rateurs</h1>
+<ul>
+<li> <strong>Conna&icirc;tre le fonctionnement du logiciel</strong><br />
+  Comme je l'ai d&eacute;j&agrave; soulign&eacute;, ce forum est bas&eacute; sur un logiciel complexe: vBulletin. Or, un des r&ocirc;les principaux des mod&eacute;rateurs est d'informer les utilisateurs sur son fonctionnement. Les mod&eacute;rateurs ont donc l'obligation de savoir l'utiliser, de mani&egrave;re &agrave; &ecirc;tre en mesure d'expliquer son utilisation. Il n'est pas demand&eacute; aux mod&eacute;rateurs de conna&icirc;tre les rouages techniques car c'est le r&ocirc;le exclusif des administrateurs (pour utiliser une m&eacute;taphore, &quot;comment fonctionne le moteur de la voiture&quot;), mais de savoir utiliser le logiciel (pour utiliser la m&eacute;taphore corr&eacute;lative, &quot;comment on conduit la voiture&quot;). Un mod&eacute;rateur qui ne conna&icirc;trait pas le fonctionnement basique du logiciel perdrait sa qualit&eacute; de mod&eacute;rateur.
+  </li>
+<li><strong>Conna&icirc;tre et respecter la charte</strong><br />
+  Comme toute communaut&eacute; en ligne, ce forum a une charte. Cette charte est n&eacute;cessaire au bon fonctionnement de la communaut&eacute;, au maintien d'une bonne ambiance et au respect de la l&eacute;galit&eacute;. Les mod&eacute;rateurs ont pour fonction de faire respecter &agrave; tout moment cette charte, et de sanctionner le cas &eacute;ch&eacute;ant sa violation. Dans cette optique, ils doivent la conna&icirc;tre, pour la faire respecter, et la respecter eux-m&ecirc;mes. Un mod&eacute;rateur qui ne conna&icirc;trait pas la charte ou qui ne la respecterait pas perdrait sa qualit&eacute; de mod&eacute;rateur.
+  </li>
+<li><strong>Visiter r&eacute;guli&egrave;rement le forum</strong><br />
+    Le r&ocirc;le des mod&eacute;rateurs est actif (ils agissent d'eux-m&ecirc;mes pour sanctionner une violation de la charte, par exemple), ou passif (ils renseignent un utilisateur lorsque celui-ci les sollicite). Dans les deux cas, une pr&eacute;sence r&eacute;guli&egrave;re sur le forum est n&eacute;cessaire. Ainsi, les mod&eacute;rateurs devront &ecirc;tre des visiteurs r&eacute;guliers du forum. Ils devront &ecirc;tre actifs en participant aux discussions, dans le but de faire vivre la communaut&eacute;. Ils devront &eacute;galement &ecirc;tre joignables par MP ou par e-mail dans les plus brefs d&eacute;lais (de mani&egrave;re g&eacute;n&eacute;rale, tout le monde a le droit de partir en vacances !). Un mod&eacute;rateur qui ne s'investirait pas un minimum ou qui demeurerait injoignable perdrait sa qualit&eacute; de mod&eacute;rateur.
+  </li>
+</ul>
+<p>A c&ocirc;t&eacute; de cette s&eacute;rie d'obligations, existent des droits parall&egrave;les.</p>
+<h2>II - Les droits des mod&eacute;rateurs</h2>
+<ul>
+<li> <strong>Solliciter les administrateurs</strong><br />
+  Les administrateurs sont l&agrave; pour r&eacute;pondre aux questions des mod&eacute;rateurs sur l'utilisation du logiciel. Les mod&eacute;rateurs sont en droit d'exiger une r&eacute;ponse rapide et compl&egrave;te et d&eacute;taill&eacute;e sur n'importe quel point pr&eacute;cis concernant l'utilisation concr&egrave;te du logiciel, et les raisons motivant les d&eacute;cisions des administrateurs de d&eacute;finir tel ou tel param&egrave;tre du forum de telle ou telle mani&egrave;re (par exemple: &quot;Pourquoi le HTML n'est-il pas autoris&eacute; dans les messages ?&quot; R&eacute;ponse: parce qu'il constitue une &eacute;norme faille de s&eacute;curit&eacute;, tant pour le serveur que pour les ordinateurs des visiteurs). Les mod&eacute;rateurs ont &eacute;galement le droit de soumettre aux administrateurs des propositions concernant tout ce qui touche &agrave; l'administration du site (la d&eacute;cision des administrateurs est cependant souveraine. Exemple: m&ecirc;me si tous les mod&eacute;rateurs me demandent que le HTML soit admis dans les messages, ce ne sera jamais le cas pour les raisons pr&eacute;cit&eacute;es).
+  </li>
+<li><strong>Participer &agrave; l'&eacute;laboration d'une politique commune de mod&eacute;ration</strong><br />
+  Bien entendu, il doit y avoir une politique commune de mod&eacute;ration. Les mod&eacute;rateurs sont des &ecirc;tres humains qui ont chacun un seuil de tol&eacute;rance diff&eacute;rent, seuil au del&agrave; duquel ils d&eacute;cident de sanctionner un message. Par exemple, je l'admet, mon seuil de tol&eacute;rance face aux messages de type SMS est proche de z&eacute;ro. Pour coordonner tout cela, une politique commune de mod&eacute;ration doit &ecirc;tre mise en oeuvre: ni trop restrictive, ni trop laxiste, mais juste ce qu'il faut pour assurer une bonne ambiance tout en ayant un contenu correct. Cette politique de mod&eacute;ration a deux sources, comme expliqu&eacute; pr&eacute;c&eacute;demment: la charte et les discussions entre mod&eacute;rateurs. La charte fixe les grandes lignes (c'est en quelque sorte la &quot;loi&quot; du forum), et les discussions entre mod&eacute;rateurs d&eacute;finissent les modalit&eacute;s de son application (c'est en quelque sorte les &quot;d&eacute;crets d'application&quot;). Les mod&eacute;rateurs ont bien entendu tout droit de discuter librement dans le forum consacr&eacute; &agrave; la mod&eacute;ration, mais ils ont &eacute;galement le droit de soumettre aux administrateurs des propositions de modifications de la charte.
+  </li>
+<li><strong>Mettre en oeuvre librement leur pouvoir de mod&eacute;ration</strong><br />
+    Les mod&eacute;rateurs sanctionnent les messages, et les super-mod&eacute;rateurs peuvent dans certains cas sanctionner les utilisateurs du forum: il s'agit du pouvoir de mod&eacute;ration qui leur est conf&eacute;r&eacute;. Ce pouvoir peut &ecirc;tre mis en oeuvre librement. C'est-&agrave;-dire que, sauf abus caract&eacute;ris&eacute;, les d&eacute;cisions des mod&eacute;rateurs ne sont pas r&eacute;form&eacute;es par les administrateurs. A cette r&egrave;gle g&eacute;n&eacute;rale, il y a des exceptions:
+  </li>
+</ul>
+<p> - Un nouveau mod&eacute;rateur peut ne pas &ecirc;tre habitu&eacute; &agrave; la mod&eacute;ration et commettre des erreurs. Ces erreurs pourront &ecirc;tre r&eacute;par&eacute;es par les administrateurs sans qu'aucun reproche ne soit fait au mod&eacute;rateur en question (c'est en forgeant que l'on devient forgeron !).<br />
+  - Il existe une hi&eacute;rarchie qui ne peut &ecirc;tre modifi&eacute;e: Utilisateur lambda &lt; Mod&eacute;rateur &lt; Super-mod&eacute;rateur &lt; Administrateur &lt; Super-administrateur. Ainsi, un mod&eacute;rateur ne pourra pas r&eacute;former une sanction d'un super-mod&eacute;rateur qui, lui, ne pourra pas r&eacute;former celle d'un administrateur, et ainsi de suite. A noter que le super-administrateur (votre serviteur) est un utilisateur vraiment particulier: il est con&ccedil;u selon un concept invent&eacute; dans les ann&eacute;es 70 par les inventeurs des syst&egrave;mes UNIX: le &quot;root&quot;. C'est &agrave; dire, un dieu: il peut tout faire et ne souffre d'aucune restriction (il ne peut pas se restreindre lui-m&ecirc;me, sauf &agrave; r&eacute;&eacute;crire le code-source du logiciel).<br />
+  - En cas de conflit, il appartient &agrave; un utilisateur d'un groupe plus haut plac&eacute; dans la hi&eacute;rarchie de prendre la d&eacute;cision. Par exemple, en cas de conflit entre 2 utilisateurs, un mod&eacute;rateur tranchera; en cas de conflit entre deux mod&eacute;rateurs, un super-mod&eacute;rateur ou un administrateur tranchera, etc.</p>
+<ul>
+<li> <strong>Disposer de pr&eacute;rogatives au sein du forum</strong><br />
+    Les mod&eacute;rateurs et super-mod&eacute;rateurs disposent de pr&eacute;rogatives pour mieux remplir leur mission.
+  </li>
+</ul>
+<p> - Un espace plus important allou&eacute; aux MP (un plus grand nombre de messages permis avant saturation de la bo&icirc;te).<br />
+  - Un espace plus important allou&eacute; &agrave; l'upload de fichiers joints aux messages.<br />
+  - Un titre personnalis&eacute; en dessous de leur nom, dans l'affichage de leurs messages et de leur profil: &quot;Mod&eacute;rateur&quot;. Le nom est en outre affich&eacute; en vert. (Le nom des super-mod&eacute;rateurs sera en plus en gras, et celui des administrateurs en gras et de couleur violette).</p>
+<h2>III - Quelques exemples de mod&eacute;ration</h2>
+<ul>
+<li> <strong>Message injurieux</strong><br />
+    <em>Hypoth&egrave;se</em>: un message contient par exemple Martin est un gros con.<br />
+    <em>Solution</em>: &eacute;diter le message en enlevant la phrase, et indiquer par exemple &quot;Message modifi&eacute; par {Votre nom}: pas d'injures svp&quot;. Eventuellement, avertir l'utilisateur par MP pour qu'il ne recommence pas. S'il s'agit d&eacute;j&agrave; d'une r&eacute;cidive, contacter un super-mod&eacute;rateur ou un administrateur pour prendre une sanction contre l'utilisateur lui-m&ecirc;me.
+  </li>
+<li><strong>Flood</strong><br />
+    <em>Hypoth&egrave;se</em>: un utilisateur r&eacute;pond &agrave; tous les messages avec un contenu minimal -en fait, pas de vrai contenu-, du genre &quot;oui&quot;, &quot;non&quot;, &quot;c'est pas vrai!&quot;, &quot;mais t'es b&ecirc;te ou quoi?&quot;, &quot;on s'en fiche&quot;, &quot;t&quot;as raison&quot;, etc...<br />
+    <em>Solution</em>: Pr&eacute;venir l'utilisateur qu'il viole la charte, et en informer un super-mod&eacute;rateur ou un administrateur.
+  </li>
+<li><strong>Flamming</strong><br />
+    <em>Hypoth&egrave;se</em>: dans un fil de discussion, l'auteur du message original se fait d&eacute;nigrer ou pire &agrave; cause du contenu de ce message qui est objectivement irr&eacute;prochable au regard de la charte. Exemple: le premier message dit Le prof. X est en fait un tr&egrave;s bon prof, et les messages suivants expriment de mani&egrave;re tr&egrave;s agressive le m&eacute;contentement et la haine pour un professeur qui a recal&eacute; la moiti&eacute; de l'amphi aux derniers partiels...<br />
+    <em>Solution</em>: Editer les messages en question, fermer le sujet.
+  </li>
+<li><strong>Troll</strong><br />
+    <em>Hypoth&egrave;se</em>: un fil de discussion ouvert dans le seul but de nuire &agrave; l'ambiance du forum. Exemple, l'auteur original dit, ni plus ni moins, L'espagne c'est de la merde.<br />
+    <em>Solution</em>: Editer le message pour effacer le contenu litigieux, fermer la discussion. Dans l'&eacute;ventualit&eacute; de quelque chose d'aussi &eacute;norme que l'exemple ci-dessus, contacter un super-mod&eacute;rateur ou un administrateur pour prendre une sanction contre l'auteur lui m&ecirc;me (dans mon cas, un tel message serait &quot;r&eacute;compens&eacute;&quot; par une exclusion imm&eacute;diate et d&eacute;finitive de l'utilisateur).
+  </li>
+<li><strong>Hors-sujet</strong><br />
+    <em>Hypoth&egrave;se</em>: les messages en r&eacute;ponse d&eacute;vient totalement de l'objet original de la discussion. Exemple: l'auteur du fil de discussion parle du programme de r&eacute;visions du partiel de derecho civil II en Espagne, et au bout de quelques r&eacute;ponses, la conversation d&eacute;vie sur les notes obtenues au partiel de f&eacute;vrier de 3&egrave;me ann&eacute;e de droit des soci&eacute;t&eacute;s.<br />
+    <em>Solution</em>: Scinder le fil de discussion en deux fils de discussion autonomes: le premier sur le programme de r&eacute;visions de derecho civil II en Espagne, et le second sur les notes obtenues au partiel de f&eacute;vrier de 3&egrave;me ann&eacute;e de droit des soci&eacute;t&eacute;s. Eventuellement, fermer un des deux fils de discussion si tout a &eacute;t&eacute; dit.
+  </li>
+<li><strong>M&ecirc;me sujet</strong><br />
+    <em>Hypoth&egrave;se</em>: Deux fils de discussion traitant du m&ecirc;me sujet ont &eacute;t&eacute; ouverts en m&ecirc;me temps (par exemple, le m&ecirc;me jour).<br />
+    <em>Solution</em>: Fusionner les deux fils de discussion. Le probl&egrave;me est le m&ecirc;me que ci-dessus: s'ils se trouvent dans le m&ecirc;me forum, un mod&eacute;rateur du forum pourra les fusionner; s'ils se trouvent sur deux forums pour lesquels le mod&eacute;rateur dispose de droits de mod&eacute;ration, il pourra les fusionner; si l'un des fils se trouve dans un forum pour lequel le mod&eacute;rateur ne dispose pas de droits, il devra contacter un super-mod&eacute;rateur ou un administrateur.
+  </li>
+<li><strong>Fil ouvert dans le mauvais forum</strong><br />
+    <em>Hypoth&egrave;se</em>: Par exemple, un fil de discussion avec pour th&egrave;me et pour titre &quot;Combien co&ucirc;te une carte ImaginR &agrave; Paris ?&quot; a &eacute;t&eacute; post&eacute; par m&eacute;garde dans le forum &quot;Discussion juridique&quot;.<br />
+    <em>Solution</em>: Le mod&eacute;rateur ayant des droits de mod&eacute;ration sur les deux forums pourra d&eacute;placer le sujet de l'un &agrave; l'autre. Le mod&eacute;rateur ne disposant de droits de mod&eacute;ration que sur un des deux forums devra pr&eacute;venir au plus vite un super-mod&eacute;rateur (ayant des droits sur tous les forums) ou un administrateur pour que le fil soit d&eacute;plac&eacute;.
+  </li>
+<li><strong>Tout a &eacute;t&eacute; dit</strong><br />
+    <em>Hypoth&egrave;se</em>: Dans un fil de discussion, tout a &eacute;t&eacute; dit, et il n'y a rien &agrave; rajouter.<br />
+    <em>Solution</em>: Fermer la discussion.
+  </li>
+<li><strong>Un fil de discussion est particuli&egrave;rement important</strong><br />
+    <em>Hypoth&egrave;se</em>: un fil de discussion peut &ecirc;tre tr&egrave;s important de par son contenu: information urgente, d'actualit&eacute;, r&eacute;sumant des questions fr&eacute;quentes quant au th&egrave;me du forum qui le contient, contenant des liens vers des ressources utiles, etc.<br />
+    <em>Solution</em>: Rendre ce fil de discussion important (il sera affich&eacute; en haut de la liste des messages, et ne descendra pas dans cette liste au fil de la cr&eacute;ation de nouvelles discussions).
+  </li>
+<li><strong>Un fil de discussion cesse d'&ecirc;tre important</strong><br />
+    <em>Hypoth&egrave;se</em>: un fil de discussion peut &ecirc;tre tr&egrave;s important de par son contenu, mais perdre de son importance parce qu'il s'agissait d'une question d'actualit&eacute; (exemple: les dates des partiels de f&eacute;vrier sont tr&egrave;s importantes... jusqu'&agrave; ce que ces partiels soient pass&eacute;s !), ou parce que ce contenu est devenu obsol&egrave;te.<br />
+    <em>Solution</em>: Rendre ce fil de discussion normal, lui faisant perdre son importance et lui faisant quitter sa position d'affichage avant les autres fils du forum concern&eacute;.
+  </li>
+</ul>
+<h1>Conclusion</h1>
+<p>Merci d'avoir pris la peine de lire ces si longs messages. J'ai essay&eacute; d'&ecirc;tre le plus pr&eacute;cis possible et d'insister sur les points les plus importants concernant la mod&eacute;ration, et cela n'&eacute;tait possible qu'au prix d'un texte aussi long. J'esp&egrave;re cependant ne pas avoir frein&eacute; votre motivation pour exercer votre r&ocirc;le de mod&eacute;rateur: si les utilisateurs sont le coeur du forum et les administrateurs son cerveau, vous &ecirc;tes ses poumons.</p>
+<p>Malgr&eacute; ces longues explications, personne ne doit oublier que les fonctions de mod&eacute;rateur sont exerc&eacute;es de mani&egrave;re b&eacute;n&eacute;vole. A ce titre, le mod&eacute;rateur doit se sentir utile, il ne doit pas agir pour son compte personnel et ne doit pas abuser de ses pr&eacute;rogatives, il doit dans tous les cas &ecirc;tre content et fier d'&ecirc;tre mod&eacute;rateur. Si la motivation n'y est plus, il n'est pas utile de persister. La communaut&eacute; des mod&eacute;rateurs doit &ecirc;tre soud&eacute;e, et la bonne ambiance doit y r&eacute;gner.</p>
+<p>Je me tiens &agrave; votre enti&egrave;re disposition pour vous fournir plus de pr&eacute;cisions sur tout ce qui touche ce forum, et je reste &agrave; l'&eacute;coute de toutes vos suggestions pour en am&eacute;liorer son fonctionnement.</p>
+<p>
+à Montpellier, le 14/09/2005</p>
+
+
+    </div>
+  
+    <h1><a href="/valhalla/2005/09/11/refonte-du-blog-valhalla.html">Refonte du blog Valhalla</a></h1>
+    <p class="author">
+      <span class="date">2005-09-11 22:45:39 +0200</span>
+    </p>
+    <div class="content">
+      <p>Comme je suis un fondu, j'ai voulu refondre l'interface du blog Valhalla, c'est dont la refonte de cet espace que je vous pr&eacute;sente ici. Mais cela ne concerne pour l'instant que le blog lui m&ecirc;me, pas les photos ni les ressources, car c'est pas mal de boulot et je ne suis pas uen fonderie &agrave; refontes ! </p>
+<h1>Avant</h1>
+<p>Le blog Valhalla a &eacute;t&eacute; con&ccedil;u au d&eacute;part en pur HTML, gr&acirc;ce &agrave; des tempaltes sous Dreamweaver (&ccedil;a ne date pas d'hier !). Je ne pouvais pas faire autrement, mon h&eacute;bergeur n'ayant pas de serveur PHP. Je ne pouvais donc pas avoir recours &agrave; un logiciel int&eacute;gr&eacute; de blog (comme Dotclear), ni &agrave; des includes PHP pour r&eacute;p&eacute;ter sur chaque page le contenu statique (le menu de gauche).</p>
+<p>Mais les templates DW &ccedil;a va un moment. Apr&egrave;s, &ccedil;a devient lourd. Alors on commence par c&eacute;der &agrave; la facilit&eacute; et d&eacute;tacher la page du template &agrave; la moindre difficult&eacute;. Et puis le temps passe et on prend l'habitude de d&eacute;tacher syst&eacute;matiquement la page de son template d'origine. Et l&agrave;, quand on veut changer la pr&eacute;sentation ou au moins la charte graphique, &ccedil;a devient une prise de t&ecirc;te monstre &agrave; devoir ouvrir dans le bloc-note chaque fichier HTML pour l'&eacute;diter manuellement. En plus, entre nous, DW est cool mais il g&eacute;n&egrave;re du code HTML compl&egrave;tement pourrave, ne serait-ce que du point de vue des indentations (au final c'est toalement illisible).</p>
+<p>Alors comme je ne tiens pas en place et que je change toujours tout, j'ai d&eacute;cid&eacute; de refaire tout l'espace Valhalla en PHP et includes XHTML + CSS. De cette mani&egrave;re, il n'y a plus qu'&agrave; changer le CSS pour tout changer. Les sources HTML ne changent pas.</p>
+<h1>Apr&egrave;s </h1>
+<h2>Structure</h2>
+<p>L'espace Valhalla s'ouvre sur un index.php. Cet index au code pour l'instant tout &agrave; fait spartiate repr&eacute;sente la logique g&eacute;n&eacute;rale de fonctionnement du site.</p>
+<p>En voici le code: </p>
+<div class="Code">
+<p>&lt;?php<br />
+include(&quot;header.php&quot;);</p>
+<p>$output = '&lt;a href=&quot;articles.php&quot;&gt;Voir les articles&lt;/a&gt;';</p>
+<p>echo $output;<br />
+  include(&quot;footer.php&quot;);<br />
+  ?&gt;</p>
+</div>
+<p>C'est du pur PHP, avec 2 includes et un corps. Le corps n'a qu'un lien pour l'instant. Les includes sont l'en-t&ecirc;te (header) et le pieds de page (footer). Bien s&ucirc;r, le contenu va rapidement &eacute;voluer pour pr&eacute;senter une page d'accueil honorable.</p>
+<p>Vient ensuite le syst&egrave;me de chargement des articles. Et l&agrave; c'est plus complexe. Les articles se chargent gr&acirc;ce au fichier articles.php qui analyse les requ&ecirc;tes GET.</p>
+<div class="Code">
+<p>&lt;?php<br />
+include(&quot;header.php&quot;);</p>
+<p>if(isset($_GET['q']))<br />
+  { include(&quot;articles/&quot;.$_GET['q'].&quot;.htm&quot;);<br />
+  }<br />
+  else<br />
+  { include(&quot;articles/articles_index.htm&quot;);<br />
+  }</p>
+<p>include(&quot;footer.php&quot;);<br />
+  ?&gt;</p>
+</div>
+<p>On appelle cette page gr&acirc;ce &agrave; un lien. Le lien peut revoyer vers articles.php, et dans ce cas GET est vide et la page articles_index.htm s'affichera; ou vers articles.php?q=XXXX, et dans ce cas XXXX se chargera. XXXX est un fichier se terminant obligatoirement par l'extension HTM (pour &eacute;viter tout contenu dynamique), et situ&eacute; dans le r&eacute;pertoire articles. Ces deux restrictions comblent d&eacute;finitivement la potentielle faille de s&eacute;curit&eacute; des includes g&eacute;n&eacute;r&eacute;s avec GET.</p>
+<h2>Mise en page (layout)</h2>
+<p>La mise en page est d&eacute;finie dans 4 fichiers. Les fichiers header.php, XXXX, footer.php et le fichier de feuille de style CSS. Les fichiers PHP et XXXX (HTML) d&eacute;finissement les conteneurs et le contenu, tandis que le fichier CSS d&eacute;termine la disposition et les propri&eacute;t&eacute; des conteneurs.</p>
+<p>Voici header.php</p>
+<div class="Code">
+<p>&lt;?php<br />
+  $output = '&lt;html&gt;';<br />
+  $output .= '&lt;head&gt;';<br />
+  $output .= '&lt;link rel=&quot;stylesheet&quot;<br />
+type=&quot;text/css&quot;<br />
+media=&quot;screen&quot;<br />
+href=&quot;valhalla.css&quot; /&gt;';<br />
+$output .= '&lt;/head&gt;';<br />
+$output .= '&lt;body&gt;';<br />
+$output .= '&lt;div id=&quot;bodyleft&quot;&gt;&lt;div id=&quot;bodyright&quot;&gt;';<br />
+$output .= '&lt;div id=&quot;header&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Valhalla &amp;phi; GF@Blog&lt;/div&gt;';<br />
+$output .= '&lt;div id=&quot;container&quot;&gt;';<br />
+$output .= '&lt;div class=&quot;menuContainer&quot;&gt;';<br />
+$output .= '&lt;div class=&quot;menu&quot;&gt;';<br />
+$output .= '&lt;ul&gt;<br />
+&lt;li /&gt;&lt;a href=&quot;&quot;&gt;Accueil&lt;/a&gt;<br />
+&lt;li /&gt;&lt;a href=&quot;&quot;&gt;Ressources&lt;/a&gt;<br />
+&lt;li /&gt;&lt;a href=&quot;&quot;&gt;Photos&lt;/a&gt;<br />
+&lt;li /&gt;&lt;a href=&quot;&quot;&gt;Priv&eacute;&lt;/a&gt;<br />
+&lt;li id=&quot;current&quot;/&gt;&lt;a href=&quot;./articles.php&quot;&gt;Articles&lt;/a&gt;<br />
+&lt;ul&gt;<br />
+&lt;li /&gt;&lt;a href=&quot;./articles.php?q=/2005/09/index&quot;&gt;Sept. 2005&lt;/a&gt;<br /> <br />
+(etc...)<br />
+<br />
+&lt;li /&gt;&lt;a href=&quot;./articles.php?q=/2004/10/index&quot;&gt;Oct. 2004&lt;/a&gt;<br />
+&lt;li /&gt;&lt;a href=&quot;./articles.php?q=/2004/09/index&quot;&gt;Sept. 2004&lt;/a&gt;<br />
+&lt;li /&gt;&lt;a href=&quot;./articles.php?q=/2004/08/index&quot;&gt;Aout 2004&lt;/a&gt;<br />
+&lt;/ul&gt;<br />
+&lt;/ul&gt;';<br />
+$output .= '&lt;/div&gt;&lt;!-- Ends div menu --&gt;';<br />
+$output .= '&lt;/div&gt;&lt;!-- Ends div menuContainer --&gt;';<br />
+$output .= '&lt;div class=&quot;contentContainer&quot;&gt;';</p>
+<p>echo $output;<br />
+  ?&gt;</p>
+<p>et footer.php</p>
+<p>&lt;?php<br />
+  $output = '&lt;/div&gt;&lt;!-- Ends div contentContainer --&gt;';<br />
+  $output = '&lt;/div&gt;&lt;!-- Ends div container --&gt;';<br />
+  $output .= '&lt;div id=&quot;footer&quot;&gt;Copyright &amp;copy; 2005 www.gfblog.com&lt;/div&gt;';<br />
+  $output .= '&lt;/div&gt;&lt;/div&gt;&lt;!-- Ends divs bodyleft &amp; bodyright --&gt;';<br />
+  $output .= '&lt;/body&gt;';<br />
+$output .= '&lt;/html&gt;';</p>
+<p>echo $output;<br />
+  ?&gt;</p>
+<p>Les fichiers contenant le contenu (XXXX.htm) auront toujours la structure suivante:</p>
+<p>&lt;div class=&quot;titre&quot;&gt; <br />
+  &lt;h1&gt;Titre&lt;/h1&gt;<br />
+  &lt;h2&gt;Sous-titre&lt;/h2&gt;<br />
+  &lt;/div&gt;</p>
+<p>  &lt;div class=&quot;corps&quot;&gt;<br />
+  &lt;!-- Ici, le corps du texte. --&gt;<br />
+  <br />
+  &lt;/div&gt;
+  </p>
+</div>
+<p>Tout cela combin&eacute; permet d'afficher la structure suivante:</p>
+<p align="center">
+	<img src="http://blog.gfblog.com/images/valhalla/sitemap.png" /></p>
+<p>Cette structure d'obtient gr&acirc;ce &agrave; la feuille de style dont voici la code source:</p>
+<div class="Code">
+<p>
+  /*################### CONTENEURS PRINCIPAUX ##################################*/<br />
+  body<br />
+  { background: #e7e7e7; /* Couleur du fond de la page */<br />
+line-height: 1.2; /* Hauteur de ligne: d&eacute;calage du titre depuis le haut */<br />
+margin: 0px 10px 0px 10px; /* Marges droite et gauche de la page */<br />
+padding: 0px; /* Pas de marge interne */<br />
+}</p>
+<p>/* Calque pour la bordure gauche du cadre principal */<br />
+  #bodyleft<br />
+  { padding: 0px 0px 0px 5px; /* 5 pixels de d&eacute;calage depuis la gauche pour afficher l'image de 5 px */<br />
+  background: #FFFFFF url(images/border_left.png) repeat-y; /* L'image de fond */<br />
+  }</p>
+<p>/* Calque pour la bordure droite du cadre principal */<br />
+  #bodyright<br />
+  { padding: 0px 5px 0px 0px; /* 5 pixels de d&eacute;calage depuis la droite pour afficher l'image de 5 px */<br />
+  background: #FFFFFF url(images/border_right.png) repeat-y; /* L'image de fond */<br />
+  background-position: right top; /* L'image doit &ecirc;tre affich&eacute;e &agrave; droite en partant du haut */<br />
+  }</p>
+<p>/* En t&ecirc;te */<br />
+  #header<br />
+  { width: 100%;<br />
+  text-align: left;<br />
+  height: 40px;<br />
+  background: #066fd4 url(images/header.png) repeat-x;<br />
+  color: #FFFFFF;<br />
+  text-shadow: 0px 1px 2px #001f2f;<br />
+  font-weight: bold;<br />
+  font-size: 22px;<br />
+  padding: 10px 0px 0px 0px; /* Sup&eacute;rieur - Droit - Inf&eacute;rieur - Gauche */<br />
+  font-family: 'Geneva', 'Lucida Grande', LucidaGrande, Lucida, Helvetica, Arial, sans-serif;<br />
+  }</p>
+<p>#footer<br />
+  { clear: both; /* Permet d'afficher le bloc en dessous de tout */<br />
+  width: 100%;<br />
+  text-align: center;<br />
+  height: 30px;<br />
+  background: #066fd4 url(images/footer.png) repeat-x;<br />
+  color: #FFFFFF;<br />
+  text-shadow: 0px 1px 2px #001f2f;<br />
+  margin: 0;<br />
+  font-weight: normal;<br />
+  font-size: 12px;<br />
+  padding: 10px 0px 0px 0px; /* Sup&eacute;rieur - Droit - Inf&eacute;rieur - Gauche */<br />
+  font-family: 'Geneva', 'Lucida Grande', LucidaGrande, Lucida, Helvetica, Arial, sans-serif;<br />
+  }</p>
+<p>/* Conteneur de toute la page */<br />
+  #container<br />
+  { width: 100%;<br />
+  margin: 0px auto;<br />
+  text-align: left;<br />
+  color: #3e3e3e;<br />
+  background-color: #e7e7e7;<br />
+  font-family: 'Geneva', 'Lucida Grande', LucidaGrande, Lucida, Helvetica, Arial, sans-serif;<br />
+  /*border-left: 1px groove #000000;*/<br />
+  }<br />
+  /*################### POSITIONNEMENT - LAYOUT ################################*/</p>
+<p>/* Conteneur du menu */<br />
+  .menuContainer<br />
+  { width: 15%;<br />
+  float: right;<br />
+  }</p>
+<p>/* Conteneur du corps */<br />
+  .contentContainer<br />
+  { width: 85%;<br />
+  float: left;<br />
+  padding 10px 0 20px 5px;<br />
+  background: #FFFFFF;<br />
+  }</p>
+<p>/*################### APPARENCE ###############################################/<br />
+  /* Le menu */<br />
+  .menu<br />
+  { line-height: 1.7em;<br />
+  }</p>
+<p>.menu ul<br />
+  { list-style: none;<br />
+  margin: 10px 0px 0px 0px 0px; /* D&eacute;calage depuis le haut */<br />
+  padding: 0px 0px 0px 15px; /* D&eacute;calage depuis la gauche */<br />
+  }</p>
+<p>.menu ul ul<br />
+  { text-align: right;<br />
+  list-style: none;<br />
+  line-height: 1.2em;<br />
+  font-weight: normal;<br />
+  margin: 10px 0px 0px 0px 0px; /* D&eacute;calage depuis le haut */<br />
+  padding: 0px 30px 0px 0px; /* D&eacute;calage depuis la droite (puisqu'align&eacute; &agrave; droite) */<br />
+  }</p>
+<p>.menu li<br />
+  { /* H&eacute;rite de .menu a */<br />
+  }</p>
+<p>.menu #current<br />
+  { color: #999999;<br />
+  font-weight: bold;<br />
+  }</p>
+<p>.menu a {<br />
+  display: block;<br />
+  color: #b3b3b3;<br />
+  text-shadow: 0px 1px 0px #ffffff;<br />
+  text-decoration: none;<br />
+  padding-left: 10px;<br />
+  font-size: 12px;<br />
+  }</p>
+<p>.menu a:hover {<br />
+  color: #007afa;<br />
+  text-shadow: 0px 1px 0px #ffffff;<br />
+  text-decoration: none;<br />
+  font-size: 12px;<br />
+  }</p>
+<p>/* Le titre */<br />
+  .titre<br />
+  { width: inherit;<br />
+  height: auto;<br />
+  text-align: left;<br />
+  background: #FFFFFF;<br />
+  margin: 0 0 0 30px;<br />
+  line-height: 10px;<br />
+  }</p>
+<p>.titre h1<br />
+  { color: #066fd4;<br />
+  font-size: 26px;<br />
+  font-weight: normal;<br />
+  margin-bottom: 1px;<br />
+  text-shadow: 0px 1px 2px #001f2f;<br />
+  line-height: 30px;<br />
+  }</p>
+<p>.titre h2<br />
+  { color: #066fd4;<br />
+  font-size: 14px;<br />
+  font-weight: normal;<br />
+  margin-bottom: 3px;<br />
+  }</p>
+<p>/* Le corps */<br />
+  .corps<br />
+  { width: 90%;<br />
+  padding-right: 30px;<br />
+  padding-left: 30px;<br />
+  font-family: 'Geneva', 'Lucida Grande', LucidaGrande, Lucida, Helvetica, Arial, sans-serif;<br />
+  font-size: 12;<br />
+  text-align: justify;<br />
+  line-height: 1.7em;<br />
+  }</p>
+<p>.corps .forcebg /* A utiliser dans les index.htm */<br />
+  { height:100%;<br />
+  }</p>
+<p>.corps a<br />
+  { color: #007afa;<br />
+  text-shadow: 0px 1px 0px #ffffff;<br />
+  text-decoration: none;<br />
+  font-size: 12px;<br />
+  }</p>
+<p>.corps a:hover {<br />
+  color: #007afa;<br />
+  text-shadow: 0px 1px 0px #ffffff;<br />
+  text-decoration: underline;<br />
+  font-size: 12px;<br />
+  }</p>
+<p>.corps td<br />
+  { font-size: 12;<br />
+  padding: 5px 5px 5px 5px;<br />
+  }</p>
+<p>/*##################### CLASSES GLOBALES ####################################*/<br />
+  h1 {<br />
+  color: #066fd4;<br />
+  font-size: 24px;<br />
+  font-weight: normal;<br />
+  margin-bottom: 10px;<br />
+  padding-top: 10px;<br />
+  }</p>
+<p>h2 {<br />
+  color: #066fd4;<br />
+  font-size: 20px;<br />
+  font-weight: normal;<br />
+  margin-bottom: 5px;<br />
+  line-height: 15px;<br />
+  }</p>
+<p>h3 {<br />
+  color: #066fd4;<br />
+  font-size: 18px;<br />
+  font-weight: normal;<br />
+  margin-bottom: 3px;<br />
+  margin-left: 15px;<br />
+  }</p>
+<p>h4 {<br />
+  color: #066fd4;<br />
+  font-size: 16px;<br />
+  font-weight: normal;<br />
+  margin-bottom: 3px;<br />
+  margin-left: 30px;<br />
+  }</p>
+<p>h5 {<br />
+  color: #066fd4;<br />
+  font-size: 14px;<br />
+  font-weight: normal;<br />
+  margin-bottom: 3px;<br />
+  margin-left: 45px;<br />
+  }</p>
+<p>/*##################### MISCELLANEOUS ########################################*/<br />
+  .Code {<br />
+  font-family: &quot;Courier New&quot;, Courier, mono;<br />
+  font-size: 14px;<br />
+  font-style: normal;<br />
+  line-height: normal;<br />
+  font-weight: normal;<br />
+  font-variant: normal;<br />
+  text-transform: none;<br />
+  color: darkorange;<br />
+  text-align: left;<br />
+  }</p>
+</div>
+<p>Bien entendu, tout cela va évoluer, et le CSS ne restera pas tel qu'il est exposé<br />
+ci-dessus. De même, le code PHP sera enrichi. Mais la structure globale restera celle-ci<br />
+jusqu'à une prochaine mise à jour.</p>
+<p>
+à Carpentras le 11/09/2005</p>
+
+
+    </div>
+  
+    <h1><a href="/internet/mac/featured/2005/06/03/demystification-peut-on-etre-infecte-par-un-virus-a-cause-dun-e-mail.html">Démystification: peut-on être infecté par un virus à cause d'un e-mail ?</a></h1>
+    <p class="author">
+      <span class="date">2005-06-03 22:44:56 +0200</span>
+    </p>
+    <div class="content">
+      <p>On ne peut pas, dans la majorité des cas, être infecté par un virus à cause d'un e-mail, et cela du fait même de la structure des logiciels de gestion d'e-mails. Sous certaines conditions, très restrictives, un e-mails peut toutefois être la source d'une infection virale du système. Cet article propose de voir dans quels cas un e-mails peut être dangereux, et dans quels cas il ne peut pas l'être.</p>
+<h2>Comment fonctionnent les virus ?</h2>
+<p>La premi&egrave;re chose &agrave; pr&eacute;ciser, c'est la fa&ccedil;on dont fonctionnent les virus qui se transmettent par e-mail. Bien entendu, de nouvelles menaces apparaissent tous les jours et leurs auteurs ne cessent d'inventer de nouveaux moyens de détourner les systèmes de protection (antivirus, filtrage, etc.). Il est donc difficile de faire des généralités et d'affirmer en bloc que <i>tous</i> les logiciels malicieux fonctionnent de telle ou telle manière. On peut cependant classer la plupart des logiciels malicieux en deux cat&eacute;gories: les ex&eacute;cutables et les scripts. (Pour en savoir plus sur les divers types de menaces, v. l'article <a href="http://www.valhalla.fr/2010/03/04/informatique-personnelle-et-securite/#2">Informatique personnelle et sécurité</a>)</p>
+<p>Les ex&eacute;cutables sont des fichiers compil&eacute;s, c'est-&agrave;-dire transform&eacute;s en s&eacute;rie de 0 et de 1, qui seront directement interpr&eacute;t&eacute;s par le microprocesseur de votre ordinateur par le biais de votre syst&egrave;me d'exploitation (Windows ou autre). Sous Windows, les ex&eacute;cutables sont tr&egrave;s facilement identifiables, ils se terminent par &quot;.exe&quot;. Attention cependant: tous les ex&eacute;cutables ne sont pas des virus, les ex&eacute;cutables sont des logiciels, et parmi eux il y a des virus. La r&egrave;gle g&eacute;n&eacute;rale est qu'un ex&eacute;cutable ne s'ex&eacute;cute pas tout seul: vous devez l'ex&eacute;cuter vous m&ecirc;me, ou le syst&egrave;me doit l'ex&eacute;cuter &agrave; votre place. Autrement dit, si vous &ecirc;tes infect&eacute; par un virus contenu dans un ex&eacute;cutable, c'est soit parce que vous l'avez activé en double-cliquant dessus, soit que vous en avez autoris&eacute; l'ex&eacute;cution.</p>
+<p>Les ex&eacute;cutables d&eacute;pendent directement de votre microprocesseur et de votre syst&egrave;me d'exploitation. Un ex&eacute;cutable Windows ne fonctionne pas sur Linux, ni sur Mac, et vice-versa (attention cependant, ce n'est pas forc&eacute;ment vrai: c'est par exemple faut d'une distribution Linux &agrave; une autre, parce que le syst&egrave;me est fondamentalement le m&ecirc;me). Si vous &ecirc;tes sur Mac, Linux, BSD, Solaris, BeOS, etc... vous ne courrez aucun risque, vous ne pourrez pas ex&eacute;cuter les ex&eacute;cutables Windows, vous ne serez jamais infect&eacute; par un virus Windows. Cependant, vous pourrez contaminer des ordinateurs sous Windows. De toute mani&egrave;re, il n'y a pas de virus sur les syst&egrave;mes pr&eacute;cit&eacute;s, en raison de leur très faible part de marché.</p>
+<p>Les scripts sont bien plus vicieux que les ex&eacute;cutables, mais ils sont en r&egrave;gle g&eacute;n&eacute;rale beaucoup moins nocifs (je peux faire un ex&eacute;cutable qui fera fondre votre carte m&egrave;re... avec un script seul ce n'est normalement pas possible). Les scripts sont un code source non compil&eacute; qui est compil&eacute; et ex&eacute;cut&eacute; &agrave; la vol&eacute;e sur votre ordinateur. Les scripts sont habituellement contenus dans un contenant basique d'internet, par exemple une page HTML. </p>
+<p>Les scripts peuvent &eacute;galement prendre d'autres formes. Ils peuvent par exemple prendre la forme de macros VBS int&eacute;gr&eacute;es dans un fichier Word ou Excel. Ceux l&agrave; sont particuli&egrave;rement vicieux car on ne soup&ccedil;onne pas qu'un fichier Word puisse contenir des virus... merci Microsoft pour le cadeau ;-) </p>
+<h2>Les formats d'e-mails</h2>
+<p>Il existe basiquement 2 formats d'e-mails (en fait, il y en a d'autres, mais ils sont marginaux et ne nous int&eacute;ressent pas ici). Le premier est le texte plein (plain text), le second est le HTML. Les messages en texte plein ne peuvent vehiculer que du texte brut, sans mise en forme. Les messages en HTML peuvent v&eacute;hiculer du contenu multim&eacute;dia, et notamment des scripts.</p>
+<p>Les messages en texte plein ne sont donc pas dangereux: si un virus est associ&eacute; au message, il sera obligatoirement en pi&egrave;ce attach&eacute;e. Il suffira alors de supprimer cette pi&egrave;ce attach&eacute;e. A l'inverse, les messages en HTML sont dangereux car ils peuvent contenir des scripts enbarqu&eacute;s (&quot;embedded&quot;), c'est &agrave; dire contenus directement dans la source du message et non pas en pi&egrave;ce jointe. Ces scripts sont alors invisibles pour l'utilisateur lambda, et s'ex&eacute;cutent d&egrave;s l'affichage du message (pas besoin de double-cliquer sur un fichier...). Les &quot;virus&quot; qui se transmettent par e-mail sont en fait des &quot;virus de script&quot;. </p>
+<h2>Ce que font ces virus</h2>
+<p>Les virus c'est de la technologie: &ccedil;a &eacute;volue &agrave; vitesse grand V. Je ne peux pas vous dire ce que font tous ces virus, car chaque jour na&icirc;t un nouveau virus un peu plus vicieux que les pr&eacute;c&eacute;dents.</p>
+<p>Cependant, on peut d&eacute;tacher quelques grandes classes de comportements parmi les virus de script: <br />
+  - S'autoex&eacute;cuter sur le syst&egrave;me du destinataire.<br />
+  - S'implanter sur l'ordinateur du destinataire de mani&egrave;re &agrave; s'auto-ins&eacute;rer dans tous les e-mails qu'il envoie pour infecter sa liste de contacts.<br />
+  - S'implanter sur l'ordinateur du destinataire dans le but de r&eacute;aliser une op&eacute;ration pr&eacute;cise.<br />
+  - Tout cela &agrave; la fois. <br />
+  - Plein d'autres choses tr&egrave;s r&eacute;jouissantes.</p>
+<h2>Le support des virus de script</h2>
+<p>On r&eacute;sume pour que &ccedil;a soit bien compris. Certains messages sont &eacute;crits en HTML, ces messages sont susceptibles de contenir des scripts nocifs. Ces scripts nocifs s'ex&eacute;cutent sur l'ordinateur du destinataire du message infect&eacute; lorsque le message est ouvert.</p>
+<p>Il existe actuellement 2 grandes mani&egrave;res de g&eacute;rer ses e-mails: un client et un webmail. Un client e-mail est un logiciel d&eacute;di&eacute; &agrave; travailler avec des e-mails: Outlook, Eudora, Thunderbird, etc. Un webmail est un logiciel e-mail qui ne s'ex&eacute;cute pas sur l'ordinateur du client (du destinataire), mais sur celui du serveur (ex: Gmail, Hotmail, Caramail, Yahoo!Mail, etc.). Vous acc&eacute;der &agrave; un webmail par l'interm&eacute;diaire d'un navigateur: Internet Explorer, Firefox, Mozilla, Netscape, etc. </p>
+<p>Quelle est la diff&eacute;rence, concr&egrave;tement ?<br />
+  Le client e-mail (i.e. Outlook) t&eacute;l&eacute;charge les messages sur votre disque dur (par le biais du protocole POP3 ou IMAP) et les sauvegarde pour qu'ils puissent &ecirc;tre consult&eacute;s hors-ligne. Le message entier est donc rapatri&eacute;: texte brut, pi&egrave;ces attach&eacute;es, HTML, scripts et autres r&eacute;jouissances. Il s'affiche sur votre ordinateur ; et s'il contient un script, ce script sera ex&eacute;cut&eacute; sur votre ordinateur. <br />
+  Le webmail ne fait qu'afficher le texte brut, voire la pr&eacute;sentation HTML, &agrave; l'&eacute;cran. Rien n'est t&eacute;l&eacute;charg&eacute; sur votre disque dur &agrave; moins que vous le demandiez explicitement (en cliquant sur le bouton &quot;T&eacute;l&eacute;charger la pi&egrave;ce-jointe&quot; par exemple). Les scripts ne peuvent pas s'ex&eacute;cuter sur votre ordinateur. (A nuancer quand m&ecirc;me: Internet Explorer est tellement plein de failles de s&eacute;curit&eacute;, et tous les webmails ne sont pas parfaits, qu'il serait possible de countourner ce principe g&eacute;n&eacute;ral. Il y a une chance sur 1000 &agrave; l'heure actuelle, et encore...). A noter aussi que les webmails int&egrave;grent un antivirus c&ocirc;t&eacute; serveur qui scanne les pi&egrave;ces jointes re&ccedil;ues et vous avertit s'il trouve un virus.</p>
+<p>Autrement dit, si vous utilisez un webmail, vous ne pouvez pas &ecirc;tre victime d'un script v&eacute;rol&eacute;. Vous pouvez attraper un virus si vous t&eacute;l&eacute;chargez et ex&eacute;cutez en local sur votre syst&egrave;me un ex&eacute;cutable ou un script contenant un virus, mais &ccedil;a sera tout &agrave; fait intentionnel.</p>
+<p>Si vous utilisez un client e-mail du type Outlook, vous courrez d'&eacute;normes risques. Changez imm&eacute;diatement de client e-mail (Thunderbird est d&eacute;j&agrave; plus s&eacute;curis&eacute;), de syst&egrave;me d'exploitation (Linux est gratuit...), ou utilisez un webmail... ou un bon antivirus !</p>
+<h2>R&eacute;capitulatif</h2>
+<div align="center">
+<table width="70%" border="1" align="center" cellpadding="0" cellspacing="0" bordercolor="#000000">
+<tr>
+<td colspan="2" bgcolor="#CCCCCC">
+<div align="center"></div>
+<div align="center">R&eacute;sum&eacute; des risques encourus selon le type d'utilisation de l'e-mail. </div>
+</td>
+<td width="20%" bordercolor="#000000" bgcolor="#CCCCCC">
+<div align="center">WEBMAIL<br />
+          (ex: hotmail) </div>
+</td>
+<td width="28%" bordercolor="#000000" bgcolor="#CCCCCC">
+<div align="center">Client e-mail <br />
+          (ex: Outlook) </div>
+</td>
+</tr>
+<tr bordercolor="#000000">
+<td width="25%" rowspan="2" bgcolor="#CCCCCC">
+<div align="center">Message texte plein </div>
+</td>
+<td width="27%" bgcolor="#CCCCCC">
+<div align="center">Pi&egrave;ce-jointe</div>
+</td>
+<td bgcolor="#00FF00">
+<div align="center">(1)</div>
+</td>
+<td bgcolor="#00FF00">
+<div align="center">(1)</div>
+</td>
+</tr>
+<tr>
+<td bordercolor="#000000" bgcolor="#CCCCCC">
+<div align="center">Script</div>
+</td>
+<td bordercolor="#000000" bgcolor="#00FF00">
+<div align="center">(2)</div>
+</td>
+<td bordercolor="#000000" bgcolor="#00FF00">
+<div align="center">(2)</div>
+</td>
+</tr>
+<tr bordercolor="#000000">
+<td rowspan="2" bgcolor="#CCCCCC">
+<div align="center">Message HTML </div>
+</td>
+<td bgcolor="#CCCCCC">
+<div align="center">Pi&egrave;ce-jointe</div>
+</td>
+<td bgcolor="#00FF00">
+<div align="center">(1)</div>
+</td>
+<td bgcolor="#00FF00">
+<div align="center">(1)</div>
+</td>
+</tr>
+<tr>
+<td bordercolor="#000000" bgcolor="#CCCCCC">
+<div align="center">Script</div>
+</td>
+<td bordercolor="#000000" bgcolor="#00FF00">
+<div align="center">(2)</div>
+</td>
+<td bordercolor="#000000" bgcolor="#FF0000">
+<div align="center">(DANGER)</div>
+</td>
+</tr>
+</table>
+<p align="justify">(1): Absolument aucun danger, il vous suffit de supprimer le fichier suspect en &eacute;vitant de (&eacute;ventuellement, le t&eacute;l&eacute;charger) le lancer en double-cliquant dessus.<br />
+    (2): Absolument aucun danger, le script appara&icirc;tra comme une pi&egrave;ce jointe, il suffira de le supprimer. <br />
+    (DANGER): il n'y a qu'une seule hypoth&egrave;se dans laquelle le danger est r&eacute;el. </p>
+<h2 align="justify">Conseils pour &eacute;viter les virus</h2>
+<p align="justify">Si vous avez compris ce qui est expliqu&eacute; ci-dessus, vous devinerez naturellement:<br />
+    - Qu'il faut pr&eacute;f&eacute;rer les Webmails aux clients e-mail. Les clients e-mail sont des logiciels complexes qui ne sont plus destin&eacute;s au grand public. Si vous &ecirc;tes un utilisateur exp&eacute;riment&eacute; qui a besoin d'utiliser un client e-mail, vous saurez de toute fa&ccedil;on comment vous prot&eacute;ger des virus.<br />
+    - Que les messages au format HTML sont une abomination. En plus de v&eacute;hiculer des virus, ils sont tr&egrave;s lourds (mon dieux, comme c'est horrible de re&ccedil;evoir un message avec plein d'images, de sons, de vid&eacute;os, de machins et de bidules de partout... le contenu doit primer sur le contenant, pas l'inverse !!!). Les HTML est &agrave; banir. Quand vous relevez votre bo&icirc;te aux lettres, la vraie pas la virtuelle, vous avez 1) des lettres toutes b&ecirc;tes dans des enveloppes blanches, 2) plein de brochures de pub plastifi&eacute;es et non biod&eacute;gradables, toutes color&eacute;es et moches. Dans les e-mails c'est pareil: 1) les messages en texte plein, 2) les messages HTML. Les premiers sont lus, les autres finissent syst&eacute;matiquement &agrave; la poubelle.<br />
+    - Qu'il ne faut jamais ouvrir un fichier ex&eacute;cutable, sauf si l'on est certain de ce qu'il contient.</p>
+<p align="justify">En respectant ces 3 r&egrave;gles, vous n'aurez normalement pas de probl&egrave;me. </p>
+<p align="justify">Si n&eacute;anmoins vous &ecirc;tes parano, rajoutez ces conseils:<br />
+    - Un antivirus &agrave; jour.<br />
+    - R&eacute;flechissez 2 minutes avant de cliquer partout. Les novices 1) ne lisent pas ce qui est &agrave; l'&eacute;cran, 2) le r&eacute;fl&eacute;chissent pas &agrave; ce qui se passe, 3) cliquent partout. Ce genre d'attitude est la meilleure amie du virus. Apprenez et comprenez. Vous saurez ainsi qu'un fichier &quot;.jpg&quot; ne peut pas contenir de virus, mais qu'un &quot;.js&quot; sera dans 99,9% des cas un virus de script. <br />
+    - Apprenez &agrave; d&eacute;tecter les messages vehiculant les virus. La plupart se propagent de liste de contacts en liste de contacts. Vous re&ccedil;evrez donc probablement les virus de quelqu'un que vous connaissez. Dans ce cas l'e-mail sera presque &agrave; tous les coups vide de texte, ou avec un texte minimal, sans contexte, et incompr&eacute;hensible. Si vous &ecirc;tes le destinataire premier du message, il prendra la plupart du temps la forme classique des SPAM (du genre &quot;click here for free porn sex&quot;, &quot;click here to buy viagra and save money&quot;). La plupart du temps ces messages sont en anglais. </p>
+<p align="justify">Dernier conseil: arr&ecirc;tez la parano. Ce n'est pas compliqu&eacute; de se prot&eacute;ger des virus. Les virus Windows ont tant de succ&egrave;s car la plupart des utilisateurs ne savent pas comment se prot&eacute;ger, les auteurs des virus exploitent cela. La parano est la meilleure amie des virus.</p>
+<p align="justify" style="margin-bottom: 0;">Que celui qui a &eacute;t&eacute; infect&eacute; en utilisant un webmail me jette la premi&egrave;re pierre.<br />
+    Que celui qui a &eacute;t&eacute; infect&eacute; en utilisant un webmail et en triant sur le volet les pi&egrave;ces-jointes me jette le premier rocher.<br />
+    Que celui qui a &eacute;t&eacute; infect&eacute; en utilisant un webmail et en ne t&eacute;l&eacute;chargeant jamais aucune pi&egrave;ce jointe me jette la premi&egrave;re com&egrave;te intersid&eacute;rale. </p>
+</div>
+<p>
+&agrave; Paris le 3/06/2005<br />
+<br />màj le 11/03/2010</p>
+
+
+    </div>
+  
+  
+  <!-- Pagination Links -->
+  
+  <div class="pagination">
+    
+      <a href="/archives/44/index.html">&laquo; Prev</a>
+    
+
+    
+      
+        <a href="/index.html">1</a>
+      
+    
+      
+        <a href="/archives/2/index.html">2</a>
+      
+    
+      
+        <a href="/archives/3/index.html">3</a>
+      
+    
+      
+        <a href="/archives/4/index.html">4</a>
+      
+    
+      
+        <a href="/archives/5/index.html">5</a>
+      
+    
+      
+        <a href="/archives/6/index.html">6</a>
+      
+    
+      
+        <a href="/archives/7/index.html">7</a>
+      
+    
+      
+        <a href="/archives/8/index.html">8</a>
+      
+    
+      
+        <a href="/archives/9/index.html">9</a>
+      
+    
+      
+        <a href="/archives/10/index.html">10</a>
+      
+    
+      
+        <a href="/archives/11/index.html">11</a>
+      
+    
+      
+        <a href="/archives/12/index.html">12</a>
+      
+    
+      
+        <a href="/archives/13/index.html">13</a>
+      
+    
+      
+        <a href="/archives/14/index.html">14</a>
+      
+    
+      
+        <a href="/archives/15/index.html">15</a>
+      
+    
+      
+        <a href="/archives/16/index.html">16</a>
+      
+    
+      
+        <a href="/archives/17/index.html">17</a>
+      
+    
+      
+        <a href="/archives/18/index.html">18</a>
+      
+    
+      
+        <a href="/archives/19/index.html">19</a>
+      
+    
+      
+        <a href="/archives/20/index.html">20</a>
+      
+    
+      
+        <a href="/archives/21/index.html">21</a>
+      
+    
+      
+        <a href="/archives/22/index.html">22</a>
+      
+    
+      
+        <a href="/archives/23/index.html">23</a>
+      
+    
+      
+        <a href="/archives/24/index.html">24</a>
+      
+    
+      
+        <a href="/archives/25/index.html">25</a>
+      
+    
+      
+        <a href="/archives/26/index.html">26</a>
+      
+    
+      
+        <a href="/archives/27/index.html">27</a>
+      
+    
+      
+        <a href="/archives/28/index.html">28</a>
+      
+    
+      
+        <a href="/archives/29/index.html">29</a>
+      
+    
+      
+        <a href="/archives/30/index.html">30</a>
+      
+    
+      
+        <a href="/archives/31/index.html">31</a>
+      
+    
+      
+        <a href="/archives/32/index.html">32</a>
+      
+    
+      
+        <a href="/archives/33/index.html">33</a>
+      
+    
+      
+        <a href="/archives/34/index.html">34</a>
+      
+    
+      
+        <a href="/archives/35/index.html">35</a>
+      
+    
+      
+        <a href="/archives/36/index.html">36</a>
+      
+    
+      
+        <a href="/archives/37/index.html">37</a>
+      
+    
+      
+        <a href="/archives/38/index.html">38</a>
+      
+    
+      
+        <a href="/archives/39/index.html">39</a>
+      
+    
+      
+        <a href="/archives/40/index.html">40</a>
+      
+    
+      
+        <a href="/archives/41/index.html">41</a>
+      
+    
+      
+        <a href="/archives/42/index.html">42</a>
+      
+    
+      
+        <a href="/archives/43/index.html">43</a>
+      
+    
+      
+        <a href="/archives/44/index.html">44</a>
+      
+    
+      
+        <em>45</em>
+      
+    
+      
+        <a href="/archives/46/index.html">46</a>
+      
+    
+      
+        <a href="/archives/47/index.html">47</a>
+      
+    
+      
+        <a href="/archives/48/index.html">48</a>
+      
+    
+      
+        <a href="/archives/49/index.html">49</a>
+      
+    
+      
+        <a href="/archives/50/index.html">50</a>
+      
+    
+      
+        <a href="/archives/51/index.html">51</a>
+      
+    
+      
+        <a href="/archives/52/index.html">52</a>
+      
+    
+      
+        <a href="/archives/53/index.html">53</a>
+      
+    
+      
+        <a href="/archives/54/index.html">54</a>
+      
+    
+      
+        <a href="/archives/55/index.html">55</a>
+      
+    
+
+    
+      <a href="/archives/46/index.html">Next &raquo;</a>
+    
+  </div>
+  
+  
+  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+
+</div>
+
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Valhalla.fr</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>Valhalla.fr</li>
+          <li><a href="mailto:your-email@domain.com">your-email@domain.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/mw4rf">
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+                </svg>
+              </span>
+
+              <span class="username">mw4rf</span>
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/jekyllrb">
+              <span class="icon  icon--twitter">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+                </svg>
+              </span>
+
+              <span class="username">jekyllrb</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">Ad Absurdum</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

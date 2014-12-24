@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <title>Valhalla.fr</title>
+  <meta name="description" content="Ad Absurdum">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://127.0.0.1:4000//archives/55//">
+  <link rel="alternate" type="application/atom+xml" title="Valhalla.fr" href="http://127.0.0.1:4000//feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Valhalla.fr</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/liens/index.html">Liens</a>
+          
+        
+          
+          <a class="page-link" href="/dockit/index.html">DockIt!</a>
+          
+        
+          
+          <a class="page-link" href="/articles-essentiels/index.html">Articles essentiels</a>
+          
+        
+          
+          <a class="page-link" href="/a-propos/index.html">A propos</a>
+          
+        
+          
+          <a class="page-link" href="/themes/index.html">Thèmes</a>
+          
+        
+          
+          <a class="page-link" href="/references/index.html">Références</a>
+          
+        
+          
+          <a class="page-link" href="/top-10/index.html">Top 10</a>
+          
+        
+          
+          <a class="page-link" href="/archives/index.html">Archives de la revue</a>
+          
+        
+          
+          <a class="page-link" href="/outils/index.html">Outils</a>
+          
+        
+          
+          <a class="page-link" href="/cours-java/index.html">Cours Java</a>
+          
+        
+          
+          <a class="page-link" href="/liste/index.html">Liste des articles</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="home">
+
+  <!-- This loops through the paginated posts -->
+  
+    <h1><a href="/java/2001/03/15/comment-debuter-avec-jbuilder.html">Comment débuter avec JBuilder ?</a></h1>
+    <p class="author">
+      <span class="date">2001-03-15 01:21:34 +0100</span>
+    </p>
+    <div class="content">
+      <p>Ce document a pour but de vous aider &agrave; prendre en main un des meilleurs IDE Java: JBuilder 3.5. Vous devez lire la suite si les IDE (environnements de d&eacute;veloppement int&eacute;gr&eacute;s) ne vous sont pas familiers, ou si vous d&eacute;butez avec JBuilder.</p>
+<p>
+  Nous allons vous pr&eacute;senter l'interface graphique, et cr&eacute;er un petit programme pour vous montrer comment se servir d'une des fonctions les plus abouties: la cr&eacute;ation automatis&eacute;e d'interfaces utilisateur.</p>
+<p>NOTE: ce document contient 11 images, il peut &ecirc;tre assez long &agrave; charger.</p>
+<h1>Environnement JBuilder &quot;au repos&quot;</h1>
+<p><img alt="JBuilder" src="./ressources/java/old/faq/jbuilder_intro/jbuilder1.jpg" /> </p>
+<p>1 - Il s'agit de la zone o&ugrave; est pr&eacute;sent&eacute;, en temps normal, le code source du fichier ouvert. On peut profiter de divers fonctions concernant cette vue telles que la colorisation automatique du code, l'auto-indentation, une ligne verticale qui d&eacute;finit la zone imprimable, etc...<br />
+Chaque fichier ouvert vient cr&eacute;er un nouvel onglet et s'affiche dans cette zone. Il n'y a ici qu'un seul fichier ouvert: MainFrame.java</p>
+<p>2 - Il s'agit d'une zone (une JList) o&ugrave; sont affich&eacute;s les fichiers du projet en cours. On peut voir ici 4 types de fichiers: le fichier central qui &quot;regroupe&quot; tous les fichiers du projet (c'est le fichier &quot;projet&quot;) &agrave; l'extension .jpr, les fichiers Java source .java, les images .jpg et un fichier JavaDoc .html. Pour ouvrir un de ces fichiers, il suffit de cliquer dessus. </p>
+<p>3 - Cette zone concerne le fichier ouvert. Elle affiche ici les imports, les variables, m&eacute;thodes,  et constructeurs de la classe en cours, car on est en mode &quot;source&quot; (voir 5). Si l'on &eacute;tait en mode &quot;conception&quot;, dans cette zone serait affich&eacute;es des informations relatives &agrave; la conception d'une GUI.</p>
+<p>4 - Cette zone se retrouve dans pratiquement tous les logiciels: une barre de menus, une barre d'ic&ocirc;nes. Vous utiliserez le plus souvent l'ic&ocirc;ne qui repr&eacute;sente une fl&egrave;che verte, en dessous du menu &quot;Outils&quot; et qui permet de compiler et de lancer un programme. Il faut aussi pr&eacute;ciser que le menu Aide sera utile car il donne acc&egrave;s &agrave; la documentation du JDK de Sun ainsi qu'&agrave; la documentation des API et des outils Borland.</p>
+<p>5 - Vous pouvez toujours acc&eacute;der &agrave; l'onglet &quot;Source&quot; qui montre, comme ici, le code source de la classe en cours. Si cette classe permet une conception graphique (si elle &eacute;tend de JFrame, JWindow, JInternalFrame, etc...), vous pourrez cliquer sur l'onglet &quot;Conception&quot; et lancer le concepteur graphique de JBuilder. L'onglet &quot;Bean&quot; permet de cr&eacute;er des Java Beans (composants r&eacute;utilisables) et l'onglet &quot;Doc&quot; permet de cr&eacute;er des JavaDoc.</p>
+<h1>JBuilder en action!</h1>
+<p>Nous allons cr&eacute;er un petit programma avec une interface graphique &agrave; l'aide des assistants de JBuilder. Nous allons vous guider dans les &eacute;tapes. Commen&ccedil;ons:</p>
+<p>1- Lancez JBuilder<br />
+  2- Cliquez sur le menu FICHIER -&gt; NOUVEAU PROJET<br />
+  la fen&ecirc;tre suivante s'ouvre:</p>
+<p><img alt="JBuilder" src="./ressources/java/old/faq/jbuilder_intro/jbuilder2.jpg" /></p>
+<p>Saisissez dans la zone &quot;Fichier Projet&quot; le chemin et le nom du fichier projet portant l'extension .jpr. Une fois fait, cliquez sur TERMINER.</p>
+<p>2- Nous avons cr&eacute;&eacute; un projet, nous devons maintenant ajouter des classes. Nous avons choisi de cr&eacute;er une application graphique(JBuilder permet en outre de cr&eacute;er avec des assistants de servlets,des applets, des EJB, etc...). Cliquez sur le menu FICHIER -&gt; NOUVEAU ou faites CRTL+N.<br />
+  La fen&ecirc;tre suivante s'ouvre:</p>
+<p><img alt="JBuilder" src="./ressources/java/old/faq/jbuilder_intro/jbuilder3.jpg" /></p>
+<p>Cliquez sur &quot;Application&quot; puis sur le bouton &quot;OK&quot; pour lancer l'assistant de cr&eacute;ation d'applications.</p>
+<p>Une seconde fen&ecirc;tre s'ouvre:</p>
+<p><img alt="JBuilder" src="./ressources/java/old/faq/jbuilder_intro/jbuilder4.jpg" /></p>
+<p>Le &quot;Paquet&quot; est plus connu sous le nom anglais de &quot;package&quot;. En fait, quand dans vos programmes vous &eacute;crivez des instruction d'importation du style &quot;import java.io.*;&quot;, vous importez toutes les classes de ce paquet. De m&ecirc;me si vous voulez lancer votre programme cela devra se faire, dans notre cas, par l'instruction &quot;java sans_titre1.Application1&quot;. La &quot;classe&quot; &eacute;tant la classe principale du programme, celle contenant la m&eacute;thode main(), celle qu'il faut invoquer pour lancer le programme. Dans la majorit&eacute; des cas, vous n'aurez pas &agrave; modifier le code de cette classe.<br />
+  Cliquez sur &quot;Suivant &gt;&quot;.</p>
+<p>Vous acc&eacute;dez &agrave; cette fen&ecirc;tre:</p>
+<p><img alt="JBuilder" src="./ressources/java/old/faq/jbuilder_intro/jbuilder5.jpg" /></p>
+<p>La classe &agrave; laquelle l'on fait ici r&eacute;f&eacute;rence est la classe qui d&eacute;finira le cadre principal de l'interface utilisateur.Elle &eacute;tend de JFrame. Elle sera automatiquement lanc&eacute;e au d&eacute;marrage du programme (le code pour &ccedil;a est &eacute;crit automatiquement).<br />
+  Par d&eacute;faut les 3 cases que vous voyez coch&eacute;es ici ne le sont pas, cochez-les pour ce tutoriel.<br />
+  Cliquez sur &quot;TERMINER&quot;.</p>
+<p>Vous aboutissez &agrave; un &eacute;cran similaire &agrave; celui de la premi&egrave;re capture d'&eacute;cran. Le fichier ouvert est &quot;Cadre1.java&quot;.</p>
+<p>3 - Nous allons cr&eacute;er l'interface. Cliquez sur l'onglet &quot;Conception&quot;. Le concepteur met quelques secondes &agrave; se lancer, puis une fen&ecirc;tre comme ceci appara&icirc;t:</p>
+<p><img alt="JBuilder" src="./ressources/java/old/faq/jbuilder_intro/jbuilder6.jpg" /></p>
+<p>1 - Cette zone est une simulation de ce &agrave; quoi ressemblera votre fen&ecirc;tre. Vous y ajouterez des composants graphiques (2) par Drag&amp;Drop. Vous pourrez d&eacute;placer, redimentionner, etc ces composants directement an cliquant dessus.<br />
+  ASTUCE: on y pense rarement, mais le bouton droit de la souris est tr&egrave;s utile... essayez vous verrez comme les options propos&eacute;es dans le menu qui surgit sont utiles !</p>
+<p>2 - Vous pouvez cliquer sur un des composants de ce panneau, le curseur se transformera en une croix. Cliquez avec cette croix dans la zone (1 )pour d&eacute;poser le composant. Les composants sont r&eacute;pertori&eacute;s dans diff&eacute;rents onglets, vous trouverez dans Swing les principaux composants graphiques de Swing, dans Conteneurs Swing des JTabbedPane, JSplitPaneetd'autres gestionnaires de mise en page. DbSwing regroupe des composants Borland(tr&egrave;s utiles pour les bases de donn&eacute;es notamment).</p>
+<p>3 - Ici sont affich&eacute;es les propri&eacute;t&eacute;s du composant graphique s&eacute;lectionn&eacute;. La fen&ecirc;tre elle m&ecirc;me &eacute;tant s&eacute;lectionn&eacute;e, on voit ici ses propri&eacute;t&eacute;s. Si on clique sur l'onglet &quot;&Eacute;v&eacute;nements&quot;, on a acc&egrave;s &agrave; tous les gestionnaires d'&eacute;v&eacute;mements accessibles pour le composant s&eacute;lectionn&eacute;.</p>
+<p>4 - Comme expliqu&eacute; auparavant, les composants de l'interface -leur nom- sont affich&eacute;s ici. On voit que &quot;this&quot; est s&eacute;lectionn&eacute;, c-&agrave;-d le fen&ecirc;tre elle-m&ecirc;me. Cette vue est tr&egrave;s pratique pour savoir d'un coup d'oeil quels est le gestionnaire de mise en page d'un conteneur, quels composants il contient, etc...</p>
+<p>4 - Cliquez sur l'onglet Conteneurs Swing, et s&eacute;lectionnez le composant javax.swing.JPanel (le premier que nous d&eacute;signerons sous le nom de JPanel), d&eacute;posez-le au centre de this(le cadre gris de la capture d'&eacute;cran ci-dessus).<br />
+  Normalement le composant doit s'afficher (cela se mat&eacute;rialise parle fait que la fen&ecirc;tre devient l&eacute;g&egrave;rement plus claire).Une entr&eacute;e jPanel1 est ajout&eacute;e &agrave; la zone (4).Cliquez sur cette entr&eacute;e. Les propri&eacute;t&eacute;s de la zone(3) changent. Cliquez sur la propri&eacute;t&eacute; layout de mani&egrave;re &agrave; faire appara&icirc;tre une menu d&eacute;roulant regroupant les gestionnaires de mise en page disponibles. S&eacute;lectionnez BorderLayout. Revenez &agrave; l'onglet Swing de la zone (2), cliquez sur le composant JButton et d&eacute;posez-le vers le bas du jPanel1. Le bouton s'affiche automatiquement, remplissant la partie inf&eacute;rieure de la fen&ecirc;tre. Recommencez la m&ecirc;me op&eacute;ration en d&eacute;posant un composant JTextArea au milieu de la fen&ecirc;tre.</p>
+<p>5 - Nous avons cr&eacute;&eacute; l'interface, nous allons peaufiner tout &ccedil;a pour faciliter l'&eacute;criture du code. Dans le concepteur, s&eacute;lectionnez le bouton en cliquant (1 seule fois !) dessus. Dans ses propri&eacute;t&eacute;s, changez:<br />
+  name: inscrivez &quot;button&quot;<br />
+  text: effacez ce qui est &eacute;crit et ne mettez: &quot;Cliquez ici !&quot;.<br />
+  Faites de m&ecirc;me avec la zone de texte:<br />
+  name: inscrivez &quot;textArea&quot;<br />
+  text: effacez ce qui est inscrit<br />
+  lineWrap: mettez la propri&eacute;t&eacute; &agrave; TRUE</p>
+<p>Ce que vous obtenez devrait ressembler &agrave; ceci:</p>
+<p><img alt="JBuilder" src="./ressources/java/old/faq/jbuilder_intro/jbuilder7.jpg" /></p>
+<p>6 - Nous avons termin&eacute; la partie conception et nous pouvons passer &agrave; l'&eacute;tape &eacute;criture du code.<br />
+  Nous allons assigner des gestionnaires d'&eacute;v&eacute;nement (en fait un seul au composant &quot;button&quot;).</p>
+<p>Pour assigner un gestionnaire d'&eacute;v&eacute;nement &agrave; un composant, il y a une seule m&eacute;thode, par l'onglet &quot;&Eacute;v&eacute;nements&quot; de la zone (3) du concepteur. Cependant, pour le composant JButton, il existe une autre m&eacute;thode (qui ne permet que d'assigner un gestionnaire OnClick d'ailleurs), c'est de double-cliquer tout simplement sur le bouton. <br />
+  Nous allons essayer ici le 1&deg; m&eacute;thode dans le mesure o&ugrave; elle sera utilis&eacute;e dans le majorit&eacute; des cas.</p>
+<p>Cliquez donc sur l'onglet &quot;&Eacute;v&eacute;nements&quot;, voici &agrave; quoi il ressemble:</p>
+<p><img alt="JBuilder" src="./ressources/java/old/faq/jbuilder_intro/jbuilder8.jpg" /></p>
+<p>La premi&egrave;re fois que vous le lancez, la case &agrave; droite de &quot;mouseClicked&quot; est identique aux autres cases, c-&agrave;-d,vide. Nous vous la montrons ici une fois que vous aurez accompli l'action suivante: double cliquer dessus. Allez-y, double-cliquez. JBuilder repasse en mode &quot;Source&quot; et quitte le concepteur. Le curseur se trouve au milieu de la m&eacute;thode gestionnaire d'&eacute;v&eacute;nement mouseClicked du bouton. Compl&eacute;tez cette m&eacute;thode avec le code visible ci-dessous:</p>
+<p><img alt="JBuilder" src="./ressources/java/old/faq/jbuilder_intro/jbuilder9.jpg" /></p>
+<p>REMARQUE: une des fonction les plus utiles de JBuilder est d'afficher un petit menu d&eacute;roulant au fur et &agrave; mesure de l'&eacute;criture du code qui montre les m&eacute;thodes disponibles pour telle ou telle classe.Par exemple, vous tapez ici &quot;textArea&quot; puis quand vous tapez le &quot;.&quot;, le menu appara&icirc;t (attendez quelques secondes car si vous tapez la suite du code tout de suite il n'appara&icirc;t pas), affichant toutes les m&eacute;thodes de JTextArea, quand vous continuez &agrave; taper &quot;set...&quot;, le menu affiche toutes les m&eacute;thodes commen&ccedil;ant pas &quot;set&quot;, et ainsi de suite.</p>
+<p>
+  Vous comprendrez &agrave; quel point ce composant est utile quand vous aurez envie d'appeler une m&eacute;thode dont vous savez qu'elle existe amis dont vous ne connaissez par exactement la syntaxe. Ceci arrive constamment, et le menu d&eacute;roulant permet d'&eacute;viter des erreurs &agrave; la compilation.<br />
+  Cependant -et oui il faut bien un &quot;mais&quot; - j'ai constat&eacute; sur mon syst&egrave;me que ce menu ne fonctionnait pas sous Linux, je ne sais pas si c'est d&ucirc; &agrave; un param&eacute;trage qu'il faut faire manuellement, et en plus, du moins je n'ai rien trouv&eacute; concernant ce sujet dans la doc... en esp&eacute;rant que ce soit juste un bug chez moi et pas pour tous les linux... (en tout cas sous Windows, &ccedil;a fonctionne ! :))</p>
+<p>7 - Nous avons termin&eacute; le programme, cliquez sur la fl&egrave;che (le triangle vert) verte ou appuyez sur F9, le code se compile, et le programme se lance, cliquez sur notre bouton (dans la nouvelle fen&ecirc;tre qui vient d'appara&icirc;tre au bout de quelques secondes, et qui n'est autre que la fen&ecirc;tre que nous achevons de concevoir) pour tester le programme, voici ce que &ccedil;a donne:</p>
+<p>Avant d'avoir cliqu&eacute; et ...</p>
+<p><img alt="JBuilder" src="./ressources/java/old/faq/jbuilder_intro/jbuilder10.jpg" /></p>
+<p>... apr&egrave;s avoir cliqu&eacute;</p>
+<p><img alt="JBuilder" src="./ressources/java/old/faq/jbuilder_intro/jbuilder11.jpg" /></p>
+<p>
+  Vous avez remarqu&eacute; que JBuilder a automatiquement ajout&eacute; une menu FICHIER -&gt; QUITTER et un menu AIDE -&gt; A PROPOS. Ces 2 menus sont fonctionnels, le code a &eacute;t&eacute; g&eacute;n&eacute;r&eacute; automatiquement. Cela est d&ucirc; au fait que nous avions coch&eacute; les cases &quot;Cr&eacute;er une barre de menus&quot; et &quot;Cr&eacute;er une bo&icirc;te de dialogue A Propos&quot; &agrave; l'&eacute;tape de d&eacute;finition de notre projet.</p>
+<p>Je ne saurais trop vous conseiller de vous entra&icirc;ner un peu &agrave; modifier l'interface, en examinant par exemple le gestionnaire d'&eacute;v&eacute;nements du menu, en modifiant la conception graphique de la classe qui repr&eacute;sente la bo&icirc;te A Propos (Cadre1_AboutBox.java par d&eacute;faut).</p>
+<p>Voil&agrave;, c'est termin&eacute; :)</p>
+<p>
+  Comme morale &agrave; ce tutoriel (oui, oui, ce tutoriel est une vraie fable :) retenez que ce n'est pas parce qu'on utilise JBuilder ou un IDE que l'on doit se contenter de lui laisser tout faire. Personnellement, je ne l'utilise pas beaucoup pour ses codes pr&eacute;-&eacute;crits, et beaucoup de programmeurs &agrave; mon instar n'aiment pas trop &ccedil;a, ils utilisent des IDE pour la conception graphique qui se r&eacute;v&egrave;le plus simple et plus rapide. Et pour les gros projets, un Emacs n'est pas mal non plus...</p>
+<p>Tutoriel distribu&eacute; pour le FAQ Java de Java-France www.java-france.com / www.jgflsoft.com<br />
+  R&eacute;&eacute;dit&eacute; pour Valhalla GFBLOG <br />
+  &Eacute;crit &agrave; Montpellier le 15 mars 2001</p>
+
+
+    </div>
+  
+    <h1><a href="/java/2001/03/14/installer-java-sur-un-pc-linux.html">Installer Java sur un PC Linux</a></h1>
+    <p class="author">
+      <span class="date">2001-03-14 00:41:36 +0100</span>
+    </p>
+    <div class="content">
+      <p>
+Cet article a pour but de vous montrer la marche à suivre pour installer et configurer un environnement de développent Java viable sur une machine tournant sous le système d'exploitation Linux.<br />
+Dans ce tutoriel, nous utiliserons:</p>
+<ul>
+<li />le JDK de Sun, version 1.2.2 disponible à l'adresse suivante http://java.sun.com/products/jdk/1.2/download-linux.html
+<li />la ligne de commande, normalement disponible à partir de votrebureau Linux.
+<li />le logiciel XEmacs, fourni avec la majorité des distributions linux, disponible à l'adresse suivante: http://www.xemacs.org
+</ul>
+<p>NOTE: cette page contient 12 images haute résolution et assez grandes, cela peut prendre du temps à charger mais nous vous conseillons néanmoins d'attendre car la réalisation des étapes nécessaires et expliquées n'en sera que plus aisée.</p>
+<p>
+Commençons nos explications:</p>
+<h1>INSTALLATION</h1>
+<p>
+1. Téléchargez le JDK, dans la version que vous voulez (NOTE: à l'heure actuelle une version 1.3 existe, mais nous avons choisi la 1.2.2 pour notre tutoriel. Si vous téléchargez la 1.3, la procédure d'installation ne sera modifiée que par le nom des fichiers et des répertoires, jdk1.3 au lieu de  jdk1.2.2)</p>
+<p><center><img src="./ressources/java/old/faq/install_linux/1.jpg" alt="java" /></center></p>
+<p>
+La capture d'écran montre ici le fichier .tar.gz téléchargé sur le site de Sun (adresse ci-dessus) et enregistré sur votre disque dur, à l'adresse '/home/guillaume/Downloads/'. Ce sera notre répertoire par défaut pour ce fichier. Vous pouvez bien évidemment l'enregistrer où bon vous semble.</p>
+<p>
+2. Ensuite il nous faut décompresser cette archive, en extraire les fichiers. Pour cela, ouvrez une fenêtre de terminal, placez vous dans le répertoire où se trouve votre archive à l'aide de la commande cd, et décompactez-la grâce àla commande tar -zxvf.</p>
+<p>
+ASTUCE: tapez: 'tar zxvf jdk' puis appuyez sur 'tab' (la touchequi représente 2 flèche de sens opposé sur la gauche du clavier) et, normalement, le 'jdk' que vous venez de taper se transforme automatiquement en le nom du fichier, c-à-d ici 'jdk-1_2_2_007-linux-i386.tar.gz' qui est légèrement plus contraignant à taper... Cetteastuce est couramment utilisée par les personnes habituées aux systèmes Unix.</p>
+<p><center><img src="./ressources/java/old/faq/install_linux/2.jpg" alt="java" /></center></p>
+<p>
+La capture d'écran illustre ce qui est expliqué plus haut, et montre la commande exacte à entrer. Remplacer le nom du fichier donné ici par le nom du votre si celui-ci est différent. (en utilisant TAB...)<br />
+Quand vous appuyez sur ENTREE, une liste de fichiers défile dans la console, en voici la fin:(comme vous pouvez le voir sur la capture d'écran l'ascenseur à droite a considérablement rétréci: tous les fichiers ne sont pas affichés sur cet écran, mais vous n'avez normalement pas à vous soucier de cela).</p>
+<p><center><img src="./ressources/java/old/faq/install_linux/3.jpg" alt="java" /></center></p>
+<p>
+Admettons que votre fichier tar.gz se soit trouvé dansle répertoire '/home/guillaume/Downloads' comme ici, les fichiers serons installés dans le répertoire '/home/guillaume/Downloads/jdk1.2.2/'.<br />
+NOTE: nous vous conseillons de l'installer dans '/usr/local/' ou '/home/guillaume' (où vous remplacerez 'guillaume' par le nom de l'utilisateur voulu).</p>
+<p>
+3. Vous devez ensuite indiquer au système dans quel répertoire il trouvera les fichiers binaires que JDK. Ceci se réalise à l'aide d'un 'path' (chemin en anglais). L'instruction estla suivante: export PATH=/home/guillaume/Downloads/jdk1.2.2/bin/:$PATH<br />
+NOTE: remplacez /home/guillaume/Downloads/ par le répertoire dans lequel est décompactée votre archive.</p>
+<p><center><img src="./ressources/java/old/faq/install_linux/4.jpg" alt="java" /></center></p>
+<p>
+Voici la liste des fichiers qui doivent normalement se trouver dansle répertoire /bin/ de votre JDK. (ci-dessus)</p>
+<p><center> <img src="./ressources/java/old/faq/install_linux/5.jpg" alt="java" /></center></p>
+<p>
+Et voici l'instruction à taper pour définir une'PATH'. (ci-dessus)</p>
+<h1>UTILISATION</h1>
+<p>
+1. Ecriture d'un programme<br />
+Nous considèrerons ici que vous ne possédez pas d'IDEJava installé sur votre machine, que vous venez juste d'installer Linux et que l'éditeur XEmacs est installé sur votre système. (Il est fourni, le plus souvent installé par défaut, avecle plupart des distributions, si ce n'est toutes). Je vous conseille cependant d'installer JBuilder ou Forte si vous vous lancez dans la conception d'interfaces graphiques compliquées ou si vous désirez avoir des options d'exportation et d'internationalisation plus avancées.<br />
+Nous commençons donc par lancer cet éditeur- emacs-, par la lignede commande ou par un menu de votre interface graphique (ici, KDE sous Linux Mandrake 7.2).</p>
+<p>
+Ci-dessus: ouvrez une fenêtre de terminal et tapez simplement 'xemacs', le programme devrait se lancer. (OPTIONNEL: Si vous désirez sauvegarder à l'aide de Emacs des fichiers dans des répertoires de votre machine appartenant à l'utilisateur root (par exemple /usr/ ou /var/), tapez 'su', puis le mot de passe de root. Poursuivez ensuite avec la commande xemacs qui sera alors lancée avec les droits du root).</p>
+<p><center><img src="./ressources/java/old/faq/install_linux/6.jpg" alt="java" /></center></p>
+<p>
+Vous pouvez aussi passer par un menu pour ouvrir XEmacs.</p>
+<p><center><img src="./ressources/java/old/faq/install_linux/7.jpg" alt="java" /></center></p>
+<p>
+2. XEmacs ouvert, nous pouvons taper notre code, et profiter de la colorisation automatique du code ainsi que de l'indentation automatique (entre autres )réalisées automatiquement par Emacs.<br />
+Voici ce que ça donne:</p>
+<p><center><img src="./ressources/java/old/faq/install_linux/8.jpg" alt="java" /></center></p>
+<p>
+3. Compiler et lancer le programme<br />
+Nous pouvons compiler et lancer le programme par XEmacs, mais cela donnerait lieu à des paramétrages qui ne concernent pas notre sujet. Nous nous contenterons donc de compiler et de lancher notre programme en ligne de commande.</p>
+<p>
+Une fois le code visible dans la fenêtre XEmacs ci-dessus reproduit à l'identique, vous pouvez sauvegarder votre fichier (sous le même nom que la classe principale, c-à-d sous le nom de "test.java", en tenant compte de la casse).</p>
+<p>
+Une fois le fichier sauvegardé, il faudra ouvrir une fenêtre de terminal, se déplacer jusqu'au répertoire où sesitue le fichier "test.java" à l'aide de la command cd, etle compiler à l'aide de la commande javac.</p>
+<p>
+Dans notre cas la syntaxe est la suivante: javac test.java.</p>
+<p>
+ Si aucun message n'est renvoyé, la compilation a réussi. Pour lancer le programme il suffit d'utiliser la commande java, de la manière suivante: java test ('test' est le nom du fichier.class créé par le compileur).</p>
+<p>
+La capture d'écran ci-dessous montre comment faire:</p>
+<p><center><img src="./ressources/java/old/faq/install_linux/9.jpg" alt="java" /></center></p>
+<h1>PARAMETRAGE (optionnel!)</h1>
+<p>
+Nous allons présenter ici un des paramétrages utiles du JDK. Nous allons vous montrer comment configurer KDE (la procédure pour Gnome ou un autre window manager sera légèrement différente) pour exécuter un programme Java d'un seul clic.</p>
+<p>
+Pour cela nous devons créer un fichierJAR EXECUTABLE (la plupart des IDE permettent de le faire dans leur commande d'exportation), et assigner un "ligne de conduite" que KDE devrasuivrequand l'on cliquera sur un tel fichier.</p>
+<p>
+La procédure est la suivante: </p>
+<ul>
+<li />ouvrir le "Panneau de contrôle"
+<li />se placer dans le nemu "Applications" -&gt; "Associations des types de fichiers"
+<li />définir un programme d'ouverture par défaut, ici le programme /../jdk1.2.2/bin/java -jar, pour les fichiers JAR
+<li />enregistrer les changements et quitter.
+</ul>
+<p>&lt;/p&gt;</p>
+<p>
+La procédure en images:</p>
+<p><center><img src="./ressources/java/old/faq/install_linux/10.jpg" alt="java" /></center></p>
+<p>
+Vous trouverez l'entrée x-jar dans x-all ou x-applications.</p>
+<p><center><img src="./ressources/java/old/faq/install_linux/11.jpg" alt="java" /></center></p>
+<p>
+Cliquez sur le bouton "Ajouter" dans le panel "Applications par ordrede préférence".<br />
+La fenêtre représentée ci-dessous s'ouvre.</p>
+<p><center><img src="./ressources/java/old/faq/install_linux/12.jpg" alt="java" /></center></p>
+<p>
+Vous devez inscrire le chemin exact vers le fichier 'java' et rajouter l'option '-jar'.</p>
+<p>
+Cliquez sur OK, c'est terminé !</p>
+<p>
+Tutoriel distribué pour le FAQ Java de Java-France www.java-france.com / www.jgflsoft.com<br />
+Maintenant publié sur Valhalla GFBLOG<br />
+Ecrit à Montpellier le 14 mars 2001
+ </p>
+
+
+    </div>
+  
+  
+  <!-- Pagination Links -->
+  
+  <div class="pagination">
+    
+      <a href="/archives/54/index.html">&laquo; Prev</a>
+    
+
+    
+      
+        <a href="/index.html">1</a>
+      
+    
+      
+        <a href="/archives/2/index.html">2</a>
+      
+    
+      
+        <a href="/archives/3/index.html">3</a>
+      
+    
+      
+        <a href="/archives/4/index.html">4</a>
+      
+    
+      
+        <a href="/archives/5/index.html">5</a>
+      
+    
+      
+        <a href="/archives/6/index.html">6</a>
+      
+    
+      
+        <a href="/archives/7/index.html">7</a>
+      
+    
+      
+        <a href="/archives/8/index.html">8</a>
+      
+    
+      
+        <a href="/archives/9/index.html">9</a>
+      
+    
+      
+        <a href="/archives/10/index.html">10</a>
+      
+    
+      
+        <a href="/archives/11/index.html">11</a>
+      
+    
+      
+        <a href="/archives/12/index.html">12</a>
+      
+    
+      
+        <a href="/archives/13/index.html">13</a>
+      
+    
+      
+        <a href="/archives/14/index.html">14</a>
+      
+    
+      
+        <a href="/archives/15/index.html">15</a>
+      
+    
+      
+        <a href="/archives/16/index.html">16</a>
+      
+    
+      
+        <a href="/archives/17/index.html">17</a>
+      
+    
+      
+        <a href="/archives/18/index.html">18</a>
+      
+    
+      
+        <a href="/archives/19/index.html">19</a>
+      
+    
+      
+        <a href="/archives/20/index.html">20</a>
+      
+    
+      
+        <a href="/archives/21/index.html">21</a>
+      
+    
+      
+        <a href="/archives/22/index.html">22</a>
+      
+    
+      
+        <a href="/archives/23/index.html">23</a>
+      
+    
+      
+        <a href="/archives/24/index.html">24</a>
+      
+    
+      
+        <a href="/archives/25/index.html">25</a>
+      
+    
+      
+        <a href="/archives/26/index.html">26</a>
+      
+    
+      
+        <a href="/archives/27/index.html">27</a>
+      
+    
+      
+        <a href="/archives/28/index.html">28</a>
+      
+    
+      
+        <a href="/archives/29/index.html">29</a>
+      
+    
+      
+        <a href="/archives/30/index.html">30</a>
+      
+    
+      
+        <a href="/archives/31/index.html">31</a>
+      
+    
+      
+        <a href="/archives/32/index.html">32</a>
+      
+    
+      
+        <a href="/archives/33/index.html">33</a>
+      
+    
+      
+        <a href="/archives/34/index.html">34</a>
+      
+    
+      
+        <a href="/archives/35/index.html">35</a>
+      
+    
+      
+        <a href="/archives/36/index.html">36</a>
+      
+    
+      
+        <a href="/archives/37/index.html">37</a>
+      
+    
+      
+        <a href="/archives/38/index.html">38</a>
+      
+    
+      
+        <a href="/archives/39/index.html">39</a>
+      
+    
+      
+        <a href="/archives/40/index.html">40</a>
+      
+    
+      
+        <a href="/archives/41/index.html">41</a>
+      
+    
+      
+        <a href="/archives/42/index.html">42</a>
+      
+    
+      
+        <a href="/archives/43/index.html">43</a>
+      
+    
+      
+        <a href="/archives/44/index.html">44</a>
+      
+    
+      
+        <a href="/archives/45/index.html">45</a>
+      
+    
+      
+        <a href="/archives/46/index.html">46</a>
+      
+    
+      
+        <a href="/archives/47/index.html">47</a>
+      
+    
+      
+        <a href="/archives/48/index.html">48</a>
+      
+    
+      
+        <a href="/archives/49/index.html">49</a>
+      
+    
+      
+        <a href="/archives/50/index.html">50</a>
+      
+    
+      
+        <a href="/archives/51/index.html">51</a>
+      
+    
+      
+        <a href="/archives/52/index.html">52</a>
+      
+    
+      
+        <a href="/archives/53/index.html">53</a>
+      
+    
+      
+        <a href="/archives/54/index.html">54</a>
+      
+    
+      
+        <em>55</em>
+      
+    
+
+    
+      <span>Next &raquo;</span>
+    
+  </div>
+  
+  
+  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+
+</div>
+
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Valhalla.fr</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>Valhalla.fr</li>
+          <li><a href="mailto:your-email@domain.com">your-email@domain.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/mw4rf">
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+                </svg>
+              </span>
+
+              <span class="username">mw4rf</span>
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/jekyllrb">
+              <span class="icon  icon--twitter">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+                </svg>
+              </span>
+
+              <span class="username">jekyllrb</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">Ad Absurdum</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
