@@ -1,0 +1,36 @@
+---
+layout: post
+status: publish
+published: true
+title: Numéro 33 - Semaine du 22 au 28 novembre 2010
+author:
+  display_name: GF
+  login: gflorimond
+  email: gf@valhalla.fr
+  url: ''
+author_login: gflorimond
+author_email: gf@valhalla.fr
+wordpress_id: 173
+wordpress_url: http://revue.valhalla.fr/?p=173
+date: '2010-11-28 12:21:53 +0100'
+date_gmt: '2010-11-28 10:21:53 +0100'
+categories:
+- Revue
+tags:
+- Internet
+- neutralité
+- Google
+- vie privée
+- données personnelles
+- international
+- gouvernement
+- Facebook
+- réseaux sociaux
+- LOPPSI
+---
+<p>La protection des données personnelles revient <a href="http://www.cyberdroit.fr/2010/11/la-revision-de-la-directive-sur-la-protection-de-la-vie-privee/">sur le devant de la scène</a>, cette semaine, avec la publication d'une <a href="http://ec.europa.eu/justice/news/consulting_public/0006/com_2010_609_fr.pdf">communication de la Commission européenne</a><span class="lang">(PDF)</span> sur la révision de la directive 95/46 qui régit la matière. L'objectif est clair : adapter l'ancienne directive aux nouveaux défis de la protection des données, notamment l'informatique dans les nuages <i>(cloud computing)</i> et les réseaux sociaux en ligne, ainsi que la diversification des moyens de collecte des données (par exemple, les <i>cookies</i> traceurs sur le Web, ou la géolocalisation des smartphones). La communication souligne certains fondamentaux de la protection des données et définit des objectifs pour la prochaine révision de la directive : la définition de la notion de "donnée personnelle" qui doit être large (toute donnée relative à une personne identifiée ou identifiable par n'importe quel moyen "raisonnable") ; la transparence de la collecte et du traitement et l'information de la personne concernée, notamment en cas de "violation des données" <i>(data breach)</i> ; le principe de "minimisation des données" : seules les données nécessaires au traitement doivent être collectées ; la définition du "droit à l'oubli" ; la sensibilisation des personnes concernées (au premier plan desquelles, bien évidemment, sont les internautes) et la clarification des règles relatives au consentement du sujet du traitement ; le renforcement des voies de recours ; la "responsabilisation" des responsables de traitements ; la nécessité d'encourager l'auto-régulation (codes de conduite et <i>soft law</i>) et les systèmes de certification ; l'amélioration des mécanismes de transfert des données en dehors de l'UE ; la propagation des principes européens de protection des données au niveau mondial (avec le concours d'organisations internationales comme l'ONU, l'OCDE, <a href="http://www.numerama.com/magazine/17465-le-profilage-dans-la-ligne-de-mire-du-conseil-de-l-europe.html">le Conseil de l'Europe, qui poursuit d'ailleurs les mêmes objectifs de son côté</a>). La Commission présentera en 2011 des propositions plus concrètes, <i>"afin de durcir la position de l'UE en matière de protection des données à caractère personnel"</i>.</p>
+<p>De son côté, <a href="http://www.numerama.com/magazine/17463-la-cnil-parle-de-vie-privee-sur-internet-aux-eleves-de-cm2.html">la CNIL a dors et déjà entrepris de sensibiliser les enfants aux risques d'une surexposition sur les réseaux sociaux</a>. Par ailleurs, il est désormais possible de suivre une <a href="http://www.cnil.fr/la-cnil/actu-cnil/article/article/vous-souhaitez-supprimer-vos-donnees-personnelles-sur-internet-ayez-le-reflexe-plainte-en-l/">procédure en ligne pour déposer une plainte auprès de la CNIL</a>. </p>
+<p>Le gouvernement français, quant à lui, <a href="http://www.numerama.com/magazine/17464-le-gouvernement-ne-veut-pas-reguler-la-publicite-intrusive-sur-internet.html">ne compte pas intervenir en faveur des internautes pour réglementer la publicité "invasive" en ligne</a>. En revanche, <a href="/www.pcinpact.com/actu/news/60503-taxe-publicite-ligne-rapport-zelnik.htm">il intervient pour la taxer</a> : <a href="http://www.senat.fr/amendements/2010-2011/110/Amdt_I-10.html">le Sénat vient de voter la taxation de l'achat de publicité en ligne (1% du prix), à compter du 1er janvier 2011</a>. La mesure doit encore être votée par l'Assemblée nationale.</p>
+<p>Selon le Canard Enchaîné, <a href="http://www.numerama.com/magazine/17443-la-dcri-espionnerait-deja-des-ordinateurs-a-distance.html">la DCRI utiliserait déjà des moyens informatiques pour espionner les internautes dans le cadre d'enquêtes administratives</a>, sans contrôle du juge. On sait que <a href="http://www.valhalla.fr/2010/02/13/loppsi-2-les-spywares-judiciaires/">l'installation de mouchards sur les ordinateurs des internautes est une des mesures prévues par la loi LOPPSI</a>, qui n'est pas encore en vigueur.</p>
+<p> Aux États-Unis, <a href="http://www.eff.org/deeplinks/2010/11/effs-guide-protecting-devices-data-border">l'EFF rappelle les conditions dans lesquelles les autorités publiques peuvent accéder aux contenus des appareils électroniques</a>. </p>
+<p>Aux États-Unis encore, les deux géants américains du Web 2.0, Google et Facebook, se trouvent au centre de nouvelles polémiques. Google, d'abord, <a href="http://www.lemondeinformatique.fr/actualites/lire-google-favoriserait-ses-propres-sites-dans-ses-resultats-32230.html">favoriserait ses propres pages dans les résultats de recherche</a>, ce qui est à la fois <a href="http://www.valhalla.fr/2010/08/14/observations-proposition-google-verizon-neutralite-du-net/">contraire au principe de neutralité du Net (volet contenu)</a> et incompatible avec le statut d'intermédiaire technique qu'elle revendique. Google est aussi accusée de <a href="http://www.numerama.com/magazine/17411-google-accuse-de-scanner-le-contenu-des-emails.html">scanner le contenu des messages électroniques des usagers de son service Gmail</a>. L'accusation n'est pas nouvelle : l'on sait depuis toujours que Gmail est financé par l'affichage de publicités ciblées qui correspondent à des mots-clé extraits du contenu des messages. La profondeur de l'analyse du contenu des messages et l'usage des informations extraites demeurent toutefois inconnus. Facebook fait l'objet d'une critique semblable : <a href="http://www.numerama.com/magazine/17421-facebook-controle-et-censure-les-mails-envoyes-par-ses-membres.html">le réseau social censurerait les messages échangés par ses membres</a>. Par exemple, si un message contient un lien vers le site <a href="http://fr.wikipedia.org/wiki/The_Pirate_Bay">The Pirate Bay</a>, <a href="http://www.pcinpact.com/actu/news/60537-facebook-wired-facebook-censure-tpb.htm">il sera censuré et (faussement) qualifié de message indésirable <i>(spam)</i></a>. Deux choses sont gênantes : d'abord, la censure en elle-même, qui ne peut être justifiée dans une société démocratique (sur ce point, le droit américain et le droit français se rejoignent) ; ensuite, le fait que, pour censurer des messages <i>privés</i>, il faut accéder à leur contenu et violer de ce fait la vie privée des correspondants.</p>

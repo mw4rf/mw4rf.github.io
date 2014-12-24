@@ -1,0 +1,31 @@
+---
+layout: post
+status: publish
+published: true
+title: Numéro 35 - Semaine du 6 au 12 décembre 2010
+author:
+  display_name: GF
+  login: gflorimond
+  email: gf@valhalla.fr
+  url: ''
+author_login: gflorimond
+author_email: gf@valhalla.fr
+wordpress_id: 181
+wordpress_url: http://revue.valhalla.fr/?p=181
+date: '2010-12-12 15:31:52 +0100'
+date_gmt: '2010-12-12 13:31:52 +0100'
+categories:
+- Revue
+tags:
+- responsabilité
+- filtrage
+- hébergement
+- LCEN
+- Wikileaks
+- censure
+---
+<p>Affaire Wikileaks, round suivant. Le site a perdu son hébergement aux États-Unis et a fait l'objet d'attaques informatiques,  <a href="http://revue.valhalla.fr/numeros/34/">la semaine dernière</a>. En <a href="http://arstechnica.com/tech-policy/news/2010/12/wikileaks-mirrors-multiply-as-funding-source-gets-cut-off.ars">réaction à ces attaques</a>, de nombreux <a href="http://wikileaks.ch/mirrors.html">sites miroir</a> ont été <a href="http://www.pcinpact.com/actu/news/60701-wikileaks-sites-mirroirs-torrent-cablegate.htm">mis en ligne</a>. Il s'agit là d'une illustration parfaite de <a href="http://fr.wikipedia.org/wiki/Effet_Streisand">l'effet Streisand</a> : censurer un site le rend populaire et permet la multiplication virale de ses sources de diffusion. Pour l'ONU, en effet, les attaques contre Wikileaks et les pressions contre les intermédiaires techniques permettant la diffusion du site, <a href="http://www.numerama.com/magazine/17569-l-onu-decrit-les-pressions-sur-wikileaks-comme-une-tentative-de-censure.html">relèvent bien de la censure</a>.</p>
+<p>Wikileaks a connu, cette semaine, une nouvelle forme d'attaque -- hormis les attaques contre son fondateur, Julian Assange, qui ne concernent pas directement l'information diffusée par Wikileaks, bien qu'elles aient probablement pour finalité de le discréditer et de le paralyser -- : le <a href="http://www.numerama.com/magazine/17534-paypal-debloque-partiellement-le-compte-de-wikileaks.html">blocage partiel ou total de ses ressources financières par certains intermédiaires comme Paypal et Moneybrookers</a>. A leur tour, ces intermédiaires furent les victimes <a href="http://www.lemondeinformatique.fr/actualites/lire-affaire-wikileaks-30000-pc-zombies-pour-attaquer-paypal-et-mastercard-32371.html">d'attaques informatiques</a> de la part de certains <i>"hacktivistes"</i> pro-Wikileaks.</p>
+<p>En France, <a href="http://www.pcinpact.com/actu/news/60721-ovh-eric-besson-wikileaks-lcen.htm">les tribunaux de Paris et Lille ont rendu deux décisions</a>, suite à leur saisine en référé <a href="http://revue.valhalla.fr/numeros/34/">la semaine dernière</a> par l'hébergeur OVH. Rappelons d'abord qu'OVH fournit des serveurs à la société <i>Octopuce</i> qui, à son tour, héberge Wikileaks. En réaction aux propos du ministre Eric Besson, OVH a saisi le juge afin qu'il se prononce sur la licéité du contenu du site Wikileaks. En application de l'article 6 de la LCEN du 21 juin 2004, l'hébergeur doit retirer tout contenu manifestement illicite qui lui est notifié, faute de quoi il engage sa responsabilité civile et pénale. OVH a donc cherché à savoir, auprès du juge, s'il devait mettre Wikileaks hors ligne en cas de demande formelle.</p>
+<p>Le juge parisien a décidé, dans une <a href='http://revue.valhalla.fr/wp-content/uploads/2010/12/ordonnance_paris.pdf'>ordonnance du 6 décembre 2010</a><span class="lang">(pdf)</span>, qu'OVH <i>"ne démontre pas les éléments fondant de déroger au principe du contradictoire, alors que la société Octopuce doit être en mesure de communiquer les données de nature à permettre l’identification de l’auteur ayant contribué à la création du contenu litigieux"</i>. La requête d'OVH est rejetée. Le TGI de Lille rejette également la requête, par une <a href='http://revue.valhalla.fr/wp-content/uploads/2010/12/ordonnance_lille_2.pdf'>ordonnance du 6 décembre 2010</a><span class="lang">(pdf)</span>, au motif qu'il <i>"ne [lui] appartient pas, hors toute instance liée entre des parties, de dire si la situation décrite est ou non constitutive d’un trouble manifestement illicite"</i>. En revanche, selon le juge, il appartient à la société OVH <i>"si elle estime que sa responsabilité peut être engagée, d’elle-même suspendre l’hébergement des sites Wikileaks, sous nécessité d’une autorisation judiciaire pour ce faire"</i>.</p>
+<p>Dans les deux cas, le rejet est fondé sur des motifs relatifs à la procédure. Le <a href="http://www.pcinpact.com/actu/news/60699-hebergeur-filtrage-ovh-blocage-wikileaks.htm">débat sur la licéité du contenu</a> n'a pas été engagé. Mais c'est là tout le paradoxe : s'il est nécessaire de débattre pour déterminer la licéité du contenu, c'est que celui-ci n'est pas <i>manifestement</i> illicite. L'intermédiaire technique OVH ne devrait donc pas, en application de la LCEN, engager sa responsabilité en poursuivant la diffusion de Wikileaks. Ce sera au juge du fond de se prononcer sur la licéité du site, dans un premier temps, et sa décision entrainera des conséquences pour les hébergeurs : si le contenu est qualifié d'illicite, ces derniers devront le retirer.</p>

@@ -1,0 +1,35 @@
+---
+layout: post
+status: publish
+published: true
+title: Numéro 105 - Semaine du 18 au 24 juin 2012
+author:
+  display_name: GF
+  login: gflorimond
+  email: gf@valhalla.fr
+  url: ''
+author_login: gflorimond
+author_email: gf@valhalla.fr
+wordpress_id: 545
+wordpress_url: http://revue.valhalla.fr/?p=545
+date: '2012-06-24 11:35:23 +0200'
+date_gmt: '2012-06-24 09:35:23 +0200'
+categories:
+- Revue
+tags:
+- Internet
+- Google
+- international
+- Facebook
+- filtrage
+- ACTA
+- piratage
+- LOPPSI
+- censure
+- USA
+- liberté d'expression
+- CNIL
+---
+<p>Alors que <a href="http://www.numerama.com/magazine/22978-le-minitel-fermera-dans-une-semaine.html">le Minitel tire sa révérence</a> après 30 ans de bons et loyaux services, la lutte pour la protection des droits des internautes continue. C'est d'abord le traité ACTA qui subit un nouveau revers devant les instances européennes : la commission INTA, en charge des questions relatives au commerce international, <a href="http://www.numerama.com/magazine/22947-l-accord-acta-rejete-au-parlement-europeen-le-vote-final-a-venir.html">a adopté le rapport du député britannique D. Martin</a>, hostile au traité. Les cinq commissions saisies du traité se seront donc prononcées contre. Reste à venir le vote du Parlement en séance plénière, le 4 juillet, qui sera décisif.</p>
+<p>En revanche, le Conseil européen a adopté une <a href="http://www.laquadrature.net/fr/les-gouvernements-de-lue-poussent-une-alliance-globale-pour-la-censure-du-net">nouvelle résolution relative à la lutte contre la pédopornographie</a> qui recommande l'usage des technologies de filtrage et de blocage des sites Web. Nous dirons donc à nouveau ce que nous avons répété à plusieurs reprises à propos de la loi française LOPPSI 2 : le filtrage et le blocage sont inefficaces (il est facile de les contourner), contre-productifs (il incite les criminels à se cacher encore plus) et dangereux pour la liberté d'expression (le risque de faux positifs est grand).</p>
+<p>Aux USA, <a href="http://www.numerama.com/magazine/22970-la-frequentation-de-facebook-recule-aux-usa.html">la fréquentation de Facebook recule</a>, tandis que <a href="http://www.pcinpact.com/news/71867-google-langues-danger-donnees.htm">Google lance un nouveau service destiné à la protection des langues</a>. Au Japon, une nouvelle <a href="http://www.numerama.com/magazine/22939-le-japon-va-punir-plus-severement-le-piratage-sur-internet.html">loi sanctionne plus durement (peine de prison) le téléchargement</a> d’œuvres contrefaisantes sur Internet. En France, <a href="http://www.numerama.com/magazine/22942-les-premiers-labels-cnil-sont-delivres.html">la CNIL délivre ses premiers <em>labels</em></a> attestant du respect de la loi Informatique et Libertés... quel monde étrange dans lequel il faut obtenir une attestation du respect de la loi, alors que cela devrait aller de soi.</p>

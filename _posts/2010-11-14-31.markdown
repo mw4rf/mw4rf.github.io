@@ -1,0 +1,35 @@
+---
+layout: post
+status: publish
+published: true
+title: Numéro 31 - Semaine du 8 au 14 novembre 2010
+author:
+  display_name: GF
+  login: gflorimond
+  email: gf@valhalla.fr
+  url: ''
+author_login: gflorimond
+author_email: gf@valhalla.fr
+wordpress_id: 166
+wordpress_url: http://revue.valhalla.fr/?p=166
+date: '2010-11-14 12:54:16 +0100'
+date_gmt: '2010-11-14 10:54:16 +0100'
+categories:
+- Revue
+tags:
+- Internet
+- neutralité
+- téléchargement
+- P2P
+- vie privée
+- filtrage
+- DPI
+- piratage
+- surveillance
+- Hadopi
+---
+<p>Aux États-Unis, LimeWire est et ses clones sont dans une mauvaise passe. La justice américaine a en effet forcé l'entreprise éditrice du logiciel à en cesser la distribution, sur le fondement de la <a href="http://w2.eff.org/IP/P2P/MGM_v_Grokster/">jurisprudence Grokster</a>. Un point d'histoire du droit américain : en 1984, la Cour suprême rendait <a href="http://en.wikipedia.org/wiki/Sony_Corp._of_America_v._Universal_City_Studios,_Inc.">l'arrêt Betamax</a> dans lequel elle jugeait que les usages d'une technologie pouvaient être illicites sans que la technologie soit elle-même illicite. En 2005, dans l'affaire Grokster, cette position fut sensiblement durcie : un logiciel devient illicite lorsqu'il a pour but ou pour effet principal de permettre la réalisation d'actes illicites, même s'il demeure possible de l'utiliser en toute licéité. Tel était le cas du logiciel Grokster, client pour le réseau P2P Gnutella : même s'il était possible de télécharger des fichiers libres de droits sur le réseau Gnutella, celui-ci véhiculait principalement des contrefaçons. LimeWire étant un client pour le réseau Gnutella, à l'instar de Grokster, le même raisonnement s'applique à lui. Une <a href="http://arstechnica.com/tech-policy/news/2010/11/horde-of-piratical-monkeys-resurrects-limewire-pirate-edition.ars">"version pirate" de LimeWire</a><span class="lang">(en)</span> a toutefois <a href="http://arstechnica.com/tech-policy/news/2010/11/limewire-seriously-dont-blame-us-for-new-pirate-edition.ars">vu le jour peu de temps après l'arrêt de la distribution de la version officielle</a><span class="lang">(en)</span>.</p>
+<p>Aux États-Unis toujours, <a href="http://arstechnica.com/tech-policy/news/2010/11/a-new-record-9729-p2p-porn-pushers-sued-at-once.ars">l'industrie du cinéma pornographique se lance dans une grande entreprise judiciaire</a><span class="lang">(en)</span> en <a href="http://www.numerama.com/magazine/17283-l-industrie-du-porno-attaque-pres-de-17-000-internautes-americains.html">poursuivant plus de 16 000 internautes</a>. Il n'est pas inintéressant de comparer <a href="http://www.pcinpact.com/actu/news/60296-usa-industrie-pornographique-poursuit-16827-internautes.htm">cette démarche</a> avec celle de l'industrie musicale : celle-ci <a href="http://www.numerama.com/magazine/17263-la-mpaa-dresse-sa-liste-des-pires-sites-pirates-au-monde.html">s'attaque désormais de préférence aux logiciels, sites et technologies permettant la contrefaçon</a>, tandis que l'industrie du porno continue de s'attaquer aux internautes. Les deux démarches sont d'ailleurs bien présentes en droit français, dans les lois DADVSI pour la première et Hadopi pour la seconde.</p>
+<p>En France, justement, <a href="http://pro.clubic.com/legislation-loi-internet/hadopi/actualite-377804-mitterrand-bilan-hadopi-bon.html">le ministre de la culture juge que le bilan de la loi Hadopi est bon</a>. Il semble toutefois <a href="http://www.lemonde.fr/tiny/1438496">un peu tôt pour faire un bilan du système Hadopi</a>, qui fonctionne depuis à peine plus d'un mois. En outre, il est probable que le bilan, sur le long terme, ne soit pas aussi bon que le voudrait le ministre. En effet, en ciblant les réseaux de P2P où les fichiers sont échangés d'un internaute à l'autre sans intermédiaire ni contrepartie, la loi Hadopi favorise l'émergence de nouveaux outils de téléchargement, comme le "direct downloading" ou les newsgroups Usenet binaires, qui font intervenir des intermédiaires fournissant leurs services contre une rémunération. Il peut s'agit d'hébergeurs de fichiers en ligne, de fournisseurs d'accès à Usenet, ou encore de sites renvoyant vers des liens de téléchargement direct et truffés de publicité (<a href="http://revue.valhalla.fr/numeros/22/">nous avions déjà parlé de Wawamania</a>). Le "piratage" devient donc, pour certains, une activité lucrative, alors qu'il était, dans le cadre du P2P, un simple échange désintéressé entre internautes.</p>
+<p>Or, le système Hadopi ne fonctionne que dans le cadre des systèmes d'échange de pair-à-pair, ce qui exclut les technologies de téléchargement direct. C'est probablement l'une des raisons pour lesquelles <a href="http://www.pcinpact.com/actu/news/60310-deep-packet-inspection-france-neutralite.htm">les ayants-droit sont favorables à la mise en place du filtrage DPI</a>, c'est-à-dire de la surveillance des contenus transmis sur le réseau. Les risques que présente un tel filtrage pour certains droits fondamentaux, comme la liberté d'expression ou le droit à la vie privée, sont cependant très importants. La question devra donc être traitée dans le cadre du <a href="http://www.lemonde.fr/tiny/1438810">débat sur la neutralité du net</a>, car un net "neutre" ne doit pas discriminer selon les contenus.</p>
+<p>Au Royaume-Uni, le Digital Economy Act, l'équivalent de la loi Hadopi en France, <a href="http://www.numerama.com/magazine/17311-la-loi-hadopi-britannique-reexaminee-par-la-haute-cour.html">va être examiné par la Haute Cour</a> (ex-Chambre des Lords) sur demande de deux FAI.</p>

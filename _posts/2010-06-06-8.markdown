@@ -1,0 +1,30 @@
+---
+layout: post
+status: publish
+published: true
+title: Numéro 8 - Semaine du 31 mai au 6 juin 2010
+author:
+  display_name: GF
+  login: gflorimond
+  email: gf@valhalla.fr
+  url: ''
+author_login: gflorimond
+author_email: gf@valhalla.fr
+wordpress_id: 39
+wordpress_url: http://revue.valhalla.fr/?p=39
+date: '2010-06-06 10:57:14 +0200'
+date_gmt: '2010-06-06 08:57:14 +0200'
+categories:
+- Revue
+tags:
+- Internet
+- propriété intellectuelle
+- vie privée
+- libre
+- gouvernement
+- filtrage
+---
+<p>Une semaine après le lancement de l'iPad en Europe, les premiers chiffres tombent : <a href="http://www.journaldumac.com/2010/05/31/deux-millions-en-60-jours/">2 millions d'iPad vendus en 60 jours</a>, la plupart aux États-Unis ; <a href="http://www.macplus.net/magplus/depeche-53912-fr-ipad-1-4-des-connexions">1,4% des connexions sur le Web dues à un iPad</a>, avant même sa sortie en Europe ; <a href="http://www.macplus.net/magplus/depeche-53988-ipad-des-chiffres-pour-la-presse">24 000 exemplaires de Wired vendus en une journée</a> (magasine élaboré avec une <a href="http://www.igeneration.fr/ipad/adobe-montre-sa-solution-de-creation-de-magazines-ipad-11620">nouvelle solution de publication proposée par Adobe</a>) ; et <a href="http://www.clubic.com/tablette-internet-mid/ipad/actualite-343178-ipad-iped-chine-copie-contre-facon.html">100 euro... la contrefaçon chinoise d'iPad</a>.</p>
+<p>Côté livre électronique, on apprend que <a href="http://www.pcinpact.com/actu/news/57420-livres-numeriques-ebooks-etude-france.htm">5% des français auraient déjà lu un ebook</a>, que <a href="http://www.macplus.net/itrafik/depeche-53921-l-app-kindle-maintenant-pour-tous">l'application Kindle permet d'avoir accès au catalogue Amazon sur l'iPad</a> (livres en anglais uniquement... pour le moment), et que <a href="http://www.frenchiphone.com/2010/06/04/stanza-mis-a-jour-pour-lipad-lecture-electronique/">l'application Stanza est mise à jour pour iPad</a> (avec, cette fois, un gros catalogues d'oeuvres libres de droits en français).</p>
+<p>L'actualité du droit de la propriété intellectuelle sur Internet n'est pas réjouissante, cette semaine. Hormis un <a href="http://www.numerama.com/magazine/15837-l-ethique-du-numerique-vue-par-des-deputes-ump.html">rapport de députés UMP</a> qui <a href="http://pro.clubic.com/legislation-loi-internet/hadopi/actualite-343866-droite-morceller-autour-hadopi.html">ne soutiennent plus la loi HADOPI</a>, l'on apprend que le <a href="http://www.pcinpact.com/actu/news/57282-ofcom-angleterre-fai-hadopi-debill.htm">Royaume-Uni</a> et l'<a href="http://www.lemonde.fr/tiny/1362386/">Irlande</a> se dirigent vers une solution qui repose, comme la riposte graduée, sur une coupe d'accès à Internet. En France, <a href="http://www.numerama.com/magazine/15828-l-hadopi-confirme-par-l-emploi-son-interet-pour-le-filtrage-par-dpi.html">l'HADOPI confirme son intérêt pour le filtrage basé sur une <i>Deep Packets Inspection</i></a>, autrement dit, une analyse du contenu des communications. Un tel procédé est très attentatoire à la vie privée et à la liberté de communication, mais la prévention et la répression des violations du droit de propriété semble devoir justifier les violations des autres droits fondamentaux. C'est bien la position du gouvernement français actuel, qui soutient au Parlement européen -- malheureusement, <a href="http://www.laquadrature.net/fr/rapport-gallo-le-dogmatisme-du-droit-dauteur-gagne-une-bataille-mais-pas-la-guerre">avec succès</a> -- des <a href="http://www.numerama.com/magazine/15606-la-france-defend-son-ideologie-du-droit-d-auteur-au-parlement-europeen-maj.html">positions jugées par certains rétrogrades, dogmatiques, et peu respectueuses de l'intérêt général</a>.</p>
+<p>Le projet de loi LOPPSI ne semble pas faire mieux : <a href="http://www.lemonde.fr/tiny/1366687/">au Sénat, c'est la référence au juge qui disparaît</a>, afin que l'ordre de blocage des sites soit administratif et non judiciaire (certes, un recours pour excès de pouvoir est toujours possible, mais il a lieu <i>a posteriori</i>, contrairement à l'intervention du juge judiciaire). L'Europe, elle, envisage d'<a href="http://www.numerama.com/magazine/15878-l-europe-songe-a-enregistrer-les-recherches-au-nom-de-la-pedophilie.html">enregistrer les requête de recherche des internautes</a>, au <s>prétexte</s> nom de la lutte contre la cyberpédophilie.</p>

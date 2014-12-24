@@ -1,0 +1,30 @@
+---
+layout: post
+status: publish
+published: true
+title: Numéro 4 - Semaine du 3 au 9 mai 2010
+author:
+  display_name: GF
+  login: gflorimond
+  email: gf@valhalla.fr
+  url: ''
+author_login: gflorimond
+author_email: gf@valhalla.fr
+wordpress_id: 24
+wordpress_url: http://revue.valhalla.fr/?p=24
+date: '2010-05-09 12:22:47 +0200'
+date_gmt: '2010-05-09 10:22:47 +0200'
+categories:
+- Revue
+tags:
+- Internet
+- propriété intellectuelle
+- Google
+- vie privée
+- Apple
+- international
+---
+<p>Le traité ACTA continue à <a href="http://www.michaelgeist.ca/content/view/5001/135/">faire parler de lui</a><span class="lang">en</span> et, tandis que le Conseil de l'UE assure que l'acquis communautaire ne sera pas remis en cause, il <a href="http://www.numerama.com/magazine/15654-acta-la-transparence-ne-sera-pas-la-regle-dans-les-negociations-internationales.html">ne garantit pas la transparence</a> des futures négociations. L'UE demande toutefois au Canada de soutenir sa demande visant à poursuivre les négociations <a href="http://www.michaelgeist.ca/content/view/5012/125/">sous l'égide de l'OMPI</a>.</p>
+<p>D'autres événements relatifs à l'application du droit de la propriété intellectuelle sur Internet sont à signaler. D'abord, le 4 mai était la <a href="http://www.numerama.com/magazine/15653-aujourd-hui-c-est-journee-mondiale-contre-les-drm.html">Journée mondiale contre les DRM</a>, organisée par la FSF en réponse à la Journée mondiale de la Propriété Intellectuelle <a href="http://www.numerama.com/magazine/15598-on-avait-presque-oublie-de-feter-la-journee-mondiale-de-la-propriete-intellectuelle.html">organisée peu avant</a> par l'OMPI. Ensuite, l'on apprend que <a href="http://www.pcinpact.com/actu/news/56750-suisse-taxe-copie-privee-ipad.htm">la Suisse</a> n'appliquera pas automatiquement de taxe pour la rémunération de la copie privée à l'iPad d'Apple, contrairement à <a href="http://www.pcinpact.com/actu/news/56449-taxe-copie-privee-remuneration-ipad.htm">la France</a>. Enfin, l'Hadopi fait reparler d'elle : le décret dressant la liste des informations que les ayants-droit et les intermédiaires doivent fournir à la Haute autorité est <a href="http://www.numerama.com/magazine/15679-hadopi-un-vice-de-forme-attaque-devant-le-conseil-d-etat-maj.html">attaqué devant le Conseil d'État</a> sur le fondement d'un vice de forme (l'ARCEP n'aurait pas été consultée, alors que la loi prévoit que sa consultation est obligatoire). Dans le même temps, l'adresse IP se révèle, comme il avait été annoncé, un <a href="http://www.pcinpact.com/actu/news/56696-hadopi-adresse-ip-culpabilite-innocence.htm">indicateur peu fiable</a> de l'identité de l'internaute, et un site propose d'envoyer à ses contacts des <a href="http://www.numerama.com/magazine/15678-un-service-d-envoi-de-faux-mails-de-l-hadopi-cree-la-panique.html">faux e-mails Hadopi</a>.</p>
+<p>La protection de la vie privée en ligne reste également au coeur de l'actualité de cette semaine. L'EFF montre, dans un article très intéressant, <a href="http://www.eff.org/deeplinks/2010/04/facebook-timeline/">l'évolution des conditions d'utilisation de Facebook de 2005 à 2010</a><span class="lang">en</span> (<a href="http://eco.rue89.com/2010/05/06/2005-2010-comment-facebook-a-brade-notre-vie-privee-150368">traduction française</a>), alors que plus de la moitié des utilisateurs du réseau social <a href="http://www.lemondeinformatique.fr/actualites/lire-55-des-utilisateurs-de-facebook-se-mefient-du-reseau-social-30606.html">s'en méfient</a>. L'Allemagne ouvre par ailleurs <a href="http://www.pcinpact.com/actu/news/56050-europe-facebook-tag-loppsi-quadrature-du-net.htm">une enquête</a> sur la possibilité qu'offre Facebook d'identifier les personnes représentées sur les photographies mises en ligne. Dans le même pays, Google<a href="http://www.pcinpact.com/actu/news/56705-google-street-view-allemagne-wifi.htm">repousse la sortie de Street View</a>. Aux États-Unis, c'est un coup dur pour l'opérateur : après Yale, c'est l'université de Californie qui <a href="http://www.lemondeinformatique.fr/actualites/lire-la-fiabilite-et-la-confidentialite-des-google-apps-une-nouvelle-fois-remise-en-cause-30622.html">abandonne Gmail</a>, qui est jugé trop peu protecteur de la vie privée des utilisateurs.</p>
+<p>Alors que le lancement <a href="http://www.macbidouille.com/news/2010/05/03/1-million-d-ipads-vendus-en-28-jours">l'iPad</a> aux États-Unis est un succès, la FTC <a href="http://www.macgeneration.com/news/voir/153421/le-cas-apple-etudie-par-la-justice-americaine-et-la-ftc">s'intéresse</a> à Apple. Au centre de l'enquête, la fameuse clause 3.3.1 liant les développeurs d'application pour iPhone/iPad à Apple. On sait que le but de cette clause est d'empêcher l'utilisation de solutions intégrées de développement qui échappent au contrôle d'Apple, comme Flash. A ce propos, c'est <a href="http://www.macgeneration.com/news/voir/153791/opera-s-immisce-dans-le-debat-sur-flash">Opera</a> qui, cette semaine, s'insère dans le débat.</p>

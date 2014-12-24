@@ -1,0 +1,150 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Cyber-délits : la compétence des juridictions françaises fondée sur l’accessibilité
+  du site litigieux (Cass Com, 20 mars 2007)'
+author:
+  display_name: GF
+  login: gflorimond
+  email: gf@valhalla.fr
+  url: http://www.valhalla.fr
+author_login: gflorimond
+author_email: gf@valhalla.fr
+author_url: http://www.valhalla.fr
+wordpress_id: 409
+wordpress_url: http://www.valhalla.fr/?p=409
+date: '2007-04-25 12:59:56 +0200'
+date_gmt: '2007-04-25 10:59:56 +0200'
+categories:
+- Internet
+- Juridique
+- NTIC
+- Droit international
+tags:
+- Internet
+- Juridique
+- Web
+- réseaux
+- Propriété intellectuelle
+- Droit international
+- liberté
+---
+<p>Par un arrêt du 20 mars 2007, la chambre commerciale de la Cour de cassation vient de confirmer que la simple accessibilité d’un site internet en France peut fonder la compétence internationale des juridictions françaises en matière délictuelle.</p>
+<blockquote>
+<p style="color:#F66">Article publié à l'origine sur Intlex.org, puis recopié sur Valhalla.fr à la fermeture du site.</p>
+</blockquote>
+<p>Deux théories s’opposent sur la question de la compétence internationale des juridictions françaises en matière de cyber-délits. L’hypothèse de départ est la suivante: un site web, basé à l’étranger, diffuse un contenu qui porte préjudice à une personne en France. La question est celle de savoir quel tribunal peut saisir cette personne. </p>
+<p>Selon la première théorie, la théorie de l’accessibilité ici retenue par la Cour de cassation, les tribunaux français peuvent retenir leur compétence dès lors que le site litigieux est accessible en France. Selon la seconde théorie, appelée «&#8239;théorie de la focalisation&#8239;», les juridictions françaises ne devraient se reconnaître compétentes qu’à la condition que le site soit dirigé vers le public français.</p>
+<h2>Présentation du problème</h2>
+<p>La compétence internationale des juridictions françaises en matière délictuelle est, en principe ((	Nous n’aborderons pas les privilèges de juridiction des articles 14 et 15 du Code Civil.)), déterminée par les articles 2 et 5 § 3 du règlement CE 44/2001 du 22 décembre 2000 dit «&#8239; règlement Bruxelles I&#8239; » ((	De même, les articles 2 et 5 § 3 de la Convention de Bruxelles de 1968 avant l’entrée en vigueur du règlement et pour les affaire en relation avec le Danemark ; et les articles 2 et 5 § 3 de la Convention de Lugano pour les pays de l’AELE non soumis au règlement 44/2001.)).</p>
+<p>Ainsi, le demandeur disposera d’une option: il pourra saisir soit le tribunal du domicile du défendeur (art. 2),</p>
+<blockquote><p><i><br />
+Article 2 (règlement 44/2001)</p>
+<p>1. Sous réserve des dispositions du présent règlement, les personnes domiciliées sur le territoire d'un État membre sont attraites, quelle que soit leur nationalité, devant les juridictions de cet État membre. (...)<br />
+</i></p>
+</blockquote>
+<p>soit le tribunal du lieu où le fait dommageable s’est produit ou risque de se produire (art. 5 § 3).</p>
+<blockquote><p><i><br />
+Article 5 (règlement 44/2001)</p>
+<p>Une personne domiciliée sur le territoire d'un État membre peut être attraite, dans un autre État membre:</p>
+<p>(...)</p>
+<p>3) en matière délictuelle ou quasi délictuelle, devant le tribunal du lieu où le fait dommageable s'est produit ou risque de se produire;<br />
+</i></p>
+</blockquote>
+<p>Le lieu du «&#8239;fait dommageable&#8239;» s’entend aussi bien du lieu du fait générateur   que du lieu de réalisation du dommage en cas de dissociation des éléments constitutifs du délit ((	CJCE, 30 novembre 1976, Affaire des Mines de potasse d'Alsace ; JDI 21/76 1977.728, note A. Huet ; RCDIP 1977.568 note Bourel)). Cependant, si les tribunaux du lieu du fait générateur sont compétents pour réparer l’entier préjudice, les tribunaux de chaque pays où un dommage a été ressenti ne sont compétents qu’à hauteur du préjudice subi dans leur ressort ((	CJCE, 7 mars 1995, Fiona Shevill et autres c. Presse Alliance ; JDI C-68/93 1996.543, note A. Huet ; Rev. Crit. DIP., 1996.495, obs. P. Lagarde)).</p>
+<p>Lorsque le défendeur n’est pas domicilié sur le territoire d’un Etat membre (de l’Union européenne), l’article 4 du règlement renvoie aux règles de conflit de juridictions du droit interne. En droit français, la règle de compétence se trouve à l’article 46 al. 3 du Nouveau Code de Procédure Civile transposé dans l’ordre international. Le demandeur dispose de la même option que celle offerte par l’article 5 § 3 du règlement et les mêmes règles ((	Il existe en réalité certaines différences. Ainsi, par exemple, pour la Cour de Justice des Communautés Européennes, dans le cas d’un délit le presse, le lieu du fait générateur est le lieu d'impression du document litigieux, et le lieu de réalisation du préjudice est le lieu de publication si la victime y est connue (CJCE, 7 mars 1995, Fiona Shevill, op. cit.). Pour la Cour de cassation, le fait générateur et le préjudice coïncident au lieu de publication du document litigieux (Cass. Civ. 1., 14 janvier 1997, Gordon and Breach ; JCP n°37, 10 septembre 1997 1997.386, note H. Muir Watt ; D. 1997.177, n°15, note Santa-Croce).)) sont applicables en cas de dissociation des éléments constitutifs du délit.</p>
+<blockquote><p><i><br />
+Article 46 NCPC</p>
+<p>(Décret nº 81-500 du 12 mai 1981 art. 8 Journal Officiel du 14 mai 1981 rectificatif JORF 21 mai 1981)</p>
+<p>Le demandeur peut saisir à son choix, outre la juridiction du lieu où demeure le défendeur :</p>
+<p>(...)</p>
+<p>en matière délictuelle, la juridiction du lieu du fait dommageable ou celle dans le ressort de laquelle le dommage a été subi ;<br />
+</i></p>
+</blockquote>
+<p>En matière de cyber-délits, il est maintenant admis que le lieu du fait générateur se situe à l’endroit où est localisé l’opérateur fautif, indépendamment du lieu de mise en ligne et de rétention du contenu litigieux ((	OLIVIER CACHARD, La régulation internationale du marché électronique, Thèse de Doctorat Paris-II, Paris, LGDJ, 2002, spéc. n° 144)).</p>
+<p>Cependant, la question de la localisation du préjudice demeure controversée.</p>
+<p>Pour une partie de la doctrine ((	A. HUET, Note sous l'arrêt Castellblanch, JDI 2004.872 (Cass. Civ. 1., 9 décembre 2003, SA Castellbanch c/ SA Champagne Louis Roederer ; RCDIP 2004.632, note Cachard) ; P.-Y. GAUTIER, Du droit applicable dans le «village planétaire» au titre de l'usage immatériel des oeuvres, D. 1996.131; P.-Y. GAUTIER, Les oeuvres du crooner dans la "maison" de l'internaute: promenade collective, mais non autorisée, sur un site numérique, D. 1996.490; P.-Y. GAUTIER, Suite de la promenade à travers un site immatériel: des condamnations de justice en nature sur l'Internet, D. 1997.175; M. VIVANT, Cybermonde: Droit et droits des réseaux, JCP G 1996, I (3969); J. HUET, Le droit applicable dans les réseaux numériques, JDI 2002.737; T. VAN OVERSTRAETEN, Droit applicable et juridicition compétente sur internet, RDAI 1998.373 ; sur la compétence législative: C. NOURISSAT, L'internet et la loi applicable à la responsabilité civile délictuelle, JCP 2002, Cahier de Droit international n°4)), soutenue par le célèbre arrêt «&#8239;Castellblanch&#8239;»  ((	Cass. Civ. 1., 9 décembre 2003, SA Castellbanch c/ SA Champagne Louis Roederer, op. cit.)) et par l’arrêt rapporté, le préjudice est localisé en France dès lors que le site litigieux est <i>accessible </i>en France.</p>
+<p>Pour une autre partie de la doctrine ((	OLIVIER CACHARD, La régulation internationale du marché électronique, op. cit; O. CACHARD, Note sous l'arrêt Castellblanch, RCDIP 2004.632 (Cass. Civ. 1., 9 décembre 2003, SA Castellbanch c/ SA Champagne Louis Roederer, op. cit.) ; C. DE HAAS, L'omnipotence du juge français de la propriété intellectuelle face à l'internet ou l'histoire d'une incompétence largement ignorée, Petites Affiches 2001.4; D. A. LAPRÈS, L'exorbitante affaire Yahoo, JDI 2002.975; L. PECH, Contrefaçon de marque sur internet et compétence des juridictions françaises : la (saine) substitution du critère de destination au critère de l’accessibilité, RLDI 2006; J.-P. HUGOT, La compétence universelle des juridictions françaises en matière délictuelle: vers des «enfers numériques» ?, Légipresse 2001.119, II)), la simple accessibilité du site sur le territoire français ne devrait pas suffire à localiser le préjudice en France et à fonder la compétence internationale des juridictions françaises. Selon ces auteurs, le préjudice ne devrait être localisé en France que si le site litigieux est <i>dirigé </i>ou <i>focalisé </i>vers le public français. Autrement dit, les tribunaux français ne devraient se reconnaître compétents que si le site litigieux présente un rattachement suffisant avec la France.</p>
+<h2>L’arrêt du 20 mars 2007 (Cass. Com.)</h2>
+<p>L’arrêt rapporté ((	V. aussi la présentation de l’arrêt rapporté sur Legalis.net [En ligne]: http://www.legalis.net/breves-article.php3?id_article=1896)) tranche un litige relatif à un délit de concurrence déloyale. </p>
+<p>La société française Gep, fabricant d’un modèle de chaussures dénommé « Nerval/s », a assigné devant les tribunaux français la société allemande HSM, lui reprochant de commercialiser une copie de ce produit sur son site internet. Le site web de la société allemande présentait en effet à la vente des chaussures ressemblant aux chaussures «&#8239;Nerval/s&#8239;», mais à un prix plus bas. Les juges ont décidé que la société HSM entretenait délibérément la confusion entre les deux modèles dans l’esprit des visiteurs du site web, et que cette pratique était constitutive d’un acte de concurrence déloyale.</p>
+<p>Mais la Cour de cassation a surtout rejeté l’exception d’incompétence des juridictions françaises soulevée par la société allemande HSM.</p>
+<p>La société HSM soutenait «&#8239;qu’elle ne commercialisait les articles litigieux sur son site internet, <i>exclusivement conçu en langue allemande</i>, <i>que sur le territoire allemand&#8239;</i>» ((	Souligné par nous.)). En outre, selon la société HSM, il ne découle pas de la simple accessibilité du site en France la possibilité pour les visiteurs de passer commande depuis la France:</p>
+<blockquote><p><i><br />
+«&#8239;en fondant la compétence du juge français sur la simple affirmation que, non seulement tous les internautes pouvaient se connecter sur le site, mais encore ‘‘commander ses produits en ligne’’, sans préciser de quels documents de la cause, qui ne sont pas davantage analysés, résulterait la possibilité -contestée- pour un internaute de commander en ligne en France, <i>ce que la simple connexion sur un site ne suffit pas à impliquer</i>, les juges du fond ont violé l’article 455 du nouveau code de procédure civile&#8239;». ((	Souligné par nous.))<br />
+</i></p>
+</blockquote>
+<p>Pour la Cour de cassation, ces arguments ne sont pas pertinents. Ainsi, la cour d’appel a pu retenir sa compétence à bon droit <b>«&#8239;dès lors que les faits allégués de commercialisation de ces produits sur le territoire national <i>seraient susceptibles</i> de causer un préjudice&#8239;»</b>. L'emploi de la formule <i>seraient susceptibles</i> rend la solution particulièrement claire: il n'est pas nécessaire que le préjudice existe, et encore moins que son existence soit démontrée. Il suffit que le préjudice soit <i>possible</i> pour que les juridictions françaises puissent se déclarer compétentes. Or, l'accessibilité du site litigieux en France rend nécessairement <i>possible</i> le préjudice, même si elle n'est pas suffisante à elle seule pour le faire exister. La compétence internationale des tribunaux français est donc fondée sur un préjudice <i>potentiel</i> et non sur un préjudice <i>réel</i>.</p>
+<p>Par l’arrêt reproduit, la Cour de cassation confirme donc sa position en faveur de la théorie de l’accessibilité en matière de conflit de juridictions.</p>
+<h2>Observations</h2>
+<p>La théorie de l’accessibilité, selon laquelle les juridictions françaises sont compétentes pour connaître d’un cas de cyber-délit dès lors que le site litigieux est accessible sur le territoire français, a été consacrée par la Cour de cassation dans l’arrêt «&#8239;Castellblanch&#8239;» ((	Cass. Civ. 1., 9 décembre 2003, SA Castellbanch c/ SA Champagne Louis Roederer, op. cit.)):</p>
+<blockquote><p><i><br />
+en admettant la compétence des juridictions françaises pour connaître de la prévention et de la réparation de dommage subis en France du fait de l’exploitation d’un site internet en Espagne, la cour d’appel qui a constaté que ce site, fût-il passif, était accessible sur le territoire français, de sorte que le préjudice allégué du seul fait de cette diffusion n’était ni virtuel ni éventuel, [la Cour d'appel] a légalement justifié sa décision<br />
+</i></p>
+</blockquote>
+<p>La théorie de l’accessibilité constitue un critère de rattachement dangereux qui consacre la compétence universelle des juridictions françaises en matière de cyber-délits. En effet, <i>tous </i>les sites web sont par définition accessibles <i>en tout point </i>du globe, dès lors qu’une connexion au réseau est possible ((	A l’exception de la Chine qui filtre le contenu numérique accessible sur son territoire depuis le réseau Internet.)). A suivre la théorie de l’accessibilité, les tribunaux français seraient donc compétents quel que soit le site web litigieux, même si ce site ne présente absolument aucun rattachement objectif avec la France. </p>
+<p>La protection de la victime est maximale (<i>forum actoris</i>) mais, corollairement, les inconvénients pour les professionnels développant leur activité sur le web sont considérables. Le risque pour un professionnel de se voir assigné devant les juridictions françaises, parce que le contenu de son site est susceptible de causer un préjudice en France, flotte au dessus de lui comme une épée de Damoclès. </p>
+<p>Le risque est plus grand encore lorsqu’on sait que les tribunaux français  «&#8239;déconstruisent&#8239;» ((	V. J. Cl. Commercial, Conflit de lois et compétence internationale des juridictions françaises, 2003, n° Fasc. 3000, n° 17 à 21. Pour les délits informationnels, la «&#8239;déconstruction&#8239;» du délit complexe en délit simple vient de la localisation identique du fait générateur et du préjudice.)) les cyber-délits complexes en délits simples, entièrement localisés en France. Ainsi, en vertu de la règle de conflit de lois française en matière délictuelle ((	La lex loci delicti ou «&#8239;Loi du lieu du délit&#8239;». Le lieu du délit s’entend aussi bien du lieu du fait générateur que du lieu du préjudice (v. supra note n°5). Or, puisque les délits informationnels sont «&#8239;déconstruits&#8239;» par la jurisprudence et entièrement relocalisés au lieu de diffusion du message litigieux, qui se situe par hypothèse en France, c’est la loi française qui est désignée par la règle de conflit.)), la compétence législative et la compétence juridictionnelle coïncident presque systématiquement. Les tribunaux français seront compétents et ils appliqueront la loi française (<i>lex forisme</i>). </p>
+<p>Il est évident qu’une telle solution n’est pas souhaitable. En effet, si le même critère de compétence était retenu dans tous les pays, <i>tous </i>les tribunaux du monde seraient compétents pour <i>tous </i>les dommages susceptibles d'être causés par un site internet, et ce quel que soit le public visé. En outre, il est impensable (et impossible) d’imposer aux professionnels de veiller à ce que leur activité sur Internet ne soit susceptible de causer aucun préjudice, dans tous les pays du monde, même dans ceux qui ne sont pas concernés par cette activité. Finalement, le critère de l’accessibilité pourrait facilement se retourner contre les opérateurs français si d’autres pays le retenaient pour fonder la compétence internationale de leurs juridictions ((	V. p. ex. Tribunal régional de Ziguinchor (Sénégal), 6 janvier 2004, ; ForumInternet.org [En Ligne] : cité par L. Pech in J. Cl. Commercial, Conflit de lois et compétence internationale des juridictions françaises, 2003, n° Fasc. 3000 ; 2004)).</p>
+<p>Le problème peut être facilement résolu en recherchant les liens entre le litige et la France au moment du calcul du montant de l’indemnisation. Ainsi, les tribunaux français seront compétents même si le site litigieux n’a aucun lien avec la France mais, dans ce cas, l’existence du préjudice ne pourra être établie et la responsabilité civile pour faute du propriétaire du site ne pourra être engagée. </p>
+<p>Pour obtenir une indemnisation, la victime devra prouver que son préjudice est réel. Pour cela, elle devra démontrer que le site litigieux est <i>dirigé </i>vers la France, c’est-à-dire qu’il vise le public français. Plusieurs indices peuvent être retenus pour caractériser la focalisation d’un site vers le public français: la rédaction du contenu du site en français, la possibilité de passer commande en ligne avec des moyens de paiement locaux (p. ex. la Carte Bleue en France), le paiement en euro,  l’affichage double du prix hors taxe (HT), toutes taxes comprises (TTC) et du taux de TVA français, la possibilité de se faire livrer le produit commandé en France, etc.</p>
+<p>Ce raisonnement a été suivi par la chambre commerciale de la Cour de cassation dans l’arrêt «&#8239;Boss&#8239;» ((	Cass. Com., 11 janvier 2005, Hugo Boss ; D. 2005.428, note Manara ; v. aussi G. TEISSONNIÈRE, L’arrêt Hugo Boss : une protection « sur mesure » des usages de marques françaises en ligne, RLDI 2005)):</p>
+<blockquote><p><i><br />
+Mais attendu qu'ayant relevé qu'il se déduit des précisions apportées sur le site lui-même que les produits en cause ne sont pas disponibles en France, la cour d'appel en a exactement conclu que ce site ne saurait être considéré comme visant le public de France, et que l'usage des marques «&#8239;Boss&#8239;» dans ces conditions ne constitue pas une infraction à l'interdiction prononcée par jugement du 23 juin 2000 (...)<br />
+</i></p>
+</blockquote>
+<p>La compétence internationale des tribunaux français est retenue dès lors qu’un préjudice est <i>allégué </i>mais, pour obtenir une indemnisation, la victime devra <i>prouver </i>la réalité de ce préjudice. Le raisonnement se déroule en deux temps -compétence et indemnisation-, et le «&#8239;degré&#8239;» de préjudice requis dans chacun de ces cas est différent.</p>
+<p>Cette solution a le mérite d’estomper les traits les plus négatifs du critère de l’accessibilité. On peut néanmoins se demander à quoi bon retenir la compétence internationale des juridictions française si c’est pour constater, au final, que le site litigieux ne présente aucun rattachement avec la France et que le préjudice est inexistant.</p>
+<p>Il serait certainement préférable de substituer le critère de la focalisation au critère de l’accessibilité pour fonder la compétence des tribunaux français. Le critère de la focalisation a ainsi pu être retenu dans un arrêt (au raisonnement d’ailleurs exemplaire) de la Cour d’appel d’Orléans ((	CA Orléans, 6 mai 2003, SA Les Jolies Céramiques sans kaolin et a. c/ Mridul Entreprises et Trademark Tiles Ltd ; RCDIP 2004.139, note Gaudemet-Tallon ; voir aussi sur ce site: Guillaume Florimond, Tribunal compétent et cyber-délits : théorie de la focalisation, IntLex.org (2006) [En Ligne]: [http://www.intlex.org/Tribunal-competent-et-cyber-delits.html->http://www.intlex.org/Tribunal-competent-et-cyber-delits.html] )):</p>
+<blockquote><p><i><br />
+(...) il n’est pas admissible que les sociétés Céramiques et Émaux fondent la compétence française à l’égard de la société Trademark Tiles sur la seule faculté qu’aurait un «&#8239;internaute&#8239;» de connaître en France les coordonnées de cette entreprise à travers un annuaire professionnel anglais en ligne, ce qui ne suffit pas à établir que le lieu du fait générateur du dommage ou celui où le préjudice est subi seraient situés en France.<br />
+</i></p>
+</blockquote>
+<p>Le critère de la focalisation a également été retenu par le législateur espagnol dans la loi de transposition (<i>Ley 34/2002, art. 4</i>) de la directive sur le commerce électronique:</p>
+<blockquote><p><i>Los prestadores que dirijan sus servicios específicamente al territorio español quedarán sujetos, además, a las obligaciones previstas en esta Ley, siempre que ello no contravenga lo establecido en tratados o convenios internacionales que sean aplicables ((	«&#8239;Les prestataires qui dirigent spécifiquement leur services vers le territoire espagnol seront en outre assujettis aux obligations prévues par cette loi, dès lors qu’elles ne contreviennent pas aux dispositions établies dans les traités et conventions internationales applicables.&#8239;»)).<br />
+</i></p>
+</blockquote>
+<p>De manière plus générale encore, le critère de la focalisation a été retenu, en matière contractuelle, à l’article 15 § 1 du règlement 44/2001:</p>
+<blockquote><p><i><br />
+1. En matière de contrat conclu par une personne, le consommateur, pour un usage pouvant être considéré comme étranger à son activité professionnelle, la compétence est déterminée par la présente section </p>
+<p>(...)</p>
+<p>c) lorsque, dans tous les autres cas, le contrat a été conclu avec une personne qui exerce des activités commerciales ou professionnelles dans l'État membre sur le territoire duquel le consommateur a son domicile ou qui, <b> <i>par tout moyen, dirige ces activités vers cet État </i> </b>membre ou vers plusieurs États, dont cet État membre, et que le contrat entre dans le cadre de ces activités.<br />
+</i></p>
+</blockquote>
+<p>Le critère de la focalisation remplacera sûrement, un jour, le critère de l’accessibilité. Toujours est-il que la Cour de cassation vient de confirmer d’une manière très claire la solution qu’elle avait posée en 2003 dans l’affaire «&#8239;Castellblanch&#8239;» ((	Cass. Civ. 1., 9 décembre 2003, SA Castellbanch c/ SA Champagne Louis Roederer, op. cit.)). Mais peut-être est-ce parce qu’en l’espèce la victime avait pu démontrer que son préjudice était réel : «&#8239;ce comportement déloyal avait joué un rôle certain dans la baisse des ventes du modèle «Nevral/s» dont la société Gep démontrait l’existence&#8239;»...</p>
+<hr />
+<h2>La décision</h2>
+<blockquote><p>
+Cour de Cassation<br />
+Chambre commerciale<br />
+Audience publique du 20 mars 2007	Rejet</p>
+<p>N° de pourvoi : 04-19679<br />
+Publié au bulletin</p>
+<p>Président : M. TRICOT</p>
+<p>REPUBLIQUE FRANCAISE</p>
+<p>AU NOM DU PEUPLE FRANCAIS</p>
+<p>AU NOM DU PEUPLE FRANCAIS</p>
+<p>LA COUR DE CASSATION, CHAMBRE COMMERCIALE, FINANCIERE ET ECONOMIQUE, a rendu l'arrêt suivant :</p>
+<p>Attendu, selon l'arrêt attaqué (Angers, 9 mars 2004), que la société Gep industries (la société Gep), fabricant d'un modèle de chaussures dénommé "Nerval/s", a assigné devant la juridiction française la société HSM Schuhmarketing (la société HSM), ayant son siège social à Hattingen (Allemagne), lui reprochant de commercialiser une copie servile de ce produit sur son site internet ;</p>
+<p>Sur le premier moyen :</p>
+<p>Attendu que la société HSM fait grief à l'arrêt d'avoir confirmé le jugement du tribunal de commerce qui s'est déclaré compétent pour juger le litige opposant la société de droit allemand HSM et la société de droit français Gep, alors, selon le moyen, que la société HSM soutenait qu'elle ne commercialisait les articles litigieux sur son site internet, exclusivement conçu en langue allemande, que sur le territoire allemand ; qu'elle relevait d'ailleurs que la société Gep, sur qui pesait la charge de la preuve, ne justifiait d'aucun acte de vente en ligne en France au moyen de ce site ; que dès lors, en fondant la compétence du juge français sur la simple affirmation que, non seulement tous les internautes pouvaient se connecter sur le site, mais encore "commander ses produits en ligne", sans préciser de quels documents de la cause, qui ne sont pas davantage analysés, résulterait la possibilité -contestée- pour un internaute de commander en ligne en France, ce que la simple connexion sur un site ne suffit pas à impliquer, les juges du fond ont violé l'article 455 du nouveau code de procédure civile ;</p>
+<p>Mais attendu que, constatant la représentation sur le site internet incriminé d'un modèle de chaussures dont il était prétendu qu'il caractérisait une concurrence déloyale envers le plaignant, la cour d'appel a exactement retenu sa compétence dès lors que les faits allégués de commercialisation de ces produits sur le territoire national seraient susceptibles de causer un préjudice ; que le moyen n'est pas fondé ;</p>
+<p>Sur le deuxième moyen :</p>
+<p>Attendu que la société HSM fait grief à l'arrêt d'avoir ordonné sous astreinte la cessation immédiate de son activité de concurrence déloyale sur le modèle de chaussures "Nevral/s" de la société Gep, sous toutes formes et en quelques lieux que ce soit, et de l'avoir condamnée à payer à la société Gep une certaine somme à titre de dommages-intérêts pour concurrence déloyale, alors, selon le moyen :</p>
+<p>1 / qu'en l'absence de tout droit privatif, le seul fait de commercialiser des produits identiques à ceux distribués par un concurrent n'est pas fautif ; qu'en l'espèce, en considérant, au contraire, qu'était fautif le seul fait pour la société HSM de commercialiser une chaussure identique au modèle de chaussure nevral/s academy verone, commercialisé par la société Gep, qui n'avait déposé ni dessin ni modèle à ce titre, la cour d'appel a violé l'article 1382 du code civil et le principe de la liberté du commerce et de l'industrie ;</p>
+<p>2 / qu'en se fondant à nouveau, pour retenir l'existence d'un risque de confusion, sur la simple affirmation que la société HSM commercialisait les chaussures litigieuses sur son site internet, non seulement en Allemagne mais dans le monde entier, sans préciser de quels documents de preuve, n'ayant fait l'objet d'aucune analyse, même sommaire, résultait cette allégation contestée, la cour d'appel a de nouveau violé l'article 455 du nouveau code de procédure civile ;</p>
+<p>Mais attendu que l'arrêt relève que les modèles de chaussures reproduits dans le catalogue de la société HSM sont strictement identiques au modèle "Nevral/s", commercialisé antérieurement par la société Gep, que ce soient la forme, le matériau, le dessin et sa dimension, les différences étant limitées à la couleur des losanges et aux marques intérieures peu visibles ; qu'en déduisant de ces constatations la volonté de la société HSM d'entretenir dans l'esprit du public une confusion entre les produits, la clientèle, même attentive, ne pouvant remarquer aucune différence entre les modèles de chaussures litigieux, la cour d'appel, qui n'a pas dit, pour retenir</p>
+<p>le risque de confusion, que la société HSM commercialisait les chaussures litigieuses sur son site internet, non seulement en Allemagne, mais également dans le monde entier, a caractérisé la faute commise par la société HSM et a pu statuer comme elle a fait ; que le moyen qui manque en fait en sa seconde branche, n'est pas fondé pour le surplus ;</p>
+<p>Et sur le troisième moyen :</p>
+<p>Attendu que la société HSM fait grief à l'arrêt de l'avoir condamnée à payer à la société Gep une certaine somme à titre de dommages-intérêts pour concurrence déloyale, alors, selon le moyen :</p>
+<p>1 / qu'une faute n'engage la responsabilité de son auteur que si elle est la cause du dommage ; qu'en l'espèce, la cour d'appel a expressément constaté que les ventes réalisées par la société HSM ne se seraient pas nécessairement reportées sur le modèle de chaussure commercialisé par la société Gep si celui-ci n'avait pas été copié, ce dont il résultait que le lien de causalité entre la faute de concurrence déloyale reprochée et le préjudice subi n'était pas caractérisé ; qu'en allouant néanmoins à la société Gep la somme de 15 000 euros en réparation du préjudice subi, la cour d'appel n'a pas tiré les conséquences légales de ces constatations, en violation de l'article 1382 du code civil ;</p>
+<p>2 / qu'en déclarant tout à la fois que la concurrence déloyale de la société HSM a joué un rôle certain dans la chute des ventes du modèle en cause et que les ventes réalisées par la société HSM ne se seraient pas nécessairement reportées sur ce modèle, la cour d'appel a entaché sa décision d'une contradiction de motifs et violé l'article 455 du nouveau code de procédure civile ;</p>
+<p>Mais attendu qu'ayant constaté que la société HSM avait pu, grâce à la copie servile du modèle de la société Gep, proposer un produit identique à un prix inférieur et que ce comportement déloyal avait joué un rôle certain dans la baisse des ventes du modèle "Nevral/s" dont la société Gep démontrait l'existence, la cour d'appel, établissant ainsi le lien de causalité entre la faute de la société HSM et le préjudice de la société Gep et appréciant souverainement les éléments de preuve versés aux débats, a, sans contradiction, pu statuer comme elle a fait ; que le moyen n'est fondé en aucune de ses branches ;</p>
+<p>PAR CES MOTIFS :</p>
+<p>REJETTE le pourvoi ;</p>
+<p>Condamne la société HSM Schuhmarketing Gmbh aux dépens ;</p>
+<p>Vu l'article 700 du nouveau code de procédure civile, rejette sa demande et la condamne à payer à la société Gep industries la somme de 2 000 euros ;</p>
+<p>Ainsi fait et jugé par la Cour de cassation, chambre commerciale, financière et économique, et prononcé par le président en son audience publique du vingt mars deux mille sept.</p>
+<p>Décision attaquée : cour d'appel d'Angers (chambre commerciale) 2004-03-09
+</p></blockquote>

@@ -1,0 +1,64 @@
+---
+layout: post
+status: publish
+published: true
+title: Chrome OS, will it be evil?
+author:
+  display_name: GF
+  login: gflorimond
+  email: gf@valhalla.fr
+  url: http://www.valhalla.fr
+author_login: gflorimond
+author_email: gf@valhalla.fr
+author_url: http://www.valhalla.fr
+excerpt: "<em>Don't be evil !</em> : le célèbre slogan de Google, inventé à l'époque
+  où la société n'était qu'un petit moteur de recherche intégré au géant Yahoo!, bien
+  avant que le <em>profilage</em> des internautes ne soit devenu une activité aussi
+  lucrative. Les premières <a href=\"http://dev.chromium.org/chromium-os\">versions
+  de travail</a> du futur système d'exploitation de Google pour <em>netbooks</em>
+  et appareils mobiles, Google Chrome OS, révèlent certains choix du géant d'Internet
+  qui pourraient mettre en péril, sur le long terme, la protection des données personnelles
+  des internautes et la sauvegarde de l'intimité de leur vie privée. En attendant
+  la sortie officielle du système d'exploitation, annoncée pour fin 2010, on peut
+  se poser la question : <em>will it be evil?</em>\r\n\r\n"
+wordpress_id: 362
+wordpress_url: http://www.valhalla.fr/?p=362
+date: '2010-03-06 18:10:29 +0100'
+date_gmt: '2010-03-06 16:10:29 +0100'
+categories:
+- Internet
+- Actualité
+- Juridique
+- Featured
+tags:
+- Internet
+- sécurité
+- société
+- Juridique
+- Web
+- vie privée
+- liberté
+---
+<p><em>Don't be evil !</em> : le célèbre slogan de Google, inventé à l'époque où la société n'était qu'un petit moteur de recherche intégré au géant Yahoo!, bien avant que le <em>profilage</em> des internautes ne soit devenu une activité aussi lucrative. Les premières <a href="http://dev.chromium.org/chromium-os">versions de travail</a> du futur système d'exploitation de Google pour <em>netbooks</em> et appareils mobiles, Google Chrome OS, révèlent certains choix du géant d'Internet qui pourraient mettre en péril, sur le long terme, la protection des données personnelles des internautes et la sauvegarde de l'intimité de leur vie privée. En attendant la sortie officielle du système d'exploitation, annoncée pour fin 2010, on peut se poser la question : <em>will it be evil?</em></p>
+<p><a id="more"></a><a id="more-362"></a></p>
+<p><a href="http://fr.wikipedia.org/wiki/Google_Chrome_OS">Chrome OS</a> est un système d'exploitation, basé sur Linux, et développé par la société américaine <a href="http://fr.wikipedia.org/wiki/Google">Google</a>. Il a pour but d'équiper des <em>netbooks</em> et des appareils mobiles. Les différentes machines auxquelles Chrome OS est destiné partagent deux points communs. D'abord, elles sont dotées d'une configuration matérielle <em>(hardware)</em> minimale, qui privilégie l'autonomie au détriment de la puissance de calcul. Ensuite, elles ont pour vocation d'être utilisées comme des terminaux mobiles, que l'on transporte avec soi partout où l'on va.</p>
+<p>Le succès de ces nouvelles machines, mobiles et peu puissantes, a entraîné un changement de paradigme de l'informatique personnelles : la fin des logiciels clients natifs, et l'apparition des  applications web <em>(webapps)</em> s'exécutant <a href="http://fr.wikipedia.org/wiki/Informatique_dans_les_nuages">« dans les nuages »</a> <em>(« in the cloud »)</em>. Jusqu'à présent, l'informatique personnelle reposait sur le triptyque « système d'exploitation - logiciel - fichier » : l'utilisateur devait installer un logiciel (par exemple, Microsoft Word), sur son système, afin de pouvoir lire et créer des fichiers qu'il transmettait ensuite par courrier électronique, par une disquette ou une clé USB, ou un autre moyen. Il devait donc, notamment, posséder un matériel suffisamment puissant pour que le logiciel fonctionne, et prendre en charge lui-même la sécurité de ses données -- faire des sauvegardes afin de ne pas perdre ses fichiers, par exemple. De la même manière, le destinataire d'un fichier devait posséder le logiciel approprié pour le lire. L'informatique dans les nuages déplace le logiciel et les fichiers sur un serveur auquel l'on accède par Internet, au moyen d'un navigateur (d'où l'expression « applications web »), en ne laissant que le système d'exploitation sur l'ordinateur personnel de l'utilisateur. Elle supprime ainsi la nécessité d'un matériel puissant, puisque c'est sur le serveur que tous les calculs sont effectués, et élimine le besoin de créer des sauvegardes et de se préoccuper de la sécurité des données, celles-ci étant également stockées sur le serveur. De ce fait, elle permet d'accéder à ses données à partir de n'importe quel ordinateur doté d'une connexion à Internet, sans qu'il soit nécessaire d'installer de logiciel supplémentaire. Elle ouvre de nombreuses autres possibilités, comme la mise à disposition permanente des données aux tiers ou l'accès simultané de plusieurs utilisateurs au même document.</p>
+<p>Mais l'informatique dans les nuages pose de nouveaux problèmes, dont bon nombre sont liés à la protection des données personnelles des utilisateurs et à la préservation de leur vie privée. Les fichiers étant stockés sur les serveurs d'un opérateur, et les logiciels permettant de les manipuler étant édités par ce même opérateur, l'entier système suppose d'obtenir et de conserver la confiance de l'utilisateur.</p>
+<p>Dès le lancement de la version de travail de Chrome OS, un écran de connexion demande un nom d'utilisateur et un mot de passe. Contrairement aux identifiants que l'on utilise sur un ordinateur personnel Windows, Mac ou Linux, ceux-ci ne sont pas relatifs à la machine ou au système d'exploitation, mais à l'utilisateur. On aura donc les mêmes identifiants sur toutes les machines équipées de Chrome OS et on devra, pour les obtenir, s'enregistrer auprès de Google (en créant un compte Gmail, par exemple). Or, Google exige désormais, dans certaines circonstances, de <a href="http://mail.google.com/support/bin/answer.py?hl=fr&answer=114129">vérifier par téléphone</a> l'identité de la personne souhaitant créer un compte. Si cette exigence devait se généraliser, Google serait en mesure de contrôler tout ce que fait une personne en ligne et sur son ordinateur. L'anonymat, qui est la règle dans le « monde réel » (1), deviendrait l'exception dans le « monde virtuel ».</p>
+<p>Les logiciels proposés par défaut par Chrome OS sont des applications Web éditées par de grands opérateurs américains. Google propose bien entendu ses propres applications : <em>Gmail</em> pour le courrier électronique, <em>Docs</em> pour les fichiers de traitement de texte, de tableur et de présentation, <em>Reader</em> pour l'agrégation de flux d'actualité, etc. Or, le modèle économique de Google repose sur le financement de ces services, proposés gratuitement aux internautes, par la publicité ciblée ou <em>comportementale</em>. La plupart des pages éditées par Google proposent, en effet, des encarts publicitaires dont le contenu est composé de liens hypertexte vers des sites choisis en fonction du profil de l'internaute. Ce profil était jusqu'à présent établi de manière casuistique, grâce à un analyse textuelle et contextuelle des informations sollicitées ou reçues par l'internaute -- par exemple, le contenu d'un courrier électronique, ou les mots-clé employés dans une requête de recherche --, ce qui le rendait lacunaire et imprécis. Chrome OS, en regroupant les services, en les étendant aux documents personnels et en donnant à l'ensemble une cohérence globale, permet désormais un profilage exhaustif et beaucoup plus fin de l'utilisateur.</p>
+<p>Les applications Web étant « servies » en ligne par les ordinateurs des opérateurs, elles peuvent faire l'objet de mesures de filtrage. Les sites <a href="http://www.hulu.com/">Hulu.com</a> et <a href="http://www.pandora.com/">Pandora.com</a> (2), proposés dans Chrome OS, sont déjà connus pour ne fournir leurs services qu'aux internautes dotés d'une <a href="http://fr.wikipedia.org/wiki/Adresse_IP">adresse IP</a> américaine. Or, de telles mesures de filtrage posent de nombreux problèmes, dès lors qu'elles permettent de déplacer l'initiative de diffuser un contenu, à l'attention d'un public déterminé, de l'utilisateur vers l'opérateur. En pratique, on peut par exemple s'interroger sur le sort réservé à un utilisateur américain, qui utiliserait régulièrement ces services chez lui, lorsqu'il se trouve en voyage en dehors des États-Unis. Sur le plan technique, on peut douter de l'efficacité des mesures de filtrage fondées sur la géolocalisation des adresses IP, qui peuvent être contournées grâce à <a href="http://www.valhalla.fr/2010/03/04/informatique-personnelle-et-securite/#433">l'utilisation d'un serveur mandataire</a>. Sur le plan juridique, on peut craindre une restriction excessive des droits fondamentaux des utilisateurs, au premier rang desquels la liberté d'expression, lorsque les mesures de filtrage sont prises de manière préventive, et non sur ordre d'un tribunal. Enfin, sur le plan politique et idéologique, le filtrage conduit au compartitionnement du réseau, qui conduit à son tour à la censure (3).</p>
+<p>L'informatique dans les nuages présente des avantages techniques considérables, mais elle offre également aux opérateurs la possibilité de mettre en péril certains droits fondamentaux des personnes, comme le droit au respect de la vie privée et à la protection de ses données personnelles, ou le droit à la liberté d'expression. On ne doit pas pour autant la condamner, puisqu'une technologie est par essence neutre, contrairement à l'usage qui peut en être fait (4). Il reste à espérer que l'usage qu'en fera Google <em>will not be evil</em>.</p>
+<hr />
+<p><strong>Notes</strong></p>
+<p><cite><br />
+(1) Y. Détraigne, A.M. Escoffier, Rapport d’information au nom de la commission des lois du Sénat : « La vie privée à l’heure des mémoires numériques. Pour une confiance renforcée entre citoyens et société de l’information. », (27 Mai. 2009) Sénat [En Ligne] :<a href="http://www.senat.fr/noticerap/2008/r08-441-notice.html">http://www.senat.fr/noticerap/2008/r08-441-notice.html</a>. Les auteurs notent « [qu']Internet pre&#769;sente, au regard de la protection des donne&#769;es, une spe&#769;cificite&#769; fondamentale : alors que dans le monde re&#769;el, l’anonymat est la re&#768;gle et le trac&#807;age l’exception, sur Internet, tous les actes de la navigation sont, par nature, enregistre&#769;s et me&#769;morise&#769;s ». Ainsi, dans le monde réel, « les individus doivent pouvoir se déplacer, s’exprimer et vivre en toute tranquillité » et « les internautes doivent pouvoir utiliser Internet sans que la moindre de leurs actions soit enregistrée, analysée et mémorisée ».<br />
+</cite></p>
+<p><cite><br />
+(2) Le site Hulu est accessible en dehors des États-Unis, mais les vidéos qu'il diffuse ne peuvent être visionnées que par les utilisateurs américains : « We're sorry, currently our video library can only be streamed within the United States ». Le site Pandora est entièrement inaccessible aux utilisateurs français, qui se trouvent confrontés, dès la page d'accueil au message suivant : «  We are deeply, deeply sorry to say that due to licensing constraints, we can no longer allow access to Pandora for listeners located outside of the U.S. We will continue to work diligently to realize the vision of a truly global Pandora, but for the time being we are required to restrict its use. We are very sad to have to do this, but there is no other alternative. We believe that you are in France (your IP address appears to be 92.128.1.XXX). ».<br />
+</cite></p>
+<p><cite><br />
+(3) On rappellera, pour information, qu'en droit français, sauf les cas très spécifiques d'une procédure en référé, la publication d'une information peut être sanctionnée lorsqu'elle est illicite, mais elle ne peut pas être interdite <em>a priori</em> ou soumise à autorisation. C'est ainsi que l'on doit lire l'article 11 de la Déclaration des droits de l'homme et du citoyen de 1789, selon lequel « la libre communication des pensées et des opinions est un des droits les plus précieux de l’homme ; tout citoyen peut parler, écrire, imprimer librement, sauf à répondre de l’abus de cette liberté dans les cas prévus par la loi. », un <em>abus</em> ne pouvant exister que si l'expression a lieu.<br />
+</cite></p>
+<p><cite><br />
+(4) Le principe de neutralité technologie a été affirmé en 1984 par la Cour suprême des États-Unis, dans l'arrêt Betamax (<a href="http://laws.findlaw.com/us/464/417.html">464 U.S. 417</a>). Il est par la suite devenu un principe général du droit des nouvelles technologies, tant aux États-Unis qu'en Europe (v. p. ex. le rapport du Sénat, préc. note 1).<br />
+</cite></p>

@@ -1,0 +1,35 @@
+---
+layout: post
+status: publish
+published: true
+title: Numéro 70 - Semaine du 8 au 14 août 2011
+author:
+  display_name: GF
+  login: gflorimond
+  email: gf@valhalla.fr
+  url: ''
+author_login: gflorimond
+author_email: gf@valhalla.fr
+wordpress_id: 420
+wordpress_url: http://revue.valhalla.fr/?p=420
+date: '2011-08-14 11:54:51 +0200'
+date_gmt: '2011-08-14 09:54:51 +0200'
+categories:
+- Revue
+tags:
+- téléchargement
+- propriété intellectuelle
+- piratage
+- sécurité
+- USA
+- Anonymous
+- iOS
+- Wikipedia
+- BitTorrent
+---
+<p>Les nouvelles intéressantes sont peu nombreuses cette semaine --vacances obligent-- ; aussi, la revue du web sera brève.</p>
+<p>Le groupe de hackers Anonymous a encore fait parler de lui cette semaine, d'abord <a href="http://www.numerama.com/magazine/19524-anonymous-pirate-le-site-du-ministere-de-la-defense-de-syrie.html">en "piratant" le site Web du ministère de la défense syrien</a> afin de dénoncer la répression sanglante dirigée par le régime contre le peuple, puis <a href="http://www.numerama.com/magazine/19533-une-cyber-armee-syrienne-s-attaque-a-anonymous.html">en subissant à son tour le "piratage" de son portail sur le Web</a> par un groupe anonyme se présentant comme la "Syrian cyber-amy".</p>
+<p>Tant qu'à parler de sécurité informatique, mentionnons la faille de sécurité dans iOS et Android <a href="http://www.pcinpact.com/actu/news/64982-defcon-kids-faille-bug-ios-android.htm">découverte par une fillette de 10 ans</a>. Le "truc" est vieux comme <s>le monde</s> l'informatique : pour altérer le fonctionnement d'un logiciel calculant des durées, il suffit de modifier l'heure interne de son ordinateur. Lassée d'attendre que son petit monde virtuel, créé dans un jeu de simulation, évolue, la fillette a déconnecté son appareil du réseau (afin de neutraliser le <a href="http://www.ntp.org/">réglage de l'heure à distance</a>), et a simplement avancé l'heure. De retour dans son jeu, son monde virtuel avait d'autant évolué que l'heure avait été avancée. Le changement de l'heure s'est répercuté sur d'autres logiciels de l'appareil. Mais s'agit-il vraiment d'une faille iOS et Android, et non plutôt d'une faille de ces applications ? C'est en effet aux développeurs de prévoir les situations dans lesquelles l'heure de l'appareil change (par exemple, lorsque l'utilisateur change de fuseau horaire).</p>
+<p>En Nouvelle-Zélande, <a href="http://www.numerama.com/magazine/19551-la-riposte-graduee-se-met-en-place-en-nouvelle-zelande.html">la riposte graduée se met progressivement en place</a>. Aux États-Unis, le nombre de poursuives dirigées contre des utilisateurs des réseaux BitTorrent <a href="http://www.pcinpact.com/actu/news/64996-bittorrent-poursuites-telechargement-illegal.htm">crève le plafond</a>. Mais elles sont loin d'être toutes justifiées ; le bien fondé de celle dirigée contre <a href="http://www.pcinpact.com/actu/news/65015-bittorrent-aveugle-telechargement-film-pornographique.htm">un aveugle pour le téléchargement d'un film</a>, par exemple, est vraiment douteux...</p>
+<p>Nous en parlions la semaine dernière, l'encyclopédie Wikipedia manque de contributeurs. <a href="http://www.lemondeinformatique.fr/actualites/lire-wikipedia-recherche-5-000-contributeurs-34356.html">Jimmy Wales a annoncé cette semaine</a> que l'encyclopédie en ligne comptait actuellement 82 000 auteurs (comprendre: auteurs <i>réguliers</i>) et se fixait pour objectif d'en recruter 5000 de plus en 2012. L'ergonomie du site sera revue, et ce ne sera pas un mal. En outre, l'un des objectifs du site est de diversifier les profils de ses auteurs (qui ont souvent tendance à être occidentaux, jeunes et geek).</p>
+<p>Pour finir, parlons un peu de matériel. La rentrée devrait être intéressante, cette année, avec l'arrivée sur le marché d'un nouveau type d'appareils : les "UltraBooks". Il s'agit d'ordinateurs à mi-chemin entre les "NetBooks" et les "Laptops" traditionnels. Comme les ordinateurs portables traditionnels et contrairement aux NetBooks, les UltraBooks ont un écran de taille moyenne ou grande (12-14"), un clavier avec de larges touches (sans pavé numérique), un touchpad suffisamment grand, et surtout des composants internes puissants (du genre : disque SSD, Intel i3/5/7 + composant graphique Intel HD 3000, 4 Go de RAM). Mais contrairement aux ordinateurs portables traditionnels et à l'instar des NetBooks, ils ont une grande autonomie (batterie 6 cellules au moins), et ils sont fins et légers. Le fondeur Intel a récemment <a href="http://www.pcinpact.com/actu/news/65030-intel-ultrabook-investissement-technologies-.htm">300 millions de dollars</a> dans le développement des UltraBooks. La première génération d'appareils devrait arriver en septembre 2011, et être suivie d'une deuxième génération début 2012. Ces appareils devraient être vendus aux alentours de 1000 euro. Alors, les tablettes ont-elles vraiment gagné la bataille, les PC appartiennent-ils au passé, <a href="http://www.lemondeinformatique.fr/actualites/lire-ibm-declare-la-fin-de-l-ere-du-pc-microsoft-parle-de-l-ere-pc-plus-34394.html">comme certains le soutiennent</a>, ou les UltraBooks (et les MacBook Air) prendront-ils la relève des portables classiques ?</p>

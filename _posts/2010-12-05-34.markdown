@@ -1,0 +1,45 @@
+---
+layout: post
+status: publish
+published: true
+title: Numéro 34 - Semaine du 29 novembre au 5 décembre 2010
+author:
+  display_name: GF
+  login: gflorimond
+  email: gf@valhalla.fr
+  url: ''
+author_login: gflorimond
+author_email: gf@valhalla.fr
+wordpress_id: 176
+wordpress_url: http://revue.valhalla.fr/?p=176
+date: '2010-12-05 15:15:22 +0100'
+date_gmt: '2010-12-05 13:15:22 +0100'
+categories:
+- Revue
+tags:
+- Internet
+- responsabilité
+- international
+- hébergement
+- LCEN
+- sécurité
+- Wikileaks
+- censure
+- USA
+---
+<p>L'actualité des nouvelles technologies de cette semaine, aussi bien que l'actualité des relations internationales, est dominée par l'affaire Wikileaks. Le célèbre site a en effet révélé, en début de semaine, <a href="http://www.lemonde.fr/tiny/1446078/">plusieurs milliers de câbles diplomatiques américains par le truchement de quotidiens renommés</a> (Le Monde en France, El Pais en Espagne, The New York Times aux États-Unis, The Guardian au Royaume-Uni, Der Spiegel en Allemagne). Nous nous intéresserons, non au contenu des documents, qui relève du domaine de la géopolitique, mais à la position de Wikileaks et aux réactions des pouvoirs publics.</p>
+<p>L'affaire commence par <a href="http://www.lemonde.fr/tiny/1446540/">la diffusion de documents secrets de la diplomatie américaine</a>, qui <a href="http://www.lemonde.fr/tiny/1446096/">"déclenche une tempête dans les capitales mondiales"</a>. Au travers de <a href="http://www.lemonde.fr/tiny/1446279/">quelques petites phrases assassines</a>, la presse mondiale reprend aussitôt les éléments essentiels des documents diffusés.</p>
+<p><a href="http://www.lemonde.fr/tiny/1446636/">L'administration américaine dénonce immédiatement "un crime grave"</a>, voire même <a href="http://www.numerama.com/magazine/17494-wikileaks-accuse-de-terrorisme-et-d-espionnage-par-un-elu-americain.html">un acte de terrorisme</a>, car la diffusion de documents secrets mettrait en péril des vies humaines, la sécurité des États-Unis, et les relations diplomatiques mondiales. Pour d'autre (et nous en faisons partie), en revanche, <a href="http://www.lemonde.fr/tiny/1447403/">les documents révélés par Wikileaks relèvent de l'intérêt général</a> et s'inscrivent dans le cadre du débat politique démocratique.</p>
+<p>Wikileaks avait déjà diffusé des documents confidentiels, s'attirant les foudres de l'administration américaine (v. Valhalla Revue, n°<a href="http://revue.valhalla.fr/numeros/17/">17</a>, <a href="http://revue.valhalla.fr/numeros/18/">18</a>, <a href="http://revue.valhalla.fr/numeros/19/">19</a>, <a href="http://revue.valhalla.fr/numeros/24/">24</a>, <a href="http://revue.valhalla.fr/numeros/26/">26</a>). La principale critique était, à l'époque, le fait que des noms avaient été publiés. Dans les documents révélés cette semaine, ce n'est plus le cas. Les quotidiens et Wikileaks ont pris soin de censurer certaines informations afin de ne pas mettre de vie en danger. D'où une nouvelle critique : <a href="http://www.lemonde.fr/tiny/1446786/">Wikileaks, le chantre de la transparence, pratiquerait lui-même la censure</a>.</p>
+<p>Outre ces critiques purement intellectuelles, Wikileaks fait l'objet d'attaques matérielles et juridiques contre ses serveurs. La première attaque fut informatique. Les serveurs hébergeant le site firent l'objet d'une attaque <i>par déni de service</i> <a href="http://www.cisco.com/en/US/tech/tk59/technologies_white_paper09186a0080174a5b.shtml">(DDOS)</a> : il s'agit de les solliciter de manière intensive, en envoyant plus de demandes qu'ils ne peuvent en traiter, jusqu'à ce qu'ils ne puissent plus y répondre, à la manière d'un péage d'autoroute qui serait engorgé par un nombre excessif d'automobilistes formant un embouteillage gigantesque. Pour <a href="http://www.lemondeinformatique.fr/actualites/lire-wikileaks-heberge-chez-amazon-ec2-pour-echapper-a-des-attaques-dos-32284.html">répondre à cette attaque</a>, <a href="http://www.lemondeinformatique.fr/actualites/lire-wikileaks-heberge-chez-amazon-ec2-pour-echapper-a-des-attaques-dos-32284.html">Wikileaks se fit héberger par la société américaine Amazon</a>, qui dispose de serveurs, aux États-Unis et en Irlande, suffisamment puissants et sécurisés pour répondre à la demande et <a href="http://arstechnica.com/security/news/2010/11/wikileaks-moves-to-amazons-cloud-to-evade-massive-ddos.ars">faire face à ce genre d'attaques</a><span class="lang">(en)</span>.</p>
+<p>La deuxième attaque, dirigée contre l'hébergement de Wikileaks par Amazon, fut <a href="http://www.numerama.com/magazine/17507-amazon-n-heberge-plus-wikileaks-apres-des-pressions-politiques-et-commerciales.html">politique, commerciale et juridique</a>. Amazon aurait en effet <a href="http://arstechnica.com/security/news/2010/12/wikileaks-kicked-out-of-amazons-cloud.ars">cédé à ces différentes pressions</a><span class="lang">(en)</span> et mis hors-ligne Wikileaks. Amazon <a href="http://www.numerama.com/magazine/17521-amazon-assume-l-expulsion-de-wikileaks-qu-il-critique-severement.html">assume cette décision</a> en expliquant que les documents publiés pourraient mettre des vies en danger.</p>
+<p><a href="http://www.silicon.fr/amazone-boute-wikileaks-hors-des-etats-unis-43220.html">Bouté hors des États-Unis par Amazon</a>, Wikileaks trouva <a href="http://www.zdnet.fr/actualites/lache-par-amazon-wikileaks-trouve-refuge-en-france-et-en-suede-39756522.htm">refuge en Suède et en France</a>, chez <a href="http://www.ovh.com/fr/">l'hébergeur OVH</a>. Survint alors la troisième attaque, contre <a href="http://www.lemondeinformatique.fr/actualites/lire-chasse-d-amazon-wikileaks-revient-en-france-et-en-suede-32317.html">l'hébergement de Wikileaks</a>. Le ministre chargé de l'économie numérique, Eric Besson, dit ainsi vouloir <a href="http://www.numerama.com/magazine/17526-eric-besson-veut-interdire-l-hebergement-de-wikileaks-en-france.html">interdire l'hébergement du site en France</a>. Mais c'était sans compter sur <a href="http://www.liberation.fr/monde/01012305988-besson-ne-veut-plus-que-la-france-heberge-wikileaks">la ténacité d'OVH</a>, qui <a href="http://www.numerama.com/magazine/17530-wikileaks-ovh-saisit-le-juge-des-referes-et-evoque-des-pressions.html">saisit le juge, en référé, pour faire face aux pressions politiques</a> et <a href="http://www.laquadrature.net/fr/wikileaks-et-la-censure-politique-dinternet-nous-voila-prevenus">à la censure</a>.</p>
+<p>Face à cette <a href="http://abonnes.lemonde.fr/technologies/article/2010/12/03/besson-contre-l-hebergeur-de-wikileaks-une-situation-inedite_1448820_651865.html">situation inhabituelle</a>, on rappellera quelques principes juridiques (qui, eux, sont habituels) :</p>
+<ul>
+<li>La loi française (LCEN, 21 juin 2004) permet de demander à un hébergeur de retirer un contenu <i>manifestement illicite</i>. Si l'hébergeur ne s'exécute pas, il engage sa responsabilité civile et pénale.</li>
+<li>Lorsque le contenu n'est pas <i>manifestement</i> illicite, c'est au juge du fond d'en apprécier la licéité.</li>
+<li>Les contenus <i>manifestement</i> illicites sont (par hypothèse) assez facilement identifiables : pédopornographie, incitations à la haine raciale, injures, contrefaçons, etc. Tel n'est pas le cas des documents publiés par Wikileaks.</li>
+<li>Si la publication des documents par Wikileaks peut causer préjudice ou mettre en danger la vie d'autrui, ils pourraient devenir illicites. Mais ils ne le sont pas <i>a priori</i>, le droit français n'interdisant pas la publication de documents secrets <i>étrangers</i>.</li>
+<li>Enfin et surtout, l'article 11 de la <a href="http://www.assemblee-nationale.fr/histoire/dudh/1789.asp">Déclaration des droits de l'Homme et du citoyen de 1789</a> dispose : <i>"La libre communication des pensées et des opinions est un des droits les plus précieux de l’Homme : tout Citoyen peut donc parler, écrire, imprimer librement, sauf à répondre de l’abus de cette liberté, dans les cas déterminés par la Loi."</i> Cela signifie que la censure, c'est-à-dire le contrôle <i>a priori</i> des publications, est interdite. Wikileaks est libre de publier les informations qu'il désire, et ce n'est qu'après la publication, si ces informations s'avèrent être illicites, que sa responsabilité civile et pénale pourra être engagée.</li>
+<li>Conclusion : on ne peut pas interdire l'hébergement de Wikileaks en France, ce qui reviendrait à censurer l'ensemble du contenu du site, sans distinguer les informations licites des informations illicites. On peut, en revanche, enjoindre l'hébergeur français de Wikileaks de mettre hors-ligne les contenus manifestement illicites ; saisir le juge pour qu'il se prononce sur la licéité des contenus qui ne sont pas manifestement illicites et, s'il les juge illicites, obtenir la condamnation de l'hébergeur à les mettre hors-ligne.
+</ul>

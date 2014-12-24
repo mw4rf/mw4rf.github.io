@@ -1,0 +1,44 @@
+---
+layout: post
+status: publish
+published: true
+title: Numéro 57 - Semaine du 9 au 15 mai 2011
+author:
+  display_name: GF
+  login: gflorimond
+  email: gf@valhalla.fr
+  url: ''
+author_login: gflorimond
+author_email: gf@valhalla.fr
+wordpress_id: 339
+wordpress_url: http://revue.valhalla.fr/?p=339
+date: '2011-05-15 12:02:41 +0200'
+date_gmt: '2011-05-15 10:02:41 +0200'
+categories:
+- Revue
+tags:
+- téléchargement
+- P2P
+- propriété intellectuelle
+- Google
+- Apple
+- Facebook
+- filtrage
+- piratage
+- sécurité
+- Hadopi
+- FAI
+- Anonymous
+---
+<p>L'actualité du droit des nouvelles technologies est dominée, cette semaine, par plusieurs affaires relatives à la protection des données personnelles.</p>
+<h2>Protection des données personnelles</h2>
+<p>D'abord, un rebondissement dans une affaire ancienne : les serveurs de Sony, stockant les données personnelles des utilisateurs de PlayStation et des services en ligne de l'opérateur japonais, ont été "piratés" et les malfaiteurs ont dérobé les données de plusieurs millions d'internautes. Sony <a href="http://www.zdnet.fr/actualites/psn-pirate-sony-sauve-les-donnees-de-2-500-personnes-publiees-sur-un-site-web-39760581.htm">a réagi de plusieurs manières</a> : la société "chasse" les données volées sur le Web, pour les retirer lorsqu'elles sont publiées, offre une récompense à toute personne en mesure de lui apporter des éléments concernant l'acte de "piratage", et retarde le rétablissement de ses services jusqu'à ce qu'ils soient mieux sécurisés. Rappelons à ce titre que, selon le droit européen, le responsable du traitement des données personnelles d'autrui a l'obligation d'assurer la <i>sécurité</i> de ces données. Bien entendu, aucun système de protection informatique n'est en mesure d'assurer une sécurité parfaite ; l'obligation de sécurisation des données signifie donc que le responsable du traitement doit mettre en oeuvre tous les moyens nécessaires afin d'assurer la sécurité des données, et qu'il est juridiquement responsable en cas de fuite.</p>
+<p>De son côté, <a href="http://www.numerama.com/magazine/18738-anonymous-corrompu-des-centaines-d-adresses-ip-publiees.html">le réseau de <i>hackers</i> Anonymous... a été <i>hacké</i></a>. Des <a href="http://www.zdnet.fr/actualites/anonymous-pirate-des-adresses-ip-publiees-et-sony-se-lance-dans-la-chasse-aux-pirates-39760643.htm">centaines d'adresses IP ont été publiées</a>, donnant ainsi aux autorités la possibilité d'identifier dans le monde réel des membres du groupe Anonymous. Qui est derrière cette opération ? À qui profite-t-elle ? Quelles en seront les conséquences ? Le réseau s'en remettra-t-il ?</p>
+<p>Une autre polémique relative aux données personnelles touche Google et Facebook. On sait que les deux sociétés américaines <a href="http://www.zdnet.fr/actualites/facebook-s-explique-sur-sa-campagne-anti-google-et-fait-son-mea-culpa-39760767.htm">s'affrontent pour la domination du Web social</a> (mais <a href="http://www.lemonde.fr/technologies/article/2011/05/09/facebook-et-google-s-opposent-a-une-proposition-de-loi-californienne-sur-la-vie-privee_1519254_651865.html">se rejoignent volontiers lorsque leurs intérêts concordent</a>), Facebook devenant petit à petit un "portail" vers d'autres contenus qui éloignerait les internautes du moteur de recherche de Google. Or, l'on a appris cette semaine que <a href="http://www.lemonde.fr/technologies/article/2011/05/12/facebook-a-finance-une-campagne-anti-google_1521051_651865.html">Facebook a financé une campagne de publicité contre Google</a>. Cette campagne invitait à s'intéresser à la manière dont le service Google Circles révélait aux internautes des données relatives aux "amis de leurs amis". Pas de chance pour Facebook, le service de Google semble être conforme à la loi américaine.</p>
+<p>Et c'est l'arroseur arrosé : Facebook se retrouve à son tour au centre d'un scandale relatif à la sécurisation des données de ses utilisateurs. Une <a href="http://www.zdnet.fr/actualites/faille-100-000-applications-facebook-ouvertes-aux-indiscretions-39760674.htm">faille de sécurité découverte par Symantec</a> (l'éditeur de l'antivirus Norton) aurait permis à des applications tierces, par le truchement des applications publicitaires intégrées à Facebook, d'accéder aux profils des membres du réseau social. Facebook a corrigé la faille et conseille à ses membres de <a href="http://www.silicon.fr/facebook-expose-a-son-tour-les-donnees-personnelles-de-ses-utilisateurs-51396.html">changer leur mot de passe</a>. Toute la question, dans cette affaire, est celle de <a href="http://www.pcinpact.com/actu/news/63512-facebook-fuite-massive-donnees.htm">savoir si la faille a été effectivement exploitée pour obtenir frauduleusement des données personnelles</a>. Le <a href="http://www.zdnet.fr/actualites/faille-facebook-somme-par-des-parlementaires-americains-de-s-expliquer-39760720.htm">Congrès américain s'intéresse au problème</a> et demande des explications à Facebook.</p>
+<p>En France, <a href="http://www.zdnet.fr/actualites/la-cnil-constate-un-recul-du-respect-de-la-vie-privee-sur-les-moteurs-de-recherche-39760638.htm">la CNIL constate la baisse du niveau de protection des données personnelles par les moteurs de recherche</a>, en <a href="http://www.numerama.com/magazine/18742-la-cnil-deplore-la-reculade-de-yahoo-sur-la-conservation-des-donnees.html">réagissant à la décision de Yahoo!</a> (<a href="http://revue.valhalla.fr/numeros/54/">dont nous avions parlé</a>) d'augmenter la durée de la rétention des données personnelles des internautes.</p>
+<p>De son côté, le groupe européen en charge des questions relatives à la protection des données personnelles (le "G29", créé par l'article 29 de la <a href="http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:fr:HTML">directive 1995/46</a>), réagit à la polémique suscitée par la gestion des données de géolocalisation dans les terminaux mobiles Apple (dont nous avions <a href="http://revue.valhalla.fr/numeros/54/">également parlé</a>, à <a href="http://revue.valhalla.fr/numeros/55/">plusieurs reprises</a>). Le G29 devrait ainsi, dans un prochain avis, qualifier les données de géolocalisation de données personnelles, et préciser les conditions dans lesquelles leur collecte, leur traitement et leur stockage sont conformes au droit européen. Affaire à suivre.</p>
+<h2>Propriété intellectuelle</h2>
+<p>Changeons de sujet, et parlons un peu de propriété intellectuelle. Le système de la riposte graduée, que nous connaissons en droit français avec la loi Hadopi, <a href="http://www.pcinpact.com/actu/news/63524-hadopi-belgique-riposte-graduee-licence-globale.htm">vient d'être rejeté</a> par le législateur belge. La question qui se pose désormais est donc celle de savoir quelle sera la réponse belge au phénomène du téléchargement illicite : <a href="http://www.numerama.com/magazine/18776-la-hadopi-belge-est-enterree-mais-pas-le-filtrage.html">filtrage</a> ou <a href="http://www.pcinpact.com/actu/news/63524-hadopi-belgique-riposte-graduee-licence-globale.htm">licence globale</a> ? </p>
+<p>En France, selon une statistique récente, <a href="http://www.numerama.com/magazine/18752-hadopi-50-des-avertis-auraient-arrete-de-pirater.html">50% des internautes</a> avertis par l'Hadopi auraient cessé de télécharger des fichiers contrefaisants. D'un autre côté, sous <a href="http://www.pcinpact.com/actu/news/63527-hadopi-p2p-cinema-streaming-ddl.htm">pression constante des ayants droit</a>, l'Hadopi envisage <a href="http://www.numerama.com/magazine/18774-les-producteurs-de-cinema-demandent-le-filtrage-du-streaming.html">le filtrage des sites de <i>streaming</i></a>. Reste à savoir quelle sera la <a href="http://www.numerama.com/magazine/18778-filtrage-bruxelles-proche-de-ceder-aux-pressions-des-ayants-droit.html">position des autorités européennes</a> sur cette question, le filtrage n'étant possible que dans le cadre juridique défini par la directive "commerce électronique" de 2000.</p>
+<p>Aux États-Unis, la répression bête et méchante continue, avec l'assignation de plusieurs FAI dans le but <a href="http://www.zdnet.fr/actualites/etats-unis-23-000-internautes-poursuivis-pour-avoir-telecharge-le-meme-film-39760700.htm#xtor=RSS-1">d'obtenir l'identité de plus de 23 000 internautes</a> suspectés d'avoir téléchargé de manière illicite le film "The Expendables".</p>

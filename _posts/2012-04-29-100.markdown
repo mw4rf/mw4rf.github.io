@@ -1,0 +1,30 @@
+---
+layout: post
+status: publish
+published: true
+title: Numéro 100 - Semaine du 23 au 29 avril 2012
+author:
+  display_name: GF
+  login: gflorimond
+  email: gf@valhalla.fr
+  url: ''
+author_login: gflorimond
+author_email: gf@valhalla.fr
+wordpress_id: 528
+wordpress_url: http://revue.valhalla.fr/?p=528
+date: '2012-04-29 11:39:43 +0200'
+date_gmt: '2012-04-29 09:39:43 +0200'
+categories:
+- Revue
+tags:
+- Internet
+- international
+- Facebook
+- jurisprudence
+- compétence
+- CJUE
+---
+<p>La revue de cette semaine sera assez courte, et centrée sur la question très juridique de la compétence territoriale des juridictions françaises pour connaître d'un litige né sur Internet.</p>
+<p>Nous renverrons d'abord le lecteur au <a title="Numéro 52 – Semaine du 4 au 10 avril 2011" href="http://revue.valhalla.fr/numeros/52/">numéro 52</a> de la revue pour un aperçu de la question et de ses enjeux, rappelant simplement ici que deux doctrines s'opposent : celle qui se satisfait de l'<a href="http://www.valhalla.fr/2007/04/25/competence-juridictions-accessibilite-cass-com-20-03-2007/">accessibilité du site litigieux</a> en France pour établir la compétence du juge français (théorie dite de l'accessibilité), et celle qui exige <a href="http://www.valhalla.fr/2006/06/24/tribunal-competent-et-cyber-delits-theorie-de-la-focalisation/">la focalisation du site</a> vers le public français, c'est-à-dire l'existence d'un lien "significatif, substantiel ou suffisant" entre le site et le for.</p>
+<p>La CJUE avait donné sa préférence à la première solution (l'accessibilité) dans deux arrêts rendus en juillet (<a href="http://revue.valhalla.fr/numeros/66/">revue numéro 66</a>) et en novembre 2011 (<a href="http://revue.valhalla.fr/numeros/85/">revue numéro 85</a>). Or, dans une <a href="http://www.legalis.net/spip.php?page=jurisprudence-decision&amp;id_article=3392">décision du 5 avril 2012</a>, la Cour de cassation demande à nouveau à la CJUE de se prononcer sur cette question, à la différence près qu'il s'agit, cette fois, de la livraison en France de CD contrefaisants vendus par Internet.</p>
+<p>En matière contractuelle, la question de la compétence internationale se pose de manière différente. Il ne s'agit plus de rechercher si le site est accessible ou focalisé vers le for, mais de donner effet à la clause de choix de for insérée dans le contrat ou, à défaut d'une telle clause, de rechercher le lieu d'exécution de l'obligation qui sert de base à la demande (cf. l'art. 5 du <a href="http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001R0044:FR:HTML">réglement 44/2001</a> du 22 décembre 2000). La plupart des sites web commerciaux possédant des "conditions d'utilisation" avec une clause de choix de for, c'est la première possibilité que l'on rencontre, en pratique, le plus souvent. Or, dans un <a href="http://www.legalis.net/spip.php?page=jurisprudence-decision&amp;id_article=3382">arrêt du 23 mars 2012</a>, la Cour d'appel de Pau écarta la clause de choix de for insérée dans les "conditions d'utilisation" de Facebook et désignant les juridictions californiennes, et reconnut la compétence des juridictions françaises. En effet, selon la Cour, la clause contractuelle est réputée non écrite, faute pour l'internaute agissant en tant que consommateur d'avoir pu donner un consentement éclairé et explicite (la clause était rédigée en anglais, en petits caractères et noyée dans un important bloc de texte).</p>

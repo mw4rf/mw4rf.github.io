@@ -1,0 +1,38 @@
+---
+layout: post
+status: publish
+published: true
+title: Numéro 21 - Semaine du 30 août au 5 septembre 2010
+author:
+  display_name: GF
+  login: gflorimond
+  email: gf@valhalla.fr
+  url: ''
+author_login: gflorimond
+author_email: gf@valhalla.fr
+wordpress_id: 123
+wordpress_url: http://revue.valhalla.fr/?p=123
+date: '2010-09-05 11:33:04 +0200'
+date_gmt: '2010-09-05 09:33:04 +0200'
+categories:
+- Revue
+tags:
+- téléchargement
+- P2P
+- propriété intellectuelle
+- Google
+- vie privée
+- filtrage
+- DPI
+- ACTA
+- piratage
+- surveillance
+- sécurité
+- phishing
+---
+<p>Le traité ACTA fait reparler de lui, cette semaine. La polémique sur sa publication perdure : <a href="http://www.numerama.com/magazine/16655-acta-les-eacutetats-unis-auraient-interdit-a-l-europe-de-publier-le-texte.html">les États-Unis continueraient de s'y opposer</a>, selon une source européenne anonyme. Pourtant, les fuites ne cessent pas et <a href="http://www.laquadrature.net/files/ACTA_consolidatedtext_EUrestricted130710.pdf">la Quadrature du Net publie une version datée du 1er juillet 2010</a><span class="lang">(pdf)</span>, élaborée à l'issue du <i>round</i> de Lucerne.</p>
+<p>En France, les premiers "mails Hadopi" ont été envoyés... <a href="http://www.lemondeinformatique.fr/actualites/lire-scam-avec-de-faux-mails-hadopi-31525.html">mais pas par la Haute autorité</a>. Il s'agit tout simplement de tentatives de <i>phishing</i> visant à récupérer les coordonnées bancaires des victimes. Il semblerait que le <i>phishing</i> touche désormais les administrations, et non plus seulement les personnes privées : on a appris l'existence d'une campagne similaire usurpant l'identité de l'administration fiscale. Rappelons que le <i>phishing</i> repose sur la crédulité et l'ignorance des internautes : le texte affiché à l'écran, en tant que lien, ne correspond pas à l'adresse réelle du lien. Un lien apparaissant comme étant dirigé vers le site "finances.gouv.fr" peut ainsi rediriger vers un site non-officiel, qui reproduit l'interface du site officiel, mais qui transmet les données fournies par les internautes à des tiers mal intentionnés. Voici un exemple d'un "faux" lien (vous pouvez cliquer en toute sécurité, il ne s'agit pas de phishing) : <a href="http://www.loreal.fr">http://www.finances.gouv.fr/</a>.  Il est en réalité très facile de s'en prémunir : il suffit de ne jamais cliquer sur un lien dans un e-mail, mais de taper "manuellement" le lien dans la barre d'adresse de son navigateur.</p>
+<p>Par ailleurs, le site <a href="http://sos-hadopi.fr/">SOS-Hadopi</a>, qui devrait ouvrir le 15 septembre, veut offrir une assistance technique et juridique aux internautes qui <a href="http://www.zdnet.fr/actualites/sos-hadopi-offrira-bientot-une-defense-juridique-contre-hadopi-39754313.htm">refusent d'installer</a> les logiciels <s>espions</s> de sécurisation préconisés par la Haute autorité. De son côté, l'Hadopi <a href="http://www.numerama.com/magazine/16679-la-haute-autorite-condamne-l-initiative-de-sos-hadopi.html">condamne cette initiative</a> et rappelle, d'une part, que l'internaute n'est pas présumé coupable et qu'il n'a pas à prouver son innocence et, d'autre part, que les spécifications des <s>spywares</s> logiciels de sécurisation ne sont pas encore terminées.</p>
+<p>Pourtant, il semblerait bien que <a href="http://www.pcinpact.com/actu/news/59106-hadopi-dpi-vedicis-scpp-filtrage.htm">la France devienne le terrain de jeu où les ayants-droit testent, avec le concours des autorités, le filtrage DPI</a> (i.e. la surveillance du contenu des communications échangées sur le réseau).</p>
+<p>L'Allemagne a rejeté l'approche du filtrage DPI, mis en oeuvre par les intermédiaires, concernant les contenus pédophiles. Elle a préféré, <a href="http://www.pcinpact.com/actu/news/59116-loppsi-juge-filtrage-blocage-site.htm">contrairement au législateur français et à sa loi LOPPSI</a>, s'attaquer directement à la source, c'est-à-dire aux producteurs, éditeurs ou hébergeurs des contenus. Sur un plan théorique, la solution allemande est bien meilleure, car plus respectueuse du droit à la vie privée des internautes et de la liberté d'expression. <a href="http://www.numerama.com/magazine/16680-en-allemagne-la-suppression-des-contenus-pedophiles-affiche-son-efficacite.html">Selon une étude récente, elle semblerait aussi être, en pratique, bien meilleure que le filtrage</a>.</p>
+<p>L'UE prépare de son côté un <a href="http://www.numerama.com/magazine/16674-l-ue-prepare-un-plan-d-action-contre-le-piratage-et-la-contrefacon-pour-2010.html">plan d'action contre la contrefaçon en ligne</a>. On y retrouve l'argument largement fallacieux continuellement avancé par les majors : le "piratage" serait nuisible à l'économie. Or, il a été démontré et re-démontré que la plupart des contenus "piratés" n'auraient pas été achetés. Au lieu d'élaborer de nouveaux mécanismes répressifs, les autorités européennes feraient mieux de réfléchir aux moyens d'inciter le développement des offres légales et de la concurrence (i.e. aider les petits producteurs qui oeuvrent pour la culture plutôt que les majors qui oeuvrent pour gagner toujours plus d'argent ; <a href="http://www.numerama.com/magazine/16676-les-majors-misent-sur-google-pour-amoindrir-l-hegemonie-d-itunes.html">lutter contre les monopoles des distributeurs</a>). Les séries TV américaines font l'objet de nombreux téléchargements : des téléspectateurs américains les enregistrent sur ordinateur, puis les diffusent sur les réseaux P2P avec des sous-titres ; des "teams" françaises réalisent une traduction en français des sous-titres anglais et les diffusent avec la vidéo. Résultat : la VO sous-titrée d'un épisode est généralement disponible en-ligne moins d'une semaine après sa diffusion à la télévision. Face à cela, l'offre légale fait pâle figure. On peut attendre que la série soit diffusée en France : dans la plupart des cas, elle ne le sera pas ; dans d'autres cas, elle le sera sur des chaînes payantes (câble, satellite...) en VF, plusieurs mois après sa première diffusion ; dans de très rares cas, elle le sera sur les chaines publiques, également plusieurs mois après sa première diffusion. On peut alors acheter le DVD de la saison entière, pour gagner du temps, mais il faut tout de même attendre la fin de la saison aux États-Unis, puis l'élaboration de la VF. On peut aussi acheter certains épisodes sur iTunes, à 3 euro l'épisode en moyenne, en VF ou en VO, généralement plusieurs jours, semaines ou mois après la diffusion originale. En somme, l'internaute a le choix entre obtenir le dernier épisode immédiatement et gratuitement, ou attendre plusieurs mois pour l'acheter à un pris généralement exorbitant. Comme disait Oscar Wilde, <i>"I resist all but temptation"</i>... Dans ce contexte, il est facile de comprendre que la répression ne suffira pas si l'offre légale ne devient pas rapidement attractive pour les consommateurs.</p>

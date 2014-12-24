@@ -1,0 +1,65 @@
+---
+layout: post
+status: publish
+published: true
+title: Numéro 104 - Semaine du 28 mai au 3 juin 2012
+author:
+  display_name: GF
+  login: gflorimond
+  email: gf@valhalla.fr
+  url: ''
+author_login: gflorimond
+author_email: gf@valhalla.fr
+wordpress_id: 541
+wordpress_url: http://revue.valhalla.fr/?p=541
+date: '2012-06-03 13:18:12 +0200'
+date_gmt: '2012-06-03 11:18:12 +0200'
+categories:
+- Revue
+tags:
+- Internet
+- neutralité
+- P2P
+- propriété intellectuelle
+- Google
+- international
+- gouvernement
+- filtrage
+- ACTA
+- sécurité
+- USA
+- Orange
+- FAI
+- armée
+- Chine
+- jurisprudence
+- Europe
+- Wikipedia
+- PC
+- droit constitutionnel
+- Microsoft
+- compétence
+- CJUE
+- contrat
+- blocage
+- backdoor
+---
+<p>Voici, cette semaine, un numéro thématique.</p>
+<h2>Conflits de juridictions</h2>
+<p>La première information importante de la semaine réside dans un<a href="http://www.legalis.net/spip.php?page=jurisprudence-decision&amp;id_article=3417"> arrêt du 22 mai 2012 rendu par la Cour d'appel de Paris</a> sur renvoi après cassation dans l'affaire Würzburg Holding c. eBay. Il s'agissait de déterminer la compétence internationale des juridictions françaises pour connaître du litige. Nous avons abordé cette question à plusieurs reprises (v. <a href="http://www.valhalla.fr/2006/06/24/tribunal-competent-et-cyber-delits-theorie-de-la-focalisation/">cet article</a> et  <a href="http://www.valhalla.fr/2007/04/25/competence-juridictions-accessibilite-cass-com-20-03-2007/">celui-ci</a>, le <a href="http://revue.valhalla.fr/numeros/52/">n°52</a> de la revue pour une explication des enjeux juridiques et une présentation des thèses en présence, les numéros <a href="http://revue.valhalla.fr/numeros/66/">66</a> et <a href="http://revue.valhalla.fr/numeros/85/">85</a> pour la position de la CJUE, et dernièrement le <a href="http://revue.valhalla.fr/numeros/100/">n°100</a> pour un bref rappel), et vu que s'opposaient la doctrine de l'accessibilité (la compétence du juge français est fondée dès lors que le site litigieux est accessible en France) et celle de la focalisation (la compétence du juge français n'est établie que si, le site étant accessible en France, il est en outre focalisé vers le public français). La CJUE a pris position en faveur de la doctrine de l'accessibilité, dans plusieurs décisions récentes (v. numéros <a href="http://revue.valhalla.fr/numeros/66/">66</a> et <a href="http://revue.valhalla.fr/numeros/85/">85</a>) rendues en interprétation du réglement 44/2001. Mais la Cour de cassation a préféré la doctrine de la focalisation. Elle a ainsi jugé dans l'<a href="http://www.legalis.net/spip.php?page=jurisprudence-decision&amp;id_article=3307">arrêt du 20 septembre 2011</a>, au visa de l'article 46 du Code de procédure civile, que "<em>la seule accessibilité d’un site internet sur le territoire français n’est pas suffisante pour retenir la compétence des juridictions françaises, prises comme celles du lieu du dommage allégué, et sans rechercher si les annonces litigieuses étaient destinées au public de France, la cour d’appel a privé sa décision de base légale</em>", cassé l'arrêt de la Cour d'appel et renvoyé l'affaire devant la Cour d'appel de Paris. Statuant sur renvoi, la Cour d'appel de Paris reprend sa jurisprudence constante consistant à rechercher l'existence de liens "suffisants, substantiels ou significatifs" entre le site litigieux et le public français :</p>
+<blockquote><p><em>Et considérant qu’il est de jurisprudence constante que la seule accessibilité d’un site sur le territoire français n’est pas suffisante pour retenir la compétence des juridictions françaises, qu’il convient de rechercher si les annonces litigieuses étaient destinées au public de France et donc d’examiner si en l’espèce, il existe un lien suffisant, substantiel ou significatif entre les faits délictuels et le dommage allégué sur le territoire français eu égard à l’incidence commerciale que peut avoir la diffusion du site incriminé en France.</em></p></blockquote>
+<p>Puis, par un motif peu clair, la Cour relève que le site est conçu en anglais, même si le texte des annonces est, lui, rédigé en français :</p>
+<blockquote><p><em>Que la circonstance selon laquelle les visuels seraient prédominants sur les annonces et la partie rédactionnelle en langue anglaise serait pauvre et donc compréhensible ne permet pas de déduire que le site serait destiné au public de France, qu’en effet, seule la compréhension de la partie rédactionnelle est indispensable à une utilisation pertinente du site comme permettant d’aboutir à la procédure d’une commande effective, de son suivi, des conditions d’échange ou de retour d’un produit, que la vulgarisation croissante de la langue anglaise ne saurait l’ériger comme langue nationale, naturellement et nécessairement acquise par tout français, que <strong>la destination d’un site vers le public de France implique l’usage par ce site de la langue du public ciblé</strong>, à savoir tout acheteur ou vendeur potentiel d’un quelconque produit sur le marché</em></p></blockquote>
+<p>Il y a, à notre sens, deux éléments importants dans ce motif. D'abord, la Cour se fonde implicitement sur la volonté de l'opérateur : en rédigeant son site en anglais, il n'a pas <em>manifesté</em> la volonté de cibler le public français car, en dépit de la vulgarisation de la langue anglaise sur Internet, la langue nationale dans le ressort territorial de la juridiction demeure le français. L'idée importante est celle de la manifestation de volonté de l'opérateur : s'il avait voulu cibler <em>spécifiquement</em> le public français, il aurait rédigé son site en français. C'est cette spécificité qui permet d'établir la compétence des juridictions françaises. En effet, un site rédigé en anglais peut viser soit un public anglophone, soit ne viser aucun public particulier et s'adresser à tous les internautes, indépendamment de leur provenance géographique. En affirmant que "<em>la destination d’un site vers le public de France implique l’usage par ce site de la langue du public ciblé"</em>, la Cour d'appel ne dit pas qu'un site doit viser le public français, entre autres, pour que sa compétence soit établie, mais que ce site soit viser <em>spécifiquement</em> le public français. En d'autres termes, un site "international" rédigé en anglais ne vise pas, pour la Cour, le public français parmi d'autres publics, il ne vise en réalité aucun public particulier, ce qui exclut la compétence des juridictions françaises. Reste à savoir comment le critère de la langue, qui semble ici être déterminant, serait utilisé par la Cour s'agissant d'un site belge, suisse ou québécois...</p>
+<h2>Filtrage</h2>
+<p>Nous voilà dans l'ère des mots-clés. Google (is not always evil) <a href="http://www.numerama.com/magazine/22763-google-signale-aux-chinois-les-mots-cles-filtres.html">révèle aux utilisateurs chinois les mots-clés censurés</a> sur ordre du gouvernement. De leur côté, les autorités américaines font de même pour <a href="http://www.numerama.com/magazine/22771-les-usa-revelent-les-mots-cles-surveilles-sur-internet.html">les mots-clés surveillés par leurs agences de renseignement</a>, dont <a href="http://www.dailymail.co.uk/news/article-2150281/REVEALED-Hundreds-words-avoid-using-online-dont-want-government-spying-you.html">la liste est plutôt effrayante</a> : exercice, prévention, sécurité, morts, nuage, essence, malade, métro, annulé, en retard, intelligent, frontière, médicament, urgence, glace, neige, érosion... et tant d'autres mots courants.</p>
+<h2>Concurrence &amp; Consommation</h2>
+<p>La <a href="http://www.numerama.com/magazine/22755-l-entente-entre-les-operateurs-definitivement-confirmee.html">Cour de cassation vient de rejeter un pourvoi formé par Orange</a> contre<a href="http://www.pcinpact.com/news/71286-entente-operateurs-mobiles-orange-sfr-bouygues.htm"> sa condamnation par le Conseil de la concurrence pour entente sur les prix</a>.</p>
+<p>Aux États-Unis, <a href="http://www.pcinpact.com/news/71281-microsoft-recours-collectifs-usa-utilisation.htm">Microsoft modifie le contrat d'adhésion le liant aux consommateurs en insérant une clause destinée à prévenir les <em>class action</em></a>. En application de cette clause, le consommateur peut exercer un recours individuel devant les juridictions étatiques ou arbitrales, mais pas initier ou se joindre à une <em>class action</em> regroupant plusieurs demandeurs pour une même demande. Ces clauses sont <a href="http://news.cnet.com/8301-30686_3-57403475-266/why-you-cant-sue-your-wireless-carrier-in-a-class-action/">autorisées en droit américain</a> depuis l'arrêt <strong><a href="http://en.wikipedia.org/wiki/AT%26T_Mobility_v._Concepcion">AT&amp;T v. Concepcion</a> du 27 avril 2011</strong> (<a href="http://www.supremecourt.gov/opinions/10pdf/09-893.pdf">syllabus</a>).</p>
+<h2>Propriété intellectuelle</h2>
+<p>Avant le vote du traité ACTA au Parlement européen, cinq commissions doivent rendre leurs avis. <a href="http://www.numerama.com/magazine/22757-acta-les-opposants-se-felicitent-du-rejet-des-commissions-parlementaires.html">Trois d'entre-elles ont rendu cette semaine un avis défavorable</a> : la commission ITRE (industrie), la commission JURI (affaires juridiques) et la commission LIBE (libertés civiles). Le <a href="http://www.pcinpact.com/news/71306-acta-rejet-massif-parlement-europeen.htm">prochain vote</a> est pour le 21 juin, et le passage en séance plénière prévu pour le mois de juillet. De leur côté, les <a href="http://www.numerama.com/magazine/22742-les-deputes-neerlandais-rejettent-acta.html">parlementaires des Pays-Bas ont adopté une motion demandant au gouvernement de refuser la ratification du traité</a>.</p>
+<h2>Neutralité du Net</h2>
+<p>L'on apprend que <a href="http://www.numerama.com/magazine/22745-18-des-fai-europeens-brident-le-p2p.html">18% des FAI européens bloquent le trafic P2P sur les réseaux fixes</a>... la <a href="http://www.pcinpact.com/news/71284-fai-europeen-bride-p2p-neelie-kroes.htm">neutralité du Net n'est pas pour tout de suite</a> !</p>
+<h2>Sécurité</h2>
+<p>Un <a href="http://www.pcinpact.com/news/71212-flame-malware-menace-kaspersky-puissant.htm">nouveau malware très élaboré</a>, à l'instar de Stuxnet, vient d'être découvert par Kaspersky. Une <a href="http://www.numerama.com/magazine/22751-un-backdoor-chinois-decouvert-sur-une-puce-electronique-utilisee-par-l-armee-us.html">porte-dérobée dans des puces fabriquées en Chine et utilisées par l'armée américaine</a> a également été découverte récemment, par des chercheurs de l'université de Cambridge. La cyber-guerre est chaude et froide à la fois...</p>
+<p>&nbsp;</p>

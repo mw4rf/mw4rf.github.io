@@ -1,0 +1,47 @@
+---
+layout: post
+status: publish
+published: true
+title: Numéro 84 - Semaine du 14 au 20 novembre 2011
+author:
+  display_name: GF
+  login: gflorimond
+  email: gf@valhalla.fr
+  url: ''
+author_login: gflorimond
+author_email: gf@valhalla.fr
+wordpress_id: 461
+wordpress_url: http://revue.valhalla.fr/?p=461
+date: '2011-11-20 14:50:24 +0100'
+date_gmt: '2011-11-20 12:50:24 +0100'
+categories:
+- Revue
+tags:
+- P2P
+- propriété intellectuelle
+- données personnelles
+- ACTA
+- Hadopi
+- LOPPSI
+- censure
+- USA
+- liberté d'expression
+- bande passante
+- streaming
+- jurisprudence
+- politique
+- partage
+- culture
+- contrefaçon
+- travail
+- salariés
+- géolocalisation
+---
+<p>Au sommaire cette semaine, de nouveaux projets de lois en matière de propriété intellectuelle et un arrêt important concernant la protection des données personnelles et le droit du travail.</p>
+<h2>USA : Protect IP</h2>
+<p>Une quarantaine d'organisations ont envoyé une <a href="http://www.laquadrature.net/fr/stoppons-la-censure-du-net-aux-us-avant-quacta-ne-limpose-en-europe">lettre commune au président de la Chambre des représentants des États-Unis</a> [<a href="http://www.laquadrature.net/files/SOPA_Letter_to_HR.pdf">PDF</a>], afin de protester contre les projets de loi <i>"Stop Online Piracy Act"</i> (SOPA) et <i>"Protect Intellectual Property Act"</i> (PIPA). Selon leurs détracteurs, ces deux projets de loi excèdent largement le but légitime de protéger les droits de propriété intellectuelle, pour défendre le puissant lobby de l'industrie culturelle au moyen de mesures attentatoires aux droits fondamentaux des internautes. En particulier, la possibilité de neutraliser les noms de domaines de sites <i>suspectés</i> de véhiculer des fichiers contrefaisants, sans procès équitable préalable, constitue une forme de censure violant la sacro-sainte liberté d'expression garantie par le 1er amendement à la Constitution fédérale. Ces projets de lois américains concernent indirectement les citoyens européens car il est à la fois possible et probable que s'ils devenaient des lois, le droit européen s'orienterait dans la même direction, par un habile <i><a href="http://en.wikipedia.org/wiki/Policy_laundering">"blanchiment législatif"</a></i> et sous l'influence du traité international anti-contrefaçon ACTA.</p>
+<h2>France : Hadopi 3 ?</h2>
+<p>En France, alors que le bilan du président Sarkozy en matière de culture numérique est <a href="http://www.laquadrature.net/fr/la-culture-selon-sarkozy-aveuglement-numerique-et-mepris-pour-les-droits">un véritable désastre</a> (comme le relève la Quadrature du Net, notamment à propos des lois HADOPI et LOPPSI : opposition plutôt que conciliation des internautes et des ayants droit, politique répressive inefficace -- à ce propos, <a href="http://www.pcinpact.com/news/67100-livre-hadopi-sne-syndicat-tmg.htm">le secteur du livre envisage des solutions alternatives à Hadopi</a> --, méconnaissance de l'intérêt général au profit des lobbys, violations des droits fondamentaux), le candidat Sarkozy affirme à nouveau que la loi Hadopi <a href="http://www.pcinpact.com/news/67090-avignon-nicolas-sarkozy-hadopi-fin.htm"><i>"n'est pas une fin en soi"</i></a> et n'a pas vocation à durer, tout en proposant une loi "Hadopi 3" destinée à la lutte contre le <i>streaming</i>.</p>
+<p>En effet, selon le président-candidat, <i>"sur les sites de streaming, l'idéologie du partage (...) c'est l'idéologie de l'argent : je vole d'un côté et je vends de l'autre"</i>. Nous sommes du même avis, et nous l'avons dit ici à plusieurs reprises (v. p. ex. <a href="http://revue.valhalla.fr/numeros/9/">n°9</a>, <a href="http://revue.valhalla.fr/numeros/57/">n°57</a> ou <a href="http://revue.valhalla.fr/numeros/60/">n°60</a>). Il est en effet intolérable que des opérateurs fondent leur modèle économique sur la vente de stockage et de bande passante, tout en sachant que la grande majorités des contenus hébergés et téléchargés sont contrefaisants. Ce que le président-candidat oublie toutefois de dire, c'est qu'en réprimant le partage direct entre internautes, sans but lucratif et à vocation culturelle, sur les réseaux P2P, les lois Hadopi 1 et 2 ont largement favorisé le marché du streaming. Le problème du streaming contrefaisant, qui est bien réel, a donc été causé en large partie par la politique menée depuis 5 ans par le candidat-président.</p>
+<h2>Géolocalisation des salariés</h2>
+<p>La Cour de cassation a rendu un <a href="http://www.legalis.net/spip.php?page=jurisprudence-decision&id_article=3265">arrêt important le 3 novembre dernier</a>, <a href="http://www.lemondeinformatique.fr/actualites/lire-la-cour-de-cassation-rappelle-la-limitation-de-la-geolocalisation-des-salaries-46677.html">en matière de géolocalisation des salariés</a> (v. aussi <a href="http://www.legalis.net/spip.php?page=jurisprudence-decision&id_article=2999">l'arrêt de la Cour d'appel</a>). Dans cette affaire, l'employeur avait équipé la voiture de fonction d'un de ses salariés, un commercial, d'un GPS. Il a ensuite utilisé ce GPS pour déterminer le nombre d'heures travaillées par le salarié en fonction des distances parcourues, sans l'en informer. Il en a enfin déduit que le salarié ne remplissait pas ses obligations, et a réduit sa rémunération. Selon la Cour, d'une part, <i>"l’utilisation d’un système de géolocalisation pour assurer le contrôle de la durée du travail, laquelle n’est licite que lorsque ce contrôle ne peut pas être fait par un autre moyen, n’est pas justifiée lorsque le salarié dispose d’une liberté dans l’organisation de son travail"</i>, ce qui était en l'espèce le cas du salarié, et d'autre part, <i>"un système de géolocalisation ne peut être utilisé par l’employeur pour d’autres finalités que celles qui ont été déclarées auprès de la Commission nationale de l’informatique et des libertés, et portées à la connaissance des salariés"</i>, ce qui n'était pas le cas en l'espèce. La rupture du contrat de travail est donc aux torts exclusifs de l'employeur.</p>

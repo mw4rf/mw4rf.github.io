@@ -1,0 +1,50 @@
+---
+layout: post
+status: publish
+published: true
+title: Numéro 56 - Semaine du 2 au 8 mai 2011
+author:
+  display_name: GF
+  login: gflorimond
+  email: gf@valhalla.fr
+  url: ''
+author_login: gflorimond
+author_email: gf@valhalla.fr
+wordpress_id: 336
+wordpress_url: http://revue.valhalla.fr/?p=336
+date: '2011-05-08 11:16:45 +0200'
+date_gmt: '2011-05-08 09:16:45 +0200'
+categories:
+- Revue
+tags:
+- Internet
+- neutralité
+- téléchargement
+- responsabilité
+- vie privée
+- gouvernement
+- discrimination
+- filtrage
+- DPI
+- surveillance
+- Hadopi
+- droit d'auteur
+- Orange
+- bande passante
+- FAI
+- intermédiaires
+---
+<h2>Propriété intellectuelle -- Hadopi</h2>
+<p>Le feuilleton Hadopi continue. Après les deux premières phases de la riposte graduée, c'est la troisième phase (la dernière) qui se met progressivement en place. Et cela ne va pas sans soulever certains problèmes. Le problème dont on a parlé cette semaine est celui du <a href="http://www.pcinpact.com/actu/news/63376-hadopi-commuincation-correspondance-privee-suspension.htm">maintien de la possibilité d'échanger des e-mails</a> lorsque l'accès à Internet est suspendu. </p>
+<p>D'où vient ce problème ? La loi parle de suspendre les services de <i>communication au public en ligne</i>, ce qui ne concerne pas les services de messagerie, qui relèvent de la correspondance <i>privée</i> des internautes. En outre, la riposte graduée à pour but d'empêcher le partage illicite d'oeuvres soumises au droit d'auteur, qui ne se fait pas par e-mail.</p>
+<p>Pourquoi ne pas tout couper ? Il y aurait discrimination entre les internautes. Soient deux internautes, le premier utilise le service de messagerie de son fournisseur d'accès (FAI) (dupont@orange.fr, martin@free.fr, etc.) ; le second utilise un service tiers (dupont@gmail.com, martin@hotmail.fr, etc.). Si le FAI annule les deux abonnements, le premier internaute perdra l'accès à son compte de messagerie, tandis que le second pourra toujours accéder à son compte, depuis la connexion d'un tiers.</p>
+<p>Comment faire ? Il existe <a href="http://www.zdnet.fr/actualites/hadopi-suspension-d-internet-mais-pas-des-communications-privees-39760454.htm">deux possibilités</a>, l'une est acceptable et l'autre non. La première possibilité est de couper l'accès à Internet, ce qui interdit à l'internaute de consulter son courrier, tout en maintenant son compte de messagerie ouvert de manière à ce qu'il puisse relever son courrier depuis un autre point d'accès au réseau. La seconde possibilité est de maintenir l'accès au réseau de l'internaute, tout en discriminant selon la technologie : les connexions au service de courrier électronique seraient acceptées et les connexions à tous les autres services seraient refusées. Cette dernière option doit être rejetée. Elle est en effet contraire au principe de neutralité du Net selon lequel les intermédiaires techniques ne doivent pas opérer de discrimination en fonction des technologies utilisées ou des contenus échangés. Internet est un réseau d'ordinateurs offrant plusieurs types de services ; couper l'accès à Internet, c'est donc couper l'accès à tous ces services sans distinction et, réciproquement, offrir un accès à Internet c'est permettre l'accès à tous ces services sans distinction. En outre, le coût de la seconde mesure est beaucoup plus élevé que celui de la première, ce qui ne fait que rajouter au <a href="http://www.pcinpact.com/actu/news/63363-hadopi-suspension-evaluation-cout-bouygues.htm">problème du financement de la riposte graduée</a>.</p>
+<p>Encore un grain de sable dans le mécanisme Hadopi, déjà bien mal huilé. Un spécialiste du réseau eDonkey a élaboré un <a href="http://www.pcinpact.com/actu/news/63401-edonkey-hadopi-tmg-surveillance.htm">logiciel réalisant des statistiques d'activité des clients</a> (le même logiciel permet aussi de repérer <a href="http://www.pcinpact.com/actu/news/63417-peerates-edonkey-surveillance-chine-dissidence.htm">le censeur chinois</a>). Grâce à ces statistiques, il est très facile de distinguer les internautes "normaux" des ordinateurs des ayants droit qui espionnent les utilisateurs : ces derniers lancent des requêtes périodiques (en l'occurrence, toutes les 2 minutes). Une fois le "bot" (<i>robot</i>, ou logiciel, par opposition à utilisateur humain) repéré, il suffit de dresser la liste de ses requêtes pour savoir quels fichiers sont surveillés.</p>
+<p>L'Hadopi envisage de <a href="http://www.numerama.com/magazine/18699-le-gouvernement-confirme-l-interet-de-l-hadopi-pour-le-streaming-et-le-ddl.html">s'attaquer aux sites de téléchargement direct</a>, mais cela ne sera pas une mince affaire. En vrac : le régime de responsabilité des intermédiaires protège ces sites, souvent qualifiés d'hébergeurs ; les internautes peuvent utiliser un service de proxy VPN pour y accéder, et masquer ainsi leur adresse IP réelle ; même s'ils ne la masquent pas, l'adresse IP n'est accessible que si le site de téléchargement veut bien la révéler, ce qui est plus qu'incertain pour les sites hébergés en dehors de l'UE (et non soumis à la directive "data retention" de 2006) ; reste la solution du filtrage, mais il devrait reposer sur une analyse DPI, car tous les contenus hébergés par les sites de téléchargement ne sont pas illicites (et un tel filtrage violerait vraisemblablement le droit à la vie privée des internautes).</p>
+<h2>Filtrage</h2>
+<p>Poursuivons sur la question du filtrage. Aux États-Unis, la sécurité nationale est l'un des fondements du filtrage. Le gouvernement américain a ainsi <a href="http://www.zdnet.fr/actualites/le-gouvernement-us-reclame-a-mozilla-la-suppression-d-un-add-on-firefox-39760575.htm">demandé à la Fondation Mozilla de retirer un add-on pour Firefox</a> qui permet de contourner le blocage de certains sites en redirigeant l'internaute vers un site miroir. La Fondation Mozilla a refusé de retirer l'add-on, expliquant qu'elle se conformait aux décisions de justice, mais <a href="http://www.silicon.fr/firefox-menace-la-securite-des-etats-unis-51145.html">ne cédait pas aux pressions politiques</a>.</p>
+<p>En France, le TGI de Paris a <a href="http://www.zdnet.fr/actualites/l-arjel-obtient-le-filtrage-du-site-de-paris-sportifs-5dimes-39760450.htm">ordonné le blocage du site de paris en ligne 5dimes.com</a> <b>[<a href="http://www.pcinpact.com/media/20110428_TGIParis_ordonnance_blocage_5dimes.pdf">décision, format PDF</a>]</b>, sur la demande de l'ARJEL. Nous avions parlé de cette affaire dans <a href="http://revue.valhalla.fr/numeros/54/">un précédent numéro (54)</a>. Le site est costaricain, rédigé en anglais, et il <a href="http://www.pcinpact.com/actu/news/63359-arjel-fivedimescom-5dimescom-blocage-fai.htm">ne vise pas particulièrement le public français</a>. Il accepte toutefois <a href="http://www.legalis.net/spip.php?article3157">les paiements en Euro</a>. Mais peu importe : ce qui compte, pour le juge, c'est l'<i>accessibilité</i> du site en France. Le raisonnement est contestable...</p>
+<h2>Neutralité du Net</h2>
+<p>Une pratique très inquiétante s'instaure aux États-Unis : le fournisseur d'accès AT&T a décidé de <a href="http://www.zdnet.fr/actualites/etats-unis-at-t-va-brider-les-abonnements-haut-debit-et-faire-payer-les-depassements-39760435.htm">facturer les dépassements de bande passante</a>. Autrement dit, l'accès à Internet n'est plus illimité : il comprend un certain volume de données (150 ou 250 Go par mois) et, en cas de dépassement de ce volume, il y a facturation de chaque tranche de 50 Go au prix (exorbitant) de 10 dollars. Décryptons : les internautes qui téléchargement plus de 250 Go par mois sont présumés être des "pirates" partageant des fichiers contrefaisants ; faire payer au volume est donc un moyen de dissuader le partage de musique ou de films (tant mieux : on téléchargera des <i>ebooks</i> plutôt que le dernier blockbuster hollywoodien, et cela ne fera pas de mal au niveau intellectuel général).</p>
+<p>Si Internet est devenu ce qu'il est, un moyen de communication populaire et démocratique, c'est en grande partie grâce aux abonnements ADSL, permettant une connexion illimitée dans le temps et en volume, qui ont remplacé les premiers forfaits des connexions analogiques (par Modem) prévoyant une facturation à la minute. Le haut débit de l'ADSL a aussi permis la mutation du Web d'un espace composé de texte en un espace contenant images, sons et vidéos.</p>
+<p>Facturer à nouveau le temps passé sur Internet ou le volume de données transmises, c'est revenir 10 ans en arrière.</p>
