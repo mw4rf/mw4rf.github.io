@@ -1,0 +1,194 @@
+<html>
+
+<head>
+
+<title>JGFL - Rubrique JDK de Sun</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+</head>
+
+
+
+<body bgcolor="#FFFFFF">
+
+<blockquote>
+
+  <p align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FF0000" size="5">JDK 
+
+    de Sun</font></b></font></p>
+
+  <p align="center">&nbsp;</p>
+
+</blockquote>
+
+<p>Le JDK de Sun (les cr&eacute;ateurs de Java) est l'outil essentiel pour programmer 
+
+  en Java. Il permet la compilation, le d&eacute;bugage, et l'ex&eacute;cution 
+
+  d'applications et d'applets Java. Il comprend &eacute;galement des fonctions 
+
+  avanc&eacute;es comme les signatures num&eacute;riques, la cr&eacute;ation d'archives 
+
+  et de documentation ou l'int&eacute;gration de code natif C.</p>
+
+<p>La documentation du JDK est en fait l'API de Java. (le d&eacute;tail de toutes 
+
+  les fonctions du langage si vous pr&eacute;f&eacute;rez). Ceci explique sa taille 
+
+  importante (16 MO). Elle est au format HTML. Vous ne pourrez pas cr&eacute;<font color="#000000">er 
+
+  de gros programmes</font> sans y avoir recours.</p>
+
+<p>Ces 2 outils sont disponibles dans la rubrique LIENS/RESSOURCES de ce site, 
+
+  &agrave; l'adresse<b> <a href="http://perso.wanadoo.fr/guillaume/liens.htm">http://perso.wanadoo.fr/guillaume/liens.htm</a></b></p>
+
+<p>&nbsp;</p>
+
+<p><font color="#FF0000"><b>INSTALLATION</b></font></p>
+
+<p><font color="#000000"> Apr&egrave;s avoir t&eacute;l&eacute;charg&eacute; le 
+
+  JDK, vous devez l'installer en suivant les indications qui s'affichent &agrave; 
+
+  l'&eacute;cran. L'installation prend environ 60MO. Il est important de ne pas 
+
+  avoir d'espace dans le nom des r&eacute;pertoires qui m&egrave;nent au JDK. 
+
+  Les espaces peuvent causer certaines erreurs (les fonctions basiques fonctionnent 
+
+  quant m&ecirc;me). Par exemple il est d&eacute;conseill&eacute; d'installer 
+
+  le JDK dans &quot;program files&quot;. Pr&eacute;f&eacute;rez un chemin simple 
+
+  comme &quot;C:\JDK\&quot;.</font></p>
+
+<p><font color="#000000">Une fois les fichiers du JDK copi&eacute;s, il faut d&eacute;finir 
+
+  un <i>CLASSPATH</i> ou &quot;Chemin des classes&quot;. Ce Classpath est la source 
+
+  de nombreuses crises de nerfs chez les d&eacute;butants (j'en ai souffert...), 
+
+  c'est pourquoi il est important de bien le d&eacute;finir.</font></p>
+
+<p><i>POUR WINDOWS 95</i>: Allez sous DOS, allez &agrave; la racine du disque 
+
+  dur (utiliser <b>cd..</b> pour descendre dans l'arborescence). Une fois dans 
+
+  &quot;C:\&quot;, tapez <b>edit autoexec.bat</b>. Un &eacute;diteur appara&icirc;t 
+
+  avec les lignes de l'autoexec.bat. Rajoutez cette ligne: <b>path = C:\JDK\bin\</b> 
+
+  Enregistrez le fichier, red&eacute;marrez votre ordinateur.</p>
+
+<p><img src="edit.jpg" width="571" height="357"></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><i>POUR WINDOWS 98</i>: Ouvrez le menu D&eacute;marrer, allez dans Ex&eacute;cuter, 
+
+  tapez <b>msconfig</b>, une fen&ecirc;tre s'ouvre, allez sur le 3&egrave;me onglet 
+
+  qui correspond &agrave; <b>autoexec.bat</b>, cliquez sur Nouveau et tapez <b>path 
+
+  = C:\JDK\bin\</b> .V&eacute;rifiez que la petite case &agrave; gauche de cette 
+
+  ligne est bien coch&eacute;e et red&eacute;marrez votre ordinateur.</p>
+
+<p>Note: <b>path = C:\JDK\bin\ </b>ne fonctionne que si C:\JDK\ est votre r&eacute;pertoire 
+
+  d'installation du JDK. Si ce n'est pas le cas, remplacez-le par votre vrai r&eacute;pertoire.</p>
+
+<p><img src="msconfig.jpg" width="425" height="422"></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><font color="#FF0000"><b>COMPILER</b></font></p>
+
+<p> Ecrivez votre programme Java avec un &eacute;diteur de TEXTE BRUT (ex: NotePad). 
+
+  Sauvegardez-le avec l'extension <b>.java</b>. (ex: HelloWorld.java). Le nom 
+
+  de votre fichier doit &ecirc;tre le m&ecirc;me que celui de votre classe principale 
+
+  (RESPECTER LA CASSE):</p>
+
+<p><b>public class HelloWorld {</b></p>
+
+<p><b>// code</b></p>
+
+<p><b>}</b></p>
+
+<p>Le nom de votre fichier sera HelloWorld.java</p>
+
+<p>Une fois le fichier enregistr&eacute;, ouvrez une fen&ecirc;tre DOS et rendez-vous 
+
+  dans le r&eacute;pertoire o&ugrave; vous avez enregistr&eacute; votre fichier. 
+
+  (<b>cd nomDuR&eacute;pertoire</b> pour monter d'un niveau et <b>cd..</b> pour 
+
+  descendre). Une fois dans le r&eacute;pertoire o&ugrave; est votre fichier, 
+
+  tapez:</p>
+
+<p><b>javac nomDuFichier.java</b></p>
+
+<p>Respectez la casse et tapez toutes les lettres (pas de &quot;nomDe ~ 1&quot;). 
+
+  Le compilateur Java reconna&icirc;t les noms longs.</p>
+
+<p>Normalement vous ne devez avoir aucun message, sinon, c'est que vous avez fait 
+
+  une erreur dans votre programme, v&eacute;rifiez alors la syntaxe. Vous verrez 
+
+  vite que toutes les erreurs ne sont pas d&eacute;tect&eacute;es par javac, certains 
+
+  programmes se compilent mais affichent une erreur &agrave; l'ex&eacute;cution... 
+
+  c'est terrible...mais pour l'instant pas de probl&egrave;me.</p>
+
+<p>Quand javac compile un programme, il cr&eacute;e un fichier <b>*.class</b> 
+
+  (ex: HelloWorld.class). Ce fichier est compil&eacute; et sera interpr&eacute;t&eacute; 
+
+  par la machine virtuelle. </p>
+
+<p>&nbsp;</p>
+
+<p><b><font color="#FF0000">EXECUTER</font></b></p>
+
+<p><font color="#000000">Sous DOS, placez vous dans le r&eacute;pertoire o&ugrave; 
+
+  javac a cr&eacute;&eacute; le fichier *.class (le m&ecirc;me que celui o&ugrave; 
+
+  vous avez au d&eacute;but enregistr&eacute; votre fichier texte brut *.java). 
+
+  Tapez:</font></p>
+
+<p><b><font color="#000000">java nomDuFichier</font></b></p>
+
+<p><font color="#000000">Respectez la casse et ne mettez pas l'extension. java 
+
+  accepte aussi les noms de fichier longs.</font> Le programme s'ex&eacute;cute. 
+
+  Ouf...!!!</p>
+
+<p><img src="compil-exec.jpg" width="572" height="278"></p>
+
+<p>&nbsp; </p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+</body>
+
+</html>
+

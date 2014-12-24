@@ -1,0 +1,564 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+
+<html>
+
+<head>
+
+       
+
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+       
+
+  <meta name="GENERATOR" content="Mozilla/4.75 [fr] (X11; U; Linux 2.2.17-21mdk i686) [Netscape]">
+
+<title>Comment installer Java sur un PC-Linux ?</title></head>
+
+<body text="#000000" bgcolor="#ffffff" link="#0000ef" vlink="#51188e" alink="#ff0000">
+
+<ol>
+
+
+
+  <center><b><u><font color="#ff0000"><font size="+2">Comment installer Java
+
+sur un PC Linux ?<br>
+
+  <br>
+
+  </font></font></u></b>
+
+  <hr align="Left" width="100%" size="2"></center>
+
+ Cefichier a pour but de vous montrer la marche &agrave; suivre pour installer
+
+et configurer un environnement de d&eacute;veloppent Java viable sur unemachine
+
+tournant sous le syst&egrave;me d'exploitation Linux.<br>
+
+Dans ce tutoriel, nous utiliserons:<br>
+
+- le JDK de Sun, version 1.2.2 disponible &agrave; l'adresse suivante<a href="http://java.sun.com/products/jdk/1.2/download-linux.html">
+
+http://java.sun.com/products/jdk/1.2/download-linux.html</a><br>
+
+- la ligne de commande, normalement disponible &agrave; partir de votrebureau
+
+Linux.<br>
+
+- le logiciel XEmacs, fourni avec la majorit&eacute; des distributionslinux,
+
+disponible &agrave; l'adresse suivante: <a href="http://www.xemacs.org">http://www.xemacs.org</a>
+
+
+
+  <p>NOTE: cette page contient 12 images haute r&eacute;solution et assez
+
+grandes, cela peut prendre du temps &agrave; charger mais nous vous conseillons
+
+n&eacute;anmoins d'attendre car la r&eacute;alisation des &eacute;tapesn&eacute;cessaires
+
+et expliqu&eacute;es n'en sera que plus ais&eacute;e.<br>
+
+  </p>
+
+</ol>
+
+<hr align="Left" width="100%" size="2">
+
+<ol>
+
+
+
+  <p><br>
+
+  </p>
+
+
+
+  <p>Commen&ccedil;ons nos explications:</p>
+
+
+
+  <p><b><u><font color="#ff0000">INSTALLATION</font></u></b></p>
+
+
+
+  <blockquote>1. T&eacute;l&eacute;chargez le JDK, dans la version que vous
+
+voulez (NOTE: &agrave; l'heure actuelle une version 1.3 existe, mais nous
+
+avons choisi la 1.2.2 pour notre tutoriel. Si vous t&eacute;l&eacute;chargez
+
+la 1.3, la proc&eacute;dure d'installation ne sera modifi&eacute;e quepar
+
+le nom des fichiers et des r&eacute;pertoires, jdk1.3 au lieu de&nbsp; jdk1.2.2)</blockquote>
+
+
+
+    <center><img src="http://www.jgflsoft.com/faq/1.jpg" alt="t&eacute;l&eacute;charger et enregistrer sur le disque" height="506" width="708"></center>
+
+
+
+    <blockquote>&nbsp;<br>
+
+La capture d'&eacute;cran montre ici le fichier .tar.gz t&eacute;l&eacute;charg&eacute;
+
+sur le site de Sun (adresse ci-dessus) et enregistr&eacute; sur votre disque
+
+dur, &agrave; l'adresse '/home/guillaume/Downloads/'. Ce sera notre r&eacute;pertoire
+
+par d&eacute;faut pour ce fichier. Vous pouvez bien &eacute;videmment l'enregistrer
+
+o&ugrave; bon vous semble.<br>
+
+&nbsp;
+
+      <p>2. Ensuite il nous faut d&eacute;compresser cette archive, en extraire
+
+les fichiers. Pour cela, ouvrez une fen&ecirc;tre de terminal, placez vous
+
+dans le r&eacute;pertoire o&ugrave; se trouve votre archive &agrave; l'aide
+
+de la commande <b>cd</b>, et d&eacute;compactez-la gr&acirc;ce &agrave;la
+
+commande <b>tar -zxvf</b>.</p>
+
+
+
+      <p>ASTUCE: tapez: 'tar zxvf jdk' puis appuyez sur 'tab' (la touchequi
+
+repr&eacute;sente 2 fl&egrave;che de sens oppos&eacute; sur la gauchedu clavier)
+
+et, normalement, le 'jdk' que vous venez de taper se transformeautomatiquement
+
+en le nom du fichier, c-&agrave;-d ici 'jdk-1_2_2_007-linux-i386.tar.gz'qui
+
+est l&eacute;g&egrave;rement plus contraignant &agrave; taper... Cetteastuce
+
+est couramment utilis&eacute;e par les personnes habitu&eacute;esaux syst&egrave;mes
+
+Unix.&nbsp; </p>
+
+
+
+      <center><img src="http://www.jgflsoft.com/faq/2.jpg" alt="d&eacute;tarer, d&eacute;zipper" height="607" width="588"></center>
+
+      </blockquote>
+
+
+
+      <blockquote>La capture d'&eacute;cran illustre ce qui est expliqu&eacute;
+
+plus haut, et montre la commande exacte &agrave; entrer. Remplacer le nom
+
+du fichier donn&eacute; ici par le nom du votre si celui-ci est diff&eacute;rent.
+
+(en utilisant TAB...)
+
+        <p>Quand vous appuyez sur ENTREE, une liste de fichiers d&eacute;file
+
+dansla console, en voici la fin:(comme vous pouvez le voir sur la capture
+
+d'&eacute;cran l'ascenseur &agrave; droite a consid&eacute;rablement r&eacute;tr&eacute;ci:
+
+tous les fichiers ne sont pas affich&eacute;s sur cet &eacute;cran, maisvous
+
+n'avez normalemnt pas &agrave; vous soucier de cela).<br>
+
+&nbsp;</p>
+
+
+
+        <center><img src="http://www.jgflsoft.com/faq/3.jpg" alt="liste des fichiers du tarball" height="607" width="588"></center>
+
+        </blockquote>
+
+
+
+        <blockquote>Admettons que votre fichier tar.gz se soit trouv&eacute;
+
+dansle r&eacute;pertoire '/home/guillaume/Downloads' comme ici, les fichiers
+
+serons install&eacute;s dans le r&eacute;pertoire '/home/guillaume/Downloads/jdk1.2.2/'.
+
+          <br>
+
+NOTE: nous vous conseillons de l'installer dans '/usr/local/' ou '/home/guillaume'
+
+(o&ugrave; vous remplacerez 'guillaume' par le nom de l'utilisateurvoulu).
+
+
+
+          <p>3. Vous devez ensuite indiquer au syst&egrave;me dans quel r&eacute;pertoire
+
+il trouvera les fichiers binaires que JDK. Ceci se r&eacute;alise &agrave;
+
+l'aide d'un 'path' (<i>chemin</i> en anglais)<i>. </i>L'instruction estla
+
+suivante: <b>export PATH=/home/guillaume/Downloads/jdk1.2.2/bin/:$PATH</b>
+
+          <br>
+
+NOTE: remplacez <b>/home/guillaume/Downloads/</b>par le r&eacute;pertoire
+
+dans lequel est d&eacute;compact&eacute;e votre archive.<br>
+
+&nbsp;</p>
+
+
+
+          <center><img src="http://www.jgflsoft.com/faq/4.jpg" alt="" height="506" width="708"></center>
+
+
+
+          <p><br>
+
+Voici la liste des fichiers qui doivent normalement se trouver dansle r&eacute;pertoire
+
+/bin/ de votre JDK. (ci-dessus)<br>
+
+&nbsp;<br>
+
+&nbsp;</p>
+
+
+
+          <center><img src="http://www.jgflsoft.com/faq/5.jpg" alt="" height="607" width="602"></center>
+
+
+
+          <blockquote>Et voici l'instruction &agrave; taper pour d&eacute;finir
+
+une'PATH'. (ci-dessus)<br>
+
+
+
+            <hr align="Left" width="100%" size="2"><br>
+
+            </blockquote>
+
+            </blockquote>
+
+
+
+            <p><b><u><font color="#ff0000">UTILISATION</font></u></b><br>
+
+&nbsp;</p>
+
+
+
+            <blockquote>1. Ecriture d'un programme<br>
+
+Nous consid&egrave;rerons ici que vous ne poss&eacute;dez pas d'IDEJava install&eacute;
+
+sur votre machine, que vous venez juste d'installerLinux et que l'&eacute;diteur
+
+XEmacs est install&eacute; sur votre syst&egrave;me.(Il est fourni, le plus
+
+souvent install&eacute; par d&eacute;faut, avecle plupart des distributions,
+
+si ce n'est toutes).Je vous conseille cependant d'installer JBuilder ou Forte
+
+si vous vous lancez dans la conception d'interfaces graphiques compliqu&eacute;es
+
+ou si vous d&eacute;sirez avoir des options d'exportation et d'internationalisation
+
+plus avanc&eacute;es.<br>
+
+Nous commen&ccedil;ons donc par lancer cet &eacute;diteur- emacs-, par la
+
+lignede commande ou par un menu de votre interface graphique (ici, KDE sous
+
+Linux Mandrake 7.2).
+
+              <center>
+
+              <p><img src="http://www.jgflsoft.com/faq/6.jpg" height="608" width="588"><br>
+
+Ci-dessus: ouvrez une fen&ecirc;tre de terminal et tapez simplement <b>xemacs</b>
+
+, le programme devrait se lancer. (OPTIONNEL: Si vous d&eacute;sirez sauvegarder
+
+&agrave; l'aide de Emacs des fichiers dans des r&eacute;pertoires de votre
+
+machine appartenant &agrave; l'utilisateur root (par exemple /usr/ ou /var/),
+
+tapez <b>su</b>, puis le mot de passe de root. Poursuivez ensuite avec la
+
+commande <b>xemacs</b> qui sera alors lanc&eacute; avec les droits du root.
+
+)<br>
+
+              </p>
+
+
+
+              <p><img src="http://www.jgflsoft.com/faq/7.jpg" height="768" width="1024"></p>
+
+              </center>
+
+              </blockquote>
+
+
+
+              <blockquote>Vous pouvez aussi passer par un menu pour ouvrir
+
+XEmacs.<br>
+
+                <br>
+
+                <br>
+
+2. XEmacs ouvert, nous pouvons taper notre code, et profiter de lacolorisation
+
+automatique du code ainsi que de l'indentation automatique(entre autres)r&eacute;alis&eacute;es
+
+automatiquement par Emacs.<br>
+
+Voici ce que &ccedil;a donne:
+
+                <center>
+
+                <p><img src="http://www.jgflsoft.com/faq/8.jpg" height="672" width="592"></p>
+
+                </center>
+
+                </blockquote>
+
+
+
+                <blockquote>3. Compiler et lancer le programme<br>
+
+Nous pouvons compiler et lancer le programme par XEmacs, mais celadonnerait
+
+lieu &agrave; des param&eacute;trages qui ne concernent pas notresujet. Nous
+
+nous contenterons donc de compiler et de lancher notre programmeen lignede
+
+commande.<br>
+
+                  <br>
+
+Une fois le code visible dans la fen&ecirc;tre XEmacs ci-dessus reproduit
+
+&agrave; l'identique, vous pouvez sauvegarder votre fichier (sous le m&ecirc;me
+
+nom que la classe principale, c-&agrave;-d sous le nom de "test.java",entenant
+
+compte de la casse).<br>
+
+                  <br>
+
+Une fois le fichier sauvegard&eacute;, il faudra ouvrir une fen&ecirc;tre
+
+de terminal, se d&eacute;placer jusqu'au r&eacute;pertoire o&ugrave; sesitue
+
+le fichier "test.java" &agrave; l'aide de la command <b>cd</b>, etle compiler
+
+&agrave; l'aide de la commande <b>javac</b>.<br>
+
+                  <br>
+
+Dans notre cas la syntaxe est la suivante: <b>javac test.java.</b><br>
+
+                  <br>
+
+&nbsp;Si aucun message n'est renvoy&eacute;, la compilation a r&eacute;ussi.
+
+Pour lancer le programme il suffit d'utiliser la commande <b>java</b>,dela
+
+mani&egrave;re suivante: <b>java test</b> ('test' est le nom du fichier.class
+
+cr&eacute;&eacute; par le compileur).<br>
+
+                  <br>
+
+La capture d'&eacute;cran ci-dessous montre comment faire:
+
+
+
+                  <center>
+
+                  <p><img src="http://www.jgflsoft.com/faq/12.jpg" height="607" width="588"><br>
+
+                  </p>
+
+
+
+                  <hr align="Left" width="100%" size="2">
+
+
+
+                  <p><br>
+
+                  </p>
+
+                  </center>
+
+                  </blockquote>
+
+
+
+                  <p><b><u><font color="#ff0000">PARAMETRAGE</font></u></b><b><u>
+
+ (optionnel!)</u></b></p>
+
+
+
+                  <p><font color="#000000">Nous allons pr&eacute;senter ici
+
+un des param&eacute;tragesutiles du JDK. Nous allons vous montrer comment
+
+configurer KDE (la proc&eacute;durepour Gnome ou un autre window managersera
+
+l&eacute;g&egrave;rement diff&eacute;rente)pour ex&eacute;cuter un programme
+
+Java d'un seul clic.</font></p>
+
+
+
+                  <p><font color="#000000">Pour cela nous devons cr&eacute;er
+
+un fichierJAR EXECUTABLE (la plupart des IDE permettent de le faire dansleur
+
+commanded'exportation), et assigner un "ligne de conduite" que KDE devrasuivrequand
+
+l'on cliquera sur un tel fichier.</font></p>
+
+
+
+                  <p><font color="#000000">La proc&eacute;dure est la suivante:</font>
+
+                  <br>
+
+                  <font color="#000000">- ouvrir le "Panneau de contr&ocirc;le"</font>
+
+                  <br>
+
+                  <font color="#000000">- se placer dans le nemu "Applications"
+
+-&gt; "Associationsdes types de fichiers"</font><br>
+
+                  <font color="#000000">- d&eacute;finir un programme d'ouverture
+
+pard&eacute;faut, ici le programme /<b>../jdk1.2.2/bin/java -jar</b>, pour
+
+les fichiers JAR</font><br>
+
+                  <font color="#000000">- enregsitrer les changements etquitter.</font></p>
+
+
+
+                  <p><font color="#000000">La proc&eacute;dure en images:</font>
+
+                  </p>
+
+
+
+                  <center>
+
+                  <p><img src="http://www.jgflsoft.com/faq/9.jpg" height="768" width="1024"></p>
+
+                  </center>
+
+
+
+                </ol>
+
+
+
+                <div align="Left">
+
+                <div align="Left">
+
+                <center>
+
+                <p>Vous trouverez l'entr&eacute;e <b>x-jar</b> dans <b>x-all</b>
+
+ ou <b>x-applications</b>.</p>
+
+                </center>
+
+                </div>
+
+                <br>
+
+                </div>
+
+
+
+                <div align="Center">
+
+                <center>
+
+                <p><img src="http://www.jgflsoft.com/faq/10.jpg" height="586" width="976"></p>
+
+                </center>
+
+                </div>
+
+
+
+                <ol>
+
+
+
+                  <p>Cliquez sur le bouton "Ajouter" dans le panel "Applications
+
+par ordrede pr&eacute;f&eacute;rence".<br>
+
+La fen&ecirc;tre repr&eacute;sent&eacute;e ci-dessous s'ouvre.</p>
+
+
+
+                  <center>
+
+                  <p><img src="http://www.jgflsoft.com/faq/11.jpg" height="398" width="321"></p>
+
+                  </center>
+
+
+
+                  <p>Vous devez inscrire le chemin exact vers le fichier'java'
+
+et rajouterl'option '-jar'.</p>
+
+
+
+                  <p>Cliquez sur OK, c'est termin&eacute; !&nbsp; </p>
+
+
+
+                </ol>
+
+
+
+                <hr align="Left" width="100%" size="2">
+
+<ol>
+
+  <p><br>
+
+    Tutoriel distribu&eacute; pour le FAQ Java de Java-France <a href="http://www.java-france.com" target="_new">www.java-france.com</a>
+
+    <a href="http://www.jgflsoft.com"> / www.jgflsoft.com</a><br>
+
+    Pour toute information sur cet article, &eacute;crire &agrave;<a href="mailto:narcanes@online.fr">
+
+    narcanes@online.fr</a><br>
+
+    Ecrit &agrave; Montpellier le 14 mars 2001<br>
+
+    &nbsp;<br>
+
+    &nbsp;</p>
+
+</ol>
+
+
+
+                </body>
+
+                </html>
+
