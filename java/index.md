@@ -2,7 +2,7 @@
 layout: page
 status: publish
 published: true
-title: Cours Java
+title: Java
 author:
   display_name: GF
   login: gflorimond
