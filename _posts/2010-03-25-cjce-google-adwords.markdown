@@ -143,8 +143,8 @@ Qualifiant le défendeur d’hébergeur, en retenant qu’il n’est pas personn
 <p>Cette décision de la Cour de cassation est récente, et en contradiction avec la jurisprudence des juridictions du fond, qui s'est progressivement constituée depuis 2007. Il est donc trop tôt pour dire si cette nouvelle jurisprudence de la Cour de cassation perdurera. La question demeure ainsi posée : un opérateur dont l’activité suppose non seulement le stockage du contenu, mais aussi le contrôle des modalités de sa diffusion, doit-il bénéficier du régime de responsabilité spécial des intermédiaires techniques au motif qu’il n’est ni l’auteur du contenu, ni à l’origine de sa diffusion ? Sinon, dans quelle mesure peut-on considérer que le contrôle des modalités de diffusion du contenu devient un contrôle indirect du contenu lui-même ? Ce sera à la jurisprudence des États membre de répondre à ces questions.</p>
 <hr />
 Texte intégral de l'arrêt :<br />
-- <a href="https://docs.google.com/viewer?url=http://www.valhalla.fr/wp-content/uploads/2010/03/CJCE-Google-AdWords.pdf&pli=1">Voir en ligne</a> [Google Docs]<br />
-- <a href='http://www.valhalla.fr/wp-content/uploads/2010/03/CJCE-Google-AdWords.pdf'>Téléchargement direct</a> [fichier PDF, 161.4 Ko]</p>
+- <a href="https://docs.google.com/viewer?url=http://www.valhalla.fr/public/posts/2010-03-25-google-adwords/CJCE-Google-AdWords.pdf&pli=1">Voir en ligne</a> [Google Docs]<br />
+- <a href='/public/posts/2010-03-25-google-adwords/CJCE-Google-AdWords.pdf'>Téléchargement direct</a> [fichier PDF, 161.4 Ko]</p>
 <hr />
 A Montpellier, le 25 mars 2010.</p>
 <p>Citation : <em>Guillaume Florimond, Google Ad Words devant la Cour de justice des communautés européennes (observations à propos de l'arrêt du 23 mars 2010), Valhalla.fr [En Ligne] : &lt;http://www.valhalla.fr/2010/03/25/cjce-google-adwords/&gt;</em></p>

@@ -44,8 +44,8 @@ Sans rentrer dans des questions qui relèvent de la philosophie du logiciel libr
 <p>Le premier exemple est celui du « dock » emblématique de Mac OS X. Ce dock vient du monde Unix : il est issu du système NextStep, racheté par Apple au moment du retour de Steve Jobs à la tête de la société, puis utilisé pour bâtir Mac OS X. Le dock existe donc dans les copies pour Linux du gestionnaire de fenêtre de NextStep, notamment windowmaker. Mais il existe aussi pour les environnements de bureau plus modernes et plus « user friendly », comme Gnome, sous la forme de logiciels additionnels (AWN, Cairo Dock, etc.). Le concept de dock a également fait son apparition sous Windows Seven, dans une version à mi-chemin entre le dock de Mac OS X et la barre des tâches de Windows 95 et suivants.</p>
 <table style="border:0px;width:80%;">
 <tr>
-<td><a href="http://www.valhalla.fr/wp-content/uploads/2010/05/dock_m.jpg"><img src="http://www.valhalla.fr/wp-content/uploads/2010/05/dock_m-150x136.jpg" alt="Mac OS X Dock" title="dock_m" width="150" height="136" class="aligncenter size-thumbnail wp-image-562" /></a></td>
-<td><a href="http://www.valhalla.fr/wp-content/uploads/2010/05/dock_u.jpg"><img src="http://www.valhalla.fr/wp-content/uploads/2010/05/dock_u-150x96.jpg" alt="Ubuntu AWN Dock" title="dock_u" width="150" height="96" class="aligncenter size-thumbnail wp-image-563" /></a></td>
+<td><a href="/public/posts/2010-05-01-ubuntu-vs-mac/dock_m.jpg"><img src="/public/posts/2010-05-01-ubuntu-vs-mac/dock_m-150x136.jpg" alt="Mac OS X Dock" title="dock_m" width="150" height="136" class="aligncenter size-thumbnail wp-image-562" /></a></td>
+<td><a href="/public/posts/2010-05-01-ubuntu-vs-mac/dock_u.jpg"><img src="/public/posts/2010-05-01-ubuntu-vs-mac/dock_u-150x96.jpg" alt="Ubuntu AWN Dock" title="dock_u" width="150" height="96" class="aligncenter size-thumbnail wp-image-563" /></a></td>
 </tr>
 <tr>
 <td style="text-align:center;">Dock Mac OS X</td>
@@ -57,8 +57,8 @@ Sans rentrer dans des questions qui relèvent de la philosophie du logiciel libr
 <p>Si l'on regarde l'explorateur de fichiers d'Ubuntu, Nautilus, on constate une similarité avec le Finder de Mac OS X : la fenêtre est séparée verticalement en deux parties, à droite les fichiers, à gauche une barre de « raccourcis » avec la liste de certains emplacements sélectionnés en fonction d'un certain type de contenu : Vidéos, Musique, Documents, etc. Cela n'est pas une nouveauté de Lucid Lynx, cette fonction est présente dans Nautilus (et dans d'autres gestionnaires de fichiers) depuis longtemps. De la même manière, elle a fait son apparition sous Windows avec Vista.</p>
 <table style="border:0px;width:80%;">
 <tr>
-<td><a href="http://www.valhalla.fr/wp-content/uploads/2010/05/finder_m.jpg"><img src="http://www.valhalla.fr/wp-content/uploads/2010/05/finder_m-150x150.jpg" alt="Mac OS X (Snow Leopard) Finder" title="finder_m" width="150" height="150" class="aligncenter size-thumbnail wp-image-566" /></a></td>
-<td><a href="http://www.valhalla.fr/wp-content/uploads/2010/05/finder_u.jpg"><img src="http://www.valhalla.fr/wp-content/uploads/2010/05/finder_u-150x150.jpg" alt="Ubuntu Nautilus" title="finder_u" width="150" height="150" class="aligncenter size-thumbnail wp-image-567" /></a></td>
+<td><a href="/public/posts/2010-05-01-ubuntu-vs-mac/finder_m.jpg"><img src="/public/posts/2010-05-01-ubuntu-vs-mac/finder_m-150x150.jpg" alt="Mac OS X (Snow Leopard) Finder" title="finder_m" width="150" height="150" class="aligncenter size-thumbnail wp-image-566" /></a></td>
+<td><a href="/public/posts/2010-05-01-ubuntu-vs-mac/finder_u.jpg"><img src="/public/posts/2010-05-01-ubuntu-vs-mac/finder_u-150x150.jpg" alt="Ubuntu Nautilus" title="finder_u" width="150" height="150" class="aligncenter size-thumbnail wp-image-567" /></a></td>
 </tr>
 <tr>
 <td style="text-align:center;">Mac OX X Finder</td>
@@ -69,8 +69,8 @@ Sans rentrer dans des questions qui relèvent de la philosophie du logiciel libr
 <p>Dernier exemple –bien que l'on pourrait en trouver de nombreux autres– : la fonction « exposé », qui existe dans Mac OS X depuis plusieurs années, et qui s'apprête à faire son apparition dans Gnome 3 sous la forme du Gnome Shell. Cette fonction est déjà disponible dans Lucid Lynx : on y accède par le raccourci clavier <i>Touche Windows + W</i> (ou <i>Command + W</i> pour les claviers Mac). On peut également paramétrer Compiz pour afficher un « exposé » des bureaux virtuels, et assigner un coin d'écran actif à cette fonction, comme sur Mac. Cela non plus n'est pas nouveau.</p>
 <table style="border:0px;width:80%;">
 <tr>
-<td><a href="http://www.valhalla.fr/wp-content/uploads/2010/05/expm.jpg"><img src="http://www.valhalla.fr/wp-content/uploads/2010/05/expm-150x150.jpg" alt="Mac OS X Exposé" title="expm" width="150" height="150" class="aligncenter size-thumbnail wp-image-564" /></a></td>
-<td><a href="http://www.valhalla.fr/wp-content/uploads/2010/05/expu.jpg"><img src="http://www.valhalla.fr/wp-content/uploads/2010/05/expu-150x150.jpg" alt="Ubuntu Exposé" title="expu" width="150" height="150" class="aligncenter size-thumbnail wp-image-565" /></a></td>
+<td><a href="/public/posts/2010-05-01-ubuntu-vs-mac/expm.jpg"><img src="/public/posts/2010-05-01-ubuntu-vs-mac/expm-150x150.jpg" alt="Mac OS X Exposé" title="expm" width="150" height="150" class="aligncenter size-thumbnail wp-image-564" /></a></td>
+<td><a href="/public/posts/2010-05-01-ubuntu-vs-mac/expu.jpg"><img src="/public/posts/2010-05-01-ubuntu-vs-mac/expu-150x150.jpg" alt="Ubuntu Exposé" title="expu" width="150" height="150" class="aligncenter size-thumbnail wp-image-565" /></a></td>
 </tr>
 <tr>
 <td style="text-align:center;">Mac OS X Exposé</td>

@@ -93,7 +93,35 @@ tags:
 <p>A noter qu'il est possible de rendre une page modifiable dans son ensemble, par JavaScript, grâce à l'instruction suivante :<br />
 <code>document.designMode = 'true'</code></p>
 <p>La page est terminée. Notre paragraphe peut être édité et les modifications sont récupérées par Javascript lorsque l'utilisateur les valide en sortant de la zone modifiable.</p>
-<p><a href='http://www.valhalla.fr/wp-content/uploads/2010/04/test.html.txt'>Voir le code source complet de la page test.html</a></p>
+
+{%highlight html%}
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>test html5</title>
+	<script type="text/javascript" charset="utf-8">
+		function $(element) { return document.getElementById(element) }
+		function $H(element) { return $(element).innerHTML }
+		function test() { alert($H('test')) }
+	</script>
+</head>
+
+<body>
+<p id="test" contenteditable="true">
+	Lorem Impsum...
+</p>
+</body>
+
+<script type="text/javascript" charset="utf-8">
+	$('test').addEventListener("blur", test, false)
+	$('test').spellcheck = 'true'
+</script>
+
+</html>
+{%endhighlight%}
+
 <h2>Enregistrer les modifications avec Ajax</h2>
 <p>Dans l'exemple précédent, le nouveau contenu du paragraphe est simplement affiché dans une boîte de dialogue modale -- <em>alert()</em> -- : c'est tout ce que fait la fonction <strong>test()</strong>. Mais il est bien entendu possible de modifier cette fonction, afin d'enregistrer le nouveau contenu dans une base de données. Une requête AJAX serait particulièrement adaptée à cela.</p>
 <p>Il existe de nombreux frameworks Ajax. Pour n'en citer que trois, parmi les plus célèbres : <a href="http://jquery.com/">jQuery</a>, <a href="http://www.prototypejs.org/">Prototype</a>, <a href="http://mootools.net/">MooTools</a>. Chacun a sa propre syntaxe ; c'est pourquoi il est difficile --- et inutile -- de créer ici un exemple qui conviendra à tous les lecteurs.</p>

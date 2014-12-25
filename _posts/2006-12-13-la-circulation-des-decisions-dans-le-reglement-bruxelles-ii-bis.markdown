@@ -28,7 +28,7 @@ tags:
 <blockquote>
 <p style="color:#F66">Article publié à l'origine sur Intlex.org, puis recopié sur Valhalla.fr à la fermeture du site.</p>
 </blockquote>
-<h1><center><a href="http://www.valhalla.fr/wp-content/uploads/2010/03/La_circulation_des_decisions_dans_le_reglement_Bruxelles_II_bis.pdf">Télécharger le document</a></center></h1>
+<h1><center><a href="/public/posts/2006-12-13-bruxellesiibis/La_circulation_des_decisions_dans_le_reglement_Bruxelles_II_bis.pdf">Télécharger le document</a></center></h1>
 <p>&nbsp;</p>
 <p style="margin: 18.0px 0.0px 0.0px 0.0px; font: 12.0px Arial;"><b>Les instruments du règlement « Bruxelles II bis » facilitant la circulation des décisions dans l'espace judiciaire commun<span style="white-space:pre;">	</span></b></p>
 <p style="margin: 18.0px 0.0px 0.0px 0.0px; font: 12.0px Arial;"><b>I.</b><span style="font: 12.0px Times New Roman;"><span style="white-space:pre;">	</span></span><b>La reconnaissance des décisions s'inscrivant dans le champ d'application du règlement « Bruxelles II bis »<span style="white-space:pre;">	</span></b></p>

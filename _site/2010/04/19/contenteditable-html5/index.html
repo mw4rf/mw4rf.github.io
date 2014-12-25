@@ -47,7 +47,7 @@
           
         
           
-          <a class="page-link" href="/articles-essentiels/index.html">Articles essentiels</a>
+          <a class="page-link" href="/archives/index.html">Archives</a>
           
         
           
@@ -55,7 +55,7 @@
           
         
           
-          <a class="page-link" href="/archives/index.html">Archives</a>
+          <a class="page-link" href="/articles-essentiels/index.html">Articles essentiels</a>
           
         
           
@@ -245,7 +245,35 @@
 <p>A noter qu'il est possible de rendre une page modifiable dans son ensemble, par JavaScript, grâce à l'instruction suivante :<br />
 <code>document.designMode = 'true'</code></p>
 <p>La page est terminée. Notre paragraphe peut être édité et les modifications sont récupérées par Javascript lorsque l'utilisateur les valide en sortant de la zone modifiable.</p>
-<p><a href="http://www.valhalla.fr/wp-content/uploads/2010/04/test.html.txt">Voir le code source complet de la page test.html</a></p>
+
+
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+
+<span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">&quot;en&quot;</span><span class="nt">&gt;</span>
+<span class="nt">&lt;head&gt;</span>
+	<span class="nt">&lt;meta</span> <span class="na">http-equiv=</span><span class="s">&quot;Content-Type&quot;</span> <span class="na">content=</span><span class="s">&quot;text/html; charset=utf-8&quot;</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;title&gt;</span>test html5<span class="nt">&lt;/title&gt;</span>
+	<span class="nt">&lt;script </span><span class="na">type=</span><span class="s">&quot;text/javascript&quot;</span> <span class="na">charset=</span><span class="s">&quot;utf-8&quot;</span><span class="nt">&gt;</span>
+		<span class="kd">function</span> <span class="nx">$</span><span class="p">(</span><span class="nx">element</span><span class="p">)</span> <span class="p">{</span> <span class="k">return</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="nx">element</span><span class="p">)</span> <span class="p">}</span>
+		<span class="kd">function</span> <span class="nx">$H</span><span class="p">(</span><span class="nx">element</span><span class="p">)</span> <span class="p">{</span> <span class="k">return</span> <span class="nx">$</span><span class="p">(</span><span class="nx">element</span><span class="p">).</span><span class="nx">innerHTML</span> <span class="p">}</span>
+		<span class="kd">function</span> <span class="nx">test</span><span class="p">()</span> <span class="p">{</span> <span class="nx">alert</span><span class="p">(</span><span class="nx">$H</span><span class="p">(</span><span class="s1">&#39;test&#39;</span><span class="p">))</span> <span class="p">}</span>
+	<span class="nt">&lt;/script&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+
+<span class="nt">&lt;body&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">id=</span><span class="s">&quot;test&quot;</span> <span class="na">contenteditable=</span><span class="s">&quot;true&quot;</span><span class="nt">&gt;</span>
+	Lorem Impsum...
+<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+
+<span class="nt">&lt;script </span><span class="na">type=</span><span class="s">&quot;text/javascript&quot;</span> <span class="na">charset=</span><span class="s">&quot;utf-8&quot;</span><span class="nt">&gt;</span>
+	<span class="nx">$</span><span class="p">(</span><span class="s1">&#39;test&#39;</span><span class="p">).</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s2">&quot;blur&quot;</span><span class="p">,</span> <span class="nx">test</span><span class="p">,</span> <span class="kc">false</span><span class="p">)</span>
+	<span class="nx">$</span><span class="p">(</span><span class="s1">&#39;test&#39;</span><span class="p">).</span><span class="nx">spellcheck</span> <span class="o">=</span> <span class="s1">&#39;true&#39;</span>
+<span class="nt">&lt;/script&gt;</span>
+
+<span class="nt">&lt;/html&gt;</span></code></pre></div>
+
+
 <h2>Enregistrer les modifications avec Ajax</h2>
 <p>Dans l'exemple précédent, le nouveau contenu du paragraphe est simplement affiché dans une boîte de dialogue modale -- <em>alert()</em> -- : c'est tout ce que fait la fonction <strong>test()</strong>. Mais il est bien entendu possible de modifier cette fonction, afin d'enregistrer le nouveau contenu dans une base de données. Une requête AJAX serait particulièrement adaptée à cela.</p>
 <p>Il existe de nombreux frameworks Ajax. Pour n'en citer que trois, parmi les plus célèbres : <a href="http://jquery.com/">jQuery</a>, <a href="http://www.prototypejs.org/">Prototype</a>, <a href="http://mootools.net/">MooTools</a>. Chacun a sa propre syntaxe ; c'est pourquoi il est difficile --- et inutile -- de créer ici un exemple qui conviendra à tous les lecteurs.</p>

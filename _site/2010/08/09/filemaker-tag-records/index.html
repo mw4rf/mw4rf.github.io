@@ -47,7 +47,7 @@
           
         
           
-          <a class="page-link" href="/articles-essentiels/index.html">Articles essentiels</a>
+          <a class="page-link" href="/archives/index.html">Archives</a>
           
         
           
@@ -55,7 +55,7 @@
           
         
           
-          <a class="page-link" href="/archives/index.html">Archives</a>
+          <a class="page-link" href="/articles-essentiels/index.html">Articles essentiels</a>
           
         
           
@@ -187,7 +187,7 @@
 
   <article class="post-content">
     <p>Filemaker est un logiciel puissant, mais ancien et dont l'ergonomie a peu évolué. Depuis quelques années, des systèmes de "tags" ou mots-clés sont apparus dans la plupart des logiciels permettant de gérer des données. Filemaker n'offre aucun système de tags pour classer ses enregistrements, mais il permet d'implémenter un tel système soi-même. Cet article a pour but de décrire une des nombreuses manière de procéder pour y parvenir.</p>
-<p><a id="more"></a><a id="more-626"></a></p>
+
 <h2>Logique relationnelle</h2>
 <p>Pour les besoins de l'exemple, on prendra une base de données très simple : une table contient des articles, et l'on doit pouvoir ajouter des tags à ces articles. Il faut donc, pour commencer, deux tables : une table pour les articles, et une table pour les tags. </p>
 <p>La table "Articles" contient 3 colonnes (ou "rubriques") : une colonne <b>id</b> contenant un numéro de série (clé primaire) auto-incrémenté et non modifiable par l'utilisateur ; une colonne <b>Titre</b> pour stocker le titre de chaque article et une colonne <b>Texte</b> pour en stocker le contenu. La table "Tags" contient 2 colonnes : une colonne <b>id</b>, comme pour la table Articles, et une colonne <b>Tag</b> destinée à contenir le mot-clé.</p>
@@ -213,7 +213,7 @@
 <li><b>Articles::id</b> =&gt; <b>join_table::article_id</b></li>
 <li><b>join_table::tag</b> =&gt; <b>Tags::Tag</b></li>
 </ul>
-<p>[caption id="attachment_634" align="aligncenter" width="563" caption="Liens avec la join table"]<a href="http://www.valhalla.fr/wp-content/uploads/2010/08/Filemaker-Tags-1.png"><img src="http://www.valhalla.fr/wp-content/uploads/2010/08/Filemaker-Tags-1.png" alt="" title="Filemaker Tags 1" width="563" height="163" class="size-full wp-image-634" /></a>[/caption]</p>
+<p><a href="/public/posts/2010-08-09-filemaker/Filemaker-Tags-1.png"><img src="/public/posts/2010-08-09-filemaker/Filemaker-Tags-1.png" alt="" title="Filemaker Tags 1" width="563" height="163" class="size-full wp-image-634" /></a></p>
 <h2>Modèles</h2>
 <p>Un seul modèle sera modifié : le modèle correspondant à la table <i>Articles</i>, sur lequel on associera les tags à l'article actif. Il est cependant nécessaire de conserver les modèles relatifs aux deux autres tables, avec des champs de texte correspondant à chaque rubrique de ces tables, car ils seront utilisés dans des scripts.</p>
 <p>Sur le modèle de la table Article, on veut pouvoir ajouter des tags à l'article actif, d'une certaine manière et sous certaines conditions. </p>
@@ -225,7 +225,7 @@
 </ol>
 <p>Pour satisfaire ces conditions, le mieux est de créer un <i>portail</i> qui affiche les enregistrements de la table <b>join_table</b> et qui contient un champ correspondant à la rubrique <b>tag</b> de cette table.</p>
 <p>On crée ensuite un bouton pour afficher la liste des articles correspondant au tag choisi. Ce bouton doit lancer l'action <i>Activer enregistrements liés</i> dans le modèle <i>Tags</i>.</p>
-<p>[caption id="attachment_637" align="aligncenter" width="499" caption="Affichage du portail et des tags liés"]<a href="http://www.valhalla.fr/wp-content/uploads/2010/08/Filemaker-Tags-2.png"><img src="http://www.valhalla.fr/wp-content/uploads/2010/08/Filemaker-Tags-2.png" alt="" title="Filemaker Tags 2" width="499" height="298" class="size-full wp-image-637" /></a>[/caption]</p>
+<p><a href="/public/posts/2010-08-09-filemaker/Filemaker-Tags-2.png"><img src="/public/posts/2010-08-09-filemaker/Filemaker-Tags-2.png" alt="" title="Filemaker Tags 2" width="499" height="298" class="size-full wp-image-637" /></a></p>
 <h2>Scripts</h2>
 <p>Les scripts permettent de mettre en oeuvre la logique comportementale du logiciel. Ce sont eux qui réalisent les opérations permettant de créer de nouveaux tags automatiquement, et d'associer les tags aux articles.</p>
 <p>La logique des scripts est la suivante :</p>
@@ -293,7 +293,7 @@
 <p>Cette solution, pour rajouter un système de mots-clés dans les bases de données Filemaker, n'est pas la seule qui existe. </p>
 <p>On pourrait imaginer un système différent, et certainement plus cohérent d'un point de vue de logique relationnelle : une table <i>Globals</i> contenant une colonne <i>tag</i> avec stockage global ; un champ de texte représentant le contenu de cette colonne sur le modèle <i>Articles</i> et un script qui rajoute le mot-clé de ce champ de texte dans la <i>join table</i>. On pourrait ainsi laisser Filemaker créer lui-même les nouveaux enregistrements, par le biais du lien entre les tables. La <i>join table</i> pourrait être plus classique, et contenir deux <i>foreign keys</i> : <i>article_id</i> et <i>tag_id</i>, au lieu de la rubrique <i>tag</i> qui contient le texte complet du mot-clé. </p>
 <p>On doit également pouvoir imaginer d'autres variantes. Le système présenté ici étant très basique, chaque lecteur pourra concevoir sa propre variante, en modifiant le comportement des scripts, en rajoutant des conditions et des contrôles, etc. La base de données exemple élaborée dans cet article peut être téléchargée en suivant le lien ci-dessous ; elle fournira un premier support à ceux qui voudront aller plus loin en adaptant le système de tags à leurs besoins.</p>
-<p>[caption id="attachment_642" align="aligncenter" width="119" caption="Télécharger le fichier exemple"]<a href="http://www.valhalla.fr/wp-content/uploads/2010/08/tags_demo.fp7_.zip"><img src="http://www.valhalla.fr/wp-content/uploads/2010/08/tags_demo_icon.png" alt="" title="tags_demo_icon" width="119" height="88" class="size-full wp-image-642" /></a>[/caption]</p>
+<p><a href="/public/posts/2010-08-09-filemaker/tags_demo.fp7_.zip"><img src="/public/posts/2010-08-09-filemaker/tags_demo_icon.png" alt="" title="tags_demo_icon" width="119" height="88" class="size-full wp-image-642" /></a></p>
 </li></ul></p></p></p>
 
   </article>

@@ -66,4 +66,4 @@ tags:
 <p>On choisira l'action <i>Ouvrir le fichier</i> et on sélectionnera le fichier d'application créé à l'étape précédente. On définira ensuite la périodicité de cet événement.</p>
 <p>NB : le lancement de l'application par iCal étant la manifestation d'une alarme, programmée X minutes avant le début de l'événement, il faudra faire débuter l'événement à H+X minutes pour que l'e-mail soit envoyé à l'heure H voulue. Sur l'image précédente, événement à 12h15, rappel 15 minutes avant le début, e-mail envoyé à 12h00.</p>
 <p>C'est tout !</p>
-<p>Vous pouvez télécharger le script pour Automator (Leopard) et le modifier à votre guise : <a href='http://www.valhalla.fr/wp-content/uploads/2008/08/checkraid.zip'>CheckRaid</a></p>
+<p>Vous pouvez télécharger le script pour Automator (Leopard) et le modifier à votre guise : <a href='/public/posts/2008-08-31-checkraid/checkraid.zip'>CheckRaid</a></p>

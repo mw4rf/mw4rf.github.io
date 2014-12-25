@@ -47,7 +47,7 @@
           
         
           
-          <a class="page-link" href="/articles-essentiels/index.html">Articles essentiels</a>
+          <a class="page-link" href="/archives/index.html">Archives</a>
           
         
           
@@ -55,7 +55,7 @@
           
         
           
-          <a class="page-link" href="/archives/index.html">Archives</a>
+          <a class="page-link" href="/articles-essentiels/index.html">Articles essentiels</a>
           
         
           
@@ -357,7 +357,79 @@
 <p>
 	Cette méthode d’affichage d’une barre de progression est mise en œuvre dans <a href="http://asgard.valhalla.fr/nat.php">le script Valhalla NatTest</a> que vous pouvez utiliser en guise de démonstration (choisissez une plage d’au moins 20 ports en TCP).</p>
 <p>
-	<strong>Un exemple de mise en oeuvre de la barre de progression décrite ci-dessus est disponible [<a href="http://www.valhalla.fr/ressources/php-wait-screen-demo.php">sur cette page</a>], vous pouvez aussi afficher [<a href="http://www.valhalla.fr/ressources/php-wait-screen-demo-source.txt">le code source</a>] de l'exemple.</strong></p>
+	<strong>Un exemple de mise en oeuvre de la barre de progression décrite ci-dessus est disponible <a href="http://www.valhalla.fr/ressources/php-wait-screen-demo.php">sur cette page</a>.
+
+
+
+<div class="highlight"><pre><code class="language-php" data-lang="php"><span class="x">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;</span>
+<span class="x">	&quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;</span>
+
+<span class="x">&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;en&quot; lang=&quot;en&quot;&gt;</span>
+<span class="x">&lt;head&gt;</span>
+<span class="x">	&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot;/&gt;</span>
+<span class="x">&lt;/title&gt;</span>
+<span class="x">&lt;/head&gt;</span>
+
+<span class="x">&lt;div id=&quot;conteneur&quot; style=&quot;display:none; background-color:transparent; position:absolute; top:100px; left:5%; margin-right:5%; height:50px; width:90%; border:1px solid #000000;&quot;&gt;</span>
+<span class="x">	&lt;div id=&quot;barre&quot; style=&quot;display:block; background-color:#CCCCCC; width:0%; height:100%;&quot;&gt;</span>
+<span class="x">		&lt;div id=&quot;pourcentage&quot; style=&quot;text-align:right; height:100%; font-size:1.8em;&quot;&gt;</span>
+<span class="x">			&amp;nbsp;</span>
+<span class="x">		&lt;/div&gt;</span>
+<span class="x">	&lt;/div&gt;</span>
+<span class="x">&lt;/div&gt;</span>
+
+<span class="x">&lt;body&gt;</span>
+<span class="x">	</span>
+<span class="x">&lt;p&gt;Barre de progression PHP : Demonstration&lt;/p&gt;</span>
+<span class="x">	</span>
+<span class="cp">&lt;?php</span>
+
+<span class="k">echo</span> <span class="s2">&quot;&lt;script&gt;&quot;</span><span class="p">;</span>
+	<span class="k">echo</span> <span class="s2">&quot;document.getElementById(&#39;conteneur&#39;).style.display = </span><span class="se">\&quot;</span><span class="s2">block</span><span class="se">\&quot;</span><span class="s2">;&quot;</span><span class="p">;</span>
+<span class="k">echo</span> <span class="s2">&quot;&lt;/script&gt;&quot;</span><span class="p">;</span>
+<span class="nb">ob_flush</span><span class="p">();</span>
+<span class="nb">flush</span><span class="p">();</span>
+<span class="nb">ob_flush</span><span class="p">();</span>
+<span class="nb">flush</span><span class="p">();</span>
+
+<span class="nv">$x</span> <span class="o">=</span> <span class="mi">1000</span><span class="p">;</span>
+
+<span class="k">for</span><span class="p">(</span> <span class="nv">$i</span><span class="o">=</span><span class="mi">0</span> <span class="p">;</span> <span class="nv">$i</span> <span class="o">&lt;</span> <span class="nv">$x</span> <span class="p">;</span> <span class="nv">$i</span><span class="o">++</span> <span class="p">)</span>
+<span class="p">{</span> 
+	<span class="nv">$indice</span> <span class="o">=</span> <span class="nb">round</span><span class="p">((</span> <span class="p">(</span><span class="nv">$i</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span><span class="o">*</span><span class="mi">100</span> <span class="p">)</span> <span class="o">/</span> <span class="nv">$x</span><span class="p">);</span>
+	<span class="nx">progression</span><span class="p">(</span><span class="nv">$indice</span><span class="p">);</span>
+
+	<span class="cm">/* Placez ici le code tres tres long a executer … */</span>
+	<span class="cm">/* Exemple : */</span>
+	<span class="k">for</span><span class="p">(</span> <span class="nv">$j</span> <span class="o">=</span> <span class="mi">0</span> <span class="p">;</span> <span class="nv">$j</span> <span class="o">&lt;</span> <span class="mi">1000</span> <span class="p">;</span> <span class="nv">$j</span><span class="o">++</span> <span class="p">)</span>
+		<span class="k">echo</span> <span class="s2">&quot;.&quot;</span><span class="p">;</span>
+	<span class="k">echo</span> <span class="s1">&#39;&lt;br /&gt;&#39;</span><span class="p">;</span>
+<span class="p">}</span>
+
+
+<span class="k">echo</span> <span class="s2">&quot;&lt;script&gt;&quot;</span><span class="p">;</span>
+	<span class="k">echo</span> <span class="s2">&quot;document.getElementById(&#39;pourcentage&#39;).innerHTML=&#39;TERMINE !&#39;;&quot;</span><span class="p">;</span>
+<span class="k">echo</span> <span class="s2">&quot;&lt;/script&gt;&quot;</span><span class="p">;</span>
+
+
+
+<span class="c1">//----</span>
+<span class="k">function</span> <span class="nf">progression</span><span class="p">(</span><span class="nv">$indice</span><span class="p">)</span>
+<span class="p">{</span>	
+	<span class="k">echo</span> <span class="s2">&quot;&lt;script&gt;&quot;</span><span class="p">;</span>
+		<span class="k">echo</span> <span class="s2">&quot;document.getElementById(&#39;pourcentage&#39;).innerHTML=&#39;</span><span class="si">$indice</span><span class="s2">%&#39;;&quot;</span><span class="p">;</span>
+		<span class="k">echo</span> <span class="s2">&quot;document.getElementById(&#39;barre&#39;).style.width=&#39;</span><span class="si">$indice</span><span class="s2">%&#39;;&quot;</span><span class="p">;</span>
+	<span class="k">echo</span> <span class="s2">&quot;&lt;/script&gt;&quot;</span><span class="p">;</span>
+	<span class="nb">ob_flush</span><span class="p">();</span>
+	<span class="nb">flush</span><span class="p">();</span>
+	<span class="nb">ob_flush</span><span class="p">();</span>
+	<span class="nb">flush</span><span class="p">();</span>
+<span class="p">}</span>
+<span class="cp">?&gt;</span><span class="x"></span>
+<span class="x">&lt;/body&gt;</span>
+<span class="x">&lt;/html&gt;</span></code></pre></div>
+
+</strong></p>
 
   </article>
 
