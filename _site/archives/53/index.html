@@ -11,6 +11,9 @@
   <link href="/public/favicon.ico" rel="shortcut icon" type="image/x-icon" />
   
   <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/bootstrap/bootstrap-theme.min.css">
+  
   <link rel="canonical" href="http://127.0.0.1:4000//archives/53/">
   <link rel="alternate" type="application/atom+xml" title="Valhalla.fr" href="http://127.0.0.1:4000//feed.xml" />
 </head>
@@ -178,149 +181,141 @@
 
 
     <div class="page-content">
-      <div class="wrapper">
+      <div class="wrapper container">
         <div class="home">
 
   <!-- This loops through the paginated posts -->
   
-    <h1><a href="/2001/08/28/quest-ce-que-la-technologie-jini/">Qu'est-ce-que la technologie Jini ?</a></h1>
-    <p class="author">
-      <span class="date">2001-08-28 12:52:50 +0200</span>
-    </p>
-    <div class="content">
-      <p>Traduction (adaptation, simplification) d'un article de <a href="http://www.sun.com">Sun</a>.</p>
+    <h1 class="post-title"><a href="/2001/08/28/quest-ce-que-la-technologie-jini/">Qu'est-ce-que la technologie Jini ?</a></h1>
+    <div class="post-content">
+      <div class="label label-default">28 Aug 2001</div>
+      Traduction (adaptation, simplification) d'un article de <a href="http://www.sun.com">Sun</a>.
 <h1>Historique</h1>
-<p>Comment sommes-nous arriv&eacute;s &agrave; un stade o&ugrave; l'orientation &quot;online&quot; des services et du mat&eacute;riel informatique est la pr&eacute;occupation majeure des fabriquants ?</p>
-<p>L'explication la plus &eacute;vidente est notre meilleure connaissance de domaines scientifiques tels que la chimie ou l'&eacute;lectronique appliqu&eacute;s &agrave; la micro-informatique. De nos jours, un ordinateur personnel peut &ecirc;tre fabriqu&eacute; &agrave; partir d'un minimum de mat&eacute;riel et les serveurs d'entreprise ne sont plus ces gros amas de t&ocirc;les et de c&acirc;bles occupant des pi&egrave;ces enti&egrave;res.</p>
-<p>Dans les ann&eacute;es 60, seules les grosses entreprises pouvaient se payer le luxe d'un ordinateur (d'un de ces amas de t&ocirc;les et de c&acirc;bles).</p>
-<p>Puis vient la miniaturisation et la cr&eacute;ation de terminaux: des &eacute;crans et des claviers, sans grosse unit&eacute; centrale, reli&eacute;s en r&eacute;seau &agrave; un serveur. Cela r&eacute;solvait pas mal de probl&egrave;mes de place, et annoncait le d&eacute;but de la vague &quot;online&quot;.</p>
-<p>Les &quot;stations de travail&quot;, ordinateurs du format de ceux d'aujourd'hui, firent leur apparition un peu plus tard. Ils offraient une puissance suffisante pour les travaux scientifiques tels que le dessin technique, le d&eacute;veloppement d'application scientifiques...</p>
-<p>L'ordinateur personnel (PC) &eacute;tait &eacute;galement assez petit pour tenir sous une table et assez puissant pour offrir des fonctionnalit&eacute;s telles qu'une interface graphique &agrave; ses utilisateurs.</p>
-<p>De nos jours la miniaturisation en est &agrave; un tel point que les voitures ont en moyenne une cinquantaine de microprocesseurs, et que l'on peut en trouver plus d'une centaine dans une maison.</p>
-<p>Mais la cr&eacute;ation de ces ordinateurs toujours plus petits et moins cher a eu une retomb&eacute;e impr&eacute;vue: la disparition d'une forme de vie en communaut&eacute;. En effet, les ordinateurs &eacute;tant plus disponibles, il n'&eacute;tait plus n&eacute;cessaire des les partager entre plusieurs personnes, tout le monde pouvait avoir son ordinateur personnel, au travail comme &agrave; la maison.<br />
-  Et l'internet domestique pallie &agrave; cet effet: les stations de travail et les ordinateurs pesonnels ne sont vraiment utiles d&eacute;s lors qu'ils sont connect&eacute;s entre eux afin de pouvoir communiquer.</p>
-<p>Plus loin dans cette voie, les ordinateurs peuvent maintenant &eacute;changer des objets (comprenez: des classes Java) et supporter des langages orient&eacute;s objet et communication. Pout la plupart des gens un ordinateur sert avant tout &agrave; chercher des informations sur internet, communiquer par e-mail, etc...</p>
+Comment sommes-nous arriv&eacute;s &agrave; un stade o&ugrave; l'orientation &quot;online&quot; des services et du mat&eacute;riel informatique est la pr&eacute;occupation majeure des fabriquants ?
+L'explication la plus &eacute;vidente est notre meilleure connaissance de domaines scientifiques tels que la chimie ou l'&eacute;lectronique appliqu&eacute;s &agrave; la micro-informatique. De nos jours, un ordinateur personnel peut &ecirc;tre fabriqu&eacute; &agrave; partir d'un minimum de mat&eacute;riel et les serveurs d'entreprise ne sont plus ces gros amas de t&ocirc;les et de c&acirc;bles occupant des pi&egrave;ces enti&egrave;res.
+Dans les ann&eacute;es 60, seules les grosses entreprises pouvaient se payer le luxe d'un ordinateur (d'un de ces amas de t&ocirc;les et de c&acirc;bles).
+Puis vient la miniaturisation et la cr&eacute;ation de terminaux: des &eacute;crans et des claviers, sans grosse unit&eacute; centrale, reli&eacute;s en r&eacute;seau &agrave; un serveur. Cela r&eacute;solvait pas mal de probl&egrave;mes de place, et annoncait le d&eacute;but de la vague &quot;online&quot;.
+Les &quot;stations de travail&quot;, ordinateurs du format de ceux d'aujourd'hui, firent leur apparition un peu plus tard. Ils offraient une puissance suffisante pour les travaux scientifiques tels que le dessin technique, le d&eacute;veloppement d'application scientifiques...
+L'ordinateur personnel (PC) &eacute;tait &eacute;galement assez petit pour tenir sous une table et assez puissant pour offrir des fonctionnalit&eacute;s telles qu'une interface graphique &agrave; ses utilisateurs.
+De nos jours la miniaturisation en est &agrave; un tel point que les voitures ont en moyenne une cinquantaine de microprocesseurs, et que l'on peut en trouver plus d'une centaine dans une maison.
+Mais la cr&eacute;ation de ces ordinateurs toujours plus petits et moins cher a eu une retomb&eacute;e impr&eacute;vue: la disparition d'une forme de vie en communaut&eacute;. En effet, les ordinateurs &eacute;tant plus disponibles, il n'&eacute;tait plus n&eacute;cessaire des les partager entre plusieurs personnes, tout le monde pouvait avoir son ordinateur personnel, au travail comme &agrave; la maison.<br />
+  Et l'internet domestique pallie &agrave; cet effet: les stations de travail et les ordinateurs pesonnels ne sont vraiment utiles d&eacute;s lors qu'ils sont connect&eacute;s entre eux afin de pouvoir communiquer.
+Plus loin dans cette voie, les ordinateurs peuvent maintenant &eacute;changer des objets (comprenez: des classes Java) et supporter des langages orient&eacute;s objet et communication. Pout la plupart des gens un ordinateur sert avant tout &agrave; chercher des informations sur internet, communiquer par e-mail, etc...
 <h1>Comment fonctionne Jini ?</h1>
-<p>La technologie Jini est une architecture pour la construction de syst&egrave;mes &agrave; partir d'objets (de classes...) et de r&eacute;seaux. La technologie Jini permet aux programmes d'utiliser des services dans un r&eacute;seau sans savoir quoi que ce soit du protocole de connexion de ce r&eacute;seau. Une impl&eacute;mentation d'un syst&egrave;me pourrait &ecirc;tre bas&eacute;e sur les RMI, une autre sur XML et encore une autre sur CORBA. Le client Jini interroge les services qui lui r&eacute;pondent comment ils s'utilisent ! Un service est d&eacute;fini par une API, d&eacute;clar&eacute;e comme une interface de programmation Java.</p>
-<p>Quand un service est &quot;branch&eacute;&quot; &agrave; un r&eacute;seau ou mat&eacute;riel bas&eacute; sur l'architecture Jini, il s'identifie en publiant un objet Java qui impl&eacute;mente l'API du service concern&eacute;. <br />
-  Le client trouve des services en cherchant un objet supportant l'API Jini. Une fois connect&eacute; au service, il t&eacute;l&eacute;charge un code qui lui indique comment communiquer avec ce service. Les programmeurs qui auront impl&eacute;ment&eacute; le service auront choisi comment transformer une requ&ecirc;te de l'API en bits de mani&egrave;re &agrave; utiliser un protocole comme UPnP, RMI, Corba ou un protocole priv&eacute;.</p>
+La technologie Jini est une architecture pour la construction de syst&egrave;mes &agrave; partir d'objets (de classes...) et de r&eacute;seaux. La technologie Jini permet aux programmes d'utiliser des services dans un r&eacute;seau sans savoir quoi que ce soit du protocole de connexion de ce r&eacute;seau. Une impl&eacute;mentation d'un syst&egrave;me pourrait &ecirc;tre bas&eacute;e sur les RMI, une autre sur XML et encore une autre sur CORBA. Le client Jini interroge les services qui lui r&eacute;pondent comment ils s'utilisent ! Un service est d&eacute;fini par une API, d&eacute;clar&eacute;e comme une interface de programmation Java.
+Quand un service est &quot;branch&eacute;&quot; &agrave; un r&eacute;seau ou mat&eacute;riel bas&eacute; sur l'architecture Jini, il s'identifie en publiant un objet Java qui impl&eacute;mente l'API du service concern&eacute;. <br />
+  Le client trouve des services en cherchant un objet supportant l'API Jini. Une fois connect&eacute; au service, il t&eacute;l&eacute;charge un code qui lui indique comment communiquer avec ce service. Les programmeurs qui auront impl&eacute;ment&eacute; le service auront choisi comment transformer une requ&ecirc;te de l'API en bits de mani&egrave;re &agrave; utiliser un protocole comme UPnP, RMI, Corba ou un protocole priv&eacute;.
 <h1>Cr&eacute;er une communaut&eacute; autour de la technologie Jini</h1>
-<p>Quand internet fur cr&eacute;&eacute;, les deux pr&eacute;occupations majeures &eacute;taient de d&eacute;finir et de perfectionner les protocoles de communication et les infrastructures du r&eacute;seau, et de cr&eacute;er des services et des applications utilisant ce r&eacute;seau. L'infrastructure d'internet inclu les protocoles TCP/IP, HTTP, SMTP, FTP (etc...), et leurs impl&eacute;mentations. Avec ces protocoles furent cr&eacute;&eacute;e des logiciels comme les navigateurs, les clients e-mail ou les clients FTP, et m&ecirc;me le Web lui m&ecirc;me. Ce n'est pas une seule entreprise aui r&eacute;ussit &agrave; cr&eacute;er Internet, mais de nombreuses entreprises ayant adopt&eacute; les m&ecirc;mes protocoles, ayant des standars. C'est pourquoi pour que Jini r&eacute;ussisse, un grand nombre de personnes doit l'utiliser. Plus il sera utilis&eacute; plus facilement il devientra une technologie de r&eacute;f&eacute;rence.</p>
-<p>La Sun Community Source License (SCSL) a &eacute;t&eacute; cr&eacute;e pour mettre en place une communaut&eacute; autour de Jini. La SCSL donne libre acc&egrave;s au code source de la technologie Jini et de ses d&eacute;v&eacute;s, libres de droits en utilisation et modification.</p>
+Quand internet fur cr&eacute;&eacute;, les deux pr&eacute;occupations majeures &eacute;taient de d&eacute;finir et de perfectionner les protocoles de communication et les infrastructures du r&eacute;seau, et de cr&eacute;er des services et des applications utilisant ce r&eacute;seau. L'infrastructure d'internet inclu les protocoles TCP/IP, HTTP, SMTP, FTP (etc...), et leurs impl&eacute;mentations. Avec ces protocoles furent cr&eacute;&eacute;e des logiciels comme les navigateurs, les clients e-mail ou les clients FTP, et m&ecirc;me le Web lui m&ecirc;me. Ce n'est pas une seule entreprise aui r&eacute;ussit &agrave; cr&eacute;er Internet, mais de nombreuses entreprises ayant adopt&eacute; les m&ecirc;mes protocoles, ayant des standars. C'est pourquoi pour que Jini r&eacute;ussisse, un grand nombre de personnes doit l'utiliser. Plus il sera utilis&eacute; plus facilement il devientra une technologie de r&eacute;f&eacute;rence.
+La Sun Community Source License (SCSL) a &eacute;t&eacute; cr&eacute;e pour mettre en place une communaut&eacute; autour de Jini. La SCSL donne libre acc&egrave;s au code source de la technologie Jini et de ses d&eacute;v&eacute;s, libres de droits en utilisation et modification.
 <h1>Liens</h1>
-<p>Pour s'enregistrer http://www.sun.com/jini/licensing/<br />
-  Des infos sur la communaut&eacute;: http://www.sun.com/jini/community/</p>
-<p>Traduit par Narcanes (narcanes@online.fr) <br />
+Pour s'enregistrer http://www.sun.com/jini/licensing/<br />
+  Des infos sur la communaut&eacute;: http://www.sun.com/jini/community/
+Traduit par Narcanes (narcanes@online.fr) <br />
 &agrave; partir d'un article de <a href="http://www.sun.com">Sun</a>,<br />
   pour l'association Java-France / Jgflsoft<br />
   www.java-france.com / www.jgflsoft.com<br />
   R&eacute;&eacute;dit&eacute; pour Valhalla GFBLOG. <br />
-Montpellier, 28 ao&ucirc;t 2001.</p>
+Montpellier, 28 ao&ucirc;t 2001.
 
 
     </div>
   
-    <h1><a href="/2001/07/03/comment-exporter-un-programme-avec-jbuilder/">Comment exporter un programme avec JBuilder ?</a></h1>
-    <p class="author">
-      <span class="date">2001-07-03 10:41:51 +0200</span>
-    </p>
-    <div class="content">
-      <p>Ce chapitre de la FAQ a pour but de montrer comment exporter, sous la forme d'une archive JAR, un programme Java (application, applet, servlet, web app, bean, etc...). Nous utiliserons ici la situation la plus simple: une application (avec m&eacute;thode main()) export&eacute;e dans une archive JAR auto-ex&eacute;cutable. Nous d&eacute;taillerons les &eacute;tapes de la cr&eacute;ation d'une telle archive.</p>
-<p>NOTE 1: Pour des raisons de temps notamment (JBuilder 5 n'est pas encore sortie en France   &agrave; l'heure de la r&eacute;daction de cet article), la version de JBuilder utilis&eacute;e sera la version US.</p>
-<p>NOTE 2: cette page contient de nombreuses images, le temps de chargement peut &ecirc;tre assez long...</p>
-<p>1) Lancer l'outil, ou wizard, d'exportation: Menu WIZARDS -&gt; ARCHIVE BUILDER</p>
-<p><img alt="JarExport" src="./ressources/java/old/faq/jbuilder_jar/jar1.jpg" /></p>
-<p>2) Premi&egrave;re &eacute;tape de l'exportation: le choix d'un format.</p>
-<p><img alt="JarExport" src="./ressources/java/old/faq/jbuilder_jar/jar2.jpg" /></p>
-<p>Nous choisissons ici le format &quot;Application&quot;. On peut cependant prendre &quot;Basic&quot; (comme &quot;Application&quot; mais non auto-ex&eacute;cutable), Applet pour exporter des applets, Web Start pour exporter des Web App, etc... Une description de chaque option est faite dans la case de la fen&ecirc;tre &quot;Description&quot;.</p>
-<p>3) R&eacute;solution des d&eacute;pendances (1)</p>
-<p>Un programme Java a la plupart du temps des d&eacute;pendances, c'est &agrave; dire des classes ou des packages absolument n&eacute;cessaires pour s'ex&eacute;cuter. Par exemple, un programme utilisant une interface graphique Swing devra absolument int&eacute;grer les classes du package Swing n&eacute;cessaires. Pas besoin de sp&eacute;cifier ici les classes du package Swing ou de tout autre package &quot;classique&quot; fourni avec le JDK. Par contre, si vous utilisez des biblioth&egrave;ques non fournies par d&eacute;faut (par exemple le VerticalFlowLayout de Borland). C'est &eacute;galement ici que l'on ajoutera &agrave; l'archive tous les fichiers non-java n&eacute;cessaires.</p>
-<p>4) R&eacute;solution des d&eacute;pendances (2) </p>
-<p><img alt="JarExport" src="./ressources/java/old/faq/jbuilder_jar/jar3.jpg" /></p>
-<p>Vous ne ferez rien ici si aucun package autre que les packages par d&eacute;faut de Sun n'est n&eacute;cessaire &agrave; votre programme. Sinon vous devrez d&eacute;cider du niveau d'inclusion. Je conseille d'inclure toutes les classes et toutes les ressources, on perd un peu en taille du fichier, mais on est s&ucirc;r que tout fonctionnera !</p>
-<p>5) Cr&eacute;er un fichier MANIFEST</p>
-<p>Cette &eacute;tape n'est pas n&eacute;cessaire dans tous les cas, par exemple si vous avez choisi &quot;Basic&quot; &agrave; l'&eacute;cran (1), le fichier manifest ne sera par d&eacute;faut pas cr&eacute;&eacute;. Par contre pour &quot;Application&quot; il est n&eacute;cessaire: le fichier Manifest indique, entre autres, &agrave; l'interpr&eacute;teur Java quelle classe contient la m&eacute;thode main(), condition n&eacute;cessaire &agrave; l'auto-ex&eacute;cution de l'archive.</p>
-<p><img alt="JarExport" src="./ressources/java/old/faq/jbuilder_jar/jar4.jpg" /></p>
-<p>Vous pouvez choisir d'inclure un Manifest que vous avez cr&eacute;&eacute; vous m&ecirc;me, amis pourquoi se compliquer la vie quand JBuilder le g&eacute;n&egrave;re tout seul comme un grand ?!</p>
-<p>6) Sp&eacute;cifier la classe main()</p>
-<p><img alt="JarExport" src="./ressources/java/old/faq/jbuilder_jar/jar5.jpg" /></p>
-<p>Un package, une archive, peuvent contenir plusieurs classes impl&eacute;mentant une m&eacute;thode main(). On d&eacute;finit ici laquelle des ces m&eacute;thodes main() devra &ecirc;tre signal&eacute;e au Manifest. On laissera coch&eacute;e la case &quot;Use the main class specified in the default runtime&quot; par d&eacute;faut. Lors de la premi&egrave;re ex&eacute;cution d'un programme (&agrave; moins que l'ossature de ce programme n'ait &eacute;t&eacute; cr&eacute;&eacute;e par JBuilder lui-m&ecirc;me), JBuilder vous demande quelle est la classe principale du programme, et c'est cette classe, contenant la m&eacute;thode main() dans le cas d'une application, qui sera utilis&eacute;e pour lancer le programme sous JBuilder (en runtime normal ou en debug), et qui sera ici consid&eacute;r&eacute;e comme la classe principale du programme &agrave; signaler comme telle au Manifest.</p>
-<p>7) Observer</p>
-<p><img alt="JarExport" src="./ressources/java/old/faq/jbuilder_jar/jar6.jpg" /></p>
-<p>On voit une nouvelle ic&ocirc;ne dans l'inspecteur d'objets. Notre archive s'appelle &quot;Application&quot;, mais ne contient pas encore de fichier Jar. Pour cr&eacute;er r&eacute;ellement le fichier Jar nous devons &quot;reconstruire&quot; le programme.</p>
-<p>8) Reconstruire</p>
-<p><img alt="JarExport" src="./ressources/java/old/faq/jbuilder_jar/jar7.jpg" /></p>
-<p>Pour &quot;reconstruire&quot; on peut soir faire un clic-droit sur l'ic&ocirc;ne &quot;Application&quot; et choisir &quot;Reconstruire&quot; (ou &quot;Rebuild&quot; en version US) afin de cr&eacute;er le fichier JAR. On peut aussi utiliser le bouton de la barre d'ic&ocirc;nes.</p>
-<p>Ceci est tr&egrave;s pratique: &agrave; chaque compilation, JBuilder recr&eacute;e automatiquement le fichier JAR. Un exemple de compilation ci-dessous o&ugrave; l'on voit que JBuilder est en train de cr&eacute;er l'archive. (j'ai d&ucirc; m'y reprendre &agrave; plusieurs fois pour faire la capture d'&eacute;cran tellement que la cr&eacute;ation de cette archive, pour notre petit programme exemple, est rapide !)</p>
-<p><img alt="JarExport" src="./ressources/java/old/faq/jbuilder_jar/jar9.jpg" /></p>
-<p>Tutoriel distribu&eacute; pour le FAQ Java de Java-France www.java-france.com / www.jgflsoft.com<br />
+    <h1 class="post-title"><a href="/2001/07/03/comment-exporter-un-programme-avec-jbuilder/">Comment exporter un programme avec JBuilder ?</a></h1>
+    <div class="post-content">
+      <div class="label label-default">03 Jul 2001</div>
+      Ce chapitre de la FAQ a pour but de montrer comment exporter, sous la forme d'une archive JAR, un programme Java (application, applet, servlet, web app, bean, etc...). Nous utiliserons ici la situation la plus simple: une application (avec m&eacute;thode main()) export&eacute;e dans une archive JAR auto-ex&eacute;cutable. Nous d&eacute;taillerons les &eacute;tapes de la cr&eacute;ation d'une telle archive.
+NOTE 1: Pour des raisons de temps notamment (JBuilder 5 n'est pas encore sortie en France   &agrave; l'heure de la r&eacute;daction de cet article), la version de JBuilder utilis&eacute;e sera la version US.
+NOTE 2: cette page contient de nombreuses images, le temps de chargement peut &ecirc;tre assez long...
+1) Lancer l'outil, ou wizard, d'exportation: Menu WIZARDS -&gt; ARCHIVE BUILDER
+<img alt="JarExport" src="./ressources/java/old/faq/jbuilder_jar/jar1.jpg" />
+2) Premi&egrave;re &eacute;tape de l'exportation: le choix d'un format.
+<img alt="JarExport" src="./ressources/java/old/faq/jbuilder_jar/jar2.jpg" />
+Nous choisissons ici le format &quot;Application&quot;. On peut cependant prendre &quot;Basic&quot; (comme &quot;Application&quot; mais non auto-ex&eacute;cutable), Applet pour exporter des applets, Web Start pour exporter des Web App, etc... Une description de chaque option est faite dans la case de la fen&ecirc;tre &quot;Description&quot;.
+3) R&eacute;solution des d&eacute;pendances (1)
+Un programme Java a la plupart du temps des d&eacute;pendances, c'est &agrave; dire des classes ou des packages absolument n&eacute;cessaires pour s'ex&eacute;cuter. Par exemple, un programme utilisant une interface graphique Swing devra absolument int&eacute;grer les classes du package Swing n&eacute;cessaires. Pas besoin de sp&eacute;cifier ici les classes du package Swing ou de tout autre package &quot;classique&quot; fourni avec le JDK. Par contre, si vous utilisez des biblioth&egrave;ques non fournies par d&eacute;faut (par exemple le VerticalFlowLayout de Borland). C'est &eacute;galement ici que l'on ajoutera &agrave; l'archive tous les fichiers non-java n&eacute;cessaires.
+4) R&eacute;solution des d&eacute;pendances (2) 
+<img alt="JarExport" src="./ressources/java/old/faq/jbuilder_jar/jar3.jpg" />
+Vous ne ferez rien ici si aucun package autre que les packages par d&eacute;faut de Sun n'est n&eacute;cessaire &agrave; votre programme. Sinon vous devrez d&eacute;cider du niveau d'inclusion. Je conseille d'inclure toutes les classes et toutes les ressources, on perd un peu en taille du fichier, mais on est s&ucirc;r que tout fonctionnera !
+5) Cr&eacute;er un fichier MANIFEST
+Cette &eacute;tape n'est pas n&eacute;cessaire dans tous les cas, par exemple si vous avez choisi &quot;Basic&quot; &agrave; l'&eacute;cran (1), le fichier manifest ne sera par d&eacute;faut pas cr&eacute;&eacute;. Par contre pour &quot;Application&quot; il est n&eacute;cessaire: le fichier Manifest indique, entre autres, &agrave; l'interpr&eacute;teur Java quelle classe contient la m&eacute;thode main(), condition n&eacute;cessaire &agrave; l'auto-ex&eacute;cution de l'archive.
+<img alt="JarExport" src="./ressources/java/old/faq/jbuilder_jar/jar4.jpg" />
+Vous pouvez choisir d'inclure un Manifest que vous avez cr&eacute;&eacute; vous m&ecirc;me, amis pourquoi se compliquer la vie quand JBuilder le g&eacute;n&egrave;re tout seul comme un grand ?!
+6) Sp&eacute;cifier la classe main()
+<img alt="JarExport" src="./ressources/java/old/faq/jbuilder_jar/jar5.jpg" />
+Un package, une archive, peuvent contenir plusieurs classes impl&eacute;mentant une m&eacute;thode main(). On d&eacute;finit ici laquelle des ces m&eacute;thodes main() devra &ecirc;tre signal&eacute;e au Manifest. On laissera coch&eacute;e la case &quot;Use the main class specified in the default runtime&quot; par d&eacute;faut. Lors de la premi&egrave;re ex&eacute;cution d'un programme (&agrave; moins que l'ossature de ce programme n'ait &eacute;t&eacute; cr&eacute;&eacute;e par JBuilder lui-m&ecirc;me), JBuilder vous demande quelle est la classe principale du programme, et c'est cette classe, contenant la m&eacute;thode main() dans le cas d'une application, qui sera utilis&eacute;e pour lancer le programme sous JBuilder (en runtime normal ou en debug), et qui sera ici consid&eacute;r&eacute;e comme la classe principale du programme &agrave; signaler comme telle au Manifest.
+7) Observer
+<img alt="JarExport" src="./ressources/java/old/faq/jbuilder_jar/jar6.jpg" />
+On voit une nouvelle ic&ocirc;ne dans l'inspecteur d'objets. Notre archive s'appelle &quot;Application&quot;, mais ne contient pas encore de fichier Jar. Pour cr&eacute;er r&eacute;ellement le fichier Jar nous devons &quot;reconstruire&quot; le programme.
+8) Reconstruire
+<img alt="JarExport" src="./ressources/java/old/faq/jbuilder_jar/jar7.jpg" />
+Pour &quot;reconstruire&quot; on peut soir faire un clic-droit sur l'ic&ocirc;ne &quot;Application&quot; et choisir &quot;Reconstruire&quot; (ou &quot;Rebuild&quot; en version US) afin de cr&eacute;er le fichier JAR. On peut aussi utiliser le bouton de la barre d'ic&ocirc;nes.
+Ceci est tr&egrave;s pratique: &agrave; chaque compilation, JBuilder recr&eacute;e automatiquement le fichier JAR. Un exemple de compilation ci-dessous o&ugrave; l'on voit que JBuilder est en train de cr&eacute;er l'archive. (j'ai d&ucirc; m'y reprendre &agrave; plusieurs fois pour faire la capture d'&eacute;cran tellement que la cr&eacute;ation de cette archive, pour notre petit programme exemple, est rapide !)
+<img alt="JarExport" src="./ressources/java/old/faq/jbuilder_jar/jar9.jpg" />
+Tutoriel distribu&eacute; pour le FAQ Java de Java-France www.java-france.com / www.jgflsoft.com<br />
   R&eacute;&eacute;dit&eacute; pour Valhalla GFBLOG <br />
-  &Eacute;crit &agrave; Montpellier le 3 juillet 2001</p>
+  &Eacute;crit &agrave; Montpellier le 3 juillet 2001
 
 
     </div>
   
-    <h1><a href="/2001/07/02/comment-telecharger-un-fichier-a-partir-dune-url-en-java/">Comment télécharger un fichier à partir d'une URL en Java ?</a></h1>
-    <p class="author">
-      <span class="date">2001-07-02 12:11:46 +0200</span>
-    </p>
-    <div class="content">
-      <p>Cet article de la FAQ a pour but de montrer comment t&eacute;l&eacute;charger un fichier depuis Internet vers son Disque Dur. On peut utiliser plusieurs m&eacute;thodes, et celle &agrave; laquelle on pensera en premier lieu est s&ucirc;rement d'impl&eacute;menter un petit client FTP ou d'utiliser un JavaBean FTP comme celui d'IPWorks (dans JBuilder 5). Cependant, je propose ici une solution plus simple (beaucoup plus simple), &agrave; partir du moment o&ugrave; l'on conna&icirc;t l'adresse exacte du fichier &agrave; t&eacute;l&eacute;charger. Cette m&eacute;thode est &eacute;galement plus s&eacute;curis&eacute;e, en cela que l'on a aucun besoin de sp&eacute;cifier un login et un mot de passe.</p>
-<p>Nous allons donc utiliser une m&eacute;thode avec URLConnection. Voici le code source comment&eacute;:</p>
+    <h1 class="post-title"><a href="/2001/07/02/comment-telecharger-un-fichier-a-partir-dune-url-en-java/">Comment télécharger un fichier à partir d'une URL en Java ?</a></h1>
+    <div class="post-content">
+      <div class="label label-default">02 Jul 2001</div>
+      Cet article de la FAQ a pour but de montrer comment t&eacute;l&eacute;charger un fichier depuis Internet vers son Disque Dur. On peut utiliser plusieurs m&eacute;thodes, et celle &agrave; laquelle on pensera en premier lieu est s&ucirc;rement d'impl&eacute;menter un petit client FTP ou d'utiliser un JavaBean FTP comme celui d'IPWorks (dans JBuilder 5). Cependant, je propose ici une solution plus simple (beaucoup plus simple), &agrave; partir du moment o&ugrave; l'on conna&icirc;t l'adresse exacte du fichier &agrave; t&eacute;l&eacute;charger. Cette m&eacute;thode est &eacute;galement plus s&eacute;curis&eacute;e, en cela que l'on a aucun besoin de sp&eacute;cifier un login et un mot de passe.
+Nous allons donc utiliser une m&eacute;thode avec URLConnection. Voici le code source comment&eacute;:
 <p class="Code">// Sp&eacute;cifier le chemin exact vers le fichier<br />
-  URL u = new URL(&quot;http://www.monserveur.com:80/monrepertore/lisezmoi.txt&quot;);</p>
+  URL u = new URL(&quot;http://www.monserveur.com:80/monrepertore/lisezmoi.txt&quot;);
 <p class="Code">// Ouvrir la connexion, d&eacute;but de la communication avec le serveur<br />
-  URLConnection uc = u.openConnection();</p>
+  URLConnection uc = u.openConnection();
 <p class="Code">// R&eacute;cup&eacute;rer la taille exacte en nombre d'octets du fichier d&eacute;sign&eacute;, et la stocker dans un int<br />
-  int taille = uc.getContentLength();</p>
+  int taille = uc.getContentLength();
 <p class="Code">// Cr&eacute;er un flux d'entr&eacute;e pour le fichier<br />
-  InputStream brut = uc.getInputStream();</p>
+  InputStream brut = uc.getInputStream();
 <p class="Code">// Mettre ce flux d'entr&eacute;e en cache (pour un meilleur transfert, plus s&ucirc;r et plus r&eacute;gulier).<br />
-  InputStream entree = new BufferedInputStream(brut);</p>
+  InputStream entree = new BufferedInputStream(brut);
 <p class="Code">// Cr&eacute;er une matrice (un tableau) de bytes pour stocker tous les octets du fichier<br />
-  byte[] donnees = new byte[taille];</p>
+  byte[] donnees = new byte[taille];
 <p class="Code">// Pour l'instant aucun octet n'a encore &eacute;t&eacute; lu<br />
-  int octetsLus = 0;</p>
+  int octetsLus = 0;
 <p class="Code">// Octets de d&eacute;placement, et octets d&eacute;j&agrave; lus. <br />
-  int deplacement = 0; float alreadyRead = 0;</p>
+  int deplacement = 0; float alreadyRead = 0;
 <p class="Code">// Boucle permettant de parcourir tous les octets du fichier &agrave; lire<br />
   while(deplacement &lt; taille)<br />
   {<br />
   // utilisation de la methode &quot;read&quot; de la classe InputStream<br />
-  octetsLus = entree.read(donnees, deplacement, donnees.length-deplacement);</p>
+  octetsLus = entree.read(donnees, deplacement, donnees.length-deplacement);
 <p class="Code">// Petit calcul: mise &agrave; jour du nombre total d'octets lus par ajout au nombre d'octets lus au cours des pr&eacute;c&eacute;dents passages au nombre d'octets lus pendant ce passage<br />
-  alreadyRead = alreadyRead + octetsLus;</p>
+  alreadyRead = alreadyRead + octetsLus;
 <p class="Code">// -1 marque par convention la fin d'un fichier, double op&eacute;rateur &quot;&eacute;gale&quot;: = =<br />
-  if(octetsLus == -1) break;</p>
+  if(octetsLus == -1) break;
 <p class="Code">// se cadrer &agrave; un endroit pr&eacute;cis du fichier pour lire les octets suivants, c'est le d&eacute;placement<br />
-  deplacement += octetsLus;</p>
+  deplacement += octetsLus;
 <p class="Code">}<br />
   // fermer le flux d'entr&eacute;e.<br />
-  entree.close();</p>
+  entree.close();
 <p class="Code">// R&eacute;cup&eacute;rer le nom du fichier<br />
   String fichier = u.getFile();<br />
-  fichier = fichier.substring(fichier.lastIndexOf('/') + 1);</p>
+  fichier = fichier.substring(fichier.lastIndexOf('/') + 1);
 <p class="Code">// Cr&eacute;er un fichier sur le DD afin d'y copier le contenu du fichier t&eacute;l&eacute;charg&eacute; (par un flux de sortie).<br />
-  FileOutputStream fichierSortie = new FileOutputStream(fichier);</p>
+  FileOutputStream fichierSortie = new FileOutputStream(fichier);
 <p class="Code">// copier...<br />
-  fichierSortie.write(donnees);</p>
+  fichierSortie.write(donnees);
 <p class="Code">// vider puis fermer le flux de sortie<br />
-  fichierSortie.flush(); fichierSortie.close();</p>
-<p>Tutoriel distribu&eacute; pour le FAQ Java de Java-France www.java-france.com / www.jgflsoft.com<br />
+  fichierSortie.flush(); fichierSortie.close();
+Tutoriel distribu&eacute; pour le FAQ Java de Java-France www.java-france.com / www.jgflsoft.com<br />
   R&eacute;&eacute;dit&eacute; pour Valhalla GFBLOG. <br />
-  Ecrit &agrave; Montpellier le 2 juillet 2001</p>
+  Ecrit &agrave; Montpellier le 2 juillet 2001
 
 
     </div>
   
-    <h1><a href="/2001/04/27/comment-convertir-des-string-en-int-float-double-et-vice-versa/">Comment convertir des String en int, float, double, ... , et vice versa ?</a></h1>
-    <p class="author">
-      <span class="date">2001-04-27 11:11:38 +0200</span>
-    </p>
-    <div class="content">
-      <p>J'ai d&eacute;cid&eacute; de traiter ce point pr&eacute;cis de la programmation Java: la convertion des types primaires (ou types de base) de donn&eacute;es, car cela m'a pos&eacute; des probl&egrave;mes quand j'ai d&eacute;but&eacute; en Java, et cela en pose souvent aux programmeurs venant de Delphi/Pascal, tout simplement car il n'existe pas en Java de m&eacute;thodes comme IntToStr ou StrToInt (Delphi).<br />
-  Je vous propose ici l'impl&eacute;mentation de ces deux m&eacute;thodes, ainsi que deux autre m&eacute;thodes convertissant des int vers long et des String vers float. Vous pourrez ensuite, une fois le sch&eacute;ma pos&eacute; dans ce document, faire vous-m&ecirc;me d'autres combinaisons.</p>
-<p>Voici donc les m&eacute;thodes ainsi que la mani&egrave;re de les utiliser:</p>
+    <h1 class="post-title"><a href="/2001/04/27/comment-convertir-des-string-en-int-float-double-et-vice-versa/">Comment convertir des String en int, float, double, ... , et vice versa ?</a></h1>
+    <div class="post-content">
+      <div class="label label-default">27 Apr 2001</div>
+      J'ai d&eacute;cid&eacute; de traiter ce point pr&eacute;cis de la programmation Java: la convertion des types primaires (ou types de base) de donn&eacute;es, car cela m'a pos&eacute; des probl&egrave;mes quand j'ai d&eacute;but&eacute; en Java, et cela en pose souvent aux programmeurs venant de Delphi/Pascal, tout simplement car il n'existe pas en Java de m&eacute;thodes comme IntToStr ou StrToInt (Delphi).<br />
+  Je vous propose ici l'impl&eacute;mentation de ces deux m&eacute;thodes, ainsi que deux autre m&eacute;thodes convertissant des int vers long et des String vers float. Vous pourrez ensuite, une fois le sch&eacute;ma pos&eacute; dans ce document, faire vous-m&ecirc;me d'autres combinaisons.
+Voici donc les m&eacute;thodes ainsi que la mani&egrave;re de les utiliser:
 <h1>M&eacute;thodes<br />
 </h1>
 <p class="Code">/** <br />
@@ -331,7 +326,7 @@ Montpellier, 28 ao&ucirc;t 2001.</p>
   Integer ger = new Integer(s); <br />
   int i = ger.intValue(); <br />
   return i; <br />
-  }</p>
+  }
 <p class="Code">/** <br />
   * De INT vers String <br />
   */ <br />
@@ -340,7 +335,7 @@ Montpellier, 28 ao&ucirc;t 2001.</p>
   String texte = new String(); <br />
   texte = texte.valueOf(i); <br />
   return texte; <br />
-  }</p>
+  }
 <p class="Code">/** <br />
   * De INT vers long <br />
   */ <br />
@@ -349,7 +344,7 @@ Montpellier, 28 ao&ucirc;t 2001.</p>
   Integer ger = new Integer(i); <br />
   long lg = ger.longValue(); <br />
   return lg; <br />
-  }</p>
+  }
 <p class="Code">/** <br />
   * de String vers float <br />
   */ <br />
@@ -357,50 +352,48 @@ Montpellier, 28 ao&ucirc;t 2001.</p>
   { <br />
   float f = Float.valueOf(s.trim()).floatValue(); <br />
   return f; <br />
-  }</p>
+  }
 <h1>Comment les utiliser</h1>
-<p>J'ai un champ de texte, un JTextField, dans lequel l'utilisateur entre une valeur num&eacute;rique. Je veux r&eacute;cup&eacute;rer cette valeur, lui ajouter 3, par exemple, et l'afficher dans un composant JLabel. Mon JTextField s'appelle textField, et mon JLabel, label. Voici le code que je dois &eacute;crire:</p>
+J'ai un champ de texte, un JTextField, dans lequel l'utilisateur entre une valeur num&eacute;rique. Je veux r&eacute;cup&eacute;rer cette valeur, lui ajouter 3, par exemple, et l'afficher dans un composant JLabel. Mon JTextField s'appelle textField, et mon JLabel, label. Voici le code que je dois &eacute;crire:
 <p class="Code">int monNombre;<br />
   monNombre = srtToInt(textField.getText());<br />
   monNombre = monNombre + 3;<br />
   label.setText(intToStr(monNombre);<br />
   Code r&eacute;duit:<br />
-  label.setText(intToStr(strToInt(textField.getText()) + 3));</p>
-<p>Tutoriel distribu&eacute; pour le FAQ Java de Java-France www.java-france.com / www.jgflsoft.com<br />
+  label.setText(intToStr(strToInt(textField.getText()) + 3));
+Tutoriel distribu&eacute; pour le FAQ Java de Java-France www.java-france.com / www.jgflsoft.com<br />
   R&eacute;&eacute;dit&eacute; pour Valhalla GFBLOG. <br />
-  Ecrit &agrave; Montpellier le 27 avril 2001</p>
+  Ecrit &agrave; Montpellier le 27 avril 2001
 
 
     </div>
   
-    <h1><a href="/2001/04/22/installer-et-configurer-un-environnement-dexecution-de-servletsjsp-sous-windows/">Installer et configurer un environnement d'exécution de servlets/JSP sous Windows</a></h1>
-    <p class="author">
-      <span class="date">2001-04-22 12:42:51 +0200</span>
-    </p>
-    <div class="content">
-      <p>Ce chapitre de la FAQ Java explique, pas &agrave; pas, comment installer et configurer un environnement de d&eacute;veloppement et d'ex&eacute;cution de servlets et de pages JSP sur une machine tournant sous Windows 95/98/Me (NT/2000 ?).<br />
-Nous utiliserons le JSWDK de Sun (Java Servlets Web Development Kit). Vous pouvez aussi installer le serveur de Netscape ou Jakarta (pour Apache), mais nous nous centrerons ici sur l'inpl&eacute;mentation officielle de Sun.</p>
-<p>1) Vous devez poss&eacute;der un JDK install&eacute; et configur&eacute; sur votre machine. </p>
-<p>2) Vous devez t&eacute;l&eacute;charger &agrave; partir du site de Sun le JSWDK en cliquant ici. Le fichier &agrave; t&eacute;l&eacute;charger est au format ZIP. C'est une archive et vous avez besoin d'un programme externe pour la d&eacute;compresser, le shareware WinZip convient parfaitement.</p>
-<p><img align="right" alt="JWSDK" src="./ressources/java/old/faq/install_jwsdk/install_jwsdk1.jpg" /></p>
-<p>3) D&eacute;compressez l'archive ZIP &agrave; la racine de votre disque dur en cochant la case &quot;Use folders name&quot; comme dans l'illustration ci-dessous:</p>
-<p>4) Lancez &quot;startserver.bat&quot; &agrave; partir de la ligne de commande. Il s'agit du fichier de commandes qui lancera le serveur sur votre machine, il se trouve &agrave; la racine du r&eacute;pertoire d'installation du JSWDK. Voici ce qui devrait vous &ecirc;tre retourn&eacute;:</p>
-<p>5) Vous pouvez maintenant utiliser le serveur et le tester dans un navigateur:<br />
+    <h1 class="post-title"><a href="/2001/04/22/installer-et-configurer-un-environnement-dexecution-de-servletsjsp-sous-windows/">Installer et configurer un environnement d'exécution de servlets/JSP sous Windows</a></h1>
+    <div class="post-content">
+      <div class="label label-default">22 Apr 2001</div>
+      Ce chapitre de la FAQ Java explique, pas &agrave; pas, comment installer et configurer un environnement de d&eacute;veloppement et d'ex&eacute;cution de servlets et de pages JSP sur une machine tournant sous Windows 95/98/Me (NT/2000 ?).<br />
+Nous utiliserons le JSWDK de Sun (Java Servlets Web Development Kit). Vous pouvez aussi installer le serveur de Netscape ou Jakarta (pour Apache), mais nous nous centrerons ici sur l'inpl&eacute;mentation officielle de Sun.
+1) Vous devez poss&eacute;der un JDK install&eacute; et configur&eacute; sur votre machine. 
+2) Vous devez t&eacute;l&eacute;charger &agrave; partir du site de Sun le JSWDK en cliquant ici. Le fichier &agrave; t&eacute;l&eacute;charger est au format ZIP. C'est une archive et vous avez besoin d'un programme externe pour la d&eacute;compresser, le shareware WinZip convient parfaitement.
+<img align="right" alt="JWSDK" src="./ressources/java/old/faq/install_jwsdk/install_jwsdk1.jpg" />
+3) D&eacute;compressez l'archive ZIP &agrave; la racine de votre disque dur en cochant la case &quot;Use folders name&quot; comme dans l'illustration ci-dessous:
+4) Lancez &quot;startserver.bat&quot; &agrave; partir de la ligne de commande. Il s'agit du fichier de commandes qui lancera le serveur sur votre machine, il se trouve &agrave; la racine du r&eacute;pertoire d'installation du JSWDK. Voici ce qui devrait vous &ecirc;tre retourn&eacute;:
+5) Vous pouvez maintenant utiliser le serveur et le tester dans un navigateur:<br />
   - ouvrez un navigateur web<br />
   - tapez dans la zone d'url: <strong>http://localhost:8080/</strong> ou <strong>http://127.0.0.1:8080/</strong><br />
-  - une page d'accueil doit appara&icirc;tre. Si c'est le cas, tout fonctionne bien, votre environnement de servlets est bien install&eacute; !</p>
-<p><img align="right" alt="JWSDK" src="./ressources/java/old/faq/install_jwsdk/install_jwsdk2.jpg" /></p>
-<p>6) Nous allons maintenant le configurer ! Pour cela, ouvrez dans un &eacute;diteur de texte brut (pas de Microsoft Word ou autre chose du genre, utilisez NotePad !) le fichier &quot;webserver.xml&quot; situ&eacute; &agrave; la racine du r&eacute;pertoire d'installation.<br />
-  Vous n'avez normalement &agrave; changer les valeurs propos&eacute;es qu'en cas de probl&egrave;me, ou si vous d&eacute;sirez param&eacute;trer manuellement votre serveur. A titre indicatif, les valeurs par d&eacute;faut sont les suivantes:</p>
-<p>Port Number	<strong>8080</strong><br />
+  - une page d'accueil doit appara&icirc;tre. Si c'est le cas, tout fonctionne bien, votre environnement de servlets est bien install&eacute; !
+<img align="right" alt="JWSDK" src="./ressources/java/old/faq/install_jwsdk/install_jwsdk2.jpg" />
+6) Nous allons maintenant le configurer ! Pour cela, ouvrez dans un &eacute;diteur de texte brut (pas de Microsoft Word ou autre chose du genre, utilisez NotePad !) le fichier &quot;webserver.xml&quot; situ&eacute; &agrave; la racine du r&eacute;pertoire d'installation.<br />
+  Vous n'avez normalement &agrave; changer les valeurs propos&eacute;es qu'en cas de probl&egrave;me, ou si vous d&eacute;sirez param&eacute;trer manuellement votre serveur. A titre indicatif, les valeurs par d&eacute;faut sont les suivantes:
+Port Number	<strong>8080</strong><br />
   Bound IP Address	<strong>all</strong> (tous)<br />
   Admin Port	<strong>N'importe quel port entre 2048 et 8192</strong><br />
   Document Base	<strong>Une page html</strong><br />
   Work directory for Temporary Files	work <strong>par d&eacute;faut</strong><br />
-  Session inactive max. interval	<strong>30 minutes</strong></p>
-<p>  Tutoriel distribu&eacute; pour le FAQ Java de Java-France www.java-france.com / www.jgflsoft.com<br />
+  Session inactive max. interval	<strong>30 minutes</strong>
+  Tutoriel distribu&eacute; pour le FAQ Java de Java-France www.java-france.com / www.jgflsoft.com<br />
   R&eacute;&eacute;dit&eacute; pour Valhalla GFBLOG. <br />
-  Ecrit &agrave; Montpellier le 22 avril 2001</p>
+  Ecrit &agrave; Montpellier le 22 avril 2001
 
 
     </div>

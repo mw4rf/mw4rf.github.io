@@ -11,6 +11,9 @@
   <link href="/public/favicon.ico" rel="shortcut icon" type="image/x-icon" />
   
   <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/bootstrap/bootstrap-theme.min.css">
+  
   <link rel="canonical" href="http://127.0.0.1:4000//archives/33/">
   <link rel="alternate" type="application/atom+xml" title="Valhalla.fr" href="http://127.0.0.1:4000//feed.xml" />
 </head>
@@ -178,16 +181,14 @@
 
 
     <div class="page-content">
-      <div class="wrapper">
+      <div class="wrapper container">
         <div class="home">
 
   <!-- This loops through the paginated posts -->
   
-    <h1><a href="/2007/09/06/ipod-touch-premieres-impressions/">iPod touch : premières impressions</a></h1>
-    <p class="author">
-      <span class="date">2007-09-06 08:07:35 +0200</span>
-    </p>
-    <div class="content">
+    <h1 class="post-title"><a href="/2007/09/06/ipod-touch-premieres-impressions/">iPod touch : premières impressions</a></h1>
+    <div class="post-content">
+      <div class="label label-default">06 Sep 2007</div>
       <a href="http://www.flickr.com/photos/valhallafr/1334716434/" title="Partage de photos"><img src="http://farm2.static.flickr.com/1358/1334716434_cf98f40f80_o.jpg" width="200" height="165" alt="iPod touch 6G" style="float:left; margin-right:10px;"  /></a>
 
 La nouvelle génération d’iPods a été présentée hier. A côté de l’iPod shuffle, du mini et de l’iPod «normal» qui s’appelle désormais «iPod Classic», apparaît un nouveau modèle conçu sur le modèle de l’iPhone : «l’iPod touch». Ce nouvel iPod n’a rien à voir avec l’ancien ; il s’agit d’une petite révolution dans le monde de ce baladeur numérique. Pourtant, les anciennes déclinaisons de l’iPod, à l’interface désormais classique, sont toujours présents au catalogue d’Apple. Le nouvel iPod touch n’a donc pas vocation à remplacer les anciens iPods. Qu’a-t-il de différent ? Pourquoi ne doit-il pas remplacer les iPods «classiques» ? Dans quels cas convient-il mieux que les iPods «classiques» ; dans quels cas ne convient-il pas ? Cet article a pour but de répondre à ces questions.
@@ -195,44 +196,36 @@ La nouvelle génération d’iPods a été présentée hier. A côté de l’iPo
 
     </div>
   
-    <h1><a href="/2007/08/01/php-wait-screen/">Faire patienter l'utilisateur pendant l’exécution d’un script PHP</a></h1>
-    <p class="author">
-      <span class="date">2007-08-01 17:20:23 +0200</span>
-    </p>
-    <div class="content">
-      <p>
+    <h1 class="post-title"><a href="/2007/08/01/php-wait-screen/">Faire patienter l'utilisateur pendant l’exécution d’un script PHP</a></h1>
+    <div class="post-content">
+      <div class="label label-default">01 Aug 2007</div>
+      
 	Un script PHP s’exécute sur le serveur, avant d’afficher à l’écran le résultat de son exécution. Dans la plupart des cas, le programme s’exécute en quelques millisecondes et l’affichage survient sans délai perceptible. Pourtant, il peut arriver qu’un script soit très long à exécuter : traitements mathématiques complexes (p. ex. lors de l’application d’un filtre complexe sur une image, un extrait sonore ou une vidéo), accès à un fichier sur l’ordinateur de l’utilisateur (p. ex. lorsque l’utilisateur <i>upload</i> un fichier sur le serveur), ou encore connexion à des serveurs distants (si un serveur distant ne répond pas, le script attendra le <i>timeout</i> pour passer au serveur suivant). Dans tous ces cas, il est nécessaire de prévenir le visiteur que le programme est toujours en cours d’exécution et qu’il doit patienter jusqu’à la fin de l’exécution. Il y a de nombreuses méthodes pour faire cela, des plus simples aux plus complexes. Cet article vous présente une méthode simple et efficace, écrite en PHP et utilisant JavaScript.
-</p>
+
 
     </div>
   
-    <h1><a href="/2007/07/26/localiser-la-musique-achetee-sur-litunes-store/">Localiser la musique achetée sur l'iTunes Store</a></h1>
-    <p class="author">
-      <span class="date">2007-07-26 14:06:44 +0200</span>
-    </p>
-    <div class="content">
+    <h1 class="post-title"><a href="/2007/07/26/localiser-la-musique-achetee-sur-litunes-store/">Localiser la musique achetée sur l'iTunes Store</a></h1>
+    <div class="post-content">
+      <div class="label label-default">26 Jul 2007</div>
       <a href="http://www.flickr.com/photos/valhallafr/905373894/" title="Partage de photos"><img src="http://farm2.static.flickr.com/1437/905373894_9addbcc661_o.jpg" width="102" height="129" alt="Fichier AAC MP4 iTunes DRM" align="left" style="margin-right:15px;" /></a>
-<p>iTunes a l'avantage de «maintenir organisé le dossier» qui contient la bibliothèque musicale. Le logiciel copie également dans ce dossier tout nouveau morceau ajouté à la bibliothèque (option à choisir dans les préférences, onglet «Avancé» > «Général»). Il peut alors être difficile de savoir quels sont les morceaux achetés sur l’iTunes Store munis --ou, plutôt, <i>grevés</i>-- de DRM parmi plusieurs milliers de morceaux, dont la plupart seront des MP3 (issus de l’importation de CD ou du téléchargement) sans DRM. Je vous propose ici plusieurs méthodes pour retrouver ces morceaux, et les fichiers associés dans le Finder.</p>
+iTunes a l'avantage de «maintenir organisé le dossier» qui contient la bibliothèque musicale. Le logiciel copie également dans ce dossier tout nouveau morceau ajouté à la bibliothèque (option à choisir dans les préférences, onglet «Avancé» > «Général»). Il peut alors être difficile de savoir quels sont les morceaux achetés sur l’iTunes Store munis --ou, plutôt, <i>grevés</i>-- de DRM parmi plusieurs milliers de morceaux, dont la plupart seront des MP3 (issus de l’importation de CD ou du téléchargement) sans DRM. Je vous propose ici plusieurs méthodes pour retrouver ces morceaux, et les fichiers associés dans le Finder.
 
     </div>
   
-    <h1><a href="/2007/07/22/traitements-de-texte-mac-la-galere/">Traitements de texte Mac: la galère</a></h1>
-    <p class="author">
-      <span class="date">2007-07-22 18:19:56 +0200</span>
-    </p>
-    <div class="content">
+    <h1 class="post-title"><a href="/2007/07/22/traitements-de-texte-mac-la-galere/">Traitements de texte Mac: la galère</a></h1>
+    <div class="post-content">
+      <div class="label label-default">22 Jul 2007</div>
       <a href="http://www.flickr.com/photos/valhallafr/864036911/" title="Partage de photos"><img src="http://farm2.static.flickr.com/1197/864036911_a51a03ea60_o.jpg" width="150" height="100" alt="iconz" align="left" /></a>
-<p class="p1">Trouver un bon logiciel de traitement de texte sur Mac, c’est la galère. Il n’y a qu’à regarder l’icône de NeoOffice pour s’en convaincre. Il y a certes de bons programmes, mais aucun n’est parfait. Et les problèmes que chacun présente sont toujours de gros problèmes. Dans ma recherche du meilleur traitement de texte possible, j’ai pu essayer Word, OpenOffice, NeoOffice, Mellel, Nisus Writer Pro et Apple Pages. J’ai envie de décrire ici ce que sont à mon sens les points forts et les points faibles de chacun de ces logiciels.</p>
-<p class="p1">On parlera d’abord de ceux qu’on élimine sans hésitation, tellement ils sont médiocres. Passent à la moulinette Pages et OpenOffice. On verra ensuite les incontournables qu’on aimerait bien contourner, les habituels logiciels qu’on aimerait bien pouvoir abandonner. Il s’agit de Word et de NeoOffice. Finalement, Mellel et Nisus Writer Pro (NWP) sont ceux qu’on aimerait aimer mais qu’on aimerait meilleurs.</p>
+<p class="p1">Trouver un bon logiciel de traitement de texte sur Mac, c’est la galère. Il n’y a qu’à regarder l’icône de NeoOffice pour s’en convaincre. Il y a certes de bons programmes, mais aucun n’est parfait. Et les problèmes que chacun présente sont toujours de gros problèmes. Dans ma recherche du meilleur traitement de texte possible, j’ai pu essayer Word, OpenOffice, NeoOffice, Mellel, Nisus Writer Pro et Apple Pages. J’ai envie de décrire ici ce que sont à mon sens les points forts et les points faibles de chacun de ces logiciels.
+<p class="p1">On parlera d’abord de ceux qu’on élimine sans hésitation, tellement ils sont médiocres. Passent à la moulinette Pages et OpenOffice. On verra ensuite les incontournables qu’on aimerait bien contourner, les habituels logiciels qu’on aimerait bien pouvoir abandonner. Il s’agit de Word et de NeoOffice. Finalement, Mellel et Nisus Writer Pro (NWP) sont ceux qu’on aimerait aimer mais qu’on aimerait meilleurs.
 
 
     </div>
   
-    <h1><a href="/2007/07/05/blog-illustre-facile/">Blog illustré facile</a></h1>
-    <p class="author">
-      <span class="date">2007-07-05 13:18:05 +0200</span>
-    </p>
-    <div class="content">
+    <h1 class="post-title"><a href="/2007/07/05/blog-illustre-facile/">Blog illustré facile</a></h1>
+    <div class="post-content">
+      <div class="label label-default">05 Jul 2007</div>
       <a href="http://www.flickr.com/photos/valhallafr/726141278/" title="Partage de photos"><img src="http://farm2.static.flickr.com/1308/726141278_4b0cb8c4b6_o.jpg" width="233" height="188" alt="Blog illustré facile 1" align="left" style="margin-right:15px;" /></a>
 J'ai trouvé une bonne solution logicielle pour mettre en ligne des captures d'écran et des photos sur un blog. Il s'agit du duo Skitch + Flickr. Skitch est un logiciel de retouche d'images pour Mac. Il est très simple: rien à voir avec Photoshop. Mais il possède des fonctions très pratiques et faciles d'accès. Il permet notamment de prendre une capture d'écran en délimitant une zone à l'écran de manière intuitive. Une fois la capture d'écran prise, il suffit de cliquer sur un bouton dans l'interface pour mettre en ligne l'image sur Flickr. Une fois l'image sur Flickr, il ne reste plus qu'à placer un tag HTML ou PHPBB dans le billet de blog --ou le message de forum.
 

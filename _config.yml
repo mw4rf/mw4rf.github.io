@@ -11,7 +11,7 @@ github_username:  mw4rf
 markdown: kramdown
 
 # Pagination
-paginate: 5
+paginate: 10
 paginate_path: "/archives/:num"
 
 # Permalinks
