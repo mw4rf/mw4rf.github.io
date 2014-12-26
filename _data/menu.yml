@@ -1,0 +1,24 @@
+- title: "À Propos"
+  href: "about.html"
+  
+- title: "Archives"
+  href: "archives/"
+  subcategories:
+    - subtitle: "Archives chronologiques"
+      subhref: "archives/index.html"
+    - subtitle: "Catégories"
+      subhref: "archives/categories.html"
+    - subtitle: "Tags"
+      subhref: "archives/tags.html"
+
+- title: "Revue"
+  href: "revue/"
+  
+- title: "Articles essentiels"
+  href: "articles-essentiels/"
+
+- title: "Java"
+  href: "java/"
+
+- title: "Outils"
+  href: "outils/"
