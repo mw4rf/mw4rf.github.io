@@ -31,12 +31,19 @@
         {% endfor %}
       </ul>
       
-      <form class="navbar-form navbar-right" role="search">
+      <!-- Google Custom Search Engine -->
+      <form action="http://www.google.com/cse" id="cse-search-box" _lpchecked="1" class="navbar-form navbar-right" role="search">
+        <input type="hidden" name="cx" value="007528237610497066360:tooxybveeoo">
+        <input type="hidden" name="ie" value="UTF-8">
+        <input name="siteurl" type="hidden" value="{{ site.url }}">
+        <input name="ref" type="hidden" value="">
+        <input name="ss" type="hidden" value="">
         <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
+          <input type="text" width="100px" class="form-control" name="q" style="background: url(http://www.google.com/cse/intl/en/images/google_custom_search_watermark.gif) 0% 50% no-repeat rgb(255, 255, 255);">
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
       </form>
+      <!-- END Google Custom Search Engine -->
+            
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
