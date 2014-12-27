@@ -5,13 +5,13 @@
     <description>Ad Absurdum</description>
     <link>http://www.valhalla.fr//</link>
     <atom:link href="http://www.valhalla.fr//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 27 Dec 2014 20:48:24 +0100</pubDate>
-    <lastBuildDate>Sat, 27 Dec 2014 20:48:24 +0100</lastBuildDate>
+    <pubDate>Sat, 27 Dec 2014 21:02:43 +0100</pubDate>
+    <lastBuildDate>Sat, 27 Dec 2014 21:02:43 +0100</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>Safari : raccourci clavier pour afficher/masquer la barre des signets</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/public/posts/2014-08-05-safari-yosemite/safari_yosemite.png&quot; align=&quot;left&quot; width=&quot;30%&quot; /&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/public/posts/2014-08-05-safari-yosemite/safari_yosemite.png&quot; class=&quot;wrap-left&quot; width=&quot;30%&quot; /&gt;
     J&#39;aime beaucoup le comportement de Firefox qui, depuis plusieurs versions déjà, affiche les signets dans un espace situé sur la gauche de la fenêtre principale, que l&#39;on peut afficher ou masquer à loisir. Ainsi, non seulement les signets n&#39;encombrent plus l&#39;écran lorsqu&#39;on n&#39;a pas besoin d&#39;eux, mais encore cet affichage est en harmonie avec les formats modernes d&#39;écran, plus larges que hauts. Sous Yosemite, Safari permet la même chose. Seulement voilà, il y a un problème : le raccourci clavier par défaut est Commande-Contrôle-1... avec une seule main, c&#39;est presque impossible. Je préfère le raccourci de Firefox, auquel je suis habitué : Commande-B (pour &quot;Bookmarks&quot;). Peut-on utiliser ce raccourci avec Safari ?
 &lt;/p&gt;
 

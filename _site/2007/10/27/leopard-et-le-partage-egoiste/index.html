@@ -117,7 +117,7 @@
         </h1>
       </div>
       
-      <p>Leopard, la nouvelle version de Mac OS X, est sorti hier vendredi 26 octobre 2007. Je l'ai acheté et installé sur mon MacPro. Tout ne s'est pas très bien passé, bien que j'ai réalisé une "clean install" (effacer et installer). Le problème majeur que j'ai rencontré concerne l'activation du partage de fichiers en réseau, dans la préférences système.</p>
+      <div class="text-content"><p>Leopard, la nouvelle version de Mac OS X, est sorti hier vendredi 26 octobre 2007. Je l'ai acheté et installé sur mon MacPro. Tout ne s'est pas très bien passé, bien que j'ai réalisé une "clean install" (effacer et installer). Le problème majeur que j'ai rencontré concerne l'activation du partage de fichiers en réseau, dans la préférences système.</p>
 <p>Les torts sont partagés dans la survenance du problème : moi qui ai l'habitude de faire confiance à Apple et à "cliquer trop vite", un peu sans réfléchir ; Apple qui devrait prévenir des changements opérés à ce niveau entre Tiger et Leopard, et surtout faire en sorte de prévenir le problème que j'ai rencontré.</p>
 <p><a id="more"></a><a id="more-129"></a></p>
 <p>Bref, voilà ce qui s'est passé. J'ai installé Leopard sur mon MacPro, qui contient deux disques internes (un pour le système, un pour les données). J'ai également un PowerBook G4, qui est pour l'instant resté sous Tiger. Les deux Mac sont en réseau (Ethernet/Wifi), ce qui me permet d'échanger des fichiers en montant un volume d'un Mac sur l'autre.</p>
@@ -136,7 +136,7 @@
 <p>Le problème était en effet causé par ma précédente modification des autorisations, depuis la section Partage des préférences système. En retirant l'accès à tous les utilisateurs sauf moi, j'avais retiré l'accès à un utilisateur qui s'appelle "système". Or, si l'on peut facilement priver d'accès cet utilisateur, on ne peut pas aussi facilement lui rendre l'accès. La gestion des autorisations (Commande+i sur l'icône d'un volume) passe maintenant par le carnet d'adresses. On peut rajouter un groupe "administrateurs" et un groupe "everyone", mais pas l'utilisateur "système". Or, c'est cet utilisateur qu'utilise le daemon de TimeMachine !</p>
 <p>Je n'ai pas cherché une solution intelligente, j'ai opté pour la solution "bourrin". J'ai copié les fichiers sur un disque externé, j'ai formaté le disque interne contenant mes documents, puis j'ai recopié les données depuis le disque externe vers le nouveau volume tout neuf, avec les bonnes autorisations. TimeMachine fonctionne désormais sans problème. La copie des 400+Go est en cours.</p>
 <p>Fin de l'histoire. Morale : ne pas faire une confiance aveugle en Apple, ne pas cliquer trop vite sans chercher à comprendre et... éviter de jouer avec les paramétrages avancés de la section Partage des préférences système !</p>
-
+</div>
       
       <div class="related">
         <hr>
