@@ -7,6 +7,9 @@ url: "http://www.valhalla.fr" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  mw4rf
 
+# GUI
+bootswatch: yeti
+
 # Build settings
 markdown: kramdown
 
