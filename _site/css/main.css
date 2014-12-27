@@ -13,7 +13,7 @@ dl, dd, ol, ul, figure {
 body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.8;
   font-weight: 300;
   color: #111;
   background-color: #fdfdfd;
@@ -224,6 +224,9 @@ pre {
 /**
  * Text content : every text bloc should be wrapped in this container
  */
+.text-content {
+  line-height: 1.8; }
+
 /**
  * Generic containers for images with text wrapped around
  */
