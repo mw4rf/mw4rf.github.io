@@ -106,15 +106,18 @@
       <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-10">
-          <div class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">Convertir un blog Wordpress en UTF-8</h1>
-    <p class="post-meta">Mar 20, 2010 • GF</p>
-  </header>
-
-  <article class="post-content">
-    <p>L'encodage d'un site utilisant un logiciel de publication stockant le contenu des pages dans une base de données, comme le font les logiciels de blog, de forum ou de CMS, est une chose importante et <a href="http://www.valhalla.fr/2005/10/06/un-probleme-dencodage-peut-etre/">susceptible de créer bien des soucis</a> au Webmaster. Les premières versions du célèbre logiciel de blog Wordpress, qui est par ailleurs utilisé pour éditer ce site, utilisaient le charset Latin1 (norme ISO-8859-1), conçu pour afficher toutes les lettres de l'alphabet latin, ainsi que certains caractères accentués (é, ê, ù, à...) et spéciaux (ç, œ, ñ, ß...). Mais l'internationalisation du Web a peu à peu engendré la nécessité d'un charset plus large que le Latin1, prenant en charge plus de caractères. C'est ainsi que Wordpress, comme la plupart des logiciels CMS, de forum ou de blog, a remplacé Latin1 par UTF-8 comme charset par défaut. Ce changement ne pose bien évidemment aucun problème pour les blogs créés postérieurement, toute la mécanique de l'encodage étant transparente pour l'utilisateur. Toutefois, UTF-8 étant incompatible avec le charset Latin1 -- c'est-à-dire qu'il prend en charge de manière différente des caractères accentués utilisés par les deux charsets --, les sites créés en Latin1 doivent faire l'objet de certaines modifications afin de pouvoir être affichés en UTF-8. Cet article a pour but de présenter les modifications qui doivent être apportées à un site utilisant Wordpress, afin de remplacer Latin1 par UTF-8 comme encodage par défaut.</p>
+          <div class="container">
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-9 col-xs-12">
+      <div class="page-header">
+        <h1>
+          Convertir un blog Wordpress en UTF-8
+          <small>Mar 20, 2010 • GF</small>
+        </h1>
+      </div>
+      
+      <p>L'encodage d'un site utilisant un logiciel de publication stockant le contenu des pages dans une base de données, comme le font les logiciels de blog, de forum ou de CMS, est une chose importante et <a href="http://www.valhalla.fr/2005/10/06/un-probleme-dencodage-peut-etre/">susceptible de créer bien des soucis</a> au Webmaster. Les premières versions du célèbre logiciel de blog Wordpress, qui est par ailleurs utilisé pour éditer ce site, utilisaient le charset Latin1 (norme ISO-8859-1), conçu pour afficher toutes les lettres de l'alphabet latin, ainsi que certains caractères accentués (é, ê, ù, à...) et spéciaux (ç, œ, ñ, ß...). Mais l'internationalisation du Web a peu à peu engendré la nécessité d'un charset plus large que le Latin1, prenant en charge plus de caractères. C'est ainsi que Wordpress, comme la plupart des logiciels CMS, de forum ou de blog, a remplacé Latin1 par UTF-8 comme charset par défaut. Ce changement ne pose bien évidemment aucun problème pour les blogs créés postérieurement, toute la mécanique de l'encodage étant transparente pour l'utilisateur. Toutefois, UTF-8 étant incompatible avec le charset Latin1 -- c'est-à-dire qu'il prend en charge de manière différente des caractères accentués utilisés par les deux charsets --, les sites créés en Latin1 doivent faire l'objet de certaines modifications afin de pouvoir être affichés en UTF-8. Cet article a pour but de présenter les modifications qui doivent être apportées à un site utilisant Wordpress, afin de remplacer Latin1 par UTF-8 comme encodage par défaut.</p>
 <p><a id="more"></a><a id="more-456"></a></p>
 <blockquote>
 <p>Pourquoi modifier l'encodage de son site, au profit de l'UTF-8 ?</p>
@@ -180,35 +183,38 @@ ALTER TABLE wp_posts CONVERT TO CHARACTER SET utf8;</code></p>
 <p>
 à Montpellier, le 20 mars 2010</p>
 
-  </article>
-  
-  <div class="related">
-    <h2>Voir aussi</h2>
-    <ul style="list-style-type: none;">
-    
-        <li><a href="">Safari : raccourci clavier pour afficher/masquer la barre des signets</a></li>
-    
-        <li><a href="">Lancer Intellij IDEA 13 Mac avec un JDK Oracle</a></li>
-    
-        <li><a href="">Ubuntu 12.10 : Checklist d'installation</a></li>
-    
-        <li><a href="">Numéro 107 - Semaine du 2 au 8 juillet 2012</a></li>
-    
-        <li><a href="">Numéro 106 - Semaine du 25 juin au 1er juillet 2012</a></li>
-    
-        <li><a href="">Numéro 105 - Semaine du 18 au 24 juin 2012</a></li>
-    
-        <li><a href="">Optimiser les bureaux virtuels sous Unity (Ubuntu 12.04)</a></li>
-    
-        <li><a href="">Ubuntu Software Center : tester avant d'installer</a></li>
-    
-        <li><a href="">Numéro 104 - Semaine du 28 mai au 3 juin 2012</a></li>
-    
-        <li><a href="">Numéro 103 - Semaine du 21 au 27 mai 2012</a></li>
-    
-    </ul>
+      
+      <div class="related">
+        <hr>
+        <h2>Voir aussi</h2>
+        <ul style="list-style-type: none;">
+        
+            <li><a href="">Safari : raccourci clavier pour afficher/masquer la barre des signets</a></li>
+        
+            <li><a href="">Lancer Intellij IDEA 13 Mac avec un JDK Oracle</a></li>
+        
+            <li><a href="">Ubuntu 12.10 : Checklist d'installation</a></li>
+        
+            <li><a href="">Numéro 107 - Semaine du 2 au 8 juillet 2012</a></li>
+        
+            <li><a href="">Numéro 106 - Semaine du 25 juin au 1er juillet 2012</a></li>
+        
+            <li><a href="">Numéro 105 - Semaine du 18 au 24 juin 2012</a></li>
+        
+            <li><a href="">Optimiser les bureaux virtuels sous Unity (Ubuntu 12.04)</a></li>
+        
+            <li><a href="">Ubuntu Software Center : tester avant d'installer</a></li>
+        
+            <li><a href="">Numéro 104 - Semaine du 28 mai au 3 juin 2012</a></li>
+        
+            <li><a href="">Numéro 103 - Semaine du 21 au 27 mai 2012</a></li>
+        
+        </ul>
+      </div>
+      
+    </div>
+    <div class="col-md-2">
   </div>
-
 </div>
 
         </div>

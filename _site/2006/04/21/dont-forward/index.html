@@ -106,15 +106,18 @@
       <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-10">
-          <div class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">Don't forward !</h1>
-    <p class="post-meta">Apr 21, 2006 • GF</p>
-  </header>
-
-  <article class="post-content">
-    <p>Depuis l'ère glacière, qui débuta avec l'introduction du fameux symbole @ en 1972, il est possible de rediriger ("forward") un e-mail que l'on a reçu vers une tierce personne. Les premiers logiciels d'e-mail ("clients SMTP/POP"), tel qu'Eudora ou le vénérable PegasusMail, présentaient déjà le terrible bouton "forward". Un seul clic sur ce bouton, et l'e-mail reçu était redirigé vers les destinataires choisis. De là est née une des plus vicieuses techniques de spam qui tend à prendre une ampleur de plus en plus inquiétante...</p>
+          <div class="container">
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-9 col-xs-12">
+      <div class="page-header">
+        <h1>
+          Don't forward !
+          <small>Apr 21, 2006 • GF</small>
+        </h1>
+      </div>
+      
+      <p>Depuis l'ère glacière, qui débuta avec l'introduction du fameux symbole @ en 1972, il est possible de rediriger ("forward") un e-mail que l'on a reçu vers une tierce personne. Les premiers logiciels d'e-mail ("clients SMTP/POP"), tel qu'Eudora ou le vénérable PegasusMail, présentaient déjà le terrible bouton "forward". Un seul clic sur ce bouton, et l'e-mail reçu était redirigé vers les destinataires choisis. De là est née une des plus vicieuses techniques de spam qui tend à prendre une ampleur de plus en plus inquiétante...</p>
 <p><a id="more"></a><a id="more-99"></a></p>
 <p>Que se passe-t-il lorsque l'on clique sur ce traitre de bouton "forward" ? Et bien l'e-mail est redirigé vers les destinataires que l'on spécifie. Le message a été envoyé par A à B, puis redirigé par B vers C. Seulement, l'adresse de A reste visible dans la copie reçue par C. Remarquez, c'est logique, on dira bien dans la vie de tous les jours "tiens, regarde ce truc, c'est Machin qui me l'a envoyé". Néanmoins, ce principe devient vicieux lorsque le message est de nouveau redirigé par C vers D: les adresses de A et B apparaîtront dans la copie que reçoit D. Et ainsi de suite. Conclusion: si Z est une entreprise de spam, et bien les adresses de A, B, C, D... X et Y seront enregistrées (et validées !) pour être spammées à gogo.</p>
 <p>Pis encore: le champ CC. Celui là est déjà terrible en soi, puisqu'il permet à chaque destinataire d'un e-mail de voir les adresses des autres destinataires. Mais avec l'effet cumulé du "forward", les résultats sont explosifs. En effet, si un message est envoyé à 100 personnes, et que l'une de ces personnes le redirige bêtement, les adresses des 100 autres seront connues du destinataire final. Imaginez maintenant que parmi les 100 destinataires, non pas 1, mais 50 d'entre eux décident de rediriger l'e-mail. Et qu'ils ne le redirigent pas chacun vers 1 personne, mais chacun vers 50 personnes...</p>
@@ -123,35 +126,38 @@
 <p>Mais il existe également une astuce pour qu'un destinataire ne puisse pas connaître les adresses de ses co-destinataires. A vrai dire, il ne saura même pas s'il est ou non l'unique destinataire de l'e-mail. La mise en oeuvre de cette astuce est très simple: mettre sa propre adresse dans le champ A: ("To:", le destinataire), et inscrire l'adresse des véritables destinataires dans le champ CCi: ("BCC:" pour "Blind Carbon Copy" ou "Copie Carbone/Conforme <i>invisible</i>") au lieu de l'inscrire dans le champ CC: ("Carbon Copy", "Copie Carbone/Conforme" mais non invisible). Peu de gens connaissent cette méthode, alors qu'elle peut être utilisée avec tous les clients e-mail, même les webmails. En outre, elle rend inefficaces certains virus ou vers qui utilisent les failles d'Outlook pour récupérer les adresses du carnet d'adresses et ainsi se propager sur le réseau.</p>
 <p>Encore une fois, il faut prendre la peine de s'informer. On ne le répètera jamais assez: les systèmes de protection contre les spams et "malwares" peuvent être de plus en plus efficaces et sophistiqués, il n'en demeure pas moins que la meilleure protection est la compréhension et la "bonne" utilisation des technologies informatiques. Comme on dit... un internaute averti en vaut deux !</p>
 
-  </article>
-  
-  <div class="related">
-    <h2>Voir aussi</h2>
-    <ul style="list-style-type: none;">
-    
-        <li><a href="">Safari : raccourci clavier pour afficher/masquer la barre des signets</a></li>
-    
-        <li><a href="">Lancer Intellij IDEA 13 Mac avec un JDK Oracle</a></li>
-    
-        <li><a href="">Ubuntu 12.10 : Checklist d'installation</a></li>
-    
-        <li><a href="">Numéro 107 - Semaine du 2 au 8 juillet 2012</a></li>
-    
-        <li><a href="">Numéro 106 - Semaine du 25 juin au 1er juillet 2012</a></li>
-    
-        <li><a href="">Numéro 105 - Semaine du 18 au 24 juin 2012</a></li>
-    
-        <li><a href="">Optimiser les bureaux virtuels sous Unity (Ubuntu 12.04)</a></li>
-    
-        <li><a href="">Ubuntu Software Center : tester avant d'installer</a></li>
-    
-        <li><a href="">Numéro 104 - Semaine du 28 mai au 3 juin 2012</a></li>
-    
-        <li><a href="">Numéro 103 - Semaine du 21 au 27 mai 2012</a></li>
-    
-    </ul>
+      
+      <div class="related">
+        <hr>
+        <h2>Voir aussi</h2>
+        <ul style="list-style-type: none;">
+        
+            <li><a href="">Safari : raccourci clavier pour afficher/masquer la barre des signets</a></li>
+        
+            <li><a href="">Lancer Intellij IDEA 13 Mac avec un JDK Oracle</a></li>
+        
+            <li><a href="">Ubuntu 12.10 : Checklist d'installation</a></li>
+        
+            <li><a href="">Numéro 107 - Semaine du 2 au 8 juillet 2012</a></li>
+        
+            <li><a href="">Numéro 106 - Semaine du 25 juin au 1er juillet 2012</a></li>
+        
+            <li><a href="">Numéro 105 - Semaine du 18 au 24 juin 2012</a></li>
+        
+            <li><a href="">Optimiser les bureaux virtuels sous Unity (Ubuntu 12.04)</a></li>
+        
+            <li><a href="">Ubuntu Software Center : tester avant d'installer</a></li>
+        
+            <li><a href="">Numéro 104 - Semaine du 28 mai au 3 juin 2012</a></li>
+        
+            <li><a href="">Numéro 103 - Semaine du 21 au 27 mai 2012</a></li>
+        
+        </ul>
+      </div>
+      
+    </div>
+    <div class="col-md-2">
   </div>
-
 </div>
 
         </div>

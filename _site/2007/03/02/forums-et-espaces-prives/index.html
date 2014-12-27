@@ -106,15 +106,18 @@
       <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-10">
-          <div class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">Forums et espaces privés</h1>
-    <p class="post-meta">Mar 2, 2007 • GF</p>
-  </header>
-
-  <article class="post-content">
-    <p>Un des problèmes majeurs que rencontrent les webmasters qui ont construit leurs sites autour d'un système de forums tel que vBulletin ou Invision Power Board est de créer une passerelle entre ces forums et un nouvel espace privé qu'ils comptent mettre en place. La problématique est la suivante, elle se résume en trois points: 1) le site entier est basé sur l'inscription des utilisateurs à un forum, cette inscription détermine leurs droits d'accès à certaines informations ; 2) on souhaite ajouter au site un logiciel PHP développé de manière indépendante du système de forums (c'est-à-dire que ce n'est pas un plugin ou un add-on pour les forums) ; 3) on veut protéger l'accès aux données de ce logiciel, mais on ne veut pas demander aux utilisateurs de créer un nouveau compte, différent de celui qu'ils utilisent pour se connecter aux forums. Dans ce cas, comment procéder ?<br />
+          <div class="container">
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-9 col-xs-12">
+      <div class="page-header">
+        <h1>
+          Forums et espaces privés
+          <small>Mar 2, 2007 • GF</small>
+        </h1>
+      </div>
+      
+      <p>Un des problèmes majeurs que rencontrent les webmasters qui ont construit leurs sites autour d'un système de forums tel que vBulletin ou Invision Power Board est de créer une passerelle entre ces forums et un nouvel espace privé qu'ils comptent mettre en place. La problématique est la suivante, elle se résume en trois points: 1) le site entier est basé sur l'inscription des utilisateurs à un forum, cette inscription détermine leurs droits d'accès à certaines informations ; 2) on souhaite ajouter au site un logiciel PHP développé de manière indépendante du système de forums (c'est-à-dire que ce n'est pas un plugin ou un add-on pour les forums) ; 3) on veut protéger l'accès aux données de ce logiciel, mais on ne veut pas demander aux utilisateurs de créer un nouveau compte, différent de celui qu'ils utilisent pour se connecter aux forums. Dans ce cas, comment procéder ?<br />
 <a id="more"></a><a id="more-111"></a></p>
 <p>La plupart du temps, on choisira une solution de facilité: soit installer ou développer un add-on ou plugin pour le système de forums, qui utilise le même mode d'identification des utilisateurs que ce forum soit, au contraire, développer un logiciel totalement autonome qui nécessite une seconde procédure d'identification de la part des utilisateurs.</p>
 <p>Les deux possibilités ont des inconvénients majeurs. Pour ce qui est de la première, elle présente l'inconvénient d'être très difficilement réalisable et de constituer un casse-tête pour le webmaster à la moindre mise à jour du système de forums. Il faudra en effet très probablement réécrire une bonne partie du code si l'éditeur du forum décide de modifier la procédure d'identification des utilisateurs. Or, ce genre de choses, particulièrement sensibles aux questions de sécurité, font l'objet de modifications fréquentes. Quant à la seconde possibilité, elle présente également une difficulté énorme. Cette fois, le problème ne se pose plus pour le webmaster mais pour les utilisateurs. Ceux-ci devront créer deux comptes, avec <em>login</em> et mot de passe: le premier pour les forums, le second pour le nouveau logiciel. Il y a de quoi alimenter la confusion dans leurs esprits, surtout s'ils ne sont pas familiers de l'informatique et des technologies du web. De plus, deux mots de passe, c'est deux fois plus de risques d'oubli !</p>
@@ -128,35 +131,38 @@
 <p>Cette méthode répond au problème exposé en introduction. Elle fonctionne parfaitement et a été appliquée avec succès -et de manière totalement transparente pour les utilisateurs- sur une base de données développée en PHP et jointe à un forum vBulletin 3.0.X.</p>
 <p>En pratique, il faudra cependant veiller à protéger le mot de passe contenu dans la requête GET. Dans l'exemple ci-dessus, ce mot de passe ("ok") est transmis en clair, ce qui est contre toute notion de sécurité. Mais rien n'empêche, au prix de quelques efforts, de chiffrer ce mot de passe pour sécuriser la procédure: PHP gère très bien et très simplement le MD5 et le SHA1.</p>
 
-  </article>
-  
-  <div class="related">
-    <h2>Voir aussi</h2>
-    <ul style="list-style-type: none;">
-    
-        <li><a href="">Safari : raccourci clavier pour afficher/masquer la barre des signets</a></li>
-    
-        <li><a href="">Lancer Intellij IDEA 13 Mac avec un JDK Oracle</a></li>
-    
-        <li><a href="">Ubuntu 12.10 : Checklist d'installation</a></li>
-    
-        <li><a href="">Numéro 107 - Semaine du 2 au 8 juillet 2012</a></li>
-    
-        <li><a href="">Numéro 106 - Semaine du 25 juin au 1er juillet 2012</a></li>
-    
-        <li><a href="">Numéro 105 - Semaine du 18 au 24 juin 2012</a></li>
-    
-        <li><a href="">Optimiser les bureaux virtuels sous Unity (Ubuntu 12.04)</a></li>
-    
-        <li><a href="">Ubuntu Software Center : tester avant d'installer</a></li>
-    
-        <li><a href="">Numéro 104 - Semaine du 28 mai au 3 juin 2012</a></li>
-    
-        <li><a href="">Numéro 103 - Semaine du 21 au 27 mai 2012</a></li>
-    
-    </ul>
+      
+      <div class="related">
+        <hr>
+        <h2>Voir aussi</h2>
+        <ul style="list-style-type: none;">
+        
+            <li><a href="">Safari : raccourci clavier pour afficher/masquer la barre des signets</a></li>
+        
+            <li><a href="">Lancer Intellij IDEA 13 Mac avec un JDK Oracle</a></li>
+        
+            <li><a href="">Ubuntu 12.10 : Checklist d'installation</a></li>
+        
+            <li><a href="">Numéro 107 - Semaine du 2 au 8 juillet 2012</a></li>
+        
+            <li><a href="">Numéro 106 - Semaine du 25 juin au 1er juillet 2012</a></li>
+        
+            <li><a href="">Numéro 105 - Semaine du 18 au 24 juin 2012</a></li>
+        
+            <li><a href="">Optimiser les bureaux virtuels sous Unity (Ubuntu 12.04)</a></li>
+        
+            <li><a href="">Ubuntu Software Center : tester avant d'installer</a></li>
+        
+            <li><a href="">Numéro 104 - Semaine du 28 mai au 3 juin 2012</a></li>
+        
+            <li><a href="">Numéro 103 - Semaine du 21 au 27 mai 2012</a></li>
+        
+        </ul>
+      </div>
+      
+    </div>
+    <div class="col-md-2">
   </div>
-
 </div>
 
         </div>

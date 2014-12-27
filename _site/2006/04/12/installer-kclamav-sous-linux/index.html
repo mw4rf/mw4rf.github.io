@@ -106,15 +106,18 @@
       <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-10">
-          <div class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">Installer K/ClamAV sous Linux ?</h1>
-    <p class="post-meta">Apr 12, 2006 • GF</p>
-  </header>
-
-  <article class="post-content">
-    <p><img src="/public/posts/2006-04-12-clamav/clamav.png" align="left" alt="ClamAV Logo" /><br />
+          <div class="container">
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-9 col-xs-12">
+      <div class="page-header">
+        <h1>
+          Installer K/ClamAV sous Linux ?
+          <small>Apr 12, 2006 • GF</small>
+        </h1>
+      </div>
+      
+      <p><img src="/public/posts/2006-04-12-clamav/clamav.png" align="left" alt="ClamAV Logo" /><br />
 En lisant les nouvelles ce matin, j'ai appris que des programmeurs avaient réalisé un virus crossplatform en Assembleur. Il fonctionne aussi bien sous Windows que sous Linux, et peut servir de base à d'autres auteurs de virus pour mettre en oeuvre leur savoir destructeur. Heureusement, ce virus-là n'en est pas réellement un, c'est plutot un guide donnant les lignes directrices pour une comaptibilité avec les deux systèmes. Ca m'a donné une idée: installer l'antivirus ClamAV, opensource et gratuit. Ce n'était pas par nécessité, puisque je n'ai aucune peur de ce virus, que je sais quand comment et pourquoi je suis susceptible de me faire infecter, et que le poste sur lequel j'ai réalisé l'installation peut se permettre de planter et de voir son système réinstallé après formatage. Non, si j'ai installé cet antivirus, ce n'était que pour le tester. Et bien, je n'ai pas été déçu ! En effet, l'installation de l'interface graphique, KlamAV (qui se détâche de ClamAV, celui-ci s'exécutant normalement en ligne de commande), est un vrai parcours du combattant. C'est donc tout naturellement que j'ai entrepris d'écrire cet article qui aura pour but d'expliquer comment installer et configurer ClamAV et l'interface KlamAV sous Linux. Dernière précision avant de commencer: les étapes décrites sont basées sur une OpenSuse 10; elles demeurent valables pour la plupart des grosses distributions (RedHat, Mandrake/Mandriva, etc.), mais seront peut être légèrement différentes pour les distributions basées sur Debian.</p>
 <p><a id="more"></a><a id="more-96"></a></p>
 <h2>Première étape: Installation du moteur ClamAV</h2>
@@ -207,35 +210,38 @@ make modules_prepare&lt;br /&gt;</code></pre></div>
 <p>Petite précision finale: si cela ne fonctionne plus après avoir redémarré la machine, c'est probablement parce que Dazuko n'est pas lancé. Dans ce cas, <span class="Code">modprobe dazuko</span> dans une fenêtre de terminal.</p>
 </span></p></p></p></p>
 
-  </article>
-  
-  <div class="related">
-    <h2>Voir aussi</h2>
-    <ul style="list-style-type: none;">
-    
-        <li><a href="">Safari : raccourci clavier pour afficher/masquer la barre des signets</a></li>
-    
-        <li><a href="">Lancer Intellij IDEA 13 Mac avec un JDK Oracle</a></li>
-    
-        <li><a href="">Ubuntu 12.10 : Checklist d'installation</a></li>
-    
-        <li><a href="">Numéro 107 - Semaine du 2 au 8 juillet 2012</a></li>
-    
-        <li><a href="">Numéro 106 - Semaine du 25 juin au 1er juillet 2012</a></li>
-    
-        <li><a href="">Numéro 105 - Semaine du 18 au 24 juin 2012</a></li>
-    
-        <li><a href="">Optimiser les bureaux virtuels sous Unity (Ubuntu 12.04)</a></li>
-    
-        <li><a href="">Ubuntu Software Center : tester avant d'installer</a></li>
-    
-        <li><a href="">Numéro 104 - Semaine du 28 mai au 3 juin 2012</a></li>
-    
-        <li><a href="">Numéro 103 - Semaine du 21 au 27 mai 2012</a></li>
-    
-    </ul>
+      
+      <div class="related">
+        <hr>
+        <h2>Voir aussi</h2>
+        <ul style="list-style-type: none;">
+        
+            <li><a href="">Safari : raccourci clavier pour afficher/masquer la barre des signets</a></li>
+        
+            <li><a href="">Lancer Intellij IDEA 13 Mac avec un JDK Oracle</a></li>
+        
+            <li><a href="">Ubuntu 12.10 : Checklist d'installation</a></li>
+        
+            <li><a href="">Numéro 107 - Semaine du 2 au 8 juillet 2012</a></li>
+        
+            <li><a href="">Numéro 106 - Semaine du 25 juin au 1er juillet 2012</a></li>
+        
+            <li><a href="">Numéro 105 - Semaine du 18 au 24 juin 2012</a></li>
+        
+            <li><a href="">Optimiser les bureaux virtuels sous Unity (Ubuntu 12.04)</a></li>
+        
+            <li><a href="">Ubuntu Software Center : tester avant d'installer</a></li>
+        
+            <li><a href="">Numéro 104 - Semaine du 28 mai au 3 juin 2012</a></li>
+        
+            <li><a href="">Numéro 103 - Semaine du 21 au 27 mai 2012</a></li>
+        
+        </ul>
+      </div>
+      
+    </div>
+    <div class="col-md-2">
   </div>
-
 </div>
 
         </div>

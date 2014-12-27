@@ -106,15 +106,18 @@
       <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-10">
-          <div class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">Un problème d'encodage, peut-être ?</h1>
-    <p class="post-meta">Oct 6, 2005 • GF</p>
-  </header>
-
-  <article class="post-content">
-    <p>Les phrases et les mots qui apparaissent à l'écran sont composés de caractères. Il existe des caractères "normaux" (a,b,c,d...), des caractères accentués (é,è,à,ñ...), des caractères de ponctuation et des caractères spéciaux (tels que le symbole euro).</p>
+          <div class="container">
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-9 col-xs-12">
+      <div class="page-header">
+        <h1>
+          Un problème d'encodage, peut-être ?
+          <small>Oct 6, 2005 • GF</small>
+        </h1>
+      </div>
+      
+      <p>Les phrases et les mots qui apparaissent à l'écran sont composés de caractères. Il existe des caractères "normaux" (a,b,c,d...), des caractères accentués (é,è,à,ñ...), des caractères de ponctuation et des caractères spéciaux (tels que le symbole euro).</p>
 <p><img align="right" style="border: 1px dotted #ccc" alt="Image 1" src="/public/posts/2005-10-06-charset/charset1.png" /></p>
 <p>Les ordinateurs (quel que soit le système d'exploitation, windows, mac, linux ou autre) gèrent l'affichage de ces caractères de manière binaire, en associant un code chiffré à chaque caractère (autrement dit, une série de 0 et de 1). La correspondance entre le code chiffré et le caractère tel qu'il apparaît à l'écran se fait par l'intermédiaire d'une table d'encodage, ou charset.</p>
 <p>Malheureusement, il existe de multiples charsets. Le charset de base (ANSI) est anglo-saxon, il ne prend pas en compte les caractères accentués, et il est donc à exclure pour le français. Il existe également des charset pour les langues qui n'ont pas un alphabet latin: chinois, japonais, coréen, arabe, hébreux, etc. Et il existe une multitude de charsets, qui ne présentent que de minimes différentes les une entre les autres, pour la gestion des langues européennes.</p>
@@ -146,35 +149,38 @@ Pour savoir quel est le charset utilisé sur une page Web, afficher le code sour
 <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;meta</span> <span class="na">http-equiv=</span><span class="s">&quot;Content-Type&quot;</span> <span class="na">content=</span><span class="s">&quot;text/html; charset=utf-8&quot;</span><span class="nt">&gt;</span></code></pre></div>
 
 
-  </article>
-  
-  <div class="related">
-    <h2>Voir aussi</h2>
-    <ul style="list-style-type: none;">
-    
-        <li><a href="">Safari : raccourci clavier pour afficher/masquer la barre des signets</a></li>
-    
-        <li><a href="">Lancer Intellij IDEA 13 Mac avec un JDK Oracle</a></li>
-    
-        <li><a href="">Ubuntu 12.10 : Checklist d'installation</a></li>
-    
-        <li><a href="">Numéro 107 - Semaine du 2 au 8 juillet 2012</a></li>
-    
-        <li><a href="">Numéro 106 - Semaine du 25 juin au 1er juillet 2012</a></li>
-    
-        <li><a href="">Numéro 105 - Semaine du 18 au 24 juin 2012</a></li>
-    
-        <li><a href="">Optimiser les bureaux virtuels sous Unity (Ubuntu 12.04)</a></li>
-    
-        <li><a href="">Ubuntu Software Center : tester avant d'installer</a></li>
-    
-        <li><a href="">Numéro 104 - Semaine du 28 mai au 3 juin 2012</a></li>
-    
-        <li><a href="">Numéro 103 - Semaine du 21 au 27 mai 2012</a></li>
-    
-    </ul>
+      
+      <div class="related">
+        <hr>
+        <h2>Voir aussi</h2>
+        <ul style="list-style-type: none;">
+        
+            <li><a href="">Safari : raccourci clavier pour afficher/masquer la barre des signets</a></li>
+        
+            <li><a href="">Lancer Intellij IDEA 13 Mac avec un JDK Oracle</a></li>
+        
+            <li><a href="">Ubuntu 12.10 : Checklist d'installation</a></li>
+        
+            <li><a href="">Numéro 107 - Semaine du 2 au 8 juillet 2012</a></li>
+        
+            <li><a href="">Numéro 106 - Semaine du 25 juin au 1er juillet 2012</a></li>
+        
+            <li><a href="">Numéro 105 - Semaine du 18 au 24 juin 2012</a></li>
+        
+            <li><a href="">Optimiser les bureaux virtuels sous Unity (Ubuntu 12.04)</a></li>
+        
+            <li><a href="">Ubuntu Software Center : tester avant d'installer</a></li>
+        
+            <li><a href="">Numéro 104 - Semaine du 28 mai au 3 juin 2012</a></li>
+        
+            <li><a href="">Numéro 103 - Semaine du 21 au 27 mai 2012</a></li>
+        
+        </ul>
+      </div>
+      
+    </div>
+    <div class="col-md-2">
   </div>
-
 </div>
 
         </div>
