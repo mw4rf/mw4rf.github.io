@@ -1,24 +1,25 @@
 - title: "À Propos"
   href: "/about.html"
+
+- title: "Revue"
+  href: "/revue/"
   
 - title: "Archives"
-  href: "/archives/"
+  href: ""
   subcategories:
+    - subtitle: "Articles essentiels"
+      subhref: "/articles-essentiels/"
     - subtitle: "Archives chronologiques"
       subhref: "/archives/index.html"
     - subtitle: "Catégories"
       subhref: "/archives/categories.html"
     - subtitle: "Tags"
       subhref: "/archives/tags.html"
-
-- title: "Revue"
-  href: "/revue/"
   
-- title: "Articles essentiels"
-  href: "/articles-essentiels/"
-
-- title: "Java"
-  href: "/java/"
-
-- title: "Outils"
-  href: "/outils/"
+- title: "Divers"
+  href: ""
+  subcategories:
+      - subtitle: "Outils"
+        subhref: "/outils/"
+      - subtitle: "Java"
+        subhref: "/java/"
