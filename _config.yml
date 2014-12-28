@@ -10,6 +10,9 @@ github_username:  mw4rf
 # GUI
 bootswatch: yeti
 
+# Google Analytics ID
+google_analytics: UA-2290016-1
+
 # Build settings
 markdown: kramdown
 
