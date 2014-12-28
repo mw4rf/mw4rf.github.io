@@ -26,11 +26,12 @@ layout: default
         </ul>
       </div>
       
+      {% unless page.comments == false %}
       <hr>
-      
       <div class="comments">
         {% include disqus.html %}
       </div>
+      {% endunless %}
       
     </div>
     <div class="col-md-2">
