@@ -19,3 +19,7 @@ paginate_path: "/archives/:num"
 
 # Permalinks
 permalink:     /:year/:month/:day/:title/
+
+# Jekyll Plugins
+gems:
+  - jekyll-sitemap
