@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <title>De WordPress à Jekyll</title>
+  <meta name="description" content="Pour fêter son 10ème anniversaire, Valhalla.fr fait peau neuve ! Fini WordPress et les pages dynamiques générées par un moteur PHP, bienvenue à Jekyll, génér...">
+  <link href="/public/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  
+  <!-- Twitter Bootstrap -->
+  <link rel="stylesheet" href='/assets/bootswatch/yeti.min.css'>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href='/assets/font-awesome/css/font-awesome.min.css'>
+  git
+  <link rel="stylesheet" href="/css/main.css">
+  
+  
+  <link rel="canonical" href="http://www.valhalla.fr/2015/01/03/de-wordpress-a-jekyll/">
+  <link rel="alternate" type="application/atom+xml" title="Valhalla.fr" href="http://www.valhalla.fr/feed.xml" />
+</head>
+
+
+  <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://www.valhalla.fr">Valhalla.fr</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+      
+      <ul class="nav navbar-nav">
+        
+          
+            <li>
+            <a href="http://www.valhalla.fr/about.html">À Propos</a>
+          
+          </li>
+        
+          
+            <li>
+            <a href="http://www.valhalla.fr/revue/">Revue</a>
+          
+          </li>
+        
+          
+            <li class="dropdown">
+              <a href="http://www.valhalla.fr" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Archives <i class="caret"></i></a>
+              <ul class="dropdown-menu">
+              
+                <li><a href="http://www.valhalla.fr/articles-essentiels/">Articles essentiels</a></li>
+              
+                <li><a href="http://www.valhalla.fr/archives/index.html">Archives chronologiques</a></li>
+              
+                <li><a href="http://www.valhalla.fr/archives/categories.html">Catégories</a></li>
+              
+                <li><a href="http://www.valhalla.fr/archives/tags.html">Tags</a></li>
+              
+              </ul>
+          
+          </li>
+        
+          
+            <li class="dropdown">
+              <a href="http://www.valhalla.fr" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Divers <i class="caret"></i></a>
+              <ul class="dropdown-menu">
+              
+                <li><a href="http://www.valhalla.fr/outils/">Outils</a></li>
+              
+                <li><a href="http://www.valhalla.fr/java/">Java</a></li>
+              
+              </ul>
+          
+          </li>
+        
+      </ul>
+      
+      <!-- Google Custom Search Engine -->
+      <form action="http://www.google.com/cse" id="cse-search-box" _lpchecked="1" class="navbar-form navbar-right" role="search">
+        <input type="hidden" name="cx" value="007528237610497066360:tooxybveeoo">
+        <input type="hidden" name="ie" value="UTF-8">
+        <input name="siteurl" type="hidden" value="http://www.valhalla.fr">
+        <input name="ref" type="hidden" value="">
+        <input name="ss" type="hidden" value="">
+        <div class="input-group input-group-sm">
+          <input type="text" class="form-control" name="q" style="background: url(http://www.google.com/cse/intl/en/images/google_custom_search_watermark.gif) 0% 50% no-repeat rgb(255, 255, 255);">
+        </div>
+      </form>
+      <!-- END Google Custom Search Engine -->
+            
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+    <div class="page-content container-fluid">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <div class="container">
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-9 col-xs-12">
+      <div class="page-header">
+        <h1>
+          De WordPress à Jekyll
+          <small>Jan 3, 2015 • GF</small>
+        </h1>
+      </div>
+      
+      <div class="text-content"><p>Pour fêter son 10ème anniversaire, Valhalla.fr fait peau neuve ! Fini WordPress et les pages dynamiques générées par un moteur PHP, bienvenue à Jekyll, générateur de sites statiques. Il fallait bien cela, en 2015 : WordPress, c’est <em>has been</em> ! Et pourtant, les pages statiques sont un retour au Web 1.0 du 20ème siècle…</p>
+
+<h1 id="le-changement">Le changement</h1>
+
+<p>Blague à part, il faut de bonnes raisons pour abandonner un <em>framework</em> moderne et en revenir à ce qui se faisait il y a vingt ans, les pages statiques. <a href="https://wordpress.com/">WordPress</a> est très complet, trop complet. À l’origine il était léger et c’est avec un grand plaisir que j’avais abandonné mes <em>templates</em> Dreamweaver pour réaliser un véritable blog, en PHP comme il se doit. Mais les années ont passé et WordPress est devenu une véritable usine à gaz.</p>
+
+<h2 id="les-raisons-de-labandon-de-wordpress">Les raisons de l’abandon de WordPress</h2>
+
+<p>D’abord, son occupation en mémoire vive est énorme. Le cœur de WordPress et quelques plugins indispensables (JetPack, SEO, thème graphique, anti-spam…), c’est suffisant pour atteindre les 100 Mo de mémoire. C’est trop pour un hébergeur <em>mutualisé</em> et je n’ai pas l’intention de payer plus cher un hébergement dédié.</p>
+
+<p>Ensuite, WordPress est lent. La lenteur se manifeste tant dans sa gestion, par exemple le chargement des pages de l’interface d’administration, que dans son utilisation par les tiers. En effet, le nombre énorme de lignes de codes à exécuter sur le serveur afin de générer les pages du site ralentit fortement leur affichage. Certes il existe des plugins pour mettre les pages générées en <em>cache</em>, mais sur un serveur mutualisé que l’on ne peut configurer à souhait, cela crée plus de problèmes que cela n’en résout. Je ne supporte plus d’attendre 5 secondes pour qu’une page s’affiche. On est en 2015, l’ADSL s’est démocratisé, la fibre optique est de plus en plus présente ; les vitesses de chargement étant ce qu’elles sont, il est devenu inhabituel d’attendre plus d’une seconde pour charger une page.</p>
+
+<p>Enfin, la configuration (<em>“customisation”</em>, diraient certains) du site est un enfer. La structure est devenue trop complexe au fil du temps et les plugins –pas forcément bien écrits– aggrave le problème. </p>
+
+<p>Adieu WordPress.</p>
+
+<p>Par quoi le remplacer ?</p>
+
+<h1 id="premier-essai--middleman">Premier essai : Middleman</h1>
+
+<p>Les générateurs de sites statiques semblaient tout indiqués. Il s’agit de logiciels qui permettent de définir des modèles (<em>templates</em>) qui seront utilisés lors d’une phase de compilation pour générer des pages en série. Une fois ces pages générées, il suffit de les envoyer au serveur. Le travail de compilation est effectué une bonne fois pour toutes avant la mise en ligne, si bien que les pages servies sont statiques. Leur chargement est ensuite très rapide.</p>
+
+<p>J’ai testé <a href="http://jekyllrb.com/">Jekyll</a>, dans un premier temps, et finalement opté pour <a href="http://middlemanapp.com/">Middleman</a>… et changé d’avis !</p>
+
+<p>Middleman est plus difficile à manier que Jekyll mais aussi plus ouvert. La création du site fut plus longue et beaucoup plus laborieuse, mais Middleman ne m’a pas imposé sa logique, contrairement à Jekyll, ce qui m’a donné le sentiment d’avoir une plus grande marge de manœuvre pour faire évoluer le site.</p>
+
+<p>Le problème est qu’après avoir recréé le site avec Middleman et écrit le présent article pour expliquer la nouvelle mécanique, j’ai été confronté à un bug : impossible de publier cet article. <em>Tout</em> le site était compilé, <em>sauf</em> cet article. Aucun message d’erreur. Rien. Impossible de savoir pourquoi. Rien non plus dans la documentation et sur Google. </p>
+
+<p>J’ai laissé tomber Middleman. Je suis revenu à Jekyll. Certes la structure du site est moins bien ordonnée et le <em>framework</em> est moins souple, mais au moins il fonctionne !</p>
+
+<h1 id="mise-en-uvre">Mise en œuvre</h1>
+
+<p>L’installation de Middleman n’est pas simple. C’est une <em>gemme</em> Ruby ; il faut donc avoir préalablement installé un environnement de développement Ruby. Avec un Mac, cela suppose d’installer les <em>Command line tools</em>, <a href="http://brew.sh/">Homebrew</a>, RVM, Ruby… et quelques gemmes telles que <em>Rake</em> et <em>Bundler</em>. Je laisse les explications pour un autre article : il est inutile de se lancer dans le développement d’un site statiques avec Middleman si l’on ne sait pas comment installer un environnement de développement Ruby.</p>
+
+<p>Middleman, c’est une gemme. On l’installe donc très simplement avec <code>gem install middleman</code>. On crée ensuite un nouveau projet avec <code>middleman init mon-projet</code>. Rien d’extraordinaire : tout est dit sur la page <em><a href="http://middlemanapp.com/basics/getting-started/">Getting started</a></em> de la documentation.</p>
+
+<p>C’est ensuite que les difficultés commencent…</p>
+
+<h2 id="importer-les-articles-existants">Importer les articles existants</h2>
+
+<p>Middleman permet de convertir les articles d’un blog WordPress. Chouette ! Il suffit d’exporter le contenu du blog dans un fichier XML, depuis WordPress, de d’utiliser le convertisseur. C’est peut-être censé bien fonctionner mais, dans mon cas, cela a tourné au désastre. Le résultat était inexploitable et j’ai autre chose à faire que de revenir sur chaque article pour réparer les bêtises d’un convertisseur défectueux. Entre autre problèmes, les catégories et les <em>tags</em> n’avaient pas été importés. J’ai donc utilisé la <em>gemme</em> d’importation de Jekyll. Elle a bien fonctionné. Mais Middleman a fait des siennes, refusant de lire les pages importées : selon lui, la date dans le nom du fichier ne correspondait pas à la date indiquée dans l’en-tête (<em>frontmatter</em>) des fichiers. Effectivement, cette dernière comprenait, outre l’année, le mois et le jour, l’heure de publication… Idiot ! J’ai dû supprimer l’heure. Heureusement, j’ai pu faire cela d’un coup, pour tous les fichiers, grâce à <a href="http://www.barebones.com/products/bbedit/">BBedit</a>.</p>
+
+<h2 id="les-premires-pages----la-magie">Les premières pages – la magie</h2>
+
+<p>Une fois les vieux articles importés, il faut s’occuper de les afficher. La procédure est plutôt simple et bien pensée.</p>
+
+<p>D’abord, on crée un modèle de page qui sera utilisé pour tous les articles :</p>
+
+<pre><code>&lt;html&gt;
+    &lt;head&gt;
+        &lt;!-- Tout ce qui doit aller ici... --&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;div class="text-content"&gt;&lt;%= yield %&gt;&lt;/div&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>Voilà. Le contenu de chaque fichier sera placé à l’endroit de l’instruction <code>yield</code>. Le fichier est à enregistrer sous le nom de <code>post.erb</code>, l’extension <em>erb</em> signifiant que le code écrit en Ruby doit être interprété.</p>
+
+<p>Cependant, sur ce site, il n’y a pas que des articles de blog. Il y a aussi des pages ne répondant pas à la logique du blog, <em>“billet publié à telle date”</em>. Pour ces pages, l’on adoptera un autre modèle : <code>page.erb</code>. Mais ce modèle doit-il être totalement différent ? Les pages “normales” et les articles de blogs ne partagent-ils pas certaines caractéristiques ? Si, bien sûr ! Par exemple, l’en-tête. Réécrire le code deux fois n’est pas une bonne idée : si je veux le changer dans quelques années, j’aurai probablement oublié qu’il est présent deux fois, sur des modèles différents. Il faut donc un “super”-modèle, contenant le code source commun aux autres modèles. L’on utilisera aussi des <em>bribes</em> de code (<em>“partials”</em>), que l’on importera, dans n’importe quel modèle, à l’endroit où on le souhaite.</p>
+
+<pre><code>&lt;html&gt;
+  &lt;%= partial "partials/header" %&gt;
+  &lt;body&gt;    
+    &lt;%= yield %&gt;
+    &lt;%= partial "partials/footer" %&gt;
+  &lt;/body&gt;  
+&lt;/html&gt;
+</code></pre>
+
+<p>Ce fichier s’appelle <code>layout.erb</code>, il est appelé en premier. A l’emplacement de son <code>yield</code>, un modèle est inséré, celui des articles ou celui des pages. Il importe aussi deux bribes de code, placées dans le dossier <em>partials</em> : l’en-tête (<em>“header”</em>) et le pied de page (<em>“footer”</em>).</p>
+
+<h2 id="le-menu----trangets">Le menu – étrangetés</h2>
+
+<p>Des articles, des pages… bon, d’accord, mais il faut de l’organisation ! Rien de tel qu’un menu. Mais comment le générer ? Pas “à la main”, bien sûr, cela n’aurait pas d’intérêt.</p>
+
+<p>La solution que j’ai retenue provient d’une méthode utilisée avec Jekyll : un fichier YAML décrit le menu, un programme Ruby lit ce fichier et génère le menu. De cette manière, le code ne change pas et il suffit de modifier le fichier YAML pour faire évoluer le menu.</p>
+
+<pre><code>items:
+    - title: "À Propos"
+      href: "/about/"
+
+    - title: "Revue"
+      href: "/revue/"
+  
+    - title: "Divers"
+      href: ""
+      subcategories:
+          - subtitle: "Outils"
+            subhref: "/outils/"
+          - subtitle: "Java"
+            subhref: "/java/"
+</code></pre>
+
+<p>L’on enregistre cela dans <code>/data/menu.yaml</code>, en dehors du dossier <code>source</code>. L’on y accède ensuite dans une bride de code <code>partials/menu.html.erb</code>.</p>
+
+<pre><code>&lt;ul class="nav navbar-nav"&gt;
+  &lt;% data.menu.items.each do |item| %&gt;
+    &lt;% if item.subcategories %&gt;
+      &lt;li class="dropdown"&gt;
+        &lt;a href="&lt;%= item.href %&gt;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"&gt;
+            &lt;%= item.title %&gt; &lt;i class="caret"&gt;&lt;/i&gt;
+        &lt;/a&gt;
+        &lt;ul class="dropdown-menu"&gt;
+        &lt;% item.subcategories.each do |subcategory| %&gt;
+          &lt;li&gt;&lt;a href="&lt;%= subcategory.subhref %&gt;"&gt;&lt;%= subcategory.subtitle %&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;% end %&gt;
+        &lt;/ul&gt;
+    &lt;% else %&gt;
+      &lt;% if current_page.url == item.href %&gt;&lt;li class="active"&gt;&lt;% else %&gt;&lt;li&gt;&lt;% end %&gt;
+      &lt;a href="&lt;%= item.href %&gt;"&gt;&lt;%= item.title %&gt;&lt;/a&gt;
+    &lt;% end %&gt;
+    &lt;/li&gt;
+  &lt;% end %&gt;
+&lt;/ul&gt;
+</code></pre>
+
+<h2 id="boostrap----quelques-soucis">Boostrap – quelques soucis</h2>
+
+<p>Ça marche, mais c’est moche. Non pas que le site actuel soit exceptionnellement beau, mais tout de même, il faut travailler un peu la mise en page.</p>
+
+<p>Pour ce faire, j’ai choisi d’utiliser <a href="http://getbootstrap.com/">Twitter Bootstrap</a> et <a href="http://bootswatch.com/">Bootswatch</a>.</p>
+
+<p>Utiliser, c’est vite dit. Avant d’utiliser, il faut installer, et c’est là que ça coince :</p>
+
+<ul>
+  <li>La documentation de Middlement est anémique à ce sujet ; pis encore : ce qui est dit est mal expliqué, c’est confus, limite incompréhensible. De son côté, la documentation de Bootstrap ne parle pas de Middleman, ce que l’on peut difficilement reprocher à Twitter. Enfin, il n’y a pas grand chose à trouver sur Google… ;</li>
+  <li>Certains squelettes de sites pour Middleman utilisent des <em>gemmes</em> Ruby, certaines faites pour Middleman et d’autre pour Rails. Je ne suis pas partisan de l’inclusion de nombreuses gemmes : c’est le meilleur moyen de perdre le contrôle sur le comportement du programme, car l’on ne sait pas exactement comment ces gemmes interagissent entre-elles, ni quels sont leurs bugs ni, et c’est rédhibitoire pour moi, si elles ont un avenir. J’ai tout de même essayé, sans succès : la gemme de Bootswatch n’est pas à jour, ses dépendances entrent en conflit avec celles de Middleman. <em>Exeunt</em> les gemmes.</li>
+  <li>D’autres squelettes utilisent <a href="http://bower.io/">Bower</a>. Même combat que les gemmes, malheureusement, même si les bibliothèques tierces sont importées directement l’éditeur <em>upstream</em> et non par le truchement d’un paquet pas forcément maintenu. Mais surtout, c’est encore une couche de complexité ajoutée au moteur Middleman… si j’ai choisi de passer au tout statique, ce n’est pas pour recréer un assemblage de plugins aussi instable que WordPress !</li>
+  <li>Reste l’option d’importer directement depuis le CDN de Bootstrap. Oui, c’est pratique et il n’y a pas plus simple à implémenter… mais si l’on veut travailler sur le site sans connexion internet, ce qui m’arrive parfois, c’est fichu !</li>
+  <li>À la main… oui, mais comment ? Middlement utilise <a href="https://github.com/sstephenson/sprockets">Sprockets</a> pour charger les feuilles de style et les bout de code JavaScript. Mais que c’est mal documenté… quelle horreur !</li>
+</ul>
+
+<p>J’ai finalement réussi, en me débattant avec la documentation, les forums, <a href="http://stackoverflow.com/">StackOverflow</a> et compagnie, à mettre en place un montage fonctionnel.</p>
+
+<p>D’abord, j’ai téléchargé tous les fichiers de Bootstrap et Bootswatch en SCSS. Je les ai placés dans un dossier <code>assets</code> à la racine du site (en dehors du dossier <em>source</em>).</p>
+
+<p>Ensuite, j’ai dû modifier le fichier de configuration du site, <code>config.rb</code>, afin d’inclure cette ligne : </p>
+
+<pre><code>sprockets.append_path File.join root, 'assets'
+</code></pre>
+
+<p>Enfin, j’ai ajouté le “commentaire” d’importation Sprockets dans le fichier source JavaScript chargé dans mon <em>header</em> :</p>
+
+<pre><code>//= require jquery
+//= require bootstrap-sass/assets/javascripts/bootstrap
+</code></pre>
+
+<p>De même pour les feuilles de style… enfin, pas vraiment puisque les “commentaires” d’importation ne fonctionnent pas (et personne ne semble disposé à expliquer pourquoi). Il faut donc utiliser les instructions classiques d’importation en SCSS :</p>
+
+<pre><code>@import 'bootswatch/yeti/variables';
+@import 'bootstrap-sass/assets/stylesheets/bootstrap-sprockets'; 
+@import 'bootstrap-sass/assets/stylesheets/bootstrap'; 
+@import 'bootswatch/yeti/bootswatch';
+</code></pre>
+
+<p>Le contenu de tous ces fichiers JavaScript est ajouté au fichier <code>all.js</code> ; idem pour le contenu des feuilles de style, rajouté au fichier <code>all.scss</code>.</p>
+
+<h2 id="les-polices----renoncement">Les polices – renoncement</h2>
+
+<p>Mais Bootstrap est livré avec une police spéciale, appelée <a href="http://glyphicons.com/">Glyphicons</a>, permettant de dessiner tout plein de petits symboles utiles. Dans la même veine, j’ai voulu utiliser <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a>.</p>
+
+<p>Impossible. Du moins, avec la méthode précédemment décrite. En effet, Sprockets refuse obstinément de recopier les polices dans le dossier <code>fonts</code>, pourtant créé à cet effet et clairement indiqué dans le fichier de configuration du site. J’ai tout essayé, rien n’y fit.</p>
+
+<p>J’ai fini par renoncer. La solution est inélégante mais fonctionnelle : j’ai manuellement copié/collé les fichiers de police dans mon dossier <code>source/fonts</code>. Il faudra que je renouvelle ce copié/collé à chaque mise à jour des bibliothèques… je n’aime pas cela ! <i class="fa fa-frown-o"></i></p>
+
+<p>Mais au moins, ça marche… <i class="fa fa-thumbs-up"></i></p>
+
+<h2 id="markdown-et-les-couleurs">Markdown et les couleurs</h2>
+
+<p>Un peu d’espoir : Markdown.</p>
+
+<p>D’abord, rappelons que les formats propriétaires, du genre le .DOC de Microsoft, <a href="/2006/04/13/opendocument-et-linteroperabilite-des-formats/">représentent un grand danger pour l’avenir de l’humanité</a>. Si, si…</p>
+
+<p>J’utilise donc <a href="http://fr.wikipedia.org/wiki/Markdown">Markdown</a> pour les pages et les articles de ce site, comme pour à peu près tout le reste.</p>
+
+<p>Tout l’intérêt du générateur de sites statiques est de pouvoir, une fois la phase de développement terminée, écrire en Markdown de la manière la plus simple qui soit.</p>
+
+<p>J’ai donc installé la <em>gemme</em> <code>karmdown</code> et configuré la coloration syntaxique pour les blocs de code (d’ailleurs, elle ne fonctionne pas très bien à l’heure où j’écris ces lignes, mais j’y travaillerai plus tard).</p>
+
+<h2 id="les-catgories----rflexion">Les catégories – réflexion</h2>
+
+<p>Middleman ignore les catégories. Il n’est tout simplement pas prévu de classer ses articles par catégorie, encore moins de les associer à plusieurs catégories comme le fait WordPress. Autant il est aisé de retrouver le comportement de WordPress avec Jekyll, autant Middleman ne m’a pas facilité la tâche.</p>
+
+<p>Chaque article peut appartenir à plusieurs catégories qui sont définies dans son en-tête YAML, de cette manière :</p>
+
+<pre><code>categories:
+- Truc
+- Muche
+</code></pre>
+
+<p>La première nécessité est d’extraire les catégories d’un article pour les afficher. Comment faire ? La documentation de Middleman est silencieuse sur ce point, comme sur bien d’autres (ai-je déjà dit qu’elle était calamiteuse ? Oui ? Alors je le répète). Voici tout de même le bout de code que j’utilise :</p>
+
+<pre><code>&lt;% if article.data.categories %&gt;
+  &lt;% article.data.categories.each do |cat| %&gt;
+    &lt;div class="label label-default"&gt;&lt;%= cat %&gt;&lt;/div&gt;
+  &lt;% end %&gt;
+&lt;% end %&gt;
+</code></pre>
+
+<p>Cela semble très simple ainsi, mais encore faut-il savoir que l’on accède aux catégories dans l’en-tête grâce à <code>article.data.categories</code> et par un simple <code>article.categories</code> comme avec Jekyll. Que vient faire ce <em>data</em> au milieu ? Il ne faut pas chercher à savoir…</p>
+
+<p>Ensuite, l’on pense à créer une page avec la liste des catégories et, en dessous du nom de chaque catégorie, la liste des articles associés. C’est à ce stade que ça dérape. La première solution serait de dresser manuellement une liste des catégories dans un fichier YAML, comme pour le menu, et de la parcourir avec une boucle. Ce serait simple, mais il faudrait éditer le fichier YAML chaque fois que l’on ajoute ou retire une catégorie. Je n’ai absolument pas envie de faire cela car, selon moi, les catégories appartiennent au <em>contenu</em> et non au <em>contenant</em> (le code source du site). L’idée derrière le réfaction du site est de <em>ne pas</em> avoir à mettre les mains dans le cambouis pour modifier le <em>contenu</em>.</p>
+
+<p>J’ai donc dû créer une fonction, placée dans un fichier <code>helpers/categories.rb</code> :</p>
+
+<pre><code>module Categories
+  def categories
+    sitemap.resources.flat_map { |res| res.data.categories }.uniq
+  end
+end
+</code></pre>
+
+<p>Le code, en soi, est tout simple. Une fois encore, le problème est l’absence totale d’aide en provenance de la documentation de Middleman. J’ai dû trouver le <code>sitemap.resources</code> dans un message sur un forum…</p>
+
+<p>Cette fonction est ensuite appelée dans la page destinée à présenter la liste des catégories et, sous chacune d’entre-elles, la liste des articles associés :</p>
+
+<pre><code>&lt;% categories.each do |category| %&gt;
+  &lt;h1&gt;&lt;%= category %&gt;&lt;/h1&gt;
+  &lt;ul&gt;
+    &lt;% blog.articles.select {|a| a.data[:categories].any? { |s| s.casecmp(category) == 0 } rescue false }.each do |article| %&gt;
+      &lt;li&gt;&lt;%= link_to article.title, article.url %&gt;&lt;/li&gt;
+    &lt;% end %&gt;
+  &lt;/ul&gt;
+&lt;% end %&gt;
+</code></pre>
+
+<h2 id="deux-blogs">Deux blogs</h2>
+
+<p>Pour avoir plusieurs <em>blogs</em> sur un même site, en revanche, Middleman fait des merveilles. Il suffit de définir les deux blogs avec des caractéristiques différentes dans le fichier de configuration, <em>et voilà</em> !</p>
+
+<p>C’est l’une des raisons pour lesquelles je n’ai pas retenu Jekyll, au final : je voulais des URL différentes pour les articles du blog principal et pour la <a href="/revue/">revue</a>.</p>
+
+<h2 id="les-outils-tiers">Les outils tiers</h2>
+
+<p>Bien que le site soit statiques, l’on ne peut se passer de certains mécanismes auxquels les internautes sont désormais habitués. Il s’agit notamment des commentaires au bas des articles de blog et du moteur de recherche intégré. J’ai donc utilisé certaines technologies tierces :</p>
+
+<ul>
+  <li>Pour les commentaires, <a href="https://disqus.com/">Disqus</a> fait parfaitement l’affaire : c’est simple à installer et à configurer et ça fonctionne… tout simplement !</li>
+  <li>Pour le moteur de recherche, la configuration est beaucoup plus complexe, notamment parce que le code fourni n’est pas compatible avec Bootstrap, mais j’ai tout de même réussi à obtenir un résultat satisfaisant grâce à <a href="https://www.google.fr/cse/">Google Custom Search Engine</a>.</li>
+  <li>Enfin, pour les statistiques, j’utilise <a href="http://www.google.fr/intl/fr/analytics/">Google Analytics</a>.</li>
+</ul>
+
+<h2 id="publication-sur-github">Publication sur GitHub</h2>
+
+<p>Bon. Et comment publier tout ce bazar ? </p>
+
+<p>J’ai été séduit par l’idée des concepteurs de Jekyll : un dépôt <a href="http://fr.wikipedia.org/wiki/Git">Git</a> à la base de tout.</p>
+
+<p>C’est simple pour Jekyll car GitHub possède un moteur Jekyll et compile directement les sources afin de publier le site.</p>
+
+<p>Cela ne fonctionne pas avec Middleman. Il faut ruser…</p>
+
+<p>La ruse consiste à créer deux branches dans un dépôt git :</p>
+
+<ul>
+  <li>la première branche, <code>source</code> contient les sources du site ;</li>
+  <li>la seconde branche, <code>master</code> contient le résultat, c’est-à-dire les pages compilées et prêtes à être publiées.</li>
+</ul>
+
+<p>Un petit script <em>rake</em> permet de mettre à jour la branche des sources, tandis que le plugin <a href="https://github.com/karlfreeman/middleman-deploy">middleman-deploy</a> les compile et met à jour la branche <em>master</em>. La procédure est parfaitement expliquée sur <a href="http://www.beesbot.com/middleman-github-user-pages/">cette page</a>.</p>
+
+<h1 id="deuxime-essai--jekyll">Deuxième essai : Jekyll</h1>
+
+<p>Après avoir écrit tout ce qui précède, j’ai tenté de mettre l’article en ligne, en vain. Rien n’y fit. Aucune idée du problème : pas de message d’erreur particulier, rien trouvé sur le Web ; tout simplement, l’article était ignoré lors de la compilation.</p>
+
+<p>J’en ai eu assez de Middleman, il est trop mal documenté. Et puis, le <em>plain Ruby</em> c’est bien, mais il faut tout gérer, notamment les exceptions – et plus l’on doit écrire de code, plus il peut y en avoir. Middleman affiche généralement un message d’erreur et arrête la compilation ; parfois, le serveur plante et l’on est obligé de <em>kill</em> le processus pour l’arrêter (<kbd>Ctrl+C</kbd> ne fonctionne même pas !).</p>
+
+<p>Jekyll est très bien documenté et le logiciel est assez bien conçu pour gérer lui-même les exceptions. Au pire, le code générant l’erreur n’est pas exécuté, mais cela n’empêche pas la page d’être générée.</p>
+
+<p>Jekyll permet de faire moins de choses mais, au moins, il fonctionne bien. Je n’ai eu aucun problème, jusqu’à présent. Donc, Jekyll, <em>it’s a go !</em></p>
+
+<p>Si l’on ne revint pas sur la simplicité et la stabilité de Jekyll, son principal avantage est son intégration à GitHub. Il suffit en effet d’envoyer le dossier source avec un <code>git push</code>, GitHub se charge de la compilation !</p>
+
+<p>Les principaux inconvénients que j’ai pu identifier jusqu’à présent sont les suivants :</p>
+
+<ul>
+  <li>pas de manière simple de créer deux blogs avec des structures différentes pour les articles génériques tels que celui-ci et pour la <a href="/revue/">revue</a> ;</li>
+  <li>le dossier source est un rien désordonné… les sous-dossiers se multiplient et le tout devient vite un peu confus ;</li>
+  <li>le langage de de modélisation (<em>templating</em>) <em>Liquid</em> est certes sûr (pas d’exécution directe de code Ruby), mais il est aussi beaucoup plus limité que celui de Middleman, reposant sur ERB (ou HAML, Slim, etc.) à l’instar de Rails. Un exemple <a href="">ici</a>.</li>
+</ul>
+
+<p>J’espère toutefois venir à bout de ces inconvénients ; à défaut, le développement de Jekyll semble être assez actif.</p>
+
+<p>Allez, assez papoté ! <em>Let’s go online !</em> <i class="fa fa-angellist"></i></p>
+
+</div>
+      
+      <hr>
+      
+      <div class="related">
+        <h2>Voir aussi</h2>
+        <ul style="list-style-type: none;">
+        
+            <li><a href="/2015/01/04/pagination-selective-avec-jekyll/">Pagination sélective avec Jekyll</a></li>
+        
+            <li><a href="/2014/08/05/safari-raccourci-clavier-pour-affichermasquer-la-barre-des-signets/">Safari : raccourci clavier pour afficher/masquer la barre des signets</a></li>
+        
+            <li><a href="/2014/08/01/lancer-intellij-idea-13-mac-avec-un-jdk-oracle/">Lancer Intellij IDEA 13 Mac avec un JDK Oracle</a></li>
+        
+            <li><a href="/2013/01/08/ubuntu-12-10-checklist-installation/">Ubuntu 12.10 : Checklist d'installation</a></li>
+        
+            <li><a href="/2012/07/08/107/">Numéro 107 - Semaine du 2 au 8 juillet 2012</a></li>
+        
+            <li><a href="/2012/07/01/106/">Numéro 106 - Semaine du 25 juin au 1er juillet 2012</a></li>
+        
+            <li><a href="/2012/06/24/105/">Numéro 105 - Semaine du 18 au 24 juin 2012</a></li>
+        
+            <li><a href="/2012/06/16/optimiser-unity-workspaces-precise-pangolin/">Optimiser les bureaux virtuels sous Unity (Ubuntu 12.04)</a></li>
+        
+            <li><a href="/2012/06/11/ubuntu-software-center-tester-avant-dinstaller/">Ubuntu Software Center : tester avant d'installer</a></li>
+        
+            <li><a href="/2012/06/03/104/">Numéro 104 - Semaine du 28 mai au 3 juin 2012</a></li>
+        
+        </ul>
+      </div>
+      
+      
+      <hr>
+      <div class="comments">
+        <div id="disqus_thread"></div>
+<script type="text/javascript">
+var disqus_shortname = 'valhallafr';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+      </div>
+      
+      
+    </div>
+    <div class="col-md-2">
+  </div>
+</div>
+
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Valhalla.fr</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>Valhalla.fr</li>
+          <li><a href="mailto:your-email@domain.com">your-email@domain.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/mw4rf">
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+                </svg>
+              </span>
+
+              <span class="username">mw4rf</span>
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/jekyllrb">
+              <span class="icon  icon--twitter">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+                </svg>
+              </span>
+
+              <span class="username">jekyllrb</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">Ad Absurdum</p>
+        <p class="rss-subscribe">subscribe <a href="http://www.valhalla.fr/feed.xml">via RSS</a></p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+      <script src="/assets/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/assets/bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-2290016-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+  </body>
+
+</html>

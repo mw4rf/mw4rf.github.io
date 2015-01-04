@@ -5,8 +5,8 @@
     <description>Ad Absurdum</description>
     <link>http://www.valhalla.fr/</link>
     <atom:link href="http://www.valhalla.fr/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 04 Jan 2015 14:39:03 +0100</pubDate>
-    <lastBuildDate>Sun, 04 Jan 2015 14:39:03 +0100</lastBuildDate>
+    <pubDate>Sun, 04 Jan 2015 22:01:00 +0100</pubDate>
+    <lastBuildDate>Sun, 04 Jan 2015 22:01:00 +0100</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -87,6 +87,315 @@
         
         <category>Web</category>
         
+        
+        <category>informatique</category>
+        
+      </item>
+    
+      <item>
+        <title>De WordPress à Jekyll</title>
+        <description>&lt;p&gt;Pour fêter son 10ème anniversaire, Valhalla.fr fait peau neuve ! Fini WordPress et les pages dynamiques générées par un moteur PHP, bienvenue à Jekyll, générateur de sites statiques. Il fallait bien cela, en 2015 : WordPress, c’est &lt;em&gt;has been&lt;/em&gt; ! Et pourtant, les pages statiques sont un retour au Web 1.0 du 20ème siècle…&lt;/p&gt;
+
+&lt;h1 id=&quot;le-changement&quot;&gt;Le changement&lt;/h1&gt;
+
+&lt;p&gt;Blague à part, il faut de bonnes raisons pour abandonner un &lt;em&gt;framework&lt;/em&gt; moderne et en revenir à ce qui se faisait il y a vingt ans, les pages statiques. &lt;a href=&quot;https://wordpress.com/&quot;&gt;WordPress&lt;/a&gt; est très complet, trop complet. À l’origine il était léger et c’est avec un grand plaisir que j’avais abandonné mes &lt;em&gt;templates&lt;/em&gt; Dreamweaver pour réaliser un véritable blog, en PHP comme il se doit. Mais les années ont passé et WordPress est devenu une véritable usine à gaz.&lt;/p&gt;
+
+&lt;h2 id=&quot;les-raisons-de-labandon-de-wordpress&quot;&gt;Les raisons de l’abandon de WordPress&lt;/h2&gt;
+
+&lt;p&gt;D’abord, son occupation en mémoire vive est énorme. Le cœur de WordPress et quelques plugins indispensables (JetPack, SEO, thème graphique, anti-spam…), c’est suffisant pour atteindre les 100 Mo de mémoire. C’est trop pour un hébergeur &lt;em&gt;mutualisé&lt;/em&gt; et je n’ai pas l’intention de payer plus cher un hébergement dédié.&lt;/p&gt;
+
+&lt;p&gt;Ensuite, WordPress est lent. La lenteur se manifeste tant dans sa gestion, par exemple le chargement des pages de l’interface d’administration, que dans son utilisation par les tiers. En effet, le nombre énorme de lignes de codes à exécuter sur le serveur afin de générer les pages du site ralentit fortement leur affichage. Certes il existe des plugins pour mettre les pages générées en &lt;em&gt;cache&lt;/em&gt;, mais sur un serveur mutualisé que l’on ne peut configurer à souhait, cela crée plus de problèmes que cela n’en résout. Je ne supporte plus d’attendre 5 secondes pour qu’une page s’affiche. On est en 2015, l’ADSL s’est démocratisé, la fibre optique est de plus en plus présente ; les vitesses de chargement étant ce qu’elles sont, il est devenu inhabituel d’attendre plus d’une seconde pour charger une page.&lt;/p&gt;
+
+&lt;p&gt;Enfin, la configuration (&lt;em&gt;“customisation”&lt;/em&gt;, diraient certains) du site est un enfer. La structure est devenue trop complexe au fil du temps et les plugins –pas forcément bien écrits– aggrave le problème. &lt;/p&gt;
+
+&lt;p&gt;Adieu WordPress.&lt;/p&gt;
+
+&lt;p&gt;Par quoi le remplacer ?&lt;/p&gt;
+
+&lt;h1 id=&quot;premier-essai--middleman&quot;&gt;Premier essai : Middleman&lt;/h1&gt;
+
+&lt;p&gt;Les générateurs de sites statiques semblaient tout indiqués. Il s’agit de logiciels qui permettent de définir des modèles (&lt;em&gt;templates&lt;/em&gt;) qui seront utilisés lors d’une phase de compilation pour générer des pages en série. Une fois ces pages générées, il suffit de les envoyer au serveur. Le travail de compilation est effectué une bonne fois pour toutes avant la mise en ligne, si bien que les pages servies sont statiques. Leur chargement est ensuite très rapide.&lt;/p&gt;
+
+&lt;p&gt;J’ai testé &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;, dans un premier temps, et finalement opté pour &lt;a href=&quot;http://middlemanapp.com/&quot;&gt;Middleman&lt;/a&gt;… et changé d’avis !&lt;/p&gt;
+
+&lt;p&gt;Middleman est plus difficile à manier que Jekyll mais aussi plus ouvert. La création du site fut plus longue et beaucoup plus laborieuse, mais Middleman ne m’a pas imposé sa logique, contrairement à Jekyll, ce qui m’a donné le sentiment d’avoir une plus grande marge de manœuvre pour faire évoluer le site.&lt;/p&gt;
+
+&lt;p&gt;Le problème est qu’après avoir recréé le site avec Middleman et écrit le présent article pour expliquer la nouvelle mécanique, j’ai été confronté à un bug : impossible de publier cet article. &lt;em&gt;Tout&lt;/em&gt; le site était compilé, &lt;em&gt;sauf&lt;/em&gt; cet article. Aucun message d’erreur. Rien. Impossible de savoir pourquoi. Rien non plus dans la documentation et sur Google. &lt;/p&gt;
+
+&lt;p&gt;J’ai laissé tomber Middleman. Je suis revenu à Jekyll. Certes la structure du site est moins bien ordonnée et le &lt;em&gt;framework&lt;/em&gt; est moins souple, mais au moins il fonctionne !&lt;/p&gt;
+
+&lt;h1 id=&quot;mise-en-uvre&quot;&gt;Mise en œuvre&lt;/h1&gt;
+
+&lt;p&gt;L’installation de Middleman n’est pas simple. C’est une &lt;em&gt;gemme&lt;/em&gt; Ruby ; il faut donc avoir préalablement installé un environnement de développement Ruby. Avec un Mac, cela suppose d’installer les &lt;em&gt;Command line tools&lt;/em&gt;, &lt;a href=&quot;http://brew.sh/&quot;&gt;Homebrew&lt;/a&gt;, RVM, Ruby… et quelques gemmes telles que &lt;em&gt;Rake&lt;/em&gt; et &lt;em&gt;Bundler&lt;/em&gt;. Je laisse les explications pour un autre article : il est inutile de se lancer dans le développement d’un site statiques avec Middleman si l’on ne sait pas comment installer un environnement de développement Ruby.&lt;/p&gt;
+
+&lt;p&gt;Middleman, c’est une gemme. On l’installe donc très simplement avec &lt;code&gt;gem install middleman&lt;/code&gt;. On crée ensuite un nouveau projet avec &lt;code&gt;middleman init mon-projet&lt;/code&gt;. Rien d’extraordinaire : tout est dit sur la page &lt;em&gt;&lt;a href=&quot;http://middlemanapp.com/basics/getting-started/&quot;&gt;Getting started&lt;/a&gt;&lt;/em&gt; de la documentation.&lt;/p&gt;
+
+&lt;p&gt;C’est ensuite que les difficultés commencent…&lt;/p&gt;
+
+&lt;h2 id=&quot;importer-les-articles-existants&quot;&gt;Importer les articles existants&lt;/h2&gt;
+
+&lt;p&gt;Middleman permet de convertir les articles d’un blog WordPress. Chouette ! Il suffit d’exporter le contenu du blog dans un fichier XML, depuis WordPress, de d’utiliser le convertisseur. C’est peut-être censé bien fonctionner mais, dans mon cas, cela a tourné au désastre. Le résultat était inexploitable et j’ai autre chose à faire que de revenir sur chaque article pour réparer les bêtises d’un convertisseur défectueux. Entre autre problèmes, les catégories et les &lt;em&gt;tags&lt;/em&gt; n’avaient pas été importés. J’ai donc utilisé la &lt;em&gt;gemme&lt;/em&gt; d’importation de Jekyll. Elle a bien fonctionné. Mais Middleman a fait des siennes, refusant de lire les pages importées : selon lui, la date dans le nom du fichier ne correspondait pas à la date indiquée dans l’en-tête (&lt;em&gt;frontmatter&lt;/em&gt;) des fichiers. Effectivement, cette dernière comprenait, outre l’année, le mois et le jour, l’heure de publication… Idiot ! J’ai dû supprimer l’heure. Heureusement, j’ai pu faire cela d’un coup, pour tous les fichiers, grâce à &lt;a href=&quot;http://www.barebones.com/products/bbedit/&quot;&gt;BBedit&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;les-premires-pages----la-magie&quot;&gt;Les premières pages – la magie&lt;/h2&gt;
+
+&lt;p&gt;Une fois les vieux articles importés, il faut s’occuper de les afficher. La procédure est plutôt simple et bien pensée.&lt;/p&gt;
+
+&lt;p&gt;D’abord, on crée un modèle de page qui sera utilisé pour tous les articles :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;html&amp;gt;
+    &amp;lt;head&amp;gt;
+        &amp;lt;!-- Tout ce qui doit aller ici... --&amp;gt;
+    &amp;lt;/head&amp;gt;
+    &amp;lt;body&amp;gt;
+        &amp;lt;div class=&quot;text-content&quot;&amp;gt;&amp;lt;%= yield %&amp;gt;&amp;lt;/div&amp;gt;
+    &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Voilà. Le contenu de chaque fichier sera placé à l’endroit de l’instruction &lt;code&gt;yield&lt;/code&gt;. Le fichier est à enregistrer sous le nom de &lt;code&gt;post.erb&lt;/code&gt;, l’extension &lt;em&gt;erb&lt;/em&gt; signifiant que le code écrit en Ruby doit être interprété.&lt;/p&gt;
+
+&lt;p&gt;Cependant, sur ce site, il n’y a pas que des articles de blog. Il y a aussi des pages ne répondant pas à la logique du blog, &lt;em&gt;“billet publié à telle date”&lt;/em&gt;. Pour ces pages, l’on adoptera un autre modèle : &lt;code&gt;page.erb&lt;/code&gt;. Mais ce modèle doit-il être totalement différent ? Les pages “normales” et les articles de blogs ne partagent-ils pas certaines caractéristiques ? Si, bien sûr ! Par exemple, l’en-tête. Réécrire le code deux fois n’est pas une bonne idée : si je veux le changer dans quelques années, j’aurai probablement oublié qu’il est présent deux fois, sur des modèles différents. Il faut donc un “super”-modèle, contenant le code source commun aux autres modèles. L’on utilisera aussi des &lt;em&gt;bribes&lt;/em&gt; de code (&lt;em&gt;“partials”&lt;/em&gt;), que l’on importera, dans n’importe quel modèle, à l’endroit où on le souhaite.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;html&amp;gt;
+  &amp;lt;%= partial &quot;partials/header&quot; %&amp;gt;
+  &amp;lt;body&amp;gt;    
+    &amp;lt;%= yield %&amp;gt;
+    &amp;lt;%= partial &quot;partials/footer&quot; %&amp;gt;
+  &amp;lt;/body&amp;gt;  
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Ce fichier s’appelle &lt;code&gt;layout.erb&lt;/code&gt;, il est appelé en premier. A l’emplacement de son &lt;code&gt;yield&lt;/code&gt;, un modèle est inséré, celui des articles ou celui des pages. Il importe aussi deux bribes de code, placées dans le dossier &lt;em&gt;partials&lt;/em&gt; : l’en-tête (&lt;em&gt;“header”&lt;/em&gt;) et le pied de page (&lt;em&gt;“footer”&lt;/em&gt;).&lt;/p&gt;
+
+&lt;h2 id=&quot;le-menu----trangets&quot;&gt;Le menu – étrangetés&lt;/h2&gt;
+
+&lt;p&gt;Des articles, des pages… bon, d’accord, mais il faut de l’organisation ! Rien de tel qu’un menu. Mais comment le générer ? Pas “à la main”, bien sûr, cela n’aurait pas d’intérêt.&lt;/p&gt;
+
+&lt;p&gt;La solution que j’ai retenue provient d’une méthode utilisée avec Jekyll : un fichier YAML décrit le menu, un programme Ruby lit ce fichier et génère le menu. De cette manière, le code ne change pas et il suffit de modifier le fichier YAML pour faire évoluer le menu.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;items:
+    - title: &quot;À Propos&quot;
+      href: &quot;/about/&quot;
+
+    - title: &quot;Revue&quot;
+      href: &quot;/revue/&quot;
+  
+    - title: &quot;Divers&quot;
+      href: &quot;&quot;
+      subcategories:
+          - subtitle: &quot;Outils&quot;
+            subhref: &quot;/outils/&quot;
+          - subtitle: &quot;Java&quot;
+            subhref: &quot;/java/&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;L’on enregistre cela dans &lt;code&gt;/data/menu.yaml&lt;/code&gt;, en dehors du dossier &lt;code&gt;source&lt;/code&gt;. L’on y accède ensuite dans une bride de code &lt;code&gt;partials/menu.html.erb&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;ul class=&quot;nav navbar-nav&quot;&amp;gt;
+  &amp;lt;% data.menu.items.each do |item| %&amp;gt;
+    &amp;lt;% if item.subcategories %&amp;gt;
+      &amp;lt;li class=&quot;dropdown&quot;&amp;gt;
+        &amp;lt;a href=&quot;&amp;lt;%= item.href %&amp;gt;&quot; class=&quot;dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; data-hover=&quot;dropdown&quot;&amp;gt;
+            &amp;lt;%= item.title %&amp;gt; &amp;lt;i class=&quot;caret&quot;&amp;gt;&amp;lt;/i&amp;gt;
+        &amp;lt;/a&amp;gt;
+        &amp;lt;ul class=&quot;dropdown-menu&quot;&amp;gt;
+        &amp;lt;% item.subcategories.each do |subcategory| %&amp;gt;
+          &amp;lt;li&amp;gt;&amp;lt;a href=&quot;&amp;lt;%= subcategory.subhref %&amp;gt;&quot;&amp;gt;&amp;lt;%= subcategory.subtitle %&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+        &amp;lt;% end %&amp;gt;
+        &amp;lt;/ul&amp;gt;
+    &amp;lt;% else %&amp;gt;
+      &amp;lt;% if current_page.url == item.href %&amp;gt;&amp;lt;li class=&quot;active&quot;&amp;gt;&amp;lt;% else %&amp;gt;&amp;lt;li&amp;gt;&amp;lt;% end %&amp;gt;
+      &amp;lt;a href=&quot;&amp;lt;%= item.href %&amp;gt;&quot;&amp;gt;&amp;lt;%= item.title %&amp;gt;&amp;lt;/a&amp;gt;
+    &amp;lt;% end %&amp;gt;
+    &amp;lt;/li&amp;gt;
+  &amp;lt;% end %&amp;gt;
+&amp;lt;/ul&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;boostrap----quelques-soucis&quot;&gt;Boostrap – quelques soucis&lt;/h2&gt;
+
+&lt;p&gt;Ça marche, mais c’est moche. Non pas que le site actuel soit exceptionnellement beau, mais tout de même, il faut travailler un peu la mise en page.&lt;/p&gt;
+
+&lt;p&gt;Pour ce faire, j’ai choisi d’utiliser &lt;a href=&quot;http://getbootstrap.com/&quot;&gt;Twitter Bootstrap&lt;/a&gt; et &lt;a href=&quot;http://bootswatch.com/&quot;&gt;Bootswatch&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Utiliser, c’est vite dit. Avant d’utiliser, il faut installer, et c’est là que ça coince :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;La documentation de Middlement est anémique à ce sujet ; pis encore : ce qui est dit est mal expliqué, c’est confus, limite incompréhensible. De son côté, la documentation de Bootstrap ne parle pas de Middleman, ce que l’on peut difficilement reprocher à Twitter. Enfin, il n’y a pas grand chose à trouver sur Google… ;&lt;/li&gt;
+  &lt;li&gt;Certains squelettes de sites pour Middleman utilisent des &lt;em&gt;gemmes&lt;/em&gt; Ruby, certaines faites pour Middleman et d’autre pour Rails. Je ne suis pas partisan de l’inclusion de nombreuses gemmes : c’est le meilleur moyen de perdre le contrôle sur le comportement du programme, car l’on ne sait pas exactement comment ces gemmes interagissent entre-elles, ni quels sont leurs bugs ni, et c’est rédhibitoire pour moi, si elles ont un avenir. J’ai tout de même essayé, sans succès : la gemme de Bootswatch n’est pas à jour, ses dépendances entrent en conflit avec celles de Middleman. &lt;em&gt;Exeunt&lt;/em&gt; les gemmes.&lt;/li&gt;
+  &lt;li&gt;D’autres squelettes utilisent &lt;a href=&quot;http://bower.io/&quot;&gt;Bower&lt;/a&gt;. Même combat que les gemmes, malheureusement, même si les bibliothèques tierces sont importées directement l’éditeur &lt;em&gt;upstream&lt;/em&gt; et non par le truchement d’un paquet pas forcément maintenu. Mais surtout, c’est encore une couche de complexité ajoutée au moteur Middleman… si j’ai choisi de passer au tout statique, ce n’est pas pour recréer un assemblage de plugins aussi instable que WordPress !&lt;/li&gt;
+  &lt;li&gt;Reste l’option d’importer directement depuis le CDN de Bootstrap. Oui, c’est pratique et il n’y a pas plus simple à implémenter… mais si l’on veut travailler sur le site sans connexion internet, ce qui m’arrive parfois, c’est fichu !&lt;/li&gt;
+  &lt;li&gt;À la main… oui, mais comment ? Middlement utilise &lt;a href=&quot;https://github.com/sstephenson/sprockets&quot;&gt;Sprockets&lt;/a&gt; pour charger les feuilles de style et les bout de code JavaScript. Mais que c’est mal documenté… quelle horreur !&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;J’ai finalement réussi, en me débattant avec la documentation, les forums, &lt;a href=&quot;http://stackoverflow.com/&quot;&gt;StackOverflow&lt;/a&gt; et compagnie, à mettre en place un montage fonctionnel.&lt;/p&gt;
+
+&lt;p&gt;D’abord, j’ai téléchargé tous les fichiers de Bootstrap et Bootswatch en SCSS. Je les ai placés dans un dossier &lt;code&gt;assets&lt;/code&gt; à la racine du site (en dehors du dossier &lt;em&gt;source&lt;/em&gt;).&lt;/p&gt;
+
+&lt;p&gt;Ensuite, j’ai dû modifier le fichier de configuration du site, &lt;code&gt;config.rb&lt;/code&gt;, afin d’inclure cette ligne : &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sprockets.append_path File.join root, &#39;assets&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Enfin, j’ai ajouté le “commentaire” d’importation Sprockets dans le fichier source JavaScript chargé dans mon &lt;em&gt;header&lt;/em&gt; :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;//= require jquery
+//= require bootstrap-sass/assets/javascripts/bootstrap
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;De même pour les feuilles de style… enfin, pas vraiment puisque les “commentaires” d’importation ne fonctionnent pas (et personne ne semble disposé à expliquer pourquoi). Il faut donc utiliser les instructions classiques d’importation en SCSS :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@import &#39;bootswatch/yeti/variables&#39;;
+@import &#39;bootstrap-sass/assets/stylesheets/bootstrap-sprockets&#39;; 
+@import &#39;bootstrap-sass/assets/stylesheets/bootstrap&#39;; 
+@import &#39;bootswatch/yeti/bootswatch&#39;;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Le contenu de tous ces fichiers JavaScript est ajouté au fichier &lt;code&gt;all.js&lt;/code&gt; ; idem pour le contenu des feuilles de style, rajouté au fichier &lt;code&gt;all.scss&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;les-polices----renoncement&quot;&gt;Les polices – renoncement&lt;/h2&gt;
+
+&lt;p&gt;Mais Bootstrap est livré avec une police spéciale, appelée &lt;a href=&quot;http://glyphicons.com/&quot;&gt;Glyphicons&lt;/a&gt;, permettant de dessiner tout plein de petits symboles utiles. Dans la même veine, j’ai voulu utiliser &lt;a href=&quot;http://fortawesome.github.io/Font-Awesome/&quot;&gt;Font Awesome&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Impossible. Du moins, avec la méthode précédemment décrite. En effet, Sprockets refuse obstinément de recopier les polices dans le dossier &lt;code&gt;fonts&lt;/code&gt;, pourtant créé à cet effet et clairement indiqué dans le fichier de configuration du site. J’ai tout essayé, rien n’y fit.&lt;/p&gt;
+
+&lt;p&gt;J’ai fini par renoncer. La solution est inélégante mais fonctionnelle : j’ai manuellement copié/collé les fichiers de police dans mon dossier &lt;code&gt;source/fonts&lt;/code&gt;. Il faudra que je renouvelle ce copié/collé à chaque mise à jour des bibliothèques… je n’aime pas cela ! &lt;i class=&quot;fa fa-frown-o&quot;&gt;&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;Mais au moins, ça marche… &lt;i class=&quot;fa fa-thumbs-up&quot;&gt;&lt;/i&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;markdown-et-les-couleurs&quot;&gt;Markdown et les couleurs&lt;/h2&gt;
+
+&lt;p&gt;Un peu d’espoir : Markdown.&lt;/p&gt;
+
+&lt;p&gt;D’abord, rappelons que les formats propriétaires, du genre le .DOC de Microsoft, &lt;a href=&quot;/2006/04/13/opendocument-et-linteroperabilite-des-formats/&quot;&gt;représentent un grand danger pour l’avenir de l’humanité&lt;/a&gt;. Si, si…&lt;/p&gt;
+
+&lt;p&gt;J’utilise donc &lt;a href=&quot;http://fr.wikipedia.org/wiki/Markdown&quot;&gt;Markdown&lt;/a&gt; pour les pages et les articles de ce site, comme pour à peu près tout le reste.&lt;/p&gt;
+
+&lt;p&gt;Tout l’intérêt du générateur de sites statiques est de pouvoir, une fois la phase de développement terminée, écrire en Markdown de la manière la plus simple qui soit.&lt;/p&gt;
+
+&lt;p&gt;J’ai donc installé la &lt;em&gt;gemme&lt;/em&gt; &lt;code&gt;karmdown&lt;/code&gt; et configuré la coloration syntaxique pour les blocs de code (d’ailleurs, elle ne fonctionne pas très bien à l’heure où j’écris ces lignes, mais j’y travaillerai plus tard).&lt;/p&gt;
+
+&lt;h2 id=&quot;les-catgories----rflexion&quot;&gt;Les catégories – réflexion&lt;/h2&gt;
+
+&lt;p&gt;Middleman ignore les catégories. Il n’est tout simplement pas prévu de classer ses articles par catégorie, encore moins de les associer à plusieurs catégories comme le fait WordPress. Autant il est aisé de retrouver le comportement de WordPress avec Jekyll, autant Middleman ne m’a pas facilité la tâche.&lt;/p&gt;
+
+&lt;p&gt;Chaque article peut appartenir à plusieurs catégories qui sont définies dans son en-tête YAML, de cette manière :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;categories:
+- Truc
+- Muche
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;La première nécessité est d’extraire les catégories d’un article pour les afficher. Comment faire ? La documentation de Middleman est silencieuse sur ce point, comme sur bien d’autres (ai-je déjà dit qu’elle était calamiteuse ? Oui ? Alors je le répète). Voici tout de même le bout de code que j’utilise :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;% if article.data.categories %&amp;gt;
+  &amp;lt;% article.data.categories.each do |cat| %&amp;gt;
+    &amp;lt;div class=&quot;label label-default&quot;&amp;gt;&amp;lt;%= cat %&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;% end %&amp;gt;
+&amp;lt;% end %&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Cela semble très simple ainsi, mais encore faut-il savoir que l’on accède aux catégories dans l’en-tête grâce à &lt;code&gt;article.data.categories&lt;/code&gt; et par un simple &lt;code&gt;article.categories&lt;/code&gt; comme avec Jekyll. Que vient faire ce &lt;em&gt;data&lt;/em&gt; au milieu ? Il ne faut pas chercher à savoir…&lt;/p&gt;
+
+&lt;p&gt;Ensuite, l’on pense à créer une page avec la liste des catégories et, en dessous du nom de chaque catégorie, la liste des articles associés. C’est à ce stade que ça dérape. La première solution serait de dresser manuellement une liste des catégories dans un fichier YAML, comme pour le menu, et de la parcourir avec une boucle. Ce serait simple, mais il faudrait éditer le fichier YAML chaque fois que l’on ajoute ou retire une catégorie. Je n’ai absolument pas envie de faire cela car, selon moi, les catégories appartiennent au &lt;em&gt;contenu&lt;/em&gt; et non au &lt;em&gt;contenant&lt;/em&gt; (le code source du site). L’idée derrière le réfaction du site est de &lt;em&gt;ne pas&lt;/em&gt; avoir à mettre les mains dans le cambouis pour modifier le &lt;em&gt;contenu&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;J’ai donc dû créer une fonction, placée dans un fichier &lt;code&gt;helpers/categories.rb&lt;/code&gt; :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;module Categories
+  def categories
+    sitemap.resources.flat_map { |res| res.data.categories }.uniq
+  end
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Le code, en soi, est tout simple. Une fois encore, le problème est l’absence totale d’aide en provenance de la documentation de Middleman. J’ai dû trouver le &lt;code&gt;sitemap.resources&lt;/code&gt; dans un message sur un forum…&lt;/p&gt;
+
+&lt;p&gt;Cette fonction est ensuite appelée dans la page destinée à présenter la liste des catégories et, sous chacune d’entre-elles, la liste des articles associés :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;% categories.each do |category| %&amp;gt;
+  &amp;lt;h1&amp;gt;&amp;lt;%= category %&amp;gt;&amp;lt;/h1&amp;gt;
+  &amp;lt;ul&amp;gt;
+    &amp;lt;% blog.articles.select {|a| a.data[:categories].any? { |s| s.casecmp(category) == 0 } rescue false }.each do |article| %&amp;gt;
+      &amp;lt;li&amp;gt;&amp;lt;%= link_to article.title, article.url %&amp;gt;&amp;lt;/li&amp;gt;
+    &amp;lt;% end %&amp;gt;
+  &amp;lt;/ul&amp;gt;
+&amp;lt;% end %&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;deux-blogs&quot;&gt;Deux blogs&lt;/h2&gt;
+
+&lt;p&gt;Pour avoir plusieurs &lt;em&gt;blogs&lt;/em&gt; sur un même site, en revanche, Middleman fait des merveilles. Il suffit de définir les deux blogs avec des caractéristiques différentes dans le fichier de configuration, &lt;em&gt;et voilà&lt;/em&gt; !&lt;/p&gt;
+
+&lt;p&gt;C’est l’une des raisons pour lesquelles je n’ai pas retenu Jekyll, au final : je voulais des URL différentes pour les articles du blog principal et pour la &lt;a href=&quot;/revue/&quot;&gt;revue&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;les-outils-tiers&quot;&gt;Les outils tiers&lt;/h2&gt;
+
+&lt;p&gt;Bien que le site soit statiques, l’on ne peut se passer de certains mécanismes auxquels les internautes sont désormais habitués. Il s’agit notamment des commentaires au bas des articles de blog et du moteur de recherche intégré. J’ai donc utilisé certaines technologies tierces :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Pour les commentaires, &lt;a href=&quot;https://disqus.com/&quot;&gt;Disqus&lt;/a&gt; fait parfaitement l’affaire : c’est simple à installer et à configurer et ça fonctionne… tout simplement !&lt;/li&gt;
+  &lt;li&gt;Pour le moteur de recherche, la configuration est beaucoup plus complexe, notamment parce que le code fourni n’est pas compatible avec Bootstrap, mais j’ai tout de même réussi à obtenir un résultat satisfaisant grâce à &lt;a href=&quot;https://www.google.fr/cse/&quot;&gt;Google Custom Search Engine&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Enfin, pour les statistiques, j’utilise &lt;a href=&quot;http://www.google.fr/intl/fr/analytics/&quot;&gt;Google Analytics&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;publication-sur-github&quot;&gt;Publication sur GitHub&lt;/h2&gt;
+
+&lt;p&gt;Bon. Et comment publier tout ce bazar ? &lt;/p&gt;
+
+&lt;p&gt;J’ai été séduit par l’idée des concepteurs de Jekyll : un dépôt &lt;a href=&quot;http://fr.wikipedia.org/wiki/Git&quot;&gt;Git&lt;/a&gt; à la base de tout.&lt;/p&gt;
+
+&lt;p&gt;C’est simple pour Jekyll car GitHub possède un moteur Jekyll et compile directement les sources afin de publier le site.&lt;/p&gt;
+
+&lt;p&gt;Cela ne fonctionne pas avec Middleman. Il faut ruser…&lt;/p&gt;
+
+&lt;p&gt;La ruse consiste à créer deux branches dans un dépôt git :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;la première branche, &lt;code&gt;source&lt;/code&gt; contient les sources du site ;&lt;/li&gt;
+  &lt;li&gt;la seconde branche, &lt;code&gt;master&lt;/code&gt; contient le résultat, c’est-à-dire les pages compilées et prêtes à être publiées.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Un petit script &lt;em&gt;rake&lt;/em&gt; permet de mettre à jour la branche des sources, tandis que le plugin &lt;a href=&quot;https://github.com/karlfreeman/middleman-deploy&quot;&gt;middleman-deploy&lt;/a&gt; les compile et met à jour la branche &lt;em&gt;master&lt;/em&gt;. La procédure est parfaitement expliquée sur &lt;a href=&quot;http://www.beesbot.com/middleman-github-user-pages/&quot;&gt;cette page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;deuxime-essai--jekyll&quot;&gt;Deuxième essai : Jekyll&lt;/h1&gt;
+
+&lt;p&gt;Après avoir écrit tout ce qui précède, j’ai tenté de mettre l’article en ligne, en vain. Rien n’y fit. Aucune idée du problème : pas de message d’erreur particulier, rien trouvé sur le Web ; tout simplement, l’article était ignoré lors de la compilation.&lt;/p&gt;
+
+&lt;p&gt;J’en ai eu assez de Middleman, il est trop mal documenté. Et puis, le &lt;em&gt;plain Ruby&lt;/em&gt; c’est bien, mais il faut tout gérer, notamment les exceptions – et plus l’on doit écrire de code, plus il peut y en avoir. Middleman affiche généralement un message d’erreur et arrête la compilation ; parfois, le serveur plante et l’on est obligé de &lt;em&gt;kill&lt;/em&gt; le processus pour l’arrêter (&lt;kbd&gt;Ctrl+C&lt;/kbd&gt; ne fonctionne même pas !).&lt;/p&gt;
+
+&lt;p&gt;Jekyll est très bien documenté et le logiciel est assez bien conçu pour gérer lui-même les exceptions. Au pire, le code générant l’erreur n’est pas exécuté, mais cela n’empêche pas la page d’être générée.&lt;/p&gt;
+
+&lt;p&gt;Jekyll permet de faire moins de choses mais, au moins, il fonctionne bien. Je n’ai eu aucun problème, jusqu’à présent. Donc, Jekyll, &lt;em&gt;it’s a go !&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Si l’on ne revint pas sur la simplicité et la stabilité de Jekyll, son principal avantage est son intégration à GitHub. Il suffit en effet d’envoyer le dossier source avec un &lt;code&gt;git push&lt;/code&gt;, GitHub se charge de la compilation !&lt;/p&gt;
+
+&lt;p&gt;Les principaux inconvénients que j’ai pu identifier jusqu’à présent sont les suivants :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;pas de manière simple de créer deux blogs avec des structures différentes pour les articles génériques tels que celui-ci et pour la &lt;a href=&quot;/revue/&quot;&gt;revue&lt;/a&gt; ;&lt;/li&gt;
+  &lt;li&gt;le dossier source est un rien désordonné… les sous-dossiers se multiplient et le tout devient vite un peu confus ;&lt;/li&gt;
+  &lt;li&gt;le langage de de modélisation (&lt;em&gt;templating&lt;/em&gt;) &lt;em&gt;Liquid&lt;/em&gt; est certes sûr (pas d’exécution directe de code Ruby), mais il est aussi beaucoup plus limité que celui de Middleman, reposant sur ERB (ou HAML, Slim, etc.) à l’instar de Rails. Un exemple &lt;a href=&quot;&quot;&gt;ici&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;J’espère toutefois venir à bout de ces inconvénients ; à défaut, le développement de Jekyll semble être assez actif.&lt;/p&gt;
+
+&lt;p&gt;Allez, assez papoté ! &lt;em&gt;Let’s go online !&lt;/em&gt; &lt;i class=&quot;fa fa-angellist&quot;&gt;&lt;/i&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 03 Jan 2015 23:18:00 +0100</pubDate>
+        <link>http://www.valhalla.fr/2015/01/03/de-wordpress-a-jekyll/</link>
+        <guid isPermaLink="true">http://www.valhalla.fr/2015/01/03/de-wordpress-a-jekyll/</guid>
+        
+        <category>software</category>
+        
+        <category>Web</category>
+        
+        <category>programmation</category>
+        
+        <category>technique</category>
+        
+        
+        <category>valhalla</category>
         
         <category>informatique</category>
         
@@ -546,89 +855,6 @@ Alternativement : Icones &lt;strong&gt;Awoken&lt;/strong&gt; : &lt;a title=&quot
         
         
         <category>linux</category>
-        
-      </item>
-    
-      <item>
-        <title>Numéro 104 - Semaine du 28 mai au 3 juin 2012</title>
-        <description>&lt;p&gt;Voici, cette semaine, un numéro thématique.&lt;/p&gt;
-&lt;h2&gt;Conflits de juridictions&lt;/h2&gt;
-&lt;p&gt;La première information importante de la semaine réside dans un&lt;a href=&quot;http://www.legalis.net/spip.php?page=jurisprudence-decision&amp;amp;id_article=3417&quot;&gt; arrêt du 22 mai 2012 rendu par la Cour d&#39;appel de Paris&lt;/a&gt; sur renvoi après cassation dans l&#39;affaire Würzburg Holding c. eBay. Il s&#39;agissait de déterminer la compétence internationale des juridictions françaises pour connaître du litige. Nous avons abordé cette question à plusieurs reprises (v. &lt;a href=&quot;http://www.valhalla.fr/2006/06/24/tribunal-competent-et-cyber-delits-theorie-de-la-focalisation/&quot;&gt;cet article&lt;/a&gt; et  &lt;a href=&quot;http://www.valhalla.fr/2007/04/25/competence-juridictions-accessibilite-cass-com-20-03-2007/&quot;&gt;celui-ci&lt;/a&gt;, le &lt;a href=&quot;http://revue.valhalla.fr/numeros/52/&quot;&gt;n°52&lt;/a&gt; de la revue pour une explication des enjeux juridiques et une présentation des thèses en présence, les numéros &lt;a href=&quot;http://revue.valhalla.fr/numeros/66/&quot;&gt;66&lt;/a&gt; et &lt;a href=&quot;http://revue.valhalla.fr/numeros/85/&quot;&gt;85&lt;/a&gt; pour la position de la CJUE, et dernièrement le &lt;a href=&quot;http://revue.valhalla.fr/numeros/100/&quot;&gt;n°100&lt;/a&gt; pour un bref rappel), et vu que s&#39;opposaient la doctrine de l&#39;accessibilité (la compétence du juge français est fondée dès lors que le site litigieux est accessible en France) et celle de la focalisation (la compétence du juge français n&#39;est établie que si, le site étant accessible en France, il est en outre focalisé vers le public français). La CJUE a pris position en faveur de la doctrine de l&#39;accessibilité, dans plusieurs décisions récentes (v. numéros &lt;a href=&quot;http://revue.valhalla.fr/numeros/66/&quot;&gt;66&lt;/a&gt; et &lt;a href=&quot;http://revue.valhalla.fr/numeros/85/&quot;&gt;85&lt;/a&gt;) rendues en interprétation du réglement 44/2001. Mais la Cour de cassation a préféré la doctrine de la focalisation. Elle a ainsi jugé dans l&#39;&lt;a href=&quot;http://www.legalis.net/spip.php?page=jurisprudence-decision&amp;amp;id_article=3307&quot;&gt;arrêt du 20 septembre 2011&lt;/a&gt;, au visa de l&#39;article 46 du Code de procédure civile, que &quot;&lt;em&gt;la seule accessibilité d’un site internet sur le territoire français n’est pas suffisante pour retenir la compétence des juridictions françaises, prises comme celles du lieu du dommage allégué, et sans rechercher si les annonces litigieuses étaient destinées au public de France, la cour d’appel a privé sa décision de base légale&lt;/em&gt;&quot;, cassé l&#39;arrêt de la Cour d&#39;appel et renvoyé l&#39;affaire devant la Cour d&#39;appel de Paris. Statuant sur renvoi, la Cour d&#39;appel de Paris reprend sa jurisprudence constante consistant à rechercher l&#39;existence de liens &quot;suffisants, substantiels ou significatifs&quot; entre le site litigieux et le public français :&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;&lt;em&gt;Et considérant qu’il est de jurisprudence constante que la seule accessibilité d’un site sur le territoire français n’est pas suffisante pour retenir la compétence des juridictions françaises, qu’il convient de rechercher si les annonces litigieuses étaient destinées au public de France et donc d’examiner si en l’espèce, il existe un lien suffisant, substantiel ou significatif entre les faits délictuels et le dommage allégué sur le territoire français eu égard à l’incidence commerciale que peut avoir la diffusion du site incriminé en France.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;Puis, par un motif peu clair, la Cour relève que le site est conçu en anglais, même si le texte des annonces est, lui, rédigé en français :&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;&lt;em&gt;Que la circonstance selon laquelle les visuels seraient prédominants sur les annonces et la partie rédactionnelle en langue anglaise serait pauvre et donc compréhensible ne permet pas de déduire que le site serait destiné au public de France, qu’en effet, seule la compréhension de la partie rédactionnelle est indispensable à une utilisation pertinente du site comme permettant d’aboutir à la procédure d’une commande effective, de son suivi, des conditions d’échange ou de retour d’un produit, que la vulgarisation croissante de la langue anglaise ne saurait l’ériger comme langue nationale, naturellement et nécessairement acquise par tout français, que &lt;strong&gt;la destination d’un site vers le public de France implique l’usage par ce site de la langue du public ciblé&lt;/strong&gt;, à savoir tout acheteur ou vendeur potentiel d’un quelconque produit sur le marché&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;Il y a, à notre sens, deux éléments importants dans ce motif. D&#39;abord, la Cour se fonde implicitement sur la volonté de l&#39;opérateur : en rédigeant son site en anglais, il n&#39;a pas &lt;em&gt;manifesté&lt;/em&gt; la volonté de cibler le public français car, en dépit de la vulgarisation de la langue anglaise sur Internet, la langue nationale dans le ressort territorial de la juridiction demeure le français. L&#39;idée importante est celle de la manifestation de volonté de l&#39;opérateur : s&#39;il avait voulu cibler &lt;em&gt;spécifiquement&lt;/em&gt; le public français, il aurait rédigé son site en français. C&#39;est cette spécificité qui permet d&#39;établir la compétence des juridictions françaises. En effet, un site rédigé en anglais peut viser soit un public anglophone, soit ne viser aucun public particulier et s&#39;adresser à tous les internautes, indépendamment de leur provenance géographique. En affirmant que &quot;&lt;em&gt;la destination d’un site vers le public de France implique l’usage par ce site de la langue du public ciblé&quot;&lt;/em&gt;, la Cour d&#39;appel ne dit pas qu&#39;un site doit viser le public français, entre autres, pour que sa compétence soit établie, mais que ce site soit viser &lt;em&gt;spécifiquement&lt;/em&gt; le public français. En d&#39;autres termes, un site &quot;international&quot; rédigé en anglais ne vise pas, pour la Cour, le public français parmi d&#39;autres publics, il ne vise en réalité aucun public particulier, ce qui exclut la compétence des juridictions françaises. Reste à savoir comment le critère de la langue, qui semble ici être déterminant, serait utilisé par la Cour s&#39;agissant d&#39;un site belge, suisse ou québécois...&lt;/p&gt;
-&lt;h2&gt;Filtrage&lt;/h2&gt;
-&lt;p&gt;Nous voilà dans l&#39;ère des mots-clés. Google (is not always evil) &lt;a href=&quot;http://www.numerama.com/magazine/22763-google-signale-aux-chinois-les-mots-cles-filtres.html&quot;&gt;révèle aux utilisateurs chinois les mots-clés censurés&lt;/a&gt; sur ordre du gouvernement. De leur côté, les autorités américaines font de même pour &lt;a href=&quot;http://www.numerama.com/magazine/22771-les-usa-revelent-les-mots-cles-surveilles-sur-internet.html&quot;&gt;les mots-clés surveillés par leurs agences de renseignement&lt;/a&gt;, dont &lt;a href=&quot;http://www.dailymail.co.uk/news/article-2150281/REVEALED-Hundreds-words-avoid-using-online-dont-want-government-spying-you.html&quot;&gt;la liste est plutôt effrayante&lt;/a&gt; : exercice, prévention, sécurité, morts, nuage, essence, malade, métro, annulé, en retard, intelligent, frontière, médicament, urgence, glace, neige, érosion... et tant d&#39;autres mots courants.&lt;/p&gt;
-&lt;h2&gt;Concurrence &amp;amp; Consommation&lt;/h2&gt;
-&lt;p&gt;La &lt;a href=&quot;http://www.numerama.com/magazine/22755-l-entente-entre-les-operateurs-definitivement-confirmee.html&quot;&gt;Cour de cassation vient de rejeter un pourvoi formé par Orange&lt;/a&gt; contre&lt;a href=&quot;http://www.pcinpact.com/news/71286-entente-operateurs-mobiles-orange-sfr-bouygues.htm&quot;&gt; sa condamnation par le Conseil de la concurrence pour entente sur les prix&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Aux États-Unis, &lt;a href=&quot;http://www.pcinpact.com/news/71281-microsoft-recours-collectifs-usa-utilisation.htm&quot;&gt;Microsoft modifie le contrat d&#39;adhésion le liant aux consommateurs en insérant une clause destinée à prévenir les &lt;em&gt;class action&lt;/em&gt;&lt;/a&gt;. En application de cette clause, le consommateur peut exercer un recours individuel devant les juridictions étatiques ou arbitrales, mais pas initier ou se joindre à une &lt;em&gt;class action&lt;/em&gt; regroupant plusieurs demandeurs pour une même demande. Ces clauses sont &lt;a href=&quot;http://news.cnet.com/8301-30686_3-57403475-266/why-you-cant-sue-your-wireless-carrier-in-a-class-action/&quot;&gt;autorisées en droit américain&lt;/a&gt; depuis l&#39;arrêt &lt;strong&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/AT%26T_Mobility_v._Concepcion&quot;&gt;AT&amp;amp;T v. Concepcion&lt;/a&gt; du 27 avril 2011&lt;/strong&gt; (&lt;a href=&quot;http://www.supremecourt.gov/opinions/10pdf/09-893.pdf&quot;&gt;syllabus&lt;/a&gt;).&lt;/p&gt;
-&lt;h2&gt;Propriété intellectuelle&lt;/h2&gt;
-&lt;p&gt;Avant le vote du traité ACTA au Parlement européen, cinq commissions doivent rendre leurs avis. &lt;a href=&quot;http://www.numerama.com/magazine/22757-acta-les-opposants-se-felicitent-du-rejet-des-commissions-parlementaires.html&quot;&gt;Trois d&#39;entre-elles ont rendu cette semaine un avis défavorable&lt;/a&gt; : la commission ITRE (industrie), la commission JURI (affaires juridiques) et la commission LIBE (libertés civiles). Le &lt;a href=&quot;http://www.pcinpact.com/news/71306-acta-rejet-massif-parlement-europeen.htm&quot;&gt;prochain vote&lt;/a&gt; est pour le 21 juin, et le passage en séance plénière prévu pour le mois de juillet. De leur côté, les &lt;a href=&quot;http://www.numerama.com/magazine/22742-les-deputes-neerlandais-rejettent-acta.html&quot;&gt;parlementaires des Pays-Bas ont adopté une motion demandant au gouvernement de refuser la ratification du traité&lt;/a&gt;.&lt;/p&gt;
-&lt;h2&gt;Neutralité du Net&lt;/h2&gt;
-&lt;p&gt;L&#39;on apprend que &lt;a href=&quot;http://www.numerama.com/magazine/22745-18-des-fai-europeens-brident-le-p2p.html&quot;&gt;18% des FAI européens bloquent le trafic P2P sur les réseaux fixes&lt;/a&gt;... la &lt;a href=&quot;http://www.pcinpact.com/news/71284-fai-europeen-bride-p2p-neelie-kroes.htm&quot;&gt;neutralité du Net n&#39;est pas pour tout de suite&lt;/a&gt; !&lt;/p&gt;
-&lt;h2&gt;Sécurité&lt;/h2&gt;
-&lt;p&gt;Un &lt;a href=&quot;http://www.pcinpact.com/news/71212-flame-malware-menace-kaspersky-puissant.htm&quot;&gt;nouveau malware très élaboré&lt;/a&gt;, à l&#39;instar de Stuxnet, vient d&#39;être découvert par Kaspersky. Une &lt;a href=&quot;http://www.numerama.com/magazine/22751-un-backdoor-chinois-decouvert-sur-une-puce-electronique-utilisee-par-l-armee-us.html&quot;&gt;porte-dérobée dans des puces fabriquées en Chine et utilisées par l&#39;armée américaine&lt;/a&gt; a également été découverte récemment, par des chercheurs de l&#39;université de Cambridge. La cyber-guerre est chaude et froide à la fois...&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 03 Jun 2012 13:18:12 +0200</pubDate>
-        <link>http://www.valhalla.fr/2012/06/03/104/</link>
-        <guid isPermaLink="true">http://www.valhalla.fr/2012/06/03/104/</guid>
-        
-        <category>Internet</category>
-        
-        <category>neutralité</category>
-        
-        <category>P2P</category>
-        
-        <category>propriété intellectuelle</category>
-        
-        <category>Google</category>
-        
-        <category>international</category>
-        
-        <category>gouvernement</category>
-        
-        <category>filtrage</category>
-        
-        <category>ACTA</category>
-        
-        <category>sécurité</category>
-        
-        <category>USA</category>
-        
-        <category>Orange</category>
-        
-        <category>FAI</category>
-        
-        <category>armée</category>
-        
-        <category>Chine</category>
-        
-        <category>jurisprudence</category>
-        
-        <category>Europe</category>
-        
-        <category>Wikipedia</category>
-        
-        <category>PC</category>
-        
-        <category>droit constitutionnel</category>
-        
-        <category>Microsoft</category>
-        
-        <category>compétence</category>
-        
-        <category>CJUE</category>
-        
-        <category>contrat</category>
-        
-        <category>blocage</category>
-        
-        <category>backdoor</category>
-        
-        
-        <category>revue</category>
         
       </item>
     
