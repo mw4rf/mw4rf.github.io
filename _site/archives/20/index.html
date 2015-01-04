@@ -114,6 +114,34 @@
 <div class="container">
   <div class="row">
     <div class="col-md-8 col-md-push-2 col-xs-12">
+      <h1><a href="/2006/05/05/afficher-la-liste-des-enregistrements-dune-table-mysql-sur-plusieurs-pages/">Afficher la liste des enregistrements d'une table MySQL sur plusieurs pages</a></h1>
+      <div class="text-content"><p>
+Il est courant de présenter les enregistrements d'une base de données sous forme de liste. C'est même très simple a réaliser si l'on veut afficher grâce au PHP tous les enregistrements d'une table MySQL. Cependant, un problème surgit tôt ou tard: il y a trop d'enregistrements dans la table, et ils ne peuvent pas tous être affichés sur la même page. La raison est évidente: il n'est pas raisonnable de présenter une liste de plusieurs dizaines de pages de long alors que l'utilisateur n'a besoin que des premiers enregistrements de la liste. Charge des milliers d'enregistrements dans un tableau aux proportions démesurées va à l'encontre de toute optimisation du code: la page sera longue à charger, lourde à manipuler, et pourra même aller jusqu'à faire planter le navigateur s'il y a plusieurs mégaoctets de données à afficher.
+</p>
+
+<p>
+La solution ? Afficher la liste sur plusieurs pages de X enregistrements chacune, avec en en-tête de la liste deux petits boutons "Précédente" et "Suivante" qui permettent de passer d'une page à l'autre. Eh bien, c'est plus facile à dire qu'à faire. On se heurte en effet très tôt à une difficulté: il faut prévoir les limites de la liste et enlever le bouton "Précédente" sur la première page et le bouton "Suivante" sur la dernière, sous peine de générer une erreur lors du passage de la requête SQL.
+</p>
+
+</div>
+    </div>
+    <div class="col-md-2 col-md-pull-8 col-xs-12 text-center">
+      <h2>05 May 2006</h2>
+      <br>
+      <div class="label label-info">1363 mots</div>
+      <br>
+        
+          <div class="label label-default">web</div>
+        
+    </div>
+    <div class="col-md-2"></div>
+  </div>
+</div>
+  
+    <br>
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 col-md-push-2 col-xs-12">
       <h1><a href="/2006/04/27/vers-une-alliance-google-firefox/">Vers une alliance Google-Firefox ?</a></h1>
       <div class="text-content">Pour la première fois, parait-il, Google a affiché une <a href="http://www.clubic.com/actualite-34249-google-fait-la-promo-de-firefox-aux-etats-unis.html">publicité</a> sur sa page d'accueil américaine qui ne vantait pas le mérites d'un de ses propres produits, mais du navigateur de la Fondation Mozilla, Firefox. La Fondation Mozilla maintient depuis longtemps de bons rapports avec l'éditeur du moteur de recherche géant du même nom, mais il semblerait bien qu'une nouvelle phase dans la politique anti-Microsoft du géant d'Internet vient de commencer. D'un certain côté, à court terme, l'on peut se réjouir d'une telle "alliance" entre Google et Firefox. Mais d'un autre côté, sur le long terme, un tel pacte présenterait des dangers relativement importants.
 
@@ -322,31 +350,6 @@ Dans cette deuxième partie de l'article consacré à .Mac, nous parlerons des s
       <h2>27 Mar 2006</h2>
       <br>
       <div class="label label-info">2783 mots</div>
-      <br>
-        
-          <div class="label label-default">internet</div>
-        
-          <div class="label label-default">mac</div>
-        
-    </div>
-    <div class="col-md-2"></div>
-  </div>
-</div>
-  
-    <br>
-<div class="container">
-  <div class="row">
-    <div class="col-md-8 col-md-push-2 col-xs-12">
-      <h1><a href="/2006/03/27/mac-et-la-synchronisation-premiere-partie/">.Mac et la synchronisation (première partie)</a></h1>
-      <div class="text-content"><img src="/public/posts/2006-11-27-dotmac/dotmac.png" alt=".Mac" align="left"/>
-Apple semble orienter sa politique à destination du grand public vers les services multimédia en ligne. Du moins, c'est ce qui ressort clairement des dernières versions des logiciels de la firme à la pomme. Il ne s'agit pas ici, pour une fois, du couple iTMS/iPod. Il s'agit de .Mac. Apple propose en effet un espace multifonctions sur Internet, appelé ".Mac" (prononcez "dot mac"). Ce bouquet de services permet de faire un certain nombre de choses dans divers domaines, que nous détaillerons, avec un certain nombre de logiciels, que nous citerons. Cet article, qui a pour but de fournir une introduction à .Mac en détaillant ses possibilités, se veut également critique. A notre avis, .Mac est un bouquet qui possède un énorme potentiel, mais qui reste très largement sous-exploité. L'analyse portera sur les différentes fonctions, montrant en quoi elles sont intéressantes, ainsi que les raisons pour lesquelles Apple peut et doit les améliorer. On peut à ce titre distinguer les services de synchronisation (I), les services de stockage (II), les services en ligne (III) et les services intégrés à des logiciels Apple ou tiers distincts du système d'exploitation (IV).
-
-</div>
-    </div>
-    <div class="col-md-2 col-md-pull-8 col-xs-12 text-center">
-      <h2>27 Mar 2006</h2>
-      <br>
-      <div class="label label-info">1818 mots</div>
       <br>
         
           <div class="label label-default">internet</div>

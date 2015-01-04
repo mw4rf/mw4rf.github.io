@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <title>Pagination sélective avec Jekyll</title>
+  <meta name="description" content="Plus de place ! La ligne est pleine. Elle déborde sur la suivante. Les petits numéros alignés, sur lesquels l'on clique pour passer d'une page à l'autre, ne ...">
+  <link href="/public/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  
+  <!-- Twitter Bootstrap -->
+  <link rel="stylesheet" href='/assets/bootswatch/yeti.min.css'>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href='/assets/font-awesome/css/font-awesome.min.css'>
+  git
+  <link rel="stylesheet" href="/css/main.css">
+  
+  
+  <link rel="canonical" href="http://www.valhalla.fr/2015/01/04/pagination-selective-avec-jekyll/">
+  <link rel="alternate" type="application/atom+xml" title="Valhalla.fr" href="http://www.valhalla.fr/feed.xml" />
+</head>
+
+
+  <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://www.valhalla.fr">Valhalla.fr</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+      
+      <ul class="nav navbar-nav">
+        
+          
+            <li>
+            <a href="http://www.valhalla.fr/about.html">À Propos</a>
+          
+          </li>
+        
+          
+            <li>
+            <a href="http://www.valhalla.fr/revue/">Revue</a>
+          
+          </li>
+        
+          
+            <li class="dropdown">
+              <a href="http://www.valhalla.fr" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Archives <i class="caret"></i></a>
+              <ul class="dropdown-menu">
+              
+                <li><a href="http://www.valhalla.fr/articles-essentiels/">Articles essentiels</a></li>
+              
+                <li><a href="http://www.valhalla.fr/archives/index.html">Archives chronologiques</a></li>
+              
+                <li><a href="http://www.valhalla.fr/archives/categories.html">Catégories</a></li>
+              
+                <li><a href="http://www.valhalla.fr/archives/tags.html">Tags</a></li>
+              
+              </ul>
+          
+          </li>
+        
+          
+            <li class="dropdown">
+              <a href="http://www.valhalla.fr" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Divers <i class="caret"></i></a>
+              <ul class="dropdown-menu">
+              
+                <li><a href="http://www.valhalla.fr/outils/">Outils</a></li>
+              
+                <li><a href="http://www.valhalla.fr/java/">Java</a></li>
+              
+              </ul>
+          
+          </li>
+        
+      </ul>
+      
+      <!-- Google Custom Search Engine -->
+      <form action="http://www.google.com/cse" id="cse-search-box" _lpchecked="1" class="navbar-form navbar-right" role="search">
+        <input type="hidden" name="cx" value="007528237610497066360:tooxybveeoo">
+        <input type="hidden" name="ie" value="UTF-8">
+        <input name="siteurl" type="hidden" value="http://www.valhalla.fr">
+        <input name="ref" type="hidden" value="">
+        <input name="ss" type="hidden" value="">
+        <div class="input-group input-group-sm">
+          <input type="text" class="form-control" name="q" style="background: url(http://www.google.com/cse/intl/en/images/google_custom_search_watermark.gif) 0% 50% no-repeat rgb(255, 255, 255);">
+        </div>
+      </form>
+      <!-- END Google Custom Search Engine -->
+            
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+    <div class="page-content container-fluid">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <div class="container">
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-9 col-xs-12">
+      <div class="page-header">
+        <h1>
+          Pagination sélective avec Jekyll
+          <small>Jan 4, 2015 • GF</small>
+        </h1>
+      </div>
+      
+      <div class="text-content"><p>Plus de place ! La ligne est pleine. Elle déborde sur la suivante. Les petits numéros alignés, sur lesquels l’on clique pour passer d’une page à l’autre, ne tiennent plus à l’écran. Le blog a vieilli, le temps s’est écoulé, les articles se sont accumulés. Ils remplissent des pages et des pages ; il n’est plus possible de toutes les afficher d’un coup. Comment faire ? La pagination sélective est la solution : afficher quelques pages seulement avant la pages actuelle, et quelques pages seulement après elle.</p>
+
+<p>Voici une illustration du phénomène, une image vaut mille mots :</p>
+
+<p><img src="/public/posts/2015-01-04-pagination-selective-avec-jekyll/paginations.png" alt="Illustration" title="Illustration" /></p>
+
+<p>La page actuelle est la quinzième. Sur la <strong>première ligne</strong>, l’on voit que tous les numéros de page sont affichés : il y a 28 pages en tout. Bien sûr, c’est pratique : puisque tous les numéros sont affichés, l’on peut sauter d’une page à l’autre en un clic, mêmes si les deux pages sont très éloignées l’une de l’autre. En revanche, l’on ne peut plus afficher le décompte des pages en gros, car il serait scindé en plusieurs lignes. La solution à ce problème se trouve à la <strong>seconde ligne</strong> qui n’affiche que <em>trois pages avant</em> la page actuelle et <em>trois pages après</em> elle.</p>
+
+<p>Comment implémenter un tel compteur avec <a href="http://jekyllrb.com/">Jekyll</a> ? Voici le code source :</p>
+
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno"> 1</span> <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;text-center&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 2</span>       <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">&quot;pagination pagination-lg&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 3</span>         {% if paginator.previous_page %}
+<span class="lineno"> 4</span>           {% if paginator.previous_page == 1 %}
+<span class="lineno"> 5</span>             <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;/&quot;</span><span class="nt">&gt;</span><span class="ni">&amp;laquo;</span><span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno"> 6</span>           {% else %}
+<span class="lineno"> 7</span>             <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;{{ paginator.previous_page_path }}&quot;</span><span class="nt">&gt;</span><span class="ni">&amp;laquo;</span><span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno"> 8</span>           {% endif %}
+<span class="lineno"> 9</span>         {% else %}
+<span class="lineno">10</span>           <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;disabled&quot;</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span><span class="ni">&amp;laquo;</span><span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno">11</span>         {% endif %}
+<span class="lineno">12</span> 
+<span class="lineno">13</span>         {% capture start %}{{ paginator.page | minus:3 }}{% endcapture %}
+<span class="lineno">14</span>         {% capture end %}{{ paginator.page | plus:3 }}{% endcapture %}
+<span class="lineno">15</span>         
+<span class="lineno">16</span>         {% for count in (start..end) %}
+<span class="lineno">17</span>           {% if count &gt; 0 and count <span class="err">&lt;</span>= paginator.total_pages %}
+<span class="lineno">18</span>             {% if count == paginator.page %}
+<span class="lineno">19</span>                 <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;active&quot;</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span>{{count}}<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno">20</span>             {% else %}
+<span class="lineno">21</span>               {% if count == 1 %}
+<span class="lineno">22</span>                 <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;/&quot;</span><span class="nt">&gt;</span>1<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno">23</span>               {% else %}
+<span class="lineno">24</span>                 <span class="nt">&lt;li&gt;</span>
+<span class="lineno">25</span>                     <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;{{ site.paginate_path | replace: &#39;:num&#39;, count }}&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">26</span>                         {{count}}
+<span class="lineno">27</span>                     <span class="nt">&lt;/a&gt;</span>
+<span class="lineno">28</span>                 <span class="nt">&lt;/li&gt;</span>
+<span class="lineno">29</span>               {% endif %}
+<span class="lineno">30</span>             {% endif %}
+<span class="lineno">31</span>           {% endif %}
+<span class="lineno">32</span>         {% endfor %}
+<span class="lineno">33</span> 
+<span class="lineno">34</span>         {% if paginator.next_page %}
+<span class="lineno">35</span>           <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;{{ paginator.next_page_path }}&quot;</span><span class="nt">&gt;</span><span class="ni">&amp;raquo;</span><span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno">36</span>         {% else %}
+<span class="lineno">37</span>           <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;disabled&quot;</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span><span class="ni">&amp;raquo;</span><span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno">38</span>         {% endif %}
+<span class="lineno">39</span>       <span class="nt">&lt;/ul&gt;</span>
+<span class="lineno">40</span>     <span class="nt">&lt;/div&gt;</span></code></pre></div>
+
+<p>Explications.</p>
+
+<ul>
+  <li><strong>Lignes 1-2</strong> : Les numéros sont affichés à l’aide de styles Twitter Bootstrap. L’on utilise donc un <code>div</code> centré horizontalement et une liste désordonnée <code>ul</code>.</li>
+  <li><strong>Lignes 3-11</strong> : Premier cas à envisager : existe-t-il une <em>page précédente</em> ? Si l’on se trouve actuellement sur la première page, il n’y a rien avant elle. Par conséquent, le bouton <strong>«</strong> doit être désactivé, puisque l’on ne peut pas aller <em>en arrière</em>. À l’inverse, lorsque l’on n’est pas sur la première page, l’on peut revenir en arrière, si bien que le bouton doit être activé.</li>
+  <li><strong>Lignes 4-5</strong> : Il y a une bizarrerie dans la mécanique de pagination de Jekyll : toutes les pages sont identifiées d’une certaine manière (par exemple, <em>page15</em>, <em>page15</em>, <em>page16</em>), sauf la première qui correspond à la page d’accueil du blog. Par conséquent, il faut lui réserver un traitement spécial.</li>
+  <li><strong>Lignes 13-14</strong> : C’est l’essentiel de la logique du système de pagination sélective. L’on définit ici les pages à afficher, c’est-à-dire en l’occurrence les <em>trois pages avant la page actuelle et les trois pages après elle</em>. L’on calcule donc le numéro de la première page (page actuelle - 3) et le numéro de la dernière page (page actuelle + 3). L’utilisation du <em>tag Liquid</em> <code>capture</code> ne semble pas être très naturelle ; il aurait en effet été plus élégant d’écrire directement la boucle (à la ligne 16) de cette manière : <code>for i in ((paginator.page - 3)..(paginator.page + 3))</code> ; mais pour une raison qui m’est inconnue, ce code ne fonctionne pas avec ma version de Jekyll et de Liquid. La définition de variables avec <code>define start = paginator.page - 3</code> ne fonctionne pas non plus. Le code présenté est inélégant mais fonctionnel.</li>
+  <li><strong>Ligne 16</strong> : L’intervalle des pages à afficher étant défini, il reste à le parcourir grâce à une boucle.</li>
+  <li><strong>Ligne 17</strong> : Puisque l’intervalle est délimité par la page actuelle moins 3 d’un côté et la page actuelle plus 3 de l’autre, il y a un risque de sortir des bornes. Si la page actuelle est la première, par exemple, <code>1 - 3 = -2</code> ; or, la page -2 n’existe pas ! Il faut donc vérifier que le résultat du calcul <em>(page actuelle - 3)</em> soit toujours supérieur à 0, de telle manière que la première page soit toujours la page n°1. Il en va de même dans l’autre sens : la borne supérieure est la dernière page.</li>
+  <li><strong>Lignes 18-19</strong> : Lorsque la boucle arrive à la page actuelle, elle l’identifie d’une certaine manière afin de la distinguer des autres pages.</li>
+  <li><strong>Lignes 21-22</strong> : La première page reçoit un traitement particulier (v. Lignes 4-5).</li>
+  <li><strong>Lignes 24-28</strong> : Ces lignes affichent les pages qui ne sont pas la page actuelle, en leur associant les liens idoines.</li>
+  <li><strong>Lignes 34-38</strong> : v. Lignes 3-11, même chose pour la dernière page et le bouton <strong>»</strong>.</li>
+</ul>
+</div>
+      
+      <hr>
+      
+      <div class="related">
+        <h2>Voir aussi</h2>
+        <ul style="list-style-type: none;">
+        
+            <li><a href="/2014/08/05/safari-raccourci-clavier-pour-affichermasquer-la-barre-des-signets/">Safari : raccourci clavier pour afficher/masquer la barre des signets</a></li>
+        
+            <li><a href="/2014/08/01/lancer-intellij-idea-13-mac-avec-un-jdk-oracle/">Lancer Intellij IDEA 13 Mac avec un JDK Oracle</a></li>
+        
+            <li><a href="/2013/01/08/ubuntu-12-10-checklist-installation/">Ubuntu 12.10 : Checklist d'installation</a></li>
+        
+            <li><a href="/2012/07/08/107/">Numéro 107 - Semaine du 2 au 8 juillet 2012</a></li>
+        
+            <li><a href="/2012/07/01/106/">Numéro 106 - Semaine du 25 juin au 1er juillet 2012</a></li>
+        
+            <li><a href="/2012/06/24/105/">Numéro 105 - Semaine du 18 au 24 juin 2012</a></li>
+        
+            <li><a href="/2012/06/16/optimiser-unity-workspaces-precise-pangolin/">Optimiser les bureaux virtuels sous Unity (Ubuntu 12.04)</a></li>
+        
+            <li><a href="/2012/06/11/ubuntu-software-center-tester-avant-dinstaller/">Ubuntu Software Center : tester avant d'installer</a></li>
+        
+            <li><a href="/2012/06/03/104/">Numéro 104 - Semaine du 28 mai au 3 juin 2012</a></li>
+        
+            <li><a href="/2012/05/27/103/">Numéro 103 - Semaine du 21 au 27 mai 2012</a></li>
+        
+        </ul>
+      </div>
+      
+      
+      <hr>
+      <div class="comments">
+        <div id="disqus_thread"></div>
+<script type="text/javascript">
+var disqus_shortname = 'valhallafr';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+      </div>
+      
+      
+    </div>
+    <div class="col-md-2">
+  </div>
+</div>
+
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Valhalla.fr</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>Valhalla.fr</li>
+          <li><a href="mailto:your-email@domain.com">your-email@domain.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/mw4rf">
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+                </svg>
+              </span>
+
+              <span class="username">mw4rf</span>
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/jekyllrb">
+              <span class="icon  icon--twitter">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+                </svg>
+              </span>
+
+              <span class="username">jekyllrb</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">Ad Absurdum</p>
+        <p class="rss-subscribe">subscribe <a href="http://www.valhalla.fr/feed.xml">via RSS</a></p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+      <script src="/assets/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/assets/bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-2290016-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+  </body>
+
+</html>

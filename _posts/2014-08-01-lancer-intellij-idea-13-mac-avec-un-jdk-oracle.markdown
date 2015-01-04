@@ -25,7 +25,9 @@ categories:
 - Mac
 - Java
 - Informatique
-tags: []
+tags:
+- Java
+- programmation
 ---
 <p>IntelliJ IDEA est sans doute, actuellement, le meilleur IDE Java. Or, les développeurs Java sérieux ne peuvent se contenter du JRE 1.6 fourni par Apple dans Maverick (et la bêta publique de Yosemite, à l'heure où j'écris ces lignes).</p>
 <p>Problème : IntelliJ réclame la présence du JRE fourni par Apple et refuse de se lancer, même si un JDK Oracle, 1.7 ou 1.8 est installé sur la machine.</p>

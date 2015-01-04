@@ -114,6 +114,57 @@
 <div class="container">
   <div class="row">
     <div class="col-md-8 col-md-push-2 col-xs-12">
+      <h1><a href="/2001/08/30/introduction-a-java-idl/">Introduction à Java IDL</a></h1>
+      <div class="text-content"><p>Article de <a href="http://www.sun.com">Sun</a> traduit et adapt&eacute; en fran&ccedil;ais.</p>
+<h1>Qu'est-ce que Java IDL ?</h1>
+<p>Java IDL est une technologie pour les &quot;objets distribu&eacute;s&quot;, c'est-&agrave;-dire des objets interagissant avec diff&eacute;rentes stations de travail d'un r&eacute;seau. Java IDL est similaire &agrave; RMI (Remote Method Invocation) qui supporte des objets distribu&eacute;s &eacute;crits enti&egrave;rement et exclusivement en langage Java. Cependant, Java IDL permet aux objets d'&ecirc;tre utilis&eacute;s m&ecirc;me s'ils sont &eacute;crits dans un langage diff&eacute;rent de Java, comme C/C++, Cobol, et bien d'autres.</p>
+<p>Ceci est possible car Java IDL est bas&eacute; sur l'architecture CORBA (Common Object Request Brokerage Architecture), un standard mondial de l'industrie dans la distribution d'objets sur un r&eacute;seau. Une des composantes de Corba est IDL (Interface Definition Language), langage dit &quot;neutre&quot;. Chaque langage de programmation supportant Corba impl&eacute;mente une IDL, d'o&ugrave; le nom de &quot;Java IDL&quot;, l'impl&eacute;mentation IDL pour Java. Corba et IDL sont issus d'un consortium de trusts mondiaux (notamment IBM, Boeing, etc.) connus sous le nom de OMG (Object Management Group), et le fait que Sun Microsystems soit l'un des membres fondateurs explique que IDL soit si bien adapt&eacute; &agrave; Java.</p>
+<p>Pour permettre des interactions entre les objets de diff&eacute;rents programmes d'un r&eacute;seau, Java IDL &quot;fourni&quot; un ORB (Object Request Broker). Un ORB est une biblioth&egrave;que de classes qui permet une communication de bas niveau entre Java IDL et d'autres applications bas&eacute;es sur Corba.</p>
+<h1>L'architecture CORBA</h1>
+<p>Une interaction entre 2 objets sur un r&eacute;seau a toujours 2 sens: le client et le serveur (entr&eacute;e/sortie su vous pr&eacute;f&eacute;rez). Le serveur cr&eacute;e une &quot;Remote Interface&quot; (c'est &agrave; dire une porte d'entr&eacute;e vers lui), et le client appelle et utilise cette &quot;Remote Interface&quot;. Ceci est globalement la proc&eacute;dure g&eacute;n&eacute;ralis&eacute;e utilis&eacute;e par les standards d'objets distribu&eacute;s comme RMI ou Corba. On notera que les mots &quot;client&quot; et &quot;serveur&quot; d&eacute;signent des interactions au niveau des objets et pas des applications: un logiciel peut &ecirc;tre &agrave; la fois client et serveur selon s'il publie ou re&ccedil;oit tel ou tel objet.</p>
+<p>Du c&ocirc;t&eacute; du client, l'application a une r&eacute;f&eacute;rence vers l'objet distribu&eacute;. La r&eacute;f&eacute;rence a une m&eacute;thode &quot;stub&quot; (&quot;stub&quot; signifie le &quot;talon&quot; d'un ticket en anglais) qui est une sorte des rempla&ccedil;ant pour la m&eacute;thode appel&eacute;e &agrave; distance. Le &quot;stub&quot; est install&eacute; dans l'ORB, l'appeler revient donc &agrave; activer les fonctions de communication de l'ORB qui se chargera de la connexion au serveur.</p>
+<p>Du c&ocirc;t&eacute; du serveur, l'ORB utilise un &quot;squelette&quot; de code pour traduire l'appel &agrave; distance en un appel de m&eacute;thode sur un objet local. Le squelette se charge de bien traduire la requ&ecirc;te dans le format attendu par l'objet local. Quand la m&eacute;thode finit (&agrave; comprendre: quand elle retourne) le squelette se charge de traduire la valeur de retour ou les erreurs et de les transmettre &agrave; l'ORB qui les transmet &agrave; son tour au client.<br />
+  Entre les ORB, la communication est &eacute;tablie gr&acirc;ce &agrave; un protocole sp&eacute;cial: IIOP (Internet Inter-ORB Protocol). IIOP, bas&eacute; sur le standard TCP/IP, d&eacute;finit comment des ORB pour Corba &eacute;changent des informations. Tout comme Corba et IDL, IIOP est un standard d&eacute;finit par l'OMG (Object Management Group).</p>
+<p>En plus des possibilit&eacute;s de communication expos&eacute;es plus haut, les ORB bas&eacute;s sur Corba ont des fonctionnalit&eacute;s am&eacute;lior&eacute;es, des services d&eacute;finis par l'OMG. Ceci inclut la recherche d'objets par nom, la persistance d'objets, la possibilit&eacute; d'&eacute;changer des messages, etc. Certains ORB supportent ces fonctions, celui fourni avec Java IDL supporte la recherche d'objets par nom.</p>
+<h1>Le processus de d&eacute;veloppement de Java IDL</h1>
+<p>1) D&eacute;finir l'interface &agrave; distance<br />
+  On d&eacute;finit l'interface &agrave; distance en utilisant le langage de d&eacute;finition de l'interface de l'OMG, c'est &agrave; dire IDL. On utilise IDL plut&ocirc;t que Java car le compilateur idl-to-java travaille &agrave; partir d'un (code) source IDL, g&eacute;n&eacute;rant tous les fichiers &quot;stub&quot; et &quot;squelette&quot; avec le code d'infrastructure n&eacute;cessaire &agrave; la connexion avec l'ORB. En utilisant IDL, on permet aux autres d&eacute;veloppeurs d'impl&eacute;menter des clients et des serveurs dans d'autres langages compatibles Corba. </p>
+<p>2) Compiler l'interface &agrave; distance<br />
+  Quand on lance le compilateur idl-to-java sur le fichier source de d&eacute;finition de l'interface, il g&eacute;n&egrave;re une version en Java de l'interface, comme il g&eacute;n&egrave;re les stubs et les squelettes.</p>
+<p>3) Impl&eacute;menter le serveur<br />
+  Une fois le compilateur idl-to-java lanc&eacute;, on peut utiliser les squelettes g&eacute;n&eacute;r&eacute;s pour assembler son serveur. En plus d'impl&eacute;menter les m&eacute;thode de l'interface &agrave; distance, le code du serveur inclut un m&eacute;canisme pour lancer l'ORB et attendre une requ&ecirc;te d'un client.</p>
+<p>4) Impl&eacute;menter un client<br />
+  De m&ecirc;me on utilisera les stubs g&eacute;n&eacute;r&eacute;s par le compilateur comme base pour l'application client. Le code client construit &agrave; partir des stubs lance l'ORB de son c&ocirc;t&eacute; qui recherche une connexion vers le serveur utilisant le service de noms indiqu&eacute; par Java IDL, obtient une r&eacute;f&eacute;rence vers l'objet &agrave; distance et invoque &agrave; distance ses m&eacute;thodes.</p>
+<p>5) D&eacute;marrer l'application<br />
+Une fois le serveur et le client cr&eacute;&eacute;e, on peut lancer le service de noms, puis d&eacute;marrer le serveur, et enfin lancer le client.</p>
+<p>Notes:<br />
+  1) Avec Java 1.3, idltojava compiler est remplac&eacute; par idlj compiler<br />
+  2) Si vous d&eacute;sirez un exemple concret: HelloWorld! dans la suite de cet article de la FAQ. Article Sun ici.</p>
+<p>Traduit et adapt&eacute; de l'anglais par Narcanes, (article original de Jim Inscore Sun Microsystems)<br />
+  pour l'association Java-France/Jgflsoft<br />
+  www.java-france.com / www.jgflsoft.com<br />
+  R&eacute;&eacute;dit&eacute; pour Valhalla GFBLOG. <br />
+  Montpellier, 30 ao&ucirc;t 2001.</p>
+
+</div>
+    </div>
+    <div class="col-md-2 col-md-pull-8 col-xs-12 text-center">
+      <h2>30 Aug 2001</h2>
+      <br>
+      <div class="label label-info">890 mots</div>
+      <br>
+        
+          <div class="label label-default">java</div>
+        
+    </div>
+    <div class="col-md-2"></div>
+  </div>
+</div>
+  
+    <br>
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 col-md-push-2 col-xs-12">
       <h1><a href="/2001/08/28/quest-ce-que-la-technologie-jini/">Qu'est-ce-que la technologie Jini ?</a></h1>
       <div class="text-content"><p>Traduction (adaptation, simplification) d'un article de <a href="http://www.sun.com">Sun</a>.</p>
 <h1>Historique</h1>
@@ -699,55 +750,6 @@ String command = &quot;ipchains -P input DENY&quot;;</p>
       <h2>17 Mar 2001</h2>
       <br>
       <div class="label label-info">388 mots</div>
-      <br>
-        
-          <div class="label label-default">java</div>
-        
-    </div>
-    <div class="col-md-2"></div>
-  </div>
-</div>
-  
-    <br>
-<div class="container">
-  <div class="row">
-    <div class="col-md-8 col-md-push-2 col-xs-12">
-      <h1><a href="/2001/03/16/comment-parcourir-une-arborescence-de-fichiers/">Comment parcourir une arborescence de fichiers ?</a></h1>
-      <div class="text-content"><p>Ce document a pour but de vous expliquer, comme le dit son titre, comment d&eacute;tecter et afficher tous les fichiers et sous-r&eacute;pertoires d'un r&eacute;pertoire racine. La solution propos&eacute;e ici utilise la technique de r&eacute;cursivit&eacute;. Il existe certainement d'autres mani&egrave;res de proc&eacute;der mais celle-ci est assez &eacute;l&eacute;gante.</p>
-<p>Un tout petit peu de th&eacute;orie quand m&ecirc;me: une m&eacute;thode -ou fonction, routine...- dite r&eacute;cursive est fonction qui fait r&eacute;f&eacute;rence &agrave; elle-m&ecirc;me dans son code, c'est-&agrave;-dire une fonction qui, une fois lanc&eacute;e, s'ex&eacute;cute en boucle tant qu'une certaine condition n'est pas remplie.</p>
-<p>Si le code est mal programm&eacute;, que la condition ne permet jamais l'arr&ecirc;t de la m&eacute;thode, on aura une erreur du type StackOverflow, ce qui signifie que vous &ecirc;tes en train de noyer compl&egrave;tement votre programme avec des calculs astronomiques.</p>
-<p>Tous les &eacute;tudiants en informatique on eu &agrave; passer par les c&eacute;l&egrave;bres Tours de Hano&iuml;, programme qui doit &ecirc;tre r&eacute;alis&eacute; &agrave; l'aide de m&eacute;thodes r&eacute;cursives. A titre indicatif (le but n'est quand m&ecirc;me pas de vous faire crouler sous la th&eacute;orie ;) quand on parle de solution r&eacute;cursive, il existe souvent une autre solution dite it&eacute;rative (bas&eacute;e sur l'utilisation de boucles for, while, etc). Cette solution it&eacute;rative est plus rapide &agrave; l'ex&eacute;cution, mais plus difficile &agrave; programmer.</p>
-<p>Dans notre cas, nous voulons parcourir un r&eacute;pertoire (dor&eacute;navant appel&eacute; r&eacute;pertoire racine) et afficher son contenu, ceci ne n&eacute;cessite pas de r&eacute;cursivit&eacute;. Par contre, nous voulons en plus d&eacute;tecter tous les r&eacute;pertoires contenus dans ce r&eacute;pertoire racine, et ainsi de suite jusqu'&agrave; ce que toute l'arborescence soit &quot;scann&eacute;e&quot; ; et c'est pour cela que nous avons besoin de m&eacute;thodes r&eacute;cursives.</p>
-<p>Passons au concret:</p>
-<p>1 - Pour commencer, on doit cr&eacute;er une m&eacute;thode, appel&eacute;e ici recurseDirs(String r&eacute;pertoire):</p>
-<p><span class="Code">public void recurseDirs(String r&eacute;pertoire)<br />
-  {</span></p>
-<p>2 - Nous devons sp&eacute;cifier un r&eacute;pertoire racine au programme. Pour cela nous allons cr&eacute;er un nouvel objet File, qui peut soit &ecirc;tre un fichier proprement dit soit un r&eacute;pertoire (dans notre cas un r&eacute;pertoire). La classe File admet comme param&egrave;tre un String. Vous pouvez obtenir ce String de diff&eacute;rente mani&egrave;re (en le sp&eacute;cifiant vous-m&ecirc;me manuellement, en l'obtenant par l'interm&eacute;diaire d'un JFileChooser... ), ce n'est pas notre sujet, dans tous les cas vous devez le transmettre comme param&egrave;tre &agrave; la m&eacute;thode pour pouvoir l'utiliser ici et pour pouvoir utiliser la r&eacute;cursivit&eacute; plus loin.</p>
-<p class="Code">File fichier = new File(repertoire);</p>
-<p>3 - Nous allons cr&eacute;er une matrice (ou tableau) destin&eacute; &agrave; contenir toutes les entr&eacute;es du r&eacute;pertoire:</p>
-<p class="Code">String list[];</p>
-<p>4 - Nous devons sp&eacute;cifier une condition: ex&eacute;cuter ce qui suit si et seulement si l'objet File est un r&eacute;pertoire (quand le scan est termin&eacute;, qu'il n'y a plus de nouveau r&eacute;pertoire &agrave; scanner, File ne satisfait plus la condition et on sort de la m&eacute;thode).</p>
-<p class="Code">if (fichier.isDirectory())<br />
-{</p>
-<p>5 - Ensuite nous entrons toutes les entr&eacute;es du r&eacute;pertoire racine dans la matrice cr&eacute;&eacute;e plus haut, en utilisant la m&eacute;thode list() de la classe File qui renvoie une matrice de String:</p>
-<p class="Code">list = fichier.list();</p>
-<p>6 - Nous entrons ici dans le coeur du code: une r&eacute;cursivit&eacute;-it&eacute;rative (si, si!). Nous cr&eacute;ons une boucle for qui est ex&eacute;cut&eacute;e autant de fois que le r&eacute;pertoire racine contient de documents. Au sein de cette boucle for est appel&eacute;e notre m&eacute;thode (c'est l&agrave; que se trouve la r&eacute;cursivit&eacute;), avec comme argument l'entr&eacute;e num&eacute;ro n de la boucle. Le caract&egrave;re de s&eacute;paration (separatorChar) de la classe File est n&eacute;cessaire pour des questions de syntaxe du chemin du r&eacute;pertoire, nous n'avons pas &agrave; nous en soucier.</p>
-<p class="Code">for (int i = 0; i &lt; list.length ; i++)<br />
-  {<br />
-  recurseDirs(repertoire + File.separatorChar + list[i]);<br />
-}</p>
-<p>7 - Nous pouvons maintenant manipuler les noms des fichiers et r&eacute;pertoires, par exemple les rediriger vers la sortie syst&egrave;me:</p>
-<p class="Code">System.out.println(&quot;-&gt;&gt; &quot; + repertoire);</p>
-<p>Tutoriel distribu&eacute; pour le FAQ Java de Java-France www.java-france.com / www.jgflsoft.com<br />
-  R&eacute;&eacute;dit&eacute; pour Valhalla GFBLOG. <br />
-  &Eacute;crit &agrave; Montpellier le 16 mars 2001</p>
-
-</div>
-    </div>
-    <div class="col-md-2 col-md-pull-8 col-xs-12 text-center">
-      <h2>16 Mar 2001</h2>
-      <br>
-      <div class="label label-info">650 mots</div>
       <br>
         
           <div class="label label-default">java</div>
