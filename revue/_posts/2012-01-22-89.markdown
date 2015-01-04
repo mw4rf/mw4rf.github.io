@@ -1,0 +1,45 @@
+---
+layout: post
+status: publish
+published: true
+permalink: /revue/numero-89/
+title: Numéro 89 - Semaine du 16 au 22 janvier 2012
+author:
+  display_name: GF
+  login: gflorimond
+  email: gf@valhalla.fr
+  url: ''
+author_login: gflorimond
+author_email: gf@valhalla.fr
+wordpress_id: 479
+wordpress_url: http://revue.valhalla.fr/?p=479
+date: '2012-01-22 12:06:21 +0100'
+date_gmt: '2012-01-22 10:06:21 +0100'
+categories:
+- Revue
+tags:
+- Internet
+- téléchargement
+- P2P
+- propriété intellectuelle
+- filtrage
+- piratage
+- Hadopi
+- liberté d'expression
+- Megaupload
+- DNS
+- FAI
+- intermédiaires
+- Wikipedia
+- partage
+- culture
+- contrefaçon
+- SOPA
+---
+<p>L'actualité de cette semaine, composée de deux événements marquants, est américaine et concerne le droit de la propriété intellectuelle. Le premier événement est la journée de <i>blackout</i> en protestation contre la loi SOPA, le second est la fermeture de Megaupload.</p>
+<h2>Blackout vs. SOPA</h2>
+<p>Le projet de loi SOPA ("Stop Online Piracy Act" <a href="http://www.opencongress.org/bill/112-h3261/show">HR 3261</a>), donc nous avons déjà parlé ici (v. <a href="http://revue.valhalla.fr/numeros/84/">84</a> et <a href="http://revue.valhalla.fr/numeros/87/">87</a>), a pour but de lutter contre la contrefaçon d'oeuvres culturelles sur Internet. Pour ce faire, il met en oeuvre des mesures, telles que la possibilité de faire fermer un site de manière expéditive, à la fois inefficaces (parce que lorsque les sites de téléchargement sont une hydre à plusieurs têtes) et attentatoires aux libertés des internautes (p.ex. faire fermer le sit entier constitue une restriction injustifiée de la liberté d'expression, dès lors qu'il est possible de ne supprimer que les pages illicites). Le SOPA permet aussi le "blocage DNS" des sites, c'est-à-dire la neutralisation de leur nom de domaine, une mesure drastique qui se justifie difficilement au regard des principes de nécessité et de proportionnalité. Ces mesures peuvent être ordonnées aux intermédiaires techniques américains et dirigées contre des sites étrangers, ce qui révèle la volonté du législarteur américain de donner au SOPA une forte portée extraterritoriale. Vous trouverez <a href="http://abonnes.lemonde.fr/technologies/article/2012/01/18/sopa-pipa-et-la-crainte-d-un-filtrage-du-web-a-grande-echelle_1631095_651865.html">plus d'informations</a> à propos de la loi SOPA sur Wikipédia en <a href="http://fr.wikipedia.org/wiki/Stop_Online_Piracy_Act">français</a> ou en <a href="http://en.wikipedia.org/wiki/Stop_Online_Piracy_Act">anglais</a>. </p>
+<p>L'événement majeur survenu cette semaine est la journée de <i>blackout</i> du 18 janvier : des milliers de sites Web, tels que <a href="http://abonnes.lemonde.fr/technologies/article/2012/01/17/loi-antipiratage-wikipedia-va-fermer-pendant-24-heures_1630565_651865.html">Wikipédia</a>, ont fermé pendant 24 heures pour protester contre la loi SOPA. D'autres sites, tels que Google, ont affiché leur opposition à cette loi en première page, sans pour autant fermer. Cette "grève" du Web est une première, un événement historique. Plusieurs représentants américains, députés ou sénateurs, ont changé leur vote en voyant la force de l'opposition à la loi SOPA ; et faute d'une consensus suffisant, <a href="http://www.commentcamarche.net/news/5857974-sopa-pipa-qu-est-ce-que-c-est-ou-en-est-on">le vote a finalement été remis à plus tard</a>.</p>
+<h2>Fermeture de Megaupload</h2>
+<p>Les autorités américaines ont lancé cette semaine une <a href="http://www.numerama.com/magazine/21334-megaupload-ferme-par-le-fbi-ses-hommes-cle-arretes.html">attaque en règle contre le site Megaupload</a> et les responsables de sa publication : blocage du site dans le monde virtuel et de ses fonds dans le monde réel, saisies dans les locaux de la société éditrice aux États-Unis et arrestation de ses responsables en Nouvelle-Zélande. Le procureur américain à l'origine de l'opération accuse les fondateurs du site d'association de malfaiteurs (et <a href="http://www.numerama.com/magazine/21337-le-dossier-accablant-du-procureur-contre-megaupload.html">appelle leurs sites "MegaConspiracy"</a>) : MegaUpload n'est plus un simple hébergeur, selon lui, mais un site <i>incitant</i> à la contrefaçon. L'hébergeur, en effet, est <i>neutre</i>, il ne connaît pas la teneur des contenus hébergés, et c'est en raison de cela qu'il n'est pas tenu pour responsable des préjudices causés par la diffusion de ces contenus sur le réseau. Mais les responsables de MegaUpload savaient que leur site était utilisé pour diffuser des fichiers contrefaisants, et ils <i>récompensaient</i> même les internautes fournissant les contenus les plus populaires en leur reversant de l'argent. Sur le fond, nous approuvons le procureur, et nous avons écrit ici à plusieurs reprises qu'il n'était pas normal que des sociétés telles que MegaUpload fondent leur activité économique sur la contrefaçon ou, dit en d'autres termes, qu'elles fassent de l'argent au préjudice des ayants droit. Sur la forme, en revanche, l'opération montée par le FBI fait plus penser à une opération anti-terroriste qu'à une opération contre la contrefaçon...</p>
+<p>En France, le président Sarkozy <a href="http://www.numerama.com/magazine/21336-sarkozy-applaudit-la-fermeture-de-megaupload-et-demande-hadopi-3.html">applaudit la fermeture de MegaUpload</a>. Il avait déjà dénoncé les sites de téléchargement direct fin 2011 (v. n°<a href="http://revue.valhalla.fr/numeros/84/">84</a>), et nous avions approuvé cette dénonciation. Nous n'avons pas changé d'avis, et nous considérons toujours qu'il a raison sur ce point. Nous rappellerons cependant, comme nous l'avions déjà fait, qu'il est en grande partie à l'origine du mal qu'il dénonce. En effet, les sites de téléchargement direct qui transforment le "piratage" en une activité (très) lucrative ne connaissent leur succès actuel qu'à cause des lois, comme Hadopi, incriminant le partage de pair-à-pair (P2P) <i>à titre gratuit</i> et dans un seul but culturel. Si, au contraire, les échanges directs entre internautes (sans intermédiaire hébergeur), réalisés à titre gratuit, étaient légalisés, les sites d'hébergement tels que MegaUpload seraient désertés par les internautes.</p>

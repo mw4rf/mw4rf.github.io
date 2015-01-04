@@ -1,0 +1,50 @@
+---
+layout: post
+status: publish
+published: true
+permalink: /revue/numero-76/
+title: Numéro 76 - Semaine du 19 au 25 septembre 2011
+author:
+  display_name: GF
+  login: gflorimond
+  email: gf@valhalla.fr
+  url: ''
+author_login: gflorimond
+author_email: gf@valhalla.fr
+wordpress_id: 438
+wordpress_url: http://revue.valhalla.fr/?p=438
+date: '2011-09-25 12:23:39 +0200'
+date_gmt: '2011-09-25 10:23:39 +0200'
+categories:
+- Revue
+tags:
+- neutralité
+- téléchargement
+- P2P
+- propriété intellectuelle
+- Google
+- données personnelles
+- linux
+- Facebook
+- réseaux sociaux
+- sécurité
+- FCC
+- concurrence
+- streaming
+- tablettes
+- Microsoft
+- Windows
+- CNIL
+---
+
+<p>Deux événements majeurs marquent l'actualité des nouvelles technologies de la semaine passée.</p>
+<p>Il s'agit d'abord de la décision de Microsoft d'imposer le démarrage sécurisé <i>("secured boot")</i>, intégré dans l'UEFI et dans le matériel, pour les ordinateurs qui prétendent à la certification de compatibilité avec Windows 8. La mesure a pour but officiel d'empêcher des logiciels malveillants de s'installer dans le processus de démarrage de l'ordinateur, où ils sont hors de portée des logiciels anti-virus. Officieusement, le but inavoué de Microsoft est plus probablement de rendre plus difficile l'installation de systèmes d'exploitation concurrents à Windows sur PC et, surtout, sur les tablettes. Un <a href="http://www.valhalla.fr/2011/09/22/prison-certifiee-windows/">article sur Valhalla.fr</a> est consacré à cette actualité.</p>
+<p>Microsoft, qui a <a href="http://www.numerama.com/magazine/19877-microsoft-a-perdu-9-milliards-de-dollars-a-cause-de-bing.html">perdu 9 milliards de dollars avec Bing</a> peine à concurrence Google sur le marché des moteurs de recherche. L'avenir de l'entreprise semble donc bien dépendre de la pérennité de son monopole sur le marché des systèmes d'exploitation. De manière très habile, Microsoft projette donc d'<a href="http://www.numerama.com/magazine/19854-windows-app-store-microsoft-touchera-30-des-revenus.html">ouvrir une boutique d'applications</a> pour Windows, comme Apple l'a fait pour Mac OS X, en prélevant 30% du prix de chaque logiciel vendu. Avec une telle boutique, Microsoft s'assure des revenus constants, tout en augmentant la sécurité (on peut supposer qu'il n'y aura pas de virus sur l'App Store de Microsoft...) et l'attractivité de Windows.  </p>
+<p>La deuxième information importante de la semaine est <a href="http://arstechnica.com/web/news/2011/09/google-drops-invitation-barrier-allows-anybody-to-join.ars">l'ouverture publique du réseau social Google+</a><span class="lang">(en)</span>. Le réseau a rapidement acquis une grande popularité, créant un "buzz" après son ouverture en <i>closed beta</i>. Il semblait toutefois être, depuis quelques temps, en perte de vitesse ; mais rien d'étonnant pour une <i>closed beta</i>. L'avenir dira si Google+ est en mesure de faire de l'ombre à Facebook ; les précédentes tentatives de Google pour s'introduire sur le marché des réseaux sociaux (Google Buzz, Google Wave...) ont été des échecs, et l'entreprise a pris un retard certain sur ses concurrents. </p>
+<p>Par ailleurs, Google est mise en difficulté sur le marché de la recherche en ligne, aux États-Unis, par une enquête <i>anti-trust</i> du Sénat. Google est accusée <a href="http://pro.clubic.com/entreprises/google/actualite-448218-senat-google-abus-position-dominante.html">d'abus de position dominante</a> en <a href="http://arstechnica.com/tech-policy/news/2011/09/google-rigs-its-results-say-critics-at-senate-antitrust-hearing.ars">"truquant" certains résultats de recherche</a><span class="lang">(en)</span> en faveur de ses propres produits.</p>
+<h2>Propriété intellectuelle</h2>
+<p>Passons aux autres informations de la semaine. Aux États-Unis, l'affaire Joel Tenenbaum se poursuit (il s'agit de l'une des affaires de "téléchargement illicite" les plus célèbres outre-Atlantique), avec <a href="http://pro.clubic.com/legislation-loi-internet/telechargement-illegal/actualite-447464-internaute-lourde-condamnation-financiere.html">une nouvelle condamnation</a> du prétendu "pirate". S'agissant encore de propriété intellectuelle, en France cette fois, après une <a href="http://www.clubic.com/telecharger/logiciel-musique-et-streaming/deezer/actualite-448028-fin-conflit-universal-deezer.html">défaite en justice contre Deezer</a>, Universal aurait accepté de <a href="http://www.numerama.com/magazine/19890-l-affaire-universal-vs-deezer-se-termine-par-un-accord-amiable.html">signer un accord avec le site de streaming</a> pour mettre fin au litige né de la diffusion gratuite de son catalogue musical. Le streaming est décidément en vogue... l'ancien réseau <a href="http://www.numerama.com/magazine/19905-ancien-roi-du-p2p-kazaa-renait-en-site-commercial-de-streaming.html">Kazaa renaît sous forme d'un service légal de streaming</a>, après sa condamnation par la Cour suprême dans l'affaire "Grokster".</p>
+<h2>Neutralité du net</h2>
+<p>Aux États-Unis, <a href="http://arstechnica.com/tech-policy/news/2011/09/us-net-neutrality-rules-finalized-in-effect-november-20.ars">les règles de la FCC</a><span class="lang">(en)</span> visant à garantir une certaine neutralité du Net <a href="http://www.clubic.com/connexion-internet/actualite-448512-neutralite-net-telle-fcc-appliquer-20.html">entreront en vigueur le 20 novembre 2011</a>.</p>
+<h2>Données personnelles</h2>
+<p>La CNIL a adressé un <a href="http://pro.clubic.com/legislation-loi-internet/cnil/actualite-448568-pagesjaunes-cnil.html">avertissement à la société PagesJaunes</a> qui édite le site pagesblanches.fr. Ce site avait en effet <a href="http://www.pcinpact.com/actu/news/65964-cnil-pagesblanches-collecte-profils-sociaux.htm">"aspiré" des données personnelles d'internautes</a> depuis les pages publiques des réseaux sociaux, pour les insérer sur son propre site. Rappelons que le fait que des données soient publiques ne les prive pas de leur qualification de données personnelles, et n'exonère pas le responsable du traitement du respect des obligations qui lui incombent en vertu de la loi Informatique et Libertés.</p>

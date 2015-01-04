@@ -1,0 +1,48 @@
+---
+layout: post
+status: publish
+published: true
+permalink: /revue/numero-73/
+title: Numéro 73 - Semaine du 29 août au 4 septembre 2011
+author:
+  display_name: GF
+  login: gflorimond
+  email: gf@valhalla.fr
+  url: ''
+author_login: gflorimond
+author_email: gf@valhalla.fr
+wordpress_id: 430
+wordpress_url: http://revue.valhalla.fr/?p=430
+date: '2011-09-04 12:28:32 +0200'
+date_gmt: '2011-09-04 10:28:32 +0200'
+categories:
+- Revue
+tags:
+- Internet
+- téléchargement
+- propriété intellectuelle
+- Google
+- vie privée
+- données personnelles
+- surveillance
+- Hadopi
+- censure
+- USA
+- Orange
+- Megaupload
+- bande passante
+- concurrence
+- FAI
+- Chine
+- streaming
+- jurisprudence
+- contrefaçon
+---
+<p>Cette semaine, d'anciennes affaires ressortent, et l'on parle beaucoup de l'anonymat des internautes.</p>
+<p>Nous parlions, <a href="http://revue.valhalla.fr/numeros/41/">en début d'année</a>, de l'affaire Megaupload : le FAI français Orange était accusé de brider les débits de téléchargement depuis cet hébergeur de fichiers, et depuis le site associé de <i>streaming</i> Megavideos. L'on apprend cette semaine que l'opérateur Cogent a finalement <a href="http://www.numerama.com/magazine/19650-orange-poursuivi-par-cogent-sur-fond-de-bridage-de-megaupload.html">déposé une plainte contre Orange</a>, accusant l'opérateur de fausser la concurrence en abusant de sa position dominante pour forcer les sites tels que Megaupload à recourir aux services de sa filiale OpenTransit. <a href="http://www.pcinpact.com/actu/news/65343-peering-megavideo-megaupload-orange-cogent.htm">Le PDG de Cogent a déclaré</a> que <i>"Orange a vendu à ses clients un service d'accès Internet, qu'il espère ne pas être utilisé par ses clients. Or, comme les internautes l'utilisent, Orange ne remplit pas son contrat, et se plaint d'une surcharge due à ses abonnés !"</i>. Il est vrai que l'on entend, depuis quelques temps, un discours selon lequel "un petit nombre d'abonnés monopoliserait la bande passante au détriment des autres abonnés". Or, cela est faux. Les abonnés paient pour un certain débit (par exemple "20 mégas") par mois ; ils doivent donc pouvoir télécharger à 20 Mbps pendant un mois entier, sans interruption. Évidemment, personne ne fait cela ; la plupart des internautes ne font même que surfer quelques heures, relever leur courrier électronique, voir une vidéo ou écouter une chanson... bref, la plupart des internautes utilisent 1 ou 2% de la bande passante à laquelle ils ont droit en application du contrat. Les internautes accusés de monopoliser la bande passante, quant à eux, doivent utiliser, par exemple, entre 50% et 70% de la bande passante totale qui leur est allouée par le contrat. Ils n'utilisent donc pas plus de bande passante que ce dont ils ont droit, mais ils en utilisent beaucoup plus que la majorité des internautes. Il est donc vrai que la plupart des FAI (car il ne faudrait pas qu'Orange soit le bouc émissaire d'une pratique courante) vendent aux internautes un débit qu'il savent ne pouvoir assumer. Cela explique non seulement le contentieux entre Orange et Megaupload, mais aussi la discussion sur la fin de l'accès "illimité" à Internet dont nous parlions encore <a href="http://revue.valhalla.fr/numeros/72/">la semaine dernière</a>.</p>
+<p>Nous avons également parlé de l'affaire TMG, <a href="http://revue.valhalla.fr/numeros/58/">en mai</a> et <a href="http://revue.valhalla.fr/numeros/65/">en juillet</a>. Voici les derniers développements de l'affaire : l'Hadopi a <a href="http://www.numerama.com/magazine/19676-l-hadopi-a-designe-un-expert-judiciaire-pour-stopper-la-polemique-tmg.html">demandé une étude</a> sur la <i>"pertinence du système de traitement automatisé de recherche des constats et de collecte des adresses IP mis en oeuvre par les ayants droit qui la saisissent"</i>. On voit mal comment un tel système pourrait ne pas être pertinent... car sans lui, plus de riposte graduée ! En revanche, le système est probablement perfectible (du point de vue de la protection des données personnelles, s'entend). Suite au prochaine épisode ?</p>
+<p>Google continue de progresser sur de nombreux fronts. Son navigateur, Chrome, est de plus en plus utilisé, alors qu'<a href="http://www.numerama.com/magazine/19651-firefox-et-ie-s-effondrent-sous-le-poids-de-chrome.html">IE et Firefox perdent des parts de marché</a> de <a href="http://www.pcinpact.com/actu/news/65418-navigateurs-google-chrome-firefox-internet-explorer.htm">plus en plus vite</a>. Par ailleurs, Eric Schmidt prévient les internautes : <a href="http://www.numerama.com/magazine/19656-il-faut-choisir-entre-l-anonymat-et-google-previent-eric-schmidt.html">Google+ et l'anonymat ne sont pas vraiment compatibles</a>.</p>
+<p>L'anonymat, parlons-en ! Toujours stigmatisé <a href="http://www.numerama.com/magazine/19687-pour-luc-ferry-l-anonymat-sur-internet-permet-toutes-les-horreurs.html">par les mêmes</a>, il est pourtant bien utile, dans des pays comme la Lybie, où la répression politique est féroce. Il est donc d'autant plus choquant d'apprendre qu'<a href="http://www.numerama.com/magazine/19660-libye-une-firme-francaise-impliquee-dans-la-surveillance-du-net.html">une entreprise française a participé à la surveillance et à la censure d'Internet en Lybie</a>. En Chine, les autorités veulent <a href="http://www.numerama.com/magazine/19663-la-chine-veut-se-debarrasser-des-rumeurs-sur-internet.html">se débarrasser des rumeurs sur le Net</a>... bien que l'appareil de censure numérique chinois sont très sophistiqué, se débarrasser des rumeurs risque d'être bien difficile ! </p>
+<p>Aux États-Unis, c'est face aux droits de propriété intellectuelle que l'anonymat tombe : <a href="http://www.numerama.com/magazine/19665-hotfile-doit-livrer-les-adresses-ip-des-utilisateurs-a-la-mpaa.html">la MPAA a obtenu de la justice américaine qu'elle ordonne à Hotfile</a> de lui <a href="http://www.pcinpact.com/actu/news/65379-mpaa-hotfile-hebergeur-identite-ip.htm">communiquer les adresses IP des internautes</a> utilisant ses services pour échanger des fichiers contrefaisants. Vraiment, il devient facile d'obtenir des adresses IP, et de lever l'anonymat, lorsqu'il s'agit de contrefaçon (et de gros sous). En revanche, pour tous les autres délits de communication (diffamation, injure, incitation à la haine, etc.), les jurisprudences <i>Zeran</i> et <i>Dendrite</i> rendent la chose presque impossible. On pourrait presque croire que télécharger un MP3 est plus grave que diffamer une personne...</p>
+<p>Plusieurs <a href="http://www.pcinpact.com/actu/news/65441-faux-avis-consommateurs-frederic-lefebvre.htm">procédures judiciaires ont été engagées contre des personnes ayant déposé de faux avis de consommateurs sur Internet</a>. Voilà, en effet, un des effets pervers de l'anonymat : comment savoir si tel ou tel commentaire dithyrambique a été rédigé par un consommateur, et non par le vendeur ?</p>
+<p>La Cour de cassation a rendu un arrêt intéressant en matière de protection de la vie privée des salariés. La jurisprudence avait évolué, depuis l'arrêt <i>Nikon</i>, jusqu'à fixer une présomption de caractère professionnel des fichiers informatiques du salarié. Ainsi, l'employeur a le droit d'ouvrir n'importe quel fichier, présumé professionnel, à moins que celui-ci soit clairement identifié comme étant personnel (par exemple, si le mot "personnel" est inclus dans le nom du fichier). La Cour a <a href="http://www.pcinpact.com/actu/news/65356-cour-de-cassation-employeur-salarie-email-courrier.htm">précisé dans un arrêt récent</a> que si l'employeur pouvait ouvrir les fichiers présumés professionnels, il ne pouvait pas pour autant fonder le licenciement d'un salarié sur le contenu de ces fichiers lorsque ceux-ci se révèlent être, après ouverture, des fichiers personnels <i>("si l’employeur peut toujours consulter les fichiers qui n’ont pas été identifiés comme personnels par le salarié, il ne peut les utiliser pour le sanctionner s’ils s’avèrent relever de sa vie privée")</i></p>

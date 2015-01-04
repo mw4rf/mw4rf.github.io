@@ -1,0 +1,40 @@
+---
+layout: post
+status: publish
+published: true
+permalink: /revue/numero-66/
+title: Numéro 66 - Semaine du 11 au 17 juillet 2011
+author:
+  display_name: GF
+  login: gflorimond
+  email: gf@valhalla.fr
+  url: ''
+author_login: gflorimond
+author_email: gf@valhalla.fr
+wordpress_id: 404
+wordpress_url: http://revue.valhalla.fr/?p=404
+date: '2011-07-17 19:32:02 +0200'
+date_gmt: '2011-07-17 17:32:02 +0200'
+categories:
+- Revue
+tags:
+- commerce électronique
+- responsabilité
+- Google
+- LCEN
+- Web 2.0
+- FAI
+- intermédiaires
+- jurisprudence
+- Europe
+---
+<p>
+L'événement le plus important dans l'actualité du droit des nouvelles technologies de la semaine est certainement <a href="http://legalis.net/spip.php?page=jurisprudence-decision&id_article=3205">l'arrêt rendu par la Cour de justice de l'Union Européenne (CJUE) dans l'affaire L'Oréal c. eBay le 12 juillet 2011</a>.</p>
+<p>La directive 2000/31 dite "commerce électronique", transposée en droit français par la LCEN du 21 juin 2004, instaure un régime spécial de responsabilité destiné aux intermédiaires techniques, et notamment aux hébergeurs. Ceux-ci bénéficient d'une irresponsabilité de principe pour le contenu diffusé par les internautes, qui sont considérés comme les destinataires des services fournis. Cette exonération de responsabilité cède lorsque l'intermédiaire technique a eu connaissance de l'existence du contenu illicite et n'a rien fait pour en faire cesser la diffusion, alors que cela était en son pouvoir. La question de la qualification des opérateurs du commerce électronique est donc récurrente en jurisprudence, puisqu'elle détermine le régime de responsabilité qui leur est applicable (régime spécial ou droit commun).</p>
+<p>De nombreuses décisions contradictoires ont été rendues ces dernières années par les différentes juridictions des États membres. Aussi, la position de la CJUE était attendue. La Cour s'était déjà prononcée en partie sur le sujet, dans un <a href="http://www.legalis.net/?page=jurisprudence-decision&id_article=2882">arrêt du 23 mars 2010 rendu dans l'affaire Google</a>. Elle avait décidé que le régime spécial de responsabilité était destiné aux opérateurs purement "passifs", qui n'exercent aucun contrôle sur le contenu qu'ils participent à diffuser. Cependant, le critère de la passivité engendre plus de doutes qu'il n'en apaise, car tous les sites du Web 2.0 sont "plus ou moins" actifs vis-à-vis des internautes.</p>
+<p><a href="http://www.pcinpact.com/actu/news/64602-cjue-statut-<br />
+intermediaire-technique-lcen.htm">L'arrêt L'Oréal c. eBay apporte quelques précisions</a>. Selon la Cour, le simple fait pour un opérateur d'<i>organiser</i> le contenu fourni par les internautes ne suffit pas à caractériser un <i>contrôle</i> de ce contenu. L'opérateur qui se borne à <i>organiser</i> le contenu demeure donc "passif" et peut bénéficier du régime spécial. En revanche, l'opérateur qui en fait la <i>promotion</i> ou qui l'<i>optimise</i> devient <i>actif</i> (plus précisément, selon la Cour, l'opérateur qui <i>"prête une assistance consistant notamment à optimiser la présentation des offres à la vente en ligne ou à promouvoir ces offres"</i> acquiert un <i>"rôle actif de nature à lui conférer une connaissance ou un contrôle des données"</i>). En effet, l'organisation des contenus repose sur une distinction entre ces contenus et non sur une discrimination : tel contenu appartient à telle catégorie et sera affiché sur telle page, mais cela ne signifie pas que l'opérateur a contrôlé ce contenu et qu'il lui a accordé sa préférence. Au contraire, lorsque l'opérateur réalise la promotion un contenu, cette mise en avant du contenu s'effectue par rapport aux autres contenus qui sont alors placé en retrait ; il y a donc une discrimination, un contrôle des contenus soumis par les internautes et, en quelque sorte, un choix éditorial. </p>
+<p><a href="http://www.numerama.com/magazine/19324-vente-de-biens-contrefaits-ebay-peut-etre-tenu-<br />
+responsable.html">L'arrêt L'Oréal c. eBay apporte donc quelques éléments d'interprétation</a> du critère posé par la Cour dans son précédent arrêt. Cependant, des doutes subsistent. Par exemple, que dire d'un site qui, certes, promeut certains contenus, mais qui le fait selon des critères hors de son contrôle, comme le nombre de visites des internautes ? Doit-on distinguer selon que le contenu est promu ou non, et appliquer alternativement l'un ou l'autre des régimes de responsabilité : régime spécial pour tous les contenus, sauf pour les contenus promus ? On pourrait considérer qu'en choisissant de ne pas promouvoir un contenu, l'opérateur demeure passif ou, au contraire, décider que le choix de ne pas promouvoir ce contenu est en soi une forme de contrôle. Le problème de la qualification n'est donc toujours pas résolu. En revanche, si la qualification d'hébergeur est retenue, la connaissance du contenu illicite pourra se déduire de la décision de le promouvoir : le droit commun de la responsabilité serait donc applicable, dans cette hypothèse, non en raison de la qualification de l'opérateur, mais par ce que les conditions d'application du régime spécial (ignorance du contenu ou diligence dans son retrait) ne sont pas remplies.</p>
+<p>De là, le second apport de l'arrêt L'Oréal c. eBay. On l'a dit, le régime spécial de responsabilité est <i>applicable</i> à tous les hébergeurs, mais il n'est pas <i>appliqué</i> lorsque ses conditions d'application ne sont pas satisfaites. Il sera donc appliqué lorsque l'hébergeur n'a pas eu connaissance du contenu illicite qu'il participait à diffuser. Dès lors, se pose la question de savoir comment caractériser la connaissance du contenu illicite par l'hébergeur. La jurisprudence française a répondu par le formalisme : la LCEN exige que l'hébergeur soit notifié du contenu illicite selon certaines formes très précises, et ce n'est que si ces formes sont scrupuleusement respectées par la victime que la présomption d'ignorance dont bénéficie l'hébergeur peut être renversée. La CJUE, quant à elle, n'exige pas un tel formalisme. Selon la Cour, la preuve de la connaissance du contenu illicite par l'hébergeur peut être apportée de diverses manières, autres qu'une notification formelle. Ainsi, l'hébergeur sera responsable <i>"s’il a eu connaissance de faits ou de circonstances sur la base desquels un opérateur économique diligent aurait dû constater l’illicéité des offres à la vente en ligne"</i>, et qu'il n'a pas agi promptement pour retirer ces offres.  Par exemple, eBay peut difficilement ignorer qu'il héberge des offres de vente vers des contrefaçons lorsqu'elle utilise des mots-clés sur Google pour attirer les internautes vers les pages concernées. Cette interprétation est dangereuse: il n'y a qu'un pas à franchir pour instaurer une obligation générale de surveillance incombant aux intermédiaires (ce que la directive interdit), en considérant par exemple que ces derniers sont censés connaître tout contenu retiré une première fois et empêcher sa remise en ligne dans le futur dans d'autres internautes.</p>
+<p>Pour résumer, l'apport de l'arrêt L'Oréal c. eBay est double. D'une part, le critère de qualification des opérateurs (hébergeur ou non) reposant sur la "passivité" de leur comportement est éclairé par une nouvelle interprétation (la "promotion" du contenu est caractéristique du comportement actif, contrairement à la simple "organisation" de ce contenu). D'autre part, une fois établi que l'opérateur bénéficie de la qualification d'hébergeur, il est possible de renverser la présomption d'ignorance du contenu illicite hébergé par d'autres moyens que la notification formelle. Ces deux points soulèvent à leur tous de nombreuses questions, auxquelles les juridictions nationales devront répondre dans les mois à venir.</p>

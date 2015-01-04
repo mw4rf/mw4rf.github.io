@@ -1,0 +1,48 @@
+---
+layout: post
+status: publish
+published: true
+permalink: /revue/numero-79/
+title: Numéro 79 - Semaine du 10 au 16 octobre 2011
+author:
+  display_name: GF
+  login: gflorimond
+  email: gf@valhalla.fr
+  url: ''
+author_login: gflorimond
+author_email: gf@valhalla.fr
+wordpress_id: 448
+wordpress_url: http://revue.valhalla.fr/?p=448
+date: '2011-10-16 14:49:57 +0200'
+date_gmt: '2011-10-16 12:49:57 +0200'
+categories:
+- Revue
+tags:
+- propriété intellectuelle
+- vie privée
+- filtrage
+- surveillance
+- Hadopi
+- liberté d'expression
+- Orange
+- FAI
+- régulation
+- livres
+- jurisprudence
+- culture
+- Microsoft
+- Windows
+- vente liée
+---
+<br />
+<h2>Affaire Copwatch</h2>
+<p>L'on a beaucoup parlé, cette semaine, de l'affaire Copwatch. "Cop" signifie "policier" en anglais, et "watch", "surveiller" ou "surveillance". Copwatch est un site dont le but est de surveiller les policiers français travaillant dans certaines banlieues, dans le but de dénoncer les abus d'autorité. Un tel site aurait été licite s'il n'avait pas porté atteinte au droit à la vie privée des policiers en publiant leurs données personnelles. Le ministre de l'intérieur a donc <a href="http://www.pcinpact.com/actu/news/66293-copwatch-filtrage-blocage-lcen.htm">assigné les principaux FAI français devant le juge des référés</a>, afin d'obtenir le blocage du site. Face à une telle assignation, le juge des référés, qui constate le caractère apparent de l'illicéité et l'urgence de la mise hors ligne du site litigieux, prend une décision temporaire, dans l'attente d'un jugement au fond sur la licéité du site. Mais quelles mesures techniques doit-il ordonner ? C'est là tout le problème, et l'affaire Copwatch l'illustre parfaitement. Dans l'assignation, le ministre de l'intérieur ne demandait pas la mise hors ligne du site entier, mais simplement des pages contenant des données personnelles de policiers (les autres pages étant <i>a priori</i> licites). Le filtrage a donc été envisagé : la technique permet un blocage très sélectif, en fonction du contenu. Cependant, <a href="http://www.numerama.com/magazine/20194-copwatch-pour-12-000-euros-le-filtrage-par-dpi-est-juge-trop-cher.html">le filtrage est très coûteux pour les FAI</a>. Ceux-ci ont donc demandé au juge, <a href="http://www.pcinpact.com/actu/news/66410-copwatch-filtrage-dpi.htm">et obtenu de lui</a>, <a href="http://www.pcinpact.com/actu/news/66373-copwatch-filtrage-blocage-dpi-proportionnalite.htm">une décision de blocage de l'ensemble du site</a>.</p>
+<p>Lorsqu'on parle de blocage ou de filtrage, il faut comprendre les enjeux et faire un choix entre sur-blocage et sous-blocage. On peut choisir des mesures de blocage agressives, par exemple le blocage DNS ou IP, et ainsi s'assurer que le site sera bien bloqué. Dans ce cas, toutes les pages seront bloqués, qu'elles soient licites ou non. Les mesures techniques sont simples, peu coûteuses et efficaces, mais l'atteinte à la liberté d'expression est maximale. On peut aussi choisir le filtrage DPI, qui est encore plus efficace. Dans ce cas, les mesures sont très coûteuses à mettre en oeuvre, et l'atteinte à la vie privée des internautes est maximale (puis qu'il y a une analyse du contenu des communications), mais la liberté d'expression est sauvegardée (puisque seuls les contenus illicites sont bloqués). On peut enfin choisir de dresser une "liste noire" des pages à bloquer. Dans ce cas, liberté d'expression et protection de la vie privée sont respectées, mais la mesure peut facilement être contournée par l'auteur du site bloqué.</p>
+<p>En l'espèce, quoi qu'en disent les FAI, le filtrage DPI n'était <u>pas</u> nécessaire. Celui-ci est notamment utile pour empêcher la diffusion de fichiers contrefaisants, lorsqu'on ne peut pas identifier <i>ex ante</i> les contenus à bloquer. Mais en l'occurrence, les contenus illicites étaient précisément identifiés, et il aurait été parfaitement possible d'utiliser un blocage par liste noire. En outre, la facilité de contournement d'une telle mesure de blocage n'aurait pas été un inconvénient puisque, par hypothèse, la décision de référé ordonne des mesures temporaires dans l'attente d'une décision sur le fond. Le temps que les mesures soient contournées, la décision sur le fond peut intervenir. Le blocage de l'ensemble du site, contenus licites inclus, à titre préventif, semble donc excessif.</p>
+<h2>Le droit de lire</h2>
+<p>Christine Albanel, la ministre de la culture à l'origine de la loi Hadopi, invente un nouveau concept : <a href="http://www.numerama.com/magazine/20122-la-litterature-par-orange-albanel-parle-34d-acheter-un-droit-de-lecture34.html">le "droit de lecture"</a>. Explication : lorsqu'on achète un livre, l'objet matériel, on devient propriétaire de ce bien, encre et papier, tandis que l'auteur conserve les droits de propriété intellectuelle sur l'oeuvre littéraire. Pour un livre numérique, en revanche, on n'acquiert rien de tangible. Plutôt que de "vendre" des livres numérique, les opérateurs pourraient, selon Albanel, vendre un "droit de lecture" de l'oeuvre. Si la ministre estime que les opérateurs sont les mieux placés pour décider ce que les gens ont le "droit de lire", il n'est alors pas étonnant qu'elle <a href="http://www.numerama.com/magazine/20123-albanel-regrette-que-les-regulateurs-privilegient-les-consommateurs.html">déplore que les autorités de régulation françaises et européennes protègent les consommateurs</a> face aux abus des grands groupes industriels.</p>
+<p>Le concept est fort intéressant, il faut l'avouer. Peut-être pourrait-il être étendu, en cas de succès, au "droit de manger", au "droit de respirer" ou au "droit d'exister" ? Plaisanterie mise à part, il s'agit d'un nouveau pas vers le "verrouillage" de la culture, au détriment de l'intérêt général et au profit (financier) exclusif des titulaires de propriété intellectuelle. Il s'agit également du <a href="http://www.pcinpact.com/actu/news/66289-le-droit-de-lire-christine-albanel-richard-stallman-rms.htm">pire cauchemar de Richard Stallman</a>. Et du notre...</p>
+<h2>Vente liée matériel/logiciel</h2>
+<p>Microsoft a bâti son empire sur le système d'exploitation Windows. Aujourd'hui, la société est en position dominante sur le marché des systèmes d'exploitation. La plupart des fabricants de matériel vendent des ordinateurs équipés de Windows. Il s'agit, selon certains, d'une vente liée interdite en droit français par le Code de la consommation. Certains vendeurs offrent donc la possibilité au consommateur de refuser la licence Windows et d'obtenir le remboursement d'une partie du prix du matériel, la vente est alors "déliée" par compensation. Mais il y a un problème : les versions de Windows pré-installées, dites "OEM", ne sont pas facturées aux constructeurs au même prix que les versions publiques de Windows, que l'on peut acheter en boîte dans les grands magasins. Comment, dès lors, connaître le prix exact d'une machine, lorsqu'on prévoit de demander le remboursement de la licence Windows ? C'est rarement possible.</p>
+<p>S'ajoute à cela un autre élément : la vente liée n'est pas interdite par le droit communautaire, qui protège seulement les consommateurs contre certaines pratiques abusives. Dans ce contexte, est-il abusif de vendre un ordinateur avec Windows pré-installé, sans indiquer la part du prix attribuable au logiciel ?</p>
+<p>Dans un arrêt important, rendu cette semaine, <a href="http://www.legalis.net/spip.php?page=jurisprudence-decision&id_article=3244">la Cour de cassation a répondu positivement à cette question</a>. En jugeant que <i>"la société Darty n’avait pas à fournir au consommateur les informations relatives aux conditions d’utilisation des logiciels et pouvait se borner à identifier ceux équipant les ordinateurs qu’elle distribue"</i>, <i>"alors que ces informations, relatives aux caractéristiques principales d’un ordinateur équipé de logiciels d’exploitation et d’application, sont de celles que le vendeur professionnel doit au consommateur moyen pour lui permettre de prendre une décision en connaissance de cause"</i>, la Cour d'appel a violé l'article L. 121-1 du Code de la consommation, interprété à la lumière de la directive européenne 2005/29.</p>

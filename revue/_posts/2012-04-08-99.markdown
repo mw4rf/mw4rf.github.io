@@ -1,0 +1,37 @@
+---
+layout: post
+status: publish
+published: true
+permalink: /revue/numero-99/
+title: Numéro 99 - Semaine du 2 au 8 avril 2012
+author:
+  display_name: GF
+  login: gflorimond
+  email: gf@valhalla.fr
+  url: ''
+author_login: gflorimond
+author_email: gf@valhalla.fr
+wordpress_id: 526
+wordpress_url: http://revue.valhalla.fr/?p=526
+date: '2012-04-08 11:48:41 +0200'
+date_gmt: '2012-04-08 09:48:41 +0200'
+categories:
+- Revue
+tags:
+- responsabilité
+- Google
+- ACTA
+- Hadopi
+- USA
+- Web 2.0
+- intermédiaires
+- jurisprudence
+- Europe
+- CJUE
+---
+<p>Nouvelles péripéties, cette semaine, dans la saga de la responsabilité des intermédiaires. Dans un <a href="http://www.legalis.net/spip.php?page=jurisprudence-decision&amp;id_article=3368">arrêt du 22 mars 2012</a>, la Cour d'appel de Lyon a jugé que Google ne faisait pas un usage des mots-clés AdWords dans le commerce, et n'était pas responsable de leur usage préjudiciable. Ce faisant, la Cour a appliqué la jurisprudence de la CJUE (<a href="http://www.valhalla.fr/2010/03/25/cjce-google-adwords/">arrêt Google AdWords</a>). Dans un <a href="http://www.legalis.net/spip.php?page=jurisprudence-decision&amp;id_article=3378">arrêt du 4 avril 2012</a>, la Cour d'appel de Paris a jugé qu'eBay pouvait se prévaloir du régime spécial de responsabilité des hébergeurs. Elle avait <a href="http://www.legalis.net/spip.php?page=jurisprudence-decision&amp;id_article=3346">jugé dans le sens contraire le 23 janvier 2012</a>, ce qui montre, une fois de plus, à quel point la qualification des opérateurs du Web 2.0 est incertaine.</p>
+<p>Aux États-Unis, <a href="http://www.numerama.com/magazine/22258-le-conflit-judiciaire-entre-youtube-et-viacom-reprend.html">le procès opposant Google (YouTube) à Viacom (ayants droit) reprend</a>, avec des enjeux énormes, tant financiers que juridiques, puisque le tribunal devra se prononcer sur la responsabilité de YouTube pour avoir participé à la diffusion de vidéos contrefaisantes. En parallèle, la riposte graduée à la sauce américaine <a href="http://www.numerama.com/magazine/22222-la-hadopi-privee-americaine-se-met-en-place.html">se met progressivement en place</a>.</p>
+<p>En Europe, la<a href="http://www.numerama.com/magazine/22242-acta-bruxelles-cherche-a-repousser-le-vote-pour-assurer-sa-ratification.html"> Commission européenne poursuit ses mesures dilatoires</a> destinées à repousser le vote sur le traité ACTA, en <a href="http://www.laquadrature.net/fr/la-commission-europeenne-tente-toujours-de-retarder-le-vote-sur-acta">saisissant la CJUE</a> ; favorable au traité, elle estime qu'un vote serait aujourd'hui négatif en raison de la forte mobilisation contre le traité.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>

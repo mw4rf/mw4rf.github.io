@@ -1,0 +1,63 @@
+---
+layout: post
+status: publish
+published: true
+permalink: /revue/numero-61/
+title: Numéro 61 - Semaine du 6 au 12 juin 2011
+author:
+  display_name: GF
+  login: gflorimond
+  email: gf@valhalla.fr
+  url: ''
+author_login: gflorimond
+author_email: gf@valhalla.fr
+wordpress_id: 367
+wordpress_url: http://revue.valhalla.fr/?p=367
+date: '2011-06-12 13:20:25 +0200'
+date_gmt: '2011-06-12 11:20:25 +0200'
+categories:
+- Revue
+tags:
+- Internet
+- téléchargement
+- propriété intellectuelle
+- Google
+- vie privée
+- données personnelles
+- open source
+- libre
+- code source
+- Facebook
+- filtrage
+- piratage
+- sécurité
+- phishing
+- Hadopi
+- censure
+- USA
+- DNS
+- FAI
+- intermédiaires
+- Anonymous
+- hacking
+- armée
+- Chine
+- streaming
+---
+<p>Cette semaine fut plutôt tranquille et aucune révélation fracassante n'alimenta l'actualité du droit des nouvelles technologies. Voyons tout de même ce qu'il faut retenir de l'actualité hebdomadaire.</p>
+<h2>Propriété intellectuelle</h2>
+<p>La société américaine Oracle (leader de l'industrie des bases de données) qui, ayant racheté Sun l'année dernière, est devenue propriétaire d'OpenOffice, a décidé de <a href="http://www.pcinpact.com/actu/news/63944-oracle-openoffice-libreoffice-apache-document-foundation.htm">confier le code source</a> de la célèbre suite bureautique <a href="http://www.zdnet.fr/actualites/oracle-confie-openoffice-a-la-fondation-apache-39761400.htm">à la fondation Apache</a>. Cette fondation gère le serveur web libre Apache (l'un des plus utilisés dans le monde) et a de l'expérience dans la création de logiciels libres. La licence Apache est compatible avec la GPL ; elle permet les usages commerciaux et contient un mécanisme de <i>copyleft</i>. Cela est une bonne nouvelle, qui lève de nombreux doutes sur la pérennité de la suite bureautique <i>open source</i>. LibreOffice, le <i>fork</i> libre d'OpenOffice, <a href="http://www.silicon.fr/libreoffice-stimule-par-la-liberation-dopenoffice-org-53008.html">continue son chemin parallèlement</a> et sort d'ailleurs cette semaine une mise à jour. </p>
+<p>Le service de <i>streaming</i> de musique Deezer instaure une <a href="http://www.pcinpact.com/actu/news/63949-deezer-limitation-ecoute-musique-streaming.htm">limitation de 5 heures d'écoute</a> pour les visiteurs et les comptes gratuits. Pour écouter plus, il faudra payer plus. La décision de Deezer est probablement due à la <a href="http://www.silicon.fr/deezer-met-fin-au-tout-gratuit-de-la-musique-en-ligne-53223.html">pression croissante des majors de l'industrie musicale</a> (pour qui, on le sait depuis longtemps, la gratuité de la culture est une aberration). C'est ainsi que la société Universal attaque Deezer en justice <a href="http://t.co/aZBcLFn">pour contrefaçon</a>, réclamant une meilleure différenciation des offres gratuite et payante. Par ailleurs, l'auteur de Freezer, un <a href="http://www.pcinpact.com/actu/news/64045-freezer-deezer-scpp-sacem.htm">logiciel pour télécharger les morceaux diffusés par Deezer</a>, vient d'être <a href="http://www.zdnet.fr/actualites/six-mois-de-prison-avec-sursis-pour-l-auteur-du-logiciel-freezer-39761552.htm">condamné à 6 mois de prison avec sursis</a> (c'est, à n'en pas douter, un dangereux criminel...) sur le fondement de l'incitation à l'utilisation d'un logiciel permettant la contrefaçon (le fameux "amendement Vivendi", inspiré de l'arrêt Grokster de la Cour suprême américaine). Tant qu'à parler de prison, signalons que <a href="http://www.numerama.com/magazine/18995-le-createur-de-mamietracker-condamne-a-six-mois-de-prison-avec-sursis.html">le créateur d'un <i>tracker Bittorrent</i> a été condamné à 6 mois de prison avec sursis</a>, en France, et qu'un <a href="http://www.numerama.com/magazine/18985-2-mois-de-prison-pour-avoir-enregistre-un-film-au-cinema.html">tribunal américain a condamné un internaute à 2 mois de prison</a> pour avoir filmé un film dans une salle de cinéma <i>(camcording)</i>.</p>
+<p>Comment parler de propriété intellectuelle et d'Internet sans parler de l'Hadopi ? Campagne pour les présidentielles de 2012 obligeant, plusieurs (futurs) candidats expriment leur avis au sujet de ce système légal visant à réprimer le téléchargement. D'abord, Eva Joly (Les Verts) annonce qu'elle <a href="http://www.numerama.com/magazine/19007-eva-joly-abrogera-hadopi-et-loppsi-34des-la-premiere-semaine34.html">abrogera les lois Hadopi et Loppsi</a> "dès la première semaine". François Hollande (PS), dont les précédents propos étaient ambigus, a clairement <a href="http://www.pcinpact.com/actu/news/63950-hadopi-francois-hollande-taxe-fai.htm">affirmé qu'il abrogerait la loi Hadopi et a laissé entendre qu'il instaurerait un système de taxation des FAI</a>. Il s'agit donc d'une forme de licence globale, <a href="http://www.numerama.com/magazine/19018-francois-bayrou-34travaille-sur-une-idee-de-licence-globale34.html">comme le propose à son tour François Bayrou</a> (Modem) qui aurait, semble-t-il, changé d'avis sur le sujet.</p>
+<p>La Hadopi a par ailleurs lancé une <a href="http://www.zdnet.fr/actualites/hadopi-400-000-avertissements-et-un-systeme-rustique-peu-automatise-39761438.htm#xtor=123456">nouvelle campagne</a> de <s>désinformation</s> publicité (coût: <a href="http://www.numerama.com/magazine/18976-decouvrez-la-campagne-de-pub-hadopi-a-3-millions-d-euros.html">3 millions d'euro</a>), appelée "PUR", qui n'a pas mis longtemps à être <a href="http://www.pcinpact.com/actu/news/63976-hadopi-concours-pastiche-detournement.htm">tournée en dérision par les internautes</a>. Pour résumer la campagne, l'on peut dire qu'elle présente des enfants sur des affiches avec le message "sans Hadopi, pas de [titre d'un morceau de musique, d'un film ou d'un livre] en l'année 202X". Saluons d'abord la clairvoyance de l'Hadopi, qui parvient à prédire le futur (et l'on ose dire qu'elle n'est pas efficace !). Amusons-nous ensuite (à défaut de se désoler) du message implicite : tous ces enfants ne produiront des oeuvres culturelles que pour l'argent, et non par vocation. La campagne de publicité de l'Hadopi vise donc à perpétuer la génération Star'Ac, qui ne recherche que célébrité et richesse, et n'envisage pas un instant que l'on puisse créer pour l'amour de son art. On ne peut s'empêcher de penser à nouveau à la licence globale et au soutien des labels indépendants qui, loin de majors et de leur lutte acharnée pour l'accroissement de l'augmentation de leurs bénéfices, permettraient aux vocations de se réaliser sans nuire à la diffusion de la culture.</p>
+<p>En Russie, Medvedev semble avoir pris conscience du problème, et fait cette semaine un premier pas vers la solution en réclamant <a href="http://www.numerama.com/magazine/19009-la-russie-envisage-d-inserer-les-licences-libres-dans-la-loi.html">l'inclusion des licences libres dans la loi</a>. En Australie, le rapport de l'ONU dont nous parlions <a href="http://revue.valhalla.fr/numeros/60/">la semaine dernière</a>, semble <a href="http://www.numerama.com/magazine/18973-le-rapport-anti-hadopi-de-l-onu-fait-reculer-les-lobbys-en-australie.html">faire reculer les majors</a>, qui ne réclament plus la coupure d'accès à Internet comme sanction du téléchargement illicite. Aux États-Unis, la stratégie est bien différente. En effet, <a href="http://www.pcinpact.com/actu/news/64023-pipa-protect-ip-act-us.htm">projet de loi PIPA</a> contient des idées aussi effarantes que dangereuses. Cette loi a pour but d'étendre la compétence extraterritoriale de la loi américaine aux sites étrangers hébergeant des contenus contrefaisants. Elle permet également aux ayants droit américains d'engager des actions contre les intermédiaires techniques américains, afin que ces derniers filtrent le réseau (filtrage DNS) et bloquent les contenus contrefaisants en provenance de sites étrangers.</p>
+<h2>Vie privée</h2>
+<p>Facebook a lancé un nouveau service de <a href="http://www.lemondeinformatique.fr/actualites/lire-facebook-active-la-reconnaissance-faciale-par-defaut-33910.html">reconnaissance faciale</a>, sans en avertir les utilisateurs. Il est donc désormais possible de "taguer" (c'est-à-dire associer un nom à une photo) les photos de ses amis <a href="http://www.silicon.fr/facebook-automatise-la-reconnaissance-faciale-aux-depens-de-la-vie-privee-53421.html">beaucoup plus facilement</a>, grâce à des suggestions automatisées. L'atteinte à la vie privée étant manifeste, les <a href="http://arstechnica.com/tech-policy/news/2011/06/eu-regulators-scrutinize-facebooks-facial-recognition-feature.ars">autorités européennes</a><span class="lang">(en)</span> (plus précisément, le G29) s'intéressent à la question. L'EFF propose une vidéo <a href="https://www.eff.org/deeplinks/2011/06/how-disable-facebooks-facial-recognition-feature">montrant comment désactiver cette fonctionnalité</a><span class="lang">(en)</span> de Facebook.</p>
+<p>Par ailleurs, en France, les comptes utilisés par les enfants afin de harceler leurs camarades <a href="http://www.pcinpact.com/actu/news/64004-cyber-harcelement-eleves-compte-facebook.htm">seront plus rapidement fermés</a>.</p>
+<h2>Attaques</h2>
+<p>Depuis quelques mois, l'on parle de plus en plus d'attaques de grande ampleur contre des systèmes informatisés. </p>
+<p>On a beaucoup parlé de Sony, ces derniers temps, qui a été victime de plusieurs attaques, probablement <a href="http://www.lemondeinformatique.fr/actualites/lire-pourquoi-les-hackers-s-acharnent-contre-sony-33881.html">en raison de ses positions relatives à la contrefaçon</a>. La société a trouvé une nouvelle stratégie pour répondre à ses attaques : <a href="http://www.silicon.fr/face-au-piratage-sony-a-la-solution-fermer-ses-sites-53351.html">fermer ses sites</a>. </p>
+<p>Google a également subi des attaques qui, selon la société américaine, venaient de Chine. La Chine répond cette semaine que Google a <a href="http://www.numerama.com/magazine/19027-piratage-google-accuse-d-avoir-des-motivations-politiques.html">des motivations politiques</a> et tente de "semer la discorde entre Pékin et Washington". Pourtant, outre Gmail, Yahoo et Hotmail (Microsoft) ont également été <a href="http://www.silicon.fr/yahoo-mail-et-hotmail-egalement-pirates-par-la-chine-53142.html">victimes de piratage en Chine</a>. </p>
+<p>Le groupe Anonymous continue de faire parler de lui avec une <a href="http://www.lemondeinformatique.fr/actualites/lire-anonymous-attaque-la-turquie-pour-denoncer-le-filtrage-du-net-33934.html">attaque contre la Turquie</a>, en raison de la censure pratiquée dans ce pays. La police espagnole aurait par ailleurs arrêté, cette semaine, <a href="http://t.co/lvc5B28">plusieurs membres du réseau</a>.</p>
+<p>Citigroup a également été <a href="http://www.silicon.fr/210-000-clients-de-citigroup-vises-par-une-cyber-attaque-53619.html">victime d'une attaque importante</a>, ayant conduit à la révélation des données personnelles de plus de 200 000 clients. Le réseau social LinkedIn fait quant à lui l'objet d'une <a href="http://www.zdnet.fr/actualites/linkedin-victime-d-une-vaste-attaque-de-phishing-39761581.htm">campagne de <i>phishing</i></a>.</p>
+<p>Enfin, les attaques peuvent être <a href="http://www.lemondeinformatique.fr/actualites/lire-cyber-attaques-les-ripostes-militaires-en-question-33882.html">lancées par les États ou leurs démembrements</a>, ce qui complique encore l'identification de leurs auteurs. Aux États-Unis, par exemple, <a href="http://www.zdnet.fr/actualites/au-etats-unis-25-des-hackers-renseigneraient-le-fbi-39761464.htm">25% des <i>hackers</i> travailleraient pour le FBI</a>.</p>

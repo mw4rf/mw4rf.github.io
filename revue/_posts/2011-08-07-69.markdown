@@ -1,0 +1,38 @@
+---
+layout: post
+status: publish
+published: true
+permalink: /revue/numero-69/
+title: Numéro 69 - Semaine du 1er au 7 août 2011
+author:
+  display_name: GF
+  login: gflorimond
+  email: gf@valhalla.fr
+  url: ''
+author_login: gflorimond
+author_email: gf@valhalla.fr
+wordpress_id: 418
+wordpress_url: http://revue.valhalla.fr/?p=418
+date: '2011-08-07 11:35:05 +0200'
+date_gmt: '2011-08-07 09:35:05 +0200'
+categories:
+- Revue
+tags:
+- propriété intellectuelle
+- Google
+- filtrage
+- DPI
+- Hadopi
+- liberté d'expression
+- concurrence
+- régulation
+- Wikipedia
+- partage
+- culture
+---
+<p>Au sommaire cette semaine : la riposte graduée arrive au Royaume-Uni, Google dans le collimateur des autorités européennes de régulation de la concurrence et les suites de l'affaire Rojadirecta aux États-Unis.</p>
+<p>La riposte graduée arrive au Royaume-Uni, le législateur britannique ayant semble-t-il, comme le législateur français avant lui, <a href="http://www.numerama.com/magazine/19469-riposte-graduee-quand-patron-d-universal-et-ministre-s-appellent-par-leur-prenom.html">cédé sous la pression des majors de l'industrie culturelle</a>. Outre la riposte graduée, <a href="http://www.numerama.com/magazine/19490-hadopi-filtrage-par-dpi-et-copie-privee-en-grande-bretagne.html">le filtrage DPI</a> est envisagé pour le futur. Dans le cadre de la "modernisation" du droit de la propriété intellectuelle, le droit anglais va également <a href="http://www.pcinpact.com/actu/news/64946-royaume-uni-hadopi-exceptions-copie-privee-auteurs.htm">se doter de nouvelles exceptions au monopole patrimonial de l'auteur sur son œuvre</a>. Ainsi, une exception pour la copie privée devrait faire son apparition. Rappelons qu'une telle exception existe déjà en droit français : les tiers n'ont aucun "droit" à la copie privée à faire valoir à l'encontre de l'auteur, mais il peuvent soulever une exception de copie privée comme moyen de défense s'ils sont accusés de contrefaçon.</p>
+<p>Google, le géant américain <a href="http://www.pcinpact.com/actu/news/64902-google-nombre-consommation-electrique-serveurs-data-centers.htm">aux 900 000 serveurs</a>, ferait l'objet d'une <a href="http://www.pcinpact.com/actu/news/64903-abus-position-dominante-google-recherche.htm">enquête de la Commission européenne pour abus de position dominante</a>. Par ailleurs, l'opérateur a <a href="http://www.numerama.com/magazine/19494-voix-sur-ip-google-propose-les-appels-en-france.html">ouvert en France son service de VoIP</a> intégré à Gmail, qui entre donc en <a href="http://www.pcinpact.com/actu/news/64915-google-appels-gmail-france-skype.htm">concurrence directe avec le leader du marché, Skype</a> (récemment racheté par Microsoft).</p>
+<p>Aux États-Unis, un juge a statué sur la "contre-offensive" menée par le site espagnol Rojadirecta (v. <a href="http://revue.valhalla.fr/numeros/43/">n°43</a> et <a href="http://revue.valhalla.fr/numeros/62/">n°62</a>) : <a href="http://www.numerama.com/magazine/19518-la-saisie-des-noms-de-domaine-ne-viole-pas-la-liberte-d-expression.html">la privation du bénéfice d'un nom de domaine ne constitue pas, en l'espèce, une atteinte disproportionnée à la liberté d'expression</a>, le site demeurant accessible grâce à d'autres noms de domaine. La décision se comprend, car il est vrai que la privation des noms de domaine en .org et .com n'a pas empêché la diffusion du site. Toutefois, la question de l'hégémonie américaine dans la gestion des extensions org, com et net demeure. En outre, s'il s'était agi d'un site américain privé d'un nom de domaine en .com par une décision de justice espagnole, il est plus que probable que le juge américain aurait conclu à l'existence d'une atteinte au 1er amendement et qu'il aurait refusé l'exequatur de la décision étrangère.</p>
+<p>L'encyclopédie collaborative Wikipédia est <a href="http://www.pcinpact.com/actu/news/64955-jimmy-wales-wikipedia-contributeurs-actifs.htm">en manque de contributeurs</a>. Contrairement aux encyclopédies classiques, rédigées par des spécialistes reconnus, la force de Wikipédia réside dans<br />
+le grand nombre de ses auteurs : il y aura toujours quelqu'un pour corriger une erreur, ou pour apporter une information récente manquante. Mais voilà, les lecteurs se transforment de moins en moins en auteurs : lorsqu'ils rencontrent une information erronée, ils passent leur chemin sans en tenir compte, au lieu de modifier la page pour rétablir la vérité. Les causes de ce phénomène sont multiples, mais il y a fort à parier que l'interface peu ergonomique du site, ainsi que l'horrible syntaxe Wiki, dissuadent de nombreux contributeurs potentiels.</p>

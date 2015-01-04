@@ -1,0 +1,38 @@
+---
+layout: post
+status: publish
+published: true
+permalink: /revue/numero-93/
+title: Numéro 93 - Semaine du 20 au 26 février 2012
+author:
+  display_name: GF
+  login: gflorimond
+  email: gf@valhalla.fr
+  url: ''
+author_login: gflorimond
+author_email: gf@valhalla.fr
+wordpress_id: 499
+wordpress_url: http://revue.valhalla.fr/?p=499
+date: '2012-02-26 12:17:28 +0100'
+date_gmt: '2012-02-26 10:17:28 +0100'
+categories:
+- Revue
+tags:
+- Internet
+- téléchargement
+- propriété intellectuelle
+- Google
+- données personnelles
+- ACTA
+- hébergement
+- liberté d'expression
+- Megaupload
+- Web 2.0
+- Europe
+- politique
+- CJUE
+---
+<p>Rien de bien nouveau, dans l'actualité  du droit des nouvelles technologies, cette semaine: on parle à nouveau des mêmes sujets, ACTA, la protection des données personnelles, et les conséquences de la fermeture de MegaUpload.</p>
+<p>Le 25 février était une journée de mobilisation contre le traité ACTA. Des manifestations eurent lieu dans toute l'Europe. Devant une telle contestation, <a href="http://www.numerama.com/magazine/21784-acta-la-commission-europeenne-saisit-la-cjue.html">la Commission européenne annonça son intention de saisir la CJUE</a> pour évaluer la conformité des règles du traité au droit communautaire, et en particulier à la liberté d'expression. Quelle étrange saisine ! La liberté d'expression n'est pas garantie par une règle concrète mais par un principe général qui infuse les règles de droit. Ce n'est pas un droit absolu --aucun droit ne l'est-- ; la liberté d'expression admet donc des limitations lorsque celles-ci sont justifiées, notamment par la nécessité de préserver un autre droit. En l'occurrence, c'est la protection des droits de propriété intellectuelle qui fonde les limitations de la liberté d'expression prévues par le traité ACTA. Pour déterminer si une atteinte est justifiée, le juge (c'est-à-dire la CJUE, le Conseil constitutionnel français, la CEDH, etc.) recherche si l'atteinte au premier droit est nécessaire et proportionnelle à l'augmentation de la protection du second droit. Mais il n'appartient pas au juge de décider qu'un droit doit prévaloir sur l'autre, ou dans quelles circonstances cela doit être le cas. Tel est le rôle du législateur, car une telle décision est politique. Or, ACTA est un traité international, de même rang et de même force que les textes fondant l'UE. Il n'appartient donc pas à la CJUE de se prononcer sur le choix, effectué par les négociateurs, de restreindre la liberté d'expression afin de renforcer la protection des droits de propriété intellectuelle ; son rôle est de contrôler la conformité des règles de droit communautaires élaborées en transposition du traité avec les textes fondateurs de l'UE, tels que la <a href="http://www.europarl.europa.eu/charter/pdf/text_fr.pdf">Charte des droits fondamentaux</a> qui protège la liberté d'expression. La Cour peut donc difficilement se prononcer de manière utile avant de connaître les règles concrètes que le législateur communautaire prendra afin d'intégrer ACTA dans le droit européen.</p>
+<p>S'agissant de la protection des données personnelles, Google a été au centre d'une nouvelle polémique, cette semaine. La société est accusée de ne pas respecter les instructions "Do Not Track" ("ne me suivez pas") émises par les navigateurs, et de collecter ainsi  les données personnelles des internautes sans leur consentement. Google a vite réagi à la polémique, en <a href="https://www.eff.org/deeplinks/2012/02/white-house-google-and-other-advertising-companies-commit-supporting-do-not-track">annonçant son soutien au standard "Do Not Track" </a>(et dans les faits, qu'en sera-t-il ?). De son côté, <a href="https://www.eff.org/deeplinks/2012/02/obama-administration-unveils-promising-consumer-privacy-plan-devil-details">l'administration Obama a dévoilé</a> une "<a href="http://www.whitehouse.gov/sites/default/files/privacy-final.pdf">Consumer Privacy Bill of Rights</a>" (PDF) afin de renforcer la protection des données sur Internet.</p>
+<p>La fermeture de MegaUpload continue de produire des conséquences sur le Net. Rapidshare, concurrent historique de MegaUpload, a <a href="http://arstechnica.com/gadgets/news/2012/02/to-reduce-piracy-rapidshare-throttles-download-speed-for-free-users.ars">réduit de manière drastique le débit de téléchargement pour les utilisateurs non-inscrits</a> (comprendre: qui n'ont pas payé), afin de dissuader les gros <em>uploaders</em> d'utiliser ses services. Cette décision, qui peut provoquer une certaine hilarité, appelle plusieurs observations. D'abord, les hébergeurs tels que Rapidshare ou Megaupload n'ont aucun intérêt en dehors de l'hébergement de lourds fichiers multimédia ; et si c'est pour les diffuser directement auprès du public, pourquoi ne pas utiliser YouTube, Flickr, ou un service "Web 2.0" de ce type ? Ensuite, le marché sur lequel Rapidshare évolue est déjà saturé ; il existe des dizaines d'hébergeurs, qui offrent des services similaires. La plupart d'entre-eux sont moins chers que Rapidshare. En outre, puisqu'il existe tant de services différents, il est pratiquement impossible pour l'internaute de savoir à l'avance lequel d'entre-eux hébergera le fichier qu'il souhaite télécharger. Étant exclu de payer un abonnement pour chaque hébergeur, la concurrence joue principalement sur le débit pour les utilisateurs non-inscrits. En abaissant le débit à 30 Kbits/s, Rapidshare devient l'un des hébergeurs les plus lents du marché. Il va donc rapidement perdre en popularité. En prenant une telle décision, Rapidshare s'est sabordé.</p>

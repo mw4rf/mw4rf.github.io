@@ -1,0 +1,59 @@
+---
+layout: post
+status: publish
+published: true
+permalink: /revue/numero-12/
+title: Numéro 12 - Semaine du 28 juin au 4 juillet 2010
+author:
+  display_name: GF
+  login: gflorimond
+  email: gf@valhalla.fr
+  url: ''
+author_login: gflorimond
+author_email: gf@valhalla.fr
+wordpress_id: 60
+wordpress_url: http://revue.valhalla.fr/?p=60
+date: '2010-07-04 12:20:50 +0200'
+date_gmt: '2010-07-04 10:20:50 +0200'
+categories:
+- Revue
+tags:
+- Internet
+- neutralité
+- téléchargement
+- P2P
+- propriété intellectuelle
+- commerce électronique
+- responsabilité
+- Google
+- vie privée
+- données personnelles
+- Apple
+- blog
+- open source
+- libre
+- linux
+- international
+- code source
+- gouvernement
+- discrimination
+- Facebook
+- filtrage
+- réseaux sociaux
+- ACTA
+- hébergement
+---
+<p>Début des vacances oblige, l'actualité de cette semaine est moins dense. Mais cela ne veut pas dire que les questions qu'elle soulève sont moins importantes. La réflexion sur la <a href="http://www.lemondeinformatique.fr/actualites/lire-des-pistes-pour-renover-le-reseau-internet-31063-page-1.html">rénovation de l'architecture d'Internet</a> est au contraire l'exemple parfait d'une question cruciale. Internet est un réseau d'ordinateurs, fondé sur une technologie de communication appelée TCP/IP. D'où les fameuses "adresses IP" qui identifient chaque ordinateur impliqué dans une communication. En utilisant une métaphore du monde réel, on pourrait dire que l'on indique à une personne que pour se tendre à tel endroit, elle doit passer par telle ou telle rue, de la même manière que l'information passe par tel ou tel ordinateur, identifié par une adresse IP, pour parvenir à sa destination, elle aussi identifiée par une adresse IP. Mais la métaphore s'arrête là.  La technologie IP est vieille, à l'échelle de l'histoire informatique. Elle a été inventée dans le monde universitaire où certaines contraintes n'existaient pas : le nombre d'ordinateurs dotés d'une adresse, la sécurité des transmissions, l'identification de l'émetteur et du destinataire de la communication, etc. Avec le développement du réseau et la démocratisation de son usage, le plein exercice de la liberté d'expression et les abus qu'il entraîne, et l'explosion du commerce électronique, il est devenu nécessaire de revoir l'architecture technique d'Internet. Un premier pas a été franchi avec le début de transition des IPv4 (4 série de 3 chiffres) aux <a href="http://fr.wikipedia.org/wiki/Ipv6">IPv6</a> (8 groupes de 16 bits) afin d'augmenter le nombre d'allocations possibles. Mais des changements plus profonds sont prévisibles, notamment une plus grande décentralisation des données dans le cadre du <i>cloud computing</i>.</p>
+<h2>Liberté d'expression</h2>
+<p>Certains pays filtrent et censurent Internet, et cela ne plaît pas aux autorités américaines qui étudient un <a href="http://lofgren.house.gov/images/stories/internet_summary.pdf">projet de loi</a> pour <a href="http://www.numerama.com/magazine/16152-usa-vers-une-loi-pour-empecher-les-autres-pays-de-filtrer-internet.html">contraindre les autres pays</a> à préserver l'ouverture du réseau. On ne peut qu'approuver : la censure par filtrage systématique de certains sites ou de certains contenus doit être combattue. Le filtrage devrait être strictement cantonné aux mesures <i>ex post</i> prises sur décision de justice, afin de faire cesser un illicite ou un préjudice, et tout aussi strictement limité, d'une part, aux contenus illicites et, d'autre part, par le principe de proportionnalité (adéquation de la mesure au but qu'elle poursuit). </p>
+<p>Cependant, <a href="http://www.clubic.com/antivirus-securite-informatique/virus-hacker-piratage/piratage-informatique/actualite-350476-sites-pirates-tombent-coups-justice.html">les USA font fermer des sites de téléchargement illicite</a>, certains installés aux Pays-Bas. D'où la conclusion suivante, ironique mais pas trop : la liberté de communication est le droit le plus fondamental, mais le droit de "faire de l'argent" l'est plus encore. Cette conclusion ne s'applique pas, en revanche, au blocage des comptes Paypal des exploitants de ces sites, qui fondent leur modèle économique sur un préjudice causé à autrui. Mais elle s'applique bien à la fermeture des sites, dès lors qu'il aurait été suffisant d'ordonner le retrait des contenus illicites.</p>
+<p>En Chine, <a href="http://www.numerama.com/magazine/16104-google-tente-une-nouvelle-approche-pour-ne-pas-etre-expulse-de-chine.html">Google jour sa dernière carte</a> pour <a href="http://www.lemondeinformatique.fr/actualites/lire-google-revient-en-chine-pour-garder-sa-licence-commerciale-31042.html">continuer d'exister tout en préservant un certain degré de neutralité</a> par rapport aux sites indexés. Ainsi, l'internaute chinois ne sera plus automatiquement redirigé vers le site de Google à Hong-Kong, non censuré, mais un lien lui permettra tout de même de se rendre sur ce site. Il serait étonnant que les autorités chinoises acceptent cela : une passoire, qu'elle ait 1 ou 1000 trous, reste une passoire...</p>
+<p>En France, les parlementaires semblent <a href="http://pro.clubic.com/blog-forum-reseaux-sociaux/twitter/actualite-350616-assemblee-convoque-deputes-twitteurs.html">aimer un peu trop Twitter</a>. Le problème, avec Twitter, c'est qu'on a du mal à caser les "éléments de langage" venus d'en haut en 140 caractères. Faute de pouvoir convenablement (dés)informer en si peu de mots, mieux vaut s'abstenir...</p>
+<p>En France encore, <a href="http://www.pcinpact.com/actu/news/58039-florence-foraud-full-disclosure-faille.htm">on s'interroge sur le délit de mise à disposition de dispositifs permettant le contournement de mesures techniques</a> (loi DADVSI) : le "full disclosure" des failles de sécurité, par des chercheurs et à des fins pédagogiques, pourrait-il constituer un tel délit dès lors que les failles rendues publiques sont par la suite utilisées par des personnes mal intentionnées ? La loi est dure, mais c'est la loi, même quand elle est stupide et injuste. Il ne reste qu'à espérer que les juridictions sauront l'interpréter de manière intelligente.</p>
+<p>La Finlande, après l'Estonie, reconnaît que <a href="http://linuxfr.org/2010/07/02/27085.html">l'accès à Internet</a> est un droit.</p>
+<h2>Propriété intellectuelle</h2>
+<p>On revient, une fois de plus, sur <a href="http://www.numerama.com/magazine/16141-hadopi-il-faut-arreter-de-construire-la-ruineuse-ligne-maginot.html">la très détestable loi Hadopi</a>, avec <a href="http://pro.clubic.com/legislation-loi-internet/hadopi/actualite-350460-prix-hadopi.html">un coût de la haute autorité estimé à 70 millions d'euro sur 3 ans</a> (ou comment le contribuable paie pour être intimidé dans la plus grande <a href="http://www.pcinpact.com/actu/news/57921-hadopi-cada-emuneration-salaire-walter.htm">transparence</a>).</p>
+<p>De son côté, <a href="http://www.pcinpact.com/actu/news/57915-hadopi-copie-privee-fai-taxe.htm">la taxe pour la copie privée devient de plus en plus abominable</a>. Pendant des années, la Commission chargée de la fixer avait pris en compte à la fois les copies licites et les copies illicites. Le Conseil d'État a rappelé que la taxe ne pouvait porter que sur les copies licites. La taxe, qui se trouve privée d'une partie substantielle de son assiette, aurait dû voir son montant rabaissé. Mais c'est sans compter sur l'ingéniosité du lobby de l'industrie (soi-disant) culturelle. Voici son raisonnement : si le système Hadopi fonctionne, le nombre de téléchargement illicite baissera, et le nombre de téléchargements licites augmentera proportionnellement ; donc, le montant de la taxe doit augmenter. Deux failles dans le raisonnement : dans la plupart des cas, l'internaute ne téléchargera pas de manière licite ce qu'il n'a pas pu télécharger de manière illicite, il passera son chemin (ce qui est de nouveau <a href="http://www.pcinpact.com/actu/news/57934-partage-fichiers-musique-creativite-ventes.htm">confirmé par une étude universitaire</a>) ; en admettant toutefois, par hypothèse, que l'augmentation des téléchargements licites compense la baisse des téléchargements illicites, il y aurait un effet de vases communicants qui justifierait le maintien du montant de la taxe, mais en aucun cas son augmentation.</p>
+<p>De son côté, le traité ACTA continue son bonhomme de chemin <a href="http://www.laquadrature.net/fr/acta-urgence-a-repenser-brevets-et-droit-dauteur-lettre-ouverte">(et ses détracteurs le leur)</a>, et <a href="http://arstechnica.com/tech-policy/news/2010/07/acta-slouches-on-will-be-final-within-6-months.ars">devrait être terminé dans 6 mois</a><span class="lang">en</a>...</p>
+<h2>Vie privée</h2>
+<p>Facebook fait un nouveau pas en avant dans le traitement des données personnelles, en introduisant un mécanisme de <a href="http://pro.clubic.com/blog-forum-reseaux-sociaux/facebook/actualite-350764-facebook-introduit-reconnaissance-faciale.html">reconnaissance faciale</a>. Google, quant à elle, projette de <a href="http://www.pcinpact.com/actu/news/57954-google-me-rumeur-kevin-rose-facebook-adam-dangelo.htm">lancer un réseau social</a> concurrent. Un renforcement de la protection des données personnelle devient de plus en plus nécessaire...</p>

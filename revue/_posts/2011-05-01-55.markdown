@@ -1,0 +1,45 @@
+---
+layout: post
+status: publish
+published: true
+permalink: /revue/numero-55/
+title: Numéro 55 - Semaine du 25 avril au 1er mai
+author:
+  display_name: GF
+  login: gflorimond
+  email: gf@valhalla.fr
+  url: ''
+author_login: gflorimond
+author_email: gf@valhalla.fr
+wordpress_id: 330
+wordpress_url: http://revue.valhalla.fr/?p=330
+date: '2011-05-01 13:02:49 +0200'
+date_gmt: '2011-05-01 11:02:49 +0200'
+categories:
+- Revue
+tags:
+- Internet
+- propriété intellectuelle
+- commerce électronique
+- responsabilité
+- données personnelles
+- Apple
+- sécurité
+- USA
+- intermédiaires
+- régulation
+---
+<p>Cette semaine fut relativement pauvre en actualités liées au droit des nouvelles technologies. L'article sera donc plutôt court, et reviendra sur des l'évolution de sujets abordés dans les numéros précédents.</p>
+<h2>Données personnelles</h2>
+<p>Nous parlions, <a href="http://revue.valhalla.fr/numeros/54/">la semaine dernière</a>, des données de géolocalisation de l'iPhone, accessibles dans la sauvegarde en clair sur l'ordinateur avec lequel l'appareil est synchronisé. La première réaction <a href="http://www.numerama.com/magazine/18635-steve-jobs-assure-qu-apple-ne-piste-personne-avec-l-iphone.html">vient de Steve Jobs</a>, le patron d'Apple : l'iPhone stocke certes des données de localisation, mais celles-ci sont anonymisées et elles ne sont pas envoyées à Apple (en revanche, elles peuvent être utilisées par des logiciels pour offrir, par exemple, de la publicité ciblée). La seconde réaction d'Apple fut plus officielle, et prise <a href="http://www.pcinpact.com/actu/news/63307-iphone-ios-tracking-apple-reponse-probleme-cache.htm">la forme d'une FAQ</a> : Apple ne "traque" pas les utilisateurs d'iPhone ; le problème vient surtout du fait qu'Apple a manqué de transparence dans cette affaire, et n'a pas suffisamment expliqué comment ces données étaient utilisées ; ce n'est d'ailleurs pas la position du téléphone qui est enregistrée, mais celle des relais GPS et hotspots Wifi à proximité ; les données sont transmises à Apple de manière chiffrée et sécurisée ; enfin, il y a des bugs dans le système (par exemple le fait que l'iPhone continue de stocker les données lorsque le GPS est désactivé), qui <a href="http://www.numerama.com/magazine/18649-apple-promet-un-correctif-pour-limiter-le-tracage-de-l-iphone.html">seront prochainement corrigés</a>.</p>
+<p>Il ne s'agit là que d'Apple. Il semblerait que <a href="http://www.businessmobile.fr/actualites/vie-privee-google-confirme-et-justifie-la-localisation-des-terminaux-android-39760220.htm">les téléphones sous Android (Google) stockent également des données de localisation</a>. Le problème est d'autant plus grave que le nombre d'utilisateurs de terminaux mobiles ne cesse d'augmenter, <a href="http://www.numerama.com/magazine/18641-la-chine-comptera-bientot-900-millions-d-utilisateurs-de-mobiles.html">notamment dans des pays peu démocratiques comme la Chine</a>. Aussi, une <a href="http://www.businessmobile.fr/actualites/fichiers-de-localisation-une-class-action-aux-etats-unis-et-des-enquetes-partout-dans-le-monde-39760263.htm"><i>class action</i> a été initiée aux USA</a> (Floride) contre Apple, et des enquêtes ont été ouvertes dans d'autres pays. Selon la CNIL, le stockage des données sur le terminal est moins problématique que leur envoi éventuel à des tiers, suite à un consentement trop souvent hésitant de l'utilisateur.</p>
+<p>Par ailleurs, un nouveau scandale touche Sony et sa console de jeux, la PlayStation. Un hacker mal intentionné se serait introduit dans les serveurs de Sony et aurait <a href="http://www.pcinpact.com/actu/news/63312-sony-vol-donnees-details-playstation-network-qriocity.htm">obtenu l'accès à la base de données de 77 millions utilisateurs</a>. En France, la CNIL a annoncé qu'elle lancerait prochainement une <a href="http://www.lemondeinformatique.fr/actualites/lire-la-cnil-va-enqueter-sur-le-piratage-chez-sony-33563.html">enquête sur cette affaire</a>. Rappelons au passage qu'il incombe au responsable du traitement de données personnelles, en vertu du droit communautaire et du droit français, d'assurer la sécurité de ces dernières --ce que Sony a échoué, en l'espèce, à faire.</p>
+<p>Signalons, pour conclure sur le thème de la protection des données personnelles, que le décret sur la rétention des données de connexion, dont nous avons <a href="http://revue.valhalla.fr/numeros/47/">déjà parlé</a>, à <a href="http://revue.valhalla.fr/numeros/52/">plusieurs reprises</a>, vient de subir une nouvelle attaque, sous la forme d'un <a href="http://www.numerama.com/magazine/18661-le-decret-sur-la-conservation-des-donnees-personnelles-encore-attaque.html">recours en annulation déposé devant le Conseil d'État par l'association Internet Sans Frontières</a>.</p>
+<h2>Commerce électronique</h2>
+<p>L'on a appris cette semaine que des contrôles réalisés par la DGCCRF avaient révélé que <a href="http://www.lemondeinformatique.fr/actualites/lire-40-des-sites-marchands-trompent-les-internautes-33535.html">près de 40% des sites contrôlés ne respectaient pas les règles relatives au commerce électronique</a>. Une fois de plus, le problème n'est pas la règle de droit, mais son application (ou plutôt, le fait qu'elle ne soit pas appliquée).</p>
+<h2>Responsabilité des intermédiaires</h2>
+<p>Un <a href="http://www.numerama.com/magazine/18655-la-sppf-deboutee-pour-avoir-ignore-le-filtre-anti-piratage-de-youtube.html">jugement important a été rendu</a>. Nous avions parlé, il y a quelques semaines, d'un jugement imposant à un opérateur qualifié d'hébergeur de contrôler la <i>remise en ligne</i> de fichiers contrefaisants précédemment retirés. Nous critiquions cette décision, en soutenant qu'elle revenait à imposer à un intermédiaire technique une obligation générale de surveillance des contenus. Dans le jugement présenté cette semaine, les demandeurs ont été déboutés, au motif qu'ils n'avaient pas utilisé le système d'identification du contenu mis à disposition par YouTube pour empêcher la remise en ligne de fichiers contrefaisants. Cette décision fait donc un pas dans la bonne direction : YouTube n'est pas condamnée. Mais, pour autant, cela n'est pas suffisant, et cela pourrait même être contre-productif. En effet, la décision laisse penser que si les demandeurs avaient utilisé le système de contrôle de contenu de YouTube, celle-ci aurait eu l'obligation d'empêcher la remise en ligne des fichiers. Or, ce n'est pas parce qu'un opérateur met un outil de contrôle du contenu à disposition des ayants droit qu'une obligation de contrôler le contenu est mise à sa charge. Une telle obligation est explicitement exclue par le droit communautaire pour les intermédiaires techniques. Si l'on veut se fonder sur une telle obligation, il faut donc modifier la qualification de l'opérateur, et retenir qu'il est éditeur plutôt qu'hébergeur. Mais il est clair, désormais, que la jurisprudence ne s'oriente pas dans cette direction.</p>
+<h2>Propriété intellectuelle</h2>
+<p>Campagne pour les élections présidentielles de 2012 oblige, Nicolas Sarkozy a <a href="http://www.numerama.com/magazine/18645-nicolas-sarkozy-remet-en-cause-la-loi-hadopi.html">remis en cause la loi Hadopi</a>. Verra-t-on bientôt une <a href="http://www.numerama.com/magazine/18652-nicolas-sarkozy-evoque-une-hadopi-4-qui-serait-la-fin-de-hadopi.html">"hadopi 4"</a> marquant la fin de la riposte graduée ? Affaire à suivre (sans trop d'illusions, toutefois).</p>
+<h2>Régulation</h2>
+<p>Après un Internet "civilisé", c'est d'un <a href="http://www.numerama.com/magazine/18659-le-president-du-cnn-souhaite-un-internet-sain-pour-tous-les-citoyens.html">Internet "sain"</a> dont on parle. La rhétorique est plutôt fascisante... pourquoi ne pas parler, tout simplement, d'un Internet "licite" ?</p>

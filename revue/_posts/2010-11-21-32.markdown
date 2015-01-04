@@ -1,0 +1,36 @@
+---
+layout: post
+status: publish
+published: true
+permalink: /revue/numero-32/
+title: Numéro 32 - Semaine du 15 au 21 novembre 2010
+author:
+  display_name: GF
+  login: gflorimond
+  email: gf@valhalla.fr
+  url: ''
+author_login: gflorimond
+author_email: gf@valhalla.fr
+wordpress_id: 169
+wordpress_url: http://revue.valhalla.fr/?p=169
+date: '2010-11-21 11:13:52 +0100'
+date_gmt: '2010-11-21 09:13:52 +0100'
+categories:
+- Revue
+tags:
+- Internet
+- neutralité
+- propriété intellectuelle
+- données personnelles
+- Facebook
+- filtrage
+- réseaux sociaux
+- LOPPSI
+- droit d'auteur
+---
+<p>L'actualité de cette semaine porte à nouveau sur trois thèmes importants dans la régulation du Net : le filtrage, la protection des données personnelles et le respect des droits de propriété intellectuelle.</p>
+<p>Aux États-Unis, la donne politique a changé. Le parti républicain ("GOP") a gagné les dernières élections législatives (dites de "mid-term", car ayant lieu à la moitié du mandat du président). Ce changement pourrait favoriser l'adoption de la loi COICA <i>("Combating Online Infringement and Counterfeits Act")</i> (dont nous parlions <a href="http://revue.valhalla.fr/numeros/25/">en octobre</a>), qui a pour but d'instaurer des <a href="http://www.numerama.com/magazine/17381-usa-la-loi-sur-le-filtrage-mondial-adoptee-par-le-comite-judiciaire-du-senat.html">mesures répressives absolument drastiques contre certains sites utilisés par les internautes comme vecteurs de diffusion d'oeuvres contrefaisantes</a>. Le projet de loi a été <a href="http://www.wired.com/epicenter/2010/11/coica-web-censorship-bill/">approuvé cette semaine, à l'unanimité, par le <i> Senate Judiciary Committee</i></a><span class="lang">(en)</span>. Il permet à l'<i>Attorney General</i> (l'équivalent du ministre de la Justice, donc le pouvoir exécutif) de demander aux tribunaux d'émettre une injonction de fermeture à l'encontre de sites permettant l'échange de fichiers protégés par le droit d'auteur. <a href="http://www.eff.org/deeplinks/2010/11/case-against-coica">Les critiques contre ce projet de loi sont nombreuses</a><span class="lang">(en)</span>. Parmi les plus importantes, on peut relever les deux suivantes : en premier lieu, l'absence de <i>"due process"</i>, c'est-à-dire de procédure judiciaire avec respect des droits de la défense ; en second lieu, les effets collatéraux de la décision de fermeture sur la liberté d'expression. En effet, contrairement à d'autres lois comme le <i>Communications Decency Act</i> ou le <i>Digital Millenium Copyright Act</i>, la loi COICA ne vise pas spécifiquement les contenus illicites, mais les sites contenant des contenus illicites. Il est ainsi théoriquement possible de faire fermer sur son fondement un site contenant des milliers de fichiers licites, et une poignée de fichiers illicites. L'Electronic Frontier Foundation souligne que si une telle loi avait existé il y a quelques années, elle aurait empêché la naissance de grands services du Web 2 comme YouTube, Dropbox ou Facebook.</p>
+<p>En France, le filtrage est aussi à l'ordre du jour : il s'agit de l'article 4 de la loi LOPPSI 2. La Quadrature du Net publie cette semaine une excellente analyse juridique montrant que <a href="http://www.laquadrature.net/fr/le-filtrage-dinternet-viole-letat-de-droit">le filtrage du Net, tel que prévu par la loi, est contraire à certains grands principes de l'État de droit</a>. Pour résumer : le filtrage porte atteinte à la liberté d'expression, garantie à la fois par le droit constitutionnel français (Déclaration des droits de l'homme et du citoyen de 1789) et par divers instruments internationaux comme la Convention européenne de sauvegarde des droits de l'homme (CEDH) ; il porte atteinte au droit d'avoir un procès équitable (article 6 § 1 de la convention, notamment) lorsqu'il est ordonné par une autorité administrative plutôt que par le juge à l'issue d'une procédure contradictoire (comme il est prévu dans le projet de loi depuis <a href="http://revue.valhalla.fr/numeros/8/">son passage au Sénat</a>). Ce n'est donc pas par hasard qu'<a href="http://www.pcinpact.com/actu/news/60370-ange-bleu-loppsi-blocage-pedophile.htm">une association de lutte contre la pédophilie se prononce contre le filtrage instauré par la loi LOPPSI 2</a>, dénonçant sa relative inefficacité, ses effets collatéraux dommageables, et <a href="http://www.numerama.com/magazine/17333-loppsi-encore-une-association-anti-pedophilie-opposee-au-filtrage.html">les dangers qu'il présente pour la liberté d'expression</a>. Pour répondre à ces critiques, ou les anticipant, <a href="http://www.pcinpact.com/actu/news/60450-loppsi-assemblee-nationale-blocage-site.htm">plusieurs amendements ont été déposés afin d'améliorer le dispositif de l'article 4</a> : limiter le blocage aux URL, exiger la saisine du juge, faire intervenir la CNIL, encadrer le blocage avec le principe de neutralité, voire supprimer purement et simplement l'article.</p>
+<p>Au niveau européen, <a href="http://www.numerama.com/magazine/17345-les-eurodeputes-mefiants-face-au-filtrage-de-la-pedopornographie.html">les députés du parlement de Strasbourg émettent des réserves sur l'article 21 du projet de directive <i>relative à l'exploitation et aux abus sexuels concernant des enfants et à la pédopornographie</i></a>, qui permet comme la loi LOPPSI 2 d'ordonner aux FAI le blocage des sites pédopornographiques.</p>
+<p>Par ailleurs, la loi LOPPSI 2 prévoit, à l'article 23, <a href="http://www.valhalla.fr/2010/02/13/loppsi-2-les-spywares-judiciaires/">la possibilité pour la police d'installer des <i>spywares</i></a> afin de surveiller les échanges numériques des personnes suspectées d'avoir commis certains délits. Un député a récemment proposé <a href="http://www.pcinpact.com/actu/news/60435-dominique-tian-loppsi-voix-internet.htm">d'étendre le disposition</a> notamment aux <a href="http://www.numerama.com/magazine/17371-un-depute-demande-que-la-police-puisse-ecouter-la-telephonie-sur-ip.html">communications vocales par Internet</a> (la <i>"Voice-over-IP"</i> ou VoIP, et les logiciels tels que Skype).</p>
+<p>Aux États-Unis, <a href="http://www.numerama.com/magazine/17360-le-fbi-veut-un-acces-aux-donnees-privees-sur-facebook.html">le FBI veut pouvoir accéder aux données des internautes sur les réseaux sociaux tels que Facebook</a>. On le voit, la tendance sécuritaire actuelle s'étend sur tous les fronts.</p>
