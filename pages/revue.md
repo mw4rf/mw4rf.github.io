@@ -3,6 +3,7 @@ layout: page
 status: publish
 published: true
 title: Revue
+permalink: /revue/index.html
 ---
 
 <ul style="list-style-type: none;">

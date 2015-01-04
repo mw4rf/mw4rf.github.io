@@ -3,24 +3,8 @@ layout: page
 status: publish
 published: true
 title: Java
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
-wordpress_id: 76
-wordpress_url: http://blog.gfblog.com/index.php/cours-java/
-date: '2005-10-31 19:18:22 +0100'
-date_gmt: '2005-10-31 17:18:22 +0100'
-categories:
-- Divers
-tags:
-- programmation
-- Java
-- Apple
+author: GF
+permalink: /java/index.html
 ---
 
 ## Présentation (2005)

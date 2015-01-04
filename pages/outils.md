@@ -3,23 +3,8 @@ layout: page
 status: publish
 published: true
 title: Outils
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
-wordpress_id: 80
-wordpress_url: http://blog.gfblog.com/index.php/temps-de-transfert/
-date: '2005-11-05 15:29:31 +0100'
-date_gmt: '2005-11-05 13:29:31 +0100'
-categories:
-- Divers
-tags:
-- Web
-- Java
+author: GF
+permalink: /outils/index.html
 ---
 <p><strong><a href="http://metasearch.valhalla.fr/">Valhalla MetaSearch</a></strong><br />Meta-moteur de recherche, facile et rapide d'utilisation, et sans publicité. Pour plus d'informations, voir <a href="http://www.valhalla.fr/2009/01/04/meta-recherche/">l'article de présentation</a></p>
 <p><strong><a href="http://asgard.valhalla.fr/nat.php">Test d'ouverture et de redirection des ports (<i>port forwarding</i>) - Analyse de plages de ports</a></strong><br />
