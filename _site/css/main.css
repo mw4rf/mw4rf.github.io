@@ -150,8 +150,7 @@ ul.no-bullet, ol.no-bullet {
  */
 #footer {
   background-color: #e8e8e8;
-  padding-top: 1em;
-  margin-top: 1em;
+  padding-top: 30px;
   font-size: 14px;
   /*
   border-top-left-radius: 100px 50px;
@@ -161,14 +160,17 @@ ul.no-bullet, ol.no-bullet {
 /**
  * Page content (main container, see default.html layout)
  */
-.page-content {
-  padding: 30px 0; }
-
 /**
  * Text content : every text bloc should be wrapped in this container
  */
 .text-content {
   line-height: 1.8; }
+
+.pagination-content {
+  background-color: whitesmoke; }
+
+.excerpt {
+  margin: 30px 0; }
 
 /**
  * Generic containers for images with text wrapped around
