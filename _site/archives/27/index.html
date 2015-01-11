@@ -111,8 +111,61 @@
   <div class="row">
     <div class="col-md-1"></div>
     <div class="col-md-8 col-md-push-2 col-xs-12">
+      <h1><a href="/2001/08/31/trouver-les-premiers-nombres-premiers/">Trouver les premiers nombres premiers</a></h1>
+      <div class="text-content">
+		  
+		  	<p>Ceci ne concerne pas vraiment une technique de programmation, c'est plut&ocirc;t un exercice pour se former l'esprit, et c'est aussi la d&eacute;monstration que Java peut servir pour le calcul math&eacute;matique.</p>
+<p>L'algo mis en place est le plus simple dans le genre: on premd un nombre impair, on le divise par chaque entier impair entre 3 et sa racine carr&eacute;e. S'il n'a aucun diviseur il est premier.</p>
+<p class="Code">// Le nombre candidat de d&eacute;part, mettez la valeur que vous d&eacute;sirez, ce sera le nombre de d&eacute;part et le programme ira en choisissant des nombres de plus en plus grands<br />
+  long candidat = 1000;</p>
+<p class="Code">while (true) // ou for (;;) sont des boucles infinies qui ne v&eacute;rifient pas de condition<br />
+  {<br />
+  // on invoque la m&eacute;thode estPremier() qui renvoie un booleen: oui ou non le nombre qu'on lui soumet est premier, l'instruction if(estPremier(candidate)) est &eacute;quivalente<br />
+  // &agrave; if (estPremier(candidate) == true)<br />
+  if(estPremier(candidate)) {System.out.println(&quot;&gt;Est premier le nombre: &quot; + candidate); <br />
+  }</p>
+<p class="Code">private static boolean estPremier(long candidat)<br />
+  {<br />
+  // Diviser le nombre par tous les entiers impairs entre 3 et sa racine<br />
+  double racine = Math.sqrt(candidate);<br />
+  for (long i = 3; i &lt;= sqrt; i += 2) // on incr&eacute;mente de 2 pour sauter les pairs<br />
+  { <br />
+  // si le modulo, c-&agrave;-d le reste de la division euclidienne est 0, le nombre est divisible par i, i est donc un facteur, le nombre n'est pas premier.<br />
+  if (candidat % i == 0) return false;<br />
+  } <br />
+  // Si la cdt ci-dessus n'est jamais v&eacute;rifi&eacute;e, alors le nombre est premier:<br />
+  return true;<br />
+  }</p>
+<p>Et voil&agrave;, vous n'avez plus qu'&agrave; r&eacute;diger la m&eacute;thode main() o&ugrave; &agrave; incorporer ce code dans une de vos classes, ici les premiers sont sortis en console. (System.out)</p>
+<p>Tutoriel distribu&eacute; pour le FAQ Java de www.jgflsoft.com ou www.java-france.com<br />
+  R&eacute;&eacute;dit&eacute; pour Valhalla GFBLOG. <br />
+  Ecrit &agrave; Montpellier le 31 ao&ucirc;t 2001</p>
+
+
+		  
+	  </div>
+    </div>
+    <div class="col-md-2 col-md-pull-8 col-xs-12 text-center">
+      <h2>31 Aug 2001</h2>
+      <br>
+      <div class="label label-info">331 mots</div>
+      <br>
+        
+          <div class="label label-default">java</div>
+        
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+</div>
+  
+    <div class="container excerpt">
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-8 col-md-push-2 col-xs-12">
       <h1><a href="/2001/08/31/comment-naviguer-sur-internet-avec-un-jeditorpane/">Comment naviguer sur Internet avec un JEditorPane ?</a></h1>
-      <div class="text-content"><p>Cet article de la FAQ Java de l'association Java-France a pour but d'expliquer la proc&eacute;dure &agrave; suivre pour afficher des pages HTML, qui r&eacute;pondent aux liens, dans un JEditorPane ou un JTextPane (m&ecirc;me proc&eacute;dure). En effet, ces deux composnats (JTextPane h&eacute;ritant de JEditorPane) impl&eacute;mentent des m&eacute;thodes compliqu&eacute;es (plusieurs milliers de lignes de code) permettant de formater un document au format HTML, et de lancer une connexion pour afficher une nouvelle page si l'on clique sur un lien.</p>
+      <div class="text-content">
+		  
+		  	<p>Cet article de la FAQ Java de l'association Java-France a pour but d'expliquer la proc&eacute;dure &agrave; suivre pour afficher des pages HTML, qui r&eacute;pondent aux liens, dans un JEditorPane ou un JTextPane (m&ecirc;me proc&eacute;dure). En effet, ces deux composnats (JTextPane h&eacute;ritant de JEditorPane) impl&eacute;mentent des m&eacute;thodes compliqu&eacute;es (plusieurs milliers de lignes de code) permettant de formater un document au format HTML, et de lancer une connexion pour afficher une nouvelle page si l'on clique sur un lien.</p>
 <p>Nous allons donc voir, en 3 points, comment faire pour mettre en place un tel JEditorPane.</p>
 <p>1) Le d&eacute;clarer, l'ins&eacute;rer dans l'interface (dans un JScrollPane de pr&eacute;f&eacute;rence), et faire tout ce qu'il faut pour qu'il s'affiche dans ue fen&ecirc;tre quand on lance le programme.</p>
 <p>2) L'interdire en &eacute;criture: <span class="Code">editorPane.setEditable(false);</span></p>
@@ -132,7 +185,9 @@
   R&eacute;&eacute;dit&eacute; pour Valhalla GFBLOG. <br />
   Ecrit &agrave; Montpellier le 31 ao&ucirc;t 2001</p>
 
-</div>
+
+		  
+	  </div>
     </div>
     <div class="col-md-2 col-md-pull-8 col-xs-12 text-center">
       <h2>31 Aug 2001</h2>
@@ -152,7 +207,9 @@
     <div class="col-md-1"></div>
     <div class="col-md-8 col-md-push-2 col-xs-12">
       <h1><a href="/2001/08/30/introduction-a-java-idl/">Introduction à Java IDL</a></h1>
-      <div class="text-content"><p>Article de <a href="http://www.sun.com">Sun</a> traduit et adapt&eacute; en fran&ccedil;ais.</p>
+      <div class="text-content">
+		  
+		  	<p>Article de <a href="http://www.sun.com">Sun</a> traduit et adapt&eacute; en fran&ccedil;ais.</p>
 <h1>Qu'est-ce que Java IDL ?</h1>
 <p>Java IDL est une technologie pour les &quot;objets distribu&eacute;s&quot;, c'est-&agrave;-dire des objets interagissant avec diff&eacute;rentes stations de travail d'un r&eacute;seau. Java IDL est similaire &agrave; RMI (Remote Method Invocation) qui supporte des objets distribu&eacute;s &eacute;crits enti&egrave;rement et exclusivement en langage Java. Cependant, Java IDL permet aux objets d'&ecirc;tre utilis&eacute;s m&ecirc;me s'ils sont &eacute;crits dans un langage diff&eacute;rent de Java, comme C/C++, Cobol, et bien d'autres.</p>
 <p>Ceci est possible car Java IDL est bas&eacute; sur l'architecture CORBA (Common Object Request Brokerage Architecture), un standard mondial de l'industrie dans la distribution d'objets sur un r&eacute;seau. Une des composantes de Corba est IDL (Interface Definition Language), langage dit &quot;neutre&quot;. Chaque langage de programmation supportant Corba impl&eacute;mente une IDL, d'o&ugrave; le nom de &quot;Java IDL&quot;, l'impl&eacute;mentation IDL pour Java. Corba et IDL sont issus d'un consortium de trusts mondiaux (notamment IBM, Boeing, etc.) connus sous le nom de OMG (Object Management Group), et le fait que Sun Microsystems soit l'un des membres fondateurs explique que IDL soit si bien adapt&eacute; &agrave; Java.</p>
@@ -183,7 +240,9 @@ Une fois le serveur et le client cr&eacute;&eacute;e, on peut lancer le service 
   R&eacute;&eacute;dit&eacute; pour Valhalla GFBLOG. <br />
   Montpellier, 30 ao&ucirc;t 2001.</p>
 
-</div>
+
+		  
+	  </div>
     </div>
     <div class="col-md-2 col-md-pull-8 col-xs-12 text-center">
       <h2>30 Aug 2001</h2>
@@ -203,7 +262,9 @@ Une fois le serveur et le client cr&eacute;&eacute;e, on peut lancer le service 
     <div class="col-md-1"></div>
     <div class="col-md-8 col-md-push-2 col-xs-12">
       <h1><a href="/2001/08/28/quest-ce-que-la-technologie-jini/">Qu'est-ce-que la technologie Jini ?</a></h1>
-      <div class="text-content"><p>Traduction (adaptation, simplification) d'un article de <a href="http://www.sun.com">Sun</a>.</p>
+      <div class="text-content">
+		  
+		  	<p>Traduction (adaptation, simplification) d'un article de <a href="http://www.sun.com">Sun</a>.</p>
 <h1>Historique</h1>
 <p>Comment sommes-nous arriv&eacute;s &agrave; un stade o&ugrave; l'orientation &quot;online&quot; des services et du mat&eacute;riel informatique est la pr&eacute;occupation majeure des fabriquants ?</p>
 <p>L'explication la plus &eacute;vidente est notre meilleure connaissance de domaines scientifiques tels que la chimie ou l'&eacute;lectronique appliqu&eacute;s &agrave; la micro-informatique. De nos jours, un ordinateur personnel peut &ecirc;tre fabriqu&eacute; &agrave; partir d'un minimum de mat&eacute;riel et les serveurs d'entreprise ne sont plus ces gros amas de t&ocirc;les et de c&acirc;bles occupant des pi&egrave;ces enti&egrave;res.</p>
@@ -232,7 +293,9 @@ Une fois le serveur et le client cr&eacute;&eacute;e, on peut lancer le service 
   R&eacute;&eacute;dit&eacute; pour Valhalla GFBLOG. <br />
 Montpellier, 28 ao&ucirc;t 2001.</p>
 
-</div>
+
+		  
+	  </div>
     </div>
     <div class="col-md-2 col-md-pull-8 col-xs-12 text-center">
       <h2>28 Aug 2001</h2>
@@ -252,7 +315,9 @@ Montpellier, 28 ao&ucirc;t 2001.</p>
     <div class="col-md-1"></div>
     <div class="col-md-8 col-md-push-2 col-xs-12">
       <h1><a href="/2001/07/03/comment-exporter-un-programme-avec-jbuilder/">Comment exporter un programme avec JBuilder ?</a></h1>
-      <div class="text-content"><p>Ce chapitre de la FAQ a pour but de montrer comment exporter, sous la forme d'une archive JAR, un programme Java (application, applet, servlet, web app, bean, etc...). Nous utiliserons ici la situation la plus simple: une application (avec m&eacute;thode main()) export&eacute;e dans une archive JAR auto-ex&eacute;cutable. Nous d&eacute;taillerons les &eacute;tapes de la cr&eacute;ation d'une telle archive.</p>
+      <div class="text-content">
+		  
+		  	<p>Ce chapitre de la FAQ a pour but de montrer comment exporter, sous la forme d'une archive JAR, un programme Java (application, applet, servlet, web app, bean, etc...). Nous utiliserons ici la situation la plus simple: une application (avec m&eacute;thode main()) export&eacute;e dans une archive JAR auto-ex&eacute;cutable. Nous d&eacute;taillerons les &eacute;tapes de la cr&eacute;ation d'une telle archive.</p>
 <p>NOTE 1: Pour des raisons de temps notamment (JBuilder 5 n'est pas encore sortie en France   &agrave; l'heure de la r&eacute;daction de cet article), la version de JBuilder utilis&eacute;e sera la version US.</p>
 <p>NOTE 2: cette page contient de nombreuses images, le temps de chargement peut &ecirc;tre assez long...</p>
 <p>1) Lancer l'outil, ou wizard, d'exportation: Menu WIZARDS -&gt; ARCHIVE BUILDER</p>
@@ -284,7 +349,9 @@ Montpellier, 28 ao&ucirc;t 2001.</p>
   R&eacute;&eacute;dit&eacute; pour Valhalla GFBLOG <br />
   &Eacute;crit &agrave; Montpellier le 3 juillet 2001</p>
 
-</div>
+
+		  
+	  </div>
     </div>
     <div class="col-md-2 col-md-pull-8 col-xs-12 text-center">
       <h2>03 Jul 2001</h2>
@@ -304,7 +371,9 @@ Montpellier, 28 ao&ucirc;t 2001.</p>
     <div class="col-md-1"></div>
     <div class="col-md-8 col-md-push-2 col-xs-12">
       <h1><a href="/2001/07/02/comment-telecharger-un-fichier-a-partir-dune-url-en-java/">Comment télécharger un fichier à partir d'une URL en Java ?</a></h1>
-      <div class="text-content"><p>Cet article de la FAQ a pour but de montrer comment t&eacute;l&eacute;charger un fichier depuis Internet vers son Disque Dur. On peut utiliser plusieurs m&eacute;thodes, et celle &agrave; laquelle on pensera en premier lieu est s&ucirc;rement d'impl&eacute;menter un petit client FTP ou d'utiliser un JavaBean FTP comme celui d'IPWorks (dans JBuilder 5). Cependant, je propose ici une solution plus simple (beaucoup plus simple), &agrave; partir du moment o&ugrave; l'on conna&icirc;t l'adresse exacte du fichier &agrave; t&eacute;l&eacute;charger. Cette m&eacute;thode est &eacute;galement plus s&eacute;curis&eacute;e, en cela que l'on a aucun besoin de sp&eacute;cifier un login et un mot de passe.</p>
+      <div class="text-content">
+		  
+		  	<p>Cet article de la FAQ a pour but de montrer comment t&eacute;l&eacute;charger un fichier depuis Internet vers son Disque Dur. On peut utiliser plusieurs m&eacute;thodes, et celle &agrave; laquelle on pensera en premier lieu est s&ucirc;rement d'impl&eacute;menter un petit client FTP ou d'utiliser un JavaBean FTP comme celui d'IPWorks (dans JBuilder 5). Cependant, je propose ici une solution plus simple (beaucoup plus simple), &agrave; partir du moment o&ugrave; l'on conna&icirc;t l'adresse exacte du fichier &agrave; t&eacute;l&eacute;charger. Cette m&eacute;thode est &eacute;galement plus s&eacute;curis&eacute;e, en cela que l'on a aucun besoin de sp&eacute;cifier un login et un mot de passe.</p>
 <p>Nous allons donc utiliser une m&eacute;thode avec URLConnection. Voici le code source comment&eacute;:</p>
 <p class="Code">// Sp&eacute;cifier le chemin exact vers le fichier<br />
   URL u = new URL(&quot;http://www.monserveur.com:80/monrepertore/lisezmoi.txt&quot;);</p>
@@ -349,7 +418,9 @@ Montpellier, 28 ao&ucirc;t 2001.</p>
   R&eacute;&eacute;dit&eacute; pour Valhalla GFBLOG. <br />
   Ecrit &agrave; Montpellier le 2 juillet 2001</p>
 
-</div>
+
+		  
+	  </div>
     </div>
     <div class="col-md-2 col-md-pull-8 col-xs-12 text-center">
       <h2>02 Jul 2001</h2>
@@ -369,7 +440,9 @@ Montpellier, 28 ao&ucirc;t 2001.</p>
     <div class="col-md-1"></div>
     <div class="col-md-8 col-md-push-2 col-xs-12">
       <h1><a href="/2001/04/27/comment-convertir-des-string-en-int-float-double-et-vice-versa/">Comment convertir des String en int, float, double, ... , et vice versa ?</a></h1>
-      <div class="text-content"><p>J'ai d&eacute;cid&eacute; de traiter ce point pr&eacute;cis de la programmation Java: la convertion des types primaires (ou types de base) de donn&eacute;es, car cela m'a pos&eacute; des probl&egrave;mes quand j'ai d&eacute;but&eacute; en Java, et cela en pose souvent aux programmeurs venant de Delphi/Pascal, tout simplement car il n'existe pas en Java de m&eacute;thodes comme IntToStr ou StrToInt (Delphi).<br />
+      <div class="text-content">
+		  
+		  	<p>J'ai d&eacute;cid&eacute; de traiter ce point pr&eacute;cis de la programmation Java: la convertion des types primaires (ou types de base) de donn&eacute;es, car cela m'a pos&eacute; des probl&egrave;mes quand j'ai d&eacute;but&eacute; en Java, et cela en pose souvent aux programmeurs venant de Delphi/Pascal, tout simplement car il n'existe pas en Java de m&eacute;thodes comme IntToStr ou StrToInt (Delphi).<br />
   Je vous propose ici l'impl&eacute;mentation de ces deux m&eacute;thodes, ainsi que deux autre m&eacute;thodes convertissant des int vers long et des String vers float. Vous pourrez ensuite, une fois le sch&eacute;ma pos&eacute; dans ce document, faire vous-m&ecirc;me d'autres combinaisons.</p>
 <p>Voici donc les m&eacute;thodes ainsi que la mani&egrave;re de les utiliser:</p>
 <h1>M&eacute;thodes<br />
@@ -421,7 +494,9 @@ Montpellier, 28 ao&ucirc;t 2001.</p>
   R&eacute;&eacute;dit&eacute; pour Valhalla GFBLOG. <br />
   Ecrit &agrave; Montpellier le 27 avril 2001</p>
 
-</div>
+
+		  
+	  </div>
     </div>
     <div class="col-md-2 col-md-pull-8 col-xs-12 text-center">
       <h2>27 Apr 2001</h2>
@@ -441,7 +516,9 @@ Montpellier, 28 ao&ucirc;t 2001.</p>
     <div class="col-md-1"></div>
     <div class="col-md-8 col-md-push-2 col-xs-12">
       <h1><a href="/2001/04/22/installer-et-configurer-un-environnement-dexecution-de-servletsjsp-sous-windows/">Installer et configurer un environnement d'exécution de servlets/JSP sous Windows</a></h1>
-      <div class="text-content"><p>Ce chapitre de la FAQ Java explique, pas &agrave; pas, comment installer et configurer un environnement de d&eacute;veloppement et d'ex&eacute;cution de servlets et de pages JSP sur une machine tournant sous Windows 95/98/Me (NT/2000 ?).<br />
+      <div class="text-content">
+		  
+		  	<p>Ce chapitre de la FAQ Java explique, pas &agrave; pas, comment installer et configurer un environnement de d&eacute;veloppement et d'ex&eacute;cution de servlets et de pages JSP sur une machine tournant sous Windows 95/98/Me (NT/2000 ?).<br />
 Nous utiliserons le JSWDK de Sun (Java Servlets Web Development Kit). Vous pouvez aussi installer le serveur de Netscape ou Jakarta (pour Apache), mais nous nous centrerons ici sur l'inpl&eacute;mentation officielle de Sun.</p>
 <p>1) Vous devez poss&eacute;der un JDK install&eacute; et configur&eacute; sur votre machine. </p>
 <p>2) Vous devez t&eacute;l&eacute;charger &agrave; partir du site de Sun le JSWDK en cliquant ici. Le fichier &agrave; t&eacute;l&eacute;charger est au format ZIP. C'est une archive et vous avez besoin d'un programme externe pour la d&eacute;compresser, le shareware WinZip convient parfaitement.</p>
@@ -465,7 +542,9 @@ Nous utiliserons le JSWDK de Sun (Java Servlets Web Development Kit). Vous pouve
   R&eacute;&eacute;dit&eacute; pour Valhalla GFBLOG. <br />
   Ecrit &agrave; Montpellier le 22 avril 2001</p>
 
-</div>
+
+		  
+	  </div>
     </div>
     <div class="col-md-2 col-md-pull-8 col-xs-12 text-center">
       <h2>22 Apr 2001</h2>
@@ -485,7 +564,9 @@ Nous utiliserons le JSWDK de Sun (Java Servlets Web Development Kit). Vous pouve
     <div class="col-md-1"></div>
     <div class="col-md-8 col-md-push-2 col-xs-12">
       <h1><a href="/2001/04/22/comment-charger-une-url-a-partir-dune-applet/">Comment charger une URL à partir d'une applet ?</a></h1>
-      <div class="text-content"><p>Ce &quot;How To&quot; explique comment charger une URL, autrement dit une page web, &agrave; partir d'une applet Java, ins&eacute;r&eacute;e dans une autre page web. Ceci ne posera aucun probl&egrave;me &agrave; un programmeur exp&eacute;riment&eacute; dans la programmation des applets, mais, &agrave; cause des restrictions de s&eacute;curit&eacute; desdites applets, cela peut en poser &agrave; des programmeurs qui ne seraient pas habitu&eacute;s &agrave; travailler avec Java sur Internet.<br />
+      <div class="text-content">
+		  
+		  	<p>Ce &quot;How To&quot; explique comment charger une URL, autrement dit une page web, &agrave; partir d'une applet Java, ins&eacute;r&eacute;e dans une autre page web. Ceci ne posera aucun probl&egrave;me &agrave; un programmeur exp&eacute;riment&eacute; dans la programmation des applets, mais, &agrave; cause des restrictions de s&eacute;curit&eacute; desdites applets, cela peut en poser &agrave; des programmeurs qui ne seraient pas habitu&eacute;s &agrave; travailler avec Java sur Internet.<br />
   En effet, les applets Java sont con&ccedil;ues pour une s&eacute;crit&eacute; de l'h&ocirc;te optimale, il n'est donc pas possible de r&eacute;aliser certaines op&eacute;rations d'Entr&eacute;e/Sortie comme par exemple lire ou &eacute;crire des fichiers sur l'ordinateur de l'h&ocirc;te, ou sur un autre serveur que celui sur lequel est h&eacute;berg&eacute;e l'applet. C'est sur ce dernier point q'un probl&egrave;me peut se poser: la page web &agrave; charger peut ne pas &ecirc;tre sur le m&ecirc;me serveur que l'applet. Ainsi, si le code est mal &eacute;crit, une exception de s&eacute;curit&eacute; sera g&eacute;n&eacute;r&eacute;e, et la page ne sera pas charg&eacute;e. <br />
 Nous allons voir ici comment faire pour &eacute;viter une telle exception. Le code &agrave; &eacute;crire est -tr&egrave;s- simple et court, le voici comment&eacute;:</p>
 <p class="Code">/*<br />
@@ -502,7 +583,9 @@ Nous allons voir ici comment faire pour &eacute;viter une telle exception. Le co
   R&eacute;&eacute;dit&eacute; pour Valhalla GFBLOG. <br />
   Ecrit &agrave; Montpellier le 22 avril 2001</p>
 
-</div>
+
+		  
+	  </div>
     </div>
     <div class="col-md-2 col-md-pull-8 col-xs-12 text-center">
       <h2>22 Apr 2001</h2>
@@ -522,7 +605,9 @@ Nous allons voir ici comment faire pour &eacute;viter une telle exception. Le co
     <div class="col-md-1"></div>
     <div class="col-md-8 col-md-push-2 col-xs-12">
       <h1><a href="/2001/04/13/comment-travailler-avec-des-archives-compressees-au-format-zip-en-java/">Comment travailler avec des archives compressées au format ZIP en Java ?</a></h1>
-      <div class="text-content"><p>Comment travailler avec des archives compress&eacute;es au format ZIP en Java ?</p>
+      <div class="text-content">
+		  
+		  	<p>Comment travailler avec des archives compress&eacute;es au format ZIP en Java ?</p>
 <p>Ce HowTo a pour but de vous expliquer comment cr&eacute;er des archives de fichiers compress&eacute;es au format ZIP et comment ensuite les ouvrir et extraire les fichiers contenus &agrave; l'int&eacute;rieur. Ce n'est en aucun cas un cours th&eacute;orique sur la compression de donn&eacute;es en Java, il s'agit juste d'un tutoriel. De plus, vous devrez utiliser la documentation de Sun si vous d&eacute;sirez en savoir plus sur, par exemple, la mani&egrave;re d'afficher le nom de tous les fichiers d'une archive. Le cas &eacute;ch&eacute;ant, &eacute;crivez moi &agrave; narcanes@online.fr.</p>
 <p>Nous allons dans un premier temps d&eacute;finir une archive ZIP:  </p>
 <table width="100%" border="0">
@@ -650,95 +735,14 @@ Nous allons voir ici comment faire pour &eacute;viter une telle exception. Le co
 
 
 </p></td></tr></p></td></tr></p></td></tr></table>
-</div>
+
+		  
+	  </div>
     </div>
     <div class="col-md-2 col-md-pull-8 col-xs-12 text-center">
       <h2>13 Apr 2001</h2>
       <br>
       <div class="label label-info">822 mots</div>
-      <br>
-        
-          <div class="label label-default">java</div>
-        
-    </div>
-    <div class="col-md-1"></div>
-  </div>
-</div>
-  
-    <div class="container excerpt">
-  <div class="row">
-    <div class="col-md-1"></div>
-    <div class="col-md-8 col-md-push-2 col-xs-12">
-      <h1><a href="/2001/03/17/comment-utiliser-un-filtre-de-fichiers-dans-un-jfilechooser/">Comment utiliser un filtre de fichiers dans un JFileChooser ?</a></h1>
-      <div class="text-content"><p>Cet article explique comment mettre en place un filtre de fichiers dans un JFileChooser, &agrave; partir de leur extension. En effet, cette fonction n'est pas impl&eacute;ment&eacute;e de mani&egrave;re efficace par d&eacute;faut, et il nous faudra cr&eacute;er notre propre classe pour un r&eacute;sultat convenable.<br />
-  Nous allons ensuite cr&eacute;er un JFileChooser et lui assigner notre FileFilter appell&eacute; FiltreExtension.</p>
-<p>Voici donc le code source de la classe comment&eacute;:</p>
-<p class="Code">public class FiltreExtension extends javax.swing.filechooser.FileFilter<br />
-  {<br />
-  // 2 cha&icirc;nes qui contiendront respectivementl'entension du fichier (de la forme &quot;jpg&quot;, &quot;txt&quot;, etc...) et la descritpion<br />
-  // par exemple &quot;Fichier JPEG&quot; ou &quot;Fichier Texte Brut&quot;.<br />
-  String extension;<br />
-String description;</p>
-<p class="Code">// Notre constructeur qui admet donc comme arguments l'extension souhait&eacute;e ainsi que la description que l'on lui associe<br />
-  public FiltreExtension(String extension, String description)<br />
-  {<br />
-  // on n'a ainsi pas besoin (on ne doit pas) inclure le &quot;.&quot; (point) dans le libell&eacute; de l'extension<br />
-  if (extension.indexOf('.') == -1)<br />
-  extension = &quot;.&quot; + extension;<br />
-  // on assimile les Strings du d&eacute;part (variables de classe) aux Strings fournis comme argument au constructeur (variableslocales)<br />
-  this.extension = extension;<br />
-  this.description = description;<br />
-  }</p>
-<p class="Code"> public boolean accept(File fichier)<br />
-  {<br />
-  // v&eacute;rifier si le le fichier finit avec l'extension que nous avons sp&eacute;cifi&eacute; dans le constructeur, et, dans ce cas &quot;accepter&quot; de l'afficher<br />
-  // dans la fen&ecirc;tre du JFileChooser<br />
-  if (fichier.getName().endsWith(extension))<br />
-  return true;<br />
-  // les r&eacute;pertoires aussi doivent &ecirc;treaffich&eacute;s dans la fen&ecirc;tre du JFileChooser<br />
-  else if (fichier.isDirectory())<br />
-  return true;<br />
-  return false;<br />
-  }</p>
-<p class="Code"> public String getDescription()<br />
-  {<br />
-  // la description du fichier, que l'on associe &agrave; son extension, on a un affichage du type: &quot;Fichier JPEG (*.jpg)&quot;<br />
-  return this.description + &quot;(*&quot; + extension + &quot;)&quot;;<br />
-  }<br />
-}</p>
-<p> Une fois ce code &eacute;crit dans un fichier du nom de &quot;FiltreExtension.java&quot;, nous pouvons incorporer ce fichier dans nos projets Java et l'utiliser.<br />
-  Pour l'utiliser nous devons cr&eacute;er un JFileChooser et lui assigner un nouveau FileFilter.<br />
-  Voici la proc&eacute;dure:</p>
-<p>1- Cr&eacute;ons un JFileChooser pour commencer: </p>
-<p class="Code">JFileChooser jfc = new JFileChooser();</p>
-<p>2 - D&eacute;finissons le r&eacute;pertoire courant ua r&eacute;pertoired'ex&eacute;cution du programme (optionnel):</p>
-<p class="Code">jfc.setCurrentDirectory(new File(&quot;.&quot;));</p>
-<p>3 - Assignons le FileFilter:</p>
-<p class="Code">jfc.addChoosableFileFilter(new FiltreExtension(&quot;jpg&quot;, &quot;Fichier JPEG&quot;));<br />
-  jfc.addChoosableFileFilter(new FiltreExtension(&quot;bmp&quot;, &quot;Fichier Bitmap&quot;));<br />
-  jfc.addChoosableFileFilter(new FiltreExtension(&quot;gif&quot;, &quot;Fichier GIF&quot;));<br />
-  jfc.addChoosableFileFilter(new FiltreExtension(&quot;png&quot;, &quot;Fichier PNG&quot;));</p>
-<p>4 - r&eacute;cup&eacute;rer le fichier que l'utilisateur a choisi:</p>
-<p class="Code">int resultat = jfc.showOpenDialog(this);<br />
-  if (resultat == JFileChooser.APPROVE_OPTION)<br />
-  {<br />
-  // code &agrave; ex&eacute;cuter comme par exemple:<br />
-  File fichier;<br />
-  fichier = jfc.getSelectedFile();<br />
-  // suite du code...<br />
-  }</p>
-<p>Et voici ce que &ccedil;a donne en action :</p>
-<p><img alt="FileChooser" src="./ressources/java/old/faq/filtre_extension/filtre_extension.jpg" /></p>
-<p>Tutoriel distribu&eacute; pour le FAQ Java de Java-France www.java-france.com / www.jgflsoft.com<br />
-  R&eacute;&eacute;dit&eacute; pour Valhalla GFBLOG. <br />
-  Ecrit &agrave; Montpellier le 17 mars 2001</p>
-
-</div>
-    </div>
-    <div class="col-md-2 col-md-pull-8 col-xs-12 text-center">
-      <h2>17 Mar 2001</h2>
-      <br>
-      <div class="label label-info">480 mots</div>
       <br>
         
           <div class="label label-default">java</div>
@@ -820,7 +824,7 @@ String description;</p>
         <li>Valhalla.fr</li>
         <li>Ad Absurdum</li>
         <li><small>Tous droits réservés, sauf mention contraire.</small></li>
-        <li><small>Mis à jour le  5 Jan 2015 à 00h56.</small></li>
+        <li><small>Mis à jour le 11 Jan 2015 à 13h11.</small></li>
       </ul>
     </div>
     

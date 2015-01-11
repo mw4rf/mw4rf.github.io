@@ -111,8 +111,97 @@
   <div class="row">
     <div class="col-md-1"></div>
     <div class="col-md-8 col-md-push-2 col-xs-12">
+      <h1><a href="/2001/03/17/comment-utiliser-un-filtre-de-fichiers-dans-un-jfilechooser/">Comment utiliser un filtre de fichiers dans un JFileChooser ?</a></h1>
+      <div class="text-content">
+		  
+		  	<p>Cet article explique comment mettre en place un filtre de fichiers dans un JFileChooser, &agrave; partir de leur extension. En effet, cette fonction n'est pas impl&eacute;ment&eacute;e de mani&egrave;re efficace par d&eacute;faut, et il nous faudra cr&eacute;er notre propre classe pour un r&eacute;sultat convenable.<br />
+  Nous allons ensuite cr&eacute;er un JFileChooser et lui assigner notre FileFilter appell&eacute; FiltreExtension.</p>
+<p>Voici donc le code source de la classe comment&eacute;:</p>
+<p class="Code">public class FiltreExtension extends javax.swing.filechooser.FileFilter<br />
+  {<br />
+  // 2 cha&icirc;nes qui contiendront respectivementl'entension du fichier (de la forme &quot;jpg&quot;, &quot;txt&quot;, etc...) et la descritpion<br />
+  // par exemple &quot;Fichier JPEG&quot; ou &quot;Fichier Texte Brut&quot;.<br />
+  String extension;<br />
+String description;</p>
+<p class="Code">// Notre constructeur qui admet donc comme arguments l'extension souhait&eacute;e ainsi que la description que l'on lui associe<br />
+  public FiltreExtension(String extension, String description)<br />
+  {<br />
+  // on n'a ainsi pas besoin (on ne doit pas) inclure le &quot;.&quot; (point) dans le libell&eacute; de l'extension<br />
+  if (extension.indexOf('.') == -1)<br />
+  extension = &quot;.&quot; + extension;<br />
+  // on assimile les Strings du d&eacute;part (variables de classe) aux Strings fournis comme argument au constructeur (variableslocales)<br />
+  this.extension = extension;<br />
+  this.description = description;<br />
+  }</p>
+<p class="Code"> public boolean accept(File fichier)<br />
+  {<br />
+  // v&eacute;rifier si le le fichier finit avec l'extension que nous avons sp&eacute;cifi&eacute; dans le constructeur, et, dans ce cas &quot;accepter&quot; de l'afficher<br />
+  // dans la fen&ecirc;tre du JFileChooser<br />
+  if (fichier.getName().endsWith(extension))<br />
+  return true;<br />
+  // les r&eacute;pertoires aussi doivent &ecirc;treaffich&eacute;s dans la fen&ecirc;tre du JFileChooser<br />
+  else if (fichier.isDirectory())<br />
+  return true;<br />
+  return false;<br />
+  }</p>
+<p class="Code"> public String getDescription()<br />
+  {<br />
+  // la description du fichier, que l'on associe &agrave; son extension, on a un affichage du type: &quot;Fichier JPEG (*.jpg)&quot;<br />
+  return this.description + &quot;(*&quot; + extension + &quot;)&quot;;<br />
+  }<br />
+}</p>
+<p> Une fois ce code &eacute;crit dans un fichier du nom de &quot;FiltreExtension.java&quot;, nous pouvons incorporer ce fichier dans nos projets Java et l'utiliser.<br />
+  Pour l'utiliser nous devons cr&eacute;er un JFileChooser et lui assigner un nouveau FileFilter.<br />
+  Voici la proc&eacute;dure:</p>
+<p>1- Cr&eacute;ons un JFileChooser pour commencer: </p>
+<p class="Code">JFileChooser jfc = new JFileChooser();</p>
+<p>2 - D&eacute;finissons le r&eacute;pertoire courant ua r&eacute;pertoired'ex&eacute;cution du programme (optionnel):</p>
+<p class="Code">jfc.setCurrentDirectory(new File(&quot;.&quot;));</p>
+<p>3 - Assignons le FileFilter:</p>
+<p class="Code">jfc.addChoosableFileFilter(new FiltreExtension(&quot;jpg&quot;, &quot;Fichier JPEG&quot;));<br />
+  jfc.addChoosableFileFilter(new FiltreExtension(&quot;bmp&quot;, &quot;Fichier Bitmap&quot;));<br />
+  jfc.addChoosableFileFilter(new FiltreExtension(&quot;gif&quot;, &quot;Fichier GIF&quot;));<br />
+  jfc.addChoosableFileFilter(new FiltreExtension(&quot;png&quot;, &quot;Fichier PNG&quot;));</p>
+<p>4 - r&eacute;cup&eacute;rer le fichier que l'utilisateur a choisi:</p>
+<p class="Code">int resultat = jfc.showOpenDialog(this);<br />
+  if (resultat == JFileChooser.APPROVE_OPTION)<br />
+  {<br />
+  // code &agrave; ex&eacute;cuter comme par exemple:<br />
+  File fichier;<br />
+  fichier = jfc.getSelectedFile();<br />
+  // suite du code...<br />
+  }</p>
+<p>Et voici ce que &ccedil;a donne en action :</p>
+<p><img alt="FileChooser" src="./ressources/java/old/faq/filtre_extension/filtre_extension.jpg" /></p>
+<p>Tutoriel distribu&eacute; pour le FAQ Java de Java-France www.java-france.com / www.jgflsoft.com<br />
+  R&eacute;&eacute;dit&eacute; pour Valhalla GFBLOG. <br />
+  Ecrit &agrave; Montpellier le 17 mars 2001</p>
+
+
+		  
+	  </div>
+    </div>
+    <div class="col-md-2 col-md-pull-8 col-xs-12 text-center">
+      <h2>17 Mar 2001</h2>
+      <br>
+      <div class="label label-info">480 mots</div>
+      <br>
+        
+          <div class="label label-default">java</div>
+        
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+</div>
+  
+    <div class="container excerpt">
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-8 col-md-push-2 col-xs-12">
       <h1><a href="/2001/03/17/comment-excuter-une-commande-systme-depuis-un-programme-java/">Comment ex&eacute;cuter une commande syst&egrave;me depuis un programme Java ?</a></h1>
-      <div class="text-content"><p>Cet article explique comment ex&eacute;cuter une commande syst&egrave;me, c'est-&agrave;-dire comment faire pour que Java transmette au syst&egrave;me d'exploitation une commande destin&eacute;e normalement &agrave; une console (fen&ecirc;tre MS-DOS sous Windows, Terminal sous UNIX, etc...).</p>
+      <div class="text-content">
+		  
+		  	<p>Cet article explique comment ex&eacute;cuter une commande syst&egrave;me, c'est-&agrave;-dire comment faire pour que Java transmette au syst&egrave;me d'exploitation une commande destin&eacute;e normalement &agrave; une console (fen&ecirc;tre MS-DOS sous Windows, Terminal sous UNIX, etc...).</p>
 <p>Concr&egrave;tement, si vous d&eacute;sirez ex&eacute;cuter dans l'ordre les instructions suivantes en ligne de commande:<br />
   - <span class="Code">cd C:\Program Files\Microsoft Office\Office\</span><br />
   - <span class="Code">Winword.exe</span><br />
@@ -140,7 +229,9 @@ String command = &quot;ipchains -P input DENY&quot;;</p>
   R&eacute;&eacute;dit&eacute; pour Valhalla GFBLOG. <br />
   &Eacute;crit &agrave; Montpellier le 17 mars 2001</p>
 
-</div>
+
+		  
+	  </div>
     </div>
     <div class="col-md-2 col-md-pull-8 col-xs-12 text-center">
       <h2>17 Mar 2001</h2>
@@ -160,7 +251,9 @@ String command = &quot;ipchains -P input DENY&quot;;</p>
     <div class="col-md-1"></div>
     <div class="col-md-8 col-md-push-2 col-xs-12">
       <h1><a href="/2001/03/16/comment-parcourir-une-arborescence-de-fichiers/">Comment parcourir une arborescence de fichiers ?</a></h1>
-      <div class="text-content"><p>Ce document a pour but de vous expliquer, comme le dit son titre, comment d&eacute;tecter et afficher tous les fichiers et sous-r&eacute;pertoires d'un r&eacute;pertoire racine. La solution propos&eacute;e ici utilise la technique de r&eacute;cursivit&eacute;. Il existe certainement d'autres mani&egrave;res de proc&eacute;der mais celle-ci est assez &eacute;l&eacute;gante.</p>
+      <div class="text-content">
+		  
+		  	<p>Ce document a pour but de vous expliquer, comme le dit son titre, comment d&eacute;tecter et afficher tous les fichiers et sous-r&eacute;pertoires d'un r&eacute;pertoire racine. La solution propos&eacute;e ici utilise la technique de r&eacute;cursivit&eacute;. Il existe certainement d'autres mani&egrave;res de proc&eacute;der mais celle-ci est assez &eacute;l&eacute;gante.</p>
 <p>Un tout petit peu de th&eacute;orie quand m&ecirc;me: une m&eacute;thode -ou fonction, routine...- dite r&eacute;cursive est fonction qui fait r&eacute;f&eacute;rence &agrave; elle-m&ecirc;me dans son code, c'est-&agrave;-dire une fonction qui, une fois lanc&eacute;e, s'ex&eacute;cute en boucle tant qu'une certaine condition n'est pas remplie.</p>
 <p>Si le code est mal programm&eacute;, que la condition ne permet jamais l'arr&ecirc;t de la m&eacute;thode, on aura une erreur du type StackOverflow, ce qui signifie que vous &ecirc;tes en train de noyer compl&egrave;tement votre programme avec des calculs astronomiques.</p>
 <p>Tous les &eacute;tudiants en informatique on eu &agrave; passer par les c&eacute;l&egrave;bres Tours de Hano&iuml;, programme qui doit &ecirc;tre r&eacute;alis&eacute; &agrave; l'aide de m&eacute;thodes r&eacute;cursives. A titre indicatif (le but n'est quand m&ecirc;me pas de vous faire crouler sous la th&eacute;orie ;) quand on parle de solution r&eacute;cursive, il existe souvent une autre solution dite it&eacute;rative (bas&eacute;e sur l'utilisation de boucles for, while, etc). Cette solution it&eacute;rative est plus rapide &agrave; l'ex&eacute;cution, mais plus difficile &agrave; programmer.</p>
@@ -189,7 +282,9 @@ String command = &quot;ipchains -P input DENY&quot;;</p>
   R&eacute;&eacute;dit&eacute; pour Valhalla GFBLOG. <br />
   &Eacute;crit &agrave; Montpellier le 16 mars 2001</p>
 
-</div>
+
+		  
+	  </div>
     </div>
     <div class="col-md-2 col-md-pull-8 col-xs-12 text-center">
       <h2>16 Mar 2001</h2>
@@ -209,7 +304,9 @@ String command = &quot;ipchains -P input DENY&quot;;</p>
     <div class="col-md-1"></div>
     <div class="col-md-8 col-md-push-2 col-xs-12">
       <h1><a href="/2001/03/15/comment-debuter-avec-jbuilder/">Comment débuter avec JBuilder ?</a></h1>
-      <div class="text-content"><p>Ce document a pour but de vous aider &agrave; prendre en main un des meilleurs IDE Java: JBuilder 3.5. Vous devez lire la suite si les IDE (environnements de d&eacute;veloppement int&eacute;gr&eacute;s) ne vous sont pas familiers, ou si vous d&eacute;butez avec JBuilder.</p>
+      <div class="text-content">
+		  
+		  	<p>Ce document a pour but de vous aider &agrave; prendre en main un des meilleurs IDE Java: JBuilder 3.5. Vous devez lire la suite si les IDE (environnements de d&eacute;veloppement int&eacute;gr&eacute;s) ne vous sont pas familiers, ou si vous d&eacute;butez avec JBuilder.</p>
 <p>
   Nous allons vous pr&eacute;senter l'interface graphique, et cr&eacute;er un petit programme pour vous montrer comment se servir d'une des fonctions les plus abouties: la cr&eacute;ation automatis&eacute;e d'interfaces utilisateur.</p>
 <p>NOTE: ce document contient 11 images, il peut &ecirc;tre assez long &agrave; charger.</p>
@@ -287,7 +384,9 @@ Chaque fichier ouvert vient cr&eacute;er un nouvel onglet et s'affiche dans cett
   R&eacute;&eacute;dit&eacute; pour Valhalla GFBLOG <br />
   &Eacute;crit &agrave; Montpellier le 15 mars 2001</p>
 
-</div>
+
+		  
+	  </div>
     </div>
     <div class="col-md-2 col-md-pull-8 col-xs-12 text-center">
       <h2>15 Mar 2001</h2>
@@ -307,7 +406,9 @@ Chaque fichier ouvert vient cr&eacute;er un nouvel onglet et s'affiche dans cett
     <div class="col-md-1"></div>
     <div class="col-md-8 col-md-push-2 col-xs-12">
       <h1><a href="/2001/03/14/installer-java-sur-un-pc-linux/">Installer Java sur un PC Linux</a></h1>
-      <div class="text-content"><p>
+      <div class="text-content">
+		  
+		  	<p>
 Cet article a pour but de vous montrer la marche à suivre pour installer et configurer un environnement de développent Java viable sur une machine tournant sous le système d'exploitation Linux.<br />
 Dans ce tutoriel, nous utiliserons:</p>
 <ul>
@@ -408,7 +509,9 @@ Maintenant publié sur Valhalla GFBLOG<br />
 Ecrit à Montpellier le 14 mars 2001
  </p>
 
-</div>
+
+		  
+	  </div>
     </div>
     <div class="col-md-2 col-md-pull-8 col-xs-12 text-center">
       <h2>14 Mar 2001</h2>
@@ -489,7 +592,7 @@ Ecrit à Montpellier le 14 mars 2001
         <li>Valhalla.fr</li>
         <li>Ad Absurdum</li>
         <li><small>Tous droits réservés, sauf mention contraire.</small></li>
-        <li><small>Mis à jour le  5 Jan 2015 à 00h56.</small></li>
+        <li><small>Mis à jour le 11 Jan 2015 à 13h11.</small></li>
       </ul>
     </div>
     
