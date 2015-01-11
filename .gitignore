@@ -1,0 +1,13 @@
+_site/
+.sass-cache/
+
+.bundle/
+tmp/*
+.jekyll-metadata
+*.gem
+Gemfile.lock
+
+.DS_Store
+
+.UlyssesRoot
+.Ulysses-Group.plist
