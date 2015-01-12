@@ -9,3 +9,6 @@ require 'open-uri'
 
 # OFFLINE VERSION
 gem 'github-pages'
+
+# Other gems (github compatible)
+gem 'jekyll-sitemap'
