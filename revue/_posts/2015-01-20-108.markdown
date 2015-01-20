@@ -1,0 +1,27 @@
+---
+layout: post
+status: publish
+published: true
+permalink: /revue/numero-108/
+title: Numéro 108 - Semaine du 12 au 18 janvier 2015
+author: GF, Six
+date: '2015-01-20 20:16:32'
+categories:
+- Revue
+tags:
+- Internet
+- Google
+- Apple
+- Vie privée
+- Propriété intellectuelle
+- Marques
+---
+
+La _revue hebdomadaire d'actualité du droit des nouvelles technologies_ revient, en 2015, dans une nouvelle édition. Voici le premier numéro, numéroté 108 pour s'inscrire dans le prolongement de l'ancienne édition.
+
+L'actualité est encore marquée, cette semaine, par les attentats terroristes contre Charlie Hebdo. Certaines personnes ont tenté de déposer la marque _"Je suis Charlie"_ afin de réclamer des _royalties_ à chacune de ses utilisations dans les médias. [L'INPI leur a rapidement répondu qu'un tel dépôt était irrecevable](http://www.droit-technologie.org/actuality-1689/je-suis-charlie-peut-il-etre-enregistre-en-tant-que-marque.html), faute pour le slogan d'avoir un _caractère distinctif_. Quant à ceux qui ont publiquement fait l'apologie du terrorisme, abusant d'un droit à la libre expression qui ne saurait justifier l'ignominie, [ils ont été promptement condamnés](http://www.droit-technologie.org/actuality-1688/charlie-hebdo-voici-les-premieres-condamnations-pour-apologie-du-ter.html).  
+
+Google, toujours présent dans ces colonnes, est de nouveau sollicité pour imposer le respect du droit à l'oubli, consacré par la Cour de Luxembourg dans son [arrêt du 13 mai 2014 (C-131/12)](http://curia.europa.eu/juris/document/document.jsf;jsessionid=9ea7d0f130de53d4fe3dfafd4df58c37e0cdff20638c.e34KaxiLc3eQc40LaxqMbN4ObhmKe0?text=&docid=152065&pageIndex=0&doclang=fr&mode=lst&dir=&occ=first&part=1&cid=226733). La société a été [condamnée en référé, en décembre dernier](http://www.legalis.net/spip.php?page=jurisprudence-decision&id_article=4425), à retirer les liens vers un contenu mettant en lumière une condamnation pénale de la demanderesse. Cette condamnation ancienne n'était pas mentionnée dans son casier judiciaire et l'article référencé par Google lui causait un préjudice injustifié, en rendant plus difficile sa recherche d'un emploi.
+
+L'on parle souvent du _filtrage_ et du _blocage_ des contenus sur Internet, par des mesures techniques mises en œuvre par les intermédiaires techniques. Souvent présenté comme une solution miraculeuse lorsque le contenu provient de l'étranger, le blocage peut aussi avoir des effets pervers et être utilisé de manière abusive. Tel est le cas dans un [arrêt rendu par la Cour d'appel de Lyon le 18 décembre 2014](http://www.legalis.net/spip.php?page=jurisprudence-decision&id_article=4428) : une société est condamnée pour avoir demandé le blocage de la page Facebook d'une concurrence, causant un préjudice à cette dernière.
+
