@@ -9,7 +9,34 @@ layout: default
       <div class="page-header">
         <h1>
           {{ page.title }}
-          <small>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {% if page.author.display_name %}{{page.author.display_name}}{%else%}{{ page.author }}{% endif %}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</small>
+          <small>
+              {{ page.date | date: "%b %-d, %Y" }}
+              
+              {% if page.author %} • 
+                  {% if page.author.display_name %}
+                      {{page.author.display_name}}
+                  {%else%}
+                      {% assign authorCount = page.author | size %}
+                      {% if authorCount == 0 %}
+                          Anonyme
+                      {% elsif authorCount == 1 %}
+                          {{ page.author | first }}
+                      {% else %}
+                          {% for a in page.author %}
+                              {% if forloop.first %}
+                                  {{ a }}
+                              {% elsif forloop.last %}
+                                  et {{ a }}
+                              {% else %}
+                                  , {{ a }}
+                              {% endif %}
+                          {% endfor %}
+                      {% endif %}
+                  {% endif %}
+              {% endif %}
+
+              {% if page.meta %} • {{ page.meta }}{% endif %}
+          </small>
         </h1>
       </div>
       
