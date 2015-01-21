@@ -4,7 +4,9 @@ status: publish
 published: true
 permalink: /revue/numero-108/
 title: Numéro 108 - Semaine du 12 au 18 janvier 2015
-author: GF, Six
+author:
+- GF
+- Six
 date: '2015-01-20 20:16:32'
 categories:
 - Revue
