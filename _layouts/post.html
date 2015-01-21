@@ -10,7 +10,7 @@ layout: default
         <h1>
           {{ page.title }}
           <small>
-              {{ page.date | date: "%b %-d, %Y" }}
+              {{ page.date | date: "%-d %b %Y" }}
               
               {% if page.author %} • 
                   {% if page.author.display_name %}
