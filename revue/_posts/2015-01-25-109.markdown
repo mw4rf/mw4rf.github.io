@@ -36,6 +36,30 @@ Cela ne suffit toujours pas : certains contenus sont _chiffrés_. L'on ne peut a
 
 Pour terminer sur une note positive, réjouissons-nous que la proposition stupide d'incriminer la consultation de sites terroristes ([amendement 16](http://www.assemblee-nationale.fr/14/amendements/0409/16.asp) et [amendement 25](http://www.assemblee-nationale.fr/14/amendements/0409/25.asp) à la loi n°2012-1432 du 21 décembre 2012) n'ait pas refait surface, après avoir été [enterrée par l'Assemblée nationale en 2012](http://www.numerama.com/magazine/24375-sites-terroristes-le-delit-de-visite-reguliere-rejete-a-l-assemblee-nationale.html).
 
+# Six Vision
+
+### La liberté d'expression face à la liberté de religion
+
+Depuis l'attentat du 7 janvier 2015 contre Charlie Hebdo, la question des limites à la liberté d'expression est revenue à l'ordre du jour. Ce journal, connu pour ses caricatures créant polémique, abuse-t-il de la liberté d'expression ? Cette liberté est protégée par la Constitution et par des conventions internationales, notamment au niveau européen par la CEDH (article 10), au même titre que la liberté de pensée, de conscience et de religion (article 9). [Ces deux droits peuvent entrer en conflit](http://tempsreel.nouvelobs.com/justice/20150120.OBS0403/hidalgo-porte-plainte-contre-la-chaine-americaine-fox-news.html?xtor=RSS-25)  et il incombe alors au juge de déterminer quelle liberté primera sur l'autre.
+
+On le sait, l'article 10 de la Convention EDH protège la liberté d'expression alors que c'est l'article 9 de la même convention qui régit la liberté de religion. Lorsque les deux libertés sont au même rang, comment résoudre un conflit ? Les articles de la Convention EDH encadrent ces libertés qui ne sont pas absolues ; l'injure et la diffamation religieuses sont sanctionnées. La Convention laisse une certaine marge de manœuvre aux États qui n'ont pas nécessairement les mêmes approches des religions. Cependant, la Cour opère tout de même un contrôle de nécessité et de proportionnalité.
+
+### La plainte du maire de Paris contre Fox News
+
+Anne Hidalgo, maire de Paris souhaite dans les prochains jours, [porter plainte contre la notoire chaîne d'information américaine Fox News](http://tempsreel.nouvelobs.com/justice/20150120.OBS0403/hidalgo-porte-plainte-contre-la-chaine-americaine-fox-news.html?xtor=RSS-25)  pour des propos qui auraient été tenus sur Paris à la suite des attentats. En effet, la chaîne a présenté certains quartiers de la capitale comme "très dangereux" interdites aux non-musulmans ("no-go zones"), vision considérée comme erronée par Mme Hidalgo. Celle-ci déclare que l'annonce de Fox News aurait "nui à l'image, en colportant des informations qui sont mensongères". 
+
+### Attentats de Charlie Hebdo : la liberté d'expression française au coeur de l'actualité
+
+Peut-on parler de ["liberté d'expression à deux vitesses" ](http://tempsreel.nouvelobs.com/charlie-hebdo/20150120.OBS0346/une-liberte-d-expression-a-deux-vitesses-7-questions-pour-comprendre.html?xtor=RSS-25) ?
+
+Selon Manuels Valls, _"la liberté d'expression, c'est de pouvoir dire qu'on est Charlie ou qu'on ne l'est pas"_. Cette déclaration a été faite suite au message de l'humoriste Dieudonné se sentant "Charlie Coulibaly". Les caricatures seraient autorisées mais non le fait de se sentir "Charlie Coulibaly" ? 
+
+La loi de 1881 sanctionne les atteintes à la liberté d'expression : l'injure, la diffamation, la calomnie, l'incitation à la discrimination, à la haine et à la violence. Il est par exemple possible de caricaturer et critiquer les religions, du moment qu'on n'injurie ou ne provoque pas les croyants. 
+
+Quant à l'humour, la jurisprudence française permet le droit _"à l'excès, à l'outrance et à la parodie"_ dans les cas où la finalité est humoristiques. Pour ce qui est des caricatures ou des satires, il revient au juge d'en apprécier le caractère.
+
+Le fait que la justice condamne Dieudonné et non Charlie Hebdo peut donner une (fausse) impression de _"liberté d'expression à deux vitesses"_ alors qu'il s'agit en réalité d'une simple application de la loi : une caricature dans un cas, une diffamation, injure ou provocation à la haine raciale dans l'autre cas. 
+
 
 
 
