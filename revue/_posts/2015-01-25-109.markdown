@@ -12,11 +12,13 @@ categories:
 - Revue
 tags:
 - Internet
-- Google
-- Apple
 - Vie privée
-- Propriété intellectuelle
-- Marques
+- Terrorisme
+- Surveillance
+- Liberté d'expression
+- Intermédiaires
+- Filtrage
+- Blocage
 ---
 
 
