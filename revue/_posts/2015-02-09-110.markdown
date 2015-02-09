@@ -1,0 +1,59 @@
+---
+layout: post
+status: publish
+published: true
+permalink: /revue/numero-110/
+title: Numéro 110 - Semaines du 26 janvier au 8 février 2015
+author:
+- GF
+- Six
+date: '2015-02-09 13:45:20'
+categories:
+- Revue
+tags:
+- Internet
+- Google
+- Vie privée
+- Liberté d'expression
+---
+
+
+Le [décret n°2015-125 du 5 février 2015](http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000030195477) organise le filtrage et le blocage administratifs des sites web faisant l'apologie du terrorisme ou diffusant des contenus pédopornographiques. Une liste noire de sites à bloquer est élaborée par la police, puis communiquée aux fournisseurs d'accès qui _"empêchent par tout moyen approprié l'accès aux services fournis par les adresses électroniques figurant sur la liste"_. Tous les trimestres, l'administration visite les sites bloqués afin de savoir s'ils doivent être maintenus sur la liste noire ou retirés de celle-ci.
+
+Le comité consultatif réuni par Google suite à l'arrêt _Google Spain_ (CJUE, 13 mai 2014) a [rendu son rapport](https://drive.google.com/file/d/0B1UgZshetMd4cEI3SjlvV0hNbDA/view?pli=1). Quatre critères sont proposés pour décider si un lien doit être déréférencé pour garantir le "droit à l'oubli" d'une personne :
+
+- La personnalité publique ou privée du requérant : une personne publiquement impliquée dans la vie politique, économique, sociale, religieuse, sportive, artistique, etc., sera considérée comme un personnage public, ce qui fera pencher la balance du côté du droit à l'information ;
+- La nature de l'information : certaines informations ont un caractère intime ou intrinsèquement privé (par exemple l'orientation sexuelle, l'état de santé, la situation financière...), d'autres ont un caractère public (par exemple les opinions de notoriété publique) ;
+- L'origine de l'information : les sources officielles et les journalistes dotés d'une carte de presse sont réputés plus fiables que les particuliers, blogueurs, etc. ;
+- Le facteur temporel : une information peut être pertinence à un moment donné, puis cesser de l'être, elle devra alors être retirée ; au contraire, une information à l'origine insignifiante peut gagner de l'importance si la notoriété de la personne concernée augmente.
+
+Ces critères peuvent paraître assez évidents, mais leur mise en œuvre risque de se révéler périlleuse. Chaque critère peut pencher, selon la situation, en faveur du retrait ou en faveur du maintien du lien litigieux. En outre, les critères peuvent entrer en contradiction les uns avec les autres. La décision finale n'aura rien d'automatique.
+
+Autre problème, plus grave : l'arrêt de la CJUE n'atteint par le moteur de recherche principal de Google, aux États-Unis. Ainsi, un lien peut être retiré lorsque la recherche est effectuée sur _google.fr_ et demeurer présent lorsqu'elle est effectuée sur _google.com_. Le droit américain est plus protecteur de la liberté d'expression que le droit européen. Le [G29 recommande l'extension mondiale du droit à l'oubli](http://ec.europa.eu/justice/data-protection/article-29/documentation/opinion-recommendation/files/2014/wp225_en.pdf)... mais cela ne reviendrait-il pas à donner effet à la loi la plus restrictive de la liberté d'expression ?
+
+## Six Vision
+
+### Le mariage homosexuel franco-marocain
+
+[Deux personnes de même sexe, un français et un marocain, vivant à Chambéry, ont décidé de se marier](http://lesactualitesdudroit.20minutes-blogs.fr/archive/2015/01/29/le-mariage-pour-tous-s-invite-au-maroc-912833.html) en se prévalant de l'article 202-1 al. 2 du Code civil : _"deux personnes de même sexe peuvent contracter mariage lorsque, pour au moins l'une d'elles, soit sa loi personnelle, soit la loi de l'État sur le territoire duquel elle a son domicile ou sa résidence le permet"_. Cependant, la convention franco-marocaine de 1981 contenait des stipulations contraires à cet article ; or, les conventions internationales ont une valeur supérieure à la loi en vertu de l'article 55 de la Constitution de 1958. Les juges du fond du TGI et la Cour d'appel de Chambéry ont toutefois écarté l'application de la convention, devenue selon eux contraire à l'ordre public international français qui a évolué avec la loi permettant le "mariage pour tous". La Cour de cassation a validé l'analyse des juges du fond : le mariage est possible dès lors qu'il existe _"un rattachement du futur époux étranger à la France"_, ce qui était bien le cas en l'espèce. 
+
+### Poursuite française pour non assistance à personne en danger
+
+[Jean Mercier, âgé de 87 ans, est poursuivi pour avoir aidé sa femme Josanne, 83 ans, à mourir](http://m.nouvelobs.com/article/20150202.OBS1446/jean-87-ans-poursuivi-pour-avoir-aide-sa-femme-a-mourir.html). L'avocat de celui-ci, M. Boulay, a déposé une QPC relative au suicide, rejetée le mardi 4 janvier. Le jugement au fond aura lieu courant septembre 2015.
+
+Peut-on poursuivre une personne pour non assistance à personne en danger dans le cas d'une aide au suicide ? Pour l'avocat de M. Mercier, l'épouse de ce dernier endurant de terribles souffrances, il _"n'a pas commis de provocation au suicide de son épouse"_.
+
+### Le droit à l'oubli sur "Google.com"
+
+[Les CNIL européennes veulent que le droit à l'oubli s'applique sur "Google.com"](http://www.lemonde.fr/pixels/article/2014/11/27/les-cnil-europeennes-souhaitent-que-le-droit-a-l-oubli-s-applique-sur-google-com_4530508_4408996.html). 
+
+Le mercredi 26 novembre, les autorités européennes, dont la CNIL, chargées de la protection des données se sont réunies, notamment sur le sujet du droit à l'oubli. Elles ont considéré que le droit à l'oubli ne devait plus seulement s'appliquer sur les moteurs de recherche locaux, mais aussi sur les moteurs mondiaux tels que _google.com_.
+
+[Ce vendredi 6 février, le comité consultatif réuni par Google a rendu son rapport](http://www.lemonde.fr/pixels/article/2015/02/06/droit-a-l-oubli-le-comite-consultatif-de-google-rend-son-rapport_4570444_4408996.html). Celui-ci retient quatre critères principaux afin d'aider les moteurs de recherche à trier les demandes de déférencement :
+
+- Le rôle de la personne dans la vie publique ;
+- Le type d'information visé ;
+- Le type de site qui contient l'information ;
+- L'ancienneté de l'information.
+
+
