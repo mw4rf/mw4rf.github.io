@@ -25,7 +25,7 @@ Le comité consultatif réuni par Google suite à l'arrêt _Google Spain_ (CJUE,
 - La personnalité publique ou privée du requérant : une personne publiquement impliquée dans la vie politique, économique, sociale, religieuse, sportive, artistique, etc., sera considérée comme un personnage public, ce qui fera pencher la balance du côté du droit à l'information ;
 - La nature de l'information : certaines informations ont un caractère intime ou intrinsèquement privé (par exemple l'orientation sexuelle, l'état de santé, la situation financière...), d'autres ont un caractère public (par exemple les opinions de notoriété publique) ;
 - L'origine de l'information : les sources officielles et les journalistes dotés d'une carte de presse sont réputés plus fiables que les particuliers, blogueurs, etc. ;
-- Le facteur temporel : une information peut être pertinence à un moment donné, puis cesser de l'être, elle devra alors être retirée ; au contraire, une information à l'origine insignifiante peut gagner de l'importance si la notoriété de la personne concernée augmente.
+- Le facteur temporel : une information peut être pertinente à un moment donné, puis cesser de l'être, elle devra alors être retirée ; au contraire, une information à l'origine insignifiante peut gagner de l'importance si la notoriété de la personne concernée augmente.
 
 Ces critères peuvent paraître assez évidents, mais leur mise en œuvre risque de se révéler périlleuse. Chaque critère peut pencher, selon la situation, en faveur du retrait ou en faveur du maintien du lien litigieux. En outre, les critères peuvent entrer en contradiction les uns avec les autres. La décision finale n'aura rien d'automatique.
 
