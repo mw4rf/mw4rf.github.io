@@ -1,0 +1,73 @@
+---
+layout: post
+status: publish
+published: true
+permalink: /revue/numero-111/
+title: Numéro 111 - Semaine du 8 au 15 février 2015
+author:
+- GF
+- Six
+date: '2015-02-15 14:32:20'
+categories:
+- Revue
+tags:
+- Internet
+- Google
+- Vie privée
+- Liberté d'expression
+---
+
+## Droit international privé
+
+Les deux théories concurrentes, l'accessibilité et la focalisation, continuent de s'affronter dans le domaine des conflits de lois et dans celui des conflits de juridictions.
+
+### Conflits de lois
+
+Nouveau rebondissement en matière de conflit de lois sur Internet : le Conseil d'État fait application de la théorie de la focalisation [dans une décision du 21 janvier 2015](http://www.legalis.net/spip.php?page=jurisprudence-decision&id_article=4479). Rappelons brièvement les données du problème. Internet est, par essence, un réseau mondial accessible en tout point du globe ; ainsi, les sites français sont visibles à l'étranger et, réciproquement, les sites étrangers sont visibles en France. Dès lors, comment décider si la loi française est applicable à tel ou tel site ? Deux thèses s'opposent : pour les tenants de la première, la loi française doit être applicable dès lors que le site en cause est _accessible_ sur le territoire français (théorie de l'accessibilité) ; à l'inverse, pour les partisans de la seconde, l'application de la loi française doit être subordonnées à l'existence d'un lien entre le site et le public français (théorie de la focalisation). La première thèse est excessive car il est évident que le droit français n'a pas vocation à régir l'ensemble du réseau. Il est donc plus raisonnable de n'appliquer la loi française qu'aux sites qui _visent_ la France ou qui sont hébergés en France. Telle est la position adoptée par le Conseil d'État.
+
+Il s'agissait, en l'espèce, du site web d'un dentiste établi à Paris et à Londres. Ce site, intégralement rédigé en langue anglaise, était destiné à promouvoir le cabinet londonien. L'ordre français des chirurgiens dentistes porta plainte contre le dentiste, soutenant que le site litigieux faisait de la publicité en violation de [l'article R.4127-215 du Code de la santé publique](http://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=875E76E54B68B06400D216C3AA1254E5.tpdila24v_2?idArticle=LEGIARTI000006913015&cidTexte=LEGITEXT000006072665&dateTexte=20090910), selon lequel _"la profession dentaire ne doit pas être pratiquée comme un commerce"_ et _"sont notamment interdits : (...) tous procédés directs ou indirects de publicité"_. Le Conseil d'État juge que l'interdiction de réaliser de la publicité concerne _"la mise à disposition du public, par un praticien ou sans que celui-ci ne s’y soit opposé, d’une information qui ne se limite pas à un contenu objectif et qui vise à promouvoir auprès de patients éventuels l’activité au titre de laquelle ce praticien est inscrit au tableau de l’ordre des chirurgiens-dentistes en France"_, mais que _"dans l’hypothèse où, eu égard à son contenu, cette information n’est pas destinée à de telles personnes, la circonstance qu’elle leur soit librement accessible, notamment lorsqu’elle figure sur un site internet, n’est pas, par elle-même, de nature à lui conférer le caractère d’une publicité prohibée"_. En d'autres termes, le contenu litigieux ne peut être qualifié de publicité prohibée par le seul fait qu'il soit accessible en France. S'il s'agit bien d'une publicité, celle-ci n'est interdite par la loi française que si elle vise le public français. En l'espèce, seul le public anglais étant visé, l'interdiction est sans effet. 
+
+### Conflits de juridictions
+
+Dans le domaine des conflits de juridictions, c'est la théorie de l'accessibilité qui prévaut. La [Cour de justice de l'Union européenne a jugé, dans un arrêt du 22 janvier 2015 (C-441/13)](http://curia.europa.eu/juris/document/document.jsf?text=&docid=161611&pageIndex=0&doclang=fr&mode=lst&dir=&occ=first&part=1&cid=289760) que l'article 5§3 du réglement 44/2001 devait être interprété _"en ce sens que, en cas d’atteinte alléguée aux droits d’auteur et aux droits voisins du droit d’auteur garantis par l’État membre de la juridiction saisie, celle-ci est compétente, au titre du lieu de la matérialisation du dommage, pour connaître d’une action en responsabilité pour l’atteinte à ces droits du fait de la mise en ligne de photographies protégées sur un site Internet accessible dans son ressort"_ et que _"cette juridiction n’est compétente que pour connaître du seul dommage causé sur le territoire de l’État membre dont elle relève"_.
+
+L'article 5§3 du réglement 44/2001 (désormais art. 7 du réglement 1215/2012) énonce qu'une personne _"domiciliée sur le territoire d’un État membre peut être attraite, dans un autre État membre : (...) en matière délictuelle ou quasi délictuelle, devant le tribunal du lieu où le fait dommageable s’est produit ou risque de se produire"_. Lorsque le délit est constitué par la diffusion d'une information sur Internet, où doit-on situer le _"lieu où le fait dommageable s’est produit ou risque de se produire_" ? Pour les tenants de l'accessibilité, il suffit que le site litigieux soit _accessible_ dans le ressort du tribunal pour que celui-ci soit compétent, tandis que les partisans de la théorie de la focalisation exigent que soit démontré un lien _substantiel, significatif ou suffisant_ (pour reprendre la terminologie de la Cour d'appel de Pais) entre le site litigieux et le for. La Cour de justice de l'Union européenne s'est prononcée à plusieurs reprises en faveur de l'accessibilité (arrêts [eDate C-509/09 et C-161/10 du 25 octobre 2011](http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:62009CJ0509:fr:HTML), [Wintersteiger C-523/10 du 19 avril 2012](http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:62010CJ0523:FR:HTML) et [Pinckney C-170/12 du 3 octobre 2013](http://curia.europa.eu/juris/document/document.jsf?text=&docid=142613&pageIndex=0&doclang=FR&mode=lst&dir=&occ=first&part=1&cid=15236)). L'arrêt du 22 janvier 2015 confirme la solution, désormais bien établie.
+
+## Droit à l'oubli
+
+L'on a beaucoup parlé du droit à l'oubli sur Internet, depuis l'arrêt _Google Spain_ de la Cour de justice de l'Union européenne. 
+
+Mais le domaine du droit à l'oubli est plus large que celui du déréférencement de liens dirigeant vers des contenus anciens. Sa mise en œuvre sur les réseaux sociaux est actuellement débattue : que faire du profil d'une personne après son décès ? Le réseau social américain [Facebook propose une réponse](http://www.numerama.com/magazine/32211-facebook-vous-permet-de-leguer-votre-profil-en-cas-de-mort.html) : chaque utilisateur peur décider, de son vivant, que sera l'avenir de son profil après sa mort. Il peut ainsi ordonner son retrait (ses proche devront alors communiquer à Facebook un certificat de décès) ou nommer un légataire qui sera chargé d'administrer le profil. 
+
+Le droit à l'oubli revient également sur le devant de la scène à propos des données de santé. Les patients malades d'un cancer éprouvent de grandes difficultés à obtenir un prêt auprès des banques ou un contrat d'assurance à des taux "normaux". Pour eux, en raison de leur faible espérance de vie, les taux s'envolent. C'est la liberté des prix et du commerce. Le problème survient lorsque ces patients sont guéris. En effet, s'ils le sont pour les médecins, ils ne le sont pas nécessairement pour les banquiers et les assureurs, qui continuent de leur appliquer des taux exorbitants. La ministre de la santé, Marisol Touraine, a donc annoncé que [le gouvernement envisageait de légiférer](http://www.francesoir.fr/societe-sante/le-gouvernement-souhaite-legiferer-sur-le-droit-loubli-pour-les-anciens-malades) en faveur des patients, afin que leur ancienne maladie soit "oubliée".
+
+## Six Vision
+
+### Mediapart et l'atteinte à la vie privée
+
+Dans l'affaire Bettencourt, la milliardaire avait soutenu que la publication sur Mediapart d'enregistrements faits par son maître d'hôtel à son domicile constituaient un "[trouble manifestement illicite constitué par une atteinte à l'intimité de sa vie privée](http://actu.dalloz-etudiant.fr/a-la-une/article/liberte-dexpression-v-vie-privee-la-vie-privee-doit-rester-privee/h/40aa0ceea333a72000cef1868047b82d.html)".
+
+Après un premier passage devant la Cour de cassation, la Cour d'appel de renvoi avait jugé que le Mediapart devait retirer tout enregistrement. Un nouveau pourvoi avait alors été formé. Il fut rejeté au motif que _"constitue une atteinte à l'intimité de la vie privée, que ne légitime pas l'information du public, la captation, l'enregistrement ou la transmission sans le consentement de leur auteur des paroles prononcées à titre privé ou confidentiel"_. La Cour de cassation juge également que le domicile de chaque individu est protégé par l'article 8 de la Conv. EDH ; ainsi, les informations qui y sont captées ne peuvent pas être divulguées sans violation de la vie privée.
+
+Ainsi, l'atteinte à la vie privée n'est pas toujours caractérisée par le contenu des enregistrements ; elle peut l'être par le seul fait d'enregistrer _"de manière clandestine et dans des circonstances notoirement intrusives"_.
+
+### Charlie Hebdo : les médias sanctionnés par le CSA
+
+Le CSA a, le 11 février, [rendu ses conclusions sur la manière dont les médias (radios et télévisions) ont traité l'affaire Charlie Hebdo](http://www.lefigaro.fr/medias/2015/02/12/20004-20150212ARTFIG00332-charlie-hebdo-le-csa-sanctionne-fermement-les-medias.php). Tous les médias ont été sanctionnés sauf M6, LCI étant la chaîne la plus atteinte (mises en demeure et mises en garde). Deux critères ont été principalement retenus pour sanctionner les médias : le respect de la dignité de la personne et la sauvegarde de l'intérêt public.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
