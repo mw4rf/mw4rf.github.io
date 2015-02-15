@@ -4,6 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-111/
 title: Numéro 111 - Semaine du 8 au 15 février 2015
+excerpt: "Au sommaire cette semaine, les dernières évolutions en matière de droit internationali privé sur Internet, de nouvelles façons d'aborder le droit à l'oubli, le droit au respect de la vie privée et la liberté d'expression."
 author:
 - GF
 - Six
@@ -15,6 +16,9 @@ tags:
 - Google
 - Vie privée
 - Liberté d'expression
+- Droit à l'oubli
+- Conflits de lois
+- Conflits de juridictions
 ---
 
 ## Droit international privé
