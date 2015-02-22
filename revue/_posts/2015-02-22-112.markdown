@@ -1,0 +1,33 @@
+---
+layout: post
+status: publish
+published: true
+permalink: /revue/numero-112/
+title: Numéro 112 - Semaine du 16 au 22 février 2015
+author:
+- GF
+- Six
+date: '2015-02-22 12:38:00'
+categories:
+- Revue
+tags:
+- Internet
+- Données personnelles
+- Filtrage
+- P2P
+- Littérature
+- Vie privée
+- Surveillance
+- piratage
+- droit du travail
+---
+
+C'est probablement une nouvelle saga qui commence, après celle de The Pirate Bay : la saga T411. Le site français de "torrents" (liens permettant de télécharger des fichiers, certains contrefaisants) risque d'être bloqué comme son grand frère suédois, [les producteurs de disques s'en chargent](http://www.nextinpact.com/news/93110-pourquoi-producteurs-disques-veulent-bloquer-t411-me.htm). Leur action est fondée sur l’article [L.336-2 du Code de la propriété intellectuelle](http://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006069414&idArticle=LEGIARTI000020740350) qui permet au juge d’ordonner, « _en présence d’une atteinte à un droit d’auteur ou à un droit voisin occasionnée par le contenu d’un service de communication au public en ligne, (…) toutes mesures propres à prévenir ou à faire cesser une telle atteinte à un droit d’auteur ou un droit voisin, à l’encontre de toute personne susceptible de contribuer à y remédier_ ». En d’autres termes, les ayants droit demandent au juge d’ordonner aux fournisseurs d’accès français de bloquer l’accès au site _t411.me_. Qu’à cela ne tienne, [le site change de nom de domaine](http://www.numerama.com/magazine/32295-t411-change-de-nom-de-domaine.html) pour prévenir le blocage ! Le jeu du chat et de la souris ne fait que commencer et l’on peut se demander qui du droit ou de la technologie sera le plus rapide…
+
+Pourrait-on créer un _Spotify_ ou un _Netflix_ du livre en France ? La [réponse semble être négative](http://www.numerama.com/magazine/32268-officiel-creer-un-netflix-du-livre-est-bel-et-bien-interdit-en-france.html), d’après [un récent rapport du _médiateur du livre_](https://www.scribd.com/fullscreen/256253599?access_key=key-FznZvH4mKzIWQ1cBH4Fw&allow_share=true&escape=false&view_mode=scroll). La [loi du 26 mai 2011](http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000024079563&dateTexte&categorieLien=id) sur le prix unique du livre numérique ne permet pas de créer en France un service permettant de lire un catalogue de livres provenant de différents éditeurs pour un somme forfaitaire. Son article second énonce en effet que « _toute personne établie en France qui édite un livre numérique dans le but de sa diffusion commerciale en France est tenue de fixer un prix de vente au public pour tout type d’offre à l’unité ou groupée_ ». Notez la subtilité : toute personne _établie en France_… non à l’étranger ! S’agissant de location de contenus numériques, rien n’empêche, techniquement, que le service soit fourni depuis l’étranger.
+
+Sur le thème de la sécurité, l’actualité de cette semaine est également assez riche. D’abord, les discours trop simples, faisant l’amalgame entre Internet et le terrorisme, continuent. Le gouvernement prépare probablement une nouvelle loi pour [surveiller et contrôler un peu plus le réseau](http://www.nextinpact.com/news/93139-net-et-terrorisme-quand-bernard-cazeneuve-bascule-a-100.htm), au nom de la lutte contre le terrorisme. Certes « 90 % de ceux qui basculent dans le terrorisme basculent par le biais d’Internet », mais il y a aussi tous les autres internautes, une immense majorité, qui n’ont absolument aucune envie de consulter des sites djihadistes  et encore moi de devenir des terroristes. Si certains discours peuvent être dangereux, les moyens de communication qui les véhiculent n’y changent rien. 
+
+Ensuite, [la Quadrature du Net passe à l’offensive juridique](http://www.numerama.com/magazine/32264-la-quadrature-du-net-attaque-en-justice-la-collecte-de-donnees-par-l-etat.html) contre la loi de programmation militaire, [en saisissant le Conseil d’État](http://www.laquadrature.net/fr/decret-lpm-la-quadrature-du-net-depose-un-recours-devant-le-conseil-detat) d’un recours pour excès de pouvoir contre le [décret du 24 décembre 2014](http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000029958091&dateTexte=&categorieLien=id) permettant à l’administration d’accéder aux données de connexion des internautes, directement auprès des fournisseurs d’accès et sans contrôle de l’autorité judiciaire. L’argumentation de l’association de défense des droits des internautes s’appuie sur l’[arrêt de la Cour de justice de l’union européenne du 8 avril 2014](http://curia.europa.eu/juris/document/document.jsf?text=&docid=150642&pageIndex=0&doclang=FR&mode=lst&dir=&occ=first&part=1&cid=35866). La Cour a jugé, dans cet arrêt, que la directive du 15 mars 2006 sur la conservation des données par les intermédiaires techniques d’Internet était contraire au droit de l’Union européenne, en conséquence de quoi elle devait être déclarée invalide. Selon la Quadrature du Net, le Conseil d’État devrait suivre le même raisonnement que celui de la CJUE pour annuler le décret du 24 décembre 2014 : le droit de l’UE et la CEDH (art. 8) interdisent une surveillance généralisée de la population et ne permettent qu’une surveillance ciblée lorsqu’un intérêt légitime justifie la violation de la vie privée.
+
+Enfin, dans le domaine du droit du travail, la Cour de cassation  [poursuit sa déconstruction de la jurisprudence Nikon](http://abonnes.lemonde.fr/economie/article/2015/02/20/la-justice-donne-le-droit-a-un-employeur-de-lire-les-sms-sur-les-telephones-professionnels_4580749_3234.html) en jugeant, dans un[ arrêt du 10 février 2015](http://www.legifrance.gouv.fr/affichJuriJudi.do?oldAction=rechExpJuriJudi&idTexte=JURITEXT000030240094&fastReqId=512091262&fastPos=1), que « _les messages écrits (short message service ou SMS) envoyés ou reçus par le salarié au moyen du téléphone mis à sa disposition par l’employeur pour les besoins de son travail sont présumés avoir un caractère professionnel, en sorte que l’employeur est en droit de les consulter en dehors de la présence de l’intéressé, sauf s’ils sont identifiés comme étant personnels_ ». Comment le salarié peut-il empêcher son employeur de consulter les SMS envoyés depuis son téléphone professionnel ? En indiquant dans le message que celui-ci est personnel. C’est ubuesque : pour savoir que le message est personnel et qu’il ne peut pas le lire, l’employeur doit… lire le message !
