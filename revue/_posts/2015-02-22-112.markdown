@@ -4,9 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-112/
 title: Numéro 112 - Semaine du 16 au 22 février 2015
-author:
-- GF
-- Six
+author: GF
 date: '2015-02-22 12:38:00'
 categories:
 - Revue
