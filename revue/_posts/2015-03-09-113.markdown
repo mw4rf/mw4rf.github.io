@@ -1,0 +1,67 @@
+---
+layout: post
+status: publish
+published: true
+permalink: /revue/numero-113/
+title: Numéro 113 - Semaine du 23 février au 8 mars 2015
+author:
+- GF
+- Six
+date: '2015-03-09 19:21:00'
+categories:
+- Revue
+tags:
+- Internet
+- Vie privée
+- Liberté d’expression
+- Blocage
+- Déréférencement
+- Conflits de juridictions
+- Facebookg
+---
+
+### Conflits de juridictions 
+
+Le réseau social américain Facebook sera poursuivi en France pour avoir censuré « L’origine du monde » de Courbet. Le Tribunal de grande instance de Paris s’est en effet reconnu compétent, écartant la clause attributive de juridiction stipulée au profit des juridictions californiennes. Nous n’avons pas eu accès au jugement dont les médias rapportent qu’il serait fondé sur le caractère « abusif » de la clause. Nous attendons avec impatience la décision au fond ! En effet, il nous semble qu’il aurait été plus rigoureux de raisonner sur le fondement du droit international privé, plutôt que sur celui du droit de la consommation. Les clauses abusives sont définies à [l’article L. 132-1 du Code de la consommation](http://legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006069565&idArticle=LEGIARTI000022441381&dateTexte=20150309) comme celles qui « ont pour objet ou pour effet de créer, au détriment (…) du consommateur, un déséquilibre significatif entre les droits et obligations des parties au contrat ». Le caractère _exclusif_ de la clause, attribuant compétence aux juridictions californiennes et privant dans le même temps toutes les autres juridictions de compétence, est aisé à admettre. Cependant, l’article 18.1 du [réglement 1215/2012](http://eur-lex.europa.eu/legal-content/FR/TXT/PDF/?uri=CELEX:32012R1215&from=FR) prévoit que le consommateur peut agir devant le juge de son domicile, en l’espèce le juge français, tandis que l’article 19 interdit toute dérogation privant ce juge de sa compétence internationale. Il aurait donc été possible d’utiliser ce fondement pour aboutir au même résultat, en évitant l’embarras d’une qualification de la clause. Quant à la validité au fond de la clause attributive de juridiction, elle doit être appréciée, selon l’article 25 du réglement, eu égard à la loi du for élu… donc la loi californienne et non le Code français de la consommation ! 
+
+### Surveillance
+
+Le [décret n°2015-253 du 4 mars 2015](http://legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000030313562&dateTexte=&categorieLien=id) organise la procédure de déréférencement, par les moteurs de recherche et à la demande de l’administration, des sites faisant l’apologie du terrorisme ou diffusant des contenus pédopornographiques. Les moteurs de recherche reçoivent notification des adresses à bloquer (article 1) ; ils doivent alors prendre les mesures nécessaires dans un délai de 48 heures (article 3). Chaque trimestre, les sites sont visités par l’administration afin de décider s’il est nécessaire de maintenir le blocage des liens ou s’ils peuvent de nouveau être affichés. Le système est identique à celui du décret sur le filtrage et le blocage [dont nous parlions début février](/revue/numero-110/). Nous formulerons les critiques habituelles : le blocage d’un site ou son déréférencement sont des mesures attentoires à la liberté d’expression qui devraient être ordonnées par l’autorité judiciaire, et non par l’administration. Cela est d’autant plus important pour les sites faisant l’apologie du terrorisme, tant cette notion teintée de subjectivité est difficile à définir.
+
+## Six Vision
+
+### L’origine du monde et Facebook : la juridiction française se déclare compétente
+
+Un professeur des écoles français avait publié sur Facebook l’oeuvre de Gustave Courbet, _L’origine du monde_, et s’était vu fermer son compte. Ce jeudi 5 mars, le [TGI de Paris s’est déclaré compétent pour juger le litige entre l’internaute et Facebook](http://tempsreel.nouvelobs.com/societe/20150305.AFP0827/la-justice-francaise-se-declare-competente-pour-juger-l-americain-facebook.html). 
+
+Le tribunal a estimé que la clause de choix de for, acceptée par les membres de Facebook, attribuant une compétence _exclusive_ à un tribunal de Californie était « abusive » car elle engendrait un « déséquilibre entre les parties ». Une domiciliation juridique de Facebook en France permettrait de simplifier les poursuites, ce que le réseau social veut probablement éviter.
+
+Si la décision faisait jurisprudence, la lutte contre les divers réseaux sociaux qui cherchent à éluder la loi française en se servant de leur implantation à l’étranger serait grandement facilitée.
+
+Facebook a précisé que « la publication de contenus artistiques » est acceptée, « à l’exception de photographies, montrant des nus ».
+
+La suite lors de l’examen au fond de l’affaire le 21 mai 2015.
+
+### Dieudonné : le DVD Le Mur interdit
+
+Le TGI de Paris a, dans un jugement du 4 mars 2015, [interdit la commercialisation du DVD Le Mur en plus du retrait de la vente](http://leplus.nouvelobs.com/contribution/1335572-le-dvd-du-spectacle-le-mur-de-dieudonne-interdit-gare-a-ceux-qui-veulent-le-revendre.html). 
+
+La Licra avait saisi le TGI de Paris en demandant que Dieudonné et sa société soient condamnés à lui verser 5 000 euros de dommages et intérêts et 2 500 euros au titres des frais de justice.
+
+Plusieurs villes « avaient déjà interdit la représentation du spectacle de Dieudonné […] en raison de risques de trouble de l’ordre public ». Le DVD de Dieudonné constituerait notamment une provocation à la haine et à la violence envers les juifs, l’apologie et la contestation de crimes contre l’humanité et des délits et crimes de collaboration avec l’ennemi.
+
+La décision d’interdiction totale d’une œuvre est rare dans la jurisprudence ; elle avait été prononcée pour quelques livres d’Alain Soral en raison de passages à caractère antisémite, ou plus récemment pour le téléfilm d’Arte Intime conviction, portant atteinte à la vie privée et à la présomption d’innocence.
+
+L’interdiction ne touche pas les particuliers ayant acheté le DVD avant le jugement. En revanche, la revente publique des DVD pourrait notamment être considérée comme un recel.
+
+###  Diffamation et vie privée : interdiction du double fondement
+
+[Entre une action pour violation de l’intimité de la vie privée et une action en diffamation, il faut choisir](http://www.village-justice.com/articles/Diffamation-atteinte-vie-privee,19081.html). Les mêmes faits ne peuvent être poursuivis à la fois sur le fondement de la loi du 29 juillet 1881 et sur celui de l’article 9 du Code civil. Il ne faut pas non plus confondre l’action publique, qui relève du droit pénal, et l’action en réparation fondée sur des règles de droit civil.
+
+L’article 53 de la loi de 1881 prévoit que « la citation précisera et qualifiera le fait incriminé, elle indiquera le texte de loi applicable à la poursuite ». Cette exigence, si elle n’est pas respectée, peut entraîner la nullité des poursuites.
+
+En matière pénale, la Cour de cassation considère, dans une jurisprudence constante, que « l’acte initial de poursuite fixe définitivement et irrévocablement la nature, l’étendue et l’objet de la poursuite, ainsi que les points sur lesquels le prévenu aura à se défendre » (Cass. Crim., 30 octobre 1989). Ainsi, le prévenu doit être informé des faits qui lui sont reprochés pour qu’il puisse préparer au mieux sa défense. Ceci se rapporte au principe du respect des droits de la défense.
+
+La prohibition du double fondement empêche donc les qualifications cumulatives ou alternatives pour des faits identiques. La jurisprudence affirme à ce sujet qu’une « citation visant, pour un fait unique, des qualifications cumulatives ou alternatives de nature à créer, dans l’esprit du prévenu, une incertitude quant à l’objet de la poursuite » est entachée de nullité (Cass. Crim., 30 mars 2005). En outre, l’engagement successif d’actions en justice pour des faits identiques, et sur un fondement juridique différent, est interdit par la Cour de cassation (Cass. Crim., 28 novembre 2006).
+
+Il est cependant possible d’invoquer l’article 9 du Code civil et la loi de 1881 en distinguant clairement les faits sur lesquels porte la demande (TGI Nanterre, 1ère Chambre, 27 mai 2002). La 1ère chambre civile de la Cour de cassation confirme ce jugement dans un arrêt du 4 février 2015.
