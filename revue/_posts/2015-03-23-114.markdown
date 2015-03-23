@@ -1,0 +1,51 @@
+---
+layout: post
+status: publish
+published: true
+permalink: /revue/numero-114/
+title: Numéro 114 - Semaines du 9 au 22 mars 2015
+author:
+- GF
+date: '2015-03-23 13:09:00'
+categories:
+- Revue
+tags:
+- Internet
+- Liberté d’expression
+- Blocage
+- Conflits de juridictions
+- Clauses abusives
+- Facebook
+---
+
+Cette semaine, le blocage du site _Islamic-News_, le projet de loi sur le renseignement et la décision du TGI de Paris déclarant abusive la clause attributive de juridiction des conditions générales d'utilisation de Facebook.
+
+### Censure
+
+Le blocage d'_Islamic-News_ est l'affaire qui a fait le plus couler d'encre ces derniers jours. [Nous parlions récemment](/revue/numero-110/) de la loi anti-terrorisme de novembre 2014, autorisant l’administration à ordonner le blocage de sites Web ; et bien, la voici en œuvre. Le ministère de l'intérieur, [considérant que le site _Islamic-News_ incitait au terrorisme, a ordonné aux fournisseur d'accès (FAI) d'en bloquer l'accès au niveau de leurs serveurs DNS](http://www.numerama.com/magazine/32492-un-site-d-information-islamique-censure-en-france-sans-decision-judiciaire.html). Les FAI ont obtempéré dans un délai de 24 heures, comme la loi le prévoit, si bien que les internautes qui tenteraient, aujourd'hui, de visiter ce site verraient une page les informant du blocage.
+
+Le blocage DNS est assez peu efficace. Il ne produit d'effet que pour les internautes utilisant les serveurs DNS de leur FAI français, non pour ceux qui utiliseraient des serveurs DNS tiers tels que [ceux de Google](https://developers.google.com/speed/public-dns/). Pour l'utilisateur _lambda_, pas nécessairement averti, le blocage est néanmoins efficace.
+
+Du point de vue juridique, un tel blocage pose de nombreux problèmes. Il n'est pas motivé car l'administration s'est bornée à l'ordonner sans indiquer les raisons l'ayant conduite à prendre cette décision. Comme dans _Le Procès_ de Kafka ou _L'Aveu_ de Costa-Gavras, on peut difficilement répliquer ou se défendre lorsqu'on ne sait pas de quoi l'on est accusé. Il intervient sans contrôle judiciaire alors que, clairement, il y a matière à contentieux... mais c'est la loi qui en dispose ainsi. Le blocage n'est pas non plus motivée par l'urgence ou, selon l'esprit de la loi, par l'impossibilité d'atteindre un hébergeur étranger (le site était hébergé en France par OVH).
+
+[Le site Numerama a décidé d'intenter un recours contre le blocage d'_Islamic-News_](http://www.numerama.com/magazine/32554-pourquoi-numerama-intente-un-recours-contre-la-censure-d-islamic-news.html), tandis que [le syndicat de la magistrature](http://www.numerama.com/magazine/32528-blocages-sans-juge-le-syndicat-de-la-magistrature-preoccupe.html) se dit préoccupé par le blocage extrajudiciaire.
+
+Pourtant, notre société se dirige toujours vers un plus grand contrôle des citoyens et une plus grande surveillance des publications... sans intervention judiciaire. [L'ordre des avocats] est ainsi préoccupé par le projet de loi sur le renseignement](http://www.numerama.com/magazine/32537-l-ordre-des-avocats-reclame-la-presence-du-juge-dans-la-loi-renseignement.html), de [la même manière que la CNIL](http://www.laquadrature.net/fr/lemonde-les-critiques-de-la-cnil-contre-le-projet-de-loi-sur-le-renseignement). Les [journalistes de Mediapart écrivent](http://www.laquadrature.net/fr/mediapart-loi-renseignement-la-france-veut-rattraper-son-retard-sur-la-nsa) que la France cherche à rattraper son retard sur la NSA américains et parlent d'un "PATRIOT Act à la française".
+
+### Apologie du terrorisme
+
+[La chambre criminelle de la Cour de cassation a rendu son arrêt](http://www.net-iris.fr/veille-juridique/jurisprudence/34357/apologie-du-terrorisme-la-cour-de-cassation-se-prononce.php) le 17 mars dernier dans l'affaire de l'enfant portant un T-shirt avec les inscriptions _"Je suis né le 11 septembre... Je suis une bombe"_. Au pénal, le délit est constitué et l'arrêt de la cour d'appel confirmé. Cependant, la cassation est prononcée sur les aspects civils de l'affaire : la commune ne pouvait pas recevoir des dommages et intérêts en tant que partie civile car le délit d'apologie de crime _"ne pouvait occasionner pour la commune un préjudice personnel et direct né de l'infraction"_.
+
+### Conflits de juridictions
+
+Nous parlions, [dans le numéro précédent](/revue/numero-113/) d'une décision du TGI de Paris écartant la clause attributive de juridiction stipulée dans les conditions générales d'utilisation de Facebook au profit du for californien. [Voici la décision intégrale](http://www.legalis.net/spip.php?page=jurisprudence-decision&id_article=4515) et quelques motifs extraits :
+
+> L’article R 132-2 du code de la consommation présume abusives les clauses ayant pour objet ou pour effet "de supprimer ou d’entraver l’exercice d’actions en justice ou des voies de recours par le consommateur".
+
+> La clause attributive de compétence prévue à l’article 15 des conditions générales du contrat oblige le souscripteur, en cas de conflit avec la société, à saisir une juridiction particulièrement lointaine et à engager des frais sans aucune proportion avec l’enjeu économique du contrat souscrit pour des besoins personnels ou familiaux. Les difficultés pratiques et le coût d’accès aux juridictions californiennes sont de nature à dissuader le consommateur d’exercer toute action devant les juridictions concernant l’application du contrat et à le priver de tout recours à l’encontre de la société Facebook Inc.
+
+> A l’inverse, cette dernière a une agence en France et dispose de ressources financières et humaines qui lui permettent d’assurer sans difficulté sa représentation et sa défense devant les juridictions françaises.
+
+> Dès lors, la clause attributive de compétence au profit des juridictions californiennes contenue dans le contrat a pour effet de créer, au détriment du non-professionnel ou du consommateur, un déséquilibre significatif entre les droits et obligations des parties au contrat. Elle a également pour effet de créer une entrave sérieuse pour un utilisateur français à l’exercice de son action en justice.
+
+> Au regard de ces éléments, la clause doit être déclarée abusive et sera réputée non écrite.
