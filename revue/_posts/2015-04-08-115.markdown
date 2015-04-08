@@ -18,9 +18,11 @@ tags:
 - Facebook
 ---
 
+Au sommaire du présent numéro, quelques décisions intéressantes en matière de propriété intellectuelle, la qualification d'éditeur du site Rojadirecta, une décision faisant prévaloir la liberté d'expression sur le droit à l'oubli.
+
 ### Propriété intellectuelle
 
-[Netflix veut abolir la territorialité des droits d'auteur](http://www.numerama.com/magazine/32677-droit-d-auteur-netflix-ne-veut-plus-de-restrictions-geographiques.html), estimant qu'ils favorisent le "piratage". En effet, l'opérateur doit négocier les droits de diffuser les œuvres _dans chaque pays_ où il fournit ses services. Or, toutes les législations ne sont pas identiques, si bien que les œuvres ne sont pas disponibles dans tous les pays au même moment. En France, par exemple, Netflix ne peut légalement diffuser un film que trois ans après sa sortie en salle. Les internautes sont tentés de recourir à un VPN américain ou à télécharger les contenus qui ne sont pas immédiatement accessibles à l'endroit où ils se situent. Netflix voudrait ainsi pouvoir négocier les droits une bonne fois pour toutes et pour tous les pays où il fournit ses servies.
+[Netflix veut abolir la territorialité des droits d'auteur](http://www.numerama.com/magazine/32677-droit-d-auteur-netflix-ne-veut-plus-de-restrictions-geographiques.html), estimant qu'ils favorisent le "piratage". En effet, l'opérateur doit négocier les droits de diffuser les œuvres _dans chaque pays_ où il fournit ses services. Or, toutes les législations ne sont pas identiques, si bien que les œuvres ne sont pas disponibles dans tous les pays au même moment. En France, par exemple, Netflix ne peut légalement diffuser un film que trois ans après sa sortie en salle. Les internautes sont tentés de recourir à un VPN américain ou de télécharger les contenus qui ne sont pas immédiatement accessibles à l'endroit où ils se situent. Netflix voudrait ainsi pouvoir négocier les droits une bonne fois pour toutes et pour tous les pays où il fournit ses servies.
 
 Dans un [arrêt du 27 mars 2015](http://www.legifrance.gouv.fr/affichJuriAdmin.do?oldAction=rechJuriAdmin&idTexte=CETATEXT000030310335&fastReqId=1569213530&fastPos=1), la Cour d'appel administrative de Bordeaux a jugé que le conseil général d'un département pouvait, sans excès de pouvoir, décider que l'extraction et la réutilisation des données _publiques_ présentes dans sa base de données serait limitée. En effet, les droits de producteur de base de données priment ici sur le droit à la réutilisation des données publiques.
 
