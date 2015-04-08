@@ -1,0 +1,46 @@
+---
+layout: post
+status: publish
+published: true
+permalink: /revue/numero-114/
+title: Numéro 115 - Semaines du 23 mars au 5 avril 2015
+author:
+- GF
+date: '2015-04-08 09:51:00'
+categories:
+- Revue
+tags:
+- Internet
+- Liberté d’expression
+- Blocage
+- Conflits de juridictions
+- Clauses abusives
+- Facebook
+---
+
+### Propriété intellectuelle
+
+[Netflix veut abolir la territorialité des droits d'auteur](http://www.numerama.com/magazine/32677-droit-d-auteur-netflix-ne-veut-plus-de-restrictions-geographiques.html), estimant qu'ils favorisent le "piratage". En effet, l'opérateur doit négocier les droits de diffuser les œuvres _dans chaque pays_ où il fournit ses services. Or, toutes les législations ne sont pas identiques, si bien que les œuvres ne sont pas disponibles dans tous les pays au même moment. En France, par exemple, Netflix ne peut légalement diffuser un film que trois ans après sa sortie en salle. Les internautes sont tentés de recourir à un VPN américain ou à télécharger les contenus qui ne sont pas immédiatement accessibles à l'endroit où ils se situent. Netflix voudrait ainsi pouvoir négocier les droits une bonne fois pour toutes et pour tous les pays où il fournit ses servies.
+
+Dans un [arrêt du 27 mars 2015](http://www.legifrance.gouv.fr/affichJuriAdmin.do?oldAction=rechJuriAdmin&idTexte=CETATEXT000030310335&fastReqId=1569213530&fastPos=1), la Cour d'appel administrative de Bordeaux a jugé que le conseil général d'un département pouvait, sans excès de pouvoir, décider que l'extraction et la réutilisation des données _publiques_ présentes dans sa base de données serait limitée. En effet, les droits de producteur de base de données priment ici sur le droit à la réutilisation des données publiques.
+
+Dans un [arrêt du 31 mars 2015](http://www.legalis.net/spip.php?page=breves-article&id_article=4539), la Cour d'appel de Paris a décidé que la marque "Vente-privée" était valable. La décision des premiers juges, qui avaient estimé que la prétendue marque n'avait pas de caractère distinctif, est ainsi invalidée. Selon la Cour d'appel, s'il est exact que la marque était à l'origine dépourvue de caractère distinctif, elle l'avait par la suite acquis grâce à la réputation du site Web en question, connu de nombreux internautes. L'[article L. 711-2 CPI](http://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000006279683&cidTexte=LEGITEXT000006069414) prévoit en effet que _"le caractère distinctif peut (...) être acquis par l'usage"_.
+
+Dans un [jugement du 13 mars 2015](http://www.legalis.net/spip.php?page=jurisprudence-decision&id_article=4546), le TGI de Paris a condamné un photographe pour avoir utilisé sur son site Web des fichiers de ses photographies numérisées par une agence de photographie. L'[article L. 111-3 CPI](http://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000006278870&cidTexte=LEGITEXT000006069414) énonce en effet que _"la propriété incorporelle [sur l'œuvre] est indépendante de la propriété de l'objet matériel"_. Il en résulte que le photographe était propriétaire des droits incorporels sur les photographies, mais pas des fichiers numérisés ; à l'inverse, les fichiers numérisés, dont la propriété revenait à l'agence de photographie, ne pouvaient pas être utilisés par cette dernière sans l'autorisation du photographe.
+
+### Hébergeur/éditeur
+
+Dans un [jugement du 19 mars 2015](http://www.legalis.net/spip.php?page=jurisprudence-decision&id_article=4531), le TGI de Paris a décidé que le site Rojadirecta ne pouvait prétendre au bénéfice du régime spécial de responsabilité des hébergeurs de la Loi pour la Confiance dans l'Economie Numérique du 21 juin 2004. En effet, le site _"organise en fait sciemment, intentionnellement et à titre principal une sélection, un choix éditorial sur un thème précis, à savoir des compétitions sportives d'actualité dans des domaines bien ciblés mis à jour en permanence, avec un agenda horaire et un moteur de recherche adéquat"_. Son activité ne se limite donc pas au simple hébergement de contenus fournis par des tiers.
+
+### Droit à l'oubli
+
+Le quotidien "20 minutes" avait publié en 2011 un article relatant qu'un sportif connu avait été placé en garde à vue pour viol. Par la suite, le sportif bénéficia d'un non-lieu. En 2014, il demanda à "20 minutes" de retirer l'article le concernant. Le journal se borna à modifier l'article, en faisant mention du non-lieu, mais en maintenant le nom du sportif. Ce dernier saisit alors les juridictions judiciaires afin d'obtenir le retrait de l'article, sur le fondement du droit à l'oubli. Dans une [ordonnance de référé du 23 mars 2015](http://www.legalis.net/spip.php?page=jurisprudence-decision&id_article=4529), le TGI de Paris refuse d'ordonner le retrait de l'article, faisant ainsi primer la liberté d'expression sur le droit à l'oubli. Selon le tribunal, _"le traitement des données litigieuses est manifestement nécessaire à la réalisation de l’intérêt légitime de l’éditeur de l’organe de presse et aucun abus à la liberté de la presse telle que réglementée par la loi du 29 juillet 1881 qui en fixe les limites n’est établi"_ ; ainsi, aucun trouble manifestement illicite ne justifie que le retrait de l'article soit ordonné en référé.
+
+### Filtrage/blocage
+
+La [proposition de loi pour la lutte contre la prostitution](http://www.senat.fr/dossier-legislatif/ppl13-207.html) réintroduit le blocage administratif des sites ([article 1er](http://www.senat.fr/leg/ppl13-698.html)) qui permettraient aux prostituées, grâce à Internet, d'être mises en relation avec les clients. 
+
+### Insolite
+
+Insolite, drôle ou inquiétant, [l'on peut demander le divorce par Facebook aux États-Unis](http://www.numerama.com/magazine/32710-demander-le-divorce-par-facebook-c-est-possible-aux-usa.html). Tout aussi étrange, mais probablement plus intéressant, un (grand) malin a eu l'idée de [mettre le Code civil sous GitHub](http://www.numerama.com/magazine/32646-le-code-civil-sous-github-pour-mieux-lire-ses-evolutions.html), ce qui permet d'en voir les modifications plus facilement.
+
