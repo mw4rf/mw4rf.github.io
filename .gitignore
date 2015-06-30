@@ -11,3 +11,8 @@ Gemfile.lock
 
 .UlyssesRoot
 .Ulysses-Group.plist
+.DS_Store
+
+public/.DS_Store
+
+public/posts/.DS_Store
