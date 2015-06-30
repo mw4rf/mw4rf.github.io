@@ -23,7 +23,7 @@ Le problème est que j’ai installé la première _Developer preview_ d’OS 10
 
 Après l’installation du noyau de GW2, le _launcher_ télécharge les données du jeu, qui sont compressées au [format TAR][10] afin d’accélérer le téléchargement et de réduire la bande passante nécessaire. Le format TAR est un protocole d’archivage des fichiers, qui permet de les compresser avec plusieurs algorithmes différents. Or, la commande _tar_ présente sur Mac utilise le format _BSD-tar_ (Mac OS X est construit sur le noyau _Darwin_, un Unix BSD) qui [n’est pas compatible][11] avec le format _GNU-tar_ utilisé par GW2… La première chose que le _launcher_ tente de faire est donc d’installer _GNU-tar_ pour décompresser les données téléchargées. Avec Yosemite est les systèmes précédents, aucun problème. Avec El Capitan, en revanche, l’installation est impossible car l’utilisateur _root_ n’a plus accès au dossier de destination, _/usr/bin_. En pratique, cela se traduit par une fenêtre d’élévation des droits demandant d’entrer un mot de passe administrateur qui n’a aucun effet : on aura beau taper le mot de passe, la fenêtre réapparaîtra aussitôt car, derrière le rideau de l’interface graphique, la commande se heurte à un refus du système (_ln: /usr/bin/gnutar: Operation not permitted_).
 
-\<center\>\<img style="max-width:600px;" src="/public/posts/2015-06-30-partitions-rebelles/gnutar.png » /\>\<center\>
+![][image-1]
 
 Impossible de désactiver la mesure de protection, à cause d’un bug de la première Developer Preview. L’obstacle est donc insurmontable.
 
@@ -127,3 +127,5 @@ J’ai rebooté sur Mac OS X et j’ai retrouvé avec grand plaisir mon volume M
 [16]:	https://fr.wikipedia.org/wiki/Solid-state_drive
 [17]:	http://apple.stackexchange.com/questions/63130/create-new-partition-in-unallocated-space-with-diskutil
 [18]:	https://fr.wikipedia.org/wiki/Universal_Unique_Identifier
+
+[image-1]:	/public/posts/2015-06-30-partitions-rebelles/gnutar.png "Message d'erreur lors de l'installation de GNU-tar"
