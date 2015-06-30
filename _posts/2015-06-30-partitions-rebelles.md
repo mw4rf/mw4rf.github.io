@@ -86,19 +86,7 @@ Voilà une partition créée, ouf ! Reste à la formater en HFS+. La commande _d
 
 Bien. Voilà notre partition en état de fonctionnement. Reste à la fusionner avec la partition principale Macintosh HD. Pour ce faire, il faut trouver [l’UUID (identifiant unique)][18] du _volume_ de la partition principale. J’ai mis quelques minutes à comprendre que l’on ne parlait plus ici de la partition elle-même, telle que perçue par le noyau du système, mais du volume géré par le système à un plus haut niveau. 
 
-	⌂70% [mw4rf:~] $ diskutil list
-	/dev/disk0 (internal, physical):
-	   #:                       TYPE NAME                    SIZE       IDENTIFIER
-	   0:      GUID_partition_scheme                        *500.3 GB   disk0
-	   1:                        EFI EFI                     209.7 MB   disk0s1
-	   2:          Apple_CoreStorage Macintosh HD            499.4 GB   disk0s2
-	   3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3
-	/dev/disk1 (internal, virtual):
-	   #:                       TYPE NAME                    SIZE       IDENTIFIER
-	   0:                  Apple_HFS Macintosh HD           +499.1 GB   disk1
-	                                 Logical Volume on disk0s2
-	                                 24106536-FDD2-47BF-9112-62FDE1D32954
-	                                 Unlocked Encrypted
+![][image-2]
 
 Cet identifiant unique est, ici, _ 24106536-FDD2-47BF-9112-62FDE1D32954_. Il ne restait plus qu’à entrer la commande finale…
 
@@ -129,3 +117,4 @@ J’ai rebooté sur Mac OS X et j’ai retrouvé avec grand plaisir mon volume M
 [18]:	https://fr.wikipedia.org/wiki/Universal_Unique_Identifier
 
 [image-1]:	/public/posts/2015-06-30-partitions-rebelles/gnutar.png "Message d'erreur lors de l'installation de GNU-tar"
+[image-2]:	/public/posts/2015-06-30-partitions-rebelles/uuid.png "Identification de l'UUID du volume"
