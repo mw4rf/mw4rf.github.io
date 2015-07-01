@@ -1,7 +1,7 @@
 ---
 layout: "post"
 published: true
-title: "Jekyll: une hiérarchie de dossiers" 
+title: "Jekyll: une hiérarchie de dossiers"
 author: GF
 date: "2015-07-01 23:35"
 place: Montpellier

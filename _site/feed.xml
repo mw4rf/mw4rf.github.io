@@ -5,9 +5,130 @@
     <description>Ad Absurdum</description>
     <link>http://www.valhalla.fr/</link>
     <atom:link href="http://www.valhalla.fr/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 01 Jul 2015 17:52:54 +0200</pubDate>
-    <lastBuildDate>Wed, 01 Jul 2015 17:52:54 +0200</lastBuildDate>
+    <pubDate>Thu, 02 Jul 2015 00:01:53 +0200</pubDate>
+    <lastBuildDate>Thu, 02 Jul 2015 00:01:53 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Jekyll: une hiérarchie de dossiers</title>
+        <description>&lt;p&gt;Le moteur de sites statiques &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; génère les URL en fonction du nom des fichiers. Ainsi, le fichier &lt;em&gt;2015-07-01-jekyll-hierarchie-de-dossiers.markdown&lt;/em&gt; sera visible à l’adresse &lt;em&gt;/2015/07/01/jekyll-hierarchie-de-dossiers/&lt;/em&gt;. C’est très pratique, jusqu’à ce que le dossier &lt;em&gt;posts&lt;/em&gt; contenant les fichiers source soit plein à craquer. C’est alors que l’on songe à classer les fichiers en sous-dossiers, par exemple par année. Et c’est là que les problèmes commencent…&lt;/p&gt;
+
+&lt;p&gt;Cette structure par défaut devient vite difficile à gérer :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;_posts/
+      |- 2015-07-01-jekyll-hierarchie-de-dossiers.markdown
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Ainsi, la structure suivant est préférable :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;_posts/
+      |- 2015/
+             |- 2015-07-01-jekyll-hierarchie-de-dossiers.markdown
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Jekyll associe le nom du fichier à son URL, mais le fichier doit être placé dans le dossier racine &lt;em&gt;posts&lt;/em&gt;. S’il se trouve dans un sous-dossier, le nom de ce sous-dossier est intégré dans l’URL.&lt;/p&gt;
+
+&lt;p&gt;Un exemple permet de comprendre le problème :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Fichier : /posts/2015-07-01-jekyll-hierarchie-de-dossiers.markdown
+URL : /2015/07/01/jekyll-hierarchie-de-dossiers/
+
+Fichier : /posts/2015/2015-07-01-jekyll-hierarchie-de-dossiers.markdown
+URL : /2015/2015/07/01/jekyll-hierarchie-de-dossiers/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Si l’on tente de compiler le site en ayant déplacé les fichiers dans des sous-dossiers correspondant à l’année de rédaction, l’on se heurte à un problème de compilation dès lors que le tag &lt;em&gt;post_url&lt;/em&gt; est utilisé.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Liquid Exception: Could not find post &quot;2010-06-08-les-choix-par-defaut&quot; in tag &#39;post_url&#39;. Make sure the post exists and the name is correct. in pages/index.md
+jekyll 2.5.3 | Error:  Could not find post &quot;2010-06-08-les-choix-par-defaut&quot; in tag &#39;post_url&#39;.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Il faut donc commencer par modifier le contenu de ces tags, dans le corps des fichiers, en préfixant l’URL indiquée du nouveau sous-dossier.&lt;/p&gt;
+
+&lt;p&gt;Cependant, il reste le problème de l’URL du fichier, qui fait apparaître l’année en double. Pour le résoudre, j’ai choisi d’utiliser le mot-clé &lt;strong&gt;permalink&lt;/strong&gt; dans le &lt;em&gt;front-matter&lt;/em&gt; de chaque fichier Markdown. Ainsi, dans le fichier correspondant au présent article, l’on peut lire :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;permalink:  /2015/07/01/jekyll-hierarchie-de-dossiers/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Cela fonctionne parfaitement, mais il faut éditer chaque fichier pour définir un &lt;em&gt;permalink&lt;/em&gt; personnalisé, ce qui est extrêmement long et fastidieux lorsqu’on a plusieurs centaines de fichiers…&lt;/p&gt;
+
+&lt;p&gt;J’ai donc réalisé le petit script suivant en &lt;strong&gt;Ruby&lt;/strong&gt; pour automatiser le processus.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;############# CLASS DEFINITION #############&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Analyzer&lt;/span&gt;
+  &lt;span class=&quot;kp&quot;&gt;attr_accessor&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:ext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:src&lt;/span&gt;
+  
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;initialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;vi&quot;&gt;@ext&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ext&lt;/span&gt;
+    &lt;span class=&quot;vi&quot;&gt;@src&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;src&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;*&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ext&lt;/span&gt;
+        
+    &lt;span class=&quot;no&quot;&gt;Dir&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;each&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filesrc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;readfile&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;filesrc&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;readfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filesrc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# Read file&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;begin&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# Open the file and read the lines&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;file&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filesrc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;r+&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;lines&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;IO&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;readlines&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;lines&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;each_with_index&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;line&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+            &lt;span class=&quot;c1&quot;&gt;# Before the last line, add the permalink&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lines&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;include?&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;---&amp;quot;&lt;/span&gt;
+              &lt;span class=&quot;n&quot;&gt;lines&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;permalink:  &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;make_permalink&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;/&amp;quot;&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# Write the line to the file&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;lines&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;each&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;line&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;puts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;line&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;close&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;rescue&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;err&lt;/span&gt;
+        &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Exception: &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;err&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  
+  &lt;span class=&quot;c1&quot;&gt;# Build the permalink :&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# 2015-07-01-foo =&amp;gt; /2015/07/01/foo&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;make_permalink&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;basename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;vi&quot;&gt;@ext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;s1&quot;&gt;&amp;#39;/&amp;#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;slice!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;11&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gsub!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;-&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;/&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;############# MAIN #############&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# Edit here&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# First parameter: the file extension, .markdown, .md, .txt...&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# Second parameter: the root dir&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Analyzer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;.markdown&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;_posts/&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;En spécifiant, à la dernière ligne, l’extension des fichiers et le dossier racine, le script modifie chacun des fichiers en ajoutant le permalink correspondant au nom du fichier. L’analyse menée par le script n’est pas récursive, si bien qu’elle doit être lancée &lt;em&gt;avant&lt;/em&gt; de déplacer les fichiers dans des sous-dossiers.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 01 Jul 2015 23:35:00 +0200</pubDate>
+        <link>http://www.valhalla.fr/2015/07/01/jekyll-hierarchie-de-dossiers/</link>
+        <guid isPermaLink="true">http://www.valhalla.fr/2015/07/01/jekyll-hierarchie-de-dossiers/</guid>
+        
+        <category>software</category>
+        
+        <category>Web</category>
+        
+        <category>programmation</category>
+        
+        <category>technique</category>
+        
+        <category>Jekyll</category>
+        
+        
+        <category>valhalla</category>
+        
+        <category>informatique</category>
+        
+      </item>
     
       <item>
         <title>Partitions rebelles (à propos de Bootcamp)</title>
@@ -594,42 +715,6 @@ gpt remove -i 4 disk0
         
         
         <category>revue</category>
-        
-      </item>
-    
-      <item>
-        <title>Ceux qui ne sont pas Charlie</title>
-        <description>&lt;p&gt;Le 7 janvier dernier, l’attentat contre Charlie Hebdo a donné naissance à un &lt;em&gt;hashtag&lt;/em&gt; sur Twitter : &lt;a href=&quot;https://twitter.com/search?q=%23JeSuisCharlie&amp;amp;src=tyah&quot;&gt;#JeSuisCharlie&lt;/a&gt;. La formule fut bientôt &lt;a href=&quot;http://www.lemonde.fr/m-actu/article/2015/01/09/je-suis-charlie-c-est-lui_4552523_4497186.html&quot;&gt;reprise dans le monde réel&lt;/a&gt;, sur des banderoles, taguée sur des murs, imprimée sur tes T-shirts… Mais certaines personnes ont pris le contrepied de cet élan de solidarité en se réclamant &lt;em&gt;ne pas&lt;/em&gt; être Charlie.&lt;/p&gt;
-
-&lt;p&gt;Qu’est-ce que cela signifie, ne pas être Charlie ?&lt;/p&gt;
-
-&lt;p&gt;Tout le monde n’adhère pas forcément à la ligne éditoriale de Charlie Hebdo. Ne pas être Charlie peut ainsi signifier que l’on se démarque des propos des journalistes. Chacun a sa propre sensibilité et l’on ne peut reprocher à un croyant d’être choqué de voir les symboles de sa religion caricaturés. Tout au plus pourra-t-on être à son tour choqué, en tant qu’athée, d’entendre le croyant se dire choqué. Il faut simplement apprendre à respecter les différences, les choix et les croyances de chacun, mais le droit de choquer participe de la liberté d’expression.&lt;/p&gt;
-
-&lt;p&gt;Le problème avec les gens qui ne sont pas Charlie, c’est l’ambiguïté involontaire ou délibérée de leur propos. Cela tient en une phrase, &lt;em&gt;“je ne suis pas Charlie”&lt;/em&gt;, mais la portée implicite du message est grande : se désolidariser de Charlie, des victimes, c’est aussi approuver les attentats. C’est dire, en quelque sorte, que les terroristes ont bien fait.&lt;/p&gt;
-
-&lt;p&gt;Certaines personnes qui ont affirmé ne pas être Charlie &lt;a href=&quot;http://www.sudouest.fr/2015/01/13/andre-viard-s-excuse-apres-son-tweet-1795154-727.php&quot;&gt;se sont rendu compte de l’ambiguïté et l’ont immédiatement levée&lt;/a&gt;, ce qui est tout à leur honneur. D’autres, en revanche, jouent des deux interprétations possibles, se cachant derrière la première et acceptant implicitement l’amalgame avec la seconde. Il est tellement facile de dire &lt;em&gt;“je suis Charlie bien que je n’adhère pas au contenu du journal”&lt;/em&gt; que la formule &lt;em&gt;“je ne suis pas Charlie”&lt;/em&gt;, lorsqu’elle est maintenue, perd toute ambiguïté : il s’agit bien d’une tentative de justification ou d’une apologie du terrorisme. On adhère au terrorisme ou on le condamne, il n’y a pas de “mais”. C’est le sens de &lt;a href=&quot;http://www.huffingtonpost.fr/mohamed-sifaoui/tariq-ramadan-nest-ni-charlie-ni-flic-ni-juif_b_6448888.html&quot;&gt;l’article de Mohamed Sifaoui à propos de Tarik Ramadan&lt;/a&gt;. Dire “mais” c’est tenter d’amoindrir voire de &lt;em&gt;nier&lt;/em&gt; la gravité des actes de terroriste ; c’est du &lt;em&gt;négationnisme&lt;/em&gt;, certes pas sous sa forme habituelle, mais du négationnisme tout de même.&lt;/p&gt;
-
-&lt;p&gt;D’autres encore voudraient bien être Charlie, sans y parvenir, parce que leur morale personnelle s’élève à la hauteur du caniveau. Parmi eux sont ceux qui, pensant faire une bonne affaire sur le dos des victimes de l’attentat, se sont empressés dès mardi matin d’acheter des exemplaires de Charlie Hebdo, sachant qu’il y aurait presque immédiatement rupture de stock, pour les revendre illico presto aux enchères sur eBay. Charognes ! Et ceux qui participent à ces enchères, prêts à payer des sommes exorbitantes pour pouvoir dire &lt;em&gt;“j’ai mon exemplaire”&lt;/em&gt;… pauvres d’eux.&lt;/p&gt;
-
-&lt;p&gt;Je suis Charlie et j’achèterai mon exemplaire, dont le prix sera reversé au journal, quand j’en trouverai un en kiosque.&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 15 Jan 2015 14:10:50 +0100</pubDate>
-        <link>http://www.valhalla.fr/2015/01/15/ceux-qui-ne-sont-pas-charlie/</link>
-        <guid isPermaLink="true">http://www.valhalla.fr/2015/01/15/ceux-qui-ne-sont-pas-charlie/</guid>
-        
-        <category>liberté</category>
-        
-        <category>actualité</category>
-        
-        <category>émotion</category>
-        
-        <category>religion</category>
-        
-        
-        <category>coup de gueule</category>
-        
-        <category>actualité</category>
         
       </item>
     

@@ -113,6 +113,100 @@
   <div class="row">
     <div class="col-md-1"></div>
     <div class="col-md-8 col-md-push-2 col-xs-12">
+      <h1><a href="/2005/11/01/plugin-pour-wordpress-affichage-personnalise-des-commentaires/">Plugin pour WordPress: affichage personnalisé des commentaires</a></h1>
+      <div class="text-content">
+		  
+		  	<h1>Plugin for WordPress: comments custom display <br /> Plugin para WordPress: presentacion personalizada de los comentarios</h1>
+<div style="border:#CCCCCC dotted; background:#FFCCFF; width:95%; text-align:center;">
+<p><a href="http://www.valhalla.fr/ressources/wp_plugin/customcomments.zip">Download here</a></p>
+</div>
+<h2>&lt; English &gt;</h2>
+<p><u>About</u><br /><b>CustomComments</b> is a plugin for WordPress blogging software. It enables you to set up 2 CSS styles (i.e. changing background, foreground, font style, size, etc.): one style for comments submitted by the blog owner, and another style for comments submitted by other people.</p>
+<p><u>Install</u>
+<ol>
+<li />(Optional) Check your user id (the first user, the blog owner, is num. 1) and change the value of $my_id if necessary.
+<li />Upload customcomments.php to your WordPress plugins folder. Choose the file according to you blog encoding (if you don't understand what I'm talkink about, just use UTF-8 or go into your WP admin panel and Options &gt; Read to see the charset used by your blog).
+<li />Activate the plugin in WordPress admin panel
+<li />Call the function <b>custom_comments()</b> in wp-comment.php or in comment.php if you use a custom theme:
+<ul>
+<li />FIND: <span class="Code">&lt;li id="comment-&lt;?php comment_ID() ?&gt;"&gt;</span>
+<li />REPLACE BY: <span class="Code">&lt;li id="comment-&lt;?php comment_ID() ?&gt;" &lt;?php custom_comments(); ?&gt;&gt;</span></ul>
+<li />Open wp-style.css or style.css if you use a custom theme, and create 2 classes (put custom content between { and } ):
+<ul>
+<li />.mycomments { } &lt; = highlighted comments
+<li />.otherscomments { } &lt; = normal comments
+</ul>
+
+</ol>
+<p><u>Credits</u><br />
+Copyright © 2005 Guillaume Florimond - Valhalla GFBlog.com<br />
+This plugin can be distributed, with the name of the author and the copyright in the source code. The plugin can't be sold.</p>
+<h2>&lt; Français &gt;</h2>
+<p><u>A propos</u><br /><b>CustomComments</b> est un plugin pour le logiciel de blog WordPress. Son but et de permettre au propriétaire du blog de démarquer ses commentaires de ceux des autres utilisateurs en les affichant de manière différente.</p>
+<p><u>Installation</u>
+<ol>
+<li />(Optionnel) Vérifiez votre id d'utilisateur et modifiez $my_id en conséquence (si vous êtes le premier utilisateur à vous être enregistré, ce qui est probablement le cas si vous êtes le propriétaire du blog, votre id sera 1.
+<li />Uploadez customcomments.php dans le dossier des plugins de WordPress. Choisissez le fichier correspondant à l'encodage de votre blog (si vous ne savez pas, choisissez UTF-8 ou allez voir dans l'interface d'administration WP Options &gt; Lecture).
+<li />Activez le plugin depuis l'interface d'administration de WordPress
+<li />Appelez la fonction <b>custom_comments()</b> dans wp-comment.php ou dans comment.php si vous utilisez un thème personnalisé:
+<ul>
+<li />TROUVEZ: <span class="Code">&lt;li id="comment-&lt;?php comment_ID() ?&gt;"&gt;</span>
+<li />REMPLACEZ PAR: <span class="Code">&lt;li id="comment-&lt;?php comment_ID() ?&gt;" &lt;?php custom_comments(); ?&gt;&gt;</span></ul>
+<li />Ouvrez wp-style.css ou style.css si vous utilisez un thème personnalisé, et créez 2 classes (mettez le contenu entre { et } ):
+<ul>
+<li />.mycomments { } &lt; = commentaires à mettre en relief
+<li />.otherscomments { } &lt; = commentaires normaux
+</ul>
+
+</ol>
+<p><u>Crédits</u><br />
+Copyright © 2005 Guillaume Florimond - Valhalla GFBlog.com<br />
+Ce plugin peut être librement redistribué dès lors qu'il est fait mention de l'auteur. Il ne peut en aucun cas être vendu.</p>
+<h2>&lt; Español &gt;</h2>
+<p><u>A proposito</u><br /><b>CustomComments</b> est un plugin para el software de blog WordPress. Su papel es de dar la posibilidad al webmaster de crear 2 clases CSS diferentes: la primera para sus propios comentarios, y la segunda para los comentarios sometidos por los demas.</p>
+<p><u>Instalacion</u>
+<ol>
+<li />(Opcional) Cambia el "1" de $my_id por tu numero de usuari. Si fuiste el primer usuario del blog (sera asi si eres el propietario del blog), tu id sera "1".
+<li />Pon customcomments.php en el repertorio de los plugins WordPress. Tienes que utilisar el archivo correspondiente a tu charset (si no sabes, puedes utilizar UTF-8 o ir en la interfaz de administracion de WP, y ver cual es el charset utilisado en Opciones &gt; Leer).
+<li />Activa en plugin desde la interfaz de administracion de WordPress
+<li />Llama la funccion <b>custom_comments()</b> en wp-comment.php o en comment.php si tienes un tema personalizado:
+<ul>
+<li />ENCUENTRA: <span class="Code">&lt;li id="comment-&lt;?php comment_ID() ?&gt;"&gt;</span>
+<li />REMPLAZA POR: <span class="Code">&lt;li id="comment-&lt;?php comment_ID() ?&gt;" &lt;?php custom_comments(); ?&gt;&gt;</span></ul>
+<li />En wp-style.css o style.css si tienes un tema personalizado, crea 2 clases (pon el contenido entre { y } ):
+<ul>
+<li />.mycomments { } &lt; = comentarios que hay que poner de realce
+<li />.otherscomments { } &lt; = comentarios de los demas
+</ul>
+
+</ol>
+<p><u>Creditos</u><br />
+Copyright © 2005 Guillaume Florimond - Valhalla GFBlog.com<br />
+Este plugin puede ser redistribuido libremente, siempre que no se quita el nombre del autor del archivo. No puede ser en ningun caso objeto de compraventa.</p>
+
+
+</p></p></p>
+
+		  
+	  </div>
+    </div>
+    <div class="col-md-2 col-md-pull-8 col-xs-12 text-center">
+      <h2>01 Nov 2005</h2>
+      <br>
+      <div class="label label-info">754 mots</div>
+      <br>
+        
+          <div class="label label-default">web</div>
+        
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+</div>
+  
+    <div class="container excerpt">
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-8 col-md-push-2 col-xs-12">
       <h1><a href="/2005/10/29/la-souris-mythique-dapple/">La souris mythique d'Apple</a></h1>
       <div class="text-content">
 		  
@@ -722,75 +816,6 @@ Comme je viens de l'expliquer, les maîtres-spammeurs constituent des listes d'a
   </div>
 </div>
   
-    <div class="container excerpt">
-  <div class="row">
-    <div class="col-md-1"></div>
-    <div class="col-md-8 col-md-push-2 col-xs-12">
-      <h1><a href="/2005/10/04/encore-des-changements/">Encore des changements !</a></h1>
-      <div class="text-content">
-		  
-		  	<p>
-Je ne tiens vraiment pas en place ! Au début, j'avais fait un site avec des templates Dreamweaver. Ca a tenu une quinzaine de jours avant que j'installe Dotclear pour blogger. Et puis j'ai laissé tomber Dotclear pour revenir au pur HTML. J'ai ensuite délaissé le site Valhalla parce que l'interface graphique ne me plaisait pas, et que je n'avais pas le temps d'en créer une autre. Cet été, j'ai pris le temps, et j'en ai créé une nouvelle. Dans le même mois -septembre 2005-, j'ai fait une autre version de l'interface Valhalla, totalement différente. La seule chose qui changeait, c'était les CSS. Côté HTML, j'avais retenu la leçon des templates Dreamweaver, et j'étais déterminé à créer un système qui ne m'oblige pas à changer de structure pour changer d'apparence. Et maintenant... le 4 octobre, je change encore !</p>
-<p>
-Quand j'ai choisi de créer le site en PHP avec des includes XHTML+CSS, c'était pour les raisons suivantes:</p>
-<ul>
-<li />Les bases de données ne sont pas toujours très stables. Il est facile d'altérer une table et de tout foutre en l'air. A l'inverse, une fichier HTML est du texte brut agrémenté de quelques balises. Ca ne peut pas planter: une fois que le fichier est sur le serveur, il ne peut plus bouger.
-<li />Le HTML simple (et j'ai bien veillé à ce que le code des fichiers contenant le texte soit réduit au maximum) ne changera pas de sitôt. Par contre, les bases de données et le moteur PHP sont en constante évolution. Sans parler du logiciel de blog...
-<li />Avec un fichier HTML, pas de problème d'encodage. Avec MySQL, c'est une autre histoire !
-<li />Je n'avais à l'époque aucune alternative à PHPMyAdmin pour exporter et dumper les tables MySQL. Or, à cause du timeout, il est impossible de faire ou de restaurer des fichiers de sauvegardes de plusieurs MO.
-</ul>
-<p>&lt;/p&gt;</p>
-<p>
-Heureusement, j'ai résolu certains de ces problèmes:</p>
-<ul>
-<li />Je ne réalise plus mes sauvegardes avec PHPMyAdmin. Je peux exporter et dumper des fichiers de plusieurs centaines de MO sans aucun problème (si ce n'est que ça prend la journée...).
-<li />Fi des problèmes d'encodage: tout en ISO Latin 1 ! UTF-8, à la poubelle !
-</ul>
-<p>&lt;/p&gt;</p>
-<p>
-Quand aux motivations qui m'on poussé à adopter la structure blog (basé sur Dotclear), elles sont les suivantes:</p>
-<ul>
-<li />Le moteur de recherche interne qui lance une recherche dans la base de données. Il est impossible d'implémenter un tel système de recherche si le contenu est stocké dans des fichiers HTML.
-<li />Le tri <em>automatique</em> par mois et années des articles. C'est mieux qu'à la main...
-<li />Le classement par catégories. Un double classement est trop lourd à gérer en HTML sans dupliquer les fichiers.
-</ul>
-<p>&lt;/p&gt;</p>
-<p>
-J'ai longtemps hésité entre WordPress et Dotcleat. Je préférais WP pour son interface. Mais j'ai finalement choisi Dotclear pour trois raisons:</p>
-<ul>
-<li />Développé en France et totalement localisé en français, comme la plupart des thèmes.
-<li />Encodage ISO Latin 1 là où WP recommande l'UTF-8.
-<li />Les thèmes sont plus faciles à transformer de fixed-width à 100% width.
-</ul>
-<p>&lt;/p&gt;</p>
-<p>
-<em><br />
-<strong>EDIT:</strong> J'ai encore changé... je suis passé à WP pour de bon. J'ai réussi à tout installer en ISO-8859-1, et j'ai trouvé le thème ultime (Aqua-Soft). Le seul souci que j'ai, c'est que je n'ai pas réussi à trouver -pour le moment- deux plugins que j'adorais dans Dotclear: le sommaire (celui de WP est moins bien car il ne classe pas les articles par mois), et le nombre de lectures par billet.<br />
-</em></p>
-<p>
-A propos de la largeur fixe dans les blogs, je ne comprend pas. Les blogs c'est fait pour écrire, non ? Alors pourquoi faire une zone centrale toute petite, puisque c'est la zone destinée à contenir le texte ? Je préfère vraiment avoir une zone très large (dans les 80% de la largeur de l'écran) pour que la lecture soit moins contraignante !</p>
-<p>
-J'ai donc installé DotCleat. J'ai aussi installé le thème "Chaude Journée" et je l'ai adapté à mes besoins (vous l'aurez compris, en 100% width). Ensuite, j'ai inséré tous les articles dans la base de données, j'ai mis à jour les dates et je les ai classé par catégories.</p>
-<p>
-I'm ready to blog ! :)</p>
-
-
-		  
-	  </div>
-    </div>
-    <div class="col-md-2 col-md-pull-8 col-xs-12 text-center">
-      <h2>04 Oct 2005</h2>
-      <br>
-      <div class="label label-info">723 mots</div>
-      <br>
-        
-          <div class="label label-default">valhalla</div>
-        
-    </div>
-    <div class="col-md-1"></div>
-  </div>
-</div>
-  
   
   <div class="text-center pagination-content">
   <ul class="pagination pagination-lg">
@@ -875,7 +900,7 @@ I'm ready to blog ! :)</p>
         <li>Valhalla.fr</li>
         <li>Ad Absurdum</li>
         <li><small>Tous droits réservés, sauf mention contraire.</small></li>
-        <li><small>Mis à jour le  1 Jul 2015 à 17h52.</small></li>
+        <li><small>Mis à jour le  2 Jul 2015 à 00h01.</small></li>
       </ul>
     </div>
     

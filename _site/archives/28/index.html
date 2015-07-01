@@ -113,6 +113,92 @@
   <div class="row">
     <div class="col-md-1"></div>
     <div class="col-md-8 col-md-push-2 col-xs-12">
+      <h1><a href="/2001/09/30/comment-utiliser-un-resourcebundle-sous-jbuilder-pour-linternationalisation-dun-logiciel/">Comment utiliser un ResourceBundle sous JBuilder pour l'internationalisation d'un logiciel ?</a></h1>
+      <div class="text-content">
+		  
+		  	<p>Parmi les nombreuses fonctionnalit&eacute;s des versions Pro et Entreprise de JBuilder 5, on peut trouver un outil (&quot;Wizard&quot;) tr&egrave;s utile, qui permet de &quot;ressources les Strings&quot; de vos programmes.<br />
+  Un exemple est le bienvenu pour montrer l'ampleur d'une telle fonction: vous cr&eacute;ez votre programme avec une interface en fran&ccedil;ais, et, par exemple, une fen&ecirc;tre (classe h&eacute;ritant de JFrame) avec pour titre &quot;Bienvenue dans mon logiciel !&quot;, par l'instruction <span class="Code">this.setTitle(&quot;Bienvenue dans mon logiciel !&quot;);</span>. Si vous d&eacute;cidez de traduire votre logiciel dans plusieurs autres langues, vous devrez r&eacute;-&eacute;crire votre code en rempla&ccedil;ant &agrave; chaque fois votre phrase par sa traductions dans les langues d&eacute;sir&eacute;es. Vous allez donc devoir cr&eacute;er X versions de votre code source et les compiler... c'est long et contraignant.<br />
+  Le cr&eacute;er des &quot;Strings ressourc&eacute;s&quot; permet de rem&eacute;dier &agrave; ce probl&egrave;me. En effet, la proc&eacute;dure change du tout au tout: tous les messages sont cr&eacute;&eacute;s dans un fichier texte brut que l'on peut &eacute;diter sous n'importe quel bloc-notes. Pour distribuer des versions dans des langues &eacute;trang&egrave;res, il suffira donc de cr&eacute;er plusieurs versions de ce fichier texte ! Le code lui m&ecirc;me n'est pas chang&eacute;.</p>
+<p>Note: on utilise ici la version US de JBuilder... la proc&eacute;dure est similaire dans la version fran&ccedil;aise.</p>
+<p>Voici donc la proc&eacute;dure en images:</p>
+<p>1) Une fois votre classe impl&eacute;ment&eacute;e, lancer l'assistant dans JBuilder, c'est la derni&egrave;re entr&eacute;e du menu &quot;Wizard&quot;: &quot;Resource Strings&quot; </p>
+<p><img alt="RessourcesStrings" src="./ressources/java/old/faq/jbuilder_resstrings/resstrings1.jpg" /></p>
+<p>2) Une fen&ecirc;tre s'ouvre, on est invit&eacute; &agrave; sp&eacute;cifier le nom du &quot;ResourceBundle&quot;, en g&eacute;n&eacute;ral Res est le nom par d&eacute;faut.</p>
+<p><img alt="RessourcesStrings" src="./ressources/java/old/faq/jbuilder_resstrings/resstrings2.jpg" /></p>
+<p>On doit ensuite sp&eacute;cifier que l'on veut cr&eacute;er des ressources &agrave; partir des cha&icirc;nes dures de notre classe, en cochant le premier Radio. On clique ensuite sur Next (Suivant).</p>
+<p>3) Une fen&ecirc;tre s'ouvre avec toutes les cha&icirc;nes dures de votre classe, on peut choisir de d&eacute;cocher les cha&icirc;nes que l'on ne veut pas voir exporter (j'ai d&eacute;coch&eacute; ici n'importe quoi sans faire attention de qui il s'agissait).</p>
+<p>Tout est coch&eacute; par d&eacute;faut.</p>
+<p>L' instruction dans laquelle se trouve le String s&eacute;lectionn&eacute; est affich&eacute;e en bas de la fen&ecirc;tre. Ici le String vide (qui correspond &agrave; 1 espace de la barre d'espace) se trouve dans l'appel de la m&eacute;thode updateTitle(&quot;&quot;); (et on voit bien qu'elle admet ici comme argument une cha&icirc;ne vide).</p>
+<p><img alt="RessourcesStrings" src="./ressources/java/old/faq/jbuilder_resstrings/resstrings3.jpg" /></p>
+<p>NOTE: dans la suite de cet article je n'ai pas gard&eacute; les m&ecirc;mes cha&icirc;nes que celles que vous pouvez voir sur cette capture d'&eacute;cran, en effet, il n'est d'aucun int&eacute;r&ecirc;t de ressources les cha&icirc;nes affich&eacute;es ci-contre. J'utilise dans la suite de ce tutoriel un exemple concret, sur une URL, ce qui est vraiment plus utile: pas besoin de recompiler le programme &agrave; chaque changement d'adresse du site !!</p>
+<p>On clique ensuite sur Finish (Terminer).</p>
+<p>4) L'op&eacute;ration est termin&eacute;e.</p>
+<p><img alt="RessourcesStrings" src="./ressources/java/old/faq/jbuilder_resstrings/resstrings4.jpg" /></p>
+<p>Nous allons maintenant nous int&eacute;resser &agrave; ce qu'a fait JBuilder.</p>
+<p>On voit pour commencer qu'il a cr&eacute;&eacute; un objet statique ResourceBundle nomm&eacute; &quot;res&quot; et qui est cr&eacute;&eacute; avec pour argument la cha&icirc;ne &quot;Res&quot; qui en en fait le nom du fichier texte brut dans lequel sont stock&eacute;es les cha&icirc;nes.</p>
+<p>5) En parcourant le code de notre classe, on s'aper&ccedil;oit que certaines instructions ont &eacute;t&eacute; chang&eacute;es. Ici, l'instruction &eacute;tait:</p>
+<p class="Code">jTextPane1.setPage(&quot;http://perso.wanadoo.fr/guillaume/cadre_droit.htm&quot;);</p>
+<p>qui a &eacute;t&eacute; modifi&eacute;e en ce qu'on voit sur la capture d'&eacute;cran.</p>
+<p><img alt="RessourcesStrings" src="./ressources/java/old/faq/jbuilder_resstrings/resstrings5.jpg" /></p>
+<p>On conclue que notre URL ci-dessus correspond &agrave; l'entr&eacute;e &quot;ACTU_ADDRESS&quot; dans le fichier texte brut sur lequel pointe notre objet REsourceBundle &quot;res&quot;.</p>
+<p>6) Nous allons donc voir ce fichier texte brut pour savoir comment il est form&eacute;. On peut le trouver dans la liste des fichiers du projet, en haut &agrave; gauche de la fen&ecirc;tre de JBuilder.</p>
+<p>On l'ouvre en double-cliquant dessus.</p>
+<p><img alt="RessourcesStrings" src="./ressources/java/old/faq/jbuilder_resstrings/resstrings6.jpg" /></p>
+<p>7) Et voil&agrave; notre fichier.</p>
+<p><img alt="RessourcesStrings" src="./ressources/java/old/faq/jbuilder_resstrings/resstrings7.jpg" /></p>
+<p>La premi&egrave;re ligne est un commentaire (syntaxe des commentaires Unix: ligne d&eacute;butant par di&egrave;se #). Les autres lignes sont simplement les correspondances des cha&icirc;nes que nous avions dans nos classes. On peut voir la cha&icirc;ne repr&eacute;sent&eacute;e par l'entr&eacute;e ACTU_ADDRESS, cha&icirc;ne que j'ai cit&eacute;e plus haut. On note aussi la syntaxe un peu particuli&egrave;re: &quot;http\://&quot; au lieu de&quot;http://&quot;. Ceci s'explique par le fait que les deux points (:) sont un caract&egrave;re sp&eacute;cial et que l'anti-slash (\) sert &agrave; signaler la pr&eacute;sence d'un caract&egrave;re sp&eacute;cial. N'y faites pas attention, mais respectez la syntaxe si vous changez votre URL. Je tiens &agrave; dire, pour terminer, que cet exemple est fonctionnel, puis qu'il s'agit du fichier de ressources qu'utilise ML. (regardez dans le JAR de ML...).</p>
+<p>Conclusion:</p>
+<p>Pour reprendre notre premier exemple, on oppose:</p>
+<table width="100%" border="1" cellspacing="0" bordercolor="#FFFFCC">
+<tr bgcolor="#FFFFCC">
+<td><b>Sans les Strings ressourc&eacute;s (3 compilations)</b></td>
+<td><b>Avec les Strings ressourc&eacute;s (1 compilation)</b></td>
+</tr>
+<tr>
+<td rowspan="2">
+<p class="Code"><font color="#0000FF"> this.setTitle(&quot;Bienvenue dans mon logiciel
+<p>        !&quot;);<br />
+        this.setTitle(&quot;Welcome in my Soft !&quot;);<br />
+        this.setTitle(&quot;Bienvenido en mi programa !&quot;); </p>
+
+<td><font color="#0000FF" class="Code">this.setTitle(res.getString(&quot;BONJOUR&quot;));</font></td>
+
+<tr>
+<td>
+<p><i>Dans le fichier de propri&eacute;t&eacute;s:</i><br />
+        <span class="Code">BONJOUR=Bienvenue dans mon logiciel !<br />
+        BONJOUR=Welcome in my Soft !<br />
+        BONJOUR=Bienvenido en mi programa !</span></p>
+</td>
+</tr>
+
+<p>Tutoriel distribu&eacute; pour le FAQ Java de Java-France www.java-france.com / www.jgflsoft.com<br />
+  R&eacute;&eacute;dit&eacute; pour Valhalla GFBLOG. <br />
+  &Eacute;crit &agrave; Montpellier le 30 septembre 2001</p>
+
+
+</font></p></td></tr></table>
+
+		  
+	  </div>
+    </div>
+    <div class="col-md-2 col-md-pull-8 col-xs-12 text-center">
+      <h2>30 Sep 2001</h2>
+      <br>
+      <div class="label label-info">861 mots</div>
+      <br>
+        
+          <div class="label label-default">java</div>
+        
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+</div>
+  
+    <div class="container excerpt">
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-8 col-md-push-2 col-xs-12">
       <h1><a href="/2001/08/31/trouver-les-premiers-nombres-premiers/">Trouver les premiers nombres premiers</a></h1>
       <div class="text-content">
 		  
@@ -602,158 +688,6 @@ Nous allons voir ici comment faire pour &eacute;viter une telle exception. Le co
   </div>
 </div>
   
-    <div class="container excerpt">
-  <div class="row">
-    <div class="col-md-1"></div>
-    <div class="col-md-8 col-md-push-2 col-xs-12">
-      <h1><a href="/2001/04/13/comment-travailler-avec-des-archives-compressees-au-format-zip-en-java/">Comment travailler avec des archives compressées au format ZIP en Java ?</a></h1>
-      <div class="text-content">
-		  
-		  	<p>Comment travailler avec des archives compress&eacute;es au format ZIP en Java ?</p>
-<p>Ce HowTo a pour but de vous expliquer comment cr&eacute;er des archives de fichiers compress&eacute;es au format ZIP et comment ensuite les ouvrir et extraire les fichiers contenus &agrave; l'int&eacute;rieur. Ce n'est en aucun cas un cours th&eacute;orique sur la compression de donn&eacute;es en Java, il s'agit juste d'un tutoriel. De plus, vous devrez utiliser la documentation de Sun si vous d&eacute;sirez en savoir plus sur, par exemple, la mani&egrave;re d'afficher le nom de tous les fichiers d'une archive. Le cas &eacute;ch&eacute;ant, &eacute;crivez moi &agrave; narcanes@online.fr.</p>
-<p>Nous allons dans un premier temps d&eacute;finir une archive ZIP:  </p>
-<table width="100%" border="0">
-<tr>
-<td width="41%">Extension par d&eacute;faut du fichier</td>
-<td width="59%">.ZIP</td>
-</tr>
-<tr>
-<td width="41%">Programmes pour les lire sous Windows</td>
-<td width="59%"><a href="www.winzip.com" target="_new">Winzip</a>, Pkzip, 
-<p>        Norton Unzip...
-
-<tr>
-<td width="41%">Rassemble dans un fichier plusieurs autres fichiers</td>
-<td width="59%">Oui</td>
-</tr>
-<tr>
-<td width="41%">Rassemble des fichiers en les compressant (r&eacute;duisant 
-<p>        leur taille)
-<td width="59%">Oui</td>
-
-<tr>
-<td width="41%">On peut choisir le taux de compression</td>
-<td width="59%">Oui de 0 &agrave; 9</td>
-</tr>
-<tr>
-<td width="41%">Contient un fichier META (description de l'archive)</td>
-<td width="59%">Non</td>
-</tr>
-<tr>
-<td width="41%">On peut lire une archive ZIP sous plusieurs OS</td>
-<td width="59%">Oui: Windows 3.1/95/98/Me/Nt/2000, Linux (toutes distributions), 
-<p>        Sparc Solaris, MacOs, BeOs, Os2/Warp, etc...
-
-<tr>
-<td width="41%" height="26">On peut joindre des commentaires &agrave; l'archive</td>
-<td width="59%" height="26">Oui</td>
-</tr>
-
-<p>Ce tutoriel comprendra 2 parties: pour commencer comment cr&eacute;er une archive ZIP, ensuite, comment en lire une et extraire ses fichiers.</p>
-<h1>Comment cr&eacute;er une archive ZIP en Java ?</h1>
-<p class="Code">// Cr&eacute;er des flux d'entr&eacute;e de donn&eacute;es, en indiquant comme param&egrave;tre le fichier &agrave; compresser.<br />
-  FileInputStream fin1 = new FileInputStream(&quot;monPremierFichier.txt&quot;);<br />
-  FileInputStream fin2 = new FileInputStream(&quot;monSecondFichier.xls&quot;);<br />
-  FileInputStream fin3 = new FileInputStream(&quot;monTroisiemeFichier.doc&quot;);</p>
-<p class="Code">// Cr&eacute;er un flux de sortie pour le fichier ZIP final. <br />
-  FileOutputStream fout = new FileOutputStream(&quot;monFichier.zip&quot;); </p>
-<p class="Code">// Mettre le flux en m&eacute;moire tampon (buffered), et le d&eacute;finir comme flux de compression ZIP<br />
-  BufferedOutputStream bout = new BufferedOutputStream(fout); <br />
-  ZipOutputStream zout = new ZipOutputStream(bout);</p>
-<p class="Code">// D&eacute;finir le taux de compression de l'archive, de 0 &agrave; 9 (Optionnel)<br />
-  zout.setLevel(6);</p>
-<p class="Code">// Associer un commentaire &agrave; l'archive (Optionnel)<br />
-  zout.setComment(&quot;Ceci est un commentaire&quot;);</p>
-<p class="Code">// Les fichiers ZIP sont des archives, elles stockent donc plusieurs fichiers, chaque fichier est contenu dans une &quot;entr&eacute;e&quot;, nous devons donc cr&eacute;er une nouvelle<br />
-  // entr&eacute;e pour chaque nouveau fichier de l'archive: (on pourra aussi utiliser ze1.getName() pour r&eacute;cup&eacute;rer le nom de l'entr&eacute;e, ceci est tr&egrave;s utilse si vous voulez <br />
-  // programmer un outil du type WinZip qui affiche la liste des fichiers d'une archive.) <br />
-  ZipEntry ze1 = new ZipEntry(&quot;monPremierFichier.txt&quot;); <br />
-  ZipEntry ze2 = new ZipEntry(&quot;monSecondFichier.xls&quot;); <br />
-  ZipEntry ze3 = new ZipEntry(&quot;monTroisiemeFichier.doc&quot;); <br />
-  zout.putNextEntry(ze1); <br />
-  zout.putNextEntry(ze2); <br />
-  zout.putNextEntry(ze3);</p>
-<p class="Code">// Nous devons ensuite copier le flux d'entr&eacute;e de fichier dans le flux de sortie compress&eacute;. Le code ci-dessous n'est pas comment&eacute;, ce n'est pas l'objet de ce tutoriel:<br />
-  try <br />
-  { <br />
-  synchronized (fin) <br />
-  {<br />
-  synchronized (zout) <br />
-  { <br />
-  byte[] buffer = new byte[256];<br />
-  while (true) <br />
-  { <br />
-  int bytesRead = in.read(buffer); <br />
-  if (bytesRead == -1) break;<br />
-  out.write(buffer, 0, bytesRead);<br />
-  }<br />
-  }<br />
-  } }catch(Exception err) {;}</p>
-<p class="Code">// Une fois les flux copi&eacute;s nous devons fermer l'entr&eacute;e<br />
-  zout.closeEntry();</p>
-<p class="Code">// Puis fermer les flux...<br />
-  fin.close(); <br />
-  zout.close();</p>
-<h1>Comment d&eacute;compresser les fichiers contenus dans une archive ZIP ?</h1>
-<p class="Code">// Cr&eacute;er un flux d'entr&eacute;e contenant l'archive ZIP &agrave; d&eacute;compresser<br />
-  FileInputStream fin = new FileInputStream(&quot;monFichier.zip&quot;);</p>
-<p class="Code">// Mettre ce flux en m&eacute;moire tampon<br />
-  BufferedInputStream bis = new BufferedInputStream(fin);</p>
-<p class="Code">// Identifier le flux tampon comme flux de compression ZIP<br />
-  ZipInputStream zin = new ZipInputStream(bis);</p>
-<p class="Code">// D&eacute;finir un objet ZipEntry<br />
-  ZipEntry ze = null;</p>
-<p class="Code">// Tant que cet objet est diff&eacute;rent de nul (tant qu'il y a des fichiers dans l'archive)...<br />
-  while ((ze = zin.getNextEntry()) != null) {</p>
-<p class="Code">// ... ex&eacute;cuter le code suivant:<br />
-  // Cr&eacute;er un flux de sortie pour le fichier de l'entr&eacute;e courante<br />
-  FileOutputStream fout = new FileOutputStream(ze.getName());<br />
-  // Copier les flux:<br />
-  try <br />
-  { <br />
-  synchronized (zin) <br />
-  {<br />
-  synchronized (fout) <br />
-  { <br />
-  byte[] buffer = new byte[256];<br />
-  while (true) <br />
-  { <br />
-  int bytesRead = in.read(buffer); <br />
-  if (bytesRead == -1) break;<br />
-  out.write(buffer, 0, bytesRead);<br />
-  }<br />
-  }<br />
-  } }catch(Exception err) {;}</p>
-<p class="Code">// Fermer l'entr&eacute;e et le flux de sortie <br />
-  zin.closeEntry();<br />
-  fout.close();</p>
-<p class="Code">// Terminer l'instruction while:<br />
-  }</p>
-<p class="Code">// Fermer le flux d'entr&eacute;e<br />
-  zin.close();</p>
-<p>Tutoriel distribu&eacute; pour le FAQ Java de Java-France www.java-france.com / www.jgflsoft.com<br />
-  R&eacute;&eacute;dit&eacute; pour Valhalla GFBLOG. <br />
-  Ecrit &agrave; Montpellier le 23 avril 2001</p>
-
-
-</p></td></tr></p></td></tr></p></td></tr></table>
-
-		  
-	  </div>
-    </div>
-    <div class="col-md-2 col-md-pull-8 col-xs-12 text-center">
-      <h2>13 Apr 2001</h2>
-      <br>
-      <div class="label label-info">822 mots</div>
-      <br>
-        
-          <div class="label label-default">java</div>
-        
-    </div>
-    <div class="col-md-1"></div>
-  </div>
-</div>
-  
   
   <div class="text-center pagination-content">
   <ul class="pagination pagination-lg">
@@ -826,7 +760,7 @@ Nous allons voir ici comment faire pour &eacute;viter une telle exception. Le co
         <li>Valhalla.fr</li>
         <li>Ad Absurdum</li>
         <li><small>Tous droits réservés, sauf mention contraire.</small></li>
-        <li><small>Mis à jour le  1 Jul 2015 à 17h52.</small></li>
+        <li><small>Mis à jour le  2 Jul 2015 à 00h01.</small></li>
       </ul>
     </div>
     
