@@ -25,7 +25,7 @@ Cette structure par défaut devient vite difficile à gérer :
 	_posts/
 	      |- 2015-07-01-jekyll-hierarchie-de-dossiers.markdown
 
-Ainsi, la structure suivant est préférable :
+Ainsi, la structure suivante est préférable :
 
 	_posts/
 	      |- 2015/
