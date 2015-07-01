@@ -5,7 +5,6 @@ title: "Jekyll: une hiérarchie de dossiers" 
 author: GF
 date: 2015-07-01 23:35
 place: Montpellier
-excerpt: "Le moteur de sites statiques [Jekyll][1] génère les URL en fonction du nom des fichiers. Ainsi, le fichier _2015-07-01-jekyll-hierarchie-de-dossiers.markdown_ sera visible à l’adresse _/2015/07/01/jekyll-hierarchie-de-dossiers/_. C’est très pratique, jusqu’à ce que le dossier _posts_ contenant les fichiers source soit plein à craquer. C’est alors que l’on songe à classer les fichiers en sous-dossiers, par exemple par année. Et c’est là que les problèmes commencent…"
 categories:
 - Valhalla
 - Informatique
@@ -18,6 +17,8 @@ tags:
 comments: true
 permalink:  /2015/07/01/jekyll-hierarchie-de-dossiers/
 ---
+
+Le moteur de sites statiques [Jekyll][1] génère les URL en fonction du nom des fichiers. Ainsi, le fichier _2015-07-01-jekyll-hierarchie-de-dossiers.markdown_ sera visible à l’adresse _/2015/07/01/jekyll-hierarchie-de-dossiers/_. C’est très pratique, jusqu’à ce que le dossier _posts_ contenant les fichiers source soit plein à craquer. C’est alors que l’on songe à classer les fichiers en sous-dossiers, par exemple par année. Et c’est là que les problèmes commencent…
 
 Cette structure par défaut devient vite difficile à gérer :
 
