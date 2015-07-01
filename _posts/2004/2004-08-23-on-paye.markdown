@@ -1,0 +1,36 @@
+---
+layout: post
+status: publish
+published: true
+title: On paye...
+author:
+  display_name: GF
+  login: gflorimond
+  email: gf@valhalla.fr
+  url: http://www.valhalla.fr
+author_login: gflorimond
+author_email: gf@valhalla.fr
+author_url: http://www.valhalla.fr
+wordpress_id: 4
+wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=4
+date: '2004-08-23 22:20:08 +0200'
+date_gmt: '2004-08-23 20:20:08 +0200'
+categories:
+- Coup de gueule
+tags:
+- humeur
+- société
+- Coup de gueule
+permalink:  /2004/08/23/on-paye/
+---
+<p>J'ai pas grand chose &agrave; dire alors je vais gueuler un peu sur les boites informatiques, et pour aujourd'hui on va taper un peu sur Microsoft (comme pour pas changer...) et sur Apple. </p>
+<p> Apple d'abord car je viens d'acheter mon premier Mac. D'ailleurs je suis en train de r&eacute;diger cette note dessus: le clavier est beaucoup mieux que celui de mes 2 PC, et l'&eacute;cran au format panoramique 16/9 est une merveille. Et puis aussi OS X, le syst&egrave;me d'exploitation, qui est tr&egrave;s stable, ergonomique, simple, beau, intelligent et rapide. Et en plus on sent que c'est un Unix: quand je copie un fichier de 3 GO de mon disque dur local vers mon disque dur amovible par firewire, je peux faire autre chose sans ralentissement: il y a une vrai gestion du multit&acirc;che! En plus mon PowerBook est l&eacute;ger, beau, silencieux, tr&egrave;s plat, etc ... bref, tout va pour le mieux dans le meilleur des mondes. </p>
+<p>    Cependant, puisque j'ai d&eacute;cid&eacute; de gueuler, il va bien falloir trouver quelque chose: et bien c'est sur Quicktime que j'ai d&eacute;cid&eacute; de taper aujourd'hui. Quicktime c'est bien: on clique sur une icone d'un fichier divx, &ccedil;a s'ouvre, et on peut mate le film. Bref, c'est comme Windows Media Player sous Windows. Cependant, on a beau chercher, on ne peut pas lire de film en mode plein &eacute;cran, on est oblig&eacute; de se farcir la fen&ecirc;tre du soft! pourtant win media player le fait bien lui, il suffit de double-cliquer sur l'image, et hop &ccedil;a passe en plein &eacute;cran! Et bien non, le Quicktime quand on clique il aime pas et il met le film en pause... Comment faire alors ? C'est Apple, c'est c'est pas compliqu&eacute;... il suffit de sortir votre CB et de passer par l'applestore pour d&eacute;bourser 20 euros et passer en version enregistr&eacute;e de QT. M&ecirc;me pas de fichier &agrave; t&eacute;l&eacute;charger, apr&egrave;s la transaction Apple nous donne un serial qu'il suffit d'entrer dans QT pour d&eacute;v&eacute;rouiller ses fonctions cach&eacute;es. C'est pas de l'abus &ccedil;a ? franchement... ne pas pouvoir lire un film en plein &eacute;cran sans avoir &agrave; payer... Enfin, je vais pas trop me plaindre parcequ'en ce qui me concerne j'avais besoin d'acheter la version compl&egrave;te pour pourvoir exporter des s&eacute;quences. </p>
+<p> Apr&egrave;s avoir tap&eacute; sur Apple, on peut aller voir un coup du c&ocirc;t&eacute; de Microsoft... ah non! je ne vais pas cracher une fois de plus sur XP en disant que c'est instable, que Billou veut conqu&eacute;rir le monde, etc... rien &agrave; battre de tout &ccedil;a. J'ai envie de parler de MS Office qui m'a cout&eacute; 550 euros et qui bug et qui me gonfle... </p>
+<p>En effet, j'ai param&eacute;tr&eacute; la langue par d&eacute;faut du mod&egrave;le: espagnol. La langue de tous les styles: espagnol. La langue globale du document et la langue de tous les sous-styles dans mon fichier d&eacute;riv&eacute; du mod&egrave;le. </p>
+<p>    Mais rien n'y fait, quand apr&egrave;s avoir utilis&eacute; un style de titre (titre 1, titre 2, titre 3, etc) j'appuie sur ((Entr&eacute;e)) pour passer &agrave; la ligne suivante et commencer &agrave; entrer le texte du paragraphe, Word se remet logiquement sur le style &quot;Normal&quot;, avec la bonne police, les bonnes marges et co... sauf la langue! Cet idiot repasse syst&eacute;matiquement en fran&ccedil;ais! Et pas moyen de faire comprendre &agrave; cette foutue machine que tout ce que je tape dans ce fichier est en e-s-p-a-g-n-o-l ! Il veut rien savoir l'animal, il refuse cat&eacute;goriquement de comprendre ! Je dois remettre manuellement la langue par d&eacute;faut sur espagnol &agrave; chaque nouveau paragraphe! Et comme parfois j'ai 10 paragraphes de 3 lignes &agrave; la suite, c'est lourd ! (oui, oui, je ne fais pas de gros pat&eacute;s de texte comme dans mon blog... normal c'est s&eacute;rieux l&agrave;!). </p>
+<p>    Et l'aide de Word elle est vraiment moisie: le compagnon office de Word 2002 PC est tr&egrave;s intelligent: il a toujours compris les questions que je lui posais, et a toujours donn&eacute; la bonne r&eacute;ponse, mais le compagnon Office de Word 2004 Mac, c'est un pur lobotomis&eacute;, il entrave que dalle! bref, apr&egrave;s 20 minutes d'&eacute;nervement devant le manifique &eacute;cran de mon mac, j'ai fini par lire ce terrible texte qui disait grosso-modo (mais non t'es pas grosse Germaine, je parle pas de toi!) &quot;Word il est tr&egrave;s fut&eacute;, il s'adapte tout seul comme un grand &agrave; la langue de votre clavier et applique cette m&ecirc;me langue au correcteur orthographique de votre document!&quot;. Mon dieu qu'il est con... je vais devoir taper avec un clavier QWERTY pour acc&eacute;der au correcteur espagnol ? Imb&eacute;cile!</p>
+<p>    En plus, c'est pas pour dire mais mon mac il a un gros d&eacute;faut de ce point de vue l&agrave;: il a un vrai clavier franco-fran&ccedil;ais du fin fond de l'Auvergne au pinard qui tache: pas moyen de faire un accent sur un O, un A ou un I, ou m&ecirc;me la tilde de Espana (oui, elle y est pas, ben je viens de vous le dire, on peut pas le faire, du moins sans s'exploser les poignets toutes les 20 secondes &agrave; faire des combinaisons de Pomme+alt+f8+up+fn+maj+mettre_un_doigt_dans_l'oreille+mettre_un_pied_derri&egrave;re_la_t&ecirc;te!!). Donc l&agrave; Word il est param&eacute;tr&eacute;, et j'y ai pass&eacute; un temps fou... quand je tape espana il me le met l'accent, et tout &ccedil;a automatiquement, et pareil quand je tape 'd' il me met 'derecho', etc, etc, &ccedil;a va tr&egrave;s vite de taper des abr&eacute;viations comme &ccedil;a! Seulement, &ccedil;a ne marche que quand la langue du document est l'espagnol, parceque quand je tape 'd' avec la langue par d&eacute;faut fran&ccedil;ais, &ccedil;a met 'droit', et pas 'derecho', donc je me retrouve avec un mot fran&ccedil;ais en plein milieu de monde texte espagnol! grrr... </p>
+<p> Vivement que la dict&eacute;e vocale fonctionne efficacement...!</p>
+<p>
+&agrave; Montpellier le 23/08/2004</p>

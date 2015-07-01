@@ -16,3 +16,5 @@ Gemfile.lock
 public/.DS_Store
 
 public/posts/.DS_Store
+
+.DS_Store

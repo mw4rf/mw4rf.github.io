@@ -113,80 +113,88 @@
   <div class="row">
     <div class="col-md-1"></div>
     <div class="col-md-8 col-md-push-2 col-xs-12">
-      <h1><a href="/2001/03/17/comment-utiliser-un-filtre-de-fichiers-dans-un-jfilechooser/">Comment utiliser un filtre de fichiers dans un JFileChooser ?</a></h1>
+      <h1><a href="/2001/08/31/trouver-les-premiers-nombres-premiers/">Trouver les premiers nombres premiers</a></h1>
       <div class="text-content">
 		  
-		  	<p>Cet article explique comment mettre en place un filtre de fichiers dans un JFileChooser, &agrave; partir de leur extension. En effet, cette fonction n'est pas impl&eacute;ment&eacute;e de mani&egrave;re efficace par d&eacute;faut, et il nous faudra cr&eacute;er notre propre classe pour un r&eacute;sultat convenable.<br />
-  Nous allons ensuite cr&eacute;er un JFileChooser et lui assigner notre FileFilter appell&eacute; FiltreExtension.</p>
-<p>Voici donc le code source de la classe comment&eacute;:</p>
-<p class="Code">public class FiltreExtension extends javax.swing.filechooser.FileFilter<br />
+		  	<p>Ceci ne concerne pas vraiment une technique de programmation, c'est plut&ocirc;t un exercice pour se former l'esprit, et c'est aussi la d&eacute;monstration que Java peut servir pour le calcul math&eacute;matique.</p>
+<p>L'algo mis en place est le plus simple dans le genre: on premd un nombre impair, on le divise par chaque entier impair entre 3 et sa racine carr&eacute;e. S'il n'a aucun diviseur il est premier.</p>
+<p class="Code">// Le nombre candidat de d&eacute;part, mettez la valeur que vous d&eacute;sirez, ce sera le nombre de d&eacute;part et le programme ira en choisissant des nombres de plus en plus grands<br />
+  long candidat = 1000;</p>
+<p class="Code">while (true) // ou for (;;) sont des boucles infinies qui ne v&eacute;rifient pas de condition<br />
   {<br />
-  // 2 cha&icirc;nes qui contiendront respectivementl'entension du fichier (de la forme &quot;jpg&quot;, &quot;txt&quot;, etc...) et la descritpion<br />
-  // par exemple &quot;Fichier JPEG&quot; ou &quot;Fichier Texte Brut&quot;.<br />
-  String extension;<br />
-String description;</p>
-<p class="Code">// Notre constructeur qui admet donc comme arguments l'extension souhait&eacute;e ainsi que la description que l'on lui associe<br />
-  public FiltreExtension(String extension, String description)<br />
-  {<br />
-  // on n'a ainsi pas besoin (on ne doit pas) inclure le &quot;.&quot; (point) dans le libell&eacute; de l'extension<br />
-  if (extension.indexOf('.') == -1)<br />
-  extension = &quot;.&quot; + extension;<br />
-  // on assimile les Strings du d&eacute;part (variables de classe) aux Strings fournis comme argument au constructeur (variableslocales)<br />
-  this.extension = extension;<br />
-  this.description = description;<br />
+  // on invoque la m&eacute;thode estPremier() qui renvoie un booleen: oui ou non le nombre qu'on lui soumet est premier, l'instruction if(estPremier(candidate)) est &eacute;quivalente<br />
+  // &agrave; if (estPremier(candidate) == true)<br />
+  if(estPremier(candidate)) {System.out.println(&quot;&gt;Est premier le nombre: &quot; + candidate); <br />
   }</p>
-<p class="Code"> public boolean accept(File fichier)<br />
+<p class="Code">private static boolean estPremier(long candidat)<br />
   {<br />
-  // v&eacute;rifier si le le fichier finit avec l'extension que nous avons sp&eacute;cifi&eacute; dans le constructeur, et, dans ce cas &quot;accepter&quot; de l'afficher<br />
-  // dans la fen&ecirc;tre du JFileChooser<br />
-  if (fichier.getName().endsWith(extension))<br />
+  // Diviser le nombre par tous les entiers impairs entre 3 et sa racine<br />
+  double racine = Math.sqrt(candidate);<br />
+  for (long i = 3; i &lt;= sqrt; i += 2) // on incr&eacute;mente de 2 pour sauter les pairs<br />
+  { <br />
+  // si le modulo, c-&agrave;-d le reste de la division euclidienne est 0, le nombre est divisible par i, i est donc un facteur, le nombre n'est pas premier.<br />
+  if (candidat % i == 0) return false;<br />
+  } <br />
+  // Si la cdt ci-dessus n'est jamais v&eacute;rifi&eacute;e, alors le nombre est premier:<br />
   return true;<br />
-  // les r&eacute;pertoires aussi doivent &ecirc;treaffich&eacute;s dans la fen&ecirc;tre du JFileChooser<br />
-  else if (fichier.isDirectory())<br />
-  return true;<br />
-  return false;<br />
   }</p>
-<p class="Code"> public String getDescription()<br />
-  {<br />
-  // la description du fichier, que l'on associe &agrave; son extension, on a un affichage du type: &quot;Fichier JPEG (*.jpg)&quot;<br />
-  return this.description + &quot;(*&quot; + extension + &quot;)&quot;;<br />
+<p>Et voil&agrave;, vous n'avez plus qu'&agrave; r&eacute;diger la m&eacute;thode main() o&ugrave; &agrave; incorporer ce code dans une de vos classes, ici les premiers sont sortis en console. (System.out)</p>
+<p>Tutoriel distribu&eacute; pour le FAQ Java de www.jgflsoft.com ou www.java-france.com<br />
+  R&eacute;&eacute;dit&eacute; pour Valhalla GFBLOG. <br />
+  Ecrit &agrave; Montpellier le 31 ao&ucirc;t 2001</p>
+
+
+		  
+	  </div>
+    </div>
+    <div class="col-md-2 col-md-pull-8 col-xs-12 text-center">
+      <h2>31 Aug 2001</h2>
+      <br>
+      <div class="label label-info">331 mots</div>
+      <br>
+        
+          <div class="label label-default">java</div>
+        
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+</div>
+  
+    <div class="container excerpt">
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-8 col-md-push-2 col-xs-12">
+      <h1><a href="/2001/08/31/comment-naviguer-sur-internet-avec-un-jeditorpane/">Comment naviguer sur Internet avec un JEditorPane ?</a></h1>
+      <div class="text-content">
+		  
+		  	<p>Cet article de la FAQ Java de l'association Java-France a pour but d'expliquer la proc&eacute;dure &agrave; suivre pour afficher des pages HTML, qui r&eacute;pondent aux liens, dans un JEditorPane ou un JTextPane (m&ecirc;me proc&eacute;dure). En effet, ces deux composnats (JTextPane h&eacute;ritant de JEditorPane) impl&eacute;mentent des m&eacute;thodes compliqu&eacute;es (plusieurs milliers de lignes de code) permettant de formater un document au format HTML, et de lancer une connexion pour afficher une nouvelle page si l'on clique sur un lien.</p>
+<p>Nous allons donc voir, en 3 points, comment faire pour mettre en place un tel JEditorPane.</p>
+<p>1) Le d&eacute;clarer, l'ins&eacute;rer dans l'interface (dans un JScrollPane de pr&eacute;f&eacute;rence), et faire tout ce qu'il faut pour qu'il s'affiche dans ue fen&ecirc;tre quand on lance le programme.</p>
+<p>2) L'interdire en &eacute;criture: <span class="Code">editorPane.setEditable(false);</span></p>
+<p>3) Cr&eacute;er un gestionnaire d'&eacute;v&egrave;nements &quot;HyperlinkListener&quot;.</p>
+<p class="Code">editorPane.addHyperlinkListener(new HyperlinkListener()<br />
+  { public void hyperlinkUpdate(HyperlinkEvent event)<br />
+  { if (event.geteventType() == HyperlinkEvent.EventType.ACTIVATED)<br />
+  { try<br />
+  {editorPane.setPage(event.getURL());<br />
+  }catch(IOException ioe) {;}<br />
   }<br />
-}</p>
-<p> Une fois ce code &eacute;crit dans un fichier du nom de &quot;FiltreExtension.java&quot;, nous pouvons incorporer ce fichier dans nos projets Java et l'utiliser.<br />
-  Pour l'utiliser nous devons cr&eacute;er un JFileChooser et lui assigner un nouveau FileFilter.<br />
-  Voici la proc&eacute;dure:</p>
-<p>1- Cr&eacute;ons un JFileChooser pour commencer: </p>
-<p class="Code">JFileChooser jfc = new JFileChooser();</p>
-<p>2 - D&eacute;finissons le r&eacute;pertoire courant ua r&eacute;pertoired'ex&eacute;cution du programme (optionnel):</p>
-<p class="Code">jfc.setCurrentDirectory(new File(&quot;.&quot;));</p>
-<p>3 - Assignons le FileFilter:</p>
-<p class="Code">jfc.addChoosableFileFilter(new FiltreExtension(&quot;jpg&quot;, &quot;Fichier JPEG&quot;));<br />
-  jfc.addChoosableFileFilter(new FiltreExtension(&quot;bmp&quot;, &quot;Fichier Bitmap&quot;));<br />
-  jfc.addChoosableFileFilter(new FiltreExtension(&quot;gif&quot;, &quot;Fichier GIF&quot;));<br />
-  jfc.addChoosableFileFilter(new FiltreExtension(&quot;png&quot;, &quot;Fichier PNG&quot;));</p>
-<p>4 - r&eacute;cup&eacute;rer le fichier que l'utilisateur a choisi:</p>
-<p class="Code">int resultat = jfc.showOpenDialog(this);<br />
-  if (resultat == JFileChooser.APPROVE_OPTION)<br />
-  {<br />
-  // code &agrave; ex&eacute;cuter comme par exemple:<br />
-  File fichier;<br />
-  fichier = jfc.getSelectedFile();<br />
-  // suite du code...<br />
-  }</p>
-<p>Et voici ce que &ccedil;a donne en action :</p>
-<p><img alt="FileChooser" src="./ressources/java/old/faq/filtre_extension/filtre_extension.jpg" /></p>
-<p>Tutoriel distribu&eacute; pour le FAQ Java de Java-France www.java-france.com / www.jgflsoft.com<br />
+  }<br />
+  }<br />
+}); </p>
+<p>Et voil&agrave; le travail ! </p>
+<p>Tutoriel distribu&eacute; pour le FAQ Java de www.jgflsoft.com ou www.java-france.com<br />
   R&eacute;&eacute;dit&eacute; pour Valhalla GFBLOG. <br />
-  Ecrit &agrave; Montpellier le 17 mars 2001</p>
+  Ecrit &agrave; Montpellier le 31 ao&ucirc;t 2001</p>
 
 
 		  
 	  </div>
     </div>
     <div class="col-md-2 col-md-pull-8 col-xs-12 text-center">
-      <h2>17 Mar 2001</h2>
+      <h2>31 Aug 2001</h2>
       <br>
-      <div class="label label-info">480 mots</div>
+      <div class="label label-info">196 mots</div>
       <br>
         
           <div class="label label-default">java</div>
@@ -200,45 +208,48 @@ String description;</p>
   <div class="row">
     <div class="col-md-1"></div>
     <div class="col-md-8 col-md-push-2 col-xs-12">
-      <h1><a href="/2001/03/17/comment-excuter-une-commande-systme-depuis-un-programme-java/">Comment ex&eacute;cuter une commande syst&egrave;me depuis un programme Java ?</a></h1>
+      <h1><a href="/2001/08/30/introduction-a-java-idl/">Introduction à Java IDL</a></h1>
       <div class="text-content">
 		  
-		  	<p>Cet article explique comment ex&eacute;cuter une commande syst&egrave;me, c'est-&agrave;-dire comment faire pour que Java transmette au syst&egrave;me d'exploitation une commande destin&eacute;e normalement &agrave; une console (fen&ecirc;tre MS-DOS sous Windows, Terminal sous UNIX, etc...).</p>
-<p>Concr&egrave;tement, si vous d&eacute;sirez ex&eacute;cuter dans l'ordre les instructions suivantes en ligne de commande:<br />
-  - <span class="Code">cd C:\Program Files\Microsoft Office\Office\</span><br />
-  - <span class="Code">Winword.exe</span><br />
-  de mani&egrave;re &agrave; se placer dans le r&eacute;pertoire C:\Program Files\Microsoft Office\Office\ et &agrave; lancer Word 2000, le programme Java peut le faire pour vous. (Dans cet exemple, on peut se passer de la commande cd pour lancer Word, mais c'est aussi pour montrer que l'on ne se limite pas au lancement d'un programme, mais que l'on peut aussi ex&eacute;cuter d'autres commandes).</p>
-<p>Ce genre de fonctions sous Java permet, entre autres, de lancer des logiciels externes (ici Word) depuis une application Java, ou de remplacer un script Bash.</p>
-<p>Voici la proc&eacute;dure:<br />
-  (NOTE: si vous connaissez un peu les syst&egrave;mes d'exploitation et la programmation syst&egrave;me, ne vous arr&ecirc;tez pas aux explications minimales -et tr&egrave;s imparfaites- concernant des concepts abstraits comme Runtime ou Processus...)</p>
-<p>1 - Cr&eacute;er un objet String qui contient la commande exacte que vous taperiez si vous &eacute;tiez sous la ligne de commande, par exemple:</p>
-<p class="Code">// par exemple sous Windows<br />
-  String command = &quot;C:\Program Files\Microsoft Office\Office\Winword.exe&quot;;<br />
-  // ou sous Linux 2.2.x<br />
-String command = &quot;ipchains -P input DENY&quot;;</p>
-<p>2 - Cr&eacute;er un objet Runtime et lui assigner le &quot;runtime&quot; (c-&agrave;-d l'environnement d'ex&eacute;cution, le noyau du syst&egrave;me en quelque sorte) courant:</p>
-<p class="Code">Runtime runtime = Runtime.getRuntime();</p>
-<p>3 - Cr&eacute;er un nouveau processus, celui destin&eacute; &agrave; g&eacute;rer notre commande:</p>
-<p class="Code">Process process = null;</p>
-<p>4 - Utiliser - assigner au processus - la fonction exec de la classe Runtime avec comme param&egrave;tre notre String , ceci est susceptible de g&eacute;n&eacute;rer des exceptions, nous devons donc les &quot;attraper&quot;:</p>
-<p class="Code">try<br />
-  {<br />
-  process = runtime.exec(command);<br />
-} catch(Exception err) {;}</p>
-<p>Si tout se passe bien, la commande est ex&eacute;cut&eacute;e, comme si vous l'aviez saisie dans une console.<br />
-  NOTE: sous Unix, il faudra lancer le programme en tant que root pour que des commandes qui requi&egrave;rent des privil&egrave;ges &eacute;lev&eacute;s soient ex&eacute;cut&eacute;es.</p>
-<p>Tutoriel distribu&eacute; pour le FAQ Java de Java-France www.java-france.com / www.jgflsoft.com<br />
+		  	<p>Article de <a href="http://www.sun.com">Sun</a> traduit et adapt&eacute; en fran&ccedil;ais.</p>
+<h1>Qu'est-ce que Java IDL ?</h1>
+<p>Java IDL est une technologie pour les &quot;objets distribu&eacute;s&quot;, c'est-&agrave;-dire des objets interagissant avec diff&eacute;rentes stations de travail d'un r&eacute;seau. Java IDL est similaire &agrave; RMI (Remote Method Invocation) qui supporte des objets distribu&eacute;s &eacute;crits enti&egrave;rement et exclusivement en langage Java. Cependant, Java IDL permet aux objets d'&ecirc;tre utilis&eacute;s m&ecirc;me s'ils sont &eacute;crits dans un langage diff&eacute;rent de Java, comme C/C++, Cobol, et bien d'autres.</p>
+<p>Ceci est possible car Java IDL est bas&eacute; sur l'architecture CORBA (Common Object Request Brokerage Architecture), un standard mondial de l'industrie dans la distribution d'objets sur un r&eacute;seau. Une des composantes de Corba est IDL (Interface Definition Language), langage dit &quot;neutre&quot;. Chaque langage de programmation supportant Corba impl&eacute;mente une IDL, d'o&ugrave; le nom de &quot;Java IDL&quot;, l'impl&eacute;mentation IDL pour Java. Corba et IDL sont issus d'un consortium de trusts mondiaux (notamment IBM, Boeing, etc.) connus sous le nom de OMG (Object Management Group), et le fait que Sun Microsystems soit l'un des membres fondateurs explique que IDL soit si bien adapt&eacute; &agrave; Java.</p>
+<p>Pour permettre des interactions entre les objets de diff&eacute;rents programmes d'un r&eacute;seau, Java IDL &quot;fourni&quot; un ORB (Object Request Broker). Un ORB est une biblioth&egrave;que de classes qui permet une communication de bas niveau entre Java IDL et d'autres applications bas&eacute;es sur Corba.</p>
+<h1>L'architecture CORBA</h1>
+<p>Une interaction entre 2 objets sur un r&eacute;seau a toujours 2 sens: le client et le serveur (entr&eacute;e/sortie su vous pr&eacute;f&eacute;rez). Le serveur cr&eacute;e une &quot;Remote Interface&quot; (c'est &agrave; dire une porte d'entr&eacute;e vers lui), et le client appelle et utilise cette &quot;Remote Interface&quot;. Ceci est globalement la proc&eacute;dure g&eacute;n&eacute;ralis&eacute;e utilis&eacute;e par les standards d'objets distribu&eacute;s comme RMI ou Corba. On notera que les mots &quot;client&quot; et &quot;serveur&quot; d&eacute;signent des interactions au niveau des objets et pas des applications: un logiciel peut &ecirc;tre &agrave; la fois client et serveur selon s'il publie ou re&ccedil;oit tel ou tel objet.</p>
+<p>Du c&ocirc;t&eacute; du client, l'application a une r&eacute;f&eacute;rence vers l'objet distribu&eacute;. La r&eacute;f&eacute;rence a une m&eacute;thode &quot;stub&quot; (&quot;stub&quot; signifie le &quot;talon&quot; d'un ticket en anglais) qui est une sorte des rempla&ccedil;ant pour la m&eacute;thode appel&eacute;e &agrave; distance. Le &quot;stub&quot; est install&eacute; dans l'ORB, l'appeler revient donc &agrave; activer les fonctions de communication de l'ORB qui se chargera de la connexion au serveur.</p>
+<p>Du c&ocirc;t&eacute; du serveur, l'ORB utilise un &quot;squelette&quot; de code pour traduire l'appel &agrave; distance en un appel de m&eacute;thode sur un objet local. Le squelette se charge de bien traduire la requ&ecirc;te dans le format attendu par l'objet local. Quand la m&eacute;thode finit (&agrave; comprendre: quand elle retourne) le squelette se charge de traduire la valeur de retour ou les erreurs et de les transmettre &agrave; l'ORB qui les transmet &agrave; son tour au client.<br />
+  Entre les ORB, la communication est &eacute;tablie gr&acirc;ce &agrave; un protocole sp&eacute;cial: IIOP (Internet Inter-ORB Protocol). IIOP, bas&eacute; sur le standard TCP/IP, d&eacute;finit comment des ORB pour Corba &eacute;changent des informations. Tout comme Corba et IDL, IIOP est un standard d&eacute;finit par l'OMG (Object Management Group).</p>
+<p>En plus des possibilit&eacute;s de communication expos&eacute;es plus haut, les ORB bas&eacute;s sur Corba ont des fonctionnalit&eacute;s am&eacute;lior&eacute;es, des services d&eacute;finis par l'OMG. Ceci inclut la recherche d'objets par nom, la persistance d'objets, la possibilit&eacute; d'&eacute;changer des messages, etc. Certains ORB supportent ces fonctions, celui fourni avec Java IDL supporte la recherche d'objets par nom.</p>
+<h1>Le processus de d&eacute;veloppement de Java IDL</h1>
+<p>1) D&eacute;finir l'interface &agrave; distance<br />
+  On d&eacute;finit l'interface &agrave; distance en utilisant le langage de d&eacute;finition de l'interface de l'OMG, c'est &agrave; dire IDL. On utilise IDL plut&ocirc;t que Java car le compilateur idl-to-java travaille &agrave; partir d'un (code) source IDL, g&eacute;n&eacute;rant tous les fichiers &quot;stub&quot; et &quot;squelette&quot; avec le code d'infrastructure n&eacute;cessaire &agrave; la connexion avec l'ORB. En utilisant IDL, on permet aux autres d&eacute;veloppeurs d'impl&eacute;menter des clients et des serveurs dans d'autres langages compatibles Corba. </p>
+<p>2) Compiler l'interface &agrave; distance<br />
+  Quand on lance le compilateur idl-to-java sur le fichier source de d&eacute;finition de l'interface, il g&eacute;n&egrave;re une version en Java de l'interface, comme il g&eacute;n&egrave;re les stubs et les squelettes.</p>
+<p>3) Impl&eacute;menter le serveur<br />
+  Une fois le compilateur idl-to-java lanc&eacute;, on peut utiliser les squelettes g&eacute;n&eacute;r&eacute;s pour assembler son serveur. En plus d'impl&eacute;menter les m&eacute;thode de l'interface &agrave; distance, le code du serveur inclut un m&eacute;canisme pour lancer l'ORB et attendre une requ&ecirc;te d'un client.</p>
+<p>4) Impl&eacute;menter un client<br />
+  De m&ecirc;me on utilisera les stubs g&eacute;n&eacute;r&eacute;s par le compilateur comme base pour l'application client. Le code client construit &agrave; partir des stubs lance l'ORB de son c&ocirc;t&eacute; qui recherche une connexion vers le serveur utilisant le service de noms indiqu&eacute; par Java IDL, obtient une r&eacute;f&eacute;rence vers l'objet &agrave; distance et invoque &agrave; distance ses m&eacute;thodes.</p>
+<p>5) D&eacute;marrer l'application<br />
+Une fois le serveur et le client cr&eacute;&eacute;e, on peut lancer le service de noms, puis d&eacute;marrer le serveur, et enfin lancer le client.</p>
+<p>Notes:<br />
+  1) Avec Java 1.3, idltojava compiler est remplac&eacute; par idlj compiler<br />
+  2) Si vous d&eacute;sirez un exemple concret: HelloWorld! dans la suite de cet article de la FAQ. Article Sun ici.</p>
+<p>Traduit et adapt&eacute; de l'anglais par Narcanes, (article original de Jim Inscore Sun Microsystems)<br />
+  pour l'association Java-France/Jgflsoft<br />
+  www.java-france.com / www.jgflsoft.com<br />
   R&eacute;&eacute;dit&eacute; pour Valhalla GFBLOG. <br />
-  &Eacute;crit &agrave; Montpellier le 17 mars 2001</p>
+  Montpellier, 30 ao&ucirc;t 2001.</p>
 
 
 		  
 	  </div>
     </div>
     <div class="col-md-2 col-md-pull-8 col-xs-12 text-center">
-      <h2>17 Mar 2001</h2>
+      <h2>30 Aug 2001</h2>
       <br>
-      <div class="label label-info">388 mots</div>
+      <div class="label label-info">890 mots</div>
       <br>
         
           <div class="label label-default">java</div>
@@ -252,46 +263,46 @@ String command = &quot;ipchains -P input DENY&quot;;</p>
   <div class="row">
     <div class="col-md-1"></div>
     <div class="col-md-8 col-md-push-2 col-xs-12">
-      <h1><a href="/2001/03/16/comment-parcourir-une-arborescence-de-fichiers/">Comment parcourir une arborescence de fichiers ?</a></h1>
+      <h1><a href="/2001/08/28/quest-ce-que-la-technologie-jini/">Qu'est-ce-que la technologie Jini ?</a></h1>
       <div class="text-content">
 		  
-		  	<p>Ce document a pour but de vous expliquer, comme le dit son titre, comment d&eacute;tecter et afficher tous les fichiers et sous-r&eacute;pertoires d'un r&eacute;pertoire racine. La solution propos&eacute;e ici utilise la technique de r&eacute;cursivit&eacute;. Il existe certainement d'autres mani&egrave;res de proc&eacute;der mais celle-ci est assez &eacute;l&eacute;gante.</p>
-<p>Un tout petit peu de th&eacute;orie quand m&ecirc;me: une m&eacute;thode -ou fonction, routine...- dite r&eacute;cursive est fonction qui fait r&eacute;f&eacute;rence &agrave; elle-m&ecirc;me dans son code, c'est-&agrave;-dire une fonction qui, une fois lanc&eacute;e, s'ex&eacute;cute en boucle tant qu'une certaine condition n'est pas remplie.</p>
-<p>Si le code est mal programm&eacute;, que la condition ne permet jamais l'arr&ecirc;t de la m&eacute;thode, on aura une erreur du type StackOverflow, ce qui signifie que vous &ecirc;tes en train de noyer compl&egrave;tement votre programme avec des calculs astronomiques.</p>
-<p>Tous les &eacute;tudiants en informatique on eu &agrave; passer par les c&eacute;l&egrave;bres Tours de Hano&iuml;, programme qui doit &ecirc;tre r&eacute;alis&eacute; &agrave; l'aide de m&eacute;thodes r&eacute;cursives. A titre indicatif (le but n'est quand m&ecirc;me pas de vous faire crouler sous la th&eacute;orie ;) quand on parle de solution r&eacute;cursive, il existe souvent une autre solution dite it&eacute;rative (bas&eacute;e sur l'utilisation de boucles for, while, etc). Cette solution it&eacute;rative est plus rapide &agrave; l'ex&eacute;cution, mais plus difficile &agrave; programmer.</p>
-<p>Dans notre cas, nous voulons parcourir un r&eacute;pertoire (dor&eacute;navant appel&eacute; r&eacute;pertoire racine) et afficher son contenu, ceci ne n&eacute;cessite pas de r&eacute;cursivit&eacute;. Par contre, nous voulons en plus d&eacute;tecter tous les r&eacute;pertoires contenus dans ce r&eacute;pertoire racine, et ainsi de suite jusqu'&agrave; ce que toute l'arborescence soit &quot;scann&eacute;e&quot; ; et c'est pour cela que nous avons besoin de m&eacute;thodes r&eacute;cursives.</p>
-<p>Passons au concret:</p>
-<p>1 - Pour commencer, on doit cr&eacute;er une m&eacute;thode, appel&eacute;e ici recurseDirs(String r&eacute;pertoire):</p>
-<p><span class="Code">public void recurseDirs(String r&eacute;pertoire)<br />
-  {</span></p>
-<p>2 - Nous devons sp&eacute;cifier un r&eacute;pertoire racine au programme. Pour cela nous allons cr&eacute;er un nouvel objet File, qui peut soit &ecirc;tre un fichier proprement dit soit un r&eacute;pertoire (dans notre cas un r&eacute;pertoire). La classe File admet comme param&egrave;tre un String. Vous pouvez obtenir ce String de diff&eacute;rente mani&egrave;re (en le sp&eacute;cifiant vous-m&ecirc;me manuellement, en l'obtenant par l'interm&eacute;diaire d'un JFileChooser... ), ce n'est pas notre sujet, dans tous les cas vous devez le transmettre comme param&egrave;tre &agrave; la m&eacute;thode pour pouvoir l'utiliser ici et pour pouvoir utiliser la r&eacute;cursivit&eacute; plus loin.</p>
-<p class="Code">File fichier = new File(repertoire);</p>
-<p>3 - Nous allons cr&eacute;er une matrice (ou tableau) destin&eacute; &agrave; contenir toutes les entr&eacute;es du r&eacute;pertoire:</p>
-<p class="Code">String list[];</p>
-<p>4 - Nous devons sp&eacute;cifier une condition: ex&eacute;cuter ce qui suit si et seulement si l'objet File est un r&eacute;pertoire (quand le scan est termin&eacute;, qu'il n'y a plus de nouveau r&eacute;pertoire &agrave; scanner, File ne satisfait plus la condition et on sort de la m&eacute;thode).</p>
-<p class="Code">if (fichier.isDirectory())<br />
-{</p>
-<p>5 - Ensuite nous entrons toutes les entr&eacute;es du r&eacute;pertoire racine dans la matrice cr&eacute;&eacute;e plus haut, en utilisant la m&eacute;thode list() de la classe File qui renvoie une matrice de String:</p>
-<p class="Code">list = fichier.list();</p>
-<p>6 - Nous entrons ici dans le coeur du code: une r&eacute;cursivit&eacute;-it&eacute;rative (si, si!). Nous cr&eacute;ons une boucle for qui est ex&eacute;cut&eacute;e autant de fois que le r&eacute;pertoire racine contient de documents. Au sein de cette boucle for est appel&eacute;e notre m&eacute;thode (c'est l&agrave; que se trouve la r&eacute;cursivit&eacute;), avec comme argument l'entr&eacute;e num&eacute;ro n de la boucle. Le caract&egrave;re de s&eacute;paration (separatorChar) de la classe File est n&eacute;cessaire pour des questions de syntaxe du chemin du r&eacute;pertoire, nous n'avons pas &agrave; nous en soucier.</p>
-<p class="Code">for (int i = 0; i &lt; list.length ; i++)<br />
-  {<br />
-  recurseDirs(repertoire + File.separatorChar + list[i]);<br />
-}</p>
-<p>7 - Nous pouvons maintenant manipuler les noms des fichiers et r&eacute;pertoires, par exemple les rediriger vers la sortie syst&egrave;me:</p>
-<p class="Code">System.out.println(&quot;-&gt;&gt; &quot; + repertoire);</p>
-<p>Tutoriel distribu&eacute; pour le FAQ Java de Java-France www.java-france.com / www.jgflsoft.com<br />
+		  	<p>Traduction (adaptation, simplification) d'un article de <a href="http://www.sun.com">Sun</a>.</p>
+<h1>Historique</h1>
+<p>Comment sommes-nous arriv&eacute;s &agrave; un stade o&ugrave; l'orientation &quot;online&quot; des services et du mat&eacute;riel informatique est la pr&eacute;occupation majeure des fabriquants ?</p>
+<p>L'explication la plus &eacute;vidente est notre meilleure connaissance de domaines scientifiques tels que la chimie ou l'&eacute;lectronique appliqu&eacute;s &agrave; la micro-informatique. De nos jours, un ordinateur personnel peut &ecirc;tre fabriqu&eacute; &agrave; partir d'un minimum de mat&eacute;riel et les serveurs d'entreprise ne sont plus ces gros amas de t&ocirc;les et de c&acirc;bles occupant des pi&egrave;ces enti&egrave;res.</p>
+<p>Dans les ann&eacute;es 60, seules les grosses entreprises pouvaient se payer le luxe d'un ordinateur (d'un de ces amas de t&ocirc;les et de c&acirc;bles).</p>
+<p>Puis vient la miniaturisation et la cr&eacute;ation de terminaux: des &eacute;crans et des claviers, sans grosse unit&eacute; centrale, reli&eacute;s en r&eacute;seau &agrave; un serveur. Cela r&eacute;solvait pas mal de probl&egrave;mes de place, et annoncait le d&eacute;but de la vague &quot;online&quot;.</p>
+<p>Les &quot;stations de travail&quot;, ordinateurs du format de ceux d'aujourd'hui, firent leur apparition un peu plus tard. Ils offraient une puissance suffisante pour les travaux scientifiques tels que le dessin technique, le d&eacute;veloppement d'application scientifiques...</p>
+<p>L'ordinateur personnel (PC) &eacute;tait &eacute;galement assez petit pour tenir sous une table et assez puissant pour offrir des fonctionnalit&eacute;s telles qu'une interface graphique &agrave; ses utilisateurs.</p>
+<p>De nos jours la miniaturisation en est &agrave; un tel point que les voitures ont en moyenne une cinquantaine de microprocesseurs, et que l'on peut en trouver plus d'une centaine dans une maison.</p>
+<p>Mais la cr&eacute;ation de ces ordinateurs toujours plus petits et moins cher a eu une retomb&eacute;e impr&eacute;vue: la disparition d'une forme de vie en communaut&eacute;. En effet, les ordinateurs &eacute;tant plus disponibles, il n'&eacute;tait plus n&eacute;cessaire des les partager entre plusieurs personnes, tout le monde pouvait avoir son ordinateur personnel, au travail comme &agrave; la maison.<br />
+  Et l'internet domestique pallie &agrave; cet effet: les stations de travail et les ordinateurs pesonnels ne sont vraiment utiles d&eacute;s lors qu'ils sont connect&eacute;s entre eux afin de pouvoir communiquer.</p>
+<p>Plus loin dans cette voie, les ordinateurs peuvent maintenant &eacute;changer des objets (comprenez: des classes Java) et supporter des langages orient&eacute;s objet et communication. Pout la plupart des gens un ordinateur sert avant tout &agrave; chercher des informations sur internet, communiquer par e-mail, etc...</p>
+<h1>Comment fonctionne Jini ?</h1>
+<p>La technologie Jini est une architecture pour la construction de syst&egrave;mes &agrave; partir d'objets (de classes...) et de r&eacute;seaux. La technologie Jini permet aux programmes d'utiliser des services dans un r&eacute;seau sans savoir quoi que ce soit du protocole de connexion de ce r&eacute;seau. Une impl&eacute;mentation d'un syst&egrave;me pourrait &ecirc;tre bas&eacute;e sur les RMI, une autre sur XML et encore une autre sur CORBA. Le client Jini interroge les services qui lui r&eacute;pondent comment ils s'utilisent ! Un service est d&eacute;fini par une API, d&eacute;clar&eacute;e comme une interface de programmation Java.</p>
+<p>Quand un service est &quot;branch&eacute;&quot; &agrave; un r&eacute;seau ou mat&eacute;riel bas&eacute; sur l'architecture Jini, il s'identifie en publiant un objet Java qui impl&eacute;mente l'API du service concern&eacute;. <br />
+  Le client trouve des services en cherchant un objet supportant l'API Jini. Une fois connect&eacute; au service, il t&eacute;l&eacute;charge un code qui lui indique comment communiquer avec ce service. Les programmeurs qui auront impl&eacute;ment&eacute; le service auront choisi comment transformer une requ&ecirc;te de l'API en bits de mani&egrave;re &agrave; utiliser un protocole comme UPnP, RMI, Corba ou un protocole priv&eacute;.</p>
+<h1>Cr&eacute;er une communaut&eacute; autour de la technologie Jini</h1>
+<p>Quand internet fur cr&eacute;&eacute;, les deux pr&eacute;occupations majeures &eacute;taient de d&eacute;finir et de perfectionner les protocoles de communication et les infrastructures du r&eacute;seau, et de cr&eacute;er des services et des applications utilisant ce r&eacute;seau. L'infrastructure d'internet inclu les protocoles TCP/IP, HTTP, SMTP, FTP (etc...), et leurs impl&eacute;mentations. Avec ces protocoles furent cr&eacute;&eacute;e des logiciels comme les navigateurs, les clients e-mail ou les clients FTP, et m&ecirc;me le Web lui m&ecirc;me. Ce n'est pas une seule entreprise aui r&eacute;ussit &agrave; cr&eacute;er Internet, mais de nombreuses entreprises ayant adopt&eacute; les m&ecirc;mes protocoles, ayant des standars. C'est pourquoi pour que Jini r&eacute;ussisse, un grand nombre de personnes doit l'utiliser. Plus il sera utilis&eacute; plus facilement il devientra une technologie de r&eacute;f&eacute;rence.</p>
+<p>La Sun Community Source License (SCSL) a &eacute;t&eacute; cr&eacute;e pour mettre en place une communaut&eacute; autour de Jini. La SCSL donne libre acc&egrave;s au code source de la technologie Jini et de ses d&eacute;v&eacute;s, libres de droits en utilisation et modification.</p>
+<h1>Liens</h1>
+<p>Pour s'enregistrer http://www.sun.com/jini/licensing/<br />
+  Des infos sur la communaut&eacute;: http://www.sun.com/jini/community/</p>
+<p>Traduit par Narcanes (narcanes@online.fr) <br />
+&agrave; partir d'un article de <a href="http://www.sun.com">Sun</a>,<br />
+  pour l'association Java-France / Jgflsoft<br />
+  www.java-france.com / www.jgflsoft.com<br />
   R&eacute;&eacute;dit&eacute; pour Valhalla GFBLOG. <br />
-  &Eacute;crit &agrave; Montpellier le 16 mars 2001</p>
+Montpellier, 28 ao&ucirc;t 2001.</p>
 
 
 		  
 	  </div>
     </div>
     <div class="col-md-2 col-md-pull-8 col-xs-12 text-center">
-      <h2>16 Mar 2001</h2>
+      <h2>28 Aug 2001</h2>
       <br>
-      <div class="label label-info">650 mots</div>
+      <div class="label label-info">771 mots</div>
       <br>
         
           <div class="label label-default">java</div>
@@ -305,95 +316,49 @@ String command = &quot;ipchains -P input DENY&quot;;</p>
   <div class="row">
     <div class="col-md-1"></div>
     <div class="col-md-8 col-md-push-2 col-xs-12">
-      <h1><a href="/2001/03/15/comment-debuter-avec-jbuilder/">Comment débuter avec JBuilder ?</a></h1>
+      <h1><a href="/2001/07/03/comment-exporter-un-programme-avec-jbuilder/">Comment exporter un programme avec JBuilder ?</a></h1>
       <div class="text-content">
 		  
-		  	<p>Ce document a pour but de vous aider &agrave; prendre en main un des meilleurs IDE Java: JBuilder 3.5. Vous devez lire la suite si les IDE (environnements de d&eacute;veloppement int&eacute;gr&eacute;s) ne vous sont pas familiers, ou si vous d&eacute;butez avec JBuilder.</p>
-<p>
-  Nous allons vous pr&eacute;senter l'interface graphique, et cr&eacute;er un petit programme pour vous montrer comment se servir d'une des fonctions les plus abouties: la cr&eacute;ation automatis&eacute;e d'interfaces utilisateur.</p>
-<p>NOTE: ce document contient 11 images, il peut &ecirc;tre assez long &agrave; charger.</p>
-<h1>Environnement JBuilder &quot;au repos&quot;</h1>
-<p><img alt="JBuilder" src="./ressources/java/old/faq/jbuilder_intro/jbuilder1.jpg" /> </p>
-<p>1 - Il s'agit de la zone o&ugrave; est pr&eacute;sent&eacute;, en temps normal, le code source du fichier ouvert. On peut profiter de divers fonctions concernant cette vue telles que la colorisation automatique du code, l'auto-indentation, une ligne verticale qui d&eacute;finit la zone imprimable, etc...<br />
-Chaque fichier ouvert vient cr&eacute;er un nouvel onglet et s'affiche dans cette zone. Il n'y a ici qu'un seul fichier ouvert: MainFrame.java</p>
-<p>2 - Il s'agit d'une zone (une JList) o&ugrave; sont affich&eacute;s les fichiers du projet en cours. On peut voir ici 4 types de fichiers: le fichier central qui &quot;regroupe&quot; tous les fichiers du projet (c'est le fichier &quot;projet&quot;) &agrave; l'extension .jpr, les fichiers Java source .java, les images .jpg et un fichier JavaDoc .html. Pour ouvrir un de ces fichiers, il suffit de cliquer dessus. </p>
-<p>3 - Cette zone concerne le fichier ouvert. Elle affiche ici les imports, les variables, m&eacute;thodes,  et constructeurs de la classe en cours, car on est en mode &quot;source&quot; (voir 5). Si l'on &eacute;tait en mode &quot;conception&quot;, dans cette zone serait affich&eacute;es des informations relatives &agrave; la conception d'une GUI.</p>
-<p>4 - Cette zone se retrouve dans pratiquement tous les logiciels: une barre de menus, une barre d'ic&ocirc;nes. Vous utiliserez le plus souvent l'ic&ocirc;ne qui repr&eacute;sente une fl&egrave;che verte, en dessous du menu &quot;Outils&quot; et qui permet de compiler et de lancer un programme. Il faut aussi pr&eacute;ciser que le menu Aide sera utile car il donne acc&egrave;s &agrave; la documentation du JDK de Sun ainsi qu'&agrave; la documentation des API et des outils Borland.</p>
-<p>5 - Vous pouvez toujours acc&eacute;der &agrave; l'onglet &quot;Source&quot; qui montre, comme ici, le code source de la classe en cours. Si cette classe permet une conception graphique (si elle &eacute;tend de JFrame, JWindow, JInternalFrame, etc...), vous pourrez cliquer sur l'onglet &quot;Conception&quot; et lancer le concepteur graphique de JBuilder. L'onglet &quot;Bean&quot; permet de cr&eacute;er des Java Beans (composants r&eacute;utilisables) et l'onglet &quot;Doc&quot; permet de cr&eacute;er des JavaDoc.</p>
-<h1>JBuilder en action!</h1>
-<p>Nous allons cr&eacute;er un petit programma avec une interface graphique &agrave; l'aide des assistants de JBuilder. Nous allons vous guider dans les &eacute;tapes. Commen&ccedil;ons:</p>
-<p>1- Lancez JBuilder<br />
-  2- Cliquez sur le menu FICHIER -&gt; NOUVEAU PROJET<br />
-  la fen&ecirc;tre suivante s'ouvre:</p>
-<p><img alt="JBuilder" src="./ressources/java/old/faq/jbuilder_intro/jbuilder2.jpg" /></p>
-<p>Saisissez dans la zone &quot;Fichier Projet&quot; le chemin et le nom du fichier projet portant l'extension .jpr. Une fois fait, cliquez sur TERMINER.</p>
-<p>2- Nous avons cr&eacute;&eacute; un projet, nous devons maintenant ajouter des classes. Nous avons choisi de cr&eacute;er une application graphique(JBuilder permet en outre de cr&eacute;er avec des assistants de servlets,des applets, des EJB, etc...). Cliquez sur le menu FICHIER -&gt; NOUVEAU ou faites CRTL+N.<br />
-  La fen&ecirc;tre suivante s'ouvre:</p>
-<p><img alt="JBuilder" src="./ressources/java/old/faq/jbuilder_intro/jbuilder3.jpg" /></p>
-<p>Cliquez sur &quot;Application&quot; puis sur le bouton &quot;OK&quot; pour lancer l'assistant de cr&eacute;ation d'applications.</p>
-<p>Une seconde fen&ecirc;tre s'ouvre:</p>
-<p><img alt="JBuilder" src="./ressources/java/old/faq/jbuilder_intro/jbuilder4.jpg" /></p>
-<p>Le &quot;Paquet&quot; est plus connu sous le nom anglais de &quot;package&quot;. En fait, quand dans vos programmes vous &eacute;crivez des instruction d'importation du style &quot;import java.io.*;&quot;, vous importez toutes les classes de ce paquet. De m&ecirc;me si vous voulez lancer votre programme cela devra se faire, dans notre cas, par l'instruction &quot;java sans_titre1.Application1&quot;. La &quot;classe&quot; &eacute;tant la classe principale du programme, celle contenant la m&eacute;thode main(), celle qu'il faut invoquer pour lancer le programme. Dans la majorit&eacute; des cas, vous n'aurez pas &agrave; modifier le code de cette classe.<br />
-  Cliquez sur &quot;Suivant &gt;&quot;.</p>
-<p>Vous acc&eacute;dez &agrave; cette fen&ecirc;tre:</p>
-<p><img alt="JBuilder" src="./ressources/java/old/faq/jbuilder_intro/jbuilder5.jpg" /></p>
-<p>La classe &agrave; laquelle l'on fait ici r&eacute;f&eacute;rence est la classe qui d&eacute;finira le cadre principal de l'interface utilisateur.Elle &eacute;tend de JFrame. Elle sera automatiquement lanc&eacute;e au d&eacute;marrage du programme (le code pour &ccedil;a est &eacute;crit automatiquement).<br />
-  Par d&eacute;faut les 3 cases que vous voyez coch&eacute;es ici ne le sont pas, cochez-les pour ce tutoriel.<br />
-  Cliquez sur &quot;TERMINER&quot;.</p>
-<p>Vous aboutissez &agrave; un &eacute;cran similaire &agrave; celui de la premi&egrave;re capture d'&eacute;cran. Le fichier ouvert est &quot;Cadre1.java&quot;.</p>
-<p>3 - Nous allons cr&eacute;er l'interface. Cliquez sur l'onglet &quot;Conception&quot;. Le concepteur met quelques secondes &agrave; se lancer, puis une fen&ecirc;tre comme ceci appara&icirc;t:</p>
-<p><img alt="JBuilder" src="./ressources/java/old/faq/jbuilder_intro/jbuilder6.jpg" /></p>
-<p>1 - Cette zone est une simulation de ce &agrave; quoi ressemblera votre fen&ecirc;tre. Vous y ajouterez des composants graphiques (2) par Drag&amp;Drop. Vous pourrez d&eacute;placer, redimentionner, etc ces composants directement an cliquant dessus.<br />
-  ASTUCE: on y pense rarement, mais le bouton droit de la souris est tr&egrave;s utile... essayez vous verrez comme les options propos&eacute;es dans le menu qui surgit sont utiles !</p>
-<p>2 - Vous pouvez cliquer sur un des composants de ce panneau, le curseur se transformera en une croix. Cliquez avec cette croix dans la zone (1 )pour d&eacute;poser le composant. Les composants sont r&eacute;pertori&eacute;s dans diff&eacute;rents onglets, vous trouverez dans Swing les principaux composants graphiques de Swing, dans Conteneurs Swing des JTabbedPane, JSplitPaneetd'autres gestionnaires de mise en page. DbSwing regroupe des composants Borland(tr&egrave;s utiles pour les bases de donn&eacute;es notamment).</p>
-<p>3 - Ici sont affich&eacute;es les propri&eacute;t&eacute;s du composant graphique s&eacute;lectionn&eacute;. La fen&ecirc;tre elle m&ecirc;me &eacute;tant s&eacute;lectionn&eacute;e, on voit ici ses propri&eacute;t&eacute;s. Si on clique sur l'onglet &quot;&Eacute;v&eacute;nements&quot;, on a acc&egrave;s &agrave; tous les gestionnaires d'&eacute;v&eacute;mements accessibles pour le composant s&eacute;lectionn&eacute;.</p>
-<p>4 - Comme expliqu&eacute; auparavant, les composants de l'interface -leur nom- sont affich&eacute;s ici. On voit que &quot;this&quot; est s&eacute;lectionn&eacute;, c-&agrave;-d le fen&ecirc;tre elle-m&ecirc;me. Cette vue est tr&egrave;s pratique pour savoir d'un coup d'oeil quels est le gestionnaire de mise en page d'un conteneur, quels composants il contient, etc...</p>
-<p>4 - Cliquez sur l'onglet Conteneurs Swing, et s&eacute;lectionnez le composant javax.swing.JPanel (le premier que nous d&eacute;signerons sous le nom de JPanel), d&eacute;posez-le au centre de this(le cadre gris de la capture d'&eacute;cran ci-dessus).<br />
-  Normalement le composant doit s'afficher (cela se mat&eacute;rialise parle fait que la fen&ecirc;tre devient l&eacute;g&egrave;rement plus claire).Une entr&eacute;e jPanel1 est ajout&eacute;e &agrave; la zone (4).Cliquez sur cette entr&eacute;e. Les propri&eacute;t&eacute;s de la zone(3) changent. Cliquez sur la propri&eacute;t&eacute; layout de mani&egrave;re &agrave; faire appara&icirc;tre une menu d&eacute;roulant regroupant les gestionnaires de mise en page disponibles. S&eacute;lectionnez BorderLayout. Revenez &agrave; l'onglet Swing de la zone (2), cliquez sur le composant JButton et d&eacute;posez-le vers le bas du jPanel1. Le bouton s'affiche automatiquement, remplissant la partie inf&eacute;rieure de la fen&ecirc;tre. Recommencez la m&ecirc;me op&eacute;ration en d&eacute;posant un composant JTextArea au milieu de la fen&ecirc;tre.</p>
-<p>5 - Nous avons cr&eacute;&eacute; l'interface, nous allons peaufiner tout &ccedil;a pour faciliter l'&eacute;criture du code. Dans le concepteur, s&eacute;lectionnez le bouton en cliquant (1 seule fois !) dessus. Dans ses propri&eacute;t&eacute;s, changez:<br />
-  name: inscrivez &quot;button&quot;<br />
-  text: effacez ce qui est &eacute;crit et ne mettez: &quot;Cliquez ici !&quot;.<br />
-  Faites de m&ecirc;me avec la zone de texte:<br />
-  name: inscrivez &quot;textArea&quot;<br />
-  text: effacez ce qui est inscrit<br />
-  lineWrap: mettez la propri&eacute;t&eacute; &agrave; TRUE</p>
-<p>Ce que vous obtenez devrait ressembler &agrave; ceci:</p>
-<p><img alt="JBuilder" src="./ressources/java/old/faq/jbuilder_intro/jbuilder7.jpg" /></p>
-<p>6 - Nous avons termin&eacute; la partie conception et nous pouvons passer &agrave; l'&eacute;tape &eacute;criture du code.<br />
-  Nous allons assigner des gestionnaires d'&eacute;v&eacute;nement (en fait un seul au composant &quot;button&quot;).</p>
-<p>Pour assigner un gestionnaire d'&eacute;v&eacute;nement &agrave; un composant, il y a une seule m&eacute;thode, par l'onglet &quot;&Eacute;v&eacute;nements&quot; de la zone (3) du concepteur. Cependant, pour le composant JButton, il existe une autre m&eacute;thode (qui ne permet que d'assigner un gestionnaire OnClick d'ailleurs), c'est de double-cliquer tout simplement sur le bouton. <br />
-  Nous allons essayer ici le 1&deg; m&eacute;thode dans le mesure o&ugrave; elle sera utilis&eacute;e dans le majorit&eacute; des cas.</p>
-<p>Cliquez donc sur l'onglet &quot;&Eacute;v&eacute;nements&quot;, voici &agrave; quoi il ressemble:</p>
-<p><img alt="JBuilder" src="./ressources/java/old/faq/jbuilder_intro/jbuilder8.jpg" /></p>
-<p>La premi&egrave;re fois que vous le lancez, la case &agrave; droite de &quot;mouseClicked&quot; est identique aux autres cases, c-&agrave;-d,vide. Nous vous la montrons ici une fois que vous aurez accompli l'action suivante: double cliquer dessus. Allez-y, double-cliquez. JBuilder repasse en mode &quot;Source&quot; et quitte le concepteur. Le curseur se trouve au milieu de la m&eacute;thode gestionnaire d'&eacute;v&eacute;nement mouseClicked du bouton. Compl&eacute;tez cette m&eacute;thode avec le code visible ci-dessous:</p>
-<p><img alt="JBuilder" src="./ressources/java/old/faq/jbuilder_intro/jbuilder9.jpg" /></p>
-<p>REMARQUE: une des fonction les plus utiles de JBuilder est d'afficher un petit menu d&eacute;roulant au fur et &agrave; mesure de l'&eacute;criture du code qui montre les m&eacute;thodes disponibles pour telle ou telle classe.Par exemple, vous tapez ici &quot;textArea&quot; puis quand vous tapez le &quot;.&quot;, le menu appara&icirc;t (attendez quelques secondes car si vous tapez la suite du code tout de suite il n'appara&icirc;t pas), affichant toutes les m&eacute;thodes de JTextArea, quand vous continuez &agrave; taper &quot;set...&quot;, le menu affiche toutes les m&eacute;thodes commen&ccedil;ant pas &quot;set&quot;, et ainsi de suite.</p>
-<p>
-  Vous comprendrez &agrave; quel point ce composant est utile quand vous aurez envie d'appeler une m&eacute;thode dont vous savez qu'elle existe amis dont vous ne connaissez par exactement la syntaxe. Ceci arrive constamment, et le menu d&eacute;roulant permet d'&eacute;viter des erreurs &agrave; la compilation.<br />
-  Cependant -et oui il faut bien un &quot;mais&quot; - j'ai constat&eacute; sur mon syst&egrave;me que ce menu ne fonctionnait pas sous Linux, je ne sais pas si c'est d&ucirc; &agrave; un param&eacute;trage qu'il faut faire manuellement, et en plus, du moins je n'ai rien trouv&eacute; concernant ce sujet dans la doc... en esp&eacute;rant que ce soit juste un bug chez moi et pas pour tous les linux... (en tout cas sous Windows, &ccedil;a fonctionne ! :))</p>
-<p>7 - Nous avons termin&eacute; le programme, cliquez sur la fl&egrave;che (le triangle vert) verte ou appuyez sur F9, le code se compile, et le programme se lance, cliquez sur notre bouton (dans la nouvelle fen&ecirc;tre qui vient d'appara&icirc;tre au bout de quelques secondes, et qui n'est autre que la fen&ecirc;tre que nous achevons de concevoir) pour tester le programme, voici ce que &ccedil;a donne:</p>
-<p>Avant d'avoir cliqu&eacute; et ...</p>
-<p><img alt="JBuilder" src="./ressources/java/old/faq/jbuilder_intro/jbuilder10.jpg" /></p>
-<p>... apr&egrave;s avoir cliqu&eacute;</p>
-<p><img alt="JBuilder" src="./ressources/java/old/faq/jbuilder_intro/jbuilder11.jpg" /></p>
-<p>
-  Vous avez remarqu&eacute; que JBuilder a automatiquement ajout&eacute; une menu FICHIER -&gt; QUITTER et un menu AIDE -&gt; A PROPOS. Ces 2 menus sont fonctionnels, le code a &eacute;t&eacute; g&eacute;n&eacute;r&eacute; automatiquement. Cela est d&ucirc; au fait que nous avions coch&eacute; les cases &quot;Cr&eacute;er une barre de menus&quot; et &quot;Cr&eacute;er une bo&icirc;te de dialogue A Propos&quot; &agrave; l'&eacute;tape de d&eacute;finition de notre projet.</p>
-<p>Je ne saurais trop vous conseiller de vous entra&icirc;ner un peu &agrave; modifier l'interface, en examinant par exemple le gestionnaire d'&eacute;v&eacute;nements du menu, en modifiant la conception graphique de la classe qui repr&eacute;sente la bo&icirc;te A Propos (Cadre1_AboutBox.java par d&eacute;faut).</p>
-<p>Voil&agrave;, c'est termin&eacute; :)</p>
-<p>
-  Comme morale &agrave; ce tutoriel (oui, oui, ce tutoriel est une vraie fable :) retenez que ce n'est pas parce qu'on utilise JBuilder ou un IDE que l'on doit se contenter de lui laisser tout faire. Personnellement, je ne l'utilise pas beaucoup pour ses codes pr&eacute;-&eacute;crits, et beaucoup de programmeurs &agrave; mon instar n'aiment pas trop &ccedil;a, ils utilisent des IDE pour la conception graphique qui se r&eacute;v&egrave;le plus simple et plus rapide. Et pour les gros projets, un Emacs n'est pas mal non plus...</p>
+		  	<p>Ce chapitre de la FAQ a pour but de montrer comment exporter, sous la forme d'une archive JAR, un programme Java (application, applet, servlet, web app, bean, etc...). Nous utiliserons ici la situation la plus simple: une application (avec m&eacute;thode main()) export&eacute;e dans une archive JAR auto-ex&eacute;cutable. Nous d&eacute;taillerons les &eacute;tapes de la cr&eacute;ation d'une telle archive.</p>
+<p>NOTE 1: Pour des raisons de temps notamment (JBuilder 5 n'est pas encore sortie en France   &agrave; l'heure de la r&eacute;daction de cet article), la version de JBuilder utilis&eacute;e sera la version US.</p>
+<p>NOTE 2: cette page contient de nombreuses images, le temps de chargement peut &ecirc;tre assez long...</p>
+<p>1) Lancer l'outil, ou wizard, d'exportation: Menu WIZARDS -&gt; ARCHIVE BUILDER</p>
+<p><img alt="JarExport" src="./ressources/java/old/faq/jbuilder_jar/jar1.jpg" /></p>
+<p>2) Premi&egrave;re &eacute;tape de l'exportation: le choix d'un format.</p>
+<p><img alt="JarExport" src="./ressources/java/old/faq/jbuilder_jar/jar2.jpg" /></p>
+<p>Nous choisissons ici le format &quot;Application&quot;. On peut cependant prendre &quot;Basic&quot; (comme &quot;Application&quot; mais non auto-ex&eacute;cutable), Applet pour exporter des applets, Web Start pour exporter des Web App, etc... Une description de chaque option est faite dans la case de la fen&ecirc;tre &quot;Description&quot;.</p>
+<p>3) R&eacute;solution des d&eacute;pendances (1)</p>
+<p>Un programme Java a la plupart du temps des d&eacute;pendances, c'est &agrave; dire des classes ou des packages absolument n&eacute;cessaires pour s'ex&eacute;cuter. Par exemple, un programme utilisant une interface graphique Swing devra absolument int&eacute;grer les classes du package Swing n&eacute;cessaires. Pas besoin de sp&eacute;cifier ici les classes du package Swing ou de tout autre package &quot;classique&quot; fourni avec le JDK. Par contre, si vous utilisez des biblioth&egrave;ques non fournies par d&eacute;faut (par exemple le VerticalFlowLayout de Borland). C'est &eacute;galement ici que l'on ajoutera &agrave; l'archive tous les fichiers non-java n&eacute;cessaires.</p>
+<p>4) R&eacute;solution des d&eacute;pendances (2) </p>
+<p><img alt="JarExport" src="./ressources/java/old/faq/jbuilder_jar/jar3.jpg" /></p>
+<p>Vous ne ferez rien ici si aucun package autre que les packages par d&eacute;faut de Sun n'est n&eacute;cessaire &agrave; votre programme. Sinon vous devrez d&eacute;cider du niveau d'inclusion. Je conseille d'inclure toutes les classes et toutes les ressources, on perd un peu en taille du fichier, mais on est s&ucirc;r que tout fonctionnera !</p>
+<p>5) Cr&eacute;er un fichier MANIFEST</p>
+<p>Cette &eacute;tape n'est pas n&eacute;cessaire dans tous les cas, par exemple si vous avez choisi &quot;Basic&quot; &agrave; l'&eacute;cran (1), le fichier manifest ne sera par d&eacute;faut pas cr&eacute;&eacute;. Par contre pour &quot;Application&quot; il est n&eacute;cessaire: le fichier Manifest indique, entre autres, &agrave; l'interpr&eacute;teur Java quelle classe contient la m&eacute;thode main(), condition n&eacute;cessaire &agrave; l'auto-ex&eacute;cution de l'archive.</p>
+<p><img alt="JarExport" src="./ressources/java/old/faq/jbuilder_jar/jar4.jpg" /></p>
+<p>Vous pouvez choisir d'inclure un Manifest que vous avez cr&eacute;&eacute; vous m&ecirc;me, amis pourquoi se compliquer la vie quand JBuilder le g&eacute;n&egrave;re tout seul comme un grand ?!</p>
+<p>6) Sp&eacute;cifier la classe main()</p>
+<p><img alt="JarExport" src="./ressources/java/old/faq/jbuilder_jar/jar5.jpg" /></p>
+<p>Un package, une archive, peuvent contenir plusieurs classes impl&eacute;mentant une m&eacute;thode main(). On d&eacute;finit ici laquelle des ces m&eacute;thodes main() devra &ecirc;tre signal&eacute;e au Manifest. On laissera coch&eacute;e la case &quot;Use the main class specified in the default runtime&quot; par d&eacute;faut. Lors de la premi&egrave;re ex&eacute;cution d'un programme (&agrave; moins que l'ossature de ce programme n'ait &eacute;t&eacute; cr&eacute;&eacute;e par JBuilder lui-m&ecirc;me), JBuilder vous demande quelle est la classe principale du programme, et c'est cette classe, contenant la m&eacute;thode main() dans le cas d'une application, qui sera utilis&eacute;e pour lancer le programme sous JBuilder (en runtime normal ou en debug), et qui sera ici consid&eacute;r&eacute;e comme la classe principale du programme &agrave; signaler comme telle au Manifest.</p>
+<p>7) Observer</p>
+<p><img alt="JarExport" src="./ressources/java/old/faq/jbuilder_jar/jar6.jpg" /></p>
+<p>On voit une nouvelle ic&ocirc;ne dans l'inspecteur d'objets. Notre archive s'appelle &quot;Application&quot;, mais ne contient pas encore de fichier Jar. Pour cr&eacute;er r&eacute;ellement le fichier Jar nous devons &quot;reconstruire&quot; le programme.</p>
+<p>8) Reconstruire</p>
+<p><img alt="JarExport" src="./ressources/java/old/faq/jbuilder_jar/jar7.jpg" /></p>
+<p>Pour &quot;reconstruire&quot; on peut soir faire un clic-droit sur l'ic&ocirc;ne &quot;Application&quot; et choisir &quot;Reconstruire&quot; (ou &quot;Rebuild&quot; en version US) afin de cr&eacute;er le fichier JAR. On peut aussi utiliser le bouton de la barre d'ic&ocirc;nes.</p>
+<p>Ceci est tr&egrave;s pratique: &agrave; chaque compilation, JBuilder recr&eacute;e automatiquement le fichier JAR. Un exemple de compilation ci-dessous o&ugrave; l'on voit que JBuilder est en train de cr&eacute;er l'archive. (j'ai d&ucirc; m'y reprendre &agrave; plusieurs fois pour faire la capture d'&eacute;cran tellement que la cr&eacute;ation de cette archive, pour notre petit programme exemple, est rapide !)</p>
+<p><img alt="JarExport" src="./ressources/java/old/faq/jbuilder_jar/jar9.jpg" /></p>
 <p>Tutoriel distribu&eacute; pour le FAQ Java de Java-France www.java-france.com / www.jgflsoft.com<br />
   R&eacute;&eacute;dit&eacute; pour Valhalla GFBLOG <br />
-  &Eacute;crit &agrave; Montpellier le 15 mars 2001</p>
+  &Eacute;crit &agrave; Montpellier le 3 juillet 2001</p>
 
 
 		  
 	  </div>
     </div>
     <div class="col-md-2 col-md-pull-8 col-xs-12 text-center">
-      <h2>15 Mar 2001</h2>
+      <h2>03 Jul 2001</h2>
       <br>
-      <div class="label label-info">1928 mots</div>
+      <div class="label label-info">717 mots</div>
       <br>
         
           <div class="label label-default">java</div>
@@ -407,118 +372,379 @@ Chaque fichier ouvert vient cr&eacute;er un nouvel onglet et s'affiche dans cett
   <div class="row">
     <div class="col-md-1"></div>
     <div class="col-md-8 col-md-push-2 col-xs-12">
-      <h1><a href="/2001/03/14/installer-java-sur-un-pc-linux/">Installer Java sur un PC Linux</a></h1>
+      <h1><a href="/2001/07/02/comment-telecharger-un-fichier-a-partir-dune-url-en-java/">Comment télécharger un fichier à partir d'une URL en Java ?</a></h1>
       <div class="text-content">
 		  
-		  	<p>
-Cet article a pour but de vous montrer la marche à suivre pour installer et configurer un environnement de développent Java viable sur une machine tournant sous le système d'exploitation Linux.<br />
-Dans ce tutoriel, nous utiliserons:</p>
-<ul>
-<li />le JDK de Sun, version 1.2.2 disponible à l'adresse suivante http://java.sun.com/products/jdk/1.2/download-linux.html
-<li />la ligne de commande, normalement disponible à partir de votrebureau Linux.
-<li />le logiciel XEmacs, fourni avec la majorité des distributions linux, disponible à l'adresse suivante: http://www.xemacs.org
-</ul>
-<p>NOTE: cette page contient 12 images haute résolution et assez grandes, cela peut prendre du temps à charger mais nous vous conseillons néanmoins d'attendre car la réalisation des étapes nécessaires et expliquées n'en sera que plus aisée.</p>
-<p>
-Commençons nos explications:</p>
-<h1>INSTALLATION</h1>
-<p>
-1. Téléchargez le JDK, dans la version que vous voulez (NOTE: à l'heure actuelle une version 1.3 existe, mais nous avons choisi la 1.2.2 pour notre tutoriel. Si vous téléchargez la 1.3, la procédure d'installation ne sera modifiée que par le nom des fichiers et des répertoires, jdk1.3 au lieu de  jdk1.2.2)</p>
-<p><center><img src="./ressources/java/old/faq/install_linux/1.jpg" alt="java" /></center></p>
-<p>
-La capture d'écran montre ici le fichier .tar.gz téléchargé sur le site de Sun (adresse ci-dessus) et enregistré sur votre disque dur, à l'adresse '/home/guillaume/Downloads/'. Ce sera notre répertoire par défaut pour ce fichier. Vous pouvez bien évidemment l'enregistrer où bon vous semble.</p>
-<p>
-2. Ensuite il nous faut décompresser cette archive, en extraire les fichiers. Pour cela, ouvrez une fenêtre de terminal, placez vous dans le répertoire où se trouve votre archive à l'aide de la commande cd, et décompactez-la grâce àla commande tar -zxvf.</p>
-<p>
-ASTUCE: tapez: 'tar zxvf jdk' puis appuyez sur 'tab' (la touchequi représente 2 flèche de sens opposé sur la gauche du clavier) et, normalement, le 'jdk' que vous venez de taper se transforme automatiquement en le nom du fichier, c-à-d ici 'jdk-1_2_2_007-linux-i386.tar.gz' qui est légèrement plus contraignant à taper... Cetteastuce est couramment utilisée par les personnes habituées aux systèmes Unix.</p>
-<p><center><img src="./ressources/java/old/faq/install_linux/2.jpg" alt="java" /></center></p>
-<p>
-La capture d'écran illustre ce qui est expliqué plus haut, et montre la commande exacte à entrer. Remplacer le nom du fichier donné ici par le nom du votre si celui-ci est différent. (en utilisant TAB...)<br />
-Quand vous appuyez sur ENTREE, une liste de fichiers défile dans la console, en voici la fin:(comme vous pouvez le voir sur la capture d'écran l'ascenseur à droite a considérablement rétréci: tous les fichiers ne sont pas affichés sur cet écran, mais vous n'avez normalement pas à vous soucier de cela).</p>
-<p><center><img src="./ressources/java/old/faq/install_linux/3.jpg" alt="java" /></center></p>
-<p>
-Admettons que votre fichier tar.gz se soit trouvé dansle répertoire '/home/guillaume/Downloads' comme ici, les fichiers serons installés dans le répertoire '/home/guillaume/Downloads/jdk1.2.2/'.<br />
-NOTE: nous vous conseillons de l'installer dans '/usr/local/' ou '/home/guillaume' (où vous remplacerez 'guillaume' par le nom de l'utilisateur voulu).</p>
-<p>
-3. Vous devez ensuite indiquer au système dans quel répertoire il trouvera les fichiers binaires que JDK. Ceci se réalise à l'aide d'un 'path' (chemin en anglais). L'instruction estla suivante: export PATH=/home/guillaume/Downloads/jdk1.2.2/bin/:$PATH<br />
-NOTE: remplacez /home/guillaume/Downloads/ par le répertoire dans lequel est décompactée votre archive.</p>
-<p><center><img src="./ressources/java/old/faq/install_linux/4.jpg" alt="java" /></center></p>
-<p>
-Voici la liste des fichiers qui doivent normalement se trouver dansle répertoire /bin/ de votre JDK. (ci-dessus)</p>
-<p><center> <img src="./ressources/java/old/faq/install_linux/5.jpg" alt="java" /></center></p>
-<p>
-Et voici l'instruction à taper pour définir une'PATH'. (ci-dessus)</p>
-<h1>UTILISATION</h1>
-<p>
-1. Ecriture d'un programme<br />
-Nous considèrerons ici que vous ne possédez pas d'IDEJava installé sur votre machine, que vous venez juste d'installer Linux et que l'éditeur XEmacs est installé sur votre système. (Il est fourni, le plus souvent installé par défaut, avecle plupart des distributions, si ce n'est toutes). Je vous conseille cependant d'installer JBuilder ou Forte si vous vous lancez dans la conception d'interfaces graphiques compliquées ou si vous désirez avoir des options d'exportation et d'internationalisation plus avancées.<br />
-Nous commençons donc par lancer cet éditeur- emacs-, par la lignede commande ou par un menu de votre interface graphique (ici, KDE sous Linux Mandrake 7.2).</p>
-<p>
-Ci-dessus: ouvrez une fenêtre de terminal et tapez simplement 'xemacs', le programme devrait se lancer. (OPTIONNEL: Si vous désirez sauvegarder à l'aide de Emacs des fichiers dans des répertoires de votre machine appartenant à l'utilisateur root (par exemple /usr/ ou /var/), tapez 'su', puis le mot de passe de root. Poursuivez ensuite avec la commande xemacs qui sera alors lancée avec les droits du root).</p>
-<p><center><img src="./ressources/java/old/faq/install_linux/6.jpg" alt="java" /></center></p>
-<p>
-Vous pouvez aussi passer par un menu pour ouvrir XEmacs.</p>
-<p><center><img src="./ressources/java/old/faq/install_linux/7.jpg" alt="java" /></center></p>
-<p>
-2. XEmacs ouvert, nous pouvons taper notre code, et profiter de la colorisation automatique du code ainsi que de l'indentation automatique (entre autres )réalisées automatiquement par Emacs.<br />
-Voici ce que ça donne:</p>
-<p><center><img src="./ressources/java/old/faq/install_linux/8.jpg" alt="java" /></center></p>
-<p>
-3. Compiler et lancer le programme<br />
-Nous pouvons compiler et lancer le programme par XEmacs, mais cela donnerait lieu à des paramétrages qui ne concernent pas notre sujet. Nous nous contenterons donc de compiler et de lancher notre programme en ligne de commande.</p>
-<p>
-Une fois le code visible dans la fenêtre XEmacs ci-dessus reproduit à l'identique, vous pouvez sauvegarder votre fichier (sous le même nom que la classe principale, c-à-d sous le nom de "test.java", en tenant compte de la casse).</p>
-<p>
-Une fois le fichier sauvegardé, il faudra ouvrir une fenêtre de terminal, se déplacer jusqu'au répertoire où sesitue le fichier "test.java" à l'aide de la command cd, etle compiler à l'aide de la commande javac.</p>
-<p>
-Dans notre cas la syntaxe est la suivante: javac test.java.</p>
-<p>
- Si aucun message n'est renvoyé, la compilation a réussi. Pour lancer le programme il suffit d'utiliser la commande java, de la manière suivante: java test ('test' est le nom du fichier.class créé par le compileur).</p>
-<p>
-La capture d'écran ci-dessous montre comment faire:</p>
-<p><center><img src="./ressources/java/old/faq/install_linux/9.jpg" alt="java" /></center></p>
-<h1>PARAMETRAGE (optionnel!)</h1>
-<p>
-Nous allons présenter ici un des paramétrages utiles du JDK. Nous allons vous montrer comment configurer KDE (la procédure pour Gnome ou un autre window manager sera légèrement différente) pour exécuter un programme Java d'un seul clic.</p>
-<p>
-Pour cela nous devons créer un fichierJAR EXECUTABLE (la plupart des IDE permettent de le faire dans leur commande d'exportation), et assigner un "ligne de conduite" que KDE devrasuivrequand l'on cliquera sur un tel fichier.</p>
-<p>
-La procédure est la suivante: </p>
-<ul>
-<li />ouvrir le "Panneau de contrôle"
-<li />se placer dans le nemu "Applications" -&gt; "Associations des types de fichiers"
-<li />définir un programme d'ouverture par défaut, ici le programme /../jdk1.2.2/bin/java -jar, pour les fichiers JAR
-<li />enregistrer les changements et quitter.
-</ul>
-<p>&lt;/p&gt;</p>
-<p>
-La procédure en images:</p>
-<p><center><img src="./ressources/java/old/faq/install_linux/10.jpg" alt="java" /></center></p>
-<p>
-Vous trouverez l'entrée x-jar dans x-all ou x-applications.</p>
-<p><center><img src="./ressources/java/old/faq/install_linux/11.jpg" alt="java" /></center></p>
-<p>
-Cliquez sur le bouton "Ajouter" dans le panel "Applications par ordrede préférence".<br />
-La fenêtre représentée ci-dessous s'ouvre.</p>
-<p><center><img src="./ressources/java/old/faq/install_linux/12.jpg" alt="java" /></center></p>
-<p>
-Vous devez inscrire le chemin exact vers le fichier 'java' et rajouter l'option '-jar'.</p>
-<p>
-Cliquez sur OK, c'est terminé !</p>
-<p>
-Tutoriel distribué pour le FAQ Java de Java-France www.java-france.com / www.jgflsoft.com<br />
-Maintenant publié sur Valhalla GFBLOG<br />
-Ecrit à Montpellier le 14 mars 2001
- </p>
+		  	<p>Cet article de la FAQ a pour but de montrer comment t&eacute;l&eacute;charger un fichier depuis Internet vers son Disque Dur. On peut utiliser plusieurs m&eacute;thodes, et celle &agrave; laquelle on pensera en premier lieu est s&ucirc;rement d'impl&eacute;menter un petit client FTP ou d'utiliser un JavaBean FTP comme celui d'IPWorks (dans JBuilder 5). Cependant, je propose ici une solution plus simple (beaucoup plus simple), &agrave; partir du moment o&ugrave; l'on conna&icirc;t l'adresse exacte du fichier &agrave; t&eacute;l&eacute;charger. Cette m&eacute;thode est &eacute;galement plus s&eacute;curis&eacute;e, en cela que l'on a aucun besoin de sp&eacute;cifier un login et un mot de passe.</p>
+<p>Nous allons donc utiliser une m&eacute;thode avec URLConnection. Voici le code source comment&eacute;:</p>
+<p class="Code">// Sp&eacute;cifier le chemin exact vers le fichier<br />
+  URL u = new URL(&quot;http://www.monserveur.com:80/monrepertore/lisezmoi.txt&quot;);</p>
+<p class="Code">// Ouvrir la connexion, d&eacute;but de la communication avec le serveur<br />
+  URLConnection uc = u.openConnection();</p>
+<p class="Code">// R&eacute;cup&eacute;rer la taille exacte en nombre d'octets du fichier d&eacute;sign&eacute;, et la stocker dans un int<br />
+  int taille = uc.getContentLength();</p>
+<p class="Code">// Cr&eacute;er un flux d'entr&eacute;e pour le fichier<br />
+  InputStream brut = uc.getInputStream();</p>
+<p class="Code">// Mettre ce flux d'entr&eacute;e en cache (pour un meilleur transfert, plus s&ucirc;r et plus r&eacute;gulier).<br />
+  InputStream entree = new BufferedInputStream(brut);</p>
+<p class="Code">// Cr&eacute;er une matrice (un tableau) de bytes pour stocker tous les octets du fichier<br />
+  byte[] donnees = new byte[taille];</p>
+<p class="Code">// Pour l'instant aucun octet n'a encore &eacute;t&eacute; lu<br />
+  int octetsLus = 0;</p>
+<p class="Code">// Octets de d&eacute;placement, et octets d&eacute;j&agrave; lus. <br />
+  int deplacement = 0; float alreadyRead = 0;</p>
+<p class="Code">// Boucle permettant de parcourir tous les octets du fichier &agrave; lire<br />
+  while(deplacement &lt; taille)<br />
+  {<br />
+  // utilisation de la methode &quot;read&quot; de la classe InputStream<br />
+  octetsLus = entree.read(donnees, deplacement, donnees.length-deplacement);</p>
+<p class="Code">// Petit calcul: mise &agrave; jour du nombre total d'octets lus par ajout au nombre d'octets lus au cours des pr&eacute;c&eacute;dents passages au nombre d'octets lus pendant ce passage<br />
+  alreadyRead = alreadyRead + octetsLus;</p>
+<p class="Code">// -1 marque par convention la fin d'un fichier, double op&eacute;rateur &quot;&eacute;gale&quot;: = =<br />
+  if(octetsLus == -1) break;</p>
+<p class="Code">// se cadrer &agrave; un endroit pr&eacute;cis du fichier pour lire les octets suivants, c'est le d&eacute;placement<br />
+  deplacement += octetsLus;</p>
+<p class="Code">}<br />
+  // fermer le flux d'entr&eacute;e.<br />
+  entree.close();</p>
+<p class="Code">// R&eacute;cup&eacute;rer le nom du fichier<br />
+  String fichier = u.getFile();<br />
+  fichier = fichier.substring(fichier.lastIndexOf('/') + 1);</p>
+<p class="Code">// Cr&eacute;er un fichier sur le DD afin d'y copier le contenu du fichier t&eacute;l&eacute;charg&eacute; (par un flux de sortie).<br />
+  FileOutputStream fichierSortie = new FileOutputStream(fichier);</p>
+<p class="Code">// copier...<br />
+  fichierSortie.write(donnees);</p>
+<p class="Code">// vider puis fermer le flux de sortie<br />
+  fichierSortie.flush(); fichierSortie.close();</p>
+<p>Tutoriel distribu&eacute; pour le FAQ Java de Java-France www.java-france.com / www.jgflsoft.com<br />
+  R&eacute;&eacute;dit&eacute; pour Valhalla GFBLOG. <br />
+  Ecrit &agrave; Montpellier le 2 juillet 2001</p>
 
 
 		  
 	  </div>
     </div>
     <div class="col-md-2 col-md-pull-8 col-xs-12 text-center">
-      <h2>14 Mar 2001</h2>
+      <h2>02 Jul 2001</h2>
       <br>
-      <div class="label label-info">1182 mots</div>
+      <div class="label label-info">470 mots</div>
+      <br>
+        
+          <div class="label label-default">java</div>
+        
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+</div>
+  
+    <div class="container excerpt">
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-8 col-md-push-2 col-xs-12">
+      <h1><a href="/2001/04/27/comment-convertir-des-string-en-int-float-double-et-vice-versa/">Comment convertir des String en int, float, double, ... , et vice versa ?</a></h1>
+      <div class="text-content">
+		  
+		  	<p>J'ai d&eacute;cid&eacute; de traiter ce point pr&eacute;cis de la programmation Java: la convertion des types primaires (ou types de base) de donn&eacute;es, car cela m'a pos&eacute; des probl&egrave;mes quand j'ai d&eacute;but&eacute; en Java, et cela en pose souvent aux programmeurs venant de Delphi/Pascal, tout simplement car il n'existe pas en Java de m&eacute;thodes comme IntToStr ou StrToInt (Delphi).<br />
+  Je vous propose ici l'impl&eacute;mentation de ces deux m&eacute;thodes, ainsi que deux autre m&eacute;thodes convertissant des int vers long et des String vers float. Vous pourrez ensuite, une fois le sch&eacute;ma pos&eacute; dans ce document, faire vous-m&ecirc;me d'autres combinaisons.</p>
+<p>Voici donc les m&eacute;thodes ainsi que la mani&egrave;re de les utiliser:</p>
+<h1>M&eacute;thodes<br />
+</h1>
+<p class="Code">/** <br />
+  * De String vers INT<br />
+  */<br />
+  public static int strToInt(String s) <br />
+  { <br />
+  Integer ger = new Integer(s); <br />
+  int i = ger.intValue(); <br />
+  return i; <br />
+  }</p>
+<p class="Code">/** <br />
+  * De INT vers String <br />
+  */ <br />
+  public static String intToStr(int i) <br />
+  { <br />
+  String texte = new String(); <br />
+  texte = texte.valueOf(i); <br />
+  return texte; <br />
+  }</p>
+<p class="Code">/** <br />
+  * De INT vers long <br />
+  */ <br />
+  public static long intToLong(int i) <br />
+  {<br />
+  Integer ger = new Integer(i); <br />
+  long lg = ger.longValue(); <br />
+  return lg; <br />
+  }</p>
+<p class="Code">/** <br />
+  * de String vers float <br />
+  */ <br />
+  public static float strToFloat(String s) <br />
+  { <br />
+  float f = Float.valueOf(s.trim()).floatValue(); <br />
+  return f; <br />
+  }</p>
+<h1>Comment les utiliser</h1>
+<p>J'ai un champ de texte, un JTextField, dans lequel l'utilisateur entre une valeur num&eacute;rique. Je veux r&eacute;cup&eacute;rer cette valeur, lui ajouter 3, par exemple, et l'afficher dans un composant JLabel. Mon JTextField s'appelle textField, et mon JLabel, label. Voici le code que je dois &eacute;crire:</p>
+<p class="Code">int monNombre;<br />
+  monNombre = srtToInt(textField.getText());<br />
+  monNombre = monNombre + 3;<br />
+  label.setText(intToStr(monNombre);<br />
+  Code r&eacute;duit:<br />
+  label.setText(intToStr(strToInt(textField.getText()) + 3));</p>
+<p>Tutoriel distribu&eacute; pour le FAQ Java de Java-France www.java-france.com / www.jgflsoft.com<br />
+  R&eacute;&eacute;dit&eacute; pour Valhalla GFBLOG. <br />
+  Ecrit &agrave; Montpellier le 27 avril 2001</p>
+
+
+		  
+	  </div>
+    </div>
+    <div class="col-md-2 col-md-pull-8 col-xs-12 text-center">
+      <h2>27 Apr 2001</h2>
+      <br>
+      <div class="label label-info">364 mots</div>
+      <br>
+        
+          <div class="label label-default">java</div>
+        
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+</div>
+  
+    <div class="container excerpt">
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-8 col-md-push-2 col-xs-12">
+      <h1><a href="/2001/04/22/installer-et-configurer-un-environnement-dexecution-de-servletsjsp-sous-windows/">Installer et configurer un environnement d'exécution de servlets/JSP sous Windows</a></h1>
+      <div class="text-content">
+		  
+		  	<p>Ce chapitre de la FAQ Java explique, pas &agrave; pas, comment installer et configurer un environnement de d&eacute;veloppement et d'ex&eacute;cution de servlets et de pages JSP sur une machine tournant sous Windows 95/98/Me (NT/2000 ?).<br />
+Nous utiliserons le JSWDK de Sun (Java Servlets Web Development Kit). Vous pouvez aussi installer le serveur de Netscape ou Jakarta (pour Apache), mais nous nous centrerons ici sur l'inpl&eacute;mentation officielle de Sun.</p>
+<p>1) Vous devez poss&eacute;der un JDK install&eacute; et configur&eacute; sur votre machine. </p>
+<p>2) Vous devez t&eacute;l&eacute;charger &agrave; partir du site de Sun le JSWDK en cliquant ici. Le fichier &agrave; t&eacute;l&eacute;charger est au format ZIP. C'est une archive et vous avez besoin d'un programme externe pour la d&eacute;compresser, le shareware WinZip convient parfaitement.</p>
+<p><img align="right" alt="JWSDK" src="./ressources/java/old/faq/install_jwsdk/install_jwsdk1.jpg" /></p>
+<p>3) D&eacute;compressez l'archive ZIP &agrave; la racine de votre disque dur en cochant la case &quot;Use folders name&quot; comme dans l'illustration ci-dessous:</p>
+<p>4) Lancez &quot;startserver.bat&quot; &agrave; partir de la ligne de commande. Il s'agit du fichier de commandes qui lancera le serveur sur votre machine, il se trouve &agrave; la racine du r&eacute;pertoire d'installation du JSWDK. Voici ce qui devrait vous &ecirc;tre retourn&eacute;:</p>
+<p>5) Vous pouvez maintenant utiliser le serveur et le tester dans un navigateur:<br />
+  - ouvrez un navigateur web<br />
+  - tapez dans la zone d'url: <strong>http://localhost:8080/</strong> ou <strong>http://127.0.0.1:8080/</strong><br />
+  - une page d'accueil doit appara&icirc;tre. Si c'est le cas, tout fonctionne bien, votre environnement de servlets est bien install&eacute; !</p>
+<p><img align="right" alt="JWSDK" src="./ressources/java/old/faq/install_jwsdk/install_jwsdk2.jpg" /></p>
+<p>6) Nous allons maintenant le configurer ! Pour cela, ouvrez dans un &eacute;diteur de texte brut (pas de Microsoft Word ou autre chose du genre, utilisez NotePad !) le fichier &quot;webserver.xml&quot; situ&eacute; &agrave; la racine du r&eacute;pertoire d'installation.<br />
+  Vous n'avez normalement &agrave; changer les valeurs propos&eacute;es qu'en cas de probl&egrave;me, ou si vous d&eacute;sirez param&eacute;trer manuellement votre serveur. A titre indicatif, les valeurs par d&eacute;faut sont les suivantes:</p>
+<p>Port Number	<strong>8080</strong><br />
+  Bound IP Address	<strong>all</strong> (tous)<br />
+  Admin Port	<strong>N'importe quel port entre 2048 et 8192</strong><br />
+  Document Base	<strong>Une page html</strong><br />
+  Work directory for Temporary Files	work <strong>par d&eacute;faut</strong><br />
+  Session inactive max. interval	<strong>30 minutes</strong></p>
+<p>  Tutoriel distribu&eacute; pour le FAQ Java de Java-France www.java-france.com / www.jgflsoft.com<br />
+  R&eacute;&eacute;dit&eacute; pour Valhalla GFBLOG. <br />
+  Ecrit &agrave; Montpellier le 22 avril 2001</p>
+
+
+		  
+	  </div>
+    </div>
+    <div class="col-md-2 col-md-pull-8 col-xs-12 text-center">
+      <h2>22 Apr 2001</h2>
+      <br>
+      <div class="label label-info">383 mots</div>
+      <br>
+        
+          <div class="label label-default">java</div>
+        
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+</div>
+  
+    <div class="container excerpt">
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-8 col-md-push-2 col-xs-12">
+      <h1><a href="/2001/04/22/comment-charger-une-url-a-partir-dune-applet/">Comment charger une URL à partir d'une applet ?</a></h1>
+      <div class="text-content">
+		  
+		  	<p>Ce &quot;How To&quot; explique comment charger une URL, autrement dit une page web, &agrave; partir d'une applet Java, ins&eacute;r&eacute;e dans une autre page web. Ceci ne posera aucun probl&egrave;me &agrave; un programmeur exp&eacute;riment&eacute; dans la programmation des applets, mais, &agrave; cause des restrictions de s&eacute;curit&eacute; desdites applets, cela peut en poser &agrave; des programmeurs qui ne seraient pas habitu&eacute;s &agrave; travailler avec Java sur Internet.<br />
+  En effet, les applets Java sont con&ccedil;ues pour une s&eacute;crit&eacute; de l'h&ocirc;te optimale, il n'est donc pas possible de r&eacute;aliser certaines op&eacute;rations d'Entr&eacute;e/Sortie comme par exemple lire ou &eacute;crire des fichiers sur l'ordinateur de l'h&ocirc;te, ou sur un autre serveur que celui sur lequel est h&eacute;berg&eacute;e l'applet. C'est sur ce dernier point q'un probl&egrave;me peut se poser: la page web &agrave; charger peut ne pas &ecirc;tre sur le m&ecirc;me serveur que l'applet. Ainsi, si le code est mal &eacute;crit, une exception de s&eacute;curit&eacute; sera g&eacute;n&eacute;r&eacute;e, et la page ne sera pas charg&eacute;e. <br />
+Nous allons voir ici comment faire pour &eacute;viter une telle exception. Le code &agrave; &eacute;crire est -tr&egrave;s- simple et court, le voici comment&eacute;:</p>
+<p class="Code">/*<br />
+  Nous devons en premier lieu savoir dans quel contexte est ex&eacute;cut&eacute;s l'applet, si s'agit, par exemple, de l'appletviewer ou d'un navigateur. S'il s'agit d'un navigateur, tout va bien !<br />
+  */<br />
+  AppletContext navigateur = getAppletContext();</p>
+<p class="Code">/*<br />
+  Nous devons ensuite damander &agrave; ce navigateur, qui est maintenant en parlant programmtion, l'objet navigateur de type AppletContext, de charger une page.<br />
+  Dans notre exemple l'URL charg&eacute;e est http://www.jgflsoft.com, vous pouvez bien s&ucirc;r l'adapter comme vous le d&eacute;sirez, tant que l'argument pass&eacute; &agrave; la m&eacute;thode showDocument() est de type String.<br />
+  */<br />
+  navigateur.showDocument(&quot;http://www.java-france.com&quot;);</p>
+<p>Et voil&agrave;, le tour et jou&eacute;, la page se chargera, il vous suffit d'int&eacute;grer ces deux commandes dans un gestionnaire d'&eacute;v&egrave;nements ou dans une m&eacute;thode !</p>
+<p>Tutoriel distribu&eacute; pour le FAQ Java de Java-France www.java-france.com / www.jgflsoft.com<br />
+  R&eacute;&eacute;dit&eacute; pour Valhalla GFBLOG. <br />
+  Ecrit &agrave; Montpellier le 22 avril 2001</p>
+
+
+		  
+	  </div>
+    </div>
+    <div class="col-md-2 col-md-pull-8 col-xs-12 text-center">
+      <h2>22 Apr 2001</h2>
+      <br>
+      <div class="label label-info">331 mots</div>
+      <br>
+        
+          <div class="label label-default">java</div>
+        
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+</div>
+  
+    <div class="container excerpt">
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-8 col-md-push-2 col-xs-12">
+      <h1><a href="/2001/04/13/comment-travailler-avec-des-archives-compressees-au-format-zip-en-java/">Comment travailler avec des archives compressées au format ZIP en Java ?</a></h1>
+      <div class="text-content">
+		  
+		  	<p>Comment travailler avec des archives compress&eacute;es au format ZIP en Java ?</p>
+<p>Ce HowTo a pour but de vous expliquer comment cr&eacute;er des archives de fichiers compress&eacute;es au format ZIP et comment ensuite les ouvrir et extraire les fichiers contenus &agrave; l'int&eacute;rieur. Ce n'est en aucun cas un cours th&eacute;orique sur la compression de donn&eacute;es en Java, il s'agit juste d'un tutoriel. De plus, vous devrez utiliser la documentation de Sun si vous d&eacute;sirez en savoir plus sur, par exemple, la mani&egrave;re d'afficher le nom de tous les fichiers d'une archive. Le cas &eacute;ch&eacute;ant, &eacute;crivez moi &agrave; narcanes@online.fr.</p>
+<p>Nous allons dans un premier temps d&eacute;finir une archive ZIP:  </p>
+<table width="100%" border="0">
+<tr>
+<td width="41%">Extension par d&eacute;faut du fichier</td>
+<td width="59%">.ZIP</td>
+</tr>
+<tr>
+<td width="41%">Programmes pour les lire sous Windows</td>
+<td width="59%"><a href="www.winzip.com" target="_new">Winzip</a>, Pkzip, 
+<p>        Norton Unzip...
+
+<tr>
+<td width="41%">Rassemble dans un fichier plusieurs autres fichiers</td>
+<td width="59%">Oui</td>
+</tr>
+<tr>
+<td width="41%">Rassemble des fichiers en les compressant (r&eacute;duisant 
+<p>        leur taille)
+<td width="59%">Oui</td>
+
+<tr>
+<td width="41%">On peut choisir le taux de compression</td>
+<td width="59%">Oui de 0 &agrave; 9</td>
+</tr>
+<tr>
+<td width="41%">Contient un fichier META (description de l'archive)</td>
+<td width="59%">Non</td>
+</tr>
+<tr>
+<td width="41%">On peut lire une archive ZIP sous plusieurs OS</td>
+<td width="59%">Oui: Windows 3.1/95/98/Me/Nt/2000, Linux (toutes distributions), 
+<p>        Sparc Solaris, MacOs, BeOs, Os2/Warp, etc...
+
+<tr>
+<td width="41%" height="26">On peut joindre des commentaires &agrave; l'archive</td>
+<td width="59%" height="26">Oui</td>
+</tr>
+
+<p>Ce tutoriel comprendra 2 parties: pour commencer comment cr&eacute;er une archive ZIP, ensuite, comment en lire une et extraire ses fichiers.</p>
+<h1>Comment cr&eacute;er une archive ZIP en Java ?</h1>
+<p class="Code">// Cr&eacute;er des flux d'entr&eacute;e de donn&eacute;es, en indiquant comme param&egrave;tre le fichier &agrave; compresser.<br />
+  FileInputStream fin1 = new FileInputStream(&quot;monPremierFichier.txt&quot;);<br />
+  FileInputStream fin2 = new FileInputStream(&quot;monSecondFichier.xls&quot;);<br />
+  FileInputStream fin3 = new FileInputStream(&quot;monTroisiemeFichier.doc&quot;);</p>
+<p class="Code">// Cr&eacute;er un flux de sortie pour le fichier ZIP final. <br />
+  FileOutputStream fout = new FileOutputStream(&quot;monFichier.zip&quot;); </p>
+<p class="Code">// Mettre le flux en m&eacute;moire tampon (buffered), et le d&eacute;finir comme flux de compression ZIP<br />
+  BufferedOutputStream bout = new BufferedOutputStream(fout); <br />
+  ZipOutputStream zout = new ZipOutputStream(bout);</p>
+<p class="Code">// D&eacute;finir le taux de compression de l'archive, de 0 &agrave; 9 (Optionnel)<br />
+  zout.setLevel(6);</p>
+<p class="Code">// Associer un commentaire &agrave; l'archive (Optionnel)<br />
+  zout.setComment(&quot;Ceci est un commentaire&quot;);</p>
+<p class="Code">// Les fichiers ZIP sont des archives, elles stockent donc plusieurs fichiers, chaque fichier est contenu dans une &quot;entr&eacute;e&quot;, nous devons donc cr&eacute;er une nouvelle<br />
+  // entr&eacute;e pour chaque nouveau fichier de l'archive: (on pourra aussi utiliser ze1.getName() pour r&eacute;cup&eacute;rer le nom de l'entr&eacute;e, ceci est tr&egrave;s utilse si vous voulez <br />
+  // programmer un outil du type WinZip qui affiche la liste des fichiers d'une archive.) <br />
+  ZipEntry ze1 = new ZipEntry(&quot;monPremierFichier.txt&quot;); <br />
+  ZipEntry ze2 = new ZipEntry(&quot;monSecondFichier.xls&quot;); <br />
+  ZipEntry ze3 = new ZipEntry(&quot;monTroisiemeFichier.doc&quot;); <br />
+  zout.putNextEntry(ze1); <br />
+  zout.putNextEntry(ze2); <br />
+  zout.putNextEntry(ze3);</p>
+<p class="Code">// Nous devons ensuite copier le flux d'entr&eacute;e de fichier dans le flux de sortie compress&eacute;. Le code ci-dessous n'est pas comment&eacute;, ce n'est pas l'objet de ce tutoriel:<br />
+  try <br />
+  { <br />
+  synchronized (fin) <br />
+  {<br />
+  synchronized (zout) <br />
+  { <br />
+  byte[] buffer = new byte[256];<br />
+  while (true) <br />
+  { <br />
+  int bytesRead = in.read(buffer); <br />
+  if (bytesRead == -1) break;<br />
+  out.write(buffer, 0, bytesRead);<br />
+  }<br />
+  }<br />
+  } }catch(Exception err) {;}</p>
+<p class="Code">// Une fois les flux copi&eacute;s nous devons fermer l'entr&eacute;e<br />
+  zout.closeEntry();</p>
+<p class="Code">// Puis fermer les flux...<br />
+  fin.close(); <br />
+  zout.close();</p>
+<h1>Comment d&eacute;compresser les fichiers contenus dans une archive ZIP ?</h1>
+<p class="Code">// Cr&eacute;er un flux d'entr&eacute;e contenant l'archive ZIP &agrave; d&eacute;compresser<br />
+  FileInputStream fin = new FileInputStream(&quot;monFichier.zip&quot;);</p>
+<p class="Code">// Mettre ce flux en m&eacute;moire tampon<br />
+  BufferedInputStream bis = new BufferedInputStream(fin);</p>
+<p class="Code">// Identifier le flux tampon comme flux de compression ZIP<br />
+  ZipInputStream zin = new ZipInputStream(bis);</p>
+<p class="Code">// D&eacute;finir un objet ZipEntry<br />
+  ZipEntry ze = null;</p>
+<p class="Code">// Tant que cet objet est diff&eacute;rent de nul (tant qu'il y a des fichiers dans l'archive)...<br />
+  while ((ze = zin.getNextEntry()) != null) {</p>
+<p class="Code">// ... ex&eacute;cuter le code suivant:<br />
+  // Cr&eacute;er un flux de sortie pour le fichier de l'entr&eacute;e courante<br />
+  FileOutputStream fout = new FileOutputStream(ze.getName());<br />
+  // Copier les flux:<br />
+  try <br />
+  { <br />
+  synchronized (zin) <br />
+  {<br />
+  synchronized (fout) <br />
+  { <br />
+  byte[] buffer = new byte[256];<br />
+  while (true) <br />
+  { <br />
+  int bytesRead = in.read(buffer); <br />
+  if (bytesRead == -1) break;<br />
+  out.write(buffer, 0, bytesRead);<br />
+  }<br />
+  }<br />
+  } }catch(Exception err) {;}</p>
+<p class="Code">// Fermer l'entr&eacute;e et le flux de sortie <br />
+  zin.closeEntry();<br />
+  fout.close();</p>
+<p class="Code">// Terminer l'instruction while:<br />
+  }</p>
+<p class="Code">// Fermer le flux d'entr&eacute;e<br />
+  zin.close();</p>
+<p>Tutoriel distribu&eacute; pour le FAQ Java de Java-France www.java-france.com / www.jgflsoft.com<br />
+  R&eacute;&eacute;dit&eacute; pour Valhalla GFBLOG. <br />
+  Ecrit &agrave; Montpellier le 23 avril 2001</p>
+
+
+</p></td></tr></p></td></tr></p></td></tr></table>
+
+		  
+	  </div>
+    </div>
+    <div class="col-md-2 col-md-pull-8 col-xs-12 text-center">
+      <h2>13 Apr 2001</h2>
+      <br>
+      <div class="label label-info">822 mots</div>
       <br>
         
           <div class="label label-default">java</div>
@@ -571,14 +797,20 @@ Ecrit à Montpellier le 14 mars 2001
       
     
       
-    
+        
+          
+            <li><a href="/archives/29">29</a></li>
+          
+        
       
     
       
     
+      
     
     
-      <li class="disabled"><a href="#">&raquo;</a></li>
+    
+      <li><a href="/archives/29">&raquo;</a></li>
     
   </ul>
 </div>
@@ -594,7 +826,7 @@ Ecrit à Montpellier le 14 mars 2001
         <li>Valhalla.fr</li>
         <li>Ad Absurdum</li>
         <li><small>Tous droits réservés, sauf mention contraire.</small></li>
-        <li><small>Mis à jour le 15 Jan 2015 à 01h12.</small></li>
+        <li><small>Mis à jour le  1 Jul 2015 à 17h52.</small></li>
       </ul>
     </div>
     
