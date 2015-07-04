@@ -1,3 +1,15 @@
-  <script src="{{ "/assets/jquery.min.js" | prepend: site.baseurl }}" type="text/javascript" charset="utf-8"></script>
-  <script src="{{ "/assets/bootstrap/js/bootstrap.min.js" | prepend: site.baseurl }}" type="text/javascript" charset="utf-8"></script>
-  {% include google_analytics.html %}
+<script src="{{ "/assets/jquery.min.js" | prepend: site.baseurl }}" type="text/javascript" charset="utf-8"></script>
+
+<script src="{{ "/assets/bootstrap/js/bootstrap.min.js" | prepend: site.baseurl }}" type="text/javascript" charset="utf-8"></script>
+
+{% include google_analytics.html %}
+
+<script src="{{ "/assets/masonry.min.js" | prepend: site.baseurl }}" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	// Initialize Masonry
+	$('.grid').masonry({
+		itemSelector: '.grid-item',
+		columnWidth: '.grid-item',
+		gutter: parseInt($('.grid-item').css('marginBottom'))
+	});
+</script>

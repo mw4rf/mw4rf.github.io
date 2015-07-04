@@ -17,7 +17,7 @@ google_analytics: UA-2290016-1
 markdown: kramdown
 
 # Pagination
-paginate: 10
+paginate: 30
 paginate_path: "/archives/:num"
 
 # Permalinks

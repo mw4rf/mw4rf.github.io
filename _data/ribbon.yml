@@ -1,0 +1,14 @@
+- category: "revue"
+  ribbon: "ribbon ribbon-blue"
+
+- category: "valhalla"
+  ribbon: "ribbon ribbon-purple"
+  
+- category: "informatique"
+  ribbon: "ribbon ribbon-green"
+  
+- category: "juridique"
+  ribbon: "ribbon ribbon-gold"
+  
+- category: "coup de gueule"
+  ribbon: "ribbon ribbon-red"

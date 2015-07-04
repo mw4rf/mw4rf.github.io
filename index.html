@@ -3,10 +3,11 @@ layout: default
 ---
 
   <!-- This loops through the paginated posts -->
-  <br>
+  <div class="grid">
   {% for post in paginator.posts %}
-    {% include excerpt.html %}
+	{% include excerpt.html %}
   {% endfor %}
+  </div>
   
   {% include pagination.html %}
 

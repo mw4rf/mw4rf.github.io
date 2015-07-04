@@ -15,7 +15,7 @@
       subhref: "/archives/categories.html"
     - subtitle: "Tags"
       subhref: "/archives/tags.html"
-  
+
 - title: "Divers"
   href: ""
   subcategories:
