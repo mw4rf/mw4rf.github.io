@@ -23,6 +23,7 @@ wordpress_url: http://www.valhalla.fr/?p=551
 date: '2010-05-01 21:55:36 +0200'
 date_gmt: '2010-05-01 19:55:36 +0200'
 categories:
+- Informatique
 - Mac
 - Coup de gueule
 - Graphisme

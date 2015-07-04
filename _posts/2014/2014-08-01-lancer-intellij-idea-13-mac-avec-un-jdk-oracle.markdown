@@ -22,9 +22,9 @@ wordpress_url: http://www.valhalla.fr/?p=904
 date: '2014-08-01 16:46:07 +0200'
 date_gmt: '2014-08-01 12:46:07 +0200'
 categories:
+- Informatique
 - Mac
 - Java
-- Informatique
 tags:
 - Java
 - programmation

@@ -18,8 +18,8 @@ wordpress_url: http://www.valhalla.fr/?p=918
 date: '2014-08-05 17:27:25 +0200'
 date_gmt: '2014-08-05 15:27:25 +0200'
 categories:
-- Mac
 - Informatique
+- Mac
 tags:
 - Mac
 - software

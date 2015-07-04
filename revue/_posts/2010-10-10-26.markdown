@@ -28,7 +28,8 @@ tags:
 - Hadopi
 - LOPPSI
 ---
-<p>L'actualité de cette semaine est dominée par la publication du texte consolidé du traité ACTA résultant du dernier <i>round</i> des négociations à Tokyo et, en France, par la censure de la loi sur l'attribution des noms de domaine en .fr par le Conseil constitutionnel.</p>
+L'actualité de cette semaine est dominée par la publication du texte consolidé du traité ACTA résultant du dernier <i>round</i> des négociations à Tokyo et, en France, par la censure de la loi sur l'attribution des noms de domaine en .fr par le Conseil constitutionnel.
+
 <p><a href='http://revue.valhalla.fr/wp-content/uploads/2010/10/actaoct2010.pdf'>Le texte consolidé du traité ACTA</a> a donc été publié cette semaine. Sa lecture est assez instructive. En attendant des analyses plus poussées, on relèvera les points suivants :</p>
 <ul>
 <li>Le traité impose aux États parties de modifier leur législation afin de garantir le respect des droits de propriété intellectuelle dans l'environnement numérique et de sanctionner leur violation. Les législations nationales doivent ainsi prévoir des procédures, dont le traité précise qu'elles doivent être justes, équitables et respectueuses des droits de la défense.</li>

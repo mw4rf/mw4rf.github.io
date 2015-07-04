@@ -22,6 +22,7 @@ wordpress_url: http://www.valhalla.fr/?p=854
 date: '2012-06-11 18:43:15 +0200'
 date_gmt: '2012-06-11 16:43:15 +0200'
 categories:
+- Informatique
 - Linux
 tags:
 - software

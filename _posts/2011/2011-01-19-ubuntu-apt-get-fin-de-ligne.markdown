@@ -23,6 +23,7 @@ wordpress_url: http://www.valhalla.fr/?p=701
 date: '2011-01-19 22:58:32 +0100'
 date_gmt: '2011-01-19 20:58:32 +0100'
 categories:
+- Informatique
 - Linux
 tags:
 - Informatique
