@@ -1,7 +1,7 @@
 ---
 layout: "post"
 published: true
-title: "Des images automatiquement redimensionnées avec Boostrap"
+title: "Des images automatiquement redimensionnées avec Bootstrap"
 author: GF
 date: "2015-07-04 22:52"
 place: Montpellier
