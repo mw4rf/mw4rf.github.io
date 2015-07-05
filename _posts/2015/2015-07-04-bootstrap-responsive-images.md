@@ -19,7 +19,9 @@ comments: true
 permalink:  /2015/07/04/bootstrap-responsive-images/
 ---
 
-Une image vaut mille mots… mais encore faut-il la voir correctement ! Il est souvent difficile de faire parfaitement cadrer une image dans un conteneur HTML, pour l’afficher sur un site Web. Depuis quelques années, les tailles d’écran varient énormément, du minuscule iPhone 4 à l’écran panoramique 30 pouces. [http://getbootstrap.com/components/#responsive-embed](Twitter Boostrap) offer une manière élégante de redimensionner une image en l’adaptant _automatiquement_ au conteneur dans lequel elle se trouve.
+Une image vaut mille mots… mais encore faut-il la voir correctement ! Il est souvent difficile de faire parfaitement cadrer une image dans un conteneur HTML, pour l’afficher sur un site Web. Depuis quelques années, les tailles d’écran varient énormément, du minuscule iPhone 4 à l’écran panoramique 30 pouces. Twitter Boostrap offer une manière élégante de redimensionner une image en l’adaptant _automatiquement_ au conteneur dans lequel elle se trouve.
+
+La documentation est accessible ici : [http://getbootstrap.com/components/#responsive-embed](Twitter Boostrap : responsive embed).
 
 C’est cette méthode qui est utilisée dans la nouvelle page d’accueil de ce site. Mais avec une subtilité : un seul fichier doit être utilisé pour afficher l'image dans différentes tailles, sur la page d'accueil que la « boîte » qui la contient occupe une ou plusieurs colonnes, ou dans le corps des articles.
 
