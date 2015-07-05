@@ -15,6 +15,7 @@ tags:
 - émotion
 - religion
 permalink:  /2015/01/11/je-suis-charlie/
+grid-width: 2
 ---
 
 <img style="max-width:600px;" src="/public/posts/2015-01-11-je-suis-charlie/charlie.jpg" /><br>Contre les criminels, les assassins et les fous, contre les fanatiques de tout bord, parce que les terroristes n'ont pas d'humour, je suis Charlie.

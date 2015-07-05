@@ -12,6 +12,7 @@ tags:
 - mac
 - windows
 permalink:  /2015/06/30/partitions-rebelles/
+grid-width: 2
 ---
 
 Quand on cherche à faire un peu de [McM][1] dans [GuildWars 2][2] et que l’on se retrouve plongé dans les _[man pages][3]_ de _[diskutil][4]_ et de _[gpt][5]_, c’est qu’il y a comme un souci quelque part…

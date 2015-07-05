@@ -17,6 +17,7 @@ tags:
 - Jekyll
 comments: true
 permalink:  /2015/07/04/valhalla-nouvelle-page-accueil/
+grid-width: 2
 ---
 
 La page d’accueil du site Valhalla.fr fait peau neuve. Finie la présentation en liste verticale des articles, qui prend beaucoup de place et ne permet pas de cerner immédiatement le contenu des articles. La nouvelles présentation place le titre et un court résumé de chaque article dans des cases arrangées horizontalement et verticalement. Elle est plus efficiente, plus moderne et plus jolie !
