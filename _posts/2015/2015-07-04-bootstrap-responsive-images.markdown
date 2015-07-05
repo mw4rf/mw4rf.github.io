@@ -17,6 +17,7 @@ tags:
 - Jekyll
 comments: true
 permalink:  /2015/07/04/bootstrap-responsive-images/
+grid-width: 2
 ---
 
 Une image vaut mille mots… mais encore faut-il la voir correctement ! Il est souvent difficile de faire parfaitement cadrer une image dans un conteneur HTML, pour l’afficher sur un site Web. Depuis quelques années, les tailles d’écran varient énormément, du minuscule iPhone 4 à l’écran panoramique 30 pouces. Twitter Boostrap offer une manière élégante de redimensionner une image en l’adaptant _automatiquement_ au conteneur dans lequel elle se trouve.

@@ -7,21 +7,11 @@
     margin: 30px auto 0 2%;
 }
 
-.grid-sizer, .grid-item {
-    width: 23%;
-}
-
-.grid-item.w2 {
-    width: 48%;
-}
-
-.grid-item.w3 {
-    width: 75%;
-}
-
-.grid-item.w4 {
-    width: 98%;
-}
+.grid-sizer, 
+.grid-item { width: 23%; }
+.grid-item.w2 { width: 48%; }
+.grid-item.w3 { width: 75%; }
+.grid-item.w4 { width: 98%; }
 
 /** 
 * Post title
