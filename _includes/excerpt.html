@@ -6,11 +6,21 @@
     {% endif %}
 {% endfor %}
 
-<div class="grid-item thumbnail">
+{% assign grid = 'grid-item' %}
+{% if post.grid-width == 2 %}
+    {% assign grid = 'grid-item w2' %}
+{% elsif post.grid-width == 3 %}
+    {% assign grid = 'grid-item w3' %}
+{% elsif post.grid-width == 4 %}
+    {% assign grid = 'grid-item w4' %}
+{% endif %}
+
+<div class="{{grid}} thumbnail">
     {% if ribbon %}
-        <div class="{{ribbon}}"><span>{{ post.categories | first }}</span></div>
+        <div class="{{ribbon}}">
+            <span>{{ post.categories | first }}</span>
+        </div>
     {% endif %}
-        
     {% if post.thumbnail %}
         <img class="img-responsive" src="{{ post.thumbnail }}" />
     {% endif %}

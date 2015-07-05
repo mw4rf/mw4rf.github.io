@@ -4,20 +4,18 @@
 
 {% include google_analytics.html %}
 
+<script src="{{ "/assets/imagesloaded.min.js" | prepend: site.baseurl }}" type="text/javascript" charset="utf-8"></script>
 <script src="{{ "/assets/masonry.min.js" | prepend: site.baseurl }}" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript">
-	// Initialize Masonry
-	$('.grid').masonry({
-		itemSelector: '.grid-item',
-		columnWidth: '.grid-item',
-		gutter: parseInt($('.grid-item').css('marginBottom'))
-	});
-</script>
-
-<script type="text/javascript">
-    // Resize the viewport after page has finished loading
-    // This is necessary to fix some Masonry weird behaviours
-    $(window).load(function(e) {
-        $(window).trigger('resize');
+    // Initialize Masonry
+    $('.grid').masonry({
+        itemSelector: '.grid-item',
+        columnWidth: '.grid-sizer',
+        gutter: parseInt($('.grid-item').css('marginBottom')),
+        percentPosition: true
+    });
+    // Resize on image load
+    $('.grid').imagesLoaded().progress( function() {
+      $('.grid').masonry('layout');
     });
 </script>

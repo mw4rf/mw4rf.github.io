@@ -3,12 +3,24 @@
 */
 
 .grid {
-	width: 98%;
-	margin: 30px auto 0 2%;
+    width: 98%;
+    margin: 30px auto 0 2%;
 }
 
-.grid-item {
-	width: 23%;
+.grid-sizer, .grid-item {
+    width: 23%;
+}
+
+.grid-item.w2 {
+    width: 48%;
+}
+
+.grid-item.w3 {
+    width: 75%;
+}
+
+.grid-item.w4 {
+    width: 98%;
 }
 
 /** 
@@ -16,7 +28,7 @@
 */
 
 .grid-item h2 {
-	font-variant: small-caps;
+    font-variant: small-caps;
 }
 
 /** 
@@ -47,117 +59,117 @@
   top: 19px; right: -21px;
   
   &::before {
-	  content: "";
-	  position: absolute; left: 0px; top: 100%;
-	  z-index: -1;
-	  border-right: 3px solid transparent;
-	  border-bottom: 3px solid transparent;
+      content: "";
+      position: absolute; left: 0px; top: 100%;
+      z-index: -1;
+      border-right: 3px solid transparent;
+      border-bottom: 3px solid transparent;
   }
   
   &::after {
-	  content: "";
-	  position: absolute; right: 0px; top: 100%;
-	  z-index: -1;
-	  border-left: 3px solid transparent;
-	  border-bottom: 3px solid transparent;
+      content: "";
+      position: absolute; right: 0px; top: 100%;
+      z-index: -1;
+      border-left: 3px solid transparent;
+      border-bottom: 3px solid transparent;
   }
 }
 
 .ribbon-blue span {
-	background: linear-gradient(#2989d8 0%, #1e5799 100%);
-	
-	&::before {
-		border-left: 3px solid #1e5799;
-		border-top: 3px solid #1e5799;
-	}
-	
-	&::after {
-		border-right: 3px solid #1e5799;
-		border-top: 3px solid #1e5799;
-	}
+    background: linear-gradient(#2989d8 0%, #1e5799 100%);
+    
+    &::before {
+        border-left: 3px solid #1e5799;
+        border-top: 3px solid #1e5799;
+    }
+    
+    &::after {
+        border-right: 3px solid #1e5799;
+        border-top: 3px solid #1e5799;
+    }
 }
 
 .ribbon-red span {
     background: linear-gradient(#F70505 0%, #8F0808 100%);
-	
-	&::before {
-	    border-left: 3px solid #8F0808;
-	    border-top: 3px solid #8F0808;
-	}
-	
-	&::after {
-	    border-left: 3px solid #8F0808;
-	    border-top: 3px solid #8F0808;
-	}
+    
+    &::before {
+        border-left: 3px solid #8F0808;
+        border-top: 3px solid #8F0808;
+    }
+    
+    &::after {
+        border-left: 3px solid #8F0808;
+        border-top: 3px solid #8F0808;
+    }
 }
 
 .ribbon-purple span {
     background: linear-gradient(#DE19DE 0%, #62327A 100%);
-	
-	&::before {
-	    border-left: 3px solid #62327A;
-	    border-top: 3px solid #62327A;
-	}
-	
-	&::after {
-	    border-left: 3px solid #62327A;
-	    border-top: 3px solid #62327A;
-	}
+    
+    &::before {
+        border-left: 3px solid #62327A;
+        border-top: 3px solid #62327A;
+    }
+    
+    &::after {
+        border-left: 3px solid #62327A;
+        border-top: 3px solid #62327A;
+    }
 }
 
 .ribbon-green span {
     background: linear-gradient(#9BC90D 0%, #79A70A 100%);
-	
-	&::before {
-	    border-left: 3px solid #79A70A;
-	    border-top: 3px solid #79A70A;
-	}
-	
-	&::after {
-	    border-left: 3px solid #79A70A;
-	    border-top: 3px solid #79A70A;
-	}
+    
+    &::before {
+        border-left: 3px solid #79A70A;
+        border-top: 3px solid #79A70A;
+    }
+    
+    &::after {
+        border-left: 3px solid #79A70A;
+        border-top: 3px solid #79A70A;
+    }
 }
 
 .ribbon-silver span {
     background: linear-gradient(#B6BAC9 0%, #808080 100%);
-	
-	&::before {
-	    border-left: 3px solid #808080;
-	    border-top: 3px solid #808080;
-	}
-	
-	&::after {
-	    border-left: 3px solid #808080;
-	    border-top: 3px solid #808080;
-	}
+    
+    &::before {
+        border-left: 3px solid #808080;
+        border-top: 3px solid #808080;
+    }
+    
+    &::after {
+        border-left: 3px solid #808080;
+        border-top: 3px solid #808080;
+    }
 }
 
 .ribbon-gold span {
     background: linear-gradient(#F79E05 0%, #8F5408 100%);
-	
-	&::before {
-	    border-left: 3px solid #8F5408;
-	    border-top: 3px solid #8F5408;
-	}
-	
-	&::after {
-	    border-left: 3px solid #8F5408;
-	    border-top: 3px solid #8F5408;
-	}
+    
+    &::before {
+        border-left: 3px solid #8F5408;
+        border-top: 3px solid #8F5408;
+    }
+    
+    &::after {
+        border-left: 3px solid #8F5408;
+        border-top: 3px solid #8F5408;
+    }
 }
 
 .ribbon-teal span {
     background: linear-gradient(#05EFF7 0%, #087F8F 100%);
-	
-	&::before {
-	    border-left: 3px solid #087F8F;
-	    border-top: 3px solid #087F8F;
-	}
-	
-	&::after {
-	    border-left: 3px solid #087F8F;
-	    border-top: 3px solid #087F8F;
-	}
+    
+    &::before {
+        border-left: 3px solid #087F8F;
+        border-top: 3px solid #087F8F;
+    }
+    
+    &::after {
+        border-left: 3px solid #087F8F;
+        border-top: 3px solid #087F8F;
+    }
 }
 
