@@ -7,6 +7,7 @@
     margin: 30px auto 0 2%;
 }
 
+// Computer screen
 $item-width: 23%;
 .grid-sizer, 
 .grid-item { width: $item-width; }
@@ -14,6 +15,7 @@ $item-width: 23%;
 .grid-item.w3 { width: $item-width * 3 + 4; }
 .grid-item.w4 { width: $item-width * 4 + 6; }
 
+// Tablet
 @media only screen and (max-width : $tablet) {
     $item-width: 48%;
     .grid-sizer, 
@@ -23,6 +25,7 @@ $item-width: 23%;
     .grid-item.w4 { width: $item-width; }
 }
 
+// Phone
 @media only screen and (max-width : $phone) {
     $item-width: 98%;
     .grid-sizer, 
