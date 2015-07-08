@@ -96,7 +96,7 @@ L’acte étranger peut mentionner soit la mère porteuse soit la mère ayant fa
 
 **L’interprétation la plus probable est en faveur de la mère porteuse**. C’est ce qui se dégage implicitement de la solution de la Cour de cassation, mais il est probable qu’un arrêt futur tranchera la question afin de lever l’incertitude.
 
-En tout état de cause, le refus de retranscrire un acte étranger  disant que la véritable mère est la mère génétique n’entrerait pas en contradiction avec la jurisprudence de la Cour européenne des droits de l’homme. Dans les arrêts _Menesson et Labassée_, la France fut en effet condamnée pour avoir refusé de reconnaître le lien de filiation, non avec la mère, mais avec le père biologique.
+En tout état de cause, le refus de retranscrire un acte étranger  disant que la véritable mère est la mère génétique n’entrerait pas en contradiction avec la jurisprudence de la Cour européenne des droits de l’homme. Dans les arrêts _Mennesson et Labassée_, la France fut en effet condamnée pour avoir refusé de reconnaître le lien de filiation, non avec la mère, mais avec le père biologique.
 
 ## L’enfant né d’une GPA à l’étranger acquiert-il la nationalité française ?
 
