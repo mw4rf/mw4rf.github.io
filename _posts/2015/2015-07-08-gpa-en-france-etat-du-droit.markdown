@@ -106,7 +106,7 @@ Le principe en droit français est, depuis 1804 et avec quelques exceptions (deu
 
 Une [circulaire du 25 janvier 2013][21] prévoit que **le simple fait que l’enfant soit né d’une GPA à l’étranger ne suffit pas pour que l’administration puisse refuser de délivrer un certificat de nationalité française**, dès lors que les actes d’état civil étrangers attestent du lien de filiation avec un Français. Saisi d’un recours pour excès de pouvoir contre cette circulaire, le Conseil d’État a jugé, par un [arrêt du 12 septembre 2014][22][^8], qu’elle était conforme à la loi.
 
-[^1]:	Cass AP, 3 juill. 2015, pourvoir n°14-21.323 et n°15-50.002
+[^1]:	Cass AP, 3 juill. 2015, pourvois n°14-21.323 et n°15-50.002
 
 [^2]:	Cass. Civ. 1re, 6 avr. 2011, n° 09-17.130, 
 	Bull. civ. I, n° 70 ; 6 avr. 2011, n° 09-66.486, Bull. civ. I, n° 71 et 6 avr. 2011, n° 10-19.053, Bull. civ. I, n° 72 ; Dalloz actualité, 14 avr. 2011, obs. C. Siffrein-Blanc  ; n° 09-66.486, D. 2011. 1522 , note D. Berthiau et L. Brunet  ; ibid. 1001, édito. F. Rome  ; ibid. 1064, entretien X. Labbée  ; ibid. 1585, obs. F. Granet-Lambrechts  ; ibid. 1995, obs. P. Bonfils et A. Gouttenoire  ; ibid. 2012. 308, obs. J.-C. Galloux et H. Gaumont-Prat  ; ibid. 1228, obs. H. Gaudemet-Tallon et F. Jault-Seseke  ; AJ fam. 2011. 262  ; ibid. 265, obs. B. Haftel  ; ibid. 266, interview M. Domingo  ; AJCT 2011. 301, obs. C. Siffrein-Blanc  ; RTD civ. 2011. 340, obs. J. Hauser
