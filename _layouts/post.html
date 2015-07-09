@@ -42,6 +42,12 @@ layout: default
       
       <div class="text-content">{{ content }}</div>
       
+      {% if page.place %}
+      <blockquote>
+          À {{ page.place }}, le {{ page.date | date: "%-d %b %Y" }}
+      </blockquote>
+      {% endif %}
+      
       <hr>
       
       <div class="related">
