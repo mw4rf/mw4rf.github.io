@@ -10,7 +10,7 @@ layout: default
         <h1>
           {{ page.title }}
           <small>
-              {{ page.date | date: "%-d %b %Y" }}
+              • {% include datefr.html %}
               
               {% if page.author %} • 
                   {% if page.author.display_name %}
@@ -44,7 +44,7 @@ layout: default
       
       {% if page.place %}
       <blockquote>
-          À {{ page.place }}, le {{ page.date | date: "%-d %b %Y" }}
+          À {{ page.place }}, le {% include datefr.html %}
       </blockquote>
       {% endif %}
       
