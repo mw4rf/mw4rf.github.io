@@ -16,12 +16,12 @@ wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=20
 date: '2005-02-07 22:36:57 +0100'
 date_gmt: '2005-02-07 20:36:57 +0100'
 categories:
-- Humour
+- Actu & humeur
 tags:
-- Informatique
+- informatique
 - hardware
-- Humour
-- Linux
+- humour
+- linux
 permalink:  /2005/02/07/humour-lordinateur-de-ma-grand-mere/
 ---
 <p>Je suis tomb&eacute; par hasard sur un blog am&eacute;ricain qui affichait un article absolument hilarant, alors je l'ai traduit en fran&ccedil;ais (faut dire, j'avais vraiment rien d'autre &agrave; foutre ;-) <br />

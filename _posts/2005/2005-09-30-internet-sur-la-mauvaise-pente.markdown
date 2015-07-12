@@ -19,7 +19,6 @@ categories:
 - Internet
 tags:
 - Internet
-- humeur
 - société
 - Web
 - P2P

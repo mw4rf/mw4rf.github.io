@@ -17,10 +17,8 @@ date: '2005-10-06 22:51:00 +0200'
 date_gmt: '2005-10-06 20:51:00 +0200'
 categories:
 - Internet
-- Mac
-- Web
 tags:
-- Mac
+- apple
 - Internet
 - programmation
 - Linux

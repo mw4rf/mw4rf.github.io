@@ -17,15 +17,14 @@ date: '2005-06-03 22:44:56 +0200'
 date_gmt: '2005-06-03 20:44:56 +0200'
 categories:
 - Internet
-- Mac
-- Featured
 tags:
-- Mac
-- Internet
+- apple
+- internet
 - sécurité
-- Linux
-- Web
-- Windows
+- linux
+- web
+- windows
+- virus
 permalink:  /2005/06/03/demystification-peut-on-etre-infecte-par-un-virus-a-cause-dun-e-mail/
 ---
 <p>On ne peut pas, dans la majorité des cas, être infecté par un virus à cause d'un e-mail, et cela du fait même de la structure des logiciels de gestion d'e-mails. Sous certaines conditions, très restrictives, un e-mails peut toutefois être la source d'une infection virale du système. Cet article propose de voir dans quels cas un e-mails peut être dangereux, et dans quels cas il ne peut pas l'être.</p>

@@ -23,7 +23,6 @@ wordpress_url: http://blog.gfblog.com/?p=82
 date: '2005-11-28 18:53:46 +0100'
 date_gmt: '2005-11-28 16:53:46 +0100'
 categories:
-- Mac
 - Actu & Humeur
 tags:
 - software

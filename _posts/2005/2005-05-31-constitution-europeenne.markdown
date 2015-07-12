@@ -16,11 +16,9 @@ wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=29
 date: '2005-05-31 22:44:05 +0200'
 date_gmt: '2005-05-31 20:44:05 +0200'
 categories:
-- Actualité
+- Actu & humeur
 tags:
-- humeur
 - société
-- Juridique
 permalink:  /2005/05/31/constitution-europeenne/
 ---
 <p>La France vient de rejeter la Constitution europ&eacute;enne. La question &eacute;tait de savoir si nous voulions autoriser le Parlement &agrave; ratifier le trait&eacute; portant constitution pour l'europe, la r&eacute;ponse fut 'non' &agrave; 54,87%. Le r&eacute;f&eacute;rendum sur la constitution europ&eacute;enne fut l'objet d'un long et tr&egrave;s complexe d&eacute;bat quant aux deux votes possibles, son r&eacute;sultat fera sans doute longtemps l'objet de discussions. Je ne pr&eacute;tends pas faire une analyse politique exhaustive de quoi que ce soit, je veux juste &eacute;crire ici mes impressions du moment, en souvenir de ce r&eacute;sultat historique pour le meilleur et pour le pire. </p>

@@ -22,7 +22,6 @@ date: '2005-10-21 13:25:31 +0200'
 date_gmt: '2005-10-21 11:25:31 +0200'
 categories:
 - Internet
-- Web
 tags:
 - Mac
 - Internet

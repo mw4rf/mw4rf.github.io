@@ -17,7 +17,6 @@ date: '2005-10-09 10:09:17 +0200'
 date_gmt: '2005-10-09 08:09:17 +0200'
 categories:
 - Internet
-- Juridique
 tags:
 - Mac
 - Internet

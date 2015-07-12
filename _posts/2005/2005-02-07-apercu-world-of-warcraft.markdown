@@ -17,11 +17,8 @@ date: '2005-02-07 22:37:33 +0100'
 date_gmt: '2005-02-07 20:37:33 +0100'
 categories:
 - Internet
-- Mac
 tags:
-- Mac
-- Internet
-- Windows
+- windows
 - jeux
 permalink:  /2005/02/07/apercu-world-of-warcraft/
 ---

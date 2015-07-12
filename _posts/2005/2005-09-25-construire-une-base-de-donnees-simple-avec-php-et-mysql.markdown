@@ -17,12 +17,10 @@ date: '2005-09-25 17:14:08 +0200'
 date_gmt: '2005-09-25 15:14:08 +0200'
 categories:
 - Internet
-- Web
-- Featured
 tags:
-- Internet
+- internet
 - programmation
-- Web
+- web
 - serveur
 - bases de données
 permalink:  /2005/09/25/construire-une-base-de-donnees-simple-avec-php-et-mysql/

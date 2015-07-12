@@ -17,8 +17,6 @@ date: '2005-10-11 19:47:11 +0200'
 date_gmt: '2005-10-11 17:47:11 +0200'
 categories:
 - Internet
-- Mac
-- Featured
 tags:
 - Mac
 - Internet

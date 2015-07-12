@@ -16,7 +16,7 @@ wordpress_url: http://blog.gfblog.com/index.php/2005/10/08/widgets-payants/
 date: '2005-10-08 20:48:34 +0200'
 date_gmt: '2005-10-08 18:48:34 +0200'
 categories:
-- Mac
+- Informatique
 tags:
 - Mac
 - Internet

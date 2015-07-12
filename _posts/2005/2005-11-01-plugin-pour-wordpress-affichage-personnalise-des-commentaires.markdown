@@ -16,7 +16,7 @@ wordpress_url: http://blog.gfblog.com/?p=77
 date: '2005-11-01 00:49:24 +0100'
 date_gmt: '2005-10-31 22:49:24 +0100'
 categories:
-- Web
+- Valhalla
 tags:
 - Internet
 - programmation

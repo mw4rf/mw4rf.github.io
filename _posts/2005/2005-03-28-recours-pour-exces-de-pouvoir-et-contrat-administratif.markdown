@@ -17,10 +17,8 @@ date: '2005-03-28 20:07:00 +0200'
 date_gmt: '2005-03-28 18:07:00 +0200'
 categories:
 - Juridique
-- Droit public
 tags:
-- Juridique
-- Droit public
+- droit public
 permalink:  /2005/03/28/recours-pour-exces-de-pouvoir-et-contrat-administratif/
 ---
 <p style="color: #ff0000; font-weight: bold;" align="center">DISSERTATION: Le recours pour excès de pouvoir et le contrat administratif.</p>

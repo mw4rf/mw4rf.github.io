@@ -22,8 +22,7 @@ wordpress_url: http://blog.gfblog.com/?p=81
 date: '2005-11-11 17:40:25 +0100'
 date_gmt: '2005-11-11 16:40:25 +0100'
 categories:
-- Divers
-- Mac
+- Informatique
 tags:
 - hardware
 - Apple

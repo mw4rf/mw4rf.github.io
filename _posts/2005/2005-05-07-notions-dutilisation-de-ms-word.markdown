@@ -16,12 +16,10 @@ wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=25
 date: '2005-05-07 22:40:53 +0200'
 date_gmt: '2005-05-07 20:40:53 +0200'
 categories:
-- Mac
-tags:
-- Mac
 - Informatique
-- "écriture"
-- Windows
+tags:
+- apple
+- windows
 permalink:  /2005/05/07/notions-dutilisation-de-ms-word/
 ---
 <p>Je me suis rendu compte il y a quelques temps que la plupart des gens, en plus de ne pas savoir taper, ne savaient pas utiliser correctement un traitement de texte. Pour eux, ce n'est pas grave. Pour moi si, d&egrave;s lors que cela nuit &agrave; la lisibilit&eacute; du texte. Ce n'est pas ma faute, mais je ne peux pas travailler sur un document dans lequel les r&egrave;gles de base de la typographie et du traitement de texte ne sont pas du tout respect&eacute;es: des espaces l&agrave; o&ugrave; il n'en faut pas, pas d'espace l&agrave; o&ugrave; il en faut, deux titres du m&ecirc;me rang hi&eacute;rarchique pr&eacute;sent&eacute;s de mani&egrave;re diff&eacute;rente, des titres en bas de page, des sauts intempestifs, une mauvaise ponctuation, etc. Je ne suis pas typographe, je n'y connais pas grand chose, mais je connais les r&egrave;gles de base et je les respecte, de mani&egrave;re &agrave; fournir un contenu facilement lisible. Et tout le monde devrait faire pareil, car un document mal pr&eacute;sent&eacute; se remarque tout de suite, et un document bien pr&eacute;sent&eacute; est beaucoup plus facile et agr&eacute;able &agrave; utiliser.</p>

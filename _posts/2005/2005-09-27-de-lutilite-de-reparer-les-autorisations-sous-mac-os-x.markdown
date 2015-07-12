@@ -16,12 +16,11 @@ wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=33
 date: '2005-09-27 22:46:44 +0200'
 date_gmt: '2005-09-27 20:46:44 +0200'
 categories:
-- Mac
+- Informatique
 tags:
-- Mac
 - sécurité
 - software
-- Apple
+- apple
 permalink:  /2005/09/27/de-lutilite-de-reparer-les-autorisations-sous-mac-os-x/
 ---
 <p>

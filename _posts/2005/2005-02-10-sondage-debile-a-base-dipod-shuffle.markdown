@@ -16,11 +16,10 @@ wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=22
 date: '2005-02-10 22:38:28 +0100'
 date_gmt: '2005-02-10 20:38:28 +0100'
 categories:
-- Mac
+- Informatique
 tags:
 - hardware
-- humeur
-- Apple
+- apple
 permalink:  /2005/02/10/sondage-debile-a-base-dipod-shuffle/
 ---
 <p>Le site IpodG (http://www.ipodgeneration.com/) propose un sondage &agrave; l'occasion de la sortie de l'iPod Shuffle. Je n'aime pas ce sondage, aucune r&eacute;ponse ne me convient, et j'explique pourquoi.</p>

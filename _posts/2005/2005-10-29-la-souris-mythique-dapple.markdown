@@ -16,8 +16,7 @@ wordpress_url: http://blog.gfblog.com/?p=54
 date: '2005-10-29 10:46:19 +0200'
 date_gmt: '2005-10-29 08:46:19 +0200'
 categories:
-- Divers
-- Mac
+- Informatique
 tags:
 - Mac
 - Informatique

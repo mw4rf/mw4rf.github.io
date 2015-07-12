@@ -17,11 +17,11 @@ date: '2005-10-07 19:58:49 +0200'
 date_gmt: '2005-10-07 17:58:49 +0200'
 categories:
 - Internet
-- Web
 tags:
 - Internet
 - Web
 - serveur
+- statistiques
 permalink:  /2005/10/07/interpretation-de-statistiques-web/
 ---
 <p>

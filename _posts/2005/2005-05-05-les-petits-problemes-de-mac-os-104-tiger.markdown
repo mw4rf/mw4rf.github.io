@@ -16,11 +16,10 @@ wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=24
 date: '2005-05-05 22:40:02 +0200'
 date_gmt: '2005-05-05 20:40:02 +0200'
 categories:
-- Mac
+- Informatique
 tags:
-- Mac
 - software
-- Apple
+- apple
 permalink:  /2005/05/05/les-petits-problemes-de-mac-os-104-tiger/
 ---
 <p>J'ai install&eacute; Mac OS X &quot;Tiger&quot; (10.4) samedi dernier, et &agrave; priori tout s'est bien pass&eacute;. Cependant, &agrave; l'utilisation, j'ai rencontr&eacute; quelques petits probl&egrave;mes qui montrent que le syst&egrave;me est encore un peu jeune. Je vais d&eacute;crire ici ces probl&egrave;mes.</p>

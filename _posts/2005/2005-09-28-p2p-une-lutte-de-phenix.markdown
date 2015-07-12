@@ -16,14 +16,13 @@ wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=34
 date: '2005-09-28 22:47:10 +0200'
 date_gmt: '2005-09-28 20:47:10 +0200'
 categories:
-- Internet
+- Actu & Humeur
 tags:
 - Internet
 - humeur
 - société
-- Actu & Humeur
 - P2P
-- Propriété intellectuelle
+- propriété intellectuelle
 permalink:  /2005/09/28/p2p-une-lutte-de-phenix/
 ---
 <p>

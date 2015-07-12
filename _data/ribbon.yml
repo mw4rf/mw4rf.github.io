@@ -7,6 +7,9 @@
 - category: "informatique"
   ribbon: "ribbon ribbon-green"
   
+- category: "internet"
+  ribbon: "ribbon ribbon-green"
+  
 - category: "java"
   ribbon: "ribbon ribbon-green"
   

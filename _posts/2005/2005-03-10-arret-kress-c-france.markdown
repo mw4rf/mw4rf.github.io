@@ -17,10 +17,9 @@ date: '2005-03-10 20:07:02 +0100'
 date_gmt: '2005-03-10 18:07:02 +0100'
 categories:
 - Juridique
-- Droit public
 tags:
-- Juridique
-- Droit public
+- droit public
+- droits fondamentaux
 permalink:  /2005/03/10/arret-kress-c-france/
 ---
 <p align="center" style="color: #FF0000; font-weight: bold;">COMMENTAIRE de l'arrêt CEDH Kress c/ France du 7 juin 2001</p>

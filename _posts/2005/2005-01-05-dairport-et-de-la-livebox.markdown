@@ -17,13 +17,10 @@ date: '2005-01-05 22:35:59 +0100'
 date_gmt: '2005-01-05 20:35:59 +0100'
 categories:
 - Internet
-- Mac
 tags:
-- Mac
-- Internet
 - hardware
 - serveur
-- Apple
+- apple
 permalink:  /2005/01/05/dairport-et-de-la-livebox/
 ---
 <p>De nos jours, il n'est plus envisageable d'utiliser une connexion internet bas d&eacute;bit (<a href="{% post_url /2005/2005-01-02-internet-de-lavenir-du-bas-debit %}">cliquez ici si vous n'&ecirc;tes pas d'accord</a>). Il vous faut l'ADSL. Si comme 2,5 millions de personne (au jour o&ugrave; j'&eacute;cris ces lignes) vous avez opt&eacute; pour Wanadoo, vous re&ccedil;evrez une Livebox. Cette boibo&icirc;te est assez pratique, simple &agrave; configurer (tant qu'on ne cherche pas &agrave; rentrer dans les param&eacute;trages avanc&eacute;s...), et assez jolie. D'un autre c&ocirc;t&eacute;, si vous lisez cet article c'est que vous avez un Mac avec une carte Airport, ou un PC ou un Mac avec un r&eacute;seau sans fil Airport, airport extreme ou airport express. Cet article traite des int&eacute;ractions entre la LB et la borne airport.</p>

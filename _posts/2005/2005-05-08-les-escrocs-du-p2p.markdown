@@ -18,8 +18,7 @@ date_gmt: '2005-05-08 20:41:23 +0200'
 categories:
 - Internet
 tags:
-- Internet
-- humeur
+- internet
 permalink:  /2005/05/08/les-escrocs-du-p2p/
 ---
 <p>Je viens de d&eacute;couvrir sur Internet un site super. Je vous balance direct l'adresse direct pour que vous puissiez y aller: www.myfilesharing.com (enfin, n'y allez pas tout de suite, lisez l'article jusqu'au bout, c'est pr&eacute;f&eacute;rable ;-). Ce site est clairement pr&eacute;sent&eacute;, accessible en 9 langues (!), et il vous offre un moyen pas cher pour profiter des joies du P2P !!</p>

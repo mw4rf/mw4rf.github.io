@@ -16,13 +16,13 @@ wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=35
 date: '2005-09-28 22:48:01 +0200'
 date_gmt: '2005-09-28 20:48:01 +0200'
 categories:
-- Mac
-tags:
-- Mac
 - Informatique
+tags:
+- apple
+- informatique
 - software
-- Linux
-- Windows
+- linux
+- windows
 permalink:  /2005/09/28/formats-de-fichiers-et-extensions-associees/
 ---
 <p>Sur votre ordinateur tournent des logiciels, ou applications. Ces applications servent &agrave; produire des documents de divers types (texte, photos, vid&eacute;os, musique, etc). Ces documents prennent la forme de fichiers, enregistr&eacute;s sur votre disque dur, cl&eacute; USB, etc. Chaque application a une mani&egrave;re propre et en r&egrave;gle g&eacute;n&eacute;rale reconnue uniquement par elle de g&eacute;n&eacute;rer ces fichiers.</p>
