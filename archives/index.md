@@ -5,11 +5,18 @@ published: true
 title: Archives
 ---
 
-<ol>
+<div class="list-group">
 {% for post in site.posts %}
-<li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-    [{{ post.date | date_to_string }}, {{ post.content | number_of_words }} mots]
-</li>
-{% endfor %}
-</ol>
+{% if post.categories[0] != "revue" %}
+    <a class="list-group-item" href="{{ post.url }}">
+        <h4 class="list-group-item-leading">{{ post.title }}</h4>
+        <div class="list-group-item-text">
+            {% include datefr.html %} • 
+            {{ post.content | number_of_words }} mots • 
+            Catégorie(s) : {% for c in post.categories %}{{ c }}   {% endfor %}<br />
+            Thèmes : {% for t in post.tags %}{{ t }}   {% endfor %}
+        </div>
+    </a>
+{% endif %}
+{% endfor %}    
+</div>
