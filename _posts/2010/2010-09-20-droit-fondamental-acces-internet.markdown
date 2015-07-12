@@ -26,13 +26,12 @@ date_gmt: '2010-09-20 15:35:42 +0200'
 categories:
 - Internet
 - Juridique
-- NTIC
-- Droits fondamentaux
 tags:
 - Internet
 - Juridique
 - liberté
 - Neutralité du Net
+- droits fondamentaux
 permalink:  /2010/09/20/droit-fondamental-acces-internet/
 ---
 <p>Dans un article récent, <a href="http://en.wikipedia.org/wiki/David_Weinberger">David Weinberger</a>, du <a href="http://cyber.law.harvard.edu/">Berkman Center for Internet & Society (Harvard)</a>, <a href="http://www.hyperorg.com/blogger/2010/09/19/the-internet-as-a-human-right/">analyse l'opportunité d'élever l'accès à Internet au rang de droit de l'Homme</a>. Son avis est partagé : il est théoriquement contre, mais il y est, en pratique, favorable. Il expose certains arguments que je voudrais présenter ici, et critiquer. J'expliquerai ensuite ce que j'entends par "accès à Internet" et les raisons pour lesquelles je suis favorable à ce qu'un tel accès soit reconnu comme étant une liberté publique.</p>

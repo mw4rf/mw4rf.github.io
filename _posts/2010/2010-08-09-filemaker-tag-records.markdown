@@ -22,10 +22,7 @@ wordpress_url: http://www.valhalla.fr/?p=626
 date: '2010-08-09 16:35:31 +0200'
 date_gmt: '2010-08-09 14:35:31 +0200'
 categories:
-- Mac
 - Informatique
-- Windows
-- Filemaker
 tags:
 - programmation
 - software

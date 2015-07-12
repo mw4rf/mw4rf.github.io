@@ -22,7 +22,6 @@ date: '2010-04-17 17:38:45 +0200'
 date_gmt: '2010-04-17 15:38:45 +0200'
 categories:
 - Internet
-- Featured
 tags:
 - Internet
 - société

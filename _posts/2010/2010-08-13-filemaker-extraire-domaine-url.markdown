@@ -23,9 +23,7 @@ wordpress_url: http://www.valhalla.fr/?p=652
 date: '2010-08-13 16:37:53 +0200'
 date_gmt: '2010-08-13 14:37:53 +0200'
 categories:
-- Mac
-- Windows
-- Filemaker
+- Informatique
 tags:
 - programmation
 - bases de données

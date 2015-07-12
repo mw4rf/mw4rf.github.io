@@ -36,7 +36,6 @@ date: '2010-03-20 19:15:44 +0100'
 date_gmt: '2010-03-20 17:15:44 +0100'
 categories:
 - Internet
-- Web
 - Informatique
 tags:
 - Internet

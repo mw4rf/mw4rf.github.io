@@ -22,8 +22,7 @@ date: '2010-01-31 23:11:00 +0100'
 date_gmt: '2010-01-31 21:11:00 +0100'
 categories:
 - Internet
-- Actu & Humeur
-- Web
+- Informatique
 tags:
 - programmation
 - Web

@@ -22,7 +22,6 @@ wordpress_url: http://www.valhalla.fr/?p=300
 date: '2010-02-13 21:49:47 +0100'
 date_gmt: '2010-02-13 19:49:47 +0100'
 categories:
-- Actualité
 - Juridique
 - Informatique
 tags:

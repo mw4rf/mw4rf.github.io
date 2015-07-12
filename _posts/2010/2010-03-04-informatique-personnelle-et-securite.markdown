@@ -24,13 +24,9 @@ wordpress_url: http://www.valhalla.fr/?p=350
 date: '2010-03-04 16:15:00 +0100'
 date_gmt: '2010-03-04 14:15:00 +0100'
 categories:
-- Mac
 - Informatique
-- Windows
-- Linux
-- Featured
 tags:
-- Mac
+- apple
 - Informatique
 - sécurité
 - hardware

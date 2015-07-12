@@ -24,18 +24,11 @@ date: '2010-05-01 21:55:36 +0200'
 date_gmt: '2010-05-01 19:55:36 +0200'
 categories:
 - Informatique
-- Mac
-- Actu & Humeur
-- Graphisme
-- Actualité
-- Linux
 tags:
 - Mac
 - Informatique
 - Graphisme
 - Linux
-- Actu & Humeur
-- Actualité
 permalink:  /2010/05/01/interface-ubuntu-copie-macosx%c2%a0/
 ---
 <p>L'interface d'Ubuntu 10.04, « Lucid Lynx », copierait celle de Mac OS X. C'est ce qu'on peut lire, dans plusieurs langues, sur de nombreux forums et blogs dédiés à Linux. La plupart des personnes qui avancent cette idée le font pour dénoncer ce qui leur apparaît comme une mauvaise décision de Canonical, l'entreprise qui produit Ubuntu. Copier Mac OS X serait, selon eux, refuser d'innover et s'éloigner de l'esprit de Linux, des précédentes versions d'Ubuntu et du monde libre. Voyons ce qu'il en est.<br />

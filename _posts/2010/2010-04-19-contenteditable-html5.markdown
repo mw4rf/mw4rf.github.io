@@ -27,7 +27,6 @@ wordpress_url: http://www.valhalla.fr/?p=519
 date: '2010-04-19 09:23:25 +0200'
 date_gmt: '2010-04-19 07:23:25 +0200'
 categories:
-- Web
 - Informatique
 tags:
 - Internet

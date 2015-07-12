@@ -27,9 +27,6 @@ date: '2010-03-06 18:10:29 +0100'
 date_gmt: '2010-03-06 16:10:29 +0100'
 categories:
 - Internet
-- Actualité
-- Juridique
-- Featured
 tags:
 - Internet
 - sécurité

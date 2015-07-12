@@ -24,11 +24,7 @@ wordpress_url: http://www.valhalla.fr/?p=683
 date: '2010-09-16 11:30:50 +0200'
 date_gmt: '2010-09-16 09:30:50 +0200'
 categories:
-- Mac
-- Web
 - Informatique
-- Windows
-- Linux
 tags:
 - Informatique
 - Linux

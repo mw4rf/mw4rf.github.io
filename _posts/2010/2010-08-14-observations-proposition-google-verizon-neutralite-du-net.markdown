@@ -27,9 +27,8 @@ wordpress_url: http://www.valhalla.fr/?p=648
 date: '2010-08-14 16:50:26 +0200'
 date_gmt: '2010-08-14 14:50:26 +0200'
 categories:
+- Juridique
 - Internet
-- NTIC
-- Droits fondamentaux
 tags:
 - Internet
 - société
