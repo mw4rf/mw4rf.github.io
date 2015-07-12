@@ -31,7 +31,6 @@ date: '2009-01-04 09:36:23 +0100'
 date_gmt: '2009-01-04 08:36:23 +0100'
 categories:
 - Internet
-- Web
 - Informatique
 tags:
 - Internet

@@ -27,9 +27,6 @@ date_gmt: '2009-04-26 12:39:35 +0200'
 categories:
 - Internet
 - Juridique
-- NTIC
-- Propriété intellectuelle
-- Featured
 tags:
 - Internet
 - société

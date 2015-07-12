@@ -29,17 +29,12 @@ wordpress_url: http://www.valhalla.fr/?p=285
 date: '2009-09-19 18:30:56 +0200'
 date_gmt: '2009-09-19 16:30:56 +0200'
 categories:
-- Divers
-- Internet
 - Actu & Humeur
-- Actualité
-- Juridique
+- Internet
 tags:
 - Internet
 - société
 - Web
-- Actu & Humeur
-- Actualité
 permalink:  /2009/09/19/blamez-le-contenant-oubliez-le-contenu/
 ---
 <p>Je lis dans Le Monde (1), à propos de la récente affaire Hortefeux, que plusieurs personnalités de la droite française, ainsi que divers intellectuels, accusent le réseau Internet d'être « source de nouvelles dérives en matière d'information ». Les dérives dont il est ici question se concrétisent par la diffusion d'une vidéo montrant le ministre de l'intérieur faisant une plaisanterie jugée raciste par une partie de l'opinion publique. Le « buzz » est né de la visualisation de cette vidéo plusieurs centaines de milliers de fois, en très peu de temps, grâce à la publicité générée par la blogosphère française.</p>

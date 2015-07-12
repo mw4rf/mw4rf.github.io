@@ -20,8 +20,8 @@ wordpress_url: http://www.valhalla.fr/?p=281
 date: '2009-09-10 16:54:47 +0200'
 date_gmt: '2009-09-10 14:54:47 +0200'
 categories:
-- Web
-- Linux
+- Informatique
+- Internet
 tags:
 - Internet
 - Informatique

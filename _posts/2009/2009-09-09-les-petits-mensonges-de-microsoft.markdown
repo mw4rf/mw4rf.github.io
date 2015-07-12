@@ -21,8 +21,7 @@ date: '2009-09-09 21:06:34 +0200'
 date_gmt: '2009-09-09 19:06:34 +0200'
 categories:
 - Actu & Humeur
-- Windows
-- Linux
+- Informatique
 tags:
 - Mac
 - Informatique
