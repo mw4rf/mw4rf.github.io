@@ -25,10 +25,8 @@ date: '2013-01-08 08:42:52 +0100'
 date_gmt: '2013-01-08 06:42:52 +0100'
 categories:
 - Informatique
-- Linux
 tags:
 - Linux
-- ubuntu
 permalink:  /2013/01/08/ubuntu-12-10-checklist-installation/
 ---
 <p>Un peu plus de 2 mois après sa sortie, la dernière version d'Ubuntu (12.10 Quantal Quetzal) devrait être suffisamment stable pour remplacer la LTS précédente (11.04 Precise Pangolin). Pas de mise à jour ou de migration pour moi, j'ai été marqué à vie par le passage à Windows Millenium et, depuis, je ne réalise plus que des <em>fresh install </em>avec formatage préalable<em>.</em> Problème: après l'installation, il faut réinstaller ses logiciels et, surtout, rétablir leur configuration, afin de retrouver notre environnement habituel. D'où cette check-list, pour mémoire, de l'installation d'Ubuntu 12.10 sur un laptop Lenovo X220 2012 (SSD).</p>
