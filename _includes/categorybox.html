@@ -1,0 +1,16 @@
+<div class="grid-item panel panel-primary">
+    <div class="panel-heading">
+            <h2 class="panel-title" id="{{ category[0] }}">{{ category[0] | capitalize }}</h2>
+    </div>
+    <div class="list-group">
+    {% for post in category[1] %}
+        <a class="list-group-item" href="{{ post.url }}">
+            <h4 class="list-group-item-leading">{{ post.title }}</h4>
+            <div class="list-group-item-text">
+                {{ post.date | date_to_string }}, 
+                {{ post.content | number_of_words }} mots
+            </div>
+        </a>
+    {% endfor %}
+    </div>
+</div>
