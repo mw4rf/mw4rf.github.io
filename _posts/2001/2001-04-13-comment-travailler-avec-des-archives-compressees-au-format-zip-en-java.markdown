@@ -19,7 +19,7 @@ categories:
 - Java
 tags:
 - programmation
-- Java
+- java
 permalink:  /2001/04/13/comment-travailler-avec-des-archives-compressees-au-format-zip-en-java/
 ---
 <p>Comment travailler avec des archives compress&eacute;es au format ZIP en Java ?</p>

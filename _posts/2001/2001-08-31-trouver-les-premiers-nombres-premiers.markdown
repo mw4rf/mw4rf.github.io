@@ -19,7 +19,7 @@ categories:
 - Java
 tags:
 - programmation
-- Java
+- java
 permalink:  /2001/08/31/trouver-les-premiers-nombres-premiers/
 ---
 <p>Ceci ne concerne pas vraiment une technique de programmation, c'est plut&ocirc;t un exercice pour se former l'esprit, et c'est aussi la d&eacute;monstration que Java peut servir pour le calcul math&eacute;matique.</p>

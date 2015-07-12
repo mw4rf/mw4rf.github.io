@@ -19,7 +19,7 @@ categories:
 - Java
 tags:
 - programmation
-- Java
+- java
 permalink:  /2001/03/17/comment-utiliser-un-filtre-de-fichiers-dans-un-jfilechooser/
 ---
 <p>Cet article explique comment mettre en place un filtre de fichiers dans un JFileChooser, &agrave; partir de leur extension. En effet, cette fonction n'est pas impl&eacute;ment&eacute;e de mani&egrave;re efficace par d&eacute;faut, et il nous faudra cr&eacute;er notre propre classe pour un r&eacute;sultat convenable.<br />

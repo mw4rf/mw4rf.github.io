@@ -19,7 +19,7 @@ categories:
 - Java
 tags:
 - programmation
-- Java
+- java
 permalink:  /2001/09/30/comment-enregistrer-dans-un-fichier-le-contenu/
 ---
 <h1>Enregistrer...</h1>

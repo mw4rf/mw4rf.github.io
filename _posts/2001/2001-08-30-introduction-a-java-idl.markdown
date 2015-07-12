@@ -18,10 +18,9 @@ date_gmt: '2001-08-30 09:54:13 +0200'
 categories:
 - Java
 tags:
-- Internet
 - programmation
 - serveur
-- Java
+- java
 permalink:  /2001/08/30/introduction-a-java-idl/
 ---
 <p>Article de <a href="http://www.sun.com">Sun</a> traduit et adapt&eacute; en fran&ccedil;ais.</p>

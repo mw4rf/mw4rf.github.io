@@ -29,12 +29,7 @@ wordpress_url: http://www.valhalla.fr/?p=475
 date: '2010-03-25 11:58:43 +0100'
 date_gmt: '2010-03-25 09:58:43 +0100'
 categories:
-- Actualité
 - Juridique
-- Web
-- Droit civil
-- NTIC
-- Propriété intellectuelle
 tags:
 - Internet
 - Juridique

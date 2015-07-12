@@ -19,8 +19,8 @@ categories:
 - Java
 tags:
 - programmation
-- Linux
-- Java
+- linux
+- java
 permalink:  /2001/03/14/installer-java-sur-un-pc-linux/
 ---
 <p>

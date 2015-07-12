@@ -19,7 +19,7 @@ categories:
 - Java
 tags:
 - programmation
-- Java
+- java
 permalink:  /2001/10/18/lequivalent-de-la-fonction-c-scanf-en-java/
 ---
 <p>Il n'existe pas par d&eacute;faut en Java de m&eacute;thode permettant de r&eacute;cup&eacute;rer une s&eacute;rie de nombres venant de l'utilisateur, comme le fait la m&eacute;thode scanf() en C/C++. Il faut donc ruser, et &eacute;crire quelques lignes de code pour arriver &agrave; nos fins.</p>

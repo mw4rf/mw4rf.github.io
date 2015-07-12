@@ -20,7 +20,7 @@ categories:
 - Java
 tags:
 - programmation
-- Java
+- java
 permalink:  /2001/03/17/comment-excuter-une-commande-systme-depuis-un-programme-java/
 ---
 <p>Cet article explique comment ex&eacute;cuter une commande syst&egrave;me, c'est-&agrave;-dire comment faire pour que Java transmette au syst&egrave;me d'exploitation une commande destin&eacute;e normalement &agrave; une console (fen&ecirc;tre MS-DOS sous Windows, Terminal sous UNIX, etc...).</p>

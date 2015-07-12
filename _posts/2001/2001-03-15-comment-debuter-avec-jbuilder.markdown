@@ -19,7 +19,7 @@ categories:
 - Java
 tags:
 - programmation
-- Java
+- java
 permalink:  /2001/03/15/comment-debuter-avec-jbuilder/
 ---
 <p>Ce document a pour but de vous aider &agrave; prendre en main un des meilleurs IDE Java: JBuilder 3.5. Vous devez lire la suite si les IDE (environnements de d&eacute;veloppement int&eacute;gr&eacute;s) ne vous sont pas familiers, ou si vous d&eacute;butez avec JBuilder.</p>

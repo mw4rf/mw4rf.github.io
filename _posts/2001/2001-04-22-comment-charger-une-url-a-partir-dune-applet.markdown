@@ -18,10 +18,8 @@ date_gmt: '2001-04-22 10:41:32 +0200'
 categories:
 - Java
 tags:
-- Internet
 - programmation
-- Web
-- Java
+- java
 permalink:  /2001/04/22/comment-charger-une-url-a-partir-dune-applet/
 ---
 <p>Ce &quot;How To&quot; explique comment charger une URL, autrement dit une page web, &agrave; partir d'une applet Java, ins&eacute;r&eacute;e dans une autre page web. Ceci ne posera aucun probl&egrave;me &agrave; un programmeur exp&eacute;riment&eacute; dans la programmation des applets, mais, &agrave; cause des restrictions de s&eacute;curit&eacute; desdites applets, cela peut en poser &agrave; des programmeurs qui ne seraient pas habitu&eacute;s &agrave; travailler avec Java sur Internet.<br />

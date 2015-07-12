@@ -17,8 +17,6 @@ date: '2006-12-13 12:45:47 +0100'
 date_gmt: '2006-12-13 10:45:47 +0100'
 categories:
 - Juridique
-- Droit civil
-- Droit international
 tags:
 - Juridique
 - Droit international

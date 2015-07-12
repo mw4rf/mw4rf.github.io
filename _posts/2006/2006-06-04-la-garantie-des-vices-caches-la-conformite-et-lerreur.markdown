@@ -23,7 +23,7 @@ wordpress_url: http://www.valhalla.fr/?p=381
 date: '2006-06-04 12:12:50 +0200'
 date_gmt: '2006-06-04 10:12:50 +0200'
 categories:
-- Droit civil
+- Juridique
 tags:
 - Juridique
 - Droit civil

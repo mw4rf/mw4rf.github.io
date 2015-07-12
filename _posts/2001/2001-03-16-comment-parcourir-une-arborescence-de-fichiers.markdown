@@ -19,7 +19,7 @@ categories:
 - Java
 tags:
 - programmation
-- Java
+- java
 permalink:  /2001/03/16/comment-parcourir-une-arborescence-de-fichiers/
 ---
 <p>Ce document a pour but de vous expliquer, comme le dit son titre, comment d&eacute;tecter et afficher tous les fichiers et sous-r&eacute;pertoires d'un r&eacute;pertoire racine. La solution propos&eacute;e ici utilise la technique de r&eacute;cursivit&eacute;. Il existe certainement d'autres mani&egrave;res de proc&eacute;der mais celle-ci est assez &eacute;l&eacute;gante.</p>

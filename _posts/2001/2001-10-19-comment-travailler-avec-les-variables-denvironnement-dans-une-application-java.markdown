@@ -20,7 +20,7 @@ categories:
 - Java
 tags:
 - programmation
-- Java
+- java
 permalink:  /2001/10/19/comment-travailler-avec-les-variables-denvironnement-dans-une-application-java/
 ---
 

@@ -19,7 +19,7 @@ categories:
 - Java
 tags:
 - programmation
-- Java
+- java
 permalink:  /2001/10/18/comment-jouer-un-son-dans-une-application-java/
 ---
 <p>Le multim&eacute;dia est devenu un probl&egrave;me majeur dans le d&eacute;veloppement de logiciels. En effet, un programme dot&eacute; d'une belle interface, avec des boutons anim&eacute;s, qui font du bruits en r&eacute;ponse aux actions de l'utilisateur, etc..., est devenu un atout pour s&eacute;duire le gran public. M&ecirc;me si votre logiciel est tr&egrave;s puissant, le meilleur dans son domaine, beaucoup (toujours trop) d'utilisateurs lui pr&eacute;f&egrave;reront un concurrent si tant est que celui-ci soit plus beau et plus convivial. L'interface graphique n'est donc pas &agrave; n&eacute;gliger, loin de l&agrave; !</p>

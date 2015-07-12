@@ -18,9 +18,8 @@ date_gmt: '2001-08-31 10:33:10 +0200'
 categories:
 - Java
 tags:
-- Internet
 - programmation
-- Java
+- java
 permalink:  /2001/08/31/comment-naviguer-sur-internet-avec-un-jeditorpane/
 ---
 <p>Cet article de la FAQ Java de l'association Java-France a pour but d'expliquer la proc&eacute;dure &agrave; suivre pour afficher des pages HTML, qui r&eacute;pondent aux liens, dans un JEditorPane ou un JTextPane (m&ecirc;me proc&eacute;dure). En effet, ces deux composnats (JTextPane h&eacute;ritant de JEditorPane) impl&eacute;mentent des m&eacute;thodes compliqu&eacute;es (plusieurs milliers de lignes de code) permettant de formater un document au format HTML, et de lancer une connexion pour afficher une nouvelle page si l'on clique sur un lien.</p>

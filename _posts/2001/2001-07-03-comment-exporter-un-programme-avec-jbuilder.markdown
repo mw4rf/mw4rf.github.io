@@ -19,8 +19,7 @@ categories:
 - Java
 tags:
 - programmation
-- Web
-- Java
+- java
 permalink:  /2001/07/03/comment-exporter-un-programme-avec-jbuilder/
 ---
 <p>Ce chapitre de la FAQ a pour but de montrer comment exporter, sous la forme d'une archive JAR, un programme Java (application, applet, servlet, web app, bean, etc...). Nous utiliserons ici la situation la plus simple: une application (avec m&eacute;thode main()) export&eacute;e dans une archive JAR auto-ex&eacute;cutable. Nous d&eacute;taillerons les &eacute;tapes de la cr&eacute;ation d'une telle archive.</p>

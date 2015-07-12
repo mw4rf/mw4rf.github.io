@@ -18,10 +18,9 @@ date_gmt: '2001-07-02 10:11:46 +0200'
 categories:
 - Java
 tags:
-- Internet
 - programmation
 - serveur
-- Java
+- java
 permalink:  /2001/07/02/comment-telecharger-un-fichier-a-partir-dune-url-en-java/
 ---
 <p>Cet article de la FAQ a pour but de montrer comment t&eacute;l&eacute;charger un fichier depuis Internet vers son Disque Dur. On peut utiliser plusieurs m&eacute;thodes, et celle &agrave; laquelle on pensera en premier lieu est s&ucirc;rement d'impl&eacute;menter un petit client FTP ou d'utiliser un JavaBean FTP comme celui d'IPWorks (dans JBuilder 5). Cependant, je propose ici une solution plus simple (beaucoup plus simple), &agrave; partir du moment o&ugrave; l'on conna&icirc;t l'adresse exacte du fichier &agrave; t&eacute;l&eacute;charger. Cette m&eacute;thode est &eacute;galement plus s&eacute;curis&eacute;e, en cela que l'on a aucun besoin de sp&eacute;cifier un login et un mot de passe.</p>

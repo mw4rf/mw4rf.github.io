@@ -20,7 +20,7 @@ categories:
 - Java
 tags:
 - programmation
-- Java
+- java
 permalink:  /2001/09/30/comment-utiliser-un-resourcebundle-sous-jbuilder-pour-linternationalisation-dun-logiciel/
 ---
 <p>Parmi les nombreuses fonctionnalit&eacute;s des versions Pro et Entreprise de JBuilder 5, on peut trouver un outil (&quot;Wizard&quot;) tr&egrave;s utile, qui permet de &quot;ressources les Strings&quot; de vos programmes.<br />

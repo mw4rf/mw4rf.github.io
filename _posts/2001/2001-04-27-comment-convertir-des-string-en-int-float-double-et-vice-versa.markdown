@@ -19,7 +19,7 @@ categories:
 - Java
 tags:
 - programmation
-- Java
+- java
 permalink:  /2001/04/27/comment-convertir-des-string-en-int-float-double-et-vice-versa/
 ---
 <p>J'ai d&eacute;cid&eacute; de traiter ce point pr&eacute;cis de la programmation Java: la convertion des types primaires (ou types de base) de donn&eacute;es, car cela m'a pos&eacute; des probl&egrave;mes quand j'ai d&eacute;but&eacute; en Java, et cela en pose souvent aux programmeurs venant de Delphi/Pascal, tout simplement car il n'existe pas en Java de m&eacute;thodes comme IntToStr ou StrToInt (Delphi).<br />

@@ -28,7 +28,6 @@ date: '2006-06-04 12:03:45 +0200'
 date_gmt: '2006-06-04 10:03:45 +0200'
 categories:
 - Juridique
-- Droit civil
 tags:
 - Juridique
 - Droit civil

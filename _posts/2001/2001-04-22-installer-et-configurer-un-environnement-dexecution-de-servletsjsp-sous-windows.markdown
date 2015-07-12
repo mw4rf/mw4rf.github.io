@@ -19,10 +19,9 @@ categories:
 - Java
 tags:
 - programmation
-- Web
 - serveur
-- Windows
-- Java
+- windows
+- java
 permalink:  /2001/04/22/installer-et-configurer-un-environnement-dexecution-de-servletsjsp-sous-windows/
 ---
 <p>Ce chapitre de la FAQ Java explique, pas &agrave; pas, comment installer et configurer un environnement de d&eacute;veloppement et d'ex&eacute;cution de servlets et de pages JSP sur une machine tournant sous Windows 95/98/Me (NT/2000 ?).<br />

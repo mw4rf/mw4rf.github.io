@@ -19,9 +19,8 @@ categories:
 - Java
 tags:
 - programmation
-- Web
 - serveur
-- Java
+- java
 permalink:  /2001/08/28/quest-ce-que-la-technologie-jini/
 ---
 
