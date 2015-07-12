@@ -17,9 +17,8 @@ wordpress_url: http://www.valhalla.fr/?p=420
 date: '2008-11-27 13:25:53 +0100'
 date_gmt: '2008-11-27 11:25:53 +0100'
 categories:
-- Internet
 - Juridique
-- NTIC
+- Internet
 tags:
 - Internet
 - société

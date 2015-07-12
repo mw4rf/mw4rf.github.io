@@ -28,11 +28,10 @@ wordpress_url: http://www.valhalla.fr/index.php/2008/01/12/synchronisation-desyn
 date: '2008-01-12 02:03:46 +0100'
 date_gmt: '2008-01-12 01:03:46 +0100'
 categories:
-- Divers
-- Mac
+- Informatique
 - Actu & Humeur
 tags:
-- Mac
+- apple
 - Internet
 - Informatique
 - sécurité

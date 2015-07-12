@@ -24,11 +24,10 @@ wordpress_url: http://www.valhalla.fr/index.php/2008/02/27/rmvb-et-sous-titres/
 date: '2008-02-27 19:52:21 +0100'
 date_gmt: '2008-02-27 18:52:21 +0100'
 categories:
-- Mac
 - Actu & Humeur
-- Linux
+- Informatique
 tags:
-- Mac
+- apple
 - loisirs
 permalink:  /2008/02/27/rmvb-et-sous-titres/
 ---

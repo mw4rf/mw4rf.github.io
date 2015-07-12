@@ -28,11 +28,13 @@ wordpress_url: http://www.valhalla.fr/?p=140
 date: '2008-08-31 09:33:11 +0200'
 date_gmt: '2008-08-31 08:33:11 +0200'
 categories:
-- Mac
+- Informatique
 tags:
-- Mac
+- apple
 - Informatique
 - sécurité
+- hardware
+- software
 permalink:  /2008/08/31/statut-raid-mail/
 ---
 <p>La meilleure solution pour assurer la sécurité de ses données numériques reste à ce jour l'utilisation de plusieurs disques en RAID 1 "miroir". Lorsque deux disques durs sont montés en RAID 1, chaque fichier copié sur un disque l'est aussi automatiquement sur l'autre. La copie est transparente pour l'utilisateur, qui ne voit qu'un seul volume logiciel de la taille d'un seul disque. Si l'un des deux disques devient inutilisable, les données peuvent toujours être récupérées depuis le second disque. Un tel montage est efficace contre les pannes matérielles qui affectent habituellement les disques durs. Mais encore faut-il vérifier régulièrement l'état du Raid. En effet, si un disque tombe en panne, l'autre disque prendra immédiatement le relai sans que l'utilisateur s'en aperçoive. Celui-ci pourra encore croire en l'intégrité du Raid, alors qu'un seul disque reste fonctionnel. Il est donc nécessaire d'obtenir des informations sur l'état du Raid, par exemple par e-mail. </p>

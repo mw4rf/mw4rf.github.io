@@ -28,15 +28,15 @@ wordpress_url: http://www.valhalla.fr/index.php/2008/03/12/dairport-de-la-livebo
 date: '2008-03-12 16:09:11 +0100'
 date_gmt: '2008-03-12 15:09:11 +0100'
 categories:
-- Mac
+- Informatique
+- Internet
 tags:
-- Mac
+- apple
 - Internet
 - Informatique
 - Web
 - serveur
 - réseaux
-- Apple
 permalink:  /2008/03/12/dairport-de-la-livebox-et-du-protocole-upnpnat-pmp/
 ---
 <p>Voici un nouvel article sur la mise en place d'un réseau local avec une Livebox et une borne Airport, sujet qui fait décidément couler beaucoup d'encre - si je puis dire. Dans mon précédent article sur le sujet, "<a href="http://www.valhalla.fr/index.php/2005/01/05/dairport-et-de-la-livebox/">D'Airport et de la Livebox</a>" du 5 janvier 2005, j'ai montré comment paramétrer la Livebox avec une borne Airport Express destinée à diffuser de la musique par AirTunes. Aujourd'hui, la problématique est un peu différente : il s'agit d'ajouter au réseau un nouveau service logiciel inconnu de la Livebox. En effet, les nouvelles technologies mises en oeuvre par Apple dans ses derniers périphériques (Airport Extreme, Time Capsule, etc.) et dans ses nouveaux logiciels (Mac OS 10.5 Leopard, iChat, Back To My Mac, etc.) nécessitent l'ouverture et le routage de nombreux ports logiciels, soit manuellement soit par le biais du protocole UPNP/NAT-PMP, ce que la Livebox ne permet pas de réaliser.</p>
