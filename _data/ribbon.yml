@@ -7,8 +7,38 @@
 - category: "informatique"
   ribbon: "ribbon ribbon-green"
   
+- category: "mac"
+  ribbon: "ribbon ribbon-green"
+  
+- category: "linux"
+  ribbon: "ribbon ribbon-green"
+  
+- category: "filemaker"
+  ribbon: "ribbon ribbon-green"
+  
+- category: "latex"
+  ribbon: "ribbon ribbon-green"
+  
+- category: "java"
+  ribbon: "ribbon ribbon-green"
+  
+- category: "internet"
+  ribbon: "ribbon ribbon-green"
+  
 - category: "juridique"
   ribbon: "ribbon ribbon-gold"
   
+- category: "ntic"
+  ribbon: "ribbon ribbon-gold"
+  
 - category: "coup de gueule"
+  ribbon: "ribbon ribbon-red"
+  
+- category: "humour"
+  ribbon: "ribbon ribbon-red"
+  
+- category: "actualité"
+  ribbon: "ribbon ribbon-red"
+  
+- category: "graphisme"
   ribbon: "ribbon ribbon-red"
