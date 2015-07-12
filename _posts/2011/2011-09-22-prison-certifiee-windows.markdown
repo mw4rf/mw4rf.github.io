@@ -19,17 +19,13 @@ wordpress_url: http://www.valhalla.fr/?p=828
 date: '2011-09-22 18:59:48 +0200'
 date_gmt: '2011-09-22 16:59:48 +0200'
 categories:
-- Actu & Humeur
 - Informatique
-- Windows
-- Linux
-- NTIC
+- Actu & Humeur
 tags:
 - Informatique
 - Linux
 - Windows
 - Microsoft
-- PC
 permalink:  /2011/09/22/prison-certifiee-windows/
 ---
 <p>Une information agite la communauté Linux depuis le début de la semaine: les ordinateurs "certifiés Windows 8", dotés du petit autocollant Microsoft, ne pourraient se défaire de Windows.</p>

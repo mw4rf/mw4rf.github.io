@@ -20,9 +20,7 @@ wordpress_url: http://www.valhalla.fr/?p=804
 date: '2011-07-27 21:02:43 +0200'
 date_gmt: '2011-07-27 19:02:43 +0200'
 categories:
-- Mac
 - Informatique
-- Linux
 tags:
 - hardware
 - Linux

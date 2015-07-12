@@ -24,7 +24,6 @@ date: '2011-01-19 22:58:32 +0100'
 date_gmt: '2011-01-19 20:58:32 +0100'
 categories:
 - Informatique
-- Linux
 tags:
 - Informatique
 - Humour
@@ -33,7 +32,6 @@ tags:
 - Technique
 - Logiciels
 - Système
-- Console
 permalink:  /2011/01/19/ubuntu-apt-get-fin-de-ligne/
 ---
 <p>Le système de paquets Debian/Ubuntu est diablement efficace : les dépendances sont gérées automatiquement, il suffit d'une ligne dans la console, commençant par la fameuse commande "apt-get" pour installer ou supprimer un logiciel. Mais voilà : il y a parfois des problèmes qui, si petits soient-ils, parviennent à bloquer ladite commande. Tel est le cas du problème auquel cet article est dédié qui, d'après mes recherches, ne trouve aucun écho sur Google -- il doit donc être extrêmement rare !</p>

@@ -23,15 +23,12 @@ date: '2011-07-01 15:00:20 +0200'
 date_gmt: '2011-07-01 13:00:20 +0200'
 categories:
 - Informatique
-- Linux
 tags:
 - Linux
 - Logiciels
 - Système
 - interface
 - messagerie
-- fedora
-- gnome
 permalink:  /2011/07/01/fedora-15/
 ---
 <p>Fedora 15 est la première distribution Linux grand public à être livrée avec Gnome 3 et le bureau Gnome Shell. Ubuntu reste pour l'instant en arrière avec Gnome 2 (Gnome 3 prévu pour novembre) et l'infâme Unity. Bien que je me situe plutôt dans le camp Debian-like que RedHat-like, j'ai décidé de tester Fedora 15 sur un PC portable. Voici donc le récit de cette installation, sous forme de tutoriel pour résoudre les problèmes rencontrés.<br />

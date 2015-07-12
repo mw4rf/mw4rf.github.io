@@ -17,7 +17,6 @@ date: '2011-07-20 23:40:27 +0200'
 date_gmt: '2011-07-20 21:40:27 +0200'
 categories:
 - Actu & Humeur
-- Actualité
 tags:
 - Inclassable
 permalink:  /2011/07/20/world-hunger/

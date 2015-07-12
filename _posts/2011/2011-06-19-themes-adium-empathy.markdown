@@ -21,22 +21,13 @@ wordpress_url: http://www.valhalla.fr/?p=729
 date: '2011-06-19 17:03:12 +0200'
 date_gmt: '2011-06-19 15:03:12 +0200'
 categories:
-- Mac
-- Graphisme
-- Web
 - Informatique
-- Linux
 tags:
-- Mac
+- apple
 - Linux
-- Console
 - CSS
 - interface
 - messagerie
-- fedora
-- gnome
-- mint
-- ubuntu
 permalink:  /2011/06/19/themes-adium-empathy/
 ---
 <p>Le logiciel libre de messagerie instatanée <strong>Empathy</strong>, désormais installé par défaut avec les principales distributions Linux telles qu'Ubuntu ou Fedora, et parfaitement intégré à Gnome-Shell, utilise le même format de thèmes graphiques que le logiciel pour Mac Adium. Il est donc très facile d'utiliser des thèmes conçus pour Adium avec Empathy, et cet article montre comment faire.</p>

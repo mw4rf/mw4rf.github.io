@@ -24,7 +24,7 @@ wordpress_url: http://www.valhalla.fr/?p=723
 date: '2011-04-14 10:03:09 +0200'
 date_gmt: '2011-04-14 08:03:09 +0200'
 categories:
-- Divers
+- Internet
 tags:
 - Internet
 - Informatique
@@ -42,7 +42,7 @@ tags:
 - Google
 - Droit américain
 - Régulation
-- Nouvelles technologies
+- NTIC
 - Logiciels
 - Système
 permalink:  /2011/04/14/stallman-8-dangers-internet/
