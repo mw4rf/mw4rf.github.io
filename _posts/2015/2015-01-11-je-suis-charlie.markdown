@@ -8,7 +8,6 @@ excerpt: "Contre les criminels, les assassins et les fous, contre les fanatiques
 thumbnail: "/public/posts/2015-01-11-je-suis-charlie/charlie.jpg"
 categories:
 - Actu & Humeur
-- actualité
 tags:
 - liberté
 - actualité

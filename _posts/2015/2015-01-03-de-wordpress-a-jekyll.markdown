@@ -8,7 +8,6 @@ date: 2015-01-03 23:18
 place: Montpellier
 categories:
 - Valhalla
-- Informatique
 tags:
 - software
 - Web

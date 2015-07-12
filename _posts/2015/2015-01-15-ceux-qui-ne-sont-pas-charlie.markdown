@@ -6,7 +6,6 @@ author: GF
 date: "2015-01-15 14:10:50"
 categories:
 - Actu & Humeur
-- actualité
 tags:
 - liberté
 - actualité

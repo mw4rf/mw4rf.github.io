@@ -6,8 +6,6 @@ author: GF
 date: "2015-06-30 17:15:50"
 categories:
 - Actu & Humeur
-- mac
-- windows
 tags:
 - mac
 - windows
