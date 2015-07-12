@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -22,13 +23,11 @@ wordpress_url: http://www.valhalla.fr/index.php/2007/03/11/bibliographie-sur-ord
 date: '2007-03-11 19:56:47 +0100'
 date_gmt: '2007-03-11 18:56:47 +0100'
 categories:
-- Juridique
 - Informatique
 tags:
-- Mac
+- apple
 - Informatique
 - science
-- "écriture"
 - software
 permalink:  /2007/03/11/bibliographie-sur-ordinateur-ca-sameliore/
 ---

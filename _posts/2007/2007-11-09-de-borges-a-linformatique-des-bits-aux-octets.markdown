@@ -28,15 +28,12 @@ wordpress_url: http://www.valhalla.fr/index.php/2007/11/09/de-borges-a-linformat
 date: '2007-11-09 17:46:52 +0100'
 date_gmt: '2007-11-09 16:46:52 +0100'
 categories:
-- Internet
-- Actu & Humeur
 - Informatique
-- Featured
 tags:
 - Informatique
 - science
-- Juridique
 - NTIC
+- hardware
 permalink:  /2007/11/09/de-borges-a-linformatique-des-bits-aux-octets/
 ---
 <p><i>Toi, qui me lis, es-tu sûr de comprendre ma langue ?</i> (Jorge Luis Borges). Connaissez-vous les unités informatiques de représentation de volumes de données ? Certainement, ce sont les "méga" et les "giga". Savez-vous que c'est en réalité bien plus complexe qu'il n'y paraît ? Les professionnels jouent de cette complexité d'une manière qui n'est pas toujours très honnête. On pourrait même souvent parler de publicité mensongère, ou d'étiquetage erroné. Ainsi, lorsqu'il y a écrit "1 To" sur la boîte d'un disque dur, celui-ci ne pourra contenir en réalité que 931 Go une fois formaté. La différence entre la capacité affichée et la capacité effective atteint presque 10%. Plus grave encore, les fournisseurs d'accès à Internet se gardent bien de préciser que la vitesse réelle de votre ligne "10 mégas" est en réalité de 1,25 méga. Pourquoi ces différences ? Parlons-nous vraiment la même langue ?<br />

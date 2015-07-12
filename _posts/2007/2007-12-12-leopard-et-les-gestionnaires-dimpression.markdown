@@ -21,10 +21,9 @@ wordpress_url: http://www.valhalla.fr/index.php/2007/12/12/leopard-et-les-gestio
 date: '2007-12-12 12:23:13 +0100'
 date_gmt: '2007-12-12 11:23:13 +0100'
 categories:
-- Mac
-- Linux
+- Informatique
 tags:
-- Mac
+- apple
 - Informatique
 - hardware
 - software

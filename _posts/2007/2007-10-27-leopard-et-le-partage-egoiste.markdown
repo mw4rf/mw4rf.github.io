@@ -25,9 +25,8 @@ wordpress_url: http://www.valhalla.fr/index.php/2007/10/27/leopard-et-le-partage
 date: '2007-10-27 10:32:26 +0200'
 date_gmt: '2007-10-27 09:32:26 +0200'
 categories:
-- Mac
+- Informatique
 tags:
-- Mac
 - sécurité
 - réseaux
 - Apple

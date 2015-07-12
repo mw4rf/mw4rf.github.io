@@ -23,10 +23,9 @@ wordpress_url: http://www.valhalla.fr/index.php/2007/12/31/fichiers-emf-galere-s
 date: '2007-12-31 11:18:40 +0100'
 date_gmt: '2007-12-31 10:18:40 +0100'
 categories:
-- Mac
-- Graphisme
+- Informatique
 tags:
-- Mac
+- apple
 - Graphisme
 permalink:  /2007/12/31/fichiers-emf-galere-sur-mac/
 ---

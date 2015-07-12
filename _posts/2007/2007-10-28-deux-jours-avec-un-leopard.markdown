@@ -22,9 +22,8 @@ wordpress_url: http://www.valhalla.fr/index.php/2007/10/28/deux-jours-avec-un-le
 date: '2007-10-28 13:47:04 +0100'
 date_gmt: '2007-10-28 12:47:04 +0100'
 categories:
-- Mac
+- Informatique
 tags:
-- Mac
 - software
 - Apple
 permalink:  /2007/10/28/deux-jours-avec-un-leopard/

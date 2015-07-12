@@ -24,9 +24,8 @@ wordpress_url: http://www.valhalla.fr/index.php/2007/11/07/quelques-jours-de-plu
 date: '2007-11-07 10:22:21 +0100'
 date_gmt: '2007-11-07 09:22:21 +0100'
 categories:
-- Mac
+- Informatique
 tags:
-- Mac
 - software
 - Apple
 permalink:  /2007/11/07/quelques-jours-de-plus-avec-leopard/
