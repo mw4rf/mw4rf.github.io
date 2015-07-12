@@ -24,7 +24,7 @@ wordpress_url: http://www.valhalla.fr/index.php/2007/03/05/le-calvaire-de-la-bib
 date: '2007-03-05 19:24:49 +0100'
 date_gmt: '2007-03-05 18:24:49 +0100'
 categories:
-- Coup de gueule
+- Actu & Humeur
 - Juridique
 - Informatique
 tags:

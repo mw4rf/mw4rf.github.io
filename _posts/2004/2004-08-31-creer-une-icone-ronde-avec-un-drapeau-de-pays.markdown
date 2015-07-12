@@ -18,8 +18,8 @@ date_gmt: '2004-08-31 20:24:58 +0200'
 categories:
 - Graphisme
 tags:
-- Informatique
-- Graphisme
+- informatique
+- graphisme
 permalink:  /2004/08/31/creer-une-icone-ronde-avec-un-drapeau-de-pays/
 ---
 <table>

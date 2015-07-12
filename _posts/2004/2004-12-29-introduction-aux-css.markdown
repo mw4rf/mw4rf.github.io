@@ -16,12 +16,11 @@ wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=17
 date: '2004-12-29 22:33:29 +0100'
 date_gmt: '2004-12-29 20:33:29 +0100'
 categories:
-- Internet
-- Web
+- Informatique
 tags:
-- Internet
+- internet
 - programmation
-- Web
+- web
 - serveur
 permalink:  /2004/12/29/introduction-aux-css/
 ---

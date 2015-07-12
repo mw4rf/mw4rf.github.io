@@ -31,14 +31,14 @@ date_gmt: '2009-09-19 16:30:56 +0200'
 categories:
 - Divers
 - Internet
-- Coup de gueule
+- Actu & Humeur
 - Actualité
 - Juridique
 tags:
 - Internet
 - société
 - Web
-- Coup de gueule
+- Actu & Humeur
 - Actualité
 permalink:  /2009/09/19/blamez-le-contenant-oubliez-le-contenu/
 ---

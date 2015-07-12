@@ -16,14 +16,12 @@ wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=11
 date: '2004-10-03 22:29:07 +0200'
 date_gmt: '2004-10-03 20:29:07 +0200'
 categories:
-- Internet
+- Juridique
 tags:
-- Internet
-- humeur
+- internet
 - société
-- Coup de gueule
-- P2P
-- Propriété intellectuelle
+- p2p
+- propriété intellectuelle
 permalink:  /2004/10/03/p2p-et-laffaire-alexis/
 ---
 <p>Je viens de lire un article dans Le Monde sur le P2P et l'affaire &quot;Alexis&quot;. Cet article est de Christian Paul, d&eacute;put&eacute; PS de la Ni&egrave;vre. Si vous habitez la Ni&egrave;vre, alors votez pour lui ;-)</p>

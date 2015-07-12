@@ -25,7 +25,7 @@ date_gmt: '2010-05-01 19:55:36 +0200'
 categories:
 - Informatique
 - Mac
-- Coup de gueule
+- Actu & Humeur
 - Graphisme
 - Actualité
 - Linux
@@ -34,7 +34,7 @@ tags:
 - Informatique
 - Graphisme
 - Linux
-- Coup de gueule
+- Actu & Humeur
 - Actualité
 permalink:  /2010/05/01/interface-ubuntu-copie-macosx%c2%a0/
 ---

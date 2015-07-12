@@ -21,7 +21,7 @@ tags:
 - Internet
 - humeur
 - société
-- Coup de gueule
+- Actu & Humeur
 - P2P
 - Propriété intellectuelle
 permalink:  /2005/09/28/p2p-une-lutte-de-phenix/

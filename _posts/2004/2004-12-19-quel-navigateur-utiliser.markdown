@@ -16,19 +16,13 @@ wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=12
 date: '2004-12-19 22:30:00 +0100'
 date_gmt: '2004-12-19 20:30:00 +0100'
 categories:
-- Internet
-- Mac
-- Windows
-- Linux
-- Featured
-tags:
-- Mac
-- Internet
 - Informatique
+tags:
+- internet
 - sécurité
 - software
-- Web
-- Apple
+- web
+- apple
 permalink:  /2004/12/19/quel-navigateur-utiliser/
 ---
 <p>Il existe des dizaines de navigateurs web. La plupart sont gratuits, certains sont payants, la plupart sont en anglais, certains sont en français. La plupart ont les fonctions essentielles, certains ne les ont pas, certains ont des fonctions supplémentaires, d'autres n'en n'ont pas. Certains sont disponibles sur plusieurs plateformes, d'autres non.<br /> Mais il est toujours très difficile de choisir un navigateur, alors je vous propose mon avis sur ce point, ainsi que quelques conseils pour mieux choisir.</p>

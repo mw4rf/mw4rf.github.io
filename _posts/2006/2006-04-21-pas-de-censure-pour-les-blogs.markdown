@@ -27,7 +27,7 @@ date: '2006-04-21 20:54:04 +0200'
 date_gmt: '2006-04-21 18:54:04 +0200'
 categories:
 - Internet
-- Coup de gueule
+- Actu & Humeur
 - Actualité
 - Juridique
 tags:

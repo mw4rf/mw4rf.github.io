@@ -16,14 +16,12 @@ wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=15
 date: '2004-12-21 22:31:59 +0100'
 date_gmt: '2004-12-21 20:31:59 +0100'
 categories:
-- Internet
+- Actu & Humeur
 tags:
-- Internet
-- humeur
+- internet
 - société
-- Coup de gueule
-- P2P
-- Propriété intellectuelle
+- p2p
+- propriété intellectuelle
 permalink:  /2004/12/21/p2p-la-suite-malheureuse/
 ---
 <p>Je vous parlais il y a quelques temps dans cet article de l'acharnement stupide des majors du disque et du cin&eacute;ma contre le P2P. A cette &eacute;poque, il s'agissait de Kazaa. Kazaa a finalement presque &eacute;t&eacute; d&eacute;truit (qui l'utilise encore?). Mais pour eux, ce n'&eacute;tait pas suffisant car les internautes (j'ai pas dit &quot;les pirates&quot;!) ont trouv&eacute; entre temps un nouveau syst&egrave;me de P2P bien plus efficient que Kazaa: BitTorrent. BitTorrent offre un avantage, la tr&egrave;s grande vitesse des t&eacute;l&eacute;chargements, et poss&egrave;de un inconv&eacute;nient majeur, &agrave; savoir l'impossibilit&eacute; de faire une recherche globale sur le r&eacute;seau (on doit t&eacute;l&eacute;charger depuis un lien sur un site). Mais le torrent &eacute;tait vraiment rapide, &agrave; tel point que ce protocole a bouff&eacute; a lui seul plus de 30% de la bande passante mondiale! Alors les connards... euh pardon les majors, ont d&eacute;cid&eacute; de fermer les sites de torrents. Et ben ils ont &eacute;t&eacute; efficaces, c'est une vrai h&eacute;catombe... en quelques jours ils ont ferm&eacute; tous les gros sites, ils ont tu&eacute; le r&eacute;seau et le protocole. C'est un peu comme quand on fait une autodaf&eacute;e, on d&eacute;truit, ben l&agrave; c'est ce qu'ils ont fait. Heureusement, il nous reste notre bon vieux eDonkey, mais pour combien de temps encore ?</p>

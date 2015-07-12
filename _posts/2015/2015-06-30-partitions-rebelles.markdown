@@ -5,7 +5,7 @@ title: "Partitions rebelles (à propos de Bootcamp)"
 author: GF
 date: "2015-06-30 17:15:50"
 categories:
-- coup de gueule
+- Actu & Humeur
 - mac
 - windows
 tags:

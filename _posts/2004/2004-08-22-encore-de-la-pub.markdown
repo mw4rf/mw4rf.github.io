@@ -16,12 +16,11 @@ wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=3
 date: '2004-08-22 22:18:23 +0200'
 date_gmt: '2004-08-22 20:18:23 +0200'
 categories:
-- Coup de gueule
+- Actu & Humeur
 tags:
-- Internet
-- humeur
-- Web
-- Coup de gueule
+- internet
+- web
+- publicité
 permalink:  /2004/08/22/encore-de-la-pub/
 ---
 <p>Ahhh !! J'ai fini de param&eacute;trer mon blog ! Il est tout beau, il est tout bleu ! J'esp&egrave;re que la pr&eacute;sentation est plaisante, en tout cas elle est sobre et claire ! Mais... il y a un bandeau de pub en haut ! Rahhh c'est pas possible &ccedil;a, il faut toujours qu'on nous mette de la pub ! </p>

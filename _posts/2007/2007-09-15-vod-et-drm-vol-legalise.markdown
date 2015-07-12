@@ -31,14 +31,14 @@ date: '2007-09-15 13:13:03 +0200'
 date_gmt: '2007-09-15 12:13:03 +0200'
 categories:
 - Internet
-- Coup de gueule
+- Actu & Humeur
 - Juridique
 - Informatique
 tags:
 - Internet
 - humeur
 - Juridique
-- Coup de gueule
+- Actu & Humeur
 - Propriété intellectuelle
 permalink:  /2007/09/15/vod-et-drm-vol-legalise/
 ---

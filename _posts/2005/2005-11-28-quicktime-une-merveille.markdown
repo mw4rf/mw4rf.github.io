@@ -24,10 +24,10 @@ date: '2005-11-28 18:53:46 +0100'
 date_gmt: '2005-11-28 16:53:46 +0100'
 categories:
 - Mac
-- Coup de gueule
+- Actu & Humeur
 tags:
 - software
-- Coup de gueule
+- Actu & Humeur
 - Apple
 permalink:  /2005/11/28/quicktime-une-merveille/
 ---

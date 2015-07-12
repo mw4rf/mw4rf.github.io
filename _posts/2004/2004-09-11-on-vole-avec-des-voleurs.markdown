@@ -16,10 +16,10 @@ wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=9
 date: '2004-09-11 22:27:27 +0200'
 date_gmt: '2004-09-11 20:27:27 +0200'
 categories:
-- Coup de gueule
+- Actu & Humeur
 tags:
-- humeur
-- Coup de gueule
+- voyages
+- société
 permalink:  /2004/09/11/on-vole-avec-des-voleurs/
 ---
 <p>Jeudi matin, Montpellier-Paris, Paris-Madrid. Vendredi soir, Madrid-Paris, Paris-Montpellier. Deux jours dans les a&eacute;roports et une grande insatisfaction par rapport aux services d'Air France et des A&eacute;roports de Paris (ADP).</p>

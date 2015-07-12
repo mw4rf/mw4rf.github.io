@@ -16,11 +16,10 @@ wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=13
 date: '2004-12-19 22:30:58 +0100'
 date_gmt: '2004-12-19 20:30:58 +0100'
 categories:
-- Mac
+- Informatique
 tags:
-- Mac
-- Graphisme
-- Apple
+- apple
+- graphisme
 permalink:  /2004/12/19/manuel-de-customisation/
 ---
 <p>La "Customisation", c'est l'art de personnaliser l'apparence de son système d'exploitation: fond d'écran, polices, couleurs et formes des fenêtres et contrôles.</p>

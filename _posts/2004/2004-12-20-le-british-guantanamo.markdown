@@ -16,11 +16,10 @@ wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=14
 date: '2004-12-20 22:31:28 +0100'
 date_gmt: '2004-12-20 20:31:28 +0100'
 categories:
-- Actualité
+- Actu & Humeur
 tags:
-- humeur
 - société
-- Juridique
+- UK
 permalink:  /2004/12/20/le-british-guantanamo/
 ---
 <p>Je viens de lire un article dans Le Monde, et je tiens &agrave; dire que, quand m&ecirc;me, c'est grave tout &ccedil;a ! L'article s'appelle &quot;Les plus hauts magistrats britanniques condamnent la loi antiterroriste&quot;. Oui, et encore heureux! Cette loi dit en gros qu'une personne peut &ecirc;tre retenue pendant un temps ind&eacute;termin&eacute;, sans v&eacute;ritables droits de d&eacute;fense, si les autorit&eacute;s jugent qu'elle repr&eacute;sente une menace terroriste et qu'elle ne peut ou veut pas retourner dans son pays d'origine.</p>

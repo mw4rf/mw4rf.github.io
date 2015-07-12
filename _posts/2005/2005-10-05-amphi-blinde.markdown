@@ -16,11 +16,11 @@ wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=39
 date: '2005-10-05 22:50:19 +0200'
 date_gmt: '2005-10-05 20:50:19 +0200'
 categories:
-- Coup de gueule
+- Actu & Humeur
 tags:
 - humeur
 - société
-- Coup de gueule
+- Actu & Humeur
 permalink:  /2005/10/05/amphi-blinde/
 ---
 <p>Un petit coup de gueule en passant, ça fait du bien. Au programme, aujourd'hui, l'amphi de mon dernier cours de la matinée qui était blindé de chez blindé. Plein à craquer. Plusieurs centaines de places, toutes occupées. Les escaliers à 4 personnes par marche. Les allées entre les rangées pleines de gens assis par terre. C'est inadmissible ! Comme je n'ai pas envie de m'exploser le dos, je suis parti.</p>

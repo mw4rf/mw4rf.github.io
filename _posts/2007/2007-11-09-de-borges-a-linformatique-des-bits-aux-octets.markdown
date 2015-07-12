@@ -29,7 +29,7 @@ date: '2007-11-09 17:46:52 +0100'
 date_gmt: '2007-11-09 16:46:52 +0100'
 categories:
 - Internet
-- Coup de gueule
+- Actu & Humeur
 - Informatique
 - Featured
 tags:

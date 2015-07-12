@@ -7,7 +7,7 @@ date: "2015-01-11 12:49:12"
 excerpt: "Contre les criminels, les assassins et les fous, contre les fanatiques de tout bord, parce que les terroristes n'ont pas d'humour, je suis Charlie."
 thumbnail: "/public/posts/2015-01-11-je-suis-charlie/charlie.jpg"
 categories:
-- coup de gueule
+- Actu & Humeur
 - actualité
 tags:
 - liberté

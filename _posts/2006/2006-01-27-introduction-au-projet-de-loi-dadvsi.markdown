@@ -22,7 +22,7 @@ date: '2006-01-27 23:54:31 +0100'
 date_gmt: '2006-01-27 22:54:31 +0100'
 categories:
 - Internet
-- Coup de gueule
+- Actu & Humeur
 - Actualité
 - Juridique
 tags:

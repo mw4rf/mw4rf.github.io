@@ -16,11 +16,11 @@ wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=4
 date: '2004-08-23 22:20:08 +0200'
 date_gmt: '2004-08-23 20:20:08 +0200'
 categories:
-- Coup de gueule
+- Actu & Humeur
 tags:
-- humeur
 - société
-- Coup de gueule
+- informatique
+- microsoft
 permalink:  /2004/08/23/on-paye/
 ---
 <p>J'ai pas grand chose &agrave; dire alors je vais gueuler un peu sur les boites informatiques, et pour aujourd'hui on va taper un peu sur Microsoft (comme pour pas changer...) et sur Apple. </p>

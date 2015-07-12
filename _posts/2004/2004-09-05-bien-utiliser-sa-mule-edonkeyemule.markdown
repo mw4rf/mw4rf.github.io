@@ -18,10 +18,10 @@ date_gmt: '2004-09-05 20:25:28 +0200'
 categories:
 - Internet
 tags:
-- Internet
-- Informatique
+- internet
+- informatique
 - sécurité
-- P2P
+- p2p
 - réseaux
 permalink:  /2004/09/05/bien-utiliser-sa-mule-edonkeyemule/
 ---

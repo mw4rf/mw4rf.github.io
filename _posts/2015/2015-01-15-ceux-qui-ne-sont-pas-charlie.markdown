@@ -5,7 +5,7 @@ title: "Ceux qui ne sont pas Charlie"
 author: GF
 date: "2015-01-15 14:10:50"
 categories:
-- coup de gueule
+- Actu & Humeur
 - actualité
 tags:
 - liberté

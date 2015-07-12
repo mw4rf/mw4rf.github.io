@@ -25,7 +25,7 @@ date: '2008-02-27 19:52:21 +0100'
 date_gmt: '2008-02-27 18:52:21 +0100'
 categories:
 - Mac
-- Coup de gueule
+- Actu & Humeur
 - Linux
 tags:
 - Mac

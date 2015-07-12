@@ -16,11 +16,9 @@ wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=16
 date: '2004-12-21 22:32:51 +0100'
 date_gmt: '2004-12-21 20:32:51 +0100'
 categories:
-- Coup de gueule
+- Actu & Humeur
 tags:
-- humeur
 - société
-- Coup de gueule
 - USA
 permalink:  /2004/12/21/carta-a-eeuu/
 ---

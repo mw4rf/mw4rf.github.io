@@ -16,12 +16,13 @@ wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=5
 date: '2004-08-29 22:23:36 +0200'
 date_gmt: '2004-08-29 20:23:36 +0200'
 categories:
-- Mac
+- Informatique
 tags:
-- Mac
+- apple
 - hardware
 - loisirs
-- Apple
+- musique
+- culture
 permalink:  /2004/08/29/de-lipod-3g/
 ---
 <p>J'avais un iPod de Apple, le c&eacute;l&egrave;bre baladeur MP3. C'&eacute;tait un vieux, un des premi&egrave;re mod&egrave;les. Et puis un jour il est tomb&eacute; en panne, et j'ai du en acheter un autre. Au bout d'une semaine il a fonctionn&eacute; de nouveau, mais c'&eacute;tait trop tard, j'avais le nouveau. Mon nouvel iPod est de la s&eacute;rie 4G. Un iPod avec les 4 boutons en dessus de la molette. Il est plus fin et plus l&eacute;ger que le vieux, il peut contenir 20 GO de donn&eacute;es. Bref, &agrave; premi&egrave;re vue, il est mieux.</p>

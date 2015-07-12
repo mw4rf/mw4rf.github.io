@@ -30,7 +30,7 @@ date_gmt: '2008-01-12 01:03:46 +0100'
 categories:
 - Divers
 - Mac
-- Coup de gueule
+- Actu & Humeur
 tags:
 - Mac
 - Internet

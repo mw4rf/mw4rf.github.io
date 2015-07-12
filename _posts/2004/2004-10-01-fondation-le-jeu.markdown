@@ -18,7 +18,7 @@ date_gmt: '2004-10-01 20:28:22 +0200'
 categories:
 - Internet
 tags:
-- Internet
+- internet
 - loisirs
 - jeux
 permalink:  /2004/10/01/fondation-le-jeu/

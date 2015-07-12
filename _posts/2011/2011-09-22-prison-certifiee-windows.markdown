@@ -19,7 +19,7 @@ wordpress_url: http://www.valhalla.fr/?p=828
 date: '2011-09-22 18:59:48 +0200'
 date_gmt: '2011-09-22 16:59:48 +0200'
 categories:
-- Coup de gueule
+- Actu & Humeur
 - Informatique
 - Windows
 - Linux

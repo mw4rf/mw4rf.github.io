@@ -16,10 +16,10 @@ wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=8
 date: '2004-09-06 22:26:50 +0200'
 date_gmt: '2004-09-06 20:26:50 +0200'
 categories:
-- Actualité
+- Actu & Humeur
 tags:
-- humeur
-- Coup de gueule
+- actualité
+- météo
 permalink:  /2004/09/06/frances-et-les-connards/
 ---
 <p><em>Les habitants de la c&ocirc;te atlantique en Floride ont d&eacute;couvert, dimanche 5 septembre au lever du jour, un spectacle de d&eacute;vastation. Le cyclone Frances s'est en effet abattu sur les c&ocirc;tes durant la soir&eacute;e et la nuit de samedi. Le cylone a poursuivi sa route &agrave; travers le centre de la r&eacute;gion, d&eacute;clar&eacute;e sinistr&eacute;e par le pr&eacute;sident George W. Bush. (...) Il a &eacute;t&eacute; ramen&eacute; par le Centre national des ouragans (NHC) bas&eacute; &agrave; Miami, &agrave; la cat&eacute;gorie 1 sur l'&eacute;chelle Saffir-Simpson qui compte cinq niveaux. (...) Au total, pr&egrave;s de 6,3 millions d'habitants vivent dans la r&eacute;gion concern&eacute;e. Tous les a&eacute;roports de la r&eacute;gion sont ferm&eacute;s. Les autorit&eacute;s f&eacute;d&eacute;rales se pr&eacute;parent &agrave; envoyer des &eacute;quipes de secours d&egrave;s que le gros de la temp&ecirc;te sera pass&eacute;, pour mener des op&eacute;rations de recherche, distribuer des &eacute;quipements m&eacute;dicaux et de la nourriture.</em> <strong>Le Monde - Depeche AFP - 05/09/04</strong></p>

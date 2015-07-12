@@ -22,11 +22,11 @@ wordpress_url: http://blog.gfblog.com/index.php/2005/12/29/tva-restauration-et-q
 date: '2005-12-29 23:29:17 +0100'
 date_gmt: '2005-12-29 22:29:17 +0100'
 categories:
-- Coup de gueule
+- Actu & Humeur
 - Juridique
 tags:
 - Juridique
-- Coup de gueule
+- Actu & Humeur
 permalink:  /2005/12/29/tva-restauration-et-quoi-encore/
 ---
 <p>Lecture du « Monde » ce soir, et puis mon œil est attiré par l’intitulé d’un forum :</p>

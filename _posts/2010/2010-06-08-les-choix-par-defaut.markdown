@@ -22,7 +22,7 @@ wordpress_url: http://www.valhalla.fr/?p=604
 date: '2010-06-08 21:35:44 +0200'
 date_gmt: '2010-06-08 19:35:44 +0200'
 categories:
-- Coup de gueule
+- Actu & Humeur
 - Informatique
 - Featured
 tags:
