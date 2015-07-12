@@ -27,7 +27,7 @@ wordpress_url: http://www.valhalla.fr/index.php/2007/03/02/forums-et-espaces-pri
 date: '2007-03-02 01:04:16 +0100'
 date_gmt: '2007-03-01 23:04:16 +0100'
 categories:
-- Web
+- Internet
 tags:
 - Internet
 - sécurité

@@ -30,7 +30,6 @@ date: '2006-03-28 18:06:45 +0200'
 date_gmt: '2006-03-28 17:06:45 +0200'
 categories:
 - Internet
-- Mac
 tags:
 - Mac
 - Internet

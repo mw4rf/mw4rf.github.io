@@ -24,7 +24,7 @@ wordpress_url: http://www.valhalla.fr/index.php/2007/03/05/lacceleration-de-la-s
 date: '2007-03-05 10:47:05 +0100'
 date_gmt: '2007-03-05 09:47:05 +0100'
 categories:
-- Mac
+- Informatique
 tags:
 - Mac
 - hardware

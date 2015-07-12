@@ -32,8 +32,6 @@ date_gmt: '2007-09-15 12:13:03 +0200'
 categories:
 - Internet
 - Actu & Humeur
-- Juridique
-- Informatique
 tags:
 - Internet
 - humeur

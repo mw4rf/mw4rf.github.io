@@ -29,9 +29,7 @@ wordpress_url: http://www.valhalla.fr/index.php/2007/09/06/ipod-touch-premieres-
 date: '2007-09-06 08:07:35 +0200'
 date_gmt: '2007-09-06 07:07:35 +0200'
 categories:
-- Divers
-- Mac
-- Actualité
+- Informatique
 tags:
 - hardware
 - Apple

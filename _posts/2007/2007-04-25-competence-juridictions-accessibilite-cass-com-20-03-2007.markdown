@@ -17,10 +17,8 @@ wordpress_url: http://www.valhalla.fr/?p=409
 date: '2007-04-25 12:59:56 +0200'
 date_gmt: '2007-04-25 10:59:56 +0200'
 categories:
-- Internet
 - Juridique
-- NTIC
-- Droit international
+- Internet
 tags:
 - Internet
 - Juridique

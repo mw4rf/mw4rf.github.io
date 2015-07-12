@@ -28,7 +28,6 @@ date_gmt: '2006-04-21 18:54:04 +0200'
 categories:
 - Internet
 - Actu & Humeur
-- Actualité
 - Juridique
 tags:
 - Internet

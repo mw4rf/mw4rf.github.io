@@ -31,12 +31,11 @@ wordpress_url: http://www.valhalla.fr/index.php/2007/07/22/traitements-de-texte-
 date: '2007-07-22 18:19:56 +0200'
 date_gmt: '2007-07-22 17:19:56 +0200'
 categories:
-- Mac
+- Informatique
 tags:
 - Mac
 - Informatique
 - science
-- "écriture"
 - software
 permalink:  /2007/07/22/traitements-de-texte-mac-la-galere/
 ---

@@ -22,7 +22,7 @@ wordpress_url: http://www.valhalla.fr/index.php/2007/03/29/changer-le-nombre-de-
 date: '2007-03-29 18:30:06 +0200'
 date_gmt: '2007-03-29 17:30:06 +0200'
 categories:
-- Web
+- Informatique
 tags:
 - Internet
 - programmation

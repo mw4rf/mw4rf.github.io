@@ -27,8 +27,7 @@ wordpress_url: http://www.valhalla-fr.eu/index.php/2006/05/13/linux-sur-mac-en-f
 date: '2006-05-13 19:31:18 +0200'
 date_gmt: '2006-05-13 17:31:18 +0200'
 categories:
-- Mac
-- Linux
+- Informatique
 tags:
 - Mac
 - hardware

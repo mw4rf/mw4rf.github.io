@@ -36,7 +36,7 @@ wordpress_url: http://www.valhalla-fr.eu/index.php/2006/04/12/installer-kclamav-
 date: '2006-04-12 20:17:23 +0200'
 date_gmt: '2006-04-12 18:17:23 +0200'
 categories:
-- Linux
+- Informatique
 tags:
 - Informatique
 - sécurité

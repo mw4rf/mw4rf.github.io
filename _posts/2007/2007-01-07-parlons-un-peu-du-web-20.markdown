@@ -21,8 +21,6 @@ date: '2007-01-07 21:36:24 +0100'
 date_gmt: '2007-01-07 19:36:24 +0100'
 categories:
 - Internet
-- Web
-- Informatique
 tags:
 - Internet
 - science

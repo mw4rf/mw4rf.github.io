@@ -29,8 +29,7 @@ wordpress_url: http://www.valhalla.fr/index.php/2007/04/11/dates-formulaires-et-
 date: '2007-04-11 18:48:45 +0200'
 date_gmt: '2007-04-11 16:48:45 +0200'
 categories:
-- Web
-- Featured
+- Informatique
 tags:
 - Internet
 - programmation

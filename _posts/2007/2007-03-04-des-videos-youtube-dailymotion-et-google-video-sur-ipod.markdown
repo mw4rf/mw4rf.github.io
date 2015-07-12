@@ -29,8 +29,6 @@ date: '2007-03-04 20:47:24 +0100'
 date_gmt: '2007-03-04 18:47:24 +0100'
 categories:
 - Internet
-- Mac
-- Windows
 tags:
 - Internet
 - hardware

@@ -28,12 +28,10 @@ wordpress_url: http://www.valhalla.fr/index.php/2007/07/05/blog-illustre-facile/
 date: '2007-07-05 13:18:05 +0200'
 date_gmt: '2007-07-05 12:18:05 +0200'
 categories:
-- Graphisme
-- Web
+- Informatique
 tags:
 - Internet
 - Graphisme
-- "écriture"
 - Web
 permalink:  /2007/07/05/blog-illustre-facile/
 ---

@@ -19,9 +19,8 @@ wordpress_url: http://www.valhalla.fr/?p=386
 date: '2006-06-17 12:13:52 +0200'
 date_gmt: '2006-06-17 10:13:52 +0200'
 categories:
-- Propriété intellectuelle
-tags:
 - Juridique
+tags:
 - P2P
 - Propriété intellectuelle
 permalink:  /2006/06/17/la-copie-privee-et-la-liceite-de-sa-source/

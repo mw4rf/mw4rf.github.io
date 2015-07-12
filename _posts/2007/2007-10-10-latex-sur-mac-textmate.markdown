@@ -25,13 +25,10 @@ wordpress_url: http://www.valhalla.fr/index.php/2007/10/10/latex-sur-mac-textmat
 date: '2007-10-10 21:37:09 +0200'
 date_gmt: '2007-10-10 20:37:09 +0200'
 categories:
-- Mac
 - Informatique
-- LaTeX
 tags:
 - Mac
 - LaTeX
-- "écriture"
 - software
 permalink:  /2007/10/10/latex-sur-mac-textmate/
 ---

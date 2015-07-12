@@ -33,7 +33,7 @@ wordpress_url: http://www.valhalla-fr.eu/index.php/2006/05/05/afficher-la-liste-
 date: '2006-05-05 01:28:24 +0200'
 date_gmt: '2006-05-04 23:28:24 +0200'
 categories:
-- Web
+- Internet
 tags:
 - Internet
 - Web

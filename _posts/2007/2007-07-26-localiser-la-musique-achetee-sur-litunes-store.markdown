@@ -27,9 +27,7 @@ wordpress_url: http://www.valhalla.fr/index.php/2007/07/26/localiser-la-musique-
 date: '2007-07-26 14:06:44 +0200'
 date_gmt: '2007-07-26 13:06:44 +0200'
 categories:
-- Divers
-- Mac
-- Windows
+- Informatique
 tags:
 - Mac
 - software

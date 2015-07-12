@@ -29,7 +29,7 @@ wordpress_url: http://www.valhalla.fr/index.php/2007/08/01/php-wait-screen-faire
 date: '2007-08-01 17:20:23 +0200'
 date_gmt: '2007-08-01 16:20:23 +0200'
 categories:
-- Web
+- Informatique
 tags:
 - Internet
 - programmation

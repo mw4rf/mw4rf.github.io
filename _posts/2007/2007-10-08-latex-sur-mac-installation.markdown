@@ -25,12 +25,10 @@ wordpress_url: http://www.valhalla.fr/index.php/2007/10/08/latex-sur-mac-install
 date: '2007-10-08 22:40:18 +0200'
 date_gmt: '2007-10-08 21:40:18 +0200'
 categories:
-- Mac
-- LaTeX
+- Informatique
 tags:
 - Mac
 - LaTeX
-- "écriture"
 - software
 permalink:  /2007/10/08/latex-sur-mac-installation/
 ---

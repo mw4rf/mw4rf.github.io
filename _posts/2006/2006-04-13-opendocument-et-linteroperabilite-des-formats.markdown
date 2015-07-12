@@ -31,8 +31,6 @@ date: '2006-04-13 00:50:05 +0200'
 date_gmt: '2006-04-12 22:50:05 +0200'
 categories:
 - Informatique
-- Windows
-- Linux
 tags:
 - Informatique
 - science
