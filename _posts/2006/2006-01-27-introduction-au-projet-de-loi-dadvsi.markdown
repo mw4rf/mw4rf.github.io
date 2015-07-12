@@ -21,10 +21,9 @@ wordpress_url: http://blog.gfblog.com/index.php/2006/01/27/introduction-au-proje
 date: '2006-01-27 23:54:31 +0100'
 date_gmt: '2006-01-27 22:54:31 +0100'
 categories:
+- Juridique
 - Internet
 - Actu & Humeur
-- Actualité
-- Juridique
 tags:
 - Internet
 - Informatique

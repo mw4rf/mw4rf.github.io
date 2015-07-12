@@ -29,7 +29,6 @@ date: '2006-03-27 22:43:07 +0200'
 date_gmt: '2006-03-27 21:43:07 +0200'
 categories:
 - Internet
-- Mac
 tags:
 - Mac
 - Internet

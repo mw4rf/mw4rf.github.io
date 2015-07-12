@@ -22,9 +22,8 @@ wordpress_url: http://www.valhalla-fr.eu/index.php/2006/10/02/la-loi-des-series/
 date: '2006-10-02 23:53:28 +0200'
 date_gmt: '2006-10-02 21:53:28 +0200'
 categories:
-- Actualité
+- Actu & humeur
 tags:
-- humeur
 - loisirs
 permalink:  /2006/10/02/la-loi-des-series/
 ---

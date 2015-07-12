@@ -23,9 +23,8 @@ date: '2006-10-13 13:16:30 +0200'
 date_gmt: '2006-10-13 11:16:30 +0200'
 categories:
 - Internet
-- Mac
 tags:
-- Mac
+- apple
 - Internet
 - sécurité
 - software

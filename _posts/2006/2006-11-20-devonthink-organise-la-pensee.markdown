@@ -28,9 +28,9 @@ wordpress_url: http://www.valhalla-fr.eu/index.php/2006/11/20/devonthink-organis
 date: '2006-11-20 22:53:36 +0100'
 date_gmt: '2006-11-20 20:53:36 +0100'
 categories:
-- Mac
+- Informatique
 tags:
-- Mac
+- apple
 - science
 - software
 - NTIC

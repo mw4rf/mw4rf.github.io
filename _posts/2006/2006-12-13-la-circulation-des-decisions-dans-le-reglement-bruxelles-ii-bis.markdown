@@ -19,7 +19,9 @@ categories:
 - Juridique
 tags:
 - Juridique
-- Droit international
+- Droit international privé
+- droit civil
+- famille
 permalink:  /2006/12/13/la-circulation-des-decisions-dans-le-reglement-bruxelles-ii-bis/
 ---
 <p>Le règlement communautaire « Bruxelles II bis » n°2201/2003 du 27 novembre 2003 instaure de nouvelles règles de droit international privé et perfectionne les règles existantes en matière de droit matrimonial et de responsabilité parentale.</p>

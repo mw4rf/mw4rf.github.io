@@ -20,12 +20,10 @@ date: '2006-10-23 12:32:32 +0200'
 date_gmt: '2006-10-23 10:32:32 +0200'
 categories:
 - Actu & Humeur
-- Actualité
 - Juridique
-- Droits fondamentaux
 tags:
 - Juridique
-- Droit international
+- Droits fondamentaux
 - liberté
 - USA
 permalink:  /2006/10/23/mca-2006-les-etats-unis-legalisent-la-torture/

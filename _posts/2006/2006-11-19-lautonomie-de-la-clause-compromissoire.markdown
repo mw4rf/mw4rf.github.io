@@ -23,10 +23,9 @@ date: '2006-11-19 12:42:47 +0100'
 date_gmt: '2006-11-19 10:42:47 +0100'
 categories:
 - Juridique
-- Arbitrage
 tags:
 - Juridique
-- Droit international
+- Droit international privé
 - Arbitrage
 permalink:  /2006/11/19/lautonomie-de-la-clause-compromissoire/
 ---
