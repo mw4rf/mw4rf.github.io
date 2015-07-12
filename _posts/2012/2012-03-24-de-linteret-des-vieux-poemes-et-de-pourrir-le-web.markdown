@@ -21,7 +21,6 @@ date: '2012-03-24 23:08:21 +0100'
 date_gmt: '2012-03-24 21:08:21 +0100'
 categories:
 - Actu & Humeur
-- Actualité
 tags:
 - Internet
 - Web
