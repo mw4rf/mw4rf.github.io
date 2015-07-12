@@ -1,19 +1,28 @@
 ---
-layout: page
+layout: default
 status: publish
 published: true
 title: Tags
 ---
 
-{% for tag in site.tags %}<a class="label label-default" href="#{{ tag[0] }}">{{ tag[0] }}</a> {% endfor %}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 page-header">
+            <h1>{{ page.title }}</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            {% for tag in site.tags %}<a class="label label-default" href="#{{ tag[0] }}">{{ tag[0] }}</a> {% endfor %}
+        </div>
+    </div>
+</div>
 
-{% for tag in site.tags %} 
-<h2 id="{{ tag[0] }}">{{ tag[0] | capitalize }}</h2>
-<ul>
-    {% for post in tag[1] %}
-    <li>
-        <a href="{{ post.url }}">{{ post.title }}</a> [{{ post.date | date_to_string }}, {{ post.content | number_of_words }} mots]
-    </li>
+<div class="grid">
+    <div class="grid-sizer"></div>
+    {% for tag in site.tags %}
+        {% if tag[0] != "revue" %}
+            {% include tagbox.html %}
+        {% endif %}
     {% endfor %}
-</ul>
-{% endfor %}
+</div>
