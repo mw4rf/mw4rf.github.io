@@ -19,9 +19,8 @@ date: '2014-08-05 17:27:25 +0200'
 date_gmt: '2014-08-05 15:27:25 +0200'
 categories:
 - Informatique
-- Mac
 tags:
-- Mac
+- apple
 - software
 - Apple
 - Logiciels
