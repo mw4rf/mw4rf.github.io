@@ -16,7 +16,7 @@ wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=6
 date: '2004-08-31 22:24:58 +0200'
 date_gmt: '2004-08-31 20:24:58 +0200'
 categories:
-- Graphisme
+- Informatique
 tags:
 - informatique
 - graphisme
