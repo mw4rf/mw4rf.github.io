@@ -1,0 +1,26 @@
+---
+layout: post
+status: publish
+published: true
+permalink: /revue/numero-117/
+title: Numéro 117 - Semaines du 6 au 19 juillet 2015
+author:
+- GF
+date: '2015-07-19 11:44:00'
+categories:
+- Revue
+tags:
+- Surveillance
+- Vie privée
+- Hadopi
+---
+
+Un numéro estival plus court, cette semaine, vacances obligent. L'actualité est malheureusement encore marquée par le terrorisme, qui produit ses effets secondaires néfastes même sur Internet.
+
+Ainsi, alors que [la France se classe au 14ème position mondiale des pays où la cybercriminalité est la plus active](http://www.journaldugeek.com/2015/07/06/la-france-est-passee-au-14e-rang-mondial-des-pays-ou-la-cybercriminalite-est-la-plus-active/), la [loi « renseignement » passe devant le Conseil constitutionnel](http://www.numerama.com/magazine/33515-loi-renseignement-hollande-a-saisi-le-conseil-constitutionnel.html). La mobilisation contre cette loi, [qualifiée par certains de liberticide](http://www.nextinpact.com/news/95792-loi-renseignement-pluie-critiques-juristes-et-dong-devant-conseil-constitutionnel.htm), [est importante](http://www.numerama.com/magazine/33489-loi-renseignement-un-recours-citoyen-de-120-pages-devoile.html). Rappelons qu'elle améliore la capacité de surveillance des forces de l'ordre, en autorisant [de nouveaux moyens](http://www.numerama.com/magazine/33646-loi-renseignement-la-france-a-contacte-hacking-team.html) et en l'étendant à [de nouvelles personnes](http://www.nextinpact.com/news/95684-loi-renseignement-magistrats-journalistes-avocats-et-parlementaires-pourront-etre-surveilles.htm).
+
+Il faudra apprendre à [se faire discret en ligne](http://www.les-infostrateges.com/actu/15072027/des-fiches-pratiques-pour-reduire-les-risques-lies-a-la-surveillance-en-ligne). Il est heureux que les internautes [se méfient des services en lignes exploitant leurs données personnelles](http://www.zdnet.fr/actualites/services-en-ligne-les-francais-de-plus-en-plus-mefiants-39821998.htm#xtor=RSS-1) et qu'ils [refusent de plus en plus d'être géolocalisés](http://pro.clubic.com/legislation-loi-internet/donnees-personnelles/actualite-772684-internaute-5-reticent-communiquer-donnees-personnelles.html).
+
+Quelques actualités intéressantes en matières de propriété intellectuelle. Alors que [le responsable de WawaMania, en fuite à l'étranger, est condamné à payer 15 millions d'euro de dommages et intérêts](http://www.legalis.net/spip.php?page=breves-article&id_article=4677), [les fondateurs de ThePirateBay sont acquittés en Belgique](http://www.01net.com/editorial/660128/les-fondateurs-de-the-pirate-bay-acquitte-en-belgique/#?xtor=RSS-16). Pendant ce temps, [l'ambiance se dégrade au sein de la Hadopi](http://www.numerama.com/magazine/33645-hadopi-quand-la-mauvaise-ambiance-se-voit.html), institution à laquelle [un artiste digne de ce nom devrait s'opposer, selon Francis Lalanne](http://www.numerama.com/magazine/33656-francis-lalanne-34un-artiste-digne-de-ce-nom-doit-s-opposer-a-hadopi34.html).
+
+Pour finir, notons que l'actualité juridique principale ces dernières semaines ne concerne pas le droit des nouvelles technologies, mais [la GPA et son accueil en France](/2015/07/08/gpa-en-france-etat-du-droit/).
