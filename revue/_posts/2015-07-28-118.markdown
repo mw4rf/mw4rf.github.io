@@ -3,7 +3,7 @@ layout: post
 status: publish
 published: true
 permalink: /revue/numero-118/
-title: Numéro 117 - Semaines du 20 au 26 juillet 2015
+title: Numéro 118 - Semaines du 20 au 26 juillet 2015
 author:
 - GF
 date: '2015-07-28 09:40:00'
