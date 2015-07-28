@@ -1,0 +1,57 @@
+---
+layout: post
+status: publish
+published: true
+permalink: /revue/numero-118/
+title: Numéro 117 - Semaines du 20 au 26 juillet 2015
+author:
+- GF
+date: '2015-07-28 09:40:00'
+categories:
+- Revue
+tags:
+- surveillance
+- vie privée
+- consommation
+---
+
+Au sommaire cette semaine, craintes et espoirs, la validation par le Conseil constitutionnel de la « loi renseignement » et la création d'un délit d'obsolescence programmée.
+
+## Validation de la « loi renseignement »
+
+Le Conseil constitutionnel [a validé, vendredi soir](http://www.nextinpact.com/news/95936-le-conseil-constitutionnel-valide-quasi-totalite-loi-renseignement.htm), la quasi-totalité de la « loi renseignement » ([DCC n°2015-713 du 23 juillet 2015](http://www.conseil-constitutionnel.fr/conseil-constitutionnel/francais/les-decisions/acces-par-date/decisions-depuis-1959/2015/2015-713-dc/decision-n-2015-713-dc-du-23-juillet-2015.144138.html)). Sur vingt-sept articles, seuls trois sont censurés. La [loi n°2015-912 du 24 juillet 2015](2015-912 du 24 juillet 2015 relative au renseignement) relative au renseignement est donc promulguée. Dans le même temps, le Comité consultatif des droits de l'Homme, rattaché à l'ONU, [publiait un rapport dénonçant](http://www.nextinpact.com/news/95920-l-onu-preoccupee-par-loi-sur-renseignement-et-celle-sur-terrorisme.htm) « _les pouvoirs conférés aux services de renseignements en matière de surveillance digitale à l’intérieur et à l’extérieur de la France_ », des pouvoirs « _excessivement larges de surveillance très intrusive [octroyés par la loi renseignement] aux services de renseignement sur la base d’objectifs vastes et peu définis, sans autorisation préalable d’un juge et sans mécanisme de contrôle adéquat et indépendant_ ».
+
+Le Conseil constitutionnel a d'abord censuré les dispositions de la loi relatives à la surveillance internationale. La loi prévoyait en effet deux cadres différents pour la surveillance : avant d'autoriser une surveillance en France et sauf urgence, le Premier ministre doit recueillir l'avis (non contraignant) de la _Commission nationale du contrôle des techniques du renseignement_ (CNCTR) ; à l'inverse, pour une surveillance à l'étranger, la saisine de la CNCTR n'était pas prévue par la loi et la loi renvoyait à un futur décret en Conseil d'État pour définir les modalités de conservation et de destruction des données collectées. Ces dispositions sont censurées sur le fondement de l'[article 34 CF](http://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000019241018&cidTexte=LEGITEXT000006071194) pour incompétence négative, le législateur ayant ici octroyé des pouvoirs trop importants à l'exécutif.
+
+Le Conseil constitutionnel a ensuite censuré la dérogation prévue par la loi en cas d'urgence « opérationnelle ». Selon la loi, « _en cas d'urgence liée à une menace imminente ou à un risque très élevé de ne pouvoir effectuer l'opération ultérieurement_ », l'administration pouvait se passer de l'avis du CNCTR et de l'autorisation du Premier ministre pour mettre en œuvre les mesures de surveillance. Le Conseil a jugé que cette dérogation portait excessivement atteinte au droit à la vie privée.
+
+Enfin, le Conseil constitutionnel a censuré les dispositions de la loi rattachant le budget de la CNCTR à celui du Premier ministre. Le budget du CNCTR doit ainsi relever de la loi de finances (domaine légal) et non d'une décision du Premier ministre (domaine réglementaire).
+
+## Vie privée
+
+L'on ne soulignera jamais assez les dangers de l'ère numérique pour la vie privée. Comme si la promulgation de la loi renseignement de suffisait pas, deux exemples de dérives possibles.
+
+Un [site de rencontres pour personnes mariées a été piraté](http://www.numerama.com/magazine/33724-un-site-de-liaisons-adulteres-pirate-37-millions-d-infideles-concernes.html) cette semaine ; 37 millions d'inscrits, autant d'adultères, pourraient être révélés...
+
+Plus insolite mais plus préoccupant, [un script open source permet la sélection génétique des internautes](http://www.numerama.com/magazine/33762-un-script-open-source-pour-favoriser-le-racisme-et-l-eugenisme.html). Il s'agit, pour les particuliers, d'envoyer un échantillon de salive à une société spécialisée, qui établit ainsi leur profil génétique. Ce profil génétique est ensuite exploité par le script qui prend en compte d'éventuelles restrictions mises en place par les webmasters. Un site pourrait ainsi n'accepter que les visiteurs de sexe masculins, les blancs ou les daltoniens...
+
+## Délit d'obsolescence programmée
+
+L'Assemblée nationale a adopté le [projet de loi relatif à la trasition énergétique](http://www.assemblee-nationale.fr/14/dossiers/transition_energetique_croissance_verte.asp), qui prévoit l'[instauration d'un délit d'obsolescence programmée](http://www.nextinpact.com/news/95950-linstauration-dun-delit-dobsolescence-programmee-coup-depee-dans-eau.htm).
+
+Le futur article L. 213-4-1 du Code de commerce devrait dont interdire « _l'ensemble des techniques par lesquelles un metteur sur le marché vise à réduire délibérément la durée de vie d'un produit pour en augmenter le taux de remplacement_ ». L'usage de telles techniques serait puni de 2 ans de prison et d'une amende de 300 000 €, augmentée le cas échéant jusqu'à 5% du chiffre d'afffaire annuel de la société condamnée.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
