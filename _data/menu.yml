@@ -4,6 +4,9 @@
 - title: "Revue"
   href: "/revue/"
   
+- title: "Catégories"
+  href: "/archives/categories.html"
+
 - title: "Archives"
   href: ""
   subcategories:
@@ -11,8 +14,6 @@
       subhref: "/articles-essentiels/"
     - subtitle: "Archives chronologiques"
       subhref: "/archives/index.html"
-    - subtitle: "Catégories"
-      subhref: "/archives/categories.html"
     - subtitle: "Tags"
       subhref: "/archives/tags.html"
 
