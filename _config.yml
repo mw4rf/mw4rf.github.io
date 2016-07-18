@@ -6,6 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.valhalla.fr" # the base hostname & protocol for your site
 twitter_username: valhallafr
 github_username:  mw4rf
+timezone: Europe/Paris
 
 # GUI
 bootswatch: yeti
