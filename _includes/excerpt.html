@@ -1,8 +1,9 @@
 {% assign ribbon = false %}
 {% assign firstcat = post.categories | first %}
 {% for item in site.data.ribbon %}
-    {% if firstcat | downcase == item.category %}
+    {% if firstcat == item.category %}
         {% assign ribbon = item.ribbon %}
+        {% break %}
     {% endif %}
 {% endfor %}
 
