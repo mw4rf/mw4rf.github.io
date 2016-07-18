@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "De la fumée à la vapeur"
 author: GF
-excerpt: "Mes 15 années à fumer se sont achevées à plus d'un paquet de blondes par jour, près de 100 euro par semaine. Aujourd'hui, je me fume plus, je vape. Je ne pensais pas que cela fut possible, et pourtant... du jour au lendemain, j'ai cessé d'éprouver le besoin de sortir une _sucette à cancer_ de son paquet."
+excerpt: "Mes 15 années à fumer se sont achevées à plus d'un paquet de blondes par jour, près de 100 euro par semaine. Aujourd'hui, je me fume plus, je vape. Je ne pensais pas que cela fut possible, et pourtant... du jour au lendemain, j'ai cessé d'éprouver le besoin de sortir une sucette à cancer de son paquet."
 date: 2016-07-18 10:52
 place: Montpellier
 categories:
@@ -40,5 +40,5 @@ D'abord, il faut un matériel de qualité. Les _kits_ pour débutant sont à exc
 
 Ensuite, il ne faut pas avoir peur d'utiliser des liquides à fort taux de nicotine. Ce fut une grande erreur de ma part que de débuter avec des liquides à 3 mg/l. Cela ne suffit pas, si bien que l'on a encore envie d'en griller une après avoir _vapé_ (_vapoté ?_). Je vape aujourd'hui du liquide entre 6 et 8 mg/l et cela remplace totalement la cigarette, même la première du matin, même après un café, même avec une bière...
 
-Enfin, il faut que l'utilsiation de la cigarette électronique devienne aussi machinale que le fait de sortir une clope de son paquet et de l'allumer. Il n'y a pas de recette magique, à chacun sa façon de faire. Pour ma part, enseignant, j'avais une montagne de copies à corriger : clope sur clope pendant la correction, puis vape sur vape. La transition s'est faite tout en douceur. Pendant une période de quelques semaines, je fumais les clopes _habituelles_, celle du matin, celle d'après-manger, etc., et remplaçais toutes les clopes _superflues_ du milieu de journée par la vape. La transition s'est achevée sans que je m'en rende compte : un jour, j'ai regardé mon paquet et je me suis dit : _tu n'en as pas fumé une seule aujourd'hui_...
+Enfin, il faut que l'utilisation de la cigarette électronique devienne aussi machinale que le fait de sortir une clope de son paquet et de l'allumer. Il n'y a pas de recette magique, à chacun sa façon de faire. Pour ma part, enseignant, j'avais une montagne de copies à corriger : clope sur clope pendant la correction, puis vape sur vape. La transition s'est faite tout en douceur. Pendant une période de quelques semaines, je fumais les clopes _habituelles_, celle du matin, celle d'après-manger, etc., et remplaçais toutes les clopes _superflues_ du milieu de journée par la vape. La transition s'est achevée sans que je m'en rende compte : un jour, j'ai regardé mon paquet et je me suis dit : _tu n'en as pas allumé une seule aujourd'hui_...
 
