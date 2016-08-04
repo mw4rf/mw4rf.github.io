@@ -83,6 +83,6 @@ J'ai testé différentes manières de placer le coton. La première façon, souv
 
 En dépit de quelques défauts de jeunesse, le _drip tip_ et l'_airflow_, le _Hurricane Junior_ est un excellent atomiseur reconstructible, qui n'a rien à envier à son aîné. Il est même plus polyvalent puisqu'il permet aussi bien l'inhalation directe que le vape _mouth-to-lung_.
 
-Je l'utilise avec un montage SS316L 3 ml de diamètre, environ 0.8 Omh, à 12 Watts sur un _mod_ Provari P3. J'en suis peinement satisfait ; c'est, à l'heure actuelle, mon atomiseur préféré avec ke Kayfun 5.
+Je l'utilise avec un montage SS316L 3 ml de diamètre, environ 0.8 Omh, à 12 Watts sur un _mod_ Provari P3. J'en suis peinement satisfait ; c'est, à l'heure actuelle, mon atomiseur préféré avec le Kayfun 5.
 
 
