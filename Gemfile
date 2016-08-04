@@ -12,3 +12,4 @@ gem 'github-pages'
 
 # Other gems (github compatible)
 gem 'jekyll-sitemap'
+gem 'jekyll-paginate'
