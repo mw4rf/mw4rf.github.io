@@ -14,7 +14,7 @@ tags:
 comments: true
 permalink:  /2016/08/04/review-hurricane-junior/
 thumbnail: "/public/posts/2016-08-04-review-hurricane-junior/hurricanejunior.jpg"
-grid-width: 1
+grid-width: 2
 ---
 
 Le **Hurricane Junior** succède au célèbre **Hurricane** de e-Phoenix. C'est donc un atomiseur reconstructible _high end_, vendu une centaine d'euro (v. [Le Petit Vapoteur](http://www.lepetitvapoteur.com/fr/reparables/2738-hurricane-junior.html)).
