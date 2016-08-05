@@ -16,7 +16,7 @@ wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=14
 date: '2004-12-20 22:31:28 +0100'
 date_gmt: '2004-12-20 20:31:28 +0100'
 categories:
-- Actu & Humeur
+- actu & humeur
 tags:
 - société
 - UK

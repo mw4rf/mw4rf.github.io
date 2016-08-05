@@ -22,7 +22,7 @@ date: '2011-09-03 16:56:16 +0200'
 date_gmt: '2011-09-03 14:56:16 +0200'
 categories:
 - Internet
-- Actu & Humeur
+- actu & humeur
 tags:
 - Internet
 - sécurité

@@ -20,7 +20,7 @@ wordpress_url: http://www.valhalla.fr/index.php/2007/03/19/jai-vu-joan-baez/
 date: '2007-03-19 19:53:44 +0100'
 date_gmt: '2007-03-19 18:53:44 +0100'
 categories:
-- Actu & humeur
+- actu & humeur
 tags:
 - loisirs
 - culture

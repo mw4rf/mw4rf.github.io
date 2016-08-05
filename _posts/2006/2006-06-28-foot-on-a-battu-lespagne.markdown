@@ -22,7 +22,7 @@ wordpress_url: http://www.valhalla-fr.eu/index.php/2006/06/28/foot-on-a-battu-le
 date: '2006-06-28 19:25:37 +0200'
 date_gmt: '2006-06-28 17:25:37 +0200'
 categories:
-- Actu & Humeur
+- actu & humeur
 tags:
 - loisirs
 permalink:  /2006/06/28/foot-on-a-battu-lespagne/

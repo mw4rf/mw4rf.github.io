@@ -23,7 +23,7 @@ date_gmt: '2006-01-27 22:54:31 +0100'
 categories:
 - Juridique
 - Internet
-- Actu & Humeur
+- actu & humeur
 tags:
 - Internet
 - Informatique

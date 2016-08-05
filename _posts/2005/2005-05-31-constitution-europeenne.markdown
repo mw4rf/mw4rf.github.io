@@ -16,7 +16,7 @@ wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=29
 date: '2005-05-31 22:44:05 +0200'
 date_gmt: '2005-05-31 20:44:05 +0200'
 categories:
-- Actu & humeur
+- actu & humeur
 tags:
 - société
 permalink:  /2005/05/31/constitution-europeenne/

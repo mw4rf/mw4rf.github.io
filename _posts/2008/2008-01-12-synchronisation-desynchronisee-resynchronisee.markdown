@@ -29,7 +29,7 @@ date: '2008-01-12 02:03:46 +0100'
 date_gmt: '2008-01-12 01:03:46 +0100'
 categories:
 - Informatique
-- Actu & Humeur
+- actu & humeur
 tags:
 - apple
 - Internet

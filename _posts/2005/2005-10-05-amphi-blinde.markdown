@@ -16,7 +16,7 @@ wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=39
 date: '2005-10-05 22:50:19 +0200'
 date_gmt: '2005-10-05 20:50:19 +0200'
 categories:
-- Actu & Humeur
+- actu & humeur
 tags:
 - société
 permalink:  /2005/10/05/amphi-blinde/

@@ -16,7 +16,7 @@ wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=20
 date: '2005-02-07 22:36:57 +0100'
 date_gmt: '2005-02-07 20:36:57 +0100'
 categories:
-- Actu & humeur
+- actu & humeur
 tags:
 - informatique
 - hardware
