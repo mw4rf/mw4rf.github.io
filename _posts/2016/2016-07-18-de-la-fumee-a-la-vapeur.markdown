@@ -7,8 +7,8 @@ excerpt: "Mes 15 années à fumer se sont achevées à plus d'un paquet de blond
 date: 2016-07-18 10:52
 place: Montpellier
 categories:
-- vape
-- actu & humeur
+- Vape
+- Actu & humeur
 tags:
 - société
 - santé

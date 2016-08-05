@@ -16,7 +16,7 @@ wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=15
 date: '2004-12-21 22:31:59 +0100'
 date_gmt: '2004-12-21 20:31:59 +0100'
 categories:
-- actu & humeur
+- Actu & humeur
 tags:
 - internet
 - société

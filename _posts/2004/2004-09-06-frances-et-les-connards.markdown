@@ -16,7 +16,7 @@ wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=8
 date: '2004-09-06 22:26:50 +0200'
 date_gmt: '2004-09-06 20:26:50 +0200'
 categories:
-- actu & humeur
+- Actu & humeur
 tags:
 - actualité
 - météo

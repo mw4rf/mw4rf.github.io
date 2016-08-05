@@ -19,7 +19,7 @@ wordpress_url: http://www.valhalla.fr/?p=394
 date: '2006-10-23 12:32:32 +0200'
 date_gmt: '2006-10-23 10:32:32 +0200'
 categories:
-- actu & humeur
+- Actu & humeur
 - Juridique
 tags:
 - Juridique

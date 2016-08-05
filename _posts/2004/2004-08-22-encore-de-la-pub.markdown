@@ -16,7 +16,7 @@ wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=3
 date: '2004-08-22 22:18:23 +0200'
 date_gmt: '2004-08-22 20:18:23 +0200'
 categories:
-- actu & humeur
+- Actu & humeur
 tags:
 - internet
 - web

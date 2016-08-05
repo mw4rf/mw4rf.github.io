@@ -16,7 +16,7 @@ wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=28
 date: '2005-05-25 22:43:34 +0200'
 date_gmt: '2005-05-25 20:43:34 +0200'
 categories:
-- actu & humeur
+- Actu & humeur
 tags:
 - humeur
 permalink:  /2005/05/25/la-supreme-idiotie-franciser-des-mots-techniques-anglais/

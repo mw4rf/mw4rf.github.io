@@ -20,7 +20,7 @@ wordpress_url: http://www.valhalla.fr/?p=276
 date: '2009-09-09 21:06:34 +0200'
 date_gmt: '2009-09-09 19:06:34 +0200'
 categories:
-- actu & humeur
+- Actu & humeur
 - Informatique
 tags:
 - Mac

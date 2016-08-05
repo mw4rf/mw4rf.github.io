@@ -7,7 +7,7 @@ excerpt: "Le soir du 14 juillet 2016, alors que le feu d'artifice était tiré �
 date: 2016-07-25 18:00
 place: Montpellier
 categories:
-- actu & humeur
+- Actu & humeur
 tags:
 - société
 comments: true

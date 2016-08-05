@@ -24,7 +24,7 @@ date: '2006-04-21 17:02:07 +0200'
 date_gmt: '2006-04-21 15:02:07 +0200'
 categories:
 - Internet
-- actu & humeur
+- Actu & humeur
 tags:
 - Internet
 - Informatique

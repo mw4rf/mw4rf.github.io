@@ -16,7 +16,7 @@ wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=9
 date: '2004-09-11 22:27:27 +0200'
 date_gmt: '2004-09-11 20:27:27 +0200'
 categories:
-- actu & humeur
+- Actu & humeur
 tags:
 - voyages
 - société

@@ -29,7 +29,7 @@ wordpress_url: http://www.valhalla.fr/?p=285
 date: '2009-09-19 18:30:56 +0200'
 date_gmt: '2009-09-19 16:30:56 +0200'
 categories:
-- actu & humeur
+- Actu & humeur
 - Internet
 tags:
 - Internet

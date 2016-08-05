@@ -26,7 +26,7 @@ categories:
 tags:
 - programmation
 - Web
-- actu & humeur
+- Actu & humeur
 permalink:  /2010/01/31/bannir-la-fonction-alert-en-production/
 ---
 <p>Bannir la fonction alert() en production. Voilà un titre d'article bien singulier ! Les développeurs web comprendront, les autres peut être pas. Il s'agit simplement pour moi de vous raconter une mésaventure récente, avec Firefox et un add-on défectueux, et de pousser un "coup de gueule" contre l'utilisation de la fonction alert() dans des programmes distribués à l'attention de l'utilisateur final.</p>
