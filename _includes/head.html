@@ -14,7 +14,7 @@
   {% endif %}
   
   {% if page.date %}
-  <meta http-equiv="date" content="{{page.date |date: '%A, %d  %Y %H:%M:%S GMT'}}" />
+  <meta http-equiv="date" content="{{page.date | date_to_rfc822}}" />
   {% endif %}
   
   <meta name="robots" content="{{page.index}}INDEX,{{page.follow}}FOLLOW" />
