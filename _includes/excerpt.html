@@ -38,7 +38,7 @@
         <small class="text-muted">
         {% include datefr.html %} • 
         {{ post.content | number_of_words }} mots • 
-        Thème(s) : {% for tag in post.tags %}{{ tag }} {% endfor %}
+        Thème(s) : {{ post.tags | join: ', ' }}
         </small>
     </div>
 </div>
