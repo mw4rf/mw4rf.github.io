@@ -6,6 +6,9 @@
   
 - title: "Catégories"
   href: "/archives/categories/index.html"
+  
+- title: "Thèmes"
+  href: "/archives/tags/index.html"
 
 - title: "Archives"
   href: ""
@@ -14,8 +17,6 @@
       subhref: "/articles-essentiels/"
     - subtitle: "Archives chronologiques"
       subhref: "/archives/index.html"
-    - subtitle: "Tags"
-      subhref: "/archives/tags/index.html"
 
 - title: "Divers"
   href: ""
