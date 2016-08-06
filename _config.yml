@@ -24,6 +24,26 @@ paginate_path: "/archives/:num"
 # Permalinks
 permalink:     /:year/:month/:day/:title/
 
+# Keywords
+keywords:
+  - Blog
+  - Internet
+  - Droit
+  - Informatique
+  - Vape
+  - Actualité
+  - Java
+  - Juridique
+  - Jurisprudence
+  - Nouvelles technologies
+  - NTIC
+  - Société
+  - Code
+  - Tutoriel
+  - Articles
+  - Review
+  - Veille
+
 # Jekyll Plugins
 gems:
   - jekyll-sitemap

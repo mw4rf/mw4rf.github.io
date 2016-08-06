@@ -2,9 +2,23 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width initial-scale=1">
+  <meta http-equiv="content-language" content="fr">
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  
+  {% if page.tags %}
+  <meta name="keywords" content="{{page.tags | join: ','}}" />
+  {% else %}
+  <meta name="keywords" content="{{site.keywords | join: ','}}" />
+  {% endif %}
+  
+  {% if page.date %}
+  <meta http-equiv="date" content="{{page.date |date: '%A, %d  %Y %H:%M:%S GMT'}}" />
+  {% endif %}
+  
+  <meta name="robots" content="{{page.index}}INDEX,{{page.follow}}FOLLOW" />
+  
   <link href="/public/favicon.ico" rel="shortcut icon" type="image/x-icon" />
   
   <!-- Twitter Bootstrap -->
