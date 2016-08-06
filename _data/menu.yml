@@ -15,7 +15,7 @@
     - subtitle: "Archives chronologiques"
       subhref: "/archives/index.html"
     - subtitle: "Tags"
-      subhref: "/archives/tags.html"
+      subhref: "/archives/tags/index.html"
 
 - title: "Divers"
   href: ""
