@@ -10,6 +10,7 @@ categories:
 - Actu & humeur
 tags:
 - société
+- actualité
 comments: true
 permalink:  /2016/07/25/a-propos-de-nice/
 ---

@@ -12,6 +12,8 @@ categories:
 tags:
 - société
 - santé
+- vape
+- récit
 comments: true
 permalink:  /2016/07/18/de-la-fumee-a-la-vapeur/
 ---

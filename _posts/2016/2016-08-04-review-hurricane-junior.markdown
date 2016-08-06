@@ -11,6 +11,9 @@ categories:
 tags:
 - review
 - RTA
+- vape
+- atomiseur
+- matériel
 comments: true
 permalink:  /2016/08/04/review-hurricane-junior/
 thumbnail: "/public/posts/2016-08-04-review-hurricane-junior/hurricanejunior.jpg"
