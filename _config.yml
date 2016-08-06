@@ -24,6 +24,9 @@ paginate_path: "/archives/:num"
 # Permalinks
 permalink:     /:year/:month/:day/:title/
 
+liquid:
+  error_mode: lax # warn, strict
+
 # Keywords
 keywords:
   - Blog

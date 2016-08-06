@@ -1,0 +1,56 @@
+<div class="review review-ato">
+  {% if include.image != blank %}
+  <img src="{{ include.image }}" />
+  {% endif %}
+  <table class="review-table" style="border:none;">
+	  <tr>
+		  <th colspan="2" class="review-table-header">
+			  Appréciation et note finale
+		  </th>
+	  </tr>
+	  <tr>
+		  <td width="80%">Qualité de fabrication</td>
+		  <td width="20%">{{ include.qualite }}/10</td>
+	  </tr>
+	  <tr>
+		  <td>Solidité</td>
+		  <td>{{ include.solidite }}/10</td>
+	  </tr>
+	  <tr>
+		  <td>Apparence</td>
+		  <td>{{ include.apparence }}/10</td>
+	  </tr>
+	  <tr>
+		  <td>Plateau de montage</td>
+		  <td>{{ include.plateau }}/10</td>
+	  </tr>
+	  <tr>
+		  <td>Airflow</td>
+		  <td>{{ include.airflow }}/10</td>
+	  </tr>
+	  <tr>
+		  <td>Arrivées de liquide</td>
+		  <td>{{ include.liquide }}/10</td>
+	  </tr>
+	  <tr>
+		  <td>Restitution des saveurs</td>
+		  <td>{{ include.saveurs }}/10</td>
+	  </tr>
+	  <tr>
+		  <td>Packaging et <i>spare parts</i></td>
+		  <td>{{ include.packaging }}/10</td>
+	  </tr>
+	  <tr>
+		  <td>Prix</td>
+		  <td>{{ include.prix }}/10</td>
+	  </tr>
+	  <tr>
+		  <td>Accessoires</td>
+		  <td>{{ include.accessoires }}/10</td>
+	  </tr>
+	  <tr>
+		  <td><b>Note finale</b></td>
+		  <td><b>{{ include.note }}/100</b></td>
+	  </tr>  
+  </table>
+</div>
