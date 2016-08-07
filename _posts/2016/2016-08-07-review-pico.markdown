@@ -28,7 +28,7 @@ Le **Pico** est un atomiseur reconstructible par _Yellowkiss_ qui <strikethrough
 
 Commençons par parler un peu du style de vape, car c'est le plus important. Je n'ai pas eu l'occasion de tester cet atomiseur longtemps, car il fuit tellement que son usage en déplacement devient impossible. J'y reviendrai.
 
-Le Pico est doté de 3 trous d'_airflow_ et d'une très petite chambre. La réunion de ces deux éléments donne un **tirage très serré** qui correspond, peu ou prou, à celui d'un Kayfun V3 ou d'un Russian 91%. Autant dire que c'est une vape en _mouth-to-lung_ (MTL) obligatoire, qui ne correspond plus à ce qui se fait en 2016. Aujourd'hui, les habitudes ont changé et les _airflow_ sont plus grands sur tous les atomiseurs. Même SvoMestro s'y est mis avec le Kayfun 5, de même qu'e-Phoenix avec le [Hurricane Junior](/2016/08/04/review-hurricane-junior/).
+Le Pico est doté de 3 trous d'_airflow_ et d'une très petite chambre. La réunion de ces deux éléments donne un **tirage très serré** qui correspond, peu ou prou, à celui d'un Kayfun V3 ou d'un Russian 91%. Autant dire que c'est une vape en _mouth-to-lung_ (MTL) obligatoire, qui ne correspond plus à ce qui se fait en 2016. Aujourd'hui, les habitudes ont changé et les _airflow_ sont plus grands sur tous les atomiseurs. Même SvoëMesto s'y est mis avec le Kayfun 5, de même qu'e-Phoenix avec le [Hurricane Junior](/2016/08/04/review-hurricane-junior/).
 
 ![Pico: Airflow](/public/posts/2016-08-07-review-pico/IMG_0860_x50.jpg)
 
@@ -42,7 +42,7 @@ Le style de vape du Pico ne correspond plus aux standards du moment, la concepti
 
 ### Remplissage peu aisé
 
-Le remplissage, d'abord, est pénible. Il faut obligatoirement une seringue ou une bouteille avec une pointe très fine, ce qui réserve le Pico à un public avancé équipé des outils pour préparer ses propres liquides (_DIY_). Le commun des mortels achetant ses flacons à pipette ne pourra pas remplir le Pico. Il y a ici deux erreurs de conception. La première est les 4 trous de remplissage sous le _top cap_ (remplissage par le haut, donc) qui sont minuscules. Pourquoi avoir fait 4 petits trous au lieu d'un seul grand trou ? C'est un choix idiot. Le second problème réside dans l'impossibilité de démonter le Pico pour le remplir ; il faut d'abord le vider. Là encore, on ne voit plus de telle restriction sur les atomiseurs _high end_ depuis plusieurs années. Cela étant dit, vu la vitesse à laquelle le liquide suinte par les _airflow_, cela ne devrait pas prendre bien longtemps... 
+Le remplissage, d'abord, est pénible. Il faut obligatoirement une seringue ou une bouteille avec une pointe très fine, ce qui réserve le Pico à un public avancé équipé des outils pour préparer ses propres liquides (_DIY_). Le commun des mortels achetant ses flacons à pipette ne pourra pas remplir le Pico. Il y a ici deux erreurs de conception. La première est les 4 trous de remplissage sous le _top cap_ (remplissage par le haut, donc) qui sont minuscules. Pourquoi avoir fait 4 petits trous au lieu d'un seul grand trou ? C'est un choix idiot. Le second problème réside dans l'impossibilité de démonter le Pico lorsqu'il contient encore du liquide ; il faut d'abord vaper (vapoter ?) jusqu'à la fin du _tank_ ou perdre le liquide. Là encore, on ne voit plus de telle restriction sur les atomiseurs _high end_ depuis plusieurs années. Cela étant dit, vu la vitesse à laquelle le liquide suinte par les _airflow_, le vider ne devrait pas prendre bien longtemps... 
 
 ![Pico: trous de remplissage de liquide](/public/posts/2016-08-07-review-pico/IMG_0859_x50.jpg)
 
@@ -74,7 +74,7 @@ J'ai essayé plusieurs montages, en bourrant notamment la chambre de coton, mais
 
 ## Conclusion
 
-Le Pico est un atomiseur totalement dépassé. Il correspond à un type de vape pour les nostalgiques des débuts de la cigarette électronique. Sa conception est maladroite, qui le rend peu agréable à utiliser et laborieux à reconstruire. Enfin, les fuites le rendent difficilement utilisable en déplacement.
+Le Pico est un atomiseur totalement dépassé. Il correspond à un type de vape pour les nostalgiques des débuts de la cigarette électronique. Sa conception est maladroite, ce qui le rend peu agréable à utiliser et laborieux à reconstruire. Enfin, les fuites le rendent difficilement utilisable en déplacement.
 
 Il existe aujourd'hui des atomiseurs bien plus performants et agréables à utiliser que le Pico, que je ne saurais donc recommander.
 
