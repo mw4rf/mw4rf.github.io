@@ -48,13 +48,13 @@ L'_airflow_ du Calix se règle avec une _[clé Allen](https://fr.wikipedia.org/w
 
 Le réglage d'arrivée d'air se réalise donc en vissant ou en dévissant une vis placée sur la base de l'atomiseur. L'on peut visser au maximum et avoir ainsi une vape très serrée, parfaite pour le _mouth-to-lung_. L'on peut aussi dévisser au maximum (ou retirer la vis !) et l'arrivée d'air est, dans cette position, suffisante pour vaper en inhalation directe. Elle n'est certes pas aussi importante que sur un _dripper_, mais tant mieux, les saveurs sont préservées. Là encore, le Calix est comparable au Kayfun 5 ou au Hurricane si l'on règle l'_airflow_ sur les deux trous du milieu. 
 
-En somme, le Calix conviendra à ceux qui vapent comme ils tirent sur une cigarette combustible (_mouth-to-lung_), à ceux qui "vapent comme ils respirent", mais pas à ceux qui veulent que leur vape ressemble à une _chicha_.
+En somme, **le Calix conviendra à ceux qui vapent comme ils tirent sur une cigarette combustible (_mouth-to-lung_), à ceux qui "vapent comme ils respirent", mais pas à ceux qui veulent que leur vape ressemble à une _chicha_.**
 
 ## Arrivée de liquide efficace mais peu pratique
 
 L'arrivée de liquide est suffisante pour les liquides les plus visqueux. Elle se réalise par deux petits trous sur la base de la chambre, comme sur un Taifun ou sur le Hurricane.
 
-L'arrivée de liquide est réglable, ce qui représente un avantage certain : l'on peut "tout fermer" en un instant et sans démonter l'atomiseur. Pourtant, j'ai eu une fuite de liquide par l'_airlow_ alors que l'arrivée de liquide était fermée. Je ne me l'explique pas... et c'est arrivée une seule fois, impossible à reproduire depuis. Il s'agissait peut-être un joint non lubrifié ou d'une position horizontale de l'atomiseur un peu maladroite, va savoir !
+L'arrivée de liquide est réglable, ce qui représente un avantage certain : l'on peut "tout fermer" en un instant et sans démonter l'atomiseur. Pourtant, j'ai eu une fuite de liquide par l'_airlow_ alors que l'arrivée de liquide était fermée. Je ne me l'explique pas... et c'est arrivé une seule fois, impossible à reproduire depuis. Il s'agissait peut-être d'un joint non lubrifié ou d'une position horizontale de l'atomiseur un peu maladroite, va savoir !
 
 Bien que le réglage de l'arrivée de liquide soit un avantage, elle est aussi la source d'un inconvénient. C'est à mon sens le seul défaut de conception du Calix : le réglage s'opère en tourtant le _drip tip_ qui entraîne la cheminée dans sa rotation. La rotation de la cheminée, vissée sur la chambre, ouvre ou ferme l'arrivée de liquide. C'est ingénieux mais, en pratique, trois problèmes peuvent survenir.
 
@@ -88,7 +88,7 @@ Il y a 4 vis. Cela permet donc de faire du _double coil_, voire du _triple coil_
 
 ![Calix v2](/public/posts/2016-08-12-review-calix-v2/IMG_0871_x50.jpg){:style="float:right;margin-left:10px;margin-top:5px;"}
 
-Il existe une astuce pour monter le coil, que j'ai découvert dans une [vidéo de Phil Busardo](https://www.youtube.com/watch?v=c2bQXEbhjk8). Il s'agit de passer le fil autour de la vis puis de l'enrouler sur le tournevis (ou tout autre gabarit) qui maintient le _coil_ avant de revisser. En appliquant cette technique, le fil est bien tendu et le montage est à la fois stable et facile à réaliser.
+Il existe une astuce pour monter le coil, que j'ai découverte dans une [vidéo de Phil Busardo](https://www.youtube.com/watch?v=c2bQXEbhjk8). Il s'agit de passer le fil autour de la vis puis de l'enrouler sur le tournevis (ou tout autre gabarit) qui maintient le _coil_ avant de revisser. En appliquant cette technique, le fil est bien tendu et le montage est à la fois stable et facile à réaliser.
 
 Le plateau est donc très bien conçu, ce que l'on est en droit d'attendre d'un atomiseur _high end_. J'ai cependant trois critiques à formuler à son encontre.
 
