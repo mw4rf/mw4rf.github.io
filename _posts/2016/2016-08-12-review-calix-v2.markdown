@@ -16,7 +16,7 @@ tags:
 - matériel
 comments: true
 permalink:  /2016/08/12/review-calix-v2/
-thumbnail: "/public/posts/2016-08-12-review-calix-v2/calix-rba.jpg"
+thumbnail: "/public/posts/2016-08-12-review-calix-v2/calix-v2.jpg"
 grid-width: 1
 ---
 
