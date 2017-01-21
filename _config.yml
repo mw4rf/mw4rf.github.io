@@ -20,6 +20,10 @@ markdown: kramdown
 kramdown:
     parse_block_html: true
 
+# Exclude org-mode files from processing
+exclude:
+  - "*.org"
+
 # Pagination
 paginate: 30
 paginate_path: "/archives/:num"
