@@ -76,6 +76,6 @@ Ensuite, le fichier source. À l'endroit où l'on veut voir apparaître la table
 
 Ouf ! On y est enfin...
 
-Ou pas.
++Ou pas.+
 
 +Il semblerait que l'option+ +=parse_block_html=+ +[[https://github.com/GitbookIO/kramed/issues/31][ne fonctionnerait pas bien avec GitHub]]... à vérifier !+ /Vérification faite : elle fonctionne !/

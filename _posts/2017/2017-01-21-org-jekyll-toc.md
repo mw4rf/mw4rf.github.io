@@ -39,7 +39,7 @@ Neutralisons donc la génération automatique de la table des matières par org-
 
 # Plugins Jekyll ?
 
-Il existe de nombreux plugins Jekyll pour générer des tables des matières. Je ne les ai pas essayés, parce que je veux un site *"GitHub-compliant"* au maximum, ce qui limite l'usage de plugins&#x2026; ou plutôt *"moi-même-compliant"*, ce qui limite aussi les plugins *écrits par des tiers*. Je laisse au lecteur le soin d'aller jeter un coup d'oeil, une bête [requête Google](https://www.google.fr/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=jekyll%2520toc%2520generator) le satisfaira. Je suis persuadé que ces plugins fonctionnent très bien.
+Il existe de nombreux plugins Jekyll pour générer des tables des matières. Je ne les ai pas essayés, parce que je veux un site *"GitHub-compliant"* au maximum, ce qui limite l'usage de plugins&#x2026; ou plutôt *"moi-même-compliant"*, ce qui limite aussi les plugins *écrits par des tiers*. Je laisse au lecteur le soin d'aller jeter un coup d'oeil, une bête [requête Google](https://www.google.fr/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=jekyll%2520toc%2520generator) le satisfera. Je suis persuadé que ces plugins fonctionnent très bien.
 
 
 # Post-processing ?
@@ -69,7 +69,7 @@ Ensuite, le fichier source. À l'endroit où l'on veut voir apparaître la table
 
 Ouf ! On y est enfin&#x2026;
 
-Ou pas.
+<del>Ou pas.</del>
 
 <del>Il semblerait que l'option</del> <del>`parse_block_html`</del> <del>[ne fonctionnerait pas bien avec GitHub](https://github.com/GitbookIO/kramed/issues/31)&#x2026; à vérifier !</del> *Vérification faite : elle fonctionne !*
 
