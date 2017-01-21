@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Org-mode & Jekyll : table des matières
+title: "Org-mode & Jekyll : table des matières"
 author: GF
 excerpt: "À la poursuite d'une geek-attitude ridicule toujours plus poussée, j'écris désormais mes posts dans emacs, avec org-mode. Il faut ensuite les convertir en markdown pour qu'ils puissent être interprétés par Jekyll. C'est déjà difficile à dire, c'est encore plus difficile à faire. Ce post s'attaque à un problème particulier : la génération automatique d'une table des matières."
 date: '2017-01-21 17:48:07'
