@@ -44,7 +44,7 @@ Neutralisons donc la génération automatique de la table des matières par org-
 
 * Plugins Jekyll ?
 
-Il existe de nombreux plugins Jekyll pour générer des tables des matières. Je ne les ai pas essayés, parce que je veux un site /"GitHub-compliant"/ au maximum, ce qui limite l'usage de plugins... ou plutôt /"moi-même-compliant"/, ce qui limite aussi les plugins /écrits par des tiers/. Je laisse au lecteur le soin d'aller jeter un coup d'oeil, une bête [[https://www.google.fr/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=jekyll%2520toc%2520generator][requête Google]] le satisfaira. Je suis persuadé que ces plugins fonctionnent très bien.
+Il existe de nombreux plugins Jekyll pour générer des tables des matières. Je ne les ai pas essayés, parce que je veux un site /"GitHub-compliant"/ au maximum, ce qui limite l'usage de plugins... ou plutôt /"moi-même-compliant"/, ce qui limite aussi les plugins /écrits par des tiers/. Je laisse au lecteur le soin d'aller jeter un coup d'oeil, une bête [[https://www.google.fr/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=jekyll%2520toc%2520generator][requête Google]] le satisfera. Je suis persuadé que ces plugins fonctionnent très bien.
 
 * Post-processing ?
 
