@@ -17,6 +17,9 @@ google_analytics: UA-2290016-1
 # Build settings
 markdown: kramdown
 
+kramdown:
+    parse_block_html: true
+
 # Pagination
 paginate: 30
 paginate_path: "/archives/:num"
