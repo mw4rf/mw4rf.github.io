@@ -71,5 +71,5 @@ Ouf ! On y est enfin&#x2026;
 
 Ou pas.
 
-Il semblerait que l'option `parse_block_html` [ne fonctionnerait pas bien avec GitHub](https://github.com/GitbookIO/kramed/issues/31)&#x2026; à vérifier !
+<del>Il semblerait que l'option</del> <del>`parse_block_html`</del> <del>[ne fonctionnerait pas bien avec GitHub](https://github.com/GitbookIO/kramed/issues/31)&#x2026; à vérifier !</del> *Vérification faite : elle fonctionne !*
 
