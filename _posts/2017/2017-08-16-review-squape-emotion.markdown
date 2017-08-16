@@ -41,8 +41,6 @@ La **construction de la résistance** _(coil building)_ est extrêmement aisée.
 
 Le Squape E-Motion admet **trois plateaux différents**, selon les types de vape. Le **plateau We** est celui par défaut, livré avec l'atomiseur (les deux autres plateaux sont à acheter séparément). C'est un plateau à simple résistance _(single coil)_, de type Kayfun, pour une vape "classique" en MTL, autour de 15-20 watts. C'est le plateau que j'utilise actuellement ; son rendu des saveurs convient parfaitement aux liquides au goût "agressif" à forte teneur en propylène glycol, tels que le SnakeOil, le RedAstaire ou le Heisenberg. Le **plateau Be** est une plateau à simple résistance à _nid de coton_, directement inspiré des atomiseurs Taifun et Hurricane. En raison de la plus grande quantité de coton présente, il conviendra mieux à la vape au delà de 25-30 watts, avec des liquides à forte teneur en glycérine végétale et au goût plus "doux" (les liquides gourmands, tels que les _custards_ par exemple). Enfin, le **plateau De** que je n'ai pas eu l'occasion de tester permet de construire deux résistances _(double coil)_ et, partant, de vaper à plus haute puissance. Il me semble toutefois que le Squape E-Motion est un atomiseur clairement orienté vers la vape "classique" et le rendu des saveurs, non vers la vape puissante et récréative des _drippers_.
 
-
-Deck Be  |  Deck We | Deck De
 :-------:|:--------:|:------:
 ![](/public/posts/2017-08-16-review-squape-emotion/deck-be.jpg)  |  ![](/public/posts/2017-08-16-review-squape-emotion/deck-we.jpg) | ![](/public/posts/2017-08-16-review-squape-emotion/deck-de.jpg)
 
