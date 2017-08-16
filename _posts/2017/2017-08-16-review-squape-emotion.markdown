@@ -22,7 +22,7 @@ grid-width: 2
 
 Le **Squape E-Motion** est le dernier né de la gamme d'atomiseurs Squape de [StattQualm.](https://www.stattqualm.ch). C'est un atomiseurs reconstructible _high end_, d'une finition parfaite, vendu environ 130 euro.
 
-{% include review_ato.html qualite=10 solidite=10 apparence=9 plateau=10 airflow=8 liquide=10 saveurs=10 packaging=10 accessoires=10 prix=8 note=95 image="/public/posts/2017-08-16-review-squape-emotion/squape-emotion-small.jpg" %}
+{% include review_ato.html qualite=10 solidite=10 apparence=9 plateau=10 airflow=6 liquide=10 saveurs=9 packaging=10 accessoires=10 prix=8 note=82 image="/public/posts/2017-08-16-review-squape-emotion/squape-emotion-small.jpg" %}
 
 
 ## Qualité de fabrication parfaite
