@@ -46,7 +46,9 @@ Le Squape E-Motion admet **trois plateaux différents**, selon les types de vape
 
 Les plateaux We et Be permettent l'utilisation d'un **réducteur d'_airflow_** : une petite vis à placer à la base du plateau. Un réducteur de **1,6mm** est livré avec le Squape E-Motion. Il est également possible d'acheter séparément un sachent contenant trois réducteurs, respectivement de **1,3mm**, **2mm** et **2,5mm**. Il y en a donc pour tous les goûts ! J'utilise le réducteur de 2mm qui permet un tirage assez serré, mais sans forcer. Notez que ces réducteurs révèlent l'un des rares défauts du Squape E-Motion, la condensation, sur lequel je reviens plus bas.
 
+<!--
 ![](/public/posts/2017-08-16-review-squape-emotion/kit-mtl.jpg)
+-->
 
 L'**arrivée de liquide** vers le montage est parfaite. Inutile de s'apesantir sur le sujet, il me suffira de vous dire que je n'ai eu ni _dry hit_ ni fuite de liquide en plus d'un mois d'utilisation quotidienne. 
 
@@ -54,7 +56,9 @@ La **bague d'_airflow_** à la base de l'atomiseur peut être réglée sur deux 
 
 Le **remplissage de liquide** est sans doute l'innovation la plus marquante du Squape E-Motion, qui reprend une idée présente dans le Squape X : tourner dans un sens pour fermer l'arrivée de liquide et éviter toute fuite en déplacement, tourner dans l'autre sens pour remplir, tourner encore pour vaper. Trois positions sont donc possibles : remplissage, vape, voyage. Contairement au Squape X dont le corps tournait (assez mal, défaut de conception), seule la bague supérieure (colorée) du Squape E-Motion tourne (très bien). Disons-le d'emblée : le système est parfait lorsqu'on l'a compris, mais encore faut-il bien le comprendre... Il y a en effet deux pas de vis : le premier permet de révéler les trous de remplissage, le second permet d'abaisser ou de remonter la cloche. Ces deux pas de vis n'ont pas la même résistance : la résistance du premier est faible tandis que la résistance du second est importante. Je n'avais pas compris cette subtilité lors de mon premier jour d'utilisation du Squape E-Motion, si bien que j'actionnais seulement le premier pas de vis, révélant les trous de remplissage sans abaisser la cloche... ce qui conduisait à des fuites importantes lors du remplissage ! Voici donc la bonne façon de faire : 1) tourner la bague dans le sens horaire jusqu'à rencontrer une résistance, et _continuer_ de la tourner dans le même sens jusqu'à rencontrer une _deuxième résistance_ ; 2) tourner la bague dans le sens anti-horaire de quelques millimètres, jusqu'à révéler les trous de remplissage, puis remplir le réservoir ; 3) continuer de tourner la bague dans le sens anti-horaire jusqu'à rencontrer une résistance, et _continuer_ de la tourner dans le même sens jusqu'à rencontrer une _deuxième résistance_, puis vaper. Ouf !
 
+<!--
 ![](/public/posts/2017-08-16-review-squape-emotion/remplissage.jpg)
+-->
 
 ## Type de vape et rendu des saveurs
 
