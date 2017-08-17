@@ -55,6 +55,6 @@ keywords:
   - Veille
 
 # Jekyll Plugins
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-paginate
