@@ -26,7 +26,7 @@ La [_review_ de la première version du Pico](/2016/08/04/review-pico/) que j'av
 
 ## Esthétique magnifique
 
-L'esthétique du Pico est magnifique, en particulier sur les _mods_ tubulaires 22mm. La photo ci-dessous le représente sur un Pipeline Pro 3 DLC ; l'ensemble est non seulement léger et peu encombrant, mais aussi tout simplement magnifique ! Malheureusement, l'esthétique est probablement le seul véritable argument du Pico 2...
+L'esthétique du Pico est magnifique, en particulier sur les _mods_ tubulaires 22mm. La photo ci-contre le représente sur un Pipeline Pro 3 DLC ; l'ensemble est non seulement léger et peu encombrant, mais aussi tout simplement magnifique ! Malheureusement, l'esthétique est probablement le seul véritable argument du Pico 2...
 
 <!--
 ![](/public/posts/2017-08-18-review-pico2/pico2setup.jpg)
@@ -40,7 +40,7 @@ Cela étant dit, pour ceux qui ont l'habitude de la vape "classique", autour de 
 
 ## Fragilité relative
 
-Le Pico 2 est très bien réalisé. Il est clair qu'il s'agit d'un atomiseur _high end_, à la conception très soignée. Les parois extérieures sont solides, les pas de vis bien réalisés. Toutefois, l'intérieur de l'atomiseur semble être plus fragile. En particulier, les vis du plateau sont petites, rien à voir avec les atomiseurs allemands ou suisses ! De même, la cloche en PEEK est dotée d'un pas de vis très fin, que l'on évitera donc de trop utiliser. 
+Le Pico 2 est très bien réalisé. Il est clair qu'il s'agit d'un atomiseur _high end_, à la fabrication très soignée. Les parois extérieures sont solides, les pas de vis précis. Toutefois, l'intérieur de l'atomiseur semble être plus fragile. En particulier, les vis du plateau sont petites, rien à voir avec les atomiseurs allemands ou suisses ! De même, la cloche en PEEK est dotée d'un pas de vis très fin, que l'on évitera donc de trop solliciter. 
 
 Il ne s'agit pas là de défauts, d'excellents atomiseurs --tels que ceux d'Imeo, notamment le Tilehamos-- ont des filetages très fins. On reconnaîtra tout de même que pour une atomiseur à usage quotidien, on est plus rassuré avec les pas de vis énormes et solides de StattQualm ou de Taifun !
 
@@ -60,7 +60,7 @@ La bague d'_airflow_ admet 4 positions : de 1 à 4 trous. C'est une bonne chose.
 
 Le remplissage se fait par le haut, ce qui est assez pratique. Toutefois, il faut retirer le _top cap_ et insérer l'embout de son flacon de liquide dans de petits trous. C'est moins pratique que d'autres systèmes, tels que celui du [Squape E-Motion](/2017/08/16/review-squape-emotion/).
 
-Enfin, principal reproche, le plateau n'est pas vissé à la base mais maintenu par le réservoir. Lorsqu'on retire le réservoir pour accéder au montage, le plateau n'est plus fixé. Dans ces conditions, reconstruire le montage est très pénible. En outre, la connexion au plot positif du _mod_ ou de la _box_ n'est assurée qu'en vissant à fond la cloque en PEEK... il faut le savoir ! Je n'ai pas l'habitude de visser à fond les parties qui ne sont pas réalisée en métal ou qui contiennent un joint, afin de ne pas les abimer. J'ai donc peiné à résoudre le défaut de connexion et à voir disparaître de ma box le message _check atom_...
+Enfin, principal reproche, le plateau n'est pas vissé à la base mais maintenu en place par le réservoir. Lorsqu'on retire le réservoir pour accéder au montage, le plateau n'est plus fixé. Dans ces conditions, reconstruire le montage est très pénible. En outre, la connexion au plot positif du _mod_ ou de la _box_ n'est assurée qu'en vissant à fond la cloque en PEEK... il faut le savoir ! Je n'ai pas l'habitude de visser à fond les parties qui ne sont pas réalisée en métal ou qui contiennent un joint, afin de ne pas les abimer. J'ai donc peiné à résoudre le défaut de connexion et à voir disparaître de ma box le message _check atom_...
 
 ### Du mieux
 
@@ -76,7 +76,7 @@ Enfin, _last but not least_, contairement à sa première itération, le Pico 2 
 
 ## Conclusion
 
-Le Pico est l'un des atomiseurs les plus _sexy_ qui soient. C'est aussi un atomiseur très bien fabriqué et permettant une excellente restitution des saveurs des liquides. Pour autant, sa conception est datée et vise exclusivement la vape en _mouth-to-lung_ ; sa reconstruction pénible et fastidieuse. Au prix auquel il est proposé (près de 150 euro), le Pico est donc un bon atomiseur que l'on conseillera aux fans de vape et aux collectionneurs, mais que l'on déconseillera à monsieur-tout-le-monde qui préférera sans doute un atomiseur plus facile à reconstruire.
+Le Pico est l'un des atomiseurs les plus _sexy_ qui soient. C'est aussi un atomiseur très bien fabriqué et permettant une excellente restitution des saveurs des liquides. Pour autant, sa conception est datée et vise exclusivement la vape en _mouth-to-lung_ ; sa reconstruction est pénible et fastidieuse. Au prix auquel il est proposé (près de 150 euro), le Pico est donc un bon atomiseur que l'on conseillera aux fans de vape et aux collectionneurs, mais que l'on déconseillera à monsieur-tout-le-monde qui préférera sans doute un atomiseur plus facile à reconstruire.
 
 
 
