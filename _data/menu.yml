@@ -1,9 +1,3 @@
-- title: "À Propos"
-  href: "/a-propos/"
-
-- title: "Revue"
-  href: "/revue/"
-  
 - title: "Catégories"
   href: "/archives/categories/index.html"
   
@@ -28,3 +22,8 @@
       - subtitle: "Twitter"
         subhref: "/twitter/"
 
+- title: "Revue"
+  href: "/revue/"
+
+- title: "À Propos"
+  href: "/a-propos/"
