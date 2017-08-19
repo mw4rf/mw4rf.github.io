@@ -11,6 +11,7 @@ tags:
 - Jekyll
 - programmation
 - Web
+- plaintext
 permalink:  /2017/01/21/org-jekyll-toc/
 ---
 

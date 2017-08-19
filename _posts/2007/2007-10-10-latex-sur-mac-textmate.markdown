@@ -11,15 +11,7 @@ author:
 author_login: gflorimond
 author_email: gf@valhalla.fr
 author_url: http://www.valhalla.fr
-excerpt: "LaTeX est un puissant outil de formatage de texte et de mise en page. Il
-  permet une configuration sans limite, contrairement aux différents traitements de
-  texte présents sur le marché. Il n’utilise aucun format de fichier propriétaire
-  : un document LaTeX est un fichier de texte brut contenant des “instruction”, à
-  la manière du code source d’un logiciel, qui seront interprétées par le moteur LaTeX
-  pour générer un fichier prêt à être imprimé (PostScript, PDF, etc.). Cependant,
-  l’immense potentiel de Latex ne va pas sans un inconvénient de taille : la complexité
-  du système. Ce deuxième article a pour but de présenter les fonctions spécifiques
-  à LaTeX de l'éditeur de texte pour Mac <a href=\"http://www.macromates.com\">TextMate</a>.\r\n\r\n"
+excerpt: "LaTeX est un puissant outil de formatage de texte et de mise en page. Il permet une configuration sans limite, contrairement aux différents traitements de texte présents sur le marché. Il n’utilise aucun format de fichier propriétaire : un document LaTeX est un fichier de texte brut contenant des “instruction”, à la manière du code source d’un logiciel, qui seront interprétées par le moteur LaTeX pour générer un fichier prêt à être imprimé (PostScript, PDF, etc.). Cependant, l’immense potentiel de Latex ne va pas sans un inconvénient de taille : la complexité du système. Ce deuxième article a pour but de présenter les fonctions spécifiques à LaTeX de l'éditeur de texte pour Mac TextMate."
 wordpress_id: 128
 wordpress_url: http://www.valhalla.fr/index.php/2007/10/10/latex-sur-mac-textmate/
 date: '2007-10-10 21:37:09 +0200'
@@ -30,6 +22,7 @@ tags:
 - Mac
 - LaTeX
 - software
+- plaintext
 permalink:  /2007/10/10/latex-sur-mac-textmate/
 ---
 <p>LaTeX est un puissant outil de formatage de texte et de mise en page. Il permet une configuration sans limite, contrairement aux différents traitements de texte présents sur le marché. Il n’utilise aucun format de fichier propriétaire : un document LaTeX est un fichier de texte brut contenant des “instruction”, à la manière du code source d’un logiciel, qui seront interprétées par le moteur LaTeX pour générer un fichier prêt à être imprimé (PostScript, PDF, etc.). Cependant, l’immense potentiel de Latex ne va pas sans un inconvénient de taille : la complexité du système. Ce deuxième article a pour but de présenter les fonctions spécifiques à LaTeX de l'éditeur de texte pour Mac <a href="http://www.macromates.com">TextMate</a>.</p>
