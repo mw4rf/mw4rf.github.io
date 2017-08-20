@@ -36,6 +36,7 @@ tags:
 - science
 - société
 - software
+- plaintext
 permalink:  /2006/04/13/opendocument-et-linteroperabilite-des-formats/
 ---
 <p>La version 1.5 stable de <a href="http://www.koffice.org/">KOffice</a>, la suite intégrée de <a href="http://www.kde.org/">KDE</a>, viens de sortir il y a peu. Cette nouvelle version apporte une avancée majeure par rapport aux versions précédentes: le support du format <a href="http://fr.wikipedia.org/wiki/OpenDocument">OASIS OpenDocument</a>. Avide de nouveautés et frénétiquement poussé vers une mise à jour constante de mes logiciels, je n'ai pas résisté à l'envie de compiler cette dernière version de KOffice. Mon but premier était de tester le support d'OpenDoc par KWord, et de voir dans quelle mesure les documents <a href="http://fr.openoffice.org/">OpenOffice</a> au même format pouvaient être lus par l'un ou l'autre de ces deux logiciels. C'est la première partie de cet article, et ce sera rapide: la compatibilité est très bonne, sauf les réserves habituelles. La seconde partie de l'article part de ces réserves pour déboucher sur une constatation générale de la situation actuelle des formats de documents, du grave problème qui se pose pour le futur, et de ce qu'il faudra faire pour le résoudre.</p>
