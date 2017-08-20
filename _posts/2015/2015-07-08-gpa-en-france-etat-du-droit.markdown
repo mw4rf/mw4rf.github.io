@@ -5,6 +5,7 @@ title: "La gestation pour autrui en France : état du droit après les arrêts d
 author: GF
 date: "2015-07-09 12:56"
 place: Montpellier
+excerpt: "Présentation de l'état du droit positif en matière de GPA (juillet 2015) et explication des problématiques spécifiques de droit international privé."
 categories:
 - Juridique
 tags:
@@ -17,15 +18,17 @@ permalink:  /2015/07/08/gpa-en-france-etat-du-droit/
 grid-width: 2
 ---
 
-Par deux arrêts rendus le 3 juillet 2015[^1] ([n°14-21.323][1] et [n°15-50.002][2]), la Cour de cassation réunie dans sa formation la plus solennelle, l'Assemblée plénière, a jugé que le droit français ne s'opposait pas à la reconnaissance du lien de filiation entre un enfant né d'une gestation pour autrui (GPA) à l'étranger et son père biologique. Depuis l'entrée en vigueur de la [loi du 17 mai 2013 instaurant le « mariage pour tous »][3] en France, la question de la GPA a suscité de nombreux débats bien trop souvent nourris d'arguments stériles.  Le véritable débat est juridique et technique, soumis aux exigences de l’article 8 de la [Convention européenne de sauvegarde des droits de l’homme][4], il se déroule indépendamment de la volonté du gouvernement français, quel que soit son bord. Le présent article a pour but d'expliquer pourquoi et comment le droit français interdit la GPA sur le sol de France tout en reconnaissant les effets des GPA réalisées à l'étranger.
+Par deux arrêts rendus le 3 juillet 2015[^1] ([n°14-21.323][1] et [n°15-50.002][2]), la Cour de cassation réunie dans sa formation la plus solennelle, l'Assemblée plénière, a jugé que le droit français ne s'opposait pas à la reconnaissance du lien de filiation entre un enfant né d'une gestation pour autrui (GPA) à l'étranger et son père biologique. Depuis l'entrée en vigueur de la [loi du 17 mai 2013 instaurant le « mariage pour tous »][3] en France, la question de la GPA a suscité de nombreux débats bien trop souvent nourris d'arguments stériles.  Le véritable débat n'est pas politique mais juridique et technique. L’article 8 de la [Convention européenne de sauvegarde des droits de l’homme][4] impose désormais la reconnaissance en France des effets de GPA réalisées à l'étranger de manière licite. 
+
+Le présent article retrace l'évolution de la jurisprudence jusqu'aux arrêts du 3 juillet 2015, en expliquant pourquoi le droit français reconnaît les GPA réalisées de manière licite à l'étranger tout en interdisant le recours à la GPA sur le sol français.
 
 ## Qu’est-ce que la GPA ?
 
-La « gestation pour autrui » est le fait, pour une femme, de _porter une enfant qu’elle abandonnera à un tiers à la naissance_. En droit, la GPA est formalisée par un contrat entre les parties : la « mère porteuse » d’une part et, d’autre part, le père de l’enfant ou un couple. Il existe de multiples formes de gestation pour autrui ; ainsi, la mère porteuse peut donner ses gamètes (elle est alors la mère biologique de l’enfant) ou simplement porter _in utero_ l’embryon constitué avec les gamètes de deux autres personnes. 
+La « gestation pour autrui » est le fait, pour une femme, de _porter un enfant qu’elle abandonnera à un tiers à la naissance_. En droit, la GPA est formalisée par un contrat entre les parties : la « mère porteuse » d’une part et, d’autre part, le père de l’enfant ou un couple. Il existe de multiples formes de gestation pour autrui ; ainsi, la mère porteuse peut donner ses gamètes (elle est alors la mère biologique de l’enfant) ou simplement porter _in utero_ l’embryon constitué avec les gamètes de deux autres personnes. 
 
 ## La GPA est-elle interdite en France ?
 
-Selon un principe du droit français, **le corps humain est « indisponible »**. Cela signifie que tout contrat portant sur le corps humain est nul : il ne produit aucun effet juridique et les parties ne sont pas tenues de le respecter. Il faut ainsi distinguer les contrats de don d’organe ou de substances, qui peuvent être valables, et les contrats par lesquels une personne loue son corps (comme le contrat de GPA ou celui de prostitution) qui sont nuls.
+Selon un principe du droit français, **le corps humain est « indisponible »**. Cela signifie que tout contrat portant sur le corps humain est nul : il ne produit aucun effet juridique et les parties ne sont pas tenues de le respecter. Il faut ainsi distinguer les contrats de _don_ (à titre gratuit, donc) d’organe ou de substances, qui peuvent être valables, et les contrats par lesquels une personne loue son corps (comme le contrat de GPA ou celui de prostitution) qui sont nuls.
 
 Cette solution résulte de **[l’arrêt d’Assemblée plénière rendu par la Cour de cassation le 31 mai 1991][5]**, selon lequel « _la convention par laquelle une femme s’engage, fût-ce à titre gratuit, à concevoir et à porter un enfant pour l’abandonner à sa naissance contrevient tant au principe d’ordre public de l’indisponibilité du corps humain qu’à celui de l’indisponibilité de l’état des personnes_ ».
 
@@ -39,7 +42,7 @@ La sanction civile de la GPA est renforcée par une **sanction pénale**. L’**
 
 Le droit français n’a pas une vocation universelle à régir toutes les situations, constituées à n’importe quel endroit de la Terre. Certaines situations peuvent avoir été constituées à l’étranger, conformément à la loi locale, alors qu’elles n’auraient pas pu naître en France. Face à ces situations, le droit français adopte deux positions différentes : soit la situation constituée à l’étranger nous paraît odieuse ou contraire à nos valeurs fondamentales, auquel cas le droit français la privera de tout effet ; soit nous admettons que certains effets de cette situation sont acceptables et peuvent se produire en France.
 
-Ce mécanisme, dit de **l’ordre public** atténué, est issu de l’important arrêt _Rivière_ de 1953, selon lequel « _la réaction à l'encontre d'une disposition contraire à l'ordre public n'est pas la même suivant qu'elle met obstacle à l'acquisition d'un droit en France ou suivant qu'il s'agit de laisser se produire en France les effets d'un droit acquis, sans fraude, à l'étranger_ ».
+Ce mécanisme, dit de **l’ordre public**, est issu de l’important arrêt _Rivière_ de 1953, selon lequel « _la réaction à l'encontre d'une disposition contraire à l'ordre public n'est pas la même suivant qu'elle met obstacle à l'acquisition d'un droit en France ou suivant qu'il s'agit de laisser se produire en France les effets d'un droit acquis, sans fraude, à l'étranger_ ».
 
 En d’autres termes, même si la GPA est interdite en France, il est concevable de faire produire en France des effets à une GPA réalisée à l’étranger, en conformité avec la loi locale, selon un mécanisme juridique aujourd’hui classique. Cependant, pour ce faire, encore faut-il admettre que ces effets sont acceptables pour l’ordre juridique français.
 
