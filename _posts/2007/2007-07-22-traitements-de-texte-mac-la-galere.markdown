@@ -11,21 +11,7 @@ author:
 author_login: gflorimond
 author_email: gf@valhalla.fr
 author_url: http://www.valhalla.fr
-excerpt: "<a href=\"http://www.flickr.com/photos/valhallafr/864036911/\" title=\"Partage
-  de photos\"><img src=\"http://farm2.static.flickr.com/1197/864036911_a51a03ea60_o.jpg\"
-  width=\"150\" height=\"100\" alt=\"iconz\" align=\"left\" /></a>\r\n<p class=\"p1\">Trouver
-  un bon logiciel de traitement de texte sur Mac, c’est la galère. Il n’y a qu’à regarder
-  l’icône de NeoOffice pour s’en convaincre. Il y a certes de bons programmes, mais
-  aucun n’est parfait. Et les problèmes que chacun présente sont toujours de gros
-  problèmes. Dans ma recherche du meilleur traitement de texte possible, j’ai pu essayer
-  Word, OpenOffice, NeoOffice, Mellel, Nisus Writer Pro et Apple Pages. J’ai envie
-  de décrire ici ce que sont à mon sens les points forts et les points faibles de
-  chacun de ces logiciels.</p>\r\n<p class=\"p1\">On parlera d’abord de ceux qu’on
-  élimine sans hésitation, tellement ils sont médiocres. Passent à la moulinette Pages
-  et OpenOffice. On verra ensuite les incontournables qu’on aimerait bien contourner,
-  les habituels logiciels qu’on aimerait bien pouvoir abandonner. Il s’agit de Word
-  et de NeoOffice. Finalement, Mellel et Nisus Writer Pro (NWP) sont ceux qu’on aimerait
-  aimer mais qu’on aimerait meilleurs.</p>\r\n\r\n"
+excerpt: "Trouver un bon logiciel de traitement de texte sur Mac, c’est la galère. Il n’y a qu’à regarder l’icône de NeoOffice pour s’en convaincre. Il y a certes de bons programmes, mais aucun n’est parfait. Et les problèmes que chacun présente sont toujours de gros problèmes. Dans ma recherche du meilleur traitement de texte possible, j’ai pu essayer Word, OpenOffice, NeoOffice, Mellel, Nisus Writer Pro et Apple Pages. J’ai envie de décrire ici ce que sont à mon sens les points forts et les points faibles de chacun de ces logiciels. On parlera d’abord de ceux qu’on élimine sans hésitation, tellement ils sont médiocres. Passent à la moulinette Pages et OpenOffice. On verra ensuite les incontournables qu’on aimerait bien contourner, les habituels logiciels qu’on aimerait bien pouvoir abandonner. Il s’agit de Word et de NeoOffice. Finalement, Mellel et Nisus Writer Pro (NWP) sont ceux qu’on aimerait aimer mais qu’on aimerait meilleurs."
 wordpress_id: 121
 wordpress_url: http://www.valhalla.fr/index.php/2007/07/22/traitements-de-texte-mac-la-galere/
 date: '2007-07-22 18:19:56 +0200'
@@ -37,6 +23,7 @@ tags:
 - Informatique
 - science
 - software
+- plaintext
 permalink:  /2007/07/22/traitements-de-texte-mac-la-galere/
 ---
 <p><a href="http://www.flickr.com/photos/valhallafr/864036911/" title="Partage de photos"><img src="http://farm2.static.flickr.com/1197/864036911_a51a03ea60_o.jpg" width="150" height="100" alt="iconz" align="left" /></a></p>

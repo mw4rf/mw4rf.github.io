@@ -11,18 +11,7 @@ author:
 author_login: gflorimond
 author_email: gf@valhalla.fr
 author_url: http://www.valhalla.fr
-excerpt: "<img src=\"/public/posts/2006-11-20-devonthink/devonthink.png\" alt=\"DevonThink
-  Pro\" align=\"left\"/><br />\r\n\r\n<p>\r\nL'autre jour, j'ai téléchargé la version
-  d'évaluation d'un logiciel appelé \"DevonThink Pro\". J'ai installé ce logiciel
-  et je l'ai testé pendant une petite demi-heure. Et puis j'ai décidé de l'acheter.
-  C'est assez rare pour mériter d'être signalé. Ce logiciel est extraordinaire et,
-  une fois qu'on a commencé à l'utiliser, on se demande comment on a pu faire sans.
-  DevonThink permet de stocker des informations de manière intelligente et hiérarchisée,
-  puis de les exploiter en tissant des liens logiques entre elles. Le processus se
-  déroule ainsi: l'utilisateur crée une base de données dans DevonThink et importe
-  ses documents (ou indexe des documents sans les importer), il lui reste ensuite
-  à créer une arborescence de dossiers et à classer ses documents dans cette arborescence
-  pour mettre en oeuvre les puissantes fonctions de classement de ce logiciel.\r\n</p>\r\n\r\n"
+excerpt: "L'autre jour, j'ai téléchargé la version d'évaluation d'un logiciel appelé \"DevonThink Pro\". J'ai installé ce logiciel et je l'ai testé pendant une petite demi-heure. Et puis j'ai décidé de l'acheter. C'est assez rare pour mériter d'être signalé. Ce logiciel est extraordinaire et, une fois qu'on a commencé à l'utiliser, on se demande comment on a pu faire sans. DevonThink permet de stocker des informations de manière intelligente et hiérarchisée, puis de les exploiter en tissant des liens logiques entre elles. Le processus se déroule ainsi: l'utilisateur crée une base de données dans DevonThink et importe ses documents (ou indexe des documents sans les importer), il lui reste ensuite à créer une arborescence de dossiers et à classer ses documents dans cette arborescence pour mettre en oeuvre les puissantes fonctions de classement de ce logiciel."
 wordpress_id: 108
 wordpress_url: http://www.valhalla-fr.eu/index.php/2006/11/20/devonthink-organise-la-pensee/
 date: '2006-11-20 22:53:36 +0100'
@@ -34,6 +23,7 @@ tags:
 - science
 - software
 - NTIC
+- plaintext
 permalink:  /2006/11/20/devonthink-organise-la-pensee/
 ---
 <p><img src="/public/posts/2006-11-20-devonthink/devonthink.png" alt="DevonThink Pro" align="left"/></p>

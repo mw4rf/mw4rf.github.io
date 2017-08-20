@@ -15,6 +15,7 @@ wordpress_id: 40
 wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=40
 date: '2005-10-06 22:51:00 +0200'
 date_gmt: '2005-10-06 20:51:00 +0200'
+excerpt: "Quelques informations utiles sur l'encodage, les charsets et les malencontreux hiéroglyphes qui apparaissent parfois dans nos textes !"
 categories:
 - Internet
 tags:
@@ -26,6 +27,7 @@ tags:
 - Windows
 - langue
 - bases de données
+- plaintext
 permalink:  /2005/10/06/un-probleme-dencodage-peut-etre/
 ---
 <p>Les phrases et les mots qui apparaissent à l'écran sont composés de caractères. Il existe des caractères "normaux" (a,b,c,d...), des caractères accentués (é,è,à,ñ...), des caractères de ponctuation et des caractères spéciaux (tels que le symbole euro).</p>

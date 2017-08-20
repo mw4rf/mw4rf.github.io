@@ -14,6 +14,7 @@ tags:
 - programmation
 - technique
 - Jekyll
+- plaintext
 comments: true
 permalink:  /2015/01/03/de-wordpress-a-jekyll/
 ---
