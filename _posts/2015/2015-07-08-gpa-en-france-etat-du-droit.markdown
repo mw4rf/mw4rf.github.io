@@ -5,7 +5,7 @@ title: "La gestation pour autrui en France : état du droit après les arrêts d
 author: GF
 date: "2015-07-09 12:56"
 place: Montpellier
-excerpt: "Présentation de l'état du droit positif en matière de GPA (juillet 2015) et explication des problématiques spécifiques de droit international privé."
+excerpt: "Présentation de l'état du droit en matière de GPA (juillet 2015) et explication des problématiques spécifiques de droit international privé."
 categories:
 - Juridique
 tags:
