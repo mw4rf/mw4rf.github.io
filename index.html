@@ -3,12 +3,14 @@ layout: default
 ---
 
 <!-- This loops through the paginated posts -->
-<div class="grid">
-    <div class="grid-sizer"></div>
-{% for post in paginator.posts %}
-    {% include excerpt.html %}
-{% endfor %}
-</div>
+<section class="section">
+    <div class="content container is-fluid">
+        
+        {% include _content/index_tiled.html %}
+        
+    </div>
+</section>
+
 
 {% include pagination.html %}
 
