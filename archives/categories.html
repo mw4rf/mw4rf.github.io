@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<section class="hero is-dark">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <h1 class="title">
+                Catégories
+            </h1>
+            <div class="subheader">
+                {% for cat in site.categories %}
+                {% if cat[0] != "revue" and cat[0] != "Revue" %}
+                    <a href="#{{ cat[0] }}">
+                        {{ cat[0] }}
+                    </a>
+                {% unless forloop.last %} | {% endunless %}
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="section">
+    <div class="content">
+        <div class="columns">
+            <div class="column is-8 is-offset-2">
+            {% for category in site.categories %}
+            {% if category[0] != "revue" and category[0] != "Revue" %}
+                <h2 class="header is-2" id="{{ category[0] }}">
+                    {{ category[0] | capitalize }}
+                </h2>
+                {% for post in category[1] %}
+                    <dl>
+                        <dt>
+                            <a class="post link" href="{{ post.url }}">
+                                {{ post.title }}
+                            </a>
+                        </dt>
+                        <dd class="post date">
+                            {% include _scripts/datefr.html %} • 
+                            {{ post.content | number_of_words }} mots
+                        </dd>
+                    </dl>
+                {% endfor %}
+            {% endif %}
+            {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>

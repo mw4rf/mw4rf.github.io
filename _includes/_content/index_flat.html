@@ -2,9 +2,9 @@
 {% for post in paginator.posts %}
 <div class="columns">
     <div class="column is-8 is-offset-2">
-        <span class="index post date">{{post.date | date_to_string }}</span> ⏤ 
-        <a class="index post link" href="{{ post.url }}">{{ post.title }}</a> ⏤ 
-        <span class="index post excerpt">
+        <span class="post date">{{post.date | date_to_string }}</span> ⏤ 
+        <a class="post link" href="{{ post.url }}">{{ post.title }}</a> ⏤ 
+        <span class="post excerpt">
             {% if post.excerpt %}
                 {{ post.excerpt }}
             {% elsif post.content contains '<!--more-->' %}
