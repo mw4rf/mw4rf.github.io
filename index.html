@@ -2,13 +2,18 @@
 layout: default
 ---
 
-<!-- This loops through the paginated posts -->
+<section class="hero is-light is-bold">
+    <div class="hero-body">
+        <div class="container">
+            <div class="title is-1">{{ site.title }}</div>
+            <div class="subtitle">{{ site.description }}</div>
+        </div>
+    </div>
+</section>
+
 <section class="section">
     <div class="content container is-fluid">
-        
         {% include _content/index_flat.html %}
-
-        
     </div>
 </section>
 

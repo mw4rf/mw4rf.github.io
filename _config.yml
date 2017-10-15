@@ -1,7 +1,7 @@
 # Site settings
 title: Valhalla.fr
 email: your-email@domain.com
-description: Ad Absurdum
+description: Sic Itur Ad Absurdum
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.valhalla.fr" # the base hostname & protocol for your site
 twitter_username: valhallafr
