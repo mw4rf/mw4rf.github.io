@@ -1,0 +1,44 @@
+<nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="{{ site.url }}">Valhalla.fr</a>
+    </div>
+
+    <div class="navbar-menu">
+        
+        <div class="navbar-start">
+            {% for item in site.data.menu %}
+            {% if item.subcategories != null %}
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link" href="{{ item.url }}">
+                        {{ item.title }}
+                    </a>
+                    <div class="navbar-dropdown is-boxed">
+                        {% for subcategory in item.subcategories %}
+                            <a class="navbar-item" href="{{ subcategory.subhref }}">
+                                {{ subcategory.subtitle }}
+                            </a>
+                        {% endfor %}
+                    </div>
+                </div>
+            {% else %}
+                <a class="navbar-item" href="{{ item.href }}">{{ item.title }}</a>
+            {% endif %}
+            {% endfor %}
+        </div>
+
+        <div class="navbar-end">
+            <div class="navbar-item">
+                {% include _meta/google_search_engine.html %}
+            </div>
+        </div>
+
+    </div>
+</nav>
+
+
+      
+
+            
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>

@@ -13,7 +13,7 @@ La **Revue Valhalla.fr** présente chaque semaine l'actualité du droit des nouv
     <a class="list-group-item" href="{{ post.url }}">
         <h4 class="list-group-item-leading">{{ post.title }}</h4>
         <div class="list-group-item-text" markdown="0">
-            {% include datefr.html %} • 
+            {% include _scripts/datefr.html %} • 
             {{ post.content | number_of_words }} mots • 
             Thèmes : {% for t in post.tags %}{{ t }}   {% endfor %}
         </div>

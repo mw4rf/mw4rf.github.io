@@ -11,7 +11,7 @@ title: Archives
     <a class="list-group-item" href="{{ post.url }}">
         <h4 class="list-group-item-leading">{{ post.title }}</h4>
         <div class="list-group-item-text" markdown="0">
-            {% include datefr.html %} • 
+            {% include _scripts/datefr.html %} • 
             {{ post.content | number_of_words }} mots • 
             Catégorie(s) : {% for c in post.categories %}{{ c }}   {% endfor %}<br />
             Thèmes : {% for t in post.tags %}{{ t }}   {% endfor %}

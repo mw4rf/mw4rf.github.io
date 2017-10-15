@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+  {% include _meta/head.html %}
 
   <body>
 
-    {% include menu.html %}
+    {% include _layout/navbar.html %}
 
     <div id="page-content">
       {{content}}
     </div>
 
-    {% include footer.html %}
-    {% include js.html %}
+    {% include _layout/footer.html %}
 
   </body>
 

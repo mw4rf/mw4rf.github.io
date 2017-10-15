@@ -20,7 +20,7 @@ Partant d'un constant ancien, [réalisé en 2006 à propos de l'ineropérabilit�
         <a class="list-group-item" href="{{ post.url }}">
             <h4 class="list-group-item-leading">{{ post.title }}</h4>
             <div class="list-group-item-text">
-                <strong>{% include datefr.html %} • 
+                <strong>{% include _scripts/datefr.html %} • 
                 {{ post.content | number_of_words }} mots</strong>
                 {{if post.excerpt }}
                     • &laquo; <em>{{ post.excerpt }}</em> &raquo;

@@ -21,14 +21,14 @@
   
   <link href="/public/favicon.ico" rel="shortcut icon" type="image/x-icon" />
   
-  <!-- Twitter Bootstrap -->
-  <link rel="stylesheet" href='/assets/bootswatch/{{ site.bootswatch }}.min.css'>
+  <!-- Bulma CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css" integrity="sha256-HEtF7HLJZSC3Le1HcsWbz1hDYFPZCqDhZa9QsCgVUdw=" crossorigin="anonymous" />
   <!-- Font Awesome -->
-  <link rel="stylesheet" href='/assets/font-awesome/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
   
-  {% include google_analytics.html %}
-  
+  {% include _meta/google_analytics.html %}
 </head>
