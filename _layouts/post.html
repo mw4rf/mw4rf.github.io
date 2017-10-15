@@ -1,17 +1,23 @@
 ---
 layout: default
 ---
+<section class="hero is-dark">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">
+                {{ page.title }}
+            </h1>
+            <h2 class="subtitle">
+                {% include _scripts/datefr.html %}
+                {% include _scripts/auteur.html %}
+                {% if page.meta %} • {{ page.meta }}{% endif %}
+            </h2>
+        </div>
+    </div>
+</section>
 
 <section class="section">
-    <div class="container">
-        <h1 class="title is-1">
-            {{ page.title }}
-        </h1>
-        <div class="subtitle is-6">
-            {% include _scripts/datefr.html %}
-            {% include _scripts/auteur.html %}
-            {% if page.meta %} • {{ page.meta }}{% endif %}
-        </div>
+    <div class="content container is-fluid">
 
         <blockquote>{{ page.excerpt }}</blockquote>
 
