@@ -1,72 +1,15 @@
-<div class="container-fluid" id="footer">
-  <div class="row">
-    
-    <div class="col-md-4 col-sm-6">
-      <ul class="no-bullet">
-        <li>{{ site.title }}</li>
-        <li>{{ site.description }}</li>
-        <li><small>
-            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
-        </small></li>
-        <li><small>Mis à jour le {{ site.time | date: '%e %b %Y' }} à {{ site.time | date: '%Hh%M' }}.</small></li>
-      </ul>
+<footer class="footer">
+    <div class="container">
+        <div class="content has-text-centered">
+            <p>{{ site.title }} ⏤ {{ site.description }}</p>
+            <p>Mis à jour le {{ site.time | date: '%e %b %Y' }} à {{ site.time | date: '%Hh%M' }}.</p>
+            <p>
+                {% include _scripts/mail_obfuscated.html %}
+                {% include _meta/twitter.html %}
+                {% include _meta/github.html %}
+                {% include _meta/rss.html %}
+                {% include _meta/license.html %}
+            </p>
+        </div>
     </div>
-    
-    <div class="col-md-4 col-sm-6">
-        <script type="text/javascript" language="javascript">
-        <!--
-        // Email obfuscator script 2.1 by Tim Williams, University of Arizona
-        // Random encryption key feature by Andrew Moulden, Site Engineering Ltd
-        // This code is freeware provided these four comment lines remain intact
-        // A wizard to generate this code is at http://www.jottings.com/obfuscator/
-        { coded = "bl8nXbn@7X5iX55X.v3"
-          key = "XWicTH5MwOZzyPtBR7V1xGb02SY4CsoAmnjLKQDudfra6hpqglUI8eEkFNJ9v3"
-          shift=coded.length
-          link=""
-          for (i=0; i<coded.length; i++) {
-            if (key.indexOf(coded.charAt(i))==-1) {
-              ltr = coded.charAt(i)
-              link += (ltr)
-            }
-            else {     
-              ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
-              link += (key.charAt(ltr))
-            }
-          }
-        document.write("<a href='mailto:"+link+"'><span class='fa-stack fa-lg'><i class='fa fa-at fa-stack-1x'></i></span>"+link+"</a>")
-        }
-        //-->
-        </script>
-        <noscript>Sorry, you need Javascript on to email me.</noscript>
-        
-      <br>
-      <a href="{{ "/feed.xml" | prepend: site.url }}" id="gh" target="_blank" title="RSS">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-rss-square fa-stack-1x"></i>
-        </span>
-        RSS
-        </a>
-    </div>
-    
-    <div class="col-md-4 col-sm-6">
-      {% if site.twitter_username %}
-      <a href="https://twitter.com/{{ site.twitter_username }}" id="gh" target="_blank" title="Twitter">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-twitter fa-stack-1x"></i>
-        </span>
-        Twitter
-      </a>
-      {% endif %}
-      {% if site.github_username %}
-      <br>
-      <a href="https://github.com/{{ site.github_username }}"  target="_blank" title="GitHub">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-github fa-stack-1x"></i>
-        </span>
-        GitHub
-      </a>
-      {% endif %}
-    </div>
-    
-  </div>
-</div>
+</footer>
