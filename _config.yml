@@ -8,9 +8,6 @@ twitter_username: valhallafr
 github_username:  mw4rf
 timezone: Europe/Paris
 
-# GUI
-bootswatch: yeti
-
 # Google Analytics ID
 google_analytics: UA-2290016-1
 
@@ -25,7 +22,7 @@ exclude:
   - "*.org"
 
 # Pagination
-paginate: 30
+paginate: 5
 paginate_path: "/archives/:num"
 
 # Permalinks

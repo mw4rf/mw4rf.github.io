@@ -1,16 +1,10 @@
+
 {% for post in paginator.posts %}
 <div class="columns">
-    <div class="column is-narrow">
-        <figure class="image is-128x128">
-            <img src="{{ post.thumbnail }}" />
-        </figure>
-    </div>
-
-    <div class="column">
-        <div class="title is-5">
-            <a href="{{ post.url }}">{{ post.title }}</a>
-        </div>
-        <div class="subtitle">
+    <div class="column is-8 is-offset-2">
+        <span class="index post date">{{post.date | date_to_string }}</span> ⏤ 
+        <a class="index post link" href="{{ post.url }}">{{ post.title }}</a> ⏤ 
+        <span class="index post excerpt">
             {% if post.excerpt %}
                 {{ post.excerpt }}
             {% elsif post.content contains '<!--more-->' %}
@@ -18,7 +12,11 @@
             {% else %}
                 {{ post.content | strip_html | truncatewords:50 }} (...)
             {% endif %}
-        </div>
+            <small>
+             • {{ post.content | number_of_words }} mots 
+             • #{{ post.tags | join: ' #' }}
+            </small>
+         </span>
     </div>
 </div>
 {% endfor %}

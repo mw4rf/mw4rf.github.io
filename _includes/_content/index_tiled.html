@@ -1,43 +1,32 @@
-{% assign grid = 'grid-item' %}
-{% if post.grid-width == 2 %}
-    {% assign grid = 'is-6' %}
-{% elsif post.grid-width == 3 %}
-    {% assign grid = 'is-3' %}
-{% elsif post.grid-width == 4 %}
-    {% assign grid = 'is-12' %}
-{% endif %}
+{% for post in paginator.posts %}
 
-<div class="tile is-ancestor">
-    {% for post in paginator.posts %}
+    {% assign loopindex = forloop.index | modulo: 3 %}
+    {% if loopindex == 1 %}
+    <div class="tile is-ancestor">
+    {% endif %}
 
-        {% assign loopindex = forloop.index | modulo: 3 %}
-        {% if loopindex == 1 %}
-        <div class="tile is-ancestor">
-        {% endif %}
-
-            <div class="tile is-parent">
-                <article class="tile is-child box {{grid}}">
-                    <div class="title is-2">{{ post.title }}</div>
-                    {% if post.thumbnail %}
-                    <figure class="image is-128x128">
-                        <img src="{{ post.thumbnail }}" />
-                    </figure>
+        <div class="tile is-parent">
+            <article class="tile is-child box">
+                <div class="title is-2">{{ post.title }}</div>
+                {% if post.thumbnail %}
+                <figure class="image is-128x128">
+                    <img src="{{ post.thumbnail }}" />
+                </figure>
+                {% endif %}
+                <div class="subtitle">
+                    {% if post.excerpt %}
+                        {{ post.excerpt }}
+                    {% elsif post.content contains '<!--more-->' %}
+                        {{ post.content | split:'<!--more-->' | first }}
+                    {% else %}
+                        {{ post.content | strip_html | truncatewords:50 }} (...)
                     {% endif %}
-                    <div class="subtitle">
-                        {% if post.excerpt %}
-                            {{ post.excerpt }}
-                        {% elsif post.content contains '<!--more-->' %}
-                            {{ post.content | split:'<!--more-->' | first }}
-                        {% else %}
-                            {{ post.content | strip_html | truncatewords:50 }} (...)
-                        {% endif %}
-                    </div>
-                </article>
-            </div>
-
-        {% if loopindex == 0 %}
+                </div>
+            </article>
         </div>
-        {% endif %}
 
-    {% endfor %}
-</div>
+    {% if loopindex == 0 %}
+    </div>
+    {% endif %}
+
+{% endfor %}

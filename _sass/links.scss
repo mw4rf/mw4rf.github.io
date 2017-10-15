@@ -1,0 +1,28 @@
+a {
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    color: $linkColor;
+    padding: 0 1px;
+    transition: color ease 0.3s;
+
+    &::after {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: $linkHeight;
+        left: 0;
+        bottom: 0;
+        background-color: $linkColor;
+        transition: all ease 0.3s;
+    }
+
+    &:hover {
+        color: white;
+
+        &::after {
+            height: 100%;
+        }
+    }
+}
