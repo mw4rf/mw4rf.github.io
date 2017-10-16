@@ -1,6 +1,7 @@
 .content a {
     position: relative;
-    text-decoration: none;
+    text-decoration: none !important;
+    border:none !important;
     display: inline-block;
     color: $linkColor;
     padding: 0 1px;
@@ -11,7 +12,7 @@
         position: absolute;
         z-index: -1;
         width: 100%;
-        height: $linkHeight;
+        height: $linkUnderlineHeight;
         left: 0;
         bottom: 0;
         background-color: $linkColor;
