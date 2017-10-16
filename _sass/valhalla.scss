@@ -1,14 +1,23 @@
 @charset "utf-8";
 
+
+// Colors
 $grey: #708090;
 
+// Links
 $linkColor: #8A2BE2;
 $linkUnderlineHeight: 0%;
 
+// Imports
 @import
     "valhalla/links",
     "valhalla/lists",
-	"valhalla/review"
+    "valhalla/review",
+    "valhalla/fonts"
 ;
 
+// Fonts
+$family-sans-serif: "Avenir Next";
+$family-monospace: monospace;
 
+$background: $grey;
