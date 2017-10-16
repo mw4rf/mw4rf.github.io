@@ -2,12 +2,15 @@
   <ul class="pagination-list">
     {% if paginator.previous_page %}
       {% if paginator.previous_page == 1 %}
-        <li><a class="pagination-link" href="/">&laquo;</a></li>
+        <li><a class="pagination-link" href="/"><i class="fa fa-fast-backward"></i></a></li>
+        <li><a class="pagination-link" href="/"><i class="fa fa-step-backward"></i></a></li>
       {% else %}
-        <li><a class="pagination-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a></li>
+        <li><a class="pagination-link" href="/"><i class="fa fa-fast-backward"></i></a></li>
+        <li><a class="pagination-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fa fa-step-backward"></i></a></li>
       {% endif %}
     {% else %}
-      <li><a class="pagination-link" href="#" disabled>&laquo;</a></li>
+      <li><a class="pagination-link" href="#" disabled><i class="fa fa-fast-backward"></i></a></li>
+      <li><a class="pagination-link" href="#" disabled><i class="fa fa-step-backward"></i></a></li>
     {% endif %}
     
     {% capture start %}{{ paginator.page | minus:3 }}{% endcapture %}
@@ -27,9 +30,11 @@
     {% endfor %}
     
     {% if paginator.next_page %}
-      <li><a class="pagination-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a></li>
+      <li><a class="pagination-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fa fa-step-forward"></i></a></li>
+      <li><a class="pagination-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', paginator.total_pages }}"><i class="fa fa-fast-forward"></i></a></li>
     {% else %}
-      <li><a class="pagination-link" href="#" disabled>&raquo;</a></li>
+      <li><a class="pagination-link" href="#" disabled><i class="fa fa-step-forward"></i></a></li>
+      <li><a class="pagination-link" href="#" disabled><i class="fa fa-fast-forward"></i></a></li>
     {% endif %}
   </ul>
 </nav>
