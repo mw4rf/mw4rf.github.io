@@ -22,6 +22,7 @@ Quelques lignes seulement...
     git merge new-interface
     git push
 
+
 Et _voilà_ !
 
 Mais ces quelques lignes masquent un travail important. Compliquer les choses, en rajoutent de nouveaux éléments petits à petit, n'est pas si difficile ; c'est même probablement l'une des pires habitudes des _geeks_. En revanche, retirer des fonctionnalités existantes et simplifier le contenant pour mettre en valeur le contenu, est moins aisé. Il faut faire des choix.
