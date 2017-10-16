@@ -1,0 +1,12 @@
+<dl>
+    <dt>
+        <a class="post link" href="{{ post.url }}">
+            {{ post.title }}
+        </a>
+    </dt>
+    <dd class="post date">
+        {% include _scripts/datefr.html %} 
+        • {{ post.content | number_of_words }} mots
+        • #{{ post.tags | join: ' #' }}
+    </dd>
+</dl>

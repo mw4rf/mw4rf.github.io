@@ -1,0 +1,20 @@
+<dl>
+    <dt>
+        <a class="post link" href="{{ post.url }}">
+            {{ post.title }}
+        </a>
+        <span class="post date">
+            • {% include _scripts/datefr.html %}
+            • {{ post.content | number_of_words }} mots
+        </span>
+    </dt>
+    <dd class="post excerpt">
+        {% if post.excerpt %}
+            {{ post.excerpt }}
+        {% elsif post.content contains '<!--more-->' %}
+            {{ post.content | split:'<!--more-->' | first }}
+        {% else %}
+            {{ post.content | strip_html | truncatewords:50 }} (...)
+        {% endif %}
+    </dd>
+</dl>

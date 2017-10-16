@@ -1,10 +1,23 @@
 ---
-layout: page
+layout: default
 title: Revue
 permalink: /revue/index.html
 ---
 
-La <b>Revue Valhalla.fr</b> présente chaque semaine l'actualité du droit des nouvelles technologies à l'aide de liens vers des articles originaux et d'analyses aidant le lecteur à saisir les évolutions de la matière les plus importantes.
+<section class="hero is-dark">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title has-text-centered">
+                {{ page.title }}
+            </h1>
+            <div class="subtitle content">
+                <p>&nbsp;</p>
+
+                <p>La <b>Revue Valhalla.fr</b> présente chaque semaine l'actualité du droit des nouvelles technologies à l'aide de liens vers des articles originaux et d'analyses aidant le lecteur à saisir les évolutions de la matière les plus importantes.</p>
+            </div>
+        </div>
+    </div>
+</section>
 
 <section class="section">
     <div class="content">
@@ -20,18 +33,7 @@ La <b>Revue Valhalla.fr</b> présente chaque semaine l'actualité du droit des n
                 </h2>
                 {% endif %}
 
-                <dl>
-                    <dt>
-                        <a class="post link" href="{{ post.url }}">
-                            {{ post.title }}
-                        </a>
-                    </dt>
-                    <dd class="post date">
-                        {% include _scripts/datefr.html %} 
-                        • {{ post.content | number_of_words }} mots
-                        • #{{ post.tags | join: ' #' }}
-                    </dd>
-                </dl>
+                {% include _content/post_line_tags.html %}
 
                 {% if this_year != next_year %}
                 <h2 class="header is-2" id="{{ next_year }}">

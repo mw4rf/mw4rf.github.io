@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tags
+title: Thèmes
 ---
 
 <section class="hero is-dark">
@@ -35,17 +35,7 @@ title: Tags
                     {{ tag[0] | capitalize }}
                 </h2>
                 {% for post in tag[1] %}
-                    <dl>
-                        <dt>
-                            <a class="post link" href="{{ post.url }}">
-                                {{ post.title }}
-                            </a>
-                        </dt>
-                        <dd class="post date">
-                            {% include _scripts/datefr.html %} • 
-                            {{ post.content | number_of_words }} mots
-                        </dd>
-                    </dl>
+                    {% include _content/post_line_simple.html %}
                 {% endfor %}
             {% endif %}
             {% endfor %}

@@ -1,0 +1,34 @@
+---
+layout: default
+title: PlainText
+permalink: /plaintext/index.html
+---
+
+<section class="hero is-dark">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title has-text-centered">
+                {{ page.title }}
+            </h1>
+            <div class="subtitle content">
+                <p>&nbsp;</p>
+
+                <p>Le <i>Plain Text</i>, c'est du texte, du texte seul. Le <i>Plain Text</i>, c'est plus qu'une mode, c'est un courant philosophique prônant le détachement des formats propriétaires, la rupture avec la soumission imposée aux utilisateurs par les éditeurs de logiciels commerciaux. Il s'agit ainsi d'utiliser des fichier ne contenant que du texte, lisible en toute époque sur l'importe quelle machine.</p>
+
+                <p>Partant d'un constant ancien, <a href="/2006/04/13/opendocument-et-linteroperabilite-des-formats/">réalisé en 2006 à propos de l'ineropérabilité des formats</a>, selon lequel les formats de fichier commerciaux ne sont pas pérennes, cette page se propose de présenter, une décennie plus tard, quelques outils capables d'assurer la sécurité et la permanence des données <i>avec du texte seul</i>.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="content">
+        <div class="columns">
+            <div class="column is-8 is-offset-2">
+                {% for post in site.tags.plaintext %}
+                    {% include _content/post_line_excerpt.html %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
