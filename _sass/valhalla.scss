@@ -14,15 +14,22 @@ $text: $grey;
 $text-light: $grey-light;
 $text-strong: $grey-dark;
 
-$primary: #8A2BE2;
+$primary:   #b29adf; //#9370DB; //#8A2BE2;
 $white-ter: #f1f3f4;
 
 // Links
-$link: $primary;             // link color, used by bulma & valhalla
-$linkUnderlineHeight: 0%;   // link underline, used by valhalla
+$link: $text;             // link color, used by bulma & valhalla
+
+$link-underline: $primary;
+$link-underline-height: 15%;   // link underline, used by valhalla
+
+// Alt configuration:
+// $link: $primary;
+// $link-underline-height: 0%;
+
+$link-hover: $white-ter;
 
 $link-visited: $link;
-$link-hover: $white-ter;
 $link-focus: $link;
 $link-active: $link;
 

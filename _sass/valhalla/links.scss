@@ -12,10 +12,10 @@
         position: absolute;
         z-index: -1;
         width: 100%;
-        height: $linkUnderlineHeight;
+        height: $link-underline-height;
         left: 0;
         bottom: 0;
-        background-color: $link;
+        background-color: $link-underline;
         transition: all ease 0.3s;
     }
 
