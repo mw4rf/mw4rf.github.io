@@ -1,4 +1,4 @@
-<nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+<nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
         <a class="navbar-item" href="{{ site.url }}">Valhalla.fr</a>
     </div>
@@ -9,9 +9,9 @@
             {% for item in site.data.menu %}
             {% if item.subcategories != null %}
                 <div class="navbar-item has-dropdown is-hoverable">
-                    <a class="navbar-link" href="{{ item.url }}">
+                    <div class="navbar-item">
                         {{ item.title }}
-                    </a>
+                    </div>
                     <div class="navbar-dropdown is-boxed">
                         {% for subcategory in item.subcategories %}
                             <a class="navbar-item" href="{{ subcategory.subhref }}">

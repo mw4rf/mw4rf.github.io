@@ -1,23 +1,49 @@
 @charset "utf-8";
 
+// Load Bulma initial configuration
+// Bulma default properties are overriden below
+@import "bulma/sass/utilities/initial-variables";
 
 // Colors
 $grey: #708090;
 
-// Links
-$linkColor: #8A2BE2;
-$linkUnderlineHeight: 0%;
+$primary: #8A2BE2;
 
-// Imports
-@import
-    "valhalla/links",
-    "valhalla/lists",
-    "valhalla/review",
-    "valhalla/fonts"
-;
+// Links
+$link: $primary;             // link color, used by bulma & valhalla
+$linkUnderlineHeight: 0%;   // link underline, used by valhalla
+
+$link-visited: $link;
+$link-hover: $white;
+$link-focus: $link;
+$link-active: $link;
+
+// Global background color
+$body-background-color: $white-ter;
+$footer-background-color: $white-ter;
+$navbar-background-color: $white-ter;
+
+// Several elements get this color as background
+$background: $primary;
+
+// Navbar
+$navbar-item-hover-color: $white;
+$navbar-item-hover-background-color: $primary;
+$navbar-dropdown-item-hover-color: $white;
+$navbar-dropdown-item-hover-background-color: $primary;
 
 // Fonts
+@import "valhalla/fonts";
+
 $family-sans-serif: "Avenir Next";
 $family-monospace: monospace;
 
-$background: $grey;
+// Other Imports
+@import
+    "valhalla/links",
+    "valhalla/lists",
+    "valhalla/review"
+;
+
+// Import Bulma
+@import "bulma/bulma";
