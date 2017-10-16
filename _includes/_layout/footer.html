@@ -10,4 +10,22 @@
             {% include _meta/license.html %}
         </p>
     </div>
+    <div class="content is-hidden-tablet">
+        {% for item in site.data.menu %}
+        <ul>
+        {% if item.subcategories != null %}
+            <li>{{ item.title }}</li>
+            {% for subcategory in item.subcategories %}
+            {% if forloop.first %}<ul>{% endif %}
+                <li><a class="navbar-item" href="{{ subcategory.subhref }}">
+                    {{ subcategory.subtitle }}
+                </a></li>
+            {% if forloop.last %}</ul>{% endif %}
+            {% endfor %}
+        {% else %}
+            <li><a class="navbar-item" href="{{ item.href }}">{{ item.title }}</a></li>
+        {% endif %}
+        </ul>
+        {% endfor %}
+    </div>
 </footer>
