@@ -11,9 +11,9 @@ title: Thèmes
             </h1>
             <div class="subheader">
                 {% assign sorted_tags = site.tags | sort %}
-                {% for tag in  sorted_tags %}
+                {% for tag in sorted_tags %}
                 {% if tag[0] != "revue" and tag[0] != "Revue" %}
-                    <a href="#{{ cat[0] }}">
+                    <a href="#{{ tag[0] }}">
                         {{ tag[0] }}
                     </a>
                 {% endif %}
