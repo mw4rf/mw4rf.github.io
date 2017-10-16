@@ -5,7 +5,14 @@
 @import "bulma/sass/utilities/initial-variables";
 
 // Colors
-$grey: #708090;
+
+$grey: #6a7b8d;
+$grey-light: #8695a4;
+$grey-dark: #546270;
+
+$text: $grey;
+$text-light: $grey-light;
+$text-strong: $grey-dark;
 
 $primary: #8A2BE2;
 
