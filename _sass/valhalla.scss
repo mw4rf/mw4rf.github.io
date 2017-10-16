@@ -50,8 +50,10 @@ $navbar-dropdown-item-hover-background-color: $primary;
 // Pagination
 $pagination-hover-color: $primary;
 
-// Blockquote
+// Blockquote, code, pre
 $content-blockquote-background-color: $white;
+$pre-background: $white;
+$code-background: $white;
 
 // Fonts
 @import "valhalla/fonts";
