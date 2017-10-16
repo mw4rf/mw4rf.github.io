@@ -15,13 +15,14 @@ $text-light: $grey-light;
 $text-strong: $grey-dark;
 
 $primary: #8A2BE2;
+$white-ter: #f1f3f4;
 
 // Links
 $link: $primary;             // link color, used by bulma & valhalla
 $linkUnderlineHeight: 0%;   // link underline, used by valhalla
 
 $link-visited: $link;
-$link-hover: $white;
+$link-hover: $white-ter;
 $link-focus: $link;
 $link-active: $link;
 
@@ -38,6 +39,12 @@ $navbar-item-hover-color: $white;
 $navbar-item-hover-background-color: $primary;
 $navbar-dropdown-item-hover-color: $white;
 $navbar-dropdown-item-hover-background-color: $primary;
+
+// Pagination
+$pagination-hover-color: $primary;
+
+// Blockquote
+$content-blockquote-background-color: $white;
 
 // Fonts
 @import "valhalla/fonts";

@@ -27,3 +27,11 @@
         }
     }
 }
+
+// Footer links are broken by Bulma. Nothing to do here, we need to override.
+.footer-links a {
+    color: $link;
+    &:hover {
+        color: $link;
+    }
+}
