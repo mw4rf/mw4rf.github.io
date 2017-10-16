@@ -2,13 +2,13 @@
   href: ""
   subcategories:
     - subtitle: "Catégories"
-      subhref: "/archives/categories/index.html"
+      subhref: "/archives/categories/"
     - subtitle: "Thèmes"
-      subhref: "/archives/tags/index.html"
+      subhref: "/archives/tags/"
     - subtitle: "Articles essentiels"
       subhref: "/articles-essentiels/"
     - subtitle: "Archives chronologiques"
-      subhref: "/archives/index.html"
+      subhref: "/archives/timeline/"
 
 - title: "Divers"
   href: ""
