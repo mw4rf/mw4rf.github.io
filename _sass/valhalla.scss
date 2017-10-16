@@ -61,6 +61,9 @@ $code-background: $white;
 $family-sans-serif: "Avenir Next";
 $family-monospace: monospace;
 
+// Import Bulma
+@import "bulma/bulma";
+
 // Other Imports
 @import
     "valhalla/links",
@@ -68,6 +71,3 @@ $family-monospace: monospace;
     "valhalla/review",
     "valhalla/post"
 ;
-
-// Import Bulma
-@import "bulma/bulma";

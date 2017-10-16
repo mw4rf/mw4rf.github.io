@@ -1,20 +1,53 @@
 // .post is the class of the <div> containing the TEXT of the blog post
 
-.post h1::before,
-.post h2::before,
-.post h3::before,
-.post h4::before,
-.post h5::before,
-.post h6::before {
-  display: inline-block;
-  position: absolute;
-  left: 1rem;
-  color:$grey-light;
-}
 
-.post h1::before { content : "#"; }
-.post h2::before { content : "##"; }
-.post h3::before { content : "###"; }
-.post h4::before { content : "####"; }
-.post h5::before { content : "#####"; }
-.post h6::before { content : "######"; }
+// Do not do if screen size is < tablet size
+@include tablet {
+
+    .post h1::before,
+    .post h2::before,
+    .post h3::before,
+    .post h4::before,
+    .post h5::before,
+    .post h6::before {
+        display: inline-block;
+        position: absolute;
+        left: 2rem;
+        color:$grey-light;
+    }
+
+    .post h1::before { content : "#"; }
+    .post h2::before { content : "##"; }
+    .post h3::before { content : "###"; }
+    .post h4::before { content : "####"; }
+    .post h5::before { content : "#####"; }
+    .post h6::before { content : "######"; }
+
+
+    .post ul, .related ul {
+        list-style: none;
+        a {
+            &::after {
+                height: 0%;
+            }
+        }
+
+        li {
+            &::before {
+                content: "{";
+                display: inline-block;
+                position: relative;
+                left: -1rem;
+                color:$grey-light;
+            }
+            &::after {
+                content: "}";
+                display: inline-block;
+                position: relative;
+                right: -1rem;
+                color:$grey-light;
+            }
+        }
+    }
+
+}

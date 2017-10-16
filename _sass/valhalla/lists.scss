@@ -12,13 +12,3 @@
     color: $text-light;
 }
 
-ul {
-    list-style: none;
-
-    a {
-        color: $link-underline;
-        &::after {
-            height: 0%;
-        }
-    }
-}
