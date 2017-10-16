@@ -1,0 +1,20 @@
+// .post is the class of the <div> containing the TEXT of the blog post
+
+.post h1::before,
+.post h2::before,
+.post h3::before,
+.post h4::before,
+.post h5::before,
+.post h6::before {
+  display: inline-block;
+  position: absolute;
+  left: 1rem;
+  color:$grey-light;
+}
+
+.post h1::before { content : "#"; }
+.post h2::before { content : "##"; }
+.post h3::before { content : "###"; }
+.post h4::before { content : "####"; }
+.post h5::before { content : "#####"; }
+.post h6::before { content : "######"; }
