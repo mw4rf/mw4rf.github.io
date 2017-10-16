@@ -1,12 +1,10 @@
-- title: "Catégories"
-  href: "/archives/categories/index.html"
-  
-- title: "Thèmes"
-  href: "/archives/tags/index.html"
-
-- title: "Archives"
+- title: "Taxonomies"
   href: ""
   subcategories:
+    - subtitle: "Catégories"
+      subhref: "/archives/categories/index.html"
+    - subtitle: "Thèmes"
+      subhref: "/archives/tags/index.html"
     - subtitle: "Articles essentiels"
       subhref: "/articles-essentiels/"
     - subtitle: "Archives chronologiques"

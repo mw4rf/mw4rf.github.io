@@ -3,7 +3,7 @@ layout: page
 status: publish
 published: true
 title: Articles essentiels
-permalink: /articles-essentiels/index.html
+permalink: /articles-essentiels/
 ---
 
 
