@@ -4,7 +4,7 @@ published: true
 title: "Git merge new-interface"
 author: GF
 excerpt: "Valhalla.fr fait peau neuve ! La nouvelle interface toute pleine de sobriété est un retour aux sources de ce site né il y a plus de dix ans. Que cette cure de jouvence lui redonne une nouvelle vie !"
-date: '2017-10-17 19:49:10'
+date: '2017-10-16 19:49:10'
 categories:
 - Informatique
 - Valhalla
@@ -13,7 +13,7 @@ tags:
 - programmation
 - Web
 - plaintext
-permalink:  /2017/10/17/git-merge-new-interface/
+permalink:  /2017/10/16/git-merge-new-interface/
 ---
 
 Quelques lignes seulement...
