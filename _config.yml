@@ -17,6 +17,19 @@ markdown: kramdown
 kramdown:
     parse_block_html: true
 
+# Categories list
+collections:
+  category:
+    output: true # creates a page per category
+    permalink: /:collection/:name/index.html # e.g. /category/informatique/index.html
+
+defaults:
+  - scope:
+      path: ""
+      type: category
+    values:
+      layout: "category" # assign category.html layout to categories
+
 # Exclude org-mode files from processing
 exclude:
   - "*.org"

@@ -4,8 +4,21 @@
     </div>
 
     <div class="navbar-menu">
-        
         <div class="navbar-start">
+
+            <div class="navbar-item has-dropdown is-hoverable">
+                <div class="navbar-item">
+                    Catégories
+                </div>
+                <div class="navbar-dropdown is-boxed">
+                    {% for category in site.data.categories %}
+                    <a class="navbar-item" href="/category/{{ category.file | slugify }}">
+                        {{ category.name }}
+                    </a>
+                    {% endfor %}
+                </div>
+            </div>
+
             {% for item in site.data.menu %}
             {% if item.subcategories != null %}
                 <div class="navbar-item has-dropdown is-hoverable">

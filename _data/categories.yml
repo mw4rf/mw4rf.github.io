@@ -1,0 +1,50 @@
+# Information
+#
+# Les catégories sont automatiquement générées depuis
+# le frontmatter des posts & pages (categories...).
+# v. _config.yml
+#
+# Une page "liste" est générée par catégorie.
+# Cette page contient la liste des posts appartenant à
+# la catégorie. Elle est basée sur le template présent
+# dans /_category/...md
+#
+# Ce template doit indiquer:
+# <title> : le titre de la page, affiché à l'écran
+# <category> : le nom de la catégorie (case sensitive)
+# <description> : le sous-titre de la page
+#
+# SEULES les catégories qui ont un fichier à leur nom
+# dans ce dossier seront traitées.
+#
+# Chacune de ces pages de catégorie est générée
+# avec le template _layouts/category.html
+#  
+# SEULES les catégories présentes dans ce fichier seront 
+# affichées dans le menu (navbar.html).
+# Les autres sont ignorées.
+#
+# <name> représente le nom à afficher dans le menu
+# <file> représente le nom du fichier <file>.md dans _category
+#
+# NB: YAML exige de mettre "entre guillemets" les items
+# contenant des espaces. Y compris dans les frontmatters !
+
+- name: "Actu & humeur"
+  file: actus
+
+- name: Informatique
+  file: informatique
+
+- name: Internet
+  file: internet
+
+- name: Juridique
+  file: juridique
+
+- name: Valhalla
+  file: valhalla
+
+- name: Vape
+  file: vape
+
