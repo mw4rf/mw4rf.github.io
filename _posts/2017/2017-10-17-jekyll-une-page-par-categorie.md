@@ -157,7 +157,7 @@ La procédure débute par la création d'un fichier `_data/categories.yml` avec 
   file: valhalla
 
 - name: Ma superbe Catégorie avec un nom trèèèèès long
-- file: ma-super-categorie
+  file: ma-super-categorie
 ```
 
 Les deux paramètres de chaque catégorie correspondent aux deux paramètres des liens HTML : le nom et l'adresse. En l'occurrence, l'adresse s'appelle _file_ puisqu'il s'agit du nom du fichier de catégorie que l'on veut afficher. Chaque catégorie mentionnée ici doit en effet avoir un fichier de catégorie associé. Il s'agit dans notre exemple, respectivement de:
