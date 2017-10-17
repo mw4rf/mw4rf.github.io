@@ -126,7 +126,7 @@ En outre, la liste des catégories n'étant pas destinée à changer souvent, co
 
 Quel intérêt de créer une page par catégorie, si ce n'est de permettre aux visiteurs de choisir la catégorie qu'ils souhaitent consulter ? Pour ce faire, l'on peut songer à créer un menu présentant la liste des catégories.
 
-La création d'un tel menu est relativement simple si l'on souhaite afficher _toutes_ les catégories. En revanche, les choses se compliquent si l'on désire cacher l'un ou l'autre des catégories. Dans cette hypothèse, la page de catégorie a été omise pour une catégorie donnée. Dans ce cas, Jekyll génèrera un lien vers une page inexistante, ce qui ne manquera pas de confondre les visiteurs qui le suivraient.
+La création d'un tel menu est relativement simple si l'on souhaite afficher _toutes_ les catégories. En revanche, les choses se compliquent si l'on désire cacher l'une ou l'autre des catégories. Dans cette hypothèse, la page de catégorie a été omise pour une catégorie donnée. Dans ce cas, Jekyll génèrera un lien vers une page inexistante, qui ne manquera pas de confondre les visiteurs qui le suivraient.
 
 ## Version simple: toutes les catégories
 
