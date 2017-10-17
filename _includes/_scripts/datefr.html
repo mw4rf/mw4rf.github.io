@@ -1,36 +1,4 @@
-{% if page.date %}
-
-    {% assign dy = page.date | date: "%a" %}
-    {% case dy %}
-      {% when "Mon" %}lundi
-      {% when "Tue" %}mardi
-      {% when "Wed" %}mercredi
-      {% when "Thu" %}jeudi
-      {% when "Fri" %}vendredi
-      {% when "Sat" %}samedi
-      {% when "Sun" %}dimanche
-      {% else %}{{ dy }}
-    {% endcase %}
-
-    {% assign m = page.date | date: "%-m" %}
-    {{ page.date | date: "%-d" }}
-    {% case m %}
-      {% when '1' %}janvier
-      {% when '2' %}février
-      {% when '3' %}mars
-      {% when '4' %}avril
-      {% when '5' %}mai
-      {% when '6' %}juin
-      {% when '7' %}juillet
-      {% when '8' %}août
-      {% when '9' %}septembre
-      {% when '10' %}octobre
-      {% when '11' %}novembre
-      {% when '12' %}décembre
-    {% endcase %}
-    {{ page.date | date: "%Y" }}
-
-{% elsif post.date %}
+{% if post.date %}
 
     {% assign dy = post.date | date: "%a" %}
     {% case dy %}
@@ -61,5 +29,37 @@
       {% when '12' %}décembre
     {% endcase %}
     {{ post.date | date: "%Y" }}
+
+{% elsif page.date %}
+
+    {% assign dy = page.date | date: "%a" %}
+    {% case dy %}
+      {% when "Mon" %}lundi
+      {% when "Tue" %}mardi
+      {% when "Wed" %}mercredi
+      {% when "Thu" %}jeudi
+      {% when "Fri" %}vendredi
+      {% when "Sat" %}samedi
+      {% when "Sun" %}dimanche
+      {% else %}{{ dy }}
+    {% endcase %}
+
+    {% assign m = page.date | date: "%-m" %}
+    {{ page.date | date: "%-d" }}
+    {% case m %}
+      {% when '1' %}janvier
+      {% when '2' %}février
+      {% when '3' %}mars
+      {% when '4' %}avril
+      {% when '5' %}mai
+      {% when '6' %}juin
+      {% when '7' %}juillet
+      {% when '8' %}août
+      {% when '9' %}septembre
+      {% when '10' %}octobre
+      {% when '11' %}novembre
+      {% when '12' %}décembre
+    {% endcase %}
+    {{ page.date | date: "%Y" }}
 
 {% endif %}
