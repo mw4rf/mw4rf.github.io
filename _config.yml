@@ -20,6 +20,8 @@ kramdown:
     hard_wrap: true # new lines => <br />
     smart_quotes: lsquo,rsquo,laquo,raquo #   ‘ ’  « » 
 
+highlighter: rouge
+
 # Categories list
 collections:
   category:
