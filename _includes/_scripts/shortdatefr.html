@@ -1,24 +1,4 @@
-{% if page.date %}
-
-    {% assign m = page.date | date: "%-m" %}
-    {{ page.date | date: "%-d" }}
-    {% case m %}
-      {% when '1' %}Jan
-      {% when '2' %}Fév
-      {% when '3' %}Mars
-      {% when '4' %}Avr
-      {% when '5' %}Mai
-      {% when '6' %}Juin
-      {% when '7' %}Juill
-      {% when '8' %}Août
-      {% when '9' %}Sept
-      {% when '10' %}Oct
-      {% when '11' %}Nov
-      {% when '12' %}Déc
-    {% endcase %}
-    {{ page.date | date: "%Y" }}
-
-{% elsif post.date %}
+{% if post.date %}
 
     {% assign m = post.date | date: "%-m" %}
     {{ post.date | date: "%-d" }}
@@ -37,5 +17,25 @@
       {% when '12' %}Déc
     {% endcase %}
     {{ post.date | date: "%Y" }}
+
+{% elsif page.date %}
+
+    {% assign m = page.date | date: "%-m" %}
+    {{ page.date | date: "%-d" }}
+    {% case m %}
+      {% when '1' %}Jan
+      {% when '2' %}Fév
+      {% when '3' %}Mars
+      {% when '4' %}Avr
+      {% when '5' %}Mai
+      {% when '6' %}Juin
+      {% when '7' %}Juill
+      {% when '8' %}Août
+      {% when '9' %}Sept
+      {% when '10' %}Oct
+      {% when '11' %}Nov
+      {% when '12' %}Déc
+    {% endcase %}
+    {{ page.date | date: "%Y" }}
 
 {% endif %}
