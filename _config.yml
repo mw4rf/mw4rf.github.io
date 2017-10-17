@@ -16,6 +16,9 @@ markdown: kramdown
 
 kramdown:
     parse_block_html: true
+    input: GFM # GitHub Flavored Markdown
+    hard_wrap: true # new lines => <br />
+    smart_quotes: lsquo,rsquo,laquo,raquo #   ‘ ’  « » 
 
 # Categories list
 collections:
