@@ -116,7 +116,7 @@ description: "À propos de ce site."
 La procédure manuelle est un peu fastidieuse, mais elle présente plusieurs avantages:
 
 - elle est compatible avec [GitHub Pages](https://pages.github.com/) ;
-- elle permet de choisir les catégories que l'on veut afficher et d'exclure les autres ;
+- elle permet de choisir les catégories que l'on veut afficher et d'exclure les autres.
 
 En outre, la liste des catégories n'étant pas destinée à changer souvent, contrairement à la liste des _tags_, il devrait être rarement nécessaire de créer un nouveau fichier de catégorie. _Valhalla.fr_, par exemple, n'a pas changé ses catégories depuis plusieurs années.
 
