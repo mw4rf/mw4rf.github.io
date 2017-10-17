@@ -95,7 +95,7 @@ Les instructions ci-avant, placées dans le fichier de configuration, commandent
 {% endraw %}
 ```
 
-L'instruction intéressante ici est `for post in site.categories[page.category]`. C'est un boucle _for_ qui parcourt la liste des _posts_ trouvés dans la catégorie _(site.categories[])_ identifiée par l'index _page.category_. Ce fichier étant un _template_ destiné à recevoir le contenu d'autres fichiers, il suffira de définir, dans ces autres fichiers, la variable _page.categorie_ à la valeur de la catégorie dont on entend afficher le contenu.
+L'instruction intéressante ici est `for post in site.categories[page.category]`. C'est une boucle _for_ qui parcourt la liste des _posts_ trouvés dans la catégorie _(site.categories[])_ identifiée par l'index _page.category_. Ce fichier étant un _template_ destiné à recevoir le contenu d'autres fichiers, il suffira de définir, dans ces autres fichiers, la variable _page.categorie_ à la valeur de la catégorie dont on entend afficher le contenu.
 
 Il faut donc désormais créer manuellement une page pour chaque catégorie que l'on veut afficher. Outre la variable _page.categorie_, qui indique la nom de la catégorie qui correspond à cette page, deux variables faciliteront l'affichage : _page.title_ et _page.description_.
 
