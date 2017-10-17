@@ -65,15 +65,17 @@ La première étape pour créer _une page par catégorie_ est d'éditer le fichi
 # Liste des catégories
 collections:
   category:
-    output: true # pour créer la page HTML affichant la catégorie
-    permalink: /:collection/:name/index.html # pour créer le lien e.g. /category/informatique/index.html
+    output: true # générer la page HTML
+    permalink: /:collection/:name/index.html
+    # exemple -> /category/informatique/index.html
 
 defaults:
   - scope:
       path: ""
       type: category
     values:
-      layout: "category" # chaque page de catégorie utilisera le layout category.html
+      layout: "category"
+      # layout utilisé -> _layouts/category.html
 ```
 
 ## Créer un template pour afficher les pages de catégorie

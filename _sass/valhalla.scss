@@ -52,8 +52,13 @@ $pagination-hover-color: $primary;
 
 // Blockquote, code, pre
 $content-blockquote-background-color: $white;
-$pre-background: $white;
-$code-background: $white;
+$pre-background: rgb(59, 59, 59); // multiline codeblock
+$code-background: $white; // inline code
+
+// Syntax highlight. Choose either light or dark
+// background version according to $pre-background color
+// @import "valhalla/rouge-light";
+@import "valhalla/rouge-dark";
 
 // Fonts
 @import "valhalla/fonts";
@@ -63,6 +68,8 @@ $family-monospace: monospace;
 
 // Import Bulma
 @import "bulma/bulma";
+
+
 
 // Other Imports
 @import
