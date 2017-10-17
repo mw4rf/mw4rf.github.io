@@ -44,7 +44,7 @@ Cette classification traditionnelle est pratique et il est bienvenu que Jekyll l
         {% for post in category[1] %}
         <li>{{post.title}}</li>
         {% endfor %}
-    </ul
+    </ul>
 {% endfor %}
 {% endraw %}
 ```
