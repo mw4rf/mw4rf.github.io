@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-permalink: /revue/numero-114/
+permalink: /revue/numero-115/
 title: Numéro 115 - Semaines du 23 mars au 5 avril 2015
 author:
 - GF

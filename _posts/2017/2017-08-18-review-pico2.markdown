@@ -15,7 +15,7 @@ tags:
 - atomiseur
 - matériel
 comments: true
-permalink:  /2017/08/16/review-squape-emotion/
+permalink:  /2017/08/18/review-pico-2/
 thumbnail: "/public/posts/2017-08-18-review-pico2/pico2.jpg"
 grid-width: 1
 ---
