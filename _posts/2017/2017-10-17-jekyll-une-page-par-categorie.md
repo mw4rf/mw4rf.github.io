@@ -37,6 +37,7 @@ Cela place cet article dans les deux catégories mentionnées. Il devient ainsi 
 Cette classification traditionnelle est pratique et il est bienvenu que Jekyll la gère. De nombreux tutoriels en ligne décrivent comment créer une page avec la liste de toutes les catégories et, sous le nom d'une catégorie donnée, tous les articles qui lui appartiennent. Cela donne quelque chose de ce genre:
 
 ```liquid
+{% raw %}
 {% for category in site.categories %}
     <h2>{{ category[0] }}</h2>
     <ul>
@@ -45,6 +46,7 @@ Cette classification traditionnelle est pratique et il est bienvenu que Jekyll l
         {% endfor %}
     </ul
 {% endfor %}
+{% endraw %}
 ```
 
 Rappelons, pour mémoire, que `collection[0]` contient le nom de la collection et `collection[1]` son contenu (ici, une liste de _posts_).
@@ -79,6 +81,7 @@ defaults:
 Les instructions ci-avant, placées dans le fichier de configuration, commandent à Jekyll de générer une page par catégorie, en utilisant le _template_ `_layouts/category.html`. C'est donc ce fichier qu'il convient à présent de créer, avec un contenu semblable à celui-ci -- à adapter à vos besoins, bien entendu:
 
 ```liquid
+{% raw %}
 <h1>{{ page.title }}</h1>
 <h2>{{ page.description }}</h2>
 
@@ -87,6 +90,7 @@ Les instructions ci-avant, placées dans le fichier de configuration, commandent
     <li>{{ post.title }}</li>
     {% endfor %}
 </ul>
+{% endraw %}
 ```
 
 L'instruction intéressante ici est `for post in site.categories[page.category]`. C'est un boucle _for_ qui parcourt la liste des _posts_ trouvés dans la catégorie _(site.categories[])_ identifiée par l'index _page.category_. Ce fichier étant un _template_ destiné à recevoir le contenu d'autres fichiers, il suffira de définir, dans ces autres fichiers, la variable _page.categorie_ à la valeur de la catégorie dont on entend afficher le contenu.
@@ -127,6 +131,7 @@ La création d'un tel menu est relativement simple si l'on souhaite afficher _to
 S'il existe un fichier de catégorie par catégorie, autrement dit si aucune catégorie n'est exclue de l'affichage, le code souce du menu est simple. Il pourrait être rédigé ainsi:
 
 ```liquid
+{% raw %}
 <ul>
     {% for category in site.categories %}
     <li>
@@ -136,6 +141,7 @@ S'il existe un fichier de catégorie par catégorie, autrement dit si aucune cat
     </li>
     {% endfor %}
 </ul>
+{% endraw %}
 ```
 
 ## Version complexe: exclusion de certaines catégories
@@ -162,6 +168,7 @@ Les deux paramètres de chaque catégorie correspondent aux deux paramètres des
 Toute catégorie existant sur le site qui n'est pas mentionnée dans ce fichier sera omise lors de la création du menu. Celui-ci peut désormais être écrit avec un code semblable à celui-ci:
 
 ```liquid
+{% raw %}
 <ul>
     {% for category in site.data.categories %}
     <li>
@@ -171,6 +178,7 @@ Toute catégorie existant sur le site qui n'est pas mentionnée dans ce fichier 
     </li>
     {% endfor %}
 </ul>
+{% endraw %}
 ```
 
 Cette méthode est celle actuellement en œuvre sur Valhalla.fr ; elle fonctionne parfaitement avec GitHub Pages, sans plugin externe et sans trop ralentir la compilation du site.
