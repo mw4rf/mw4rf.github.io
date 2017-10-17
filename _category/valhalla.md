@@ -1,3 +1,4 @@
 ---
 title: Valhalla
+category: Valhalla
 ---

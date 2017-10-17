@@ -13,7 +13,7 @@ layout: default
 
 <section class="section">
     <div class="content container is-fluid">
-        {% for post in site.categories[page.title] %}
+        {% for post in site.categories[page.category] %}
             {% include _content/post_line_tags.html %}
         {% endfor %}
     </div>

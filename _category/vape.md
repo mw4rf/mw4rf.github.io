@@ -1,3 +1,4 @@
 ---
 title: Vape
+category: Vape
 ---

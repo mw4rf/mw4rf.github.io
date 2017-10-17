@@ -9,6 +9,11 @@
 # la catégorie. Elle est basée sur le template présent
 # dans /_category/...md
 #
+# Ce template doit indiquer:
+# <title> : le titre de la page, affiché à l'écran
+# <category> : le nom de la catégorie (case sensitive)
+# <description> : le sous-titre de la page
+#
 # SEULES les catégories qui ont un fichier à leur nom
 # dans ce dossier seront traitées.
 #
@@ -21,6 +26,9 @@
 #
 # <name> représente le nom à afficher dans le menu
 # <file> représente le nom du fichier <file>.md dans _category
+#
+# NB: YAML exige de mettre "entre guillemets" les items
+# contenant des espaces. Y compris dans les frontmatters !
 
 - name: "Actu & humeur"
   file: actus
