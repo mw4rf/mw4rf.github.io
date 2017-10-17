@@ -1,5 +1,9 @@
 // .post is the class of the <div> containing the TEXT of the blog post
 
+// <pre> must have more white space after
+pre {
+    margin-bottom: 1rem;
+}
 
 // Do not do if screen size is < tablet size
 @include tablet {
