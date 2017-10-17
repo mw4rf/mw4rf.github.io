@@ -11,9 +11,10 @@
                     Catégories
                 </div>
                 <div class="navbar-dropdown is-boxed">
-                    {% assign sorted_categories = site.categories | sort %}
-                    {% for category in sorted_categories %}
-                    <a class="navbar-item" href="/category/{{ category }}">{{ category }}</a>
+                    {% for category in site.data.categories %}
+                    <a class="navbar-item" href="/category/{{ category.file | slugify }}">
+                        {{ category.name }}
+                    </a>
                     {% endfor %}
                 </div>
             </div>

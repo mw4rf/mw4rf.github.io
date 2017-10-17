@@ -21,6 +21,7 @@ kramdown:
 collections:
   category:
     output: true # creates a page per category
+    permalink: /:collection/:name/index.html # e.g. /category/informatique/index.html
 
 defaults:
   - scope:
