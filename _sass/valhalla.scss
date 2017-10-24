@@ -62,15 +62,11 @@ $code-background: $white; // inline code
 
 // Fonts
 @import "valhalla/fonts";
-
-//$family-sans-serif: "Avenir Next";
 $family-sans-serif: "Roboto", serif;
 $family-monospace: monospace;
 
 // Import Bulma
 @import "bulma/bulma";
-
-
 
 // Other Imports
 @import
