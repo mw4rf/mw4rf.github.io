@@ -63,7 +63,8 @@ $code-background: $white; // inline code
 // Fonts
 @import "valhalla/fonts";
 
-$family-sans-serif: "Avenir Next";
+//$family-sans-serif: "Avenir Next";
+$family-sans-serif: "Lora", serif;
 $family-monospace: monospace;
 
 // Import Bulma
