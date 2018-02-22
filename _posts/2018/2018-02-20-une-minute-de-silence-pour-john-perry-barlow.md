@@ -4,7 +4,7 @@ published: true
 title: "Une minute de silence pour John Perry Barlow"
 author: GF
 excerpt: "John Perry Barlow, auteur de la célèbre Déclaration d’indépendance du Cyberespace, est mort le 7 février dernier. Cela vaut bien une minute de silence."
-date: '2087-02-20 23:15:00'
+date: '2018-02-20 23:15:00'
 categories:
 - Informatique
 tags:
