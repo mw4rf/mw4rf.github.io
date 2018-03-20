@@ -2,6 +2,7 @@
 title: Valhalla.fr
 email: your-email@domain.com
 description: Sic Itur Ad Absurdum
+seo_description: Valhalla Sic Itur Ad Absurdum - Blog d'actualité et d'analyse en droit français, droit d'internet et des nouvelles technologies, informatique et programmation.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://www.valhalla.fr" # the base hostname & protocol for your site
 twitter_username: valhallafr
