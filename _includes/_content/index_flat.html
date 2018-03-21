@@ -2,11 +2,13 @@
 <div class="columns" itemscope itemtype="http://schema.org/Article">
     <meta itemprop="wordCount" content="{{ post.content | number_of_words }}" />
     <meta itemprop="keywords" content="{{ post.tags | join: ',' }}" />
+    <meta itemprop="author" content="{{ post.author }}" itemtype="https://schema.org/Person" />
+    <meta itemprop="publisher" content="{{ post.author }}" itemtype="https://schema.org/Person" />
     <div class="column is-8 is-offset-2">
         <meta itemprop="datePublished" content="{{ post.date }}">
         <span class="post date">{% include _scripts/shortdatefr.html %}</span> ⏤ 
         <a class="post link" href="{{ post.url }}" itemprop="url">{{ post.title }}</a> ⏤ 
-        <span class="post excerpt" itemprop="description">
+        <span class="post excerpt" itemprop="description" itemprop="headline">
             {% if post.excerpt %}
                 {{ post.excerpt }}
             {% elsif post.content contains '<!--more-->' %}
