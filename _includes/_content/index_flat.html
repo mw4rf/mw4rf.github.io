@@ -1,14 +1,16 @@
 {% for post in paginator.posts %}
-<div class="columns" itemscope itemtype="http://schema.org/Article">
+<div class="columns" itemscope itemtype="https://schema.org/Article">
     <meta itemprop="wordCount" content="{{ post.content | number_of_words }}" />
     <meta itemprop="keywords" content="{{ post.tags | join: ',' }}" />
     <meta itemprop="author" content="{{ post.author }}" itemtype="https://schema.org/Person" />
     <meta itemprop="publisher" content="{{ post.author }}" itemtype="https://schema.org/Person" />
+    <meta itemprop="headline" content="{{ post.title }}" itemtype="https://schema.org/Text" />
+    <meta itemprop="image" content="{{ post.thumbnail }}" itemtype="https://schema.org/Image" />
     <div class="column is-8 is-offset-2">
         <meta itemprop="datePublished" content="{{ post.date }}">
         <span class="post date">{% include _scripts/shortdatefr.html %}</span> ⏤ 
         <a class="post link" href="{{ post.url }}" itemprop="url">{{ post.title }}</a> ⏤ 
-        <span class="post excerpt" itemprop="description" itemprop="headline">
+        <span class="post excerpt" itemprop="description">
             {% if post.excerpt %}
                 {{ post.excerpt }}
             {% elsif post.content contains '<!--more-->' %}
