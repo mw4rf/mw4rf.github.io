@@ -3,11 +3,11 @@ layout: default
 ---
 <div itemscope itemtype="http://schema.org/Article">
     <meta itemprop="wordCount" content="{{ page.content | number_of_words }}" />
-    <meta itemprop="keywords about" content="{{ post.tags | join: ',' }}" />
-    <meta itemprop="author" content="{{ post.author }}" itemtype="https://schema.org/Person" />
+    <meta itemprop="keywords about" content="{{ page.tags | join: ',' }}" />
+    <meta itemprop="author" content="{{ page.author }}" itemtype="https://schema.org/Person" />
     <meta itemprop="publisher" content="{{ site.title }}" />
     <meta itemprop="image" content="{{ page.thumbnail }}" itemtype="https://schema.org/Image" />
-    <meta itemprop="datePublished" content="{{ post.date }}">
+    <meta itemprop="datePublished" content="{{ page.date }}">
 
     <section class="hero is-dark">
         <div class="hero-body">
