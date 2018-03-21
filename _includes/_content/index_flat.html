@@ -1,13 +1,13 @@
 {% for post in paginator.posts %}
 <div class="columns" itemscope itemtype="https://schema.org/Article">
     <meta itemprop="wordCount" content="{{ post.content | number_of_words }}" />
-    <meta itemprop="keywords" content="{{ post.tags | join: ',' }}" />
+    <meta itemprop="keywords about" content="{{ post.tags | join: ',' }}" />
     <meta itemprop="author" content="{{ post.author }}" itemtype="https://schema.org/Person" />
     <meta itemprop="publisher" content="{{ site.title }}" />
-    <meta itemprop="headline" content="{{ post.title }}" itemtype="https://schema.org/Text" />
+    <meta itemprop="name headline" content="{{ post.title }}" itemtype="https://schema.org/Text" />
     <meta itemprop="image" content="{{ post.thumbnail }}" itemtype="https://schema.org/Image" />
+    <meta itemprop="datePublished" content="{{ post.date }}">
     <div class="column is-8 is-offset-2">
-        <meta itemprop="datePublished" content="{{ post.date }}">
         <span class="post date">{% include _scripts/shortdatefr.html %}</span> ⏤ 
         <a class="post link" href="{{ post.url }}" itemprop="url">{{ post.title }}</a> ⏤ 
         <span class="post excerpt" itemprop="description">

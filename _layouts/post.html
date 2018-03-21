@@ -1,49 +1,59 @@
 ---
 layout: default
 ---
-<section class="hero is-dark">
-    <div class="hero-body">
-        <div class="container has-text-centered">
-            <h1 class="title">
-                {{ page.title }}
-            </h1>
-            <h2 class="subtitle">
-                {% include _scripts/datefr.html %}
-                {% include _scripts/auteur.html %}
-                {% if page.meta %} • {{ page.meta }}{% endif %}
-            </h2>
-        </div>
-    </div>
-</section>
+<div itemscope itemtype="http://schema.org/Article">
+    <meta itemprop="wordCount" content="{{ post.content | number_of_words }}" />
+    <meta itemprop="keywords about" content="{{ post.tags | join: ',' }}" />
+    <meta itemprop="author" content="{{ post.author }}" itemtype="https://schema.org/Person" />
+    <meta itemprop="publisher" content="{{ site.title }}" />
+    <meta itemprop="image" content="{{ page.thumbnail }}" itemtype="https://schema.org/Image" />
+    <meta itemprop="datePublished" content="{{ post.date }}">
 
-<section class="section">
-    <div class="content container is-fluid">
-        <div class="columns">
-            <div class="column is-8 is-offset-2">
-                <blockquote>{{ page.excerpt }}</blockquote>
-
-                <div class="post">
-                    {{ content }}
-                </div>
-
-                <hr>
-                <div class="related">
-                    <h2>Voir aussi</h2>
-                    <ul>
-                        {% for related in site.related_posts %}
-                        <li><a href="{{ related.url }}">{{ related.title }}</a></li>
-                        {% endfor %}
-                    </ul>
-                </div>
-
-                {% unless page.comments == false %}
-                <hr>
-                <div class="comments">
-                    {% include _meta/disqus.html %}
-                </div>
-                {% endunless %}
-
+    <section class="hero is-dark">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title" itemprop="name headline">
+                    {{ page.title }}
+                </h1>
+                <h2 class="subtitle">
+                    {% include _scripts/datefr.html %}
+                    {% include _scripts/auteur.html %}
+                    {% if page.meta %} • {{ page.meta }}{% endif %}
+                </h2>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+
+    <section class="section">
+        <div class="content container is-fluid">
+            <div class="columns">
+                <div class="column is-8 is-offset-2">
+                    <blockquote itemprop="description">{{ page.excerpt }}</blockquote>
+
+                    <div class="post" itemprop="articleBody">
+                        {{ content }}
+                    </div>
+
+                    <hr>
+                    <div class="related">
+                        <h2>Voir aussi</h2>
+                        <ul>
+                            {% for related in site.related_posts %}
+                            <li><a href="{{ related.url }}" itemprop="relatedLink">{{ related.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+
+                    {% unless page.comments == false %}
+                    <hr>
+                    <div class="comments">
+                        {% include _meta/disqus.html %}
+                    </div>
+                    {% endunless %}
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
