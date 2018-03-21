@@ -41,7 +41,7 @@ exclude:
   - "*.org"
 
 # Pagination
-paginate: 5
+paginate: 7
 paginate_path: "/archives/:num"
 
 # Permalinks
