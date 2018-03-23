@@ -4,7 +4,11 @@ layout: default
 <div itemscope itemtype="http://schema.org/Article">
     <meta itemprop="wordCount" content="{{ page.content | number_of_words }}" />
     <meta itemprop="keywords about" content="{{ page.tags | join: ',' }}" />
+    {% if page.author.display_name %}
+    <meta itemprop="author" content="{{ page.author.display_name }}" itemtype="https://schema.org/Person" />
+    {% else %}
     <meta itemprop="author" content="{{ page.author }}" itemtype="https://schema.org/Person" />
+    {% endif %}
     <meta itemprop="publisher" content="{{ site.title }}" />
     <meta itemprop="image" content="{{ page.thumbnail }}" itemtype="https://schema.org/Image" />
     <meta itemprop="datePublished" content="{{ page.date }}">
