@@ -49,7 +49,11 @@ First, create a new file *~/.config/autostart/hidpi.sh* :
 xrandr --output eDP-1 --scale 1.25x1.25  --panning 3200x1800
 ```
 
-Create a second file, *~/.config/autostart/hidpi.desktop* :
+Then, make the file executable. In a Terminal, type :
+
+    chmod +x ~/.config/autostart/hidpi.sh
+
+Finally, create a second file, *~/.config/autostart/hidpi.desktop* :
 
 ```
 [Desktop Entry]
