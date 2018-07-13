@@ -36,7 +36,7 @@ Increasing the scale make the interface elements _smaller_ : 1.75x1.75 is _small
 
 This is a common issue with the xrandr tweak. Run *xrandr* command again to get your *current* resolution (3200x1800 in the example above).
 
-Then, run *xrandr* one more time with the _-–spanning_ option.
+Then, run *xrandr* one more time with _panning_ option.
 
     xrandr --output eDP-1 --scale 1.25x1.25  --panning 3200x1800
     
