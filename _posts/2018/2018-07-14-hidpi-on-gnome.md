@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: "HiDPI on Gnome destop"
+title: "HiDPI on Gnome desktop"
 author: GF
 excerpt: "High resolution (HiDPI) screens are common in 2018 but unlike OS X and Windows, Linux Gnome destop lacks support for interface (GUI) and text fractional scaling. With the Gnome default of 200% scaling, interface elements are too big. Without it, elements are too small. What we need is fractional scaling : 125%, 150% or 175%. Here’s how to enable fractional scaling on Gnome 3, with Xorg and Wayland, on Ubuntu 18.04 Bionic Beaver or other modern distros."
 date: '2018-07-14 00:45:00'
