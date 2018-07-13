@@ -9,6 +9,7 @@ categories:
 - Informatique
 tags:
 - Linux
+- ubuntu
 permalink:  /2018/07/14/hidpi-on-gnome-desktop/
 ---
 
