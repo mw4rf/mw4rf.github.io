@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "Observations sur la réforme de la Cour de cassation"
 author: GF
-excerpt: "Le petit monde des juristes s’agite et se divise autour de la réforme de la Cour de cassation. Récemment, les contempteurs de la réforme ont donné de la voix, en signant une [tribune publiée dans Les Echos](https://www.lesechos.fr/idees-debats/cercle/0301965984892-non-a-la-transformation-de-la-cour-de-cassation-en-cour-supreme-2193211.php). Sans adhérer aveuglément à la réforme proposée par la première présidence, et bien que comprenant leurs craintes, nous trouvons les arguments avancés par les auteurs de la tribune assez spécieux. Voici pourquoi."
+excerpt: "Le petit monde des juristes s’agite et se divise autour de la réforme de la Cour de cassation. Récemment, les contempteurs de la réforme ont donné de la voix, en signant une tribune publiée dans Les Echos (https://www.lesechos.fr/idees-debats/cercle/0301965984892-non-a-la-transformation-de-la-cour-de-cassation-en-cour-supreme-2193211.php). Sans adhérer aveuglément à la réforme proposée par la première présidence, et bien que comprenant leurs craintes, nous trouvons les arguments avancés par les auteurs de la tribune assez spécieux. Voici pourquoi."
 date: '2018-07-21 17:05:00'
 categories:
 - Juridique
@@ -21,7 +21,7 @@ C’est dans ce contexte que la Cour de cassation entend se réformer ou, plutô
 
 La première raison de la juridictionnalisation de la Cour de cassation réside dans le respect des conventions internationales relatives aux droits de l’homme ([CEDH](https://www.echr.coe.int/Documents/Convention_FRA.pdf), [Charte de l’UE](http://www.europarl.europa.eu/charter/pdf/text_fr.pdf), [Pactes de l’ONU](https://www.ohchr.org/FR/ProfessionalInterest/Pages/InternationalLaw.aspx)).
 
-### La suprémation des conventions internationales et le contrôle de conventionnalité
+### La suprématie des conventions internationales et le contrôle de conventionnalité
 
 Selon l’article 55 de la Constitution, les conventions internationales (ratifiées et sous réserve de réciprocité) sont hiérarchiquement supérieures à la loi. Partant, lorsqu’une loi contredit une règle issue de la convention, cette dernière prévaut et la loi doit être écartée.
 
@@ -31,7 +31,7 @@ La Cour européenne des droits de l’homme ne se satisfait cependant ni du cont
 
 La Cour de cassation souhaite compléter le contrôle de conventionnalité _in abstracto_ (conformité de la loi à la Convention) par un contrôle _in concreto_ (conformité du résultat de l’application de la loi au cas d’espèce aux exigences de la Convention), afin d’éviter à la France d’être condamnée pour violation de la Convention. Or, c’est de contrôle _in concreto_ qui impose à la Cour de prendre en considération les faits de l’espèce en excédant son rôle traditionnel de juge de cassation.
 
-Les droits de l’homme n’étant pas hiérarchisés, il n’existe pas de mécanisme permettant de les départager de manière systématique et abstraite. Les conflits entre droits de l’homme sont tranchés au terme d’un raisonnement prenant en compte les circonstances de l’espèce et _mettant en balance_ les droits en conflit. Cette méthode de la mise en balance des intérêts est bien connue des juridictions de _common law_ _(“balance of interests”)_, allemandes, et européennes (CEDH et CJUE). Elle suppose, très schématiquement, que le juge examine, lorsqu’il est porté atteinte à un droit protégé, 1) si cette atteinte est justifiée par la loi (légalité), 2) si elle est nécessaire eu égard au but poursuivi par la loi (nécessité), 3) si le préjudice qui en résulte est proportionné au bénéfice qu’elle produre (proportionnalité). En se réformant, la Cour de cassation souhaite adopter elle aussi cette méthode.
+Les droits de l’homme n’étant pas hiérarchisés, il n’existe pas de mécanisme permettant de les départager de manière systématique et abstraite. Les conflits entre droits de l’homme sont tranchés au terme d’un raisonnement prenant en compte les circonstances de l’espèce et _mettant en balance_ les droits en conflit. Cette méthode de la mise en balance des intérêts est bien connue des juridictions de _common law_ _(“balance of interests”)_, allemandes, et européennes (CEDH et CJUE). Elle suppose, très schématiquement, que le juge examine, lorsqu’il est porté atteinte à un droit protégé, 1) si cette atteinte est justifiée par la loi (légalité), 2) si elle est nécessaire eu égard au but poursuivi par la loi (nécessité), 3) si le préjudice qui en résulte est proportionné au bénéfice qu’elle procure (proportionnalité). En se réformant, la Cour de cassation souhaite adopter elle aussi cette méthode.
 
 ### Un exemple de contrôle de proportionnalité
 
@@ -41,7 +41,7 @@ Les auteurs de la tribune reprochent à la Cour de cassation d’abandonner son 
 
 ### Le désordre dans la jurisprudence
 
-Il est vrai que le contrôle de proportionnalité mis en oeuvre dans l’arrêt précité est source d’incertitude quant à la durée nécessaire pour qu’un mariage incestueux échappe à la nullité. La loi fixe cette durée à trente ans, mais la Cour a écarté la loi au motif que vingt ans suffisent pour qu’une annulation soit une ingérence injustifiée dans la vie privée et familiale des époux. Quinze ans auraient-il été suffisants ? Et dix ans ? La Cour ne donne aucune indication aux juges du fond. Une cour d’appel pourrait juger que quinze ans suffisent, une autre exiger une durée minimale de vingt ans… Cette incertitude est intrinsèque au contrôle de proportionnalité puisque celui-ci repose sur les faits et que les faits sont, par hypothèse, différents dans chaque espèce. L’insécurité juridique est accrue corrélativement à l’équité.
+Il est vrai que le contrôle de proportionnalité mis en oeuvre dans l’arrêt précité est source d’incertitude quant à la durée nécessaire pour qu’un mariage incestueux échappe à la nullité. La loi fixe cette durée à trente ans, mais la Cour a écarté la loi au motif que vingt ans suffisent pour qu’une annulation soit une ingérence injustifiée dans la vie privée et familiale des époux. Quinze ans auraient-ils été suffisants ? Et dix ans ? La Cour ne donne aucune indication aux juges du fond. Une cour d’appel pourrait juger que quinze ans suffisent, une autre exiger une durée minimale de vingt ans… Cette incertitude est intrinsèque au contrôle de proportionnalité puisque celui-ci repose sur les faits et que les faits sont, par hypothèse, différents dans chaque espèce. L’insécurité juridique est accrue corrélativement à l’équité.
 
 ### Le spectre de l’équité
 
