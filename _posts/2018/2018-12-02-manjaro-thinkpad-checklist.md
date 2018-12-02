@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: "Arch/Manjaro Setup on Thinkpad"
+title: "Manjaro Setup on Thinkpad"
 author: GF
 excerpt: "This is my custom checklist for a clean install and setup of Arch/Manjaro Gnome 3 desktop on Lenovo Thinkpad (X1 Carbon, X270, X280)."
 date: '2018-12-02 12:05:00'
