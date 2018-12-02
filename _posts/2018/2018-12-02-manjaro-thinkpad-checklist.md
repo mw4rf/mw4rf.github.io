@@ -14,6 +14,27 @@ tags:
 permalink:  /2018/12/02/manjaro-thinkpad-checklist/
 ---
 
+
+<!-- MarkdownTOC autolink="true" -->
+
+- [Install](#install)
+- [Configure Hardware](#configure-hardware)
+    - [Screen](#screen)
+    - [Touchpad](#touchpad)
+- [Configure Desktop](#configure-desktop)
+    - [Theme & Colors](#theme--colors)
+    - [Hide top bar](#hide-top-bar)
+    - [Install Apps](#install-apps)
+        - [Dropbox](#dropbox)
+        - [Terminator](#terminator)
+        - [LibreOffice](#libreoffice)
+        - [Sublime Text & Merge](#sublime-text--merge)
+        - [Dracula Color Theme](#dracula-color-theme)
+        - [GPaste](#gpaste)
+
+<!-- /MarkdownTOC -->
+
+
 # Install
 
 The Manjaro ISO is periodically re-generated but it's unlikely your system will be up to date after a fresh install. The last step of the install process is therefore to update the installed system.
@@ -172,7 +193,7 @@ ColorPicker
 Color Highlighter
 MarkdownEditing
 MarkdownPreview
-
+MarkdownTOC
 ```
 
 - Set theme: <kbd>Shift-Ctrl-P</kbd> > Ayu
