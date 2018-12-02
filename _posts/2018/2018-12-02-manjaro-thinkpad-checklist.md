@@ -25,6 +25,7 @@ permalink:  /2018/12/02/manjaro-thinkpad-checklist/
     - [Theme & Colors](#theme--colors)
     - [Hide top bar](#hide-top-bar)
     - [Install Apps](#install-apps)
+        - [Git over SSH](#git-over-ssh)
         - [Dropbox](#dropbox)
         - [Terminator](#terminator)
         - [LibreOffice](#libreoffice)
@@ -102,6 +103,17 @@ Apps to install:
 - Guake **or** Terminator (terminal): `sudo pacman -S guake terminator`
 - VLC : `pacman -S vlc`
 - GPaste (clipboard manager): `sudo pacman -S gpaste`
+
+### Git over SSH
+
+Generate a new SSH key
+
+```
+ssh-keygen
+cat ~/.ssh/id_rsa.pub
+```
+
+Copy it and add it in GitHub, Bitbucket, Gitlab, etc.
 
 ### Dropbox
 
