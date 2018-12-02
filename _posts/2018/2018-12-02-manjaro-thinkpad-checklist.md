@@ -21,6 +21,7 @@ permalink:  /2018/12/02/manjaro-thinkpad-checklist/
 - [Configure Hardware](#configure-hardware)
     - [Screen](#screen)
     - [Touchpad](#touchpad)
+    - [Battery](#battery)
 - [Configure Desktop](#configure-desktop)
     - [Theme & Colors](#theme--colors)
     - [Hide top bar](#hide-top-bar)
@@ -66,6 +67,32 @@ The X1 Carbon Thinkpad has a HiDPI WQHD screen. Gnome default 100% pixel scaling
 ## Touchpad
 
 Enable _Natural Scrolling_ in Settings > Mouse & Touchpad.
+
+## Battery
+
+ThinkPad battery require `tp_smapi` and `acpi_call` kernel modules. 
+
+First, check your kernel version:
+
+```
+$ uname -a
+Linux X1 4.19.4-1-MANJARO #1 SMP PREEMPT Fri Nov 23 18:23:26 UTC 2018 x86_64 GNU/Linux
+```
+
+I'm using a 4.19 kernel. I have to install 'linux419-' modules. 
+
+```
+yaourt tp_smapi
+yaourt acpi_call
+
+sudo reboot
+```
+
+TLPui is a graphical tool to configure TLP (and avoid miconfiguration):
+
+```
+sudo pacman -S tlpui
+```
 
 # Configure Desktop
 
