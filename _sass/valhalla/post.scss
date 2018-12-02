@@ -28,7 +28,7 @@ pre {
     .post h6::before { content : "######"; }
 
 
-    ul {
+    .post ul, .related ul, .post ul ul, .post ul ul ul, .post ul ul ul ul {
         list-style: none;
         list-style-type: none;
         a {
@@ -42,14 +42,14 @@ pre {
                 content: "{";
                 display: inline-block;
                 position: relative;
-                left: -1rem;
+                left: -1.5rem;
                 color:$grey-light;
             }
             &::after {
                 content: "}";
                 display: inline-block;
                 position: relative;
-                right: -1rem;
+                right: -1.5Srem;
                 color:$grey-light;
             }
         }
