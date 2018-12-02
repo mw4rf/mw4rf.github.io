@@ -22,6 +22,10 @@ permalink:  /2018/12/02/manjaro-thinkpad-checklist/
     - [Screen](#screen)
     - [Touchpad](#touchpad)
     - [Battery](#battery)
+        - [Kernel modules](#kernel-modules)
+        - [TLP ui](#tlp-ui)
+        - [CPU frequency scaling](#cpu-frequency-scaling)
+        - [Audio power saving](#audio-power-saving)
 - [Configure Desktop](#configure-desktop)
     - [Theme & Colors](#theme--colors)
     - [Hide top bar](#hide-top-bar)
@@ -70,6 +74,8 @@ Enable _Natural Scrolling_ in Settings > Mouse & Touchpad.
 
 ## Battery
 
+### Kernel modules
+
 ThinkPad battery require `tp_smapi` and `acpi_call` kernel modules. 
 
 First, check your kernel version:
@@ -88,10 +94,28 @@ yaourt acpi_call
 sudo reboot
 ```
 
+### TLP ui
+
 TLPui is a graphical tool to configure TLP (and avoid miconfiguration):
 
 ```
 sudo pacman -S tlpui
+```
+
+### CPU frequency scaling
+
+Following [ArchWiki](https://wiki.archlinux.org/index.php/Power_management), in `/etc/tmpfiles.d/energy_performance_preference.conf`, add this line:
+
+```
+w /sys/devices/system/cpu/cpufreq/policy?/energy_performance_preference - - - - balance_power
+```
+
+### Audio power saving
+
+To shut down the audio card after 1 second of inactivity, add the following line in `/etc/modprobe.d/audio_powersave.conf`:
+
+```
+options snd_hda_intel power_save=1
 ```
 
 # Configure Desktop
