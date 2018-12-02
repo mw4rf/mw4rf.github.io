@@ -28,7 +28,7 @@ pre {
     .post h6::before { content : "######"; }
 
 
-    .post ul, .related ul {
+    .post ul, .related ul, .post ul ul, .post ul ul ul, .post ul ul ul ul {
         list-style: none;
         list-style-type: none;
         a {
