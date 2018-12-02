@@ -26,6 +26,7 @@ permalink:  /2018/12/02/manjaro-thinkpad-checklist/
     - [Hide top bar](#hide-top-bar)
     - [Install Apps](#install-apps)
         - [Git over SSH](#git-over-ssh)
+        - [Add SSH key to remote servers](#add-ssh-key-to-remote-servers)
         - [Dropbox](#dropbox)
         - [Terminator](#terminator)
         - [LibreOffice](#libreoffice)
@@ -114,6 +115,34 @@ cat ~/.ssh/id_rsa.pub
 ```
 
 Copy it and add it in GitHub, Bitbucket, Gitlab, etc.
+
+Setup git identity:
+
+```
+git config --global user.name <username>
+git config --global user.email <usermail>
+git config --global core.editor gedit
+```
+
+Add some colors. Paste this in `~/.gitconfig` :
+
+```
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+  interactive = auto
+  ui = true
+  pager = true
+```
+
+### Add SSH key to remote servers
+
+If you want to SSH to remote servers, add your key with this command:
+
+```
+ssh-copy-id <server address>
+```
 
 ### Dropbox
 
