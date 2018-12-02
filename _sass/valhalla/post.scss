@@ -30,6 +30,7 @@ pre {
 
     .post ul, .related ul {
         list-style: none;
+        list-style-type: none;
         a {
             &::after {
                 height: 0%;
