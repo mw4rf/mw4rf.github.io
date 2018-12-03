@@ -54,6 +54,15 @@ In Keyboard, switch <kbd>Fn</kbd> behavior: F1=F1, Fn+F1=utility.
 
 # Install
 
+## Arch
+
+- Gist: [UEFI Full disk encryption (dm-crypt/LUKS)](https://gist.github.com/mattiaslundberg/8620837)
+
+
+## Manjaro
+
+For the installation itself: boot from the Manjaro ISO, click on the installer icon on the dock, spam-click 'next'...
+
 The Manjaro ISO is periodically re-generated but it's unlikely your system will be up to date after a fresh install. The last step of the install process is therefore to update the installed system.
 
 ```
