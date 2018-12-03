@@ -19,25 +19,26 @@ permalink:  /2018/12/02/manjaro-thinkpad-checklist/
 
 - [Install](#install)
 - [Configure Hardware](#configure-hardware)
-    - [Screen](#screen)
-    - [Touchpad](#touchpad)
-    - [Battery](#battery)
-        - [Kernel modules](#kernel-modules)
-        - [TLP ui](#tlp-ui)
-        - [CPU frequency scaling](#cpu-frequency-scaling)
-        - [Audio power saving](#audio-power-saving)
+  - [Screen](#screen)
+  - [CPU Microcode](#cpu-microcode)
+  - [Touchpad](#touchpad)
+  - [Battery](#battery)
+    - [Kernel modules](#kernel-modules)
+    - [TLP ui](#tlp-ui)
+    - [CPU frequency scaling](#cpu-frequency-scaling)
+    - [Audio power saving](#audio-power-saving)
 - [Configure Desktop](#configure-desktop)
-    - [Theme & Colors](#theme--colors)
-    - [Hide top bar](#hide-top-bar)
-    - [Install Apps](#install-apps)
-        - [Git over SSH](#git-over-ssh)
-        - [Add SSH key to remote servers](#add-ssh-key-to-remote-servers)
-        - [Dropbox](#dropbox)
-        - [Terminator](#terminator)
-        - [LibreOffice](#libreoffice)
-        - [Sublime Text & Merge](#sublime-text--merge)
-        - [Dracula Color Theme](#dracula-color-theme)
-        - [GPaste](#gpaste)
+  - [Theme & Colors](#theme--colors)
+  - [Hide top bar](#hide-top-bar)
+  - [Install Apps](#install-apps)
+    - [Git over SSH](#git-over-ssh)
+    - [Add SSH key to remote servers](#add-ssh-key-to-remote-servers)
+    - [Dropbox](#dropbox)
+    - [Terminator](#terminator)
+    - [LibreOffice](#libreoffice)
+    - [Sublime Text & Merge](#sublime-text--merge)
+    - [Dracula Color Theme](#dracula-color-theme)
+    - [GPaste](#gpaste)
 
 <!-- /MarkdownTOC -->
 
@@ -67,6 +68,15 @@ sudo pacman -S yaourt
 ## Screen
 
 The X1 Carbon Thinkpad has a HiDPI WQHD screen. Gnome default 100% pixel scaling makes the texts unreadable and the interface elements difficult to click on. However, with the default 200% scale used by Manjaro everything look big, _too_ big. I find a 150% _fractional_ scaling to be the best compromise. The setup is easy with _xrandr_, see [HiDPI on Gnome desktop](/2018/07/14/hidpi-on-gnome-desktop/).
+
+## CPU Microcode
+
+The Linux kernel can update the CPU microcode when manufacturers release a new version. In order to enable update at boot time:
+
+```
+sudo pacman -S intel-ucode
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+```
 
 ## Touchpad
 
