@@ -169,6 +169,7 @@ Apps to install:
 - Sublime Text: `yaourt -S sublime-text-dev`
 - Emacs: `sudo pacman -S emacs`
 - LaTeX: `sudo pacman -S texlive-most`
+- Pandoc (documents converter): `sudo pacman -S pandoc`
 - [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts): `yaourt -S nerd-fonts-complete`
 - Guake **or** Terminator (terminal): `sudo pacman -S guake terminator`
 - VLC : `pacman -S vlc`
