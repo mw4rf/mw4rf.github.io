@@ -337,6 +337,18 @@ cd gnome-terminal-colors-dracula
 Change the default keyboard shortcut from <kbd>Ctrl-Alt-G</kbd> to <kbd>Ctrl-Alt-V</kbd> in Gnome settings: Windows key > Settings > Devices > Keyboard.
 
 
+### iCloud Calendar
+
+Source: [Using iCloud calendars on GNU/Linux](https://ar.al/2018/08/05/using-icloud-calendars-on-gnu-linux/). Here's how to setup iCloud calendar on Gnome desktop :
+
+- Install `Evolution`
+- Create an app-specific password in iCloud
+- Add a new calendar in Evolution
+
+```
+Address: https://caldav.icloud.com
+```
+
 # Finishing
 
 - Change Wallpaper
