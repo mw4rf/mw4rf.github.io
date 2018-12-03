@@ -40,6 +40,7 @@ permalink:  /2018/12/02/manjaro-thinkpad-checklist/
     - [Sublime Text & Merge](#sublime-text--merge)
     - [Dracula Color Theme](#dracula-color-theme)
     - [GPaste](#gpaste)
+- [Finishing](#finishing)
 
 <!-- /MarkdownTOC -->
 
@@ -336,6 +337,9 @@ cd gnome-terminal-colors-dracula
 Change the default keyboard shortcut from <kbd>Ctrl-Alt-G</kbd> to <kbd>Ctrl-Alt-V</kbd> in Gnome settings: Windows key > Settings > Devices > Keyboard.
 
 
+# Finishing
 
+- Change Wallpaper
+- Connect online accounts (Gnome Settings).
 
 
