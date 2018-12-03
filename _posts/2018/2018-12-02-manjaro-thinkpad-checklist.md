@@ -19,6 +19,8 @@ permalink:  /2018/12/02/manjaro-thinkpad-checklist/
 
 - [Before Install](#before-install)
 - [Install](#install)
+  - [Arch](#arch)
+  - [Manjaro](#manjaro)
 - [Configure Hardware](#configure-hardware)
   - [Screen](#screen)
   - [CPU Microcode](#cpu-microcode)
@@ -40,6 +42,7 @@ permalink:  /2018/12/02/manjaro-thinkpad-checklist/
     - [Sublime Text & Merge](#sublime-text--merge)
     - [Dracula Color Theme](#dracula-color-theme)
     - [GPaste](#gpaste)
+    - [iCloud Calendar](#icloud-calendar)
 - [Finishing](#finishing)
 
 <!-- /MarkdownTOC -->
