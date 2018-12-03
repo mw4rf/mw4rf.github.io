@@ -17,6 +17,7 @@ permalink:  /2018/12/02/manjaro-thinkpad-checklist/
 
 <!-- MarkdownTOC autolink="true" -->
 
+- [Before Install](#before-install)
 - [Install](#install)
 - [Configure Hardware](#configure-hardware)
   - [Screen](#screen)
@@ -42,6 +43,13 @@ permalink:  /2018/12/02/manjaro-thinkpad-checklist/
 
 <!-- /MarkdownTOC -->
 
+# Before Install
+
+Power on the computer and press <kbd>Enter</kbd> key to enter BIOS menu. Enter BIOS setup (F1 or F2).
+
+In _Security_, **disable** Secure Boot.
+
+In Keyboard, switch <kbd>Fn</kbd> behavior: F1=F1, Fn+F1=utility.
 
 # Install
 
