@@ -17,7 +17,6 @@ excerpt: "Le <a href=\"http://www.valhalla.fr/index.php/2007/03/05/le-calvaire-d
   bibliographie et rédiger un long document avec ces deux logiciels ressemble déjà
   beaucoup moins à un calvaire.\r\n\r\n"
 wordpress_id: 116
-wordpress_/index.php/2007/03/11/bibliographie-sur-ordinateur-ca-sameliore/
 date: '2007-03-11 19:56:47 +0100'
 date_gmt: '2007-03-11 18:56:47 +0100'
 categories:

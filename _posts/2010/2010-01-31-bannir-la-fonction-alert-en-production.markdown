@@ -15,7 +15,6 @@ excerpt: "Bannir la fonction alert() en production. Voilà un titre d'article bi
   add-on défectueux, et de pousser un \"coup de gueule\" contre l'utilisation de la
   fonction alert() dans des programmes distribués à l'attention de l'utilisateur final.\r\n\r\n"
 wordpress_id: 295
-wordpress_/?p=295
 date: '2010-01-31 23:11:00 +0100'
 date_gmt: '2010-01-31 21:11:00 +0100'
 categories:

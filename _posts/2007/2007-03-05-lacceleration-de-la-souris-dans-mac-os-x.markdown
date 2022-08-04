@@ -18,7 +18,6 @@ excerpt: "Un très bon <a href=\"http://db.tidbits.com/article/8893\">article</a
   de l'accélération, qui est calculée mathématiquement selon une courbe. Selon l'auteur,
   la courbe employée par Mac OS X serait inappropriée.\r\n\r\n"
 wordpress_id: 114
-wordpress_/index.php/2007/03/05/lacceleration-de-la-souris-dans-mac-os-x/
 date: '2007-03-05 10:47:05 +0100'
 date_gmt: '2007-03-05 09:47:05 +0100'
 categories:

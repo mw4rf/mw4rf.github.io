@@ -21,7 +21,6 @@ excerpt: "Les deux sociétés américaines Google et Verizon viennent de publier
   but de présenter quelques observations sur la position commune de Google et de Verizon,
   en la rapprochant parfois de l'exemple européen.\r\n\r\n"
 wordpress_id: 648
-wordpress_/?p=648
 date: '2010-08-14 16:50:26 +0200'
 date_gmt: '2010-08-14 14:50:26 +0200'
 categories:

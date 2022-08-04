@@ -10,7 +10,6 @@ title: 'La circulation des décisions dans le règlement « Bruxelles II bis » 
 
 
 wordpress_id: 403
-wordpress_/?p=403
 date: '2006-12-13 12:45:47 +0100'
 date_gmt: '2006-12-13 10:45:47 +0100'
 categories:

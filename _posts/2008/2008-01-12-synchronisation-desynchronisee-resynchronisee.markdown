@@ -22,7 +22,6 @@ excerpt: "Quel titre étrange ! Il vaut mieux l'expliquer tout de suite : parmi 
   le tout, ce qui est plus facile à dire qu'à faire. Cet article est le récit de deux
   mésaventures avec la synchronisation du trousseau 1Password et avec l'iDisk.\r\n\r\n"
 wordpress_id: 136
-wordpress_/index.php/2008/01/12/synchronisation-desynchronisee-resynchronisee/
 date: '2008-01-12 02:03:46 +0100'
 date_gmt: '2008-01-12 01:03:46 +0100'
 categories:

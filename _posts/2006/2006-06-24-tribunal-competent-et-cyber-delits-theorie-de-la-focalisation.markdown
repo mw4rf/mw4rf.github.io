@@ -13,7 +13,6 @@ excerpt: "Deux arrêts rendus par la Cour d'appel de Paris à peu de jours d'int
   décident de la compétence ou de l'incompétence des tribunaux français pour connaître
   de cas de cyber-délits. Les deux arrêts font application de la théorie de la focalisation.\r\n\r\n"
 wordpress_id: 388
-wordpress_/?p=388
 date: '2006-06-24 12:24:52 +0200'
 date_gmt: '2006-06-24 10:24:52 +0200'
 categories:

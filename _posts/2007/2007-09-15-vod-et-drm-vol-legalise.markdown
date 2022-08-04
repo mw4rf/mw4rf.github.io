@@ -24,7 +24,6 @@ excerpt: "Non aux DRM, non à la <i>Video-On-Demand</i> à base de DRM ! Non ! D
   tels que TF1vision ou Vodeo. Là il s'agit tout simplement de vol. Une immense arnaque,
   de la malhonnêteté pure.\r\n\r\n"
 wordpress_id: 126
-wordpress_/index.php/2007/09/15/drm-et-vod-vol-legalise/
 date: '2007-09-15 13:13:03 +0200'
 date_gmt: '2007-09-15 12:13:03 +0200'
 categories:

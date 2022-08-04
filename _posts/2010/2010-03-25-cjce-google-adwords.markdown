@@ -23,7 +23,6 @@ excerpt: "<strong>Observations à propos de l'arrêt du 23 mars 2010 (affaires C
   ou d’éditeur et laisse aux juridictions nationales le soin de déterminer le régime
   de responsabilité qui lui est applicable.\r\n"
 wordpress_id: 475
-wordpress_/?p=475
 date: '2010-03-25 11:58:43 +0100'
 date_gmt: '2010-03-25 09:58:43 +0100'
 categories:

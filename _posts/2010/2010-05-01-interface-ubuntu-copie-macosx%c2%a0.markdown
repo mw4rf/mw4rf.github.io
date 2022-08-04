@@ -17,7 +17,6 @@ excerpt: "L'interface d'Ubuntu 10.04, « Lucid Lynx », copierait celle de Mac
   de l'esprit de Linux, des précédentes versions d'Ubuntu et du monde libre. Voyons
   ce qu'il en est.\r\n"
 wordpress_id: 551
-wordpress_/?p=551
 date: '2010-05-01 21:55:36 +0200'
 date_gmt: '2010-05-01 19:55:36 +0200'
 categories:

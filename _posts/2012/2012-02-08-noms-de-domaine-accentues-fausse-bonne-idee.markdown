@@ -14,7 +14,6 @@ excerpt: "L'AFNIC, association gérant les noms de domaine .fr, vient d'<a href=
   accentuées. Cela semble être une bonne idée, mais en pratique, les inconvénients
   risquent d'être plus nombreux que les avantages.\r\n\r\n"
 wordpress_id: 837
-wordpress_/?p=837
 date: '2012-02-08 20:43:03 +0100'
 date_gmt: '2012-02-08 18:43:03 +0100'
 categories:

@@ -15,7 +15,6 @@ excerpt: "Un message rapide pour présenter la nouvelle interface graphique du s
   exclu qu'il réapparaisse cet été. Mais en attendant, les dominantes seront marron
   et orange foncé.\r\n\r\n"
 wordpress_id: 132
-wordpress_/index.php/2007/11/09/aux-couleurs-de-lautomne/
 date: '2007-11-09 14:28:02 +0100'
 date_gmt: '2007-11-09 13:28:02 +0100'
 categories:

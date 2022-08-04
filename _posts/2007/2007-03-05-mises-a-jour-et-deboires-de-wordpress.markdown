@@ -15,7 +15,6 @@ excerpt: "Il y a quelques jours, 3 précisément, j'ai mis à jour l'installatio
   est urgent de passer en version 1.1.2. Il semblerait qu'il y ait eu un léger souci
   de nature hackesque...\r\n\r\n"
 wordpress_id: 113
-wordpress_/index.php/2007/03/05/mises-a-jour-et-deboires-de-wordpress/
 date: '2007-03-05 00:15:56 +0100'
 date_gmt: '2007-03-04 22:15:56 +0100'
 categories:

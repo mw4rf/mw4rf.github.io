@@ -15,7 +15,6 @@ excerpt: "Qui, aujourd'hui, ne connaît pas Google, et n'utilise pas au moins l'
   la société américaine n'est pas sans danger, car elle lui confère un pouvoir considérable
   sur les internautes : savoir ce qu'ils lisent et les inciter à lire tel ou tel document.\r\n"
 wordpress_id: 510
-wordpress_/?p=510
 date: '2010-04-17 17:38:45 +0200'
 date_gmt: '2010-04-17 15:38:45 +0200'
 categories:

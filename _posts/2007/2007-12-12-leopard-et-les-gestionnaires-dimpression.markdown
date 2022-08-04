@@ -15,7 +15,6 @@ excerpt: "Leopard, la dernière version de Mac OS X, n'aime pas les imprimantes 
   fonctionnait parfaitement sous Tiger. Voici donc le récit du problème et l'exposé
   de la solution.\r\n\r\n"
 wordpress_id: 134
-wordpress_/index.php/2007/12/12/leopard-et-les-gestionnaires-dimpression/
 date: '2007-12-12 12:23:13 +0100'
 date_gmt: '2007-12-12 11:23:13 +0100'
 categories:

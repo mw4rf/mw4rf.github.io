@@ -21,7 +21,6 @@ excerpt: "L'<i><a href=\"http://fr.wikipedia.org/wiki/Hypertext_Markup_Language\
   dont le très important <a href=\"http://www.dicodunet.com/definitions/normes/attribut.htm\">attribut</a>
   <strong>contenteditable</strong>.\r\n"
 wordpress_id: 519
-wordpress_/?p=519
 date: '2010-04-19 09:23:25 +0200'
 date_gmt: '2010-04-19 07:23:25 +0200'
 categories:

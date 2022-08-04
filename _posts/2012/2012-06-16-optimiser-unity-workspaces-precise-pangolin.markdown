@@ -19,7 +19,6 @@ excerpt: 'Après plusieurs années sans évolution majeure, les interfaces de bu
   Unity plus rapide et fluidifient son utilisation, au détriment de la "beauté" de
   l''interface. '
 wordpress_id: 876
-wordpress_/?p=876
 date: '2012-06-16 22:23:08 +0200'
 date_gmt: '2012-06-16 20:23:08 +0200'
 categories:

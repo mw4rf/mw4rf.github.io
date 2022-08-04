@@ -22,7 +22,6 @@ excerpt: "<i>Toi, qui me lis, es-tu sûr de comprendre ma langue ?</i> (Jorge Lu
   en réalité de 1,25 méga. Pourquoi ces différences ? Parlons-nous vraiment la même
   langue ?\r\n"
 wordpress_id: 133
-wordpress_/index.php/2007/11/09/de-borges-a-linformatique-des-bits-aux-octets/
 date: '2007-11-09 17:46:52 +0100'
 date_gmt: '2007-11-09 16:46:52 +0100'
 categories:

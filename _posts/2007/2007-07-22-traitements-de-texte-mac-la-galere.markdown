@@ -11,7 +11,6 @@ title: 'Traitements de texte Mac: la galère'
 
 excerpt: "Trouver un bon logiciel de traitement de texte sur Mac, c’est la galère. Il n’y a qu’à regarder l’icône de NeoOffice pour s’en convaincre. Il y a certes de bons programmes, mais aucun n’est parfait. Et les problèmes que chacun présente sont toujours de gros problèmes. Dans ma recherche du meilleur traitement de texte possible, j’ai pu essayer Word, OpenOffice, NeoOffice, Mellel, Nisus Writer Pro et Apple Pages. J’ai envie de décrire ici ce que sont à mon sens les points forts et les points faibles de chacun de ces logiciels. On parlera d’abord de ceux qu’on élimine sans hésitation, tellement ils sont médiocres. Passent à la moulinette Pages et OpenOffice. On verra ensuite les incontournables qu’on aimerait bien contourner, les habituels logiciels qu’on aimerait bien pouvoir abandonner. Il s’agit de Word et de NeoOffice. Finalement, Mellel et Nisus Writer Pro (NWP) sont ceux qu’on aimerait aimer mais qu’on aimerait meilleurs."
 wordpress_id: 121
-wordpress_/index.php/2007/07/22/traitements-de-texte-mac-la-galere/
 date: '2007-07-22 18:19:56 +0200'
 date_gmt: '2007-07-22 17:19:56 +0200'
 categories:

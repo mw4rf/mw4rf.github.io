@@ -17,7 +17,6 @@ excerpt: "L'exclusivité de l'action en garantie des vices cachés, issue du dro
   jurisprudence antérieure en distinguant le vice caché du défaut de conformité, et
   va plus en avant en le distinguant également de l'erreur vice du consentement.\r\n\r\n"
 wordpress_id: 381
-wordpress_/?p=381
 date: '2006-06-04 12:12:50 +0200'
 date_gmt: '2006-06-04 10:12:50 +0200'
 categories:

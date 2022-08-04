@@ -19,7 +19,6 @@ excerpt: "La loi Hadopi fut rejetée début avril par l'Assemblée Nationale (vo
   fondamentaux des utilisateurs du réseau nécessite une décision judiciaire. Ces batailles
   procédurales cachent la réalité de la situation, et masquent les véritables solutions.\r\n"
 wordpress_id: 172
-wordpress_/?p=172
 date: '2009-04-26 14:39:35 +0200'
 date_gmt: '2009-04-26 12:39:35 +0200'
 categories:

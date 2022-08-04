@@ -21,7 +21,6 @@ excerpt: "<a href=\"http://www.flickr.com/photos/valhallafr/905373894/\" title=\
   CD ou du téléchargement) sans DRM. Je vous propose ici plusieurs méthodes pour retrouver
   ces morceaux, et les fichiers associés dans le Finder.</p>\r\n"
 wordpress_id: 122
-wordpress_/index.php/2007/07/26/localiser-la-musique-achetee-sur-litunes-stores/
 date: '2007-07-26 14:06:44 +0200'
 date_gmt: '2007-07-26 13:06:44 +0200'
 categories:

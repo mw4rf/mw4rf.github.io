@@ -18,7 +18,6 @@ excerpt: "Dans un article récent, <a href=\"http://en.wikipedia.org/wiki/David_
   ensuite ce que j'entends par \"accès à Internet\" et les raisons pour lesquelles
   je suis favorable à ce qu'un tel accès soit reconnu comme étant une liberté publique.\r\n\r\n"
 wordpress_id: 690
-wordpress_/?p=690
 date: '2010-09-20 17:35:42 +0200'
 date_gmt: '2010-09-20 15:35:42 +0200'
 categories:

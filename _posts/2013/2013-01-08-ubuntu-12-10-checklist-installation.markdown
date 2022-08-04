@@ -18,7 +18,6 @@ excerpt: "Un peu plus de 2 mois après sa sortie, la dernière version d'Ubuntu 
   de retrouver notre environnement habituel. D'où cette check-list, pour mémoire,
   de l'installation d'Ubuntu 12.10 sur un laptop Lenovo X220 2012 (SSD).\r\n\r\n"
 wordpress_id: 886
-wordpress_/?p=886
 date: '2013-01-08 08:42:52 +0100'
 date_gmt: '2013-01-08 06:42:52 +0100'
 categories:

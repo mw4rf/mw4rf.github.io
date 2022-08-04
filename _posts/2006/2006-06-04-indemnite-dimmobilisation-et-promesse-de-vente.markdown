@@ -4,11 +4,6 @@ status: publish
 published: true
 title: Indemnité d'immobilisation et promesse de vente
 
-  
-  
-
-
-
 excerpt: "La clause par laquelle le bénéficiaire d'une promesse unilatérale de vente
   s'engage à payer au promettant un certain prix s'il décide de ne pas lever l'option
   est très courante dans la pratique. Forme de garantie des intérêts de celui qui
@@ -21,7 +16,6 @@ excerpt: "La clause par laquelle le bénéficiaire d'une promesse unilatérale d
   indemnitaire, elle est due en l'absence de tout préjudice et constitue le prix de
   l'exclusivité consentie par le vendeur.\r\n\r\n"
 wordpress_id: 377
-wordpress_/?p=377
 date: '2006-06-04 12:03:45 +0200'
 date_gmt: '2006-06-04 10:03:45 +0200'
 categories:

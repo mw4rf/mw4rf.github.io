@@ -10,7 +10,6 @@ title: Qualification juridique de l’acte de publication d’un flux de liens s
 
 
 wordpress_id: 413
-wordpress_/?p=413
 date: '2008-04-03 13:11:18 +0200'
 date_gmt: '2008-04-03 11:11:18 +0200'
 categories:

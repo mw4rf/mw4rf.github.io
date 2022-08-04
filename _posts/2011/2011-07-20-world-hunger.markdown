@@ -10,7 +10,6 @@ title: World Hunger
 
 
 wordpress_id: 793
-wordpress_/?p=793
 date: '2011-07-20 23:40:27 +0200'
 date_gmt: '2011-07-20 21:40:27 +0200'
 categories:

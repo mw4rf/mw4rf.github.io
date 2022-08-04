@@ -18,7 +18,6 @@ excerpt: "On trouve tous les formats de vidéo sur Internet, certains sont très
   de sous-titres, j'ai recherché comment jouer la vidéo avec ces sous-titres. Voici
   le récit de l'aventure.\r\n\r\n"
 wordpress_id: 137
-wordpress_/index.php/2008/02/27/rmvb-et-sous-titres/
 date: '2008-02-27 19:52:21 +0100'
 date_gmt: '2008-02-27 18:52:21 +0100'
 categories:

@@ -16,7 +16,6 @@ excerpt: "Une fonction peu connue de la logithèque Ubuntu (Software Center) per
   de même se révéler utile et surtout, elle est une exclusivité du monde Linux, car
   ni OSX ni Windows ne permettent de tester des logiciels avant de les installer.\r\n\r\n"
 wordpress_id: 854
-wordpress_/?p=854
 date: '2012-06-11 18:43:15 +0200'
 date_gmt: '2012-06-11 16:43:15 +0200'
 categories:

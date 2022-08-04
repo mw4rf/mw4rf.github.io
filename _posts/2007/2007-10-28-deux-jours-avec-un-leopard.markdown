@@ -16,7 +16,6 @@ excerpt: "Leopard, la nouvelle version de Mac OS X, est sorti le vendredi 26 oct
   finalement abouti. J'en suis maintenant à tester les nouveautés de Leopard, les
   comptabilités logicielles, et le comportement général de ce nouveau système d'exploitation.\r\n\r\n"
 wordpress_id: 130
-wordpress_/index.php/2007/10/28/deux-jours-avec-un-leopard/
 date: '2007-10-28 13:47:04 +0100'
 date_gmt: '2007-10-28 12:47:04 +0100'
 categories:

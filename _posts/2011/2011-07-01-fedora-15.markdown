@@ -16,7 +16,6 @@ excerpt: "Fedora 15 est la première distribution Linux grand public à être li
   PC portable. Voici donc le récit de cette installation, sous forme de tutoriel pour
   résoudre les problèmes rencontrés.\r\n"
 wordpress_id: 744
-wordpress_/?p=744
 date: '2011-07-01 15:00:20 +0200'
 date_gmt: '2011-07-01 13:00:20 +0200'
 categories:

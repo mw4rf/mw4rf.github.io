@@ -18,7 +18,6 @@ excerpt: "Pendant les deux dernières semaines d'utilisation (plutôt intensive)
   My Mac</i>, le Finder de Leopard, QuickTime et VLC, le Dock, Apple Mail, Safari,
   TimeMachine, ainsi que quelques logiciels encore incompatibles.\r\n\r\n"
 wordpress_id: 131
-wordpress_/index.php/2007/11/07/quelques-jours-de-plus-avec-leopard/
 date: '2007-11-07 10:22:21 +0100'
 date_gmt: '2007-11-07 09:22:21 +0100'
 categories:

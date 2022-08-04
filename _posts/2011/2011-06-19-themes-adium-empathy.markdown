@@ -15,7 +15,6 @@ excerpt: "Le logiciel libre de messagerie instatanée <strong>Empathy</strong>, 
   graphiques que le logiciel pour Mac Adium. Il est donc très facile d'utiliser des
   thèmes conçus pour Adium avec Empathy, et cet article montre comment faire.\r\n\r\n"
 wordpress_id: 729
-wordpress_/?p=729
 date: '2011-06-19 17:03:12 +0200'
 date_gmt: '2011-06-19 15:03:12 +0200'
 categories:

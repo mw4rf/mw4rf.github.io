@@ -18,7 +18,6 @@ excerpt: "Un <a href=\"http://www.framablog.org/index.php/post/2010/09/15/marsei
   arguments avancés, d'une part pour l'abandon du Mac dans le parc et, d'autre part,
   en faveur de Windows Seven.\r\n\r\n"
 wordpress_id: 683
-wordpress_/?p=683
 date: '2010-09-16 11:30:50 +0200'
 date_gmt: '2010-09-16 09:30:50 +0200'
 categories:

@@ -16,7 +16,6 @@ excerpt: "Filemaker est un logiciel puissant, mais ancien et dont l'ergonomie a 
   un tel système soi-même. Cet article a pour but de décrire une des nombreuses manière
   de procéder pour y parvenir.\r\n\r\n"
 wordpress_id: 626
-wordpress_/?p=626
 date: '2010-08-09 16:35:31 +0200'
 date_gmt: '2010-08-09 14:35:31 +0200'
 categories:

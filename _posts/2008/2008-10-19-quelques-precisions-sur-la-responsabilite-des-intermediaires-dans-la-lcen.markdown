@@ -10,7 +10,6 @@ title: Quelques précisions sur la responsabilité des intermédiaires dans la L
 
 
 wordpress_id: 415
-wordpress_/?p=415
 date: '2008-10-19 13:15:02 +0200'
 date_gmt: '2008-10-19 11:15:02 +0200'
 categories:

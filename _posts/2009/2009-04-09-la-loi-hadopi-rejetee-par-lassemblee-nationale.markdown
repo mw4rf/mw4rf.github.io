@@ -15,7 +15,6 @@ excerpt: "Une fois n'est pas coutume, les députés de l'Assemblée Nationale on
   cette loi liberticide et inique, et espérer que le gouvernement ne tentera pas de
   la réintroduire dans sa rédaction issue de la Commission mixte paritaire.\r\n\r\n"
 wordpress_id: 160
-wordpress_/?p=160
 date: '2009-04-09 21:29:21 +0200'
 date_gmt: '2009-04-09 19:29:21 +0200'
 categories:

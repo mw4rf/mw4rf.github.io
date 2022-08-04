@@ -17,7 +17,6 @@ excerpt: "Filemaker ne dispose, hélas, d'aucun mécanisme natif permettant d'an
   fonctions personnalisées</a>. Comment, dès lors, extraire dans un calcul un nom
   de domaine à partir d'une adresse URL ?\r\n\r\n"
 wordpress_id: 652
-wordpress_/?p=652
 date: '2010-08-13 16:37:53 +0200'
 date_gmt: '2010-08-13 14:37:53 +0200'
 categories:

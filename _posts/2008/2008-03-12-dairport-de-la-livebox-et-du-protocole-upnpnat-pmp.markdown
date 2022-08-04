@@ -22,7 +22,6 @@ excerpt: "Voici un nouvel article sur la mise en place d'un réseau local avec u
   soit par le biais du protocole UPNP/NAT-PMP, ce que la Livebox ne permet pas de
   réaliser.\r\n\r\n"
 wordpress_id: 138
-wordpress_/index.php/2008/03/12/dairport-de-la-livebox-et-du-protocole-upnpnat-pmp/
 date: '2008-03-12 16:09:11 +0100'
 date_gmt: '2008-03-12 15:09:11 +0100'
 categories:

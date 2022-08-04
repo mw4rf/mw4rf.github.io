@@ -13,7 +13,6 @@ excerpt: "Le 17 octobre 2006 le président des Etats-Unis, George W Bush, a sign
   loi appelée « Military Commissions Act » qui permet aux enquêteurs de la CIA d'utiliser
   la torture sur des personnes suspectées de terrorisme.\r\n\r\n"
 wordpress_id: 394
-wordpress_/?p=394
 date: '2006-10-23 12:32:32 +0200'
 date_gmt: '2006-10-23 10:32:32 +0200'
 categories:

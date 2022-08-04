@@ -16,7 +16,6 @@ excerpt: "Lors de la conclusion d'un contrat du commerce international, les part
   de l'expression de leur volonté commune. Un tel choix des parties est exprimé dans
   une « clause compromissoire » ou « convention d'arbitrage ».\r\n\r\n"
 wordpress_id: 397
-wordpress_/?p=397
 date: '2006-11-19 12:42:47 +0100'
 date_gmt: '2006-11-19 10:42:47 +0100'
 categories:

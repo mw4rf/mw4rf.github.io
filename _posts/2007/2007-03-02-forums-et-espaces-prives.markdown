@@ -21,7 +21,6 @@ excerpt: "Un des problèmes majeurs que rencontrent les webmasters qui ont const
   aux utilisateurs de créer un nouveau compte, différent de celui qu'ils utilisent
   pour se connecter aux forums. Dans ce cas, comment procéder ?\r\n"
 wordpress_id: 111
-wordpress_/index.php/2007/03/02/forums-et-espaces-prives/
 date: '2007-03-02 01:04:16 +0100'
 date_gmt: '2007-03-01 23:04:16 +0100'
 categories:

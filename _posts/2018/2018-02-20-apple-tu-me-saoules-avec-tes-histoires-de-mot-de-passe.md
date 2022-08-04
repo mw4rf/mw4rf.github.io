@@ -4,6 +4,7 @@ published: true
 title: "Apple, tu me saoules avec tes histoires de mot de passe"
 author: GF
 excerpt: "Ce mot de passe iCloud... non mais vraiment ! Je n'en peux plus. Il me saoule. Il me saoule tellement ce mot de passe, que j'ai envie de le taper... ou plutôt non, de ne plus jamais avoir à le taper !"
+
 date: '2018-02-22 23:15:00'
 categories:
 - Informatique

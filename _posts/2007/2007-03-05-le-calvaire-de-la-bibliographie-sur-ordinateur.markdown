@@ -18,7 +18,6 @@ excerpt: "Tout travail de recherche scientifique doit s'appuyer sur une solide b
   Construire une bibliographie juridique en France, par exemple avec Thomson Endnote,
   devient un véritable calvaire.\r\n\r\n"
 wordpress_id: 115
-wordpress_/index.php/2007/03/05/le-calvaire-de-la-bibliographie-sur-ordinateur/
 date: '2007-03-05 19:24:49 +0100'
 date_gmt: '2007-03-05 18:24:49 +0100'
 categories:

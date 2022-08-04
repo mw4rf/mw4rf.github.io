@@ -13,7 +13,6 @@ excerpt: "Sur fond de texte de loi DADVSI qui va bientôt être examiné par une
   Mixte Paritaire, la Cour de cassation précise le droit positif actuel en matière
   de téléchargement.\r\n\r\n"
 wordpress_id: 386
-wordpress_/?p=386
 date: '2006-06-17 12:13:52 +0200'
 date_gmt: '2006-06-17 10:13:52 +0200'
 categories:

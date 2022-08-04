@@ -22,7 +22,6 @@ excerpt: "La meilleure solution pour assurer la sécurité de ses données numé
   l'intégrité du Raid, alors qu'un seul disque reste fonctionnel. Il est donc nécessaire
   d'obtenir des informations sur l'état du Raid, par exemple par e-mail. \r\n\r\n"
 wordpress_id: 140
-wordpress_/?p=140
 date: '2008-08-31 09:33:11 +0200'
 date_gmt: '2008-08-31 08:33:11 +0200'
 categories:

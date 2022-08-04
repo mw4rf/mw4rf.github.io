@@ -20,7 +20,6 @@ excerpt: "<em>Don't be evil !</em> : le célèbre slogan de Google, inventé à 
   la sortie officielle du système d'exploitation, annoncée pour fin 2010, on peut
   se poser la question : <em>will it be evil?</em>\r\n\r\n"
 wordpress_id: 362
-wordpress_/?p=362
 date: '2010-03-06 18:10:29 +0100'
 date_gmt: '2010-03-06 16:10:29 +0100'
 categories:

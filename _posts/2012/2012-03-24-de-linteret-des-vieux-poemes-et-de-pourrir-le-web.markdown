@@ -14,7 +14,6 @@ excerpt: "On en a parlé à la télé ! Ce soir, au JT de 20h sur France 2: un p
   à grands coups de copier/coller depuis Wikipedia. L'article <a href=\"http://laviemoderne.net/lames-de-fond/009-comment-j-ai-pourri-le-web.html\">est
   par là</a>, et il est surréaliste.\r\n\r\n"
 wordpress_id: 842
-wordpress_/?p=842
 date: '2012-03-24 23:08:21 +0100'
 date_gmt: '2012-03-24 21:08:21 +0100'
 categories:

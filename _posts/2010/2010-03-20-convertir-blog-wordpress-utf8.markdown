@@ -29,7 +29,6 @@ excerpt: <p>L'encodage d'un site utilisant un logiciel de publication stockant l
   à un site utilisant Wordpress, afin de remplacer Latin1 par UTF-8 comme encodage
   par défaut.</p>
 wordpress_id: 456
-wordpress_/2010/03/20/convertir-blog-wordpress-utf8/
 date: '2010-03-20 19:15:44 +0100'
 date_gmt: '2010-03-20 17:15:44 +0100'
 categories:

@@ -14,7 +14,6 @@ excerpt: "Cet article explique en images comment installer et configurer un envi
   PHP, et le serveur de base de données MySQL accompagné de quelques outils graphiques
   d'administration. \r\n\r\n"
 wordpress_id: 281
-wordpress_/?p=281
 date: '2009-09-10 16:54:47 +0200'
 date_gmt: '2009-09-10 14:54:47 +0200'
 categories:

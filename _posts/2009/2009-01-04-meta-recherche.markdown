@@ -24,7 +24,6 @@ excerpt: "Les moteurs de recherche occupent une place à part sur Internet. Ils 
   il en existe plusieurs, ont pour but de simplifier le processus, tout en le rendant
   plus rapide.\r\n"
 wordpress_id: 151
-wordpress_/?p=151
 date: '2009-01-04 09:36:23 +0100'
 date_gmt: '2009-01-04 08:36:23 +0100'
 categories:

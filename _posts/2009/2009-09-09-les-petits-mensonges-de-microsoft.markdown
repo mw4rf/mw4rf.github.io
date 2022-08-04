@@ -14,7 +14,6 @@ excerpt: "Un blog américain affiche des photographies d'un slideshow destiné a
   Cette comparaison est un énorme mensonge. Microsoft fait preuve d'une telle mauvaise
   foi, qu'il est difficile de ne pas y réagir.\r\n\r\n"
 wordpress_id: 276
-wordpress_/?p=276
 date: '2009-09-09 21:06:34 +0200'
 date_gmt: '2009-09-09 19:06:34 +0200'
 categories:

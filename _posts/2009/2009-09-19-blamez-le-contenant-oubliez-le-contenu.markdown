@@ -23,7 +23,6 @@ excerpt: "Je lis dans Le Monde (1), à propos de la récente affaire Hortefeux, 
   » (A. Finkielkraut).\r\n\r\nJ'aimerais à mon tour, sans grande prétention, réagir
   à ces réactions.\r\n\r\n"
 wordpress_id: 285
-wordpress_/?p=285
 date: '2009-09-19 18:30:56 +0200'
 date_gmt: '2009-09-19 16:30:56 +0200'
 categories:
