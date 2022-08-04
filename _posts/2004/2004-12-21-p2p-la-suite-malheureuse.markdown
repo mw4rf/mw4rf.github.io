@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: 'P2P: la suite malheureuse...'
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 15
 wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=15
 date: '2004-12-21 22:31:59 +0100'

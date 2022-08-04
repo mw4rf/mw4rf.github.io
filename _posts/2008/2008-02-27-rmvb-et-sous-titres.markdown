@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: RMVB et sous-titres
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "On trouve tous les formats de vidéo sur Internet, certains sont très répandus,
   d'autres moins. Le plus répandu est certainement le format AVI, utilisant un codec
   DivX ou Xvid. A l'autre extrémité, le format RMVB (RealPlayer Media Files) est très
@@ -20,7 +18,7 @@ excerpt: "On trouve tous les formats de vidéo sur Internet, certains sont très
   de sous-titres, j'ai recherché comment jouer la vidéo avec ces sous-titres. Voici
   le récit de l'aventure.\r\n\r\n"
 wordpress_id: 137
-wordpress_url: http://www.valhalla.fr/index.php/2008/02/27/rmvb-et-sous-titres/
+wordpress_/index.php/2008/02/27/rmvb-et-sous-titres/
 date: '2008-02-27 19:52:21 +0100'
 date_gmt: '2008-02-27 18:52:21 +0100'
 categories:

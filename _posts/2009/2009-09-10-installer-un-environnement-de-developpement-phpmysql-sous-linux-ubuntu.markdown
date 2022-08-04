@@ -3,20 +3,18 @@ layout: post
 status: publish
 published: true
 title: Installer un environnement de développement PHP/MySQL sous Linux Ubuntu
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Cet article explique en images comment installer et configurer un environnement
   de développement Web sous Linux Ubuntu : le serveur web Apache 2, avec un moteur
   PHP, et le serveur de base de données MySQL accompagné de quelques outils graphiques
   d'administration. \r\n\r\n"
 wordpress_id: 281
-wordpress_url: http://www.valhalla.fr/?p=281
+wordpress_/?p=281
 date: '2009-09-10 16:54:47 +0200'
 date_gmt: '2009-09-10 14:54:47 +0200'
 categories:

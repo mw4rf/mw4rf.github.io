@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-37/
 title: Numéro 37 - Semaine du 20 au 26 décembre 2010
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 198
 wordpress_url: http://revue.valhalla.fr/?p=198
 date: '2010-12-27 12:41:04 +0100'

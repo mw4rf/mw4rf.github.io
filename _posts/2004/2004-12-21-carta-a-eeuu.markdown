@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Carta a EEUU
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 16
 wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=16
 date: '2004-12-21 22:32:51 +0100'

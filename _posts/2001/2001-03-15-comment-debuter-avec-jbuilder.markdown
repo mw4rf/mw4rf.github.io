@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Comment débuter avec JBuilder ?
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 58
 wordpress_url: http://blog.gfblog.com/index.php/2001/03/15/comment-debuter-avec-jbuilder/
 date: '2001-03-15 01:21:34 +0100'

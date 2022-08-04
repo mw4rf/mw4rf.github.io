@@ -3,16 +3,14 @@ layout: post
 status: publish
 published: true
 title: Quelques questions sur l’arbitrage
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 406
-wordpress_url: http://www.valhalla.fr/?p=406
+wordpress_/?p=406
 date: '2007-02-18 12:50:26 +0100'
 date_gmt: '2007-02-18 10:50:26 +0100'
 categories:

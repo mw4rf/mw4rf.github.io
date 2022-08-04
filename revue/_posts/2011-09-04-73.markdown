@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-73/
 title: Numéro 73 - Semaine du 29 août au 4 septembre 2011
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 430
 wordpress_url: http://revue.valhalla.fr/?p=430
 date: '2011-09-04 12:28:32 +0200'

@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Test de l'iPod Vidéo (5G)
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "<p>\r\nCa y est, je l'ai achet&#233;. Adieu mon iPod 3G avec son pauvre
   &#233;cran en noir et blanc et ses quatre boutons align&#233;s, je peux maintenant
   utiliser cette merveille de technologie qu'est l'iPod Vid&#233;o. Ecran couleur,

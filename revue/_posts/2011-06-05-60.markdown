@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-60/
 title: Numéro 60 - Semaine du 30 mai au 5 juin 2011
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 360
 wordpress_url: http://revue.valhalla.fr/?p=360
 date: '2011-06-05 13:40:03 +0200'

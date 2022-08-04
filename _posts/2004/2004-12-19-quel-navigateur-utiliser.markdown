@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Quel navigateur utiliser ?
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 12
 wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=12
 date: '2004-12-19 22:30:00 +0100'

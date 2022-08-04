@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-44/
 title: Numéro 44 - Semaine du 7 au 13 février 2011
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 257
 wordpress_url: http://revue.valhalla.fr/?p=257
 date: '2011-02-13 15:01:14 +0100'

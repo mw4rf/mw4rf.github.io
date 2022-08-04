@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-25/
 title: Numéro 25 - Semaine du 27 septembre au 3 octobre 2010
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 140
 wordpress_url: http://revue.valhalla.fr/?p=140
 date: '2010-10-03 12:42:05 +0200'

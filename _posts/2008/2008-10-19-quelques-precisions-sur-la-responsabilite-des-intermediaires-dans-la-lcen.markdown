@@ -3,16 +3,14 @@ layout: post
 status: publish
 published: true
 title: Quelques précisions sur la responsabilité des intermédiaires dans la LCEN
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 415
-wordpress_url: http://www.valhalla.fr/?p=415
+wordpress_/?p=415
 date: '2008-10-19 13:15:02 +0200'
 date_gmt: '2008-10-19 11:15:02 +0200'
 categories:

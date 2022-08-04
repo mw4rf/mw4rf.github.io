@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Sondage débile à base d'iPod Shuffle
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 22
 wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=22
 date: '2005-02-10 22:38:28 +0100'

@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Constitution européenne
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 29
 wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=29
 date: '2005-05-31 22:44:05 +0200'

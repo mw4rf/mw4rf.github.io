@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: 'Ubuntu Software Center : tester avant d''installer'
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Une fonction peu connue de la logithèque Ubuntu (Software Center) permet
   de tester des logiciels avant de les installer. La fonction est désactivée par défaut,
   mais son activation est simple et rapide. Elle ne fonctionne pas avec tous les logiciels
@@ -18,7 +16,7 @@ excerpt: "Une fonction peu connue de la logithèque Ubuntu (Software Center) per
   de même se révéler utile et surtout, elle est une exclusivité du monde Linux, car
   ni OSX ni Windows ne permettent de tester des logiciels avant de les installer.\r\n\r\n"
 wordpress_id: 854
-wordpress_url: http://www.valhalla.fr/?p=854
+wordpress_/?p=854
 date: '2012-06-11 18:43:15 +0200'
 date_gmt: '2012-06-11 16:43:15 +0200'
 categories:

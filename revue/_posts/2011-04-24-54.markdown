@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-54/
 title: Numéro 54 - Semaine du 18 au 24 avril 2011
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 326
 wordpress_url: http://revue.valhalla.fr/?p=326
 date: '2011-04-24 10:51:13 +0200'

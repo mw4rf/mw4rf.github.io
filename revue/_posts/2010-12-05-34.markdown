@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-34/
 title: Numéro 34 - Semaine du 29 novembre au 5 décembre 2010
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 176
 wordpress_url: http://revue.valhalla.fr/?p=176
 date: '2010-12-05 15:15:22 +0100'

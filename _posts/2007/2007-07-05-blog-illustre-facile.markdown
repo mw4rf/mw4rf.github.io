@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Blog illustré facile
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "<a href=\"http://www.flickr.com/photos/valhallafr/726141278/\" title=\"Partage
   de photos\"><img src=\"http://farm2.static.flickr.com/1308/726141278_4b0cb8c4b6_o.jpg\"
   width=\"233\" height=\"188\" alt=\"Blog illustré facile 1\" align=\"left\" style=\"margin-right:15px;\"
@@ -24,7 +22,7 @@ excerpt: "<a href=\"http://www.flickr.com/photos/valhallafr/726141278/\" title=\
   il ne reste plus qu'à placer un tag HTML ou PHPBB dans le billet de blog --ou le
   message de forum.\r\n\r\n"
 wordpress_id: 120
-wordpress_url: http://www.valhalla.fr/index.php/2007/07/05/blog-illustre-facile/
+wordpress_/index.php/2007/07/05/blog-illustre-facile/
 date: '2007-07-05 13:18:05 +0200'
 date_gmt: '2007-07-05 12:18:05 +0200'
 categories:

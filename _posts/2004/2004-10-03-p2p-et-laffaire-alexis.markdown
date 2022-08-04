@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: P2P et l'affaire Alexis
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 11
 wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=11
 date: '2004-10-03 22:29:07 +0200'

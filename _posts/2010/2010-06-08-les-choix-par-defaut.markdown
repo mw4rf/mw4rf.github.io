@@ -3,17 +3,15 @@ layout: post
 status: publish
 published: true
 title: Les choix par défaut
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Les choix par défaut, opérés par les concepteurs d'un logiciel, peuvent avoir des conséquences très importantes. On est trop souvent habitué, en tant qu'utilisateur, à la complexité de l'informatique ; aussi, l'on évite à tout point de rendre les choses encore plus complexes et l'on fait confiance aux experts, les inventeurs du logiciel, pour faire certains choix. Mais à éviter quelques efforts, l'on y perd beaucoup."
 wordpress_id: 604
-wordpress_url: http://www.valhalla.fr/?p=604
+wordpress_/?p=604
 date: '2010-06-08 21:35:44 +0200'
 date_gmt: '2010-06-08 19:35:44 +0200'
 categories:

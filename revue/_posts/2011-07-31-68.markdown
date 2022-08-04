@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-68/
 title: Numéro 68 - Semaine du 25 au 31 juillet 2011
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 415
 wordpress_url: http://revue.valhalla.fr/?p=415
 date: '2011-07-31 16:15:50 +0200'

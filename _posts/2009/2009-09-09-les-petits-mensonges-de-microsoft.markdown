@@ -3,20 +3,18 @@ layout: post
 status: publish
 published: true
 title: Les petits mensonges de Microsoft
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Un blog américain affiche des photographies d'un slideshow destiné aux vendeurs
   de matériel et de logiciels informatiques, qui compare Windows à Linux et au Macintosh.
   Cette comparaison est un énorme mensonge. Microsoft fait preuve d'une telle mauvaise
   foi, qu'il est difficile de ne pas y réagir.\r\n\r\n"
 wordpress_id: 276
-wordpress_url: http://www.valhalla.fr/?p=276
+wordpress_/?p=276
 date: '2009-09-09 21:06:34 +0200'
 date_gmt: '2009-09-09 19:06:34 +0200'
 categories:

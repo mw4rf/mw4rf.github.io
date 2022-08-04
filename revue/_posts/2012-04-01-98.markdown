@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-98/
 title: Numéro 98 - Semaine du 26 mars au 1er avril
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 523
 wordpress_url: http://revue.valhalla.fr/?p=523
 date: '2012-04-01 11:51:23 +0200'

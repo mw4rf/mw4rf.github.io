@@ -3,20 +3,18 @@ layout: post
 status: publish
 published: true
 title: 'Noms de domaine accentués : fausse bonne idée ?'
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "L'AFNIC, association gérant les noms de domaine .fr, vient d'<a href=\"http://pro.clubic.com/it-business/nom-de-domaine/actualite-474806-accents-disponibles-noms-domaine-fr.html\">annoncer</a>
   l'ouverture prochaine des enregistrements de noms de domaine contenant des lettres
   accentuées. Cela semble être une bonne idée, mais en pratique, les inconvénients
   risquent d'être plus nombreux que les avantages.\r\n\r\n"
 wordpress_id: 837
-wordpress_url: http://www.valhalla.fr/?p=837
+wordpress_/?p=837
 date: '2012-02-08 20:43:03 +0100'
 date_gmt: '2012-02-08 18:43:03 +0100'
 categories:

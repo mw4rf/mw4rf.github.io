@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-29/
 title: Numéro 29 - Semaine du 25 au 31 octobre 2010
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 157
 wordpress_url: http://revue.valhalla.fr/?p=157
 date: '2010-10-31 09:43:45 +0100'

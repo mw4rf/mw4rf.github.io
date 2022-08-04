@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Marseille préfère Windows Seven à Linux
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Un <a href=\"http://www.framablog.org/index.php/post/2010/09/15/marseille-non-linux-oui-windows\">récent
   article sur Framablog</a> indique que la ville de Marseille a décidé de revoir la
   politique d'harmonisation de son parc informatique : suppression des postes clients
@@ -20,7 +18,7 @@ excerpt: "Un <a href=\"http://www.framablog.org/index.php/post/2010/09/15/marsei
   arguments avancés, d'une part pour l'abandon du Mac dans le parc et, d'autre part,
   en faveur de Windows Seven.\r\n\r\n"
 wordpress_id: 683
-wordpress_url: http://www.valhalla.fr/?p=683
+wordpress_/?p=683
 date: '2010-09-16 11:30:50 +0200'
 date_gmt: '2010-09-16 09:30:50 +0200'
 categories:

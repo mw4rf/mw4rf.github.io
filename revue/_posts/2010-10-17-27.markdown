@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-27/
 title: Numéro 27 - Semaine du 11 au 17 octobre 2010
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 150
 wordpress_url: http://revue.valhalla.fr/?p=150
 date: '2010-10-17 11:09:23 +0200'

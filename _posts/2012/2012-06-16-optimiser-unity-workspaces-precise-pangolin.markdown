@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Optimiser les bureaux virtuels sous Unity (Ubuntu 12.04)
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: 'Après plusieurs années sans évolution majeure, les interfaces de bureau
   ont entamé, depuis 2010, une migration progressive vers de nouveaux paradigmes censés
   être mieux adaptés aux écrans tactiles : iOS et Android, OS X Lion, Windows 8 et,
@@ -21,7 +19,7 @@ excerpt: 'Après plusieurs années sans évolution majeure, les interfaces de bu
   Unity plus rapide et fluidifient son utilisation, au détriment de la "beauté" de
   l''interface. '
 wordpress_id: 876
-wordpress_url: http://www.valhalla.fr/?p=876
+wordpress_/?p=876
 date: '2012-06-16 22:23:08 +0200'
 date_gmt: '2012-06-16 20:23:08 +0200'
 categories:

@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Don't forward !
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Depuis l'ère glacière, qui débuta avec l'introduction du fameux symbole
   @ en 1972, il est possible de rediriger (\"forward\") un e-mail que l'on a reçu
   vers une tierce personne. Les premiers logiciels d'e-mail (\"clients SMTP/POP\"),

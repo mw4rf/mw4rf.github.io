@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Aperçu de l'attribut contenteditable en HTML5
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "L'<i><a href=\"http://fr.wikipedia.org/wiki/Hypertext_Markup_Language\">HyperText
   Markup Language</a></i>, ou HTML, est le langage permettant de décrire la composition
   des pages Web que le navigateur interprète afin d'afficher le contenu à l'écran.
@@ -23,7 +21,7 @@ excerpt: "L'<i><a href=\"http://fr.wikipedia.org/wiki/Hypertext_Markup_Language\
   dont le très important <a href=\"http://www.dicodunet.com/definitions/normes/attribut.htm\">attribut</a>
   <strong>contenteditable</strong>.\r\n"
 wordpress_id: 519
-wordpress_url: http://www.valhalla.fr/?p=519
+wordpress_/?p=519
 date: '2010-04-19 09:23:25 +0200'
 date_gmt: '2010-04-19 07:23:25 +0200'
 categories:

@@ -3,21 +3,19 @@ layout: post
 status: publish
 published: true
 title: 'Google : lisez la page 2'
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Qui, aujourd'hui, ne connaît pas Google, et n'utilise pas au moins l'un
   des services qu'elle propose ? L'entreprise a su, grâce à son moteur de recherche,
   se rendre indispensable pour beaucoup d'internautes. Cette position dominante de
   la société américaine n'est pas sans danger, car elle lui confère un pouvoir considérable
   sur les internautes : savoir ce qu'ils lisent et les inciter à lire tel ou tel document.\r\n"
 wordpress_id: 510
-wordpress_url: http://www.valhalla.fr/?p=510
+wordpress_/?p=510
 date: '2010-04-17 17:38:45 +0200'
 date_gmt: '2010-04-17 15:38:45 +0200'
 categories:

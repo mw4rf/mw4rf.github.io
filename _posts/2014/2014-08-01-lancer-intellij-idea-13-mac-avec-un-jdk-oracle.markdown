@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Lancer Intellij IDEA 13 Mac avec un JDK Oracle
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "<p>IntelliJ IDEA est sans doute, actuellement, le meilleur IDE Java. Or,
   les développeurs Java sérieux ne peuvent se contenter du JRE 1.6 fourni par Apple
   dans Maverick (et la bêta publique de Yosemite, à l'heure où j'écris ces lignes).</p>\r\n<p>Problème
@@ -18,7 +16,7 @@ excerpt: "<p>IntelliJ IDEA est sans doute, actuellement, le meilleur IDE Java. O
   si un JDK Oracle, 1.7 ou 1.8 est installé sur la machine.</p>\r\n<p>La solution
   est facile, mais encore faut-il la connaître.</p>\r\n"
 wordpress_id: 904
-wordpress_url: http://www.valhalla.fr/?p=904
+wordpress_/?p=904
 date: '2014-08-01 16:46:07 +0200'
 date_gmt: '2014-08-01 12:46:07 +0200'
 categories:

@@ -4,14 +4,12 @@ status: publish
 published: true
 title: Comment utiliser un ResourceBundle sous JBuilder pour l'internationalisation
   d'un logiciel ?
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 60
 wordpress_url: http://blog.gfblog.com/index.php/2001/09/30/comment-utiliser-un-resourcebundle-sous-jbuilder-pour-linternationalisation-dun-logiciel/
 date: '2001-09-30 10:55:44 +0200'

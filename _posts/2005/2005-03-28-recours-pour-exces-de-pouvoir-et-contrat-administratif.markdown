@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Recours pour excès de pouvoir et contrat administratif
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 47
 wordpress_url: http://blog.gfblog.com/index.php/2005/10/08/recours-pour-exces-de-pouvoir-et-contrat-administratif/
 date: '2005-03-28 20:07:00 +0200'

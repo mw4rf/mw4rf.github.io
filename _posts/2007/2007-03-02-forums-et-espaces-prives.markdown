@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Forums et espaces privés
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Un des problèmes majeurs que rencontrent les webmasters qui ont construit
   leurs sites autour d'un système de forums tel que vBulletin ou Invision Power Board
   est de créer une passerelle entre ces forums et un nouvel espace privé qu'ils comptent
@@ -23,7 +21,7 @@ excerpt: "Un des problèmes majeurs que rencontrent les webmasters qui ont const
   aux utilisateurs de créer un nouveau compte, différent de celui qu'ils utilisent
   pour se connecter aux forums. Dans ce cas, comment procéder ?\r\n"
 wordpress_id: 111
-wordpress_url: http://www.valhalla.fr/index.php/2007/03/02/forums-et-espaces-prives/
+wordpress_/index.php/2007/03/02/forums-et-espaces-prives/
 date: '2007-03-02 01:04:16 +0100'
 date_gmt: '2007-03-01 23:04:16 +0100'
 categories:

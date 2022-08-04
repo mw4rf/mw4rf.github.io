@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-92/
 title: Numéro 92 - Semaine du 13 au 19 février 2012
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 495
 wordpress_url: http://revue.valhalla.fr/?p=495
 date: '2012-02-19 12:25:07 +0100'

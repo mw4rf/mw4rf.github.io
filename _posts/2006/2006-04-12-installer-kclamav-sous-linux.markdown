@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Installer K/ClamAV sous Linux ?
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "<img src=\"/public/posts/2006-04-12-clamav/clamav.png\" align=\"left\" alt=\"ClamAV Logo\"
   />\r\nEn lisant les nouvelles ce matin, j'ai appris que des programmeurs avaient
   réalisé un virus crossplatform en Assembleur. Il fonctionne aussi bien sous Windows

@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-94/
 title: Numéro 94 - Semaine du 27 février au 4 mars 2012
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 506
 wordpress_url: http://revue.valhalla.fr/?p=506
 date: '2012-03-04 12:57:27 +0100'

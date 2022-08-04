@@ -3,19 +3,17 @@ layout: post
 status: publish
 published: true
 title: 'MCA 2006: Les Etats-Unis légalisent la torture'
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Le 17 octobre 2006 le président des Etats-Unis, George W Bush, a signé une
   loi appelée « Military Commissions Act » qui permet aux enquêteurs de la CIA d'utiliser
   la torture sur des personnes suspectées de terrorisme.\r\n\r\n"
 wordpress_id: 394
-wordpress_url: http://www.valhalla.fr/?p=394
+wordpress_/?p=394
 date: '2006-10-23 12:32:32 +0200'
 date_gmt: '2006-10-23 10:32:32 +0200'
 categories:

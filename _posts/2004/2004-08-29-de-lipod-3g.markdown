@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: De l'iPod 3G
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 5
 wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=5
 date: '2004-08-29 22:23:36 +0200'

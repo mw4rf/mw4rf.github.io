@@ -4,16 +4,14 @@ status: publish
 published: true
 title: 'Cyber-délits : la compétence des juridictions françaises fondée sur l’accessibilité
   du site litigieux (Cass Com, 20 mars 2007)'
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 409
-wordpress_url: http://www.valhalla.fr/?p=409
+wordpress_/?p=409
 date: '2007-04-25 12:59:56 +0200'
 date_gmt: '2007-04-25 10:59:56 +0200'
 categories:

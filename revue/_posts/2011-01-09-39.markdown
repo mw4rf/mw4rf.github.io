@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-39/
 title: Numéro 39 - Semaine du 3 au 9 janvier 2011
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 207
 wordpress_url: http://revue.valhalla.fr/?p=207
 date: '2011-01-09 14:19:43 +0100'

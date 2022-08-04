@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-101/
 title: Numéro 101 - Semaine du 7 au 13 mai 2012
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 532
 wordpress_url: http://revue.valhalla.fr/?p=532
 date: '2012-05-13 13:41:59 +0200'

@@ -3,21 +3,19 @@ layout: post
 status: publish
 published: true
 title: Aux couleurs de l'automne
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Un message rapide pour présenter la nouvelle interface graphique du site
   Valhalla, aux couleurs de l'automne. Le changement a du bon, même si le précédent
   thème graphique, tout en bleu, était vraiment magnifique. D'ailleurs, il n'est pas
   exclu qu'il réapparaisse cet été. Mais en attendant, les dominantes seront marron
   et orange foncé.\r\n\r\n"
 wordpress_id: 132
-wordpress_url: http://www.valhalla.fr/index.php/2007/11/09/aux-couleurs-de-lautomne/
+wordpress_/index.php/2007/11/09/aux-couleurs-de-lautomne/
 date: '2007-11-09 14:28:02 +0100'
 date_gmt: '2007-11-09 13:28:02 +0100'
 categories:

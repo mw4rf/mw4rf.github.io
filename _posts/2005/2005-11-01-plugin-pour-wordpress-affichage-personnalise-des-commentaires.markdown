@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: 'Plugin pour WordPress: affichage personnalisé des commentaires'
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 77
 wordpress_url: http://blog.gfblog.com/?p=77
 date: '2005-11-01 00:49:24 +0100'

@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Nouveau thème disponible
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 89
 wordpress_url: http://blog.gfblog.com/index.php/2006/03/27/nouveau-theme-disponible/
 date: '2006-03-27 00:37:46 +0200'

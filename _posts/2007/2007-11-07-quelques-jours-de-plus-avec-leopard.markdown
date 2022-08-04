@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Quelques jours de plus avec Leopard
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Pendant les deux dernières semaines d'utilisation (plutôt intensive) de
   Leopard, plusieurs petits problèmes sont survenus. La plupart d'entre eux proviennent
   d'une incompatibilité logicielle (un logiciel prévu pour Tiger qui n'a pas été mis
@@ -20,7 +18,7 @@ excerpt: "Pendant les deux dernières semaines d'utilisation (plutôt intensive)
   My Mac</i>, le Finder de Leopard, QuickTime et VLC, le Dock, Apple Mail, Safari,
   TimeMachine, ainsi que quelques logiciels encore incompatibles.\r\n\r\n"
 wordpress_id: 131
-wordpress_url: http://www.valhalla.fr/index.php/2007/11/07/quelques-jours-de-plus-avec-leopard/
+wordpress_/index.php/2007/11/07/quelques-jours-de-plus-avec-leopard/
 date: '2007-11-07 10:22:21 +0100'
 date_gmt: '2007-11-07 09:22:21 +0100'
 categories:

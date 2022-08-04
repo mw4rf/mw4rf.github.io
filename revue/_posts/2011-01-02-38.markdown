@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-38/
 title: Numéro 38 - Spécial - Rétrospective 2010
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 203
 wordpress_url: http://revue.valhalla.fr/?p=203
 date: '2011-01-02 14:15:07 +0100'

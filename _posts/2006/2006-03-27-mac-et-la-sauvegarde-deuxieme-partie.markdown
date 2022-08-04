@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: ".Mac et la sauvegarde (deuxième partie)"
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "<img src=\"/public/posts/2006-11-27-dotmac/dotmac.png\" alt=\".Mac\" align=\"left\"/>\r\nDans
   cette deuxième partie de l'article consacré à .Mac, nous parlerons des services
   de stockage intégrés à .Mac. Apple met en effet à disposition des abonnés à .Mac

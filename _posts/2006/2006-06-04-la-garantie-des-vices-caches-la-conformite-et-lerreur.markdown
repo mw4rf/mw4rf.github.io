@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: La garantie des vices cachés, la conformité et l'erreur
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "L'exclusivité de l'action en garantie des vices cachés, issue du droit spécial
   de la vente, a finalement été consacrée par la Cour de cassation, après de nombreuses
   hésitations jurisprudentielles. Dans un arrêt du 14 mai 1996, la première Chambre
@@ -19,7 +17,7 @@ excerpt: "L'exclusivité de l'action en garantie des vices cachés, issue du dro
   jurisprudence antérieure en distinguant le vice caché du défaut de conformité, et
   va plus en avant en le distinguant également de l'erreur vice du consentement.\r\n\r\n"
 wordpress_id: 381
-wordpress_url: http://www.valhalla.fr/?p=381
+wordpress_/?p=381
 date: '2006-06-04 12:12:50 +0200'
 date_gmt: '2006-06-04 10:12:50 +0200'
 categories:

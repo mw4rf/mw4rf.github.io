@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Un droit fondamental à l'accès à Internet ?
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Dans un article récent, <a href=\"http://en.wikipedia.org/wiki/David_Weinberger\">David
   Weinberger</a>, du <a href=\"http://cyber.law.harvard.edu/\">Berkman Center for
   Internet & Society (Harvard)</a>, <a href=\"http://www.hyperorg.com/blogger/2010/09/19/the-internet-as-a-human-right/\">analyse
@@ -20,7 +18,7 @@ excerpt: "Dans un article récent, <a href=\"http://en.wikipedia.org/wiki/David_
   ensuite ce que j'entends par \"accès à Internet\" et les raisons pour lesquelles
   je suis favorable à ce qu'un tel accès soit reconnu comme étant une liberté publique.\r\n\r\n"
 wordpress_id: 690
-wordpress_url: http://www.valhalla.fr/?p=690
+wordpress_/?p=690
 date: '2010-09-20 17:35:42 +0200'
 date_gmt: '2010-09-20 15:35:42 +0200'
 categories:

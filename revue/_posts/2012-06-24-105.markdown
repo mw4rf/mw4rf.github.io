@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-105/
 title: Numéro 105 - Semaine du 18 au 24 juin 2012
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 545
 wordpress_url: http://revue.valhalla.fr/?p=545
 date: '2012-06-24 11:35:23 +0200'

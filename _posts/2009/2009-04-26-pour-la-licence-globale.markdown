@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Pour la licence globale
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "La loi Hadopi fut rejetée début avril par l'Assemblée Nationale (voir <a
   href=\"/2009/04/09/la-loi-hadopi-rejetee-par-lassemblee-nationale/\">l'article sur
   ce sujet</a>), et le gouvernement se prépare désormais à la réintroduire, sans véritable
@@ -21,7 +19,7 @@ excerpt: "La loi Hadopi fut rejetée début avril par l'Assemblée Nationale (vo
   fondamentaux des utilisateurs du réseau nécessite une décision judiciaire. Ces batailles
   procédurales cachent la réalité de la situation, et masquent les véritables solutions.\r\n"
 wordpress_id: 172
-wordpress_url: http://www.valhalla.fr/?p=172
+wordpress_/?p=172
 date: '2009-04-26 14:39:35 +0200'
 date_gmt: '2009-04-26 12:39:35 +0200'
 categories:

@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-90/
 title: Numéro 90 - Semaine du 23 au 29 janvier 2012
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 481
 wordpress_url: http://revue.valhalla.fr/?p=481
 date: '2012-01-29 09:00:58 +0100'

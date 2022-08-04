@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Refonte du blog Valhalla
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 31
 wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=31
 date: '2005-09-11 22:45:39 +0200'

@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-95/
 title: Numéro 95 - Semaine du 5 au 11 mars 2012
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 511
 wordpress_url: http://revue.valhalla.fr/?p=511
 date: '2012-03-11 13:05:10 +0100'

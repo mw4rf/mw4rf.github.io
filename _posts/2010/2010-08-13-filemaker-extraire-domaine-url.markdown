@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: 'Filemaker : Extraire un nom de domaine d''une URL'
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Filemaker ne dispose, hélas, d'aucun mécanisme natif permettant d'analyser
   des chaînes de texte selon un motif précis. Pas d'expression régulière dans Filemaker,
   à moins d'installer un plug-in comme <a href=\"http://jensteich.de/regex-plugin/\">RegexPlugin</a>
@@ -19,7 +17,7 @@ excerpt: "Filemaker ne dispose, hélas, d'aucun mécanisme natif permettant d'an
   fonctions personnalisées</a>. Comment, dès lors, extraire dans un calcul un nom
   de domaine à partir d'une adresse URL ?\r\n\r\n"
 wordpress_id: 652
-wordpress_url: http://www.valhalla.fr/?p=652
+wordpress_/?p=652
 date: '2010-08-13 16:37:53 +0200'
 date_gmt: '2010-08-13 14:37:53 +0200'
 categories:

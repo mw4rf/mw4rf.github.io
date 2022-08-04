@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: L'autonomie de la clause compromissoire
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Lors de la conclusion d'un contrat du commerce international, les parties
   peuvent décider qu'un éventuel différend né entre elles à l'occasion de l'exécution
   de ce contrat sera tranché par un tribunal arbitral. Un tribunal arbitral, qui n'est
@@ -18,7 +16,7 @@ excerpt: "Lors de la conclusion d'un contrat du commerce international, les part
   de l'expression de leur volonté commune. Un tel choix des parties est exprimé dans
   une « clause compromissoire » ou « convention d'arbitrage ».\r\n\r\n"
 wordpress_id: 397
-wordpress_url: http://www.valhalla.fr/?p=397
+wordpress_/?p=397
 date: '2006-11-19 12:42:47 +0100'
 date_gmt: '2006-11-19 10:42:47 +0100'
 categories:

@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-30/
 title: Numéro 30 - Semaine du 1er au 7 novembre 2010
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 162
 wordpress_url: http://revue.valhalla.fr/?p=162
 date: '2010-11-07 11:33:17 +0100'

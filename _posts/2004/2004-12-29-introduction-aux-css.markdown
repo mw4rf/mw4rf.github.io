@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Introduction aux CSS
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 17
 wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=17
 date: '2004-12-29 22:33:29 +0100'

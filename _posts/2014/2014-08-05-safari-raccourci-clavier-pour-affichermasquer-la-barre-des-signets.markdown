@@ -3,17 +3,9 @@ layout: post
 status: publish
 published: true
 title: 'Safari : raccourci clavier pour afficher/masquer la barre des signets'
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
 excerpt: |
   J'aime beaucoup le comportement de Firefox qui, depuis plusieurs versions déjà, affiche les signets dans un espace situé sur la gauche de la fenêtre principale, que l'on peut afficher ou masquer à loisir. Ainsi, non seulement les signets n'encombrent plus l'écran lorsqu'on n'a pas besoin d'eux, mais encore cet affichage est en harmonie avec les formats modernes d'écran, plus larges que hauts. Sous Yosemite, Safari permet la même chose. Seulement voilà, il y a un problème : le raccourci clavier par défaut est Commande-Contrôle-1... avec une seule main, c'est presque impossible. Je préfère le raccourci de Firefox, auquel je suis habitué : Commande-B (pour "Bookmarks"). Peut-on utiliser ce raccourci avec Safari ?
-wordpress_id: 918
+
 wordpress_url: http://www.valhalla.fr/?p=918
 date: '2014-08-05 17:27:25 +0200'
 date_gmt: '2014-08-05 15:27:25 +0200'

@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: De Borges à l'informatique, des bits aux octets
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "<i>Toi, qui me lis, es-tu sûr de comprendre ma langue ?</i> (Jorge Luis
   Borges). Connaissez-vous les unités informatiques de représentation de volumes de
   données ? Certainement, ce sont les \"méga\" et les \"giga\". Savez-vous que c'est
@@ -24,7 +22,7 @@ excerpt: "<i>Toi, qui me lis, es-tu sûr de comprendre ma langue ?</i> (Jorge Lu
   en réalité de 1,25 méga. Pourquoi ces différences ? Parlons-nous vraiment la même
   langue ?\r\n"
 wordpress_id: 133
-wordpress_url: http://www.valhalla.fr/index.php/2007/11/09/de-borges-a-linformatique-des-bits-aux-octets/
+wordpress_/index.php/2007/11/09/de-borges-a-linformatique-des-bits-aux-octets/
 date: '2007-11-09 17:46:52 +0100'
 date_gmt: '2007-11-09 16:46:52 +0100'
 categories:

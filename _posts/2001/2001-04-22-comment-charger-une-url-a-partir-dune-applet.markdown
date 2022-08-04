@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Comment charger une URL à partir d'une applet ?
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 72
 wordpress_url: http://blog.gfblog.com/index.php/2001/04/22/comment-charger-une-url-a-partir-dune-applet/
 date: '2001-04-22 12:41:32 +0200'

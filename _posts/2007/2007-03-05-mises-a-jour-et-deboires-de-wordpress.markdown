@@ -3,21 +3,19 @@ layout: post
 status: publish
 published: true
 title: Mises à jour et déboires de WordPress
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Il y a quelques jours, 3 précisément, j'ai mis à jour l'installation de
   WordPress, le logiciel qui sert ce support à ce site. Je suis passé de la version
   1.0 à la version 1.1.1. Et voilà qu'aujourd'hui je lis sur le site officiel qu'il
   est urgent de passer en version 1.1.2. Il semblerait qu'il y ait eu un léger souci
   de nature hackesque...\r\n\r\n"
 wordpress_id: 113
-wordpress_url: http://www.valhalla.fr/index.php/2007/03/05/mises-a-jour-et-deboires-de-wordpress/
+wordpress_/index.php/2007/03/05/mises-a-jour-et-deboires-de-wordpress/
 date: '2007-03-05 00:15:56 +0100'
 date_gmt: '2007-03-04 22:15:56 +0100'
 categories:

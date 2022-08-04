@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Introduction au projet de loi DADVSI
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "A l'heure actuelle, la situation juridique de l'acte de téléchargement n'est
   pas claire. Le gouvernement tente de faire passer à l'Assemblée une loi, appelée
   DADVSI, en transposition d'une directive européenne.\r\n\r\nLe but de cet article

@@ -3,13 +3,7 @@ layout: post
 status: publish
 published: true
 title: Numéro 7 – Semaine du 24 au 30 mai 2010
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 36
 wordpress_url: http://revue.valhalla.fr/?p=36
 date: '2010-05-30 11:25:50 +0200'

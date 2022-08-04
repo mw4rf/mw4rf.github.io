@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Les petits problèmes de Mac OS 10.4 "Tiger"
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 24
 wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=24
 date: '2005-05-05 22:40:02 +0200'

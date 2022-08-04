@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Le calvaire de la bibliographie sur ordinateur
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Tout travail de recherche scientifique doit s'appuyer sur une solide bibliographie.
   Les travaux universitaires de recherche sont, à notre époque, élaborés sur ordinateur.
   La bibliographie suit le mouvement: fini les fiches Bristol, toutes les références
@@ -20,7 +18,7 @@ excerpt: "Tout travail de recherche scientifique doit s'appuyer sur une solide b
   Construire une bibliographie juridique en France, par exemple avec Thomson Endnote,
   devient un véritable calvaire.\r\n\r\n"
 wordpress_id: 115
-wordpress_url: http://www.valhalla.fr/index.php/2007/03/05/le-calvaire-de-la-bibliographie-sur-ordinateur/
+wordpress_/index.php/2007/03/05/le-calvaire-de-la-bibliographie-sur-ordinateur/
 date: '2007-03-05 19:24:49 +0100'
 date_gmt: '2007-03-05 18:24:49 +0100'
 categories:

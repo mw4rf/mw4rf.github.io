@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-57/
 title: Numéro 57 - Semaine du 9 au 15 mai 2011
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 339
 wordpress_url: http://revue.valhalla.fr/?p=339
 date: '2011-05-15 12:02:41 +0200'

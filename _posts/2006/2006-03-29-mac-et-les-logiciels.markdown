@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: ".Mac et les logiciels (quatrième partie)"
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "<img src=\"/public/posts/2006-11-27-dotmac/dotmac.png\" alt=\".Mac\" align=\"left\"/>\r\nLa
   quatrième et dernière partie de cet article sur le bouquet .Mac d'Apple traitera
   de l'interaction des services proposés avec certains logiciels tournant sous Mac

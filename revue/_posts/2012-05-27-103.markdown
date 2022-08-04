@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-103/
 title: Numéro 103 - Semaine du 21 au 27 mai 2012
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 539
 wordpress_url: http://revue.valhalla.fr/?p=539
 date: '2012-05-27 11:46:09 +0200'

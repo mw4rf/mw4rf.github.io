@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Comment convertir des String en int, float, double, ... , et vice versa ?
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 61
 wordpress_url: http://blog.gfblog.com/index.php/2001/04/27/comment-convertir-des-string-en-int-float-double-et-vice-versa/
 date: '2001-04-27 11:11:38 +0200'

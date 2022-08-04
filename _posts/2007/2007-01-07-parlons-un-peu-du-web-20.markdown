@@ -3,20 +3,18 @@ layout: post
 status: publish
 published: true
 title: Parlons un peu du Web 2.0
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Le Web 2.0 est sur toutes les bouches, on en parle dans tous les journaux,
   à la télévision, sur Internet et ailleurs. C'est devenu un véritable phénomène de
   société. Mais ce phénomène est-il le Web 2.0 en soi ou le profond changement intervenu
   dans le comportement des internautes ?\r\n\r\n"
 wordpress_id: 109
-wordpress_url: http://www.valhalla.fr/index.php/2007/01/07/parlons-un-peu-du-web-20/
+wordpress_/index.php/2007/01/07/parlons-un-peu-du-web-20/
 date: '2007-01-07 21:36:24 +0100'
 date_gmt: '2007-01-07 19:36:24 +0100'
 categories:

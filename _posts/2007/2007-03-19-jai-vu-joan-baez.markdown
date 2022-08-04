@@ -3,20 +3,18 @@ layout: post
 status: publish
 published: true
 title: J'ai vu Joan Baez
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "J'ai pu assister au magnifique concert de Joan Baez, le samedi 17 mars 2007
   à Strasbourg. Le concert a duré un peu moins de 2 heures. Joan Baez a chanté quelques-uns
   de ses classiques et nous a fait découvrir quelques nouvelles chansons, toujours
   autant engagées contre la politique de l'administration américaine.\r\n\r\n"
 wordpress_id: 117
-wordpress_url: http://www.valhalla.fr/index.php/2007/03/19/jai-vu-joan-baez/
+wordpress_/index.php/2007/03/19/jai-vu-joan-baez/
 date: '2007-03-19 19:53:44 +0100'
 date_gmt: '2007-03-19 18:53:44 +0100'
 categories:

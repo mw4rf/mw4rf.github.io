@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Comment jouer un son dans une application Java ?
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 68
 wordpress_url: http://blog.gfblog.com/index.php/2001/10/18/comment-jouer-un-son-dans-une-application-java/
 date: '2001-10-18 12:17:50 +0200'

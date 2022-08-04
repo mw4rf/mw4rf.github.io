@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-40/
 title: Numéro 40 - Semaine du 10 au 16 janvier 2011
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 215
 wordpress_url: http://revue.valhalla.fr/?p=215
 date: '2011-01-16 13:21:59 +0100'

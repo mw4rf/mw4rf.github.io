@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Dates, formulaires et MySQL
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Le Web devient de plus en plus \"interactif\". Les utilisateurs sont de
   plus en plus souvent sollicités par des sites qui récupèrent les informations personnelles
   qu'ils veulent bien communiquer. Ces sites sont construits autour de deux axes:
@@ -25,7 +23,7 @@ excerpt: "Le Web devient de plus en plus \"interactif\". Les utilisateurs sont d
   et à MySQL le format exigé pour l'enregistrement des données dans une colonne de
   type DATE ?\r\n"
 wordpress_id: 119
-wordpress_url: http://www.valhalla.fr/index.php/2007/04/11/dates-formulaires-et-mysql/
+wordpress_/index.php/2007/04/11/dates-formulaires-et-mysql/
 date: '2007-04-11 18:48:45 +0200'
 date_gmt: '2007-04-11 16:48:45 +0200'
 categories:

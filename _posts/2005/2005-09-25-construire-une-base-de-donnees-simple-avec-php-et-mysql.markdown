@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Construire une base de données simple avec PHP et MySQL
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 51
 wordpress_url: http://blog.gfblog.com/index.php/2005/09/25/construire-une-base-de-donnees-simple-avec-php-et-mysql/
 date: '2005-09-25 17:14:08 +0200'

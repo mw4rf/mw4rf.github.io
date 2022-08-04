@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-43/
 title: Numéro 43 - Semaine du 31 janvier au 6 février 2011
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 251
 wordpress_url: http://revue.valhalla.fr/?p=251
 date: '2011-02-06 14:29:38 +0100'

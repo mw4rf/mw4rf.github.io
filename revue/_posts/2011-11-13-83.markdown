@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-83/
 title: Numéro 83 - Semaine du 7 au 13 novembre 2011
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 459
 wordpress_url: http://revue.valhalla.fr/?p=459
 date: '2011-11-13 14:53:14 +0100'

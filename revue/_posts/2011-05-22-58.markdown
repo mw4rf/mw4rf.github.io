@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-58/
 title: Numéro 58 - Semaine du 16 au 22 mai 2011
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 347
 wordpress_url: http://revue.valhalla.fr/?p=347
 date: '2011-05-22 11:48:17 +0200'

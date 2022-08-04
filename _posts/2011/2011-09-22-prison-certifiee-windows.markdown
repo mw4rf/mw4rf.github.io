@@ -3,19 +3,17 @@ layout: post
 status: publish
 published: true
 title: Prison Certifiée Windows
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Une information agite la communauté Linux depuis le début de la semaine:
   les ordinateurs \"certifiés Windows 8\", dotés du petit autocollant Microsoft, ne
   pourraient se défaire de Windows.\r\n\r\n"
 wordpress_id: 828
-wordpress_url: http://www.valhalla.fr/?p=828
+wordpress_/?p=828
 date: '2011-09-22 18:59:48 +0200'
 date_gmt: '2011-09-22 16:59:48 +0200'
 categories:

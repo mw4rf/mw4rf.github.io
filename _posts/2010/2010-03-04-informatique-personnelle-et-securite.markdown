@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Informatique personnelle et sécurité
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "La sécurité informatique est une question essentielle, à une époque où tous
   les ordinateurs, ou presque, bénéficient d'un accès permanent à Internet. Or, les
   utilisateurs sont souvent mal informés des dangers qui les menacent et des comportements
@@ -20,7 +18,7 @@ excerpt: "La sécurité informatique est une question essentielle, à une époqu
   les intrusions, d'assurer la sécurité du système, de prévenir la diffusion des données
   personnelles de l'utilisateur, etc.\r\n\r\n"
 wordpress_id: 350
-wordpress_url: http://www.valhalla.fr/?p=350
+wordpress_/?p=350
 date: '2010-03-04 16:15:00 +0100'
 date_gmt: '2010-03-04 14:15:00 +0100'
 categories:

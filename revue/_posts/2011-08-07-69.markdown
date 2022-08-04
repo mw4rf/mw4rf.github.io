@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-69/
 title: Numéro 69 - Semaine du 1er au 7 août 2011
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 418
 wordpress_url: http://revue.valhalla.fr/?p=418
 date: '2011-08-07 11:35:05 +0200'

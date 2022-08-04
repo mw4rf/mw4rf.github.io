@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Comment utiliser un filtre de fichiers dans un JFileChooser ?
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 69
 wordpress_url: http://blog.gfblog.com/index.php/2001/03/17/comment-utiliser-un-filtre-de-fichiers-dans-un-jfilechooser/
 date: '2001-03-17 12:28:06 +0100'

@@ -3,16 +3,14 @@ layout: post
 status: publish
 published: true
 title: World Hunger
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 793
-wordpress_url: http://www.valhalla.fr/?p=793
+wordpress_/?p=793
 date: '2011-07-20 23:40:27 +0200'
 date_gmt: '2011-07-20 21:40:27 +0200'
 categories:

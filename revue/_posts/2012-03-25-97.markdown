@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-97/
 title: Numéro 97 - Semaine du 19 au 25 mars 2012 (spécial)
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 518
 wordpress_url: http://revue.valhalla.fr/?p=518
 date: '2012-03-25 18:09:48 +0200'

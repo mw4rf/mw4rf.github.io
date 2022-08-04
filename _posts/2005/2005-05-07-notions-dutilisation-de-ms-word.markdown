@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Notions d'utilisation de MS Word
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 25
 wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=25
 date: '2005-05-07 22:40:53 +0200'

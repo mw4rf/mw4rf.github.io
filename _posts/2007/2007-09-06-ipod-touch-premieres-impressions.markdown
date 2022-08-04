@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: 'iPod touch : premières impressions'
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "<a href=\"http://www.flickr.com/photos/valhallafr/1334716434/\" title=\"Partage
   de photos\"><img src=\"http://farm2.static.flickr.com/1358/1334716434_cf98f40f80_o.jpg\"
   width=\"200\" height=\"165\" alt=\"iPod touch 6G\" style=\"float:left; margin-right:10px;\"
@@ -25,7 +23,7 @@ excerpt: "<a href=\"http://www.flickr.com/photos/valhallafr/1334716434/\" title=
   mieux que les iPods «classiques» ; dans quels cas ne convient-il pas ? Cet article
   a pour but de répondre à ces questions.\r\n\r\n"
 wordpress_id: 125
-wordpress_url: http://www.valhalla.fr/index.php/2007/09/06/ipod-touch-premieres-impressions/
+wordpress_/index.php/2007/09/06/ipod-touch-premieres-impressions/
 date: '2007-09-06 08:07:35 +0200'
 date_gmt: '2007-09-06 07:07:35 +0200'
 categories:

@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-50/
 title: Numéro 50 - Semaine du 21 au 27 mars 2011
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 299
 wordpress_url: http://revue.valhalla.fr/?p=299
 date: '2011-03-27 12:08:56 +0200'

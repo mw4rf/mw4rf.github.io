@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-49/
 title: Numéro 49 - Semaine du 14 au 20 mars 2011
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 295
 wordpress_url: http://revue.valhalla.fr/?p=295
 date: '2011-03-20 13:45:27 +0100'

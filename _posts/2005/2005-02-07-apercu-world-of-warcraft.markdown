@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Aperçu World Of Warcraft
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 21
 wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=21
 date: '2005-02-07 22:37:33 +0100'

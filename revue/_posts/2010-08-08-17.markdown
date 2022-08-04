@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-17/
 title: Numéro 17 - Semaine du 2 au 7 août 2010
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 94
 wordpress_url: http://revue.valhalla.fr/?p=94
 date: '2010-08-08 08:00:23 +0200'

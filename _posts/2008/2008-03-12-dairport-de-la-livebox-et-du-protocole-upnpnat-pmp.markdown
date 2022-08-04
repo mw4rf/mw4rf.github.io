@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: D'Airport, de la Livebox et du protocole UPNP/NAT-PMP
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Voici un nouvel article sur la mise en place d'un réseau local avec une
   Livebox et une borne Airport, sujet qui fait décidément couler beaucoup d'encre
   - si je puis dire. Dans mon précédent article sur le sujet, \"<a href=\"http://www.valhalla.fr/index.php/2005/01/05/dairport-et-de-la-livebox/\">D'Airport
@@ -24,7 +22,7 @@ excerpt: "Voici un nouvel article sur la mise en place d'un réseau local avec u
   soit par le biais du protocole UPNP/NAT-PMP, ce que la Livebox ne permet pas de
   réaliser.\r\n\r\n"
 wordpress_id: 138
-wordpress_url: http://www.valhalla.fr/index.php/2008/03/12/dairport-de-la-livebox-et-du-protocole-upnpnat-pmp/
+wordpress_/index.php/2008/03/12/dairport-de-la-livebox-et-du-protocole-upnpnat-pmp/
 date: '2008-03-12 16:09:11 +0100'
 date_gmt: '2008-03-12 15:09:11 +0100'
 categories:

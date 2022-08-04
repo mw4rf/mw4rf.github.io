@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: 'Fichiers EMF : galère sur Mac'
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "On m'a récemment transmis des fichiers portant l'extension EMF, générés
   sous Windows par un logiciel de généalogie. Généalogie impliquait que ces fichiers
   devaient être vus par différents membres de ma famille, sous Mac et PC, qui ne savaient
@@ -19,7 +17,7 @@ excerpt: "On m'a récemment transmis des fichiers portant l'extension EMF, gén�
   Voici donc le récit de l'aventure (car c'en est une), pour qui devrait également
   ouvrir de tels fichiers.\r\n\r\n"
 wordpress_id: 135
-wordpress_url: http://www.valhalla.fr/index.php/2007/12/31/fichiers-emf-galere-sur-mac/
+wordpress_/index.php/2007/12/31/fichiers-emf-galere-sur-mac/
 date: '2007-12-31 11:18:40 +0100'
 date_gmt: '2007-12-31 10:18:40 +0100'
 categories:

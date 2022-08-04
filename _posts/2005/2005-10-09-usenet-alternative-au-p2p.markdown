@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Usenet, alternative au P2P
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 50
 wordpress_url: http://blog.gfblog.com/?p=50
 date: '2005-10-09 10:09:17 +0200'

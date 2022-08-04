@@ -4,14 +4,12 @@ status: publish
 published: true
 title: Quelques observations sur la proposition Google / Verizon relative à la neutralité
   du Net
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Les deux sociétés américaines Google et Verizon viennent de publier, début
   août 2010 et sur fond d'affaire Comcast, un document de deux pages portant une proposition
   relative au principe de neutralité du Net. Les réactions ne se firent pas attendre
@@ -23,7 +21,7 @@ excerpt: "Les deux sociétés américaines Google et Verizon viennent de publier
   but de présenter quelques observations sur la position commune de Google et de Verizon,
   en la rapprochant parfois de l'exemple européen.\r\n\r\n"
 wordpress_id: 648
-wordpress_url: http://www.valhalla.fr/?p=648
+wordpress_/?p=648
 date: '2010-08-14 16:50:26 +0200'
 date_gmt: '2010-08-14 14:50:26 +0200'
 categories:

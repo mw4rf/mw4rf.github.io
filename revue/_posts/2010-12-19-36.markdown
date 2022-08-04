@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-36/
 title: Numéro 36 - Semaine du 13 au 19 décembre 2010
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 188
 wordpress_url: http://revue.valhalla.fr/?p=188
 date: '2010-12-19 13:49:46 +0100'

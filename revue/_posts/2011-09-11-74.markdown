@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-74/
 title: Numéro 74 - Semaine du 5 au 11 septembre 2011 (spécial)
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 432
 wordpress_url: http://revue.valhalla.fr/?p=432
 date: '2011-09-11 22:17:59 +0200'

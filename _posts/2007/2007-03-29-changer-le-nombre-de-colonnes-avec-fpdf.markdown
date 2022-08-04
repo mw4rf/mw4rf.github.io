@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Changer le nombre de colonnes avec FPDF
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Il existe de nombreuses API pour générer des documents PDF à la volée depuis
   un script PHP. L'API <a href=\"http://www.fpdf.org/\">FPDF</a> présente de très
   nombreux avantages: lègère, puissance, très facile d'utilisation, opensource, gratuite.
@@ -18,7 +16,7 @@ excerpt: "Il existe de nombreuses API pour générer des documents PDF à la vol
   le PDF: comment mélanger des pages qui affichent le texte sur plusieurs colonnes
   avec des pages qui affichent le texte sur une seule colonne ? Voici la réponse.\r\n\r\n"
 wordpress_id: 118
-wordpress_url: http://www.valhalla.fr/index.php/2007/03/29/changer-le-nombre-de-colonnes-avec-fpdf/
+wordpress_/index.php/2007/03/29/changer-le-nombre-de-colonnes-avec-fpdf/
 date: '2007-03-29 18:30:06 +0200'
 date_gmt: '2007-03-29 17:30:06 +0200'
 categories:

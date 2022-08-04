@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Meta-Recherche
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Les moteurs de recherche occupent une place à part sur Internet. Ils ne
   sont pas une fin en soi, mais ils constituent des outils indispensables pour trouver
   l'information recherchée dans la masse incroyable de pages qui forment le Web. Le
@@ -26,7 +24,7 @@ excerpt: "Les moteurs de recherche occupent une place à part sur Internet. Ils 
   il en existe plusieurs, ont pour but de simplifier le processus, tout en le rendant
   plus rapide.\r\n"
 wordpress_id: 151
-wordpress_url: http://www.valhalla.fr/?p=151
+wordpress_/?p=151
 date: '2009-01-04 09:36:23 +0100'
 date_gmt: '2009-01-04 08:36:23 +0100'
 categories:

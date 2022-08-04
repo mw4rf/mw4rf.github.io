@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-78/
 title: Numéro 78 - Semaine du 3 au 9 octobre 2011
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 443
 wordpress_url: http://revue.valhalla.fr/?p=443
 date: '2011-10-09 13:35:18 +0200'

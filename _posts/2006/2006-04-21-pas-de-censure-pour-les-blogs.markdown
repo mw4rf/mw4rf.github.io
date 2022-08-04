@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Pas de censure pour les blogs !
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Il est des sigles tristement célèbres qui passeront à la postérité pour
   avoir affaibli un peu plus notre fragile démocratie. Après la scélérate loi DADVSI,
   passée presque inaperçue dans la tourmente CPE (Contrat Première Embauche), celui

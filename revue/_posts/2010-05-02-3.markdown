@@ -3,13 +3,7 @@ layout: post
 status: publish
 published: true
 title: Numéro 3 – Semaine du 26 avril au 2 mai 2010
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 21
 wordpress_url: http://revue.valhalla.fr/?p=21
 date: '2010-05-02 12:22:14 +0200'

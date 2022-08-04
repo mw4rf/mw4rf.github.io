@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Arrêt Kress c/ France
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 48
 wordpress_url: http://blog.gfblog.com/index.php/2005/03/10/arret-kress-c-france/
 date: '2005-03-10 20:07:02 +0100'

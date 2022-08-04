@@ -3,21 +3,19 @@ layout: post
 status: publish
 published: true
 title: Flash Tracking Cookies... et les couettes La Redoute
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Connaissez-vous le <i>neuromarketing</i> ? Il s'agit, <a href=\"http://fr.wikipedia.org/wiki/Neuromarketing\">selon
   Wikipédia</a> d'une discipline naissante ayant pour objet <i>\"l’application des
   connaissances issues de la recherche publique en neurosciences cognitives au marketing
   et à la communication\"</i>. Démonstration sur le Web, avec les couettes La Redoute
   !\r\n\r\n"
 wordpress_id: 811
-wordpress_url: http://www.valhalla.fr/?p=811
+wordpress_/?p=811
 date: '2011-09-03 16:56:16 +0200'
 date_gmt: '2011-09-03 14:56:16 +0200'
 categories:

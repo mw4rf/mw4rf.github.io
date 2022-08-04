@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Quand apt-get réclame une fin de ligne
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Le système de paquets Debian/Ubuntu est diablement efficace : les dépendances
   sont gérées automatiquement, il suffit d'une ligne dans la console, commençant par
   la fameuse commande \"apt-get\" pour installer ou supprimer un logiciel. Mais voilà
@@ -19,7 +17,7 @@ excerpt: "Le système de paquets Debian/Ubuntu est diablement efficace : les dé
   mes recherches, ne trouve aucun écho sur Google -- il doit donc être extrêmement
   rare !\r\n\r\n"
 wordpress_id: 701
-wordpress_url: http://www.valhalla.fr/?p=701
+wordpress_/?p=701
 date: '2011-01-19 22:58:32 +0100'
 date_gmt: '2011-01-19 20:58:32 +0100'
 categories:

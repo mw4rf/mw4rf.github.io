@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-20/
 title: Numéro 20 - Semaine du 23 au 29 août 2010
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 121
 wordpress_url: http://revue.valhalla.fr/?p=121
 date: '2010-08-29 08:00:58 +0200'

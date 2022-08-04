@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: ".Mac et les services en ligne (troisième partie)"
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "<img src=\"/public/posts/2006-11-27-dotmac/dotmac.png\" alt=\".Mac\" align=\"left\"/>\r\nLe
   bouquet de services .Mac d'Apple est doté d'une interface web aux nombreuses fonctionnalités
   qui est accessible depuis www.mac.com. Le thème de cette troisième partie de l'article

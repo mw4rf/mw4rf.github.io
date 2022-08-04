@@ -3,21 +3,19 @@ layout: post
 status: publish
 published: true
 title: Utiliser des thèmes Adium avec Empathy
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Le logiciel libre de messagerie instatanée <strong>Empathy</strong>, désormais
   installé par défaut avec les principales distributions Linux telles qu'Ubuntu ou
   Fedora, et parfaitement intégré à Gnome-Shell, utilise le même format de thèmes
   graphiques que le logiciel pour Mac Adium. Il est donc très facile d'utiliser des
   thèmes conçus pour Adium avec Empathy, et cet article montre comment faire.\r\n\r\n"
 wordpress_id: 729
-wordpress_url: http://www.valhalla.fr/?p=729
+wordpress_/?p=729
 date: '2011-06-19 17:03:12 +0200'
 date_gmt: '2011-06-19 15:03:12 +0200'
 categories:

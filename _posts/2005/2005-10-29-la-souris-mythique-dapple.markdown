@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: La souris mythique d'Apple
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 54
 wordpress_url: http://blog.gfblog.com/?p=54
 date: '2005-10-29 10:46:19 +0200'

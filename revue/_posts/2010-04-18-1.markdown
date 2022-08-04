@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-1/
 title: Numéro 1 - Semaine du 12 au 18 avril 2010
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 10
 wordpress_url: http://revue.valhalla.fr/?p=10
 date: '2010-04-18 14:17:40 +0200'

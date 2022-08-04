@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Bien utiliser sa mule (eDonkey/eMule)
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 7
 wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=7
 date: '2004-09-05 22:25:28 +0200'

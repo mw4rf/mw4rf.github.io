@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: La loi des séries
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Ils l'ont annoncé: il n'y aura plus de film le dimanche soir. Enfin, c'est
   ce qui est expliqué en légende du sondage \"Pour ou contre l'abandon du film du
   dimanche soir sur TF1?\" de MSN Programmes TV. Quand j'ai vu ce sondage, ma première

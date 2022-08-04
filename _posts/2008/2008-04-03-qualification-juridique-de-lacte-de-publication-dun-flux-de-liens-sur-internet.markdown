@@ -3,16 +3,14 @@ layout: post
 status: publish
 published: true
 title: Qualification juridique de l’acte de publication d’un flux de liens sur Internet
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 413
-wordpress_url: http://www.valhalla.fr/?p=413
+wordpress_/?p=413
 date: '2008-04-03 13:11:18 +0200'
 date_gmt: '2008-04-03 11:11:18 +0200'
 categories:

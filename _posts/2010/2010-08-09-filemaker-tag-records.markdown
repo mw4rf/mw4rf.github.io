@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: 'Filemaker : Ajouter des tags aux enregistrements'
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Filemaker est un logiciel puissant, mais ancien et dont l'ergonomie a peu
   évolué. Depuis quelques années, des systèmes de \"tags\" ou mots-clés sont apparus
   dans la plupart des logiciels permettant de gérer des données. Filemaker n'offre
@@ -18,7 +16,7 @@ excerpt: "Filemaker est un logiciel puissant, mais ancien et dont l'ergonomie a 
   un tel système soi-même. Cet article a pour but de décrire une des nombreuses manière
   de procéder pour y parvenir.\r\n\r\n"
 wordpress_id: 626
-wordpress_url: http://www.valhalla.fr/?p=626
+wordpress_/?p=626
 date: '2010-08-09 16:35:31 +0200'
 date_gmt: '2010-08-09 14:35:31 +0200'
 categories:

@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Des vidéos YouTube, DailyMotion et Google Video sur iPod
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Depuis quelques temps déjà, des services de vidéo en ligne comme YouTube,
   DailyMotion ou encore Google Video, rencontrent un franc succès. Le principe est
   simple: l'internaute crée gratuitement un compte et peut ainsi mettre en ligne ses
@@ -24,7 +22,7 @@ excerpt: "Depuis quelques temps déjà, des services de vidéo en ligne comme Yo
   ces vidéos sur son ordinateur, puis de les convertir et de les transférer sur un
   iPod vidéo ou sur une PSP. Cet article a pour but d'exposer certains de ces moyens.\r\n\r\n"
 wordpress_id: 112
-wordpress_url: http://www.valhalla.fr/index.php/2007/03/04/des-videos-youtube-dailymotion-et-google-video-sur-ipod/
+wordpress_/index.php/2007/03/04/des-videos-youtube-dailymotion-et-google-video-sur-ipod/
 date: '2007-03-04 20:47:24 +0100'
 date_gmt: '2007-03-04 18:47:24 +0100'
 categories:

@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Vers une alliance Google-Firefox ?
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Pour la première fois, parait-il, Google a affiché une <a href=\"http://www.clubic.com/actualite-34249-google-fait-la-promo-de-firefox-aux-etats-unis.html\">publicité</a>
   sur sa page d'accueil américaine qui ne vantait pas le mérites d'un de ses propres
   produits, mais du navigateur de la Fondation Mozilla, Firefox. La Fondation Mozilla

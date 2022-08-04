@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-87/
 title: Numéro 87 - Semaine du 12 au 18 décembre 2011
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 471
 wordpress_url: http://revue.valhalla.fr/?p=471
 date: '2011-12-18 16:59:37 +0100'

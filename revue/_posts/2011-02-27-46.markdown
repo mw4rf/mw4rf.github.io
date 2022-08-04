@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-46/
 title: Numéro 46 - Semaine du 21 au 27 février 2011
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 268
 wordpress_url: http://revue.valhalla.fr/?p=268
 date: '2011-02-27 15:28:37 +0100'

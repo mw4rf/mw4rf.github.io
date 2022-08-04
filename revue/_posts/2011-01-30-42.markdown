@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-42/
 title: Numéro 42 - Semaine du 24 au 30 janvier 2011
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 243
 wordpress_url: http://revue.valhalla.fr/?p=243
 date: '2011-01-30 14:21:10 +0100'

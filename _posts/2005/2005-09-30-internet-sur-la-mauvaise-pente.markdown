@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Internet sur la mauvaise pente
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 36
 wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=36
 date: '2005-09-30 22:48:37 +0200'

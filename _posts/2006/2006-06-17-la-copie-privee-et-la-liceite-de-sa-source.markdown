@@ -3,19 +3,17 @@ layout: post
 status: publish
 published: true
 title: La copie privée et la licéité de sa source
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Sur fond de texte de loi DADVSI qui va bientôt être examiné par une Commission
   Mixte Paritaire, la Cour de cassation précise le droit positif actuel en matière
   de téléchargement.\r\n\r\n"
 wordpress_id: 386
-wordpress_url: http://www.valhalla.fr/?p=386
+wordpress_/?p=386
 date: '2006-06-17 12:13:52 +0200'
 date_gmt: '2006-06-17 10:13:52 +0200'
 categories:

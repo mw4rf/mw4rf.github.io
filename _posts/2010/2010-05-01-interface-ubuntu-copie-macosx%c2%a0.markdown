@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: L'interface d'Ubuntu, copie de celle de Mac OS X ?
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "L'interface d'Ubuntu 10.04, « Lucid Lynx », copierait celle de Mac OS X.
   C'est ce qu'on peut lire, dans plusieurs langues, sur de nombreux forums et blogs
   dédiés à Linux. La plupart des personnes qui avancent cette idée le font pour dénoncer
@@ -19,7 +17,7 @@ excerpt: "L'interface d'Ubuntu 10.04, « Lucid Lynx », copierait celle de Mac
   de l'esprit de Linux, des précédentes versions d'Ubuntu et du monde libre. Voyons
   ce qu'il en est.\r\n"
 wordpress_id: 551
-wordpress_url: http://www.valhalla.fr/?p=551
+wordpress_/?p=551
 date: '2010-05-01 21:55:36 +0200'
 date_gmt: '2010-05-01 19:55:36 +0200'
 categories:

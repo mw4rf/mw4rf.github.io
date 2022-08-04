@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Localiser la musique achetée sur l'iTunes Store
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "<a href=\"http://www.flickr.com/photos/valhallafr/905373894/\" title=\"Partage
   de photos\"><img src=\"http://farm2.static.flickr.com/1437/905373894_9addbcc661_o.jpg\"
   width=\"102\" height=\"129\" alt=\"Fichier AAC MP4 iTunes DRM\" align=\"left\" style=\"margin-right:15px;\"
@@ -23,7 +21,7 @@ excerpt: "<a href=\"http://www.flickr.com/photos/valhallafr/905373894/\" title=\
   CD ou du téléchargement) sans DRM. Je vous propose ici plusieurs méthodes pour retrouver
   ces morceaux, et les fichiers associés dans le Finder.</p>\r\n"
 wordpress_id: 122
-wordpress_url: http://www.valhalla.fr/index.php/2007/07/26/localiser-la-musique-achetee-sur-litunes-stores/
+wordpress_/index.php/2007/07/26/localiser-la-musique-achetee-sur-litunes-stores/
 date: '2007-07-26 14:06:44 +0200'
 date_gmt: '2007-07-26 13:06:44 +0200'
 categories:

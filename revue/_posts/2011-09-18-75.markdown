@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-75/
 title: Numéro 75 - Semaine du 12 au 18 septembre 2011
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 435
 wordpress_url: http://revue.valhalla.fr/?p=435
 date: '2011-09-18 11:25:04 +0200'

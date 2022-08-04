@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: La comparaison des systèmes juridiques
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Cet article n'a pas de but précis. Il s'agit seulement d'une préparation,
   qui organise des idées et tend à répondre à certaines questions. La réflexion est
   purement subjective, il n'y a rien de certain dans ce qui suit. La thème de la discussion

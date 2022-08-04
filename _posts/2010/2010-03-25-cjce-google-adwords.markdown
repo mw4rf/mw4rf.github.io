@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Google AdWords devant la Cour de justice des communautés européennes
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "<strong>Observations à propos de l'arrêt du 23 mars 2010 (affaires C-236/08,
   C-237/08, C-238/08)</strong>\r\nLa décision de la Cour de justice des communautés
   européennes dans les affaires « AdWords » était attendue avec impatience par les
@@ -25,7 +23,7 @@ excerpt: "<strong>Observations à propos de l'arrêt du 23 mars 2010 (affaires C
   ou d’éditeur et laisse aux juridictions nationales le soin de déterminer le régime
   de responsabilité qui lui est applicable.\r\n"
 wordpress_id: 475
-wordpress_url: http://www.valhalla.fr/?p=475
+wordpress_/?p=475
 date: '2010-03-25 11:58:43 +0100'
 date_gmt: '2010-03-25 09:58:43 +0100'
 categories:

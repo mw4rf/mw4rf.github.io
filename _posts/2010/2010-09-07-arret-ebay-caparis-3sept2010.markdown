@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Observations sur l'arrêt eBay de la Cour d'appel de Paris du 3 septembre 2010
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "L'arrêt rendu par la Cour d'appel de Paris, le 3 septembre 2010, dans l'affaire
   opposant la société Christian Dior à plusieurs sociétés du groupe eBay est doublement
   intéressant. Sur la compétence internationale des juridictions françaises, d'abord,
@@ -21,7 +19,7 @@ excerpt: "L'arrêt rendu par la Cour d'appel de Paris, le 3 septembre 2010, dans
   de la directive \"commerce électronique\" et de la LCEN du 21 juin 2004 et, relevant
   qu'eBay n'exerce pas un rôle purement passif, qualifie l'opérateur de courtier.\r\n\r\n"
 wordpress_id: 671
-wordpress_url: http://www.valhalla.fr/?p=671
+wordpress_/?p=671
 date: '2010-09-07 12:01:10 +0200'
 date_gmt: '2010-09-07 10:01:10 +0200'
 categories:

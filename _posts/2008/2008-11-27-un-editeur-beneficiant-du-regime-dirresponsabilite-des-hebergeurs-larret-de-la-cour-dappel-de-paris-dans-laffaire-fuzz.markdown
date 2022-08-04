@@ -4,16 +4,14 @@ status: publish
 published: true
 title: 'Un éditeur bénéficiant du régime d''irresponsabilité des hébergeurs : l''arrêt
   de la Cour d''appel de Paris dans l''affaire Fuzz'
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 420
-wordpress_url: http://www.valhalla.fr/?p=420
+wordpress_/?p=420
 date: '2008-11-27 13:25:53 +0100'
 date_gmt: '2008-11-27 11:25:53 +0100'
 categories:

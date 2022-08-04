@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-86/
 title: Numéro 86 - Semaine du 28 novembre au 4 décembre 2011
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 469
 wordpress_url: http://revue.valhalla.fr/?p=469
 date: '2011-12-04 15:22:58 +0100'

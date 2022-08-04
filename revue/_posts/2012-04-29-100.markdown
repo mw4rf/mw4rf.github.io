@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-100/
 title: Numéro 100 - Semaine du 23 au 29 avril 2012
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 528
 wordpress_url: http://revue.valhalla.fr/?p=528
 date: '2012-04-29 11:39:43 +0200'

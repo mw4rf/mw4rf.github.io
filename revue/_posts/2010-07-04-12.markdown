@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-12/
 title: Numéro 12 - Semaine du 28 juin au 4 juillet 2010
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 60
 wordpress_url: http://revue.valhalla.fr/?p=60
 date: '2010-07-04 12:20:50 +0200'

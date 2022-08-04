@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Le British Guantanamo
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 14
 wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=14
 date: '2004-12-20 22:31:28 +0100'

@@ -3,21 +3,19 @@ layout: post
 status: publish
 published: true
 title: Leopard et les gestionnaires d'impression
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Leopard, la dernière version de Mac OS X, n'aime pas les imprimantes trop
   anciennes. Il ne les \"détecte\" pas ; celles-ci refusent d'imprimer. J'ai rencontré
   ce problème avec une Epson Stylus Photo 750 datant de la fin des années 90, qui
   fonctionnait parfaitement sous Tiger. Voici donc le récit du problème et l'exposé
   de la solution.\r\n\r\n"
 wordpress_id: 134
-wordpress_url: http://www.valhalla.fr/index.php/2007/12/12/leopard-et-les-gestionnaires-dimpression/
+wordpress_/index.php/2007/12/12/leopard-et-les-gestionnaires-dimpression/
 date: '2007-12-12 12:23:13 +0100'
 date_gmt: '2007-12-12 11:23:13 +0100'
 categories:

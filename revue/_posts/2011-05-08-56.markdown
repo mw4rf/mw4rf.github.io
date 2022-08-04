@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-56/
 title: Numéro 56 - Semaine du 2 au 8 mai 2011
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 336
 wordpress_url: http://revue.valhalla.fr/?p=336
 date: '2011-05-08 11:16:45 +0200'

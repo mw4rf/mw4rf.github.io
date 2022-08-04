@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: 'VOD et DRM : vol légalisé'
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Non aux DRM, non à la <i>Video-On-Demand</i> à base de DRM ! Non ! Dites-le.
   Criez-le ! <br />\r\nLes DRM existent depuis quelques années déjà. Leur licéité
   et leur opportunité ont fait l'objet de longs et tumultueux débats lors de l'élaboration
@@ -26,7 +24,7 @@ excerpt: "Non aux DRM, non à la <i>Video-On-Demand</i> à base de DRM ! Non ! D
   tels que TF1vision ou Vodeo. Là il s'agit tout simplement de vol. Une immense arnaque,
   de la malhonnêteté pure.\r\n\r\n"
 wordpress_id: 126
-wordpress_url: http://www.valhalla.fr/index.php/2007/09/15/drm-et-vod-vol-legalise/
+wordpress_/index.php/2007/09/15/drm-et-vod-vol-legalise/
 date: '2007-09-15 13:13:03 +0200'
 date_gmt: '2007-09-15 12:13:03 +0200'
 categories:

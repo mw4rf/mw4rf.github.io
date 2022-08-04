@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-21/
 title: Numéro 21 - Semaine du 30 août au 5 septembre 2010
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 123
 wordpress_url: http://revue.valhalla.fr/?p=123
 date: '2010-09-05 11:33:04 +0200'

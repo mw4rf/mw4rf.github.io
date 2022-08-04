@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: 'LOPPSI 2 : quelques doutes sur l''efficacité des spywares judiciaires'
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "L'article 23 de la loi LOPPSI (« Loi d’Orientation et de Programmation pour
   la Performance de la Sécurité Intérieure »), adopté le 11 février dernier, permet
   à la police d’installer, sous le contrôle de l’autorité judiciaire, des « mouchards »
@@ -18,7 +16,7 @@ excerpt: "L'article 23 de la loi LOPPSI (« Loi d’Orientation et de Programma
   délits. La mise en oeuvre de ce dispositif soulève de nombreuses questions, juridiques
   et technologiques.\r\n"
 wordpress_id: 300
-wordpress_url: http://www.valhalla.fr/?p=300
+wordpress_/?p=300
 date: '2010-02-13 21:49:47 +0100'
 date_gmt: '2010-02-13 19:49:47 +0100'
 categories:

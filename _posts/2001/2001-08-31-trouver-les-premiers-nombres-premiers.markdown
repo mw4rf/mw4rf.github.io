@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Trouver les premiers nombres premiers
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 74
 wordpress_url: http://blog.gfblog.com/index.php/2001/08/31/trouver-les-premiers-nombres-premiers/
 date: '2001-08-31 12:49:15 +0200'

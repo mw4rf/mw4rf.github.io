@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Statut d'un RAID logiciel par e-mail
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "La meilleure solution pour assurer la sécurité de ses données numériques
   reste à ce jour l'utilisation de plusieurs disques en RAID 1 \"miroir\". Lorsque
   deux disques durs sont montés en RAID 1, chaque fichier copié sur un disque l'est
@@ -24,7 +22,7 @@ excerpt: "La meilleure solution pour assurer la sécurité de ses données numé
   l'intégrité du Raid, alors qu'un seul disque reste fonctionnel. Il est donc nécessaire
   d'obtenir des informations sur l'état du Raid, par exemple par e-mail. \r\n\r\n"
 wordpress_id: 140
-wordpress_url: http://www.valhalla.fr/?p=140
+wordpress_/?p=140
 date: '2008-08-31 09:33:11 +0200'
 date_gmt: '2008-08-31 08:33:11 +0200'
 categories:

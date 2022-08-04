@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Leopard et le Partage égoïste
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Leopard, la nouvelle version de Mac OS X, est sorti hier vendredi 26 octobre
   2007. Je l'ai acheté et installé sur mon MacPro. Tout ne s'est pas très bien passé,
   bien que j'ai réalisé une \"clean install\" (effacer et installer). Le problème
@@ -21,7 +19,7 @@ excerpt: "Leopard, la nouvelle version de Mac OS X, est sorti hier vendredi 26 o
   à ce niveau entre Tiger et Leopard, et surtout faire en sorte de prévenir le problème
   que j'ai rencontré.\r\n\r\n"
 wordpress_id: 129
-wordpress_url: http://www.valhalla.fr/index.php/2007/10/27/leopard-et-le-partage-egoiste/
+wordpress_/index.php/2007/10/27/leopard-et-le-partage-egoiste/
 date: '2007-10-27 10:32:26 +0200'
 date_gmt: '2007-10-27 09:32:26 +0200'
 categories:

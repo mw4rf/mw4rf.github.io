@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Comment travailler avec des archives compressées au format ZIP en Java ?
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 65
 wordpress_url: http://blog.gfblog.com/index.php/2001/04/13/comment-travailler-avec-des-archives-compressees-au-format-zip-en-java/
 date: '2001-04-13 12:06:39 +0200'

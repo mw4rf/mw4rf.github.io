@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Convertir un blog Wordpress en UTF-8
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: <p>L'encodage d'un site utilisant un logiciel de publication stockant le
   contenu des pages dans une base de données, comme le font les logiciels de blog,
   de forum ou de CMS, est une chose importante et <a href="http://www.valhalla.fr/2005/10/06/un-probleme-dencodage-peut-etre/">susceptible
@@ -31,7 +29,7 @@ excerpt: <p>L'encodage d'un site utilisant un logiciel de publication stockant l
   à un site utilisant Wordpress, afin de remplacer Latin1 par UTF-8 comme encodage
   par défaut.</p>
 wordpress_id: 456
-wordpress_url: http://www.valhalla.fr/2010/03/20/convertir-blog-wordpress-utf8/
+wordpress_/2010/03/20/convertir-blog-wordpress-utf8/
 date: '2010-03-20 19:15:44 +0100'
 date_gmt: '2010-03-20 17:15:44 +0100'
 categories:

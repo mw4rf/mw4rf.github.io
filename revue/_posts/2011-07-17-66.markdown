@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-66/
 title: Numéro 66 - Semaine du 11 au 17 juillet 2011
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 404
 wordpress_url: http://revue.valhalla.fr/?p=404
 date: '2011-07-17 19:32:02 +0200'

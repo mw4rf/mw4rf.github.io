@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: L'équivalent de la fonction C scanf() en Java
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 67
 wordpress_url: http://blog.gfblog.com/index.php/2001/10/18/lequivalent-de-la-fonction-c-scanf-en-java/
 date: '2001-10-18 12:15:39 +0200'

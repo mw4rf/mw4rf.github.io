@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: OpenDocument et l'interopérabilité des formats
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "À l'occasion du test de la dernière version de KOffice, la discussion s'oriente vers l'un des problèmes majeurs de l'informtique moderne : l'interopérabilité des formats de fichier et la pérennité des données."
 wordpress_id: 97
 wordpress_url: http://www.valhalla-fr.eu/index.php/2006/04/13/opendocument-et-linteroperabilite-des-formats/

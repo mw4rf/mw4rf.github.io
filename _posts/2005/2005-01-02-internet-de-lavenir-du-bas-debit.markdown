@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: 'Internet: De l''avenir du bas débit'
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 18
 wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=18
 date: '2005-01-02 22:35:16 +0100'

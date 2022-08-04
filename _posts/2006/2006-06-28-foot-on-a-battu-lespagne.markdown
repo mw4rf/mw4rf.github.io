@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: 'Foot: on a battu l''Espagne !'
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Et oui, je vais parler de foot. Pourtant le foot je n'ai jamais vraiment
   aimé ça. Mais la coupe du monde, avec la France qui réussit ses matchs, ça ne peut
   que plaire. Il ne s'agit pas là d'un article qui se fond dans la masse du site Valhalla:

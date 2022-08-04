@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Qu'est-ce-que la technologie Jini ?
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 75
 wordpress_url: http://blog.gfblog.com/index.php/2001/08/28/quest-ce-que-la-technologie-jini/
 date: '2001-08-28 12:52:50 +0200'

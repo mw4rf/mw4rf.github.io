@@ -8,9 +8,9 @@ author:
   login: Alanus
   email: alain.florimond+blog@gmail.com
   url: http://
-author_login: Alanus
-author_email: alain.florimond+blog@gmail.com
-author_url: http://
+login: Alanus
+email: alain.florimond+blog@gmail.com
+url: http://
 excerpt: "Lecture du « Monde » ce soir, et puis mon œil est attiré par l’intitulé
   d’un forum :\r\n\r\n« TVA restauration et quoi encore ! »\r\n\r\nSi je peux me permettre
   une perplexité, quelques observations et quelques opinions à la suite de la lecture

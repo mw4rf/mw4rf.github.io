@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-35/
 title: Numéro 35 - Semaine du 6 au 12 décembre 2010
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 181
 wordpress_url: http://revue.valhalla.fr/?p=181
 date: '2010-12-12 15:31:52 +0100'

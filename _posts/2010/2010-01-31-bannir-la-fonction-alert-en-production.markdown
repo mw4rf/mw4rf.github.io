@@ -3,21 +3,19 @@ layout: post
 status: publish
 published: true
 title: Bannir la fonction alert() en production
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Bannir la fonction alert() en production. Voilà un titre d'article bien
   singulier ! Les développeurs web comprendront, les autres peut être pas. Il s'agit
   simplement pour moi de vous raconter une mésaventure récente, avec Firefox et un
   add-on défectueux, et de pousser un \"coup de gueule\" contre l'utilisation de la
   fonction alert() dans des programmes distribués à l'attention de l'utilisateur final.\r\n\r\n"
 wordpress_id: 295
-wordpress_url: http://www.valhalla.fr/?p=295
+wordpress_/?p=295
 date: '2010-01-31 23:11:00 +0100'
 date_gmt: '2010-01-31 21:11:00 +0100'
 categories:

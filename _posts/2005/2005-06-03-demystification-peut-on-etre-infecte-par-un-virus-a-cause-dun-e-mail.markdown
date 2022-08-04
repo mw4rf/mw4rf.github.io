@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: 'Démystification: peut-on être infecté par un virus à cause d''un e-mail ?'
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 30
 wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=30
 date: '2005-06-03 22:44:56 +0200'

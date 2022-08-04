@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Webmails et clients locaux sur Mac
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Rares sont ceux qui, aujourd'hui, n'utilisent pas le courrier électronique.
   Plus rapide, plus simple et plus sûr qu'un courrier postal classique, l'e-mail est
   de plus en plus utilisé par des personnes de tous âges et de toutes provenances.

@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: L'accélération de la souris dans Mac OS X
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Un très bon <a href=\"http://db.tidbits.com/article/8893\">article</a> sur
   TidBits évoque le problème de l'accélération de la souris -ou plutôt du curseur
   de la souris tel qu'il est affiché à l'écran- dans Mac OS X. Tout utilisateur d'un
@@ -20,7 +18,7 @@ excerpt: "Un très bon <a href=\"http://db.tidbits.com/article/8893\">article</a
   de l'accélération, qui est calculée mathématiquement selon une courbe. Selon l'auteur,
   la courbe employée par Mac OS X serait inappropriée.\r\n\r\n"
 wordpress_id: 114
-wordpress_url: http://www.valhalla.fr/index.php/2007/03/05/lacceleration-de-la-souris-dans-mac-os-x/
+wordpress_/index.php/2007/03/05/lacceleration-de-la-souris-dans-mac-os-x/
 date: '2007-03-05 10:47:05 +0100'
 date_gmt: '2007-03-05 09:47:05 +0100'
 categories:

@@ -3,21 +3,19 @@ layout: post
 status: publish
 published: true
 title: La loi Hadopi rejetée par l'Assemblée Nationale
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Une fois n'est pas coutume, les députés de l'Assemblée Nationale ont refusé
   de voter une loi proposée par le gouvernement. Il s'agit de la tristement célèbre
   loi « Création et Internet », dite Hadopi. On ne peut que se réjouir du rejet de
   cette loi liberticide et inique, et espérer que le gouvernement ne tentera pas de
   la réintroduire dans sa rédaction issue de la Commission mixte paritaire.\r\n\r\n"
 wordpress_id: 160
-wordpress_url: http://www.valhalla.fr/?p=160
+wordpress_/?p=160
 date: '2009-04-09 21:29:21 +0200'
 date_gmt: '2009-04-09 19:29:21 +0200'
 categories:

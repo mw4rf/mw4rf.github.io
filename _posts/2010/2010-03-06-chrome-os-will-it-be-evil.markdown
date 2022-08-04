@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Chrome OS, will it be evil?
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "<em>Don't be evil !</em> : le célèbre slogan de Google, inventé à l'époque
   où la société n'était qu'un petit moteur de recherche intégré au géant Yahoo!, bien
   avant que le <em>profilage</em> des internautes ne soit devenu une activité aussi
@@ -22,7 +20,7 @@ excerpt: "<em>Don't be evil !</em> : le célèbre slogan de Google, inventé à 
   la sortie officielle du système d'exploitation, annoncée pour fin 2010, on peut
   se poser la question : <em>will it be evil?</em>\r\n\r\n"
 wordpress_id: 362
-wordpress_url: http://www.valhalla.fr/?p=362
+wordpress_/?p=362
 date: '2010-03-06 18:10:29 +0100'
 date_gmt: '2010-03-06 16:10:29 +0100'
 categories:

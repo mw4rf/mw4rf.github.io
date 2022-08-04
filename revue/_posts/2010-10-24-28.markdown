@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-28/
 title: Numéro 28 - Semaine du 18 au 24 octobre 2010
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 153
 wordpress_url: http://revue.valhalla.fr/?p=153
 date: '2010-10-24 11:53:58 +0200'

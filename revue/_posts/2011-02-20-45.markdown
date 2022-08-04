@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-45/
 title: Numéro 45 - Semaine du 14 au 20 février 2011
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 262
 wordpress_url: http://revue.valhalla.fr/?p=262
 date: '2011-02-20 15:01:45 +0100'

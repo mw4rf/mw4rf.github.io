@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-55/
 title: Numéro 55 - Semaine du 25 avril au 1er mai
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 330
 wordpress_url: http://revue.valhalla.fr/?p=330
 date: '2011-05-01 13:02:49 +0200'

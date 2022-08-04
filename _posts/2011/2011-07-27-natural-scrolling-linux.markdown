@@ -3,20 +3,18 @@ layout: post
 status: publish
 published: true
 title: 'Natural Scrolling & Linux '
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Avec OS X \"Lion\", Apple a inversé le sens du défilement avec le Touchpad
   : glisser les doigts vers le bas ne fait plus descendre l’ascenseur sur le côté
   de la fenêtre, et le contenu avec lui, mais \"tire\" la page vers le bas faisant
   ainsi remonter le contenu. Voici comment reproduire ce comportement sous Linux.\r\n\r\n"
 wordpress_id: 804
-wordpress_url: http://www.valhalla.fr/?p=804
+wordpress_/?p=804
 date: '2011-07-27 21:02:43 +0200'
 date_gmt: '2011-07-27 19:02:43 +0200'
 categories:

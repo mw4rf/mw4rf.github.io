@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-53/
 title: Numéro 53 - Semaine du 11 au 17 avril 2011
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 319
 wordpress_url: http://revue.valhalla.fr/?p=319
 date: '2011-04-17 12:25:00 +0200'

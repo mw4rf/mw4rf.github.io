@@ -3,17 +3,15 @@ layout: post
 status: publish
 published: true
 title: 'LaTeX sur Mac : Installation'
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "LaTeX (prononcé \"leïtek\") est un puissant outil de formatage de texte et de mise en page. Il permet une configuration sans limite, contrairement aux différents traitements de texte présents sur le marché. Il n'utilise aucun format de fichier propriétaire : un document LaTeX est un fichier de texte brut contenant des \"instruction\", à la manière du code source d'un logiciel, qui seront interprétées par le moteur LaTeX pour générer un fichier prêt à être imprimé (PostScript, PDF, etc.). Cependant, l'immense potentiel de Latex ne va pas sans un inconvénient de taille : la complexité du système. Ce premier article a pour but de détailler la procédure d'installation d'un enviromment de travail LaTeX sur un système Mac OS X."
 wordpress_id: 127
-wordpress_url: http://www.valhalla.fr/index.php/2007/10/08/latex-sur-mac-installation/
+wordpress_/index.php/2007/10/08/latex-sur-mac-installation/
 date: '2007-10-08 22:40:18 +0200'
 date_gmt: '2007-10-08 21:40:18 +0200'
 categories:

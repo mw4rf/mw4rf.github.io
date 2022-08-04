@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Construire un réseau Wifi sécurisé
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 52
 wordpress_url: http://blog.gfblog.com/?p=52
 date: '2005-10-11 19:47:11 +0200'

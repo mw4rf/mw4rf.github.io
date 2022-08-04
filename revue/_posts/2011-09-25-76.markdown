@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-76/
 title: Numéro 76 - Semaine du 19 au 25 septembre 2011
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 438
 wordpress_url: http://revue.valhalla.fr/?p=438
 date: '2011-09-25 12:23:39 +0200'

@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: ".Mac et la synchronisation (première partie)"
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "<img src=\"/public/posts/2006-11-27-dotmac/dotmac.png\" alt=\".Mac\" align=\"left\"/>\r\nApple
   semble orienter sa politique à destination du grand public vers les services multimédia
   en ligne. Du moins, c'est ce qui ressort clairement des dernières versions des logiciels

@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Faire patienter l'utilisateur pendant l’exécution d’un script PHP
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "<p>\r\n\tUn script PHP s’exécute sur le serveur, avant d’afficher à l’écran
   le résultat de son exécution. Dans la plupart des cas, le programme s’exécute en
   quelques millisecondes et l’affichage survient sans délai perceptible. Pourtant,
@@ -25,7 +23,7 @@ excerpt: "<p>\r\n\tUn script PHP s’exécute sur le serveur, avant d’afficher
   faire cela, des plus simples aux plus complexes. Cet article vous présente une méthode
   simple et efficace, écrite en PHP et utilisant JavaScript.\r\n</p>\r\n"
 wordpress_id: 124
-wordpress_url: http://www.valhalla.fr/index.php/2007/08/01/php-wait-screen-faire-patienter-les-utilisateurs-pendant-lexecution-dun-script-php/
+wordpress_/index.php/2007/08/01/php-wait-screen-faire-patienter-les-utilisateurs-pendant-lexecution-dun-script-php/
 date: '2007-08-01 17:20:23 +0200'
 date_gmt: '2007-08-01 16:20:23 +0200'
 categories:

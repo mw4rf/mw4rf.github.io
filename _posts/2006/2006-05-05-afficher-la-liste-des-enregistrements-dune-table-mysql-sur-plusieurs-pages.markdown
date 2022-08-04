@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Afficher la liste des enregistrements d'une table MySQL sur plusieurs pages
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "<p>\r\nIl est courant de présenter les enregistrements d'une base de données
   sous forme de liste. C'est même très simple a réaliser si l'on veut afficher grâce
   au PHP tous les enregistrements d'une table MySQL. Cependant, un problème surgit

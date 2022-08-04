@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-65/
 title: Numéro 65 - Semaine du 4 au 10 juillet 2011
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 398
 wordpress_url: http://revue.valhalla.fr/?p=398
 date: '2011-07-10 10:00:48 +0200'

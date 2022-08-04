@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-19/
 title: Numéro 19 - Semaine du 16 au 22 août 2010
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 116
 wordpress_url: http://revue.valhalla.fr/?p=116
 date: '2010-08-22 11:44:42 +0200'

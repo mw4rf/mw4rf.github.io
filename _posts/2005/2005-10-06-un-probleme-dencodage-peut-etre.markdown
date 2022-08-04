@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Un problème d'encodage, peut-être ?
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 40
 wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=40
 date: '2005-10-06 22:51:00 +0200'

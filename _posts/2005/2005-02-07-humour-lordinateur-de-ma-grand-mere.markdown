@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: 'Humour: l''ordinateur de ma grand-mère'
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 20
 wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=20
 date: '2005-02-07 22:36:57 +0100'

@@ -4,14 +4,12 @@ layout: post
 status: publish
 published: true
 title: 'Bibliographie sur ordinateur: ça s’améliore'
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Le <a href=\"http://www.valhalla.fr/index.php/2007/03/05/le-calvaire-de-la-bibliographie-sur-ordinateur/\">précédent
   article</a> sur la construction d’une bibliographie sur ordinateur n’était pas très
   optimiste. Loin de là. Sur Mac, le couple Microsoft Word / Endnote ne séduit pas.
@@ -19,7 +17,7 @@ excerpt: "Le <a href=\"http://www.valhalla.fr/index.php/2007/03/05/le-calvaire-d
   bibliographie et rédiger un long document avec ces deux logiciels ressemble déjà
   beaucoup moins à un calvaire.\r\n\r\n"
 wordpress_id: 116
-wordpress_url: http://www.valhalla.fr/index.php/2007/03/11/bibliographie-sur-ordinateur-ca-sameliore/
+wordpress_/index.php/2007/03/11/bibliographie-sur-ordinateur-ca-sameliore/
 date: '2007-03-11 19:56:47 +0100'
 date_gmt: '2007-03-11 18:56:47 +0100'
 categories:

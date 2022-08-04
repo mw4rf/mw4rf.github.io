@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Stallman énonce 8 dangers d'Internet pour la démocratie
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Dans une conférence (11 avril 2011) à l'Université de Stanford (Californie,
   USA), le fondateur de la <i>Free Software Foundation</i>, Richard Stallman, a énoncé
   8 problèmes relatifs aux nouvelles technologies, et en particulier à Internet, qui
@@ -20,7 +18,7 @@ excerpt: "Dans une conférence (11 avril 2011) à l'Université de Stanford (Cal
   l'intervention de Stallman a été filmée, et le film est disponible à l'adresse suivante
   : <a href=\"http://cyberlaw.stanford.edu/node/6657\">http://cyberlaw.stanford.edu/node/6657</a>.\r\n\r\n"
 wordpress_id: 723
-wordpress_url: http://www.valhalla.fr/?p=723
+wordpress_/?p=723
 date: '2011-04-14 10:03:09 +0200'
 date_gmt: '2011-04-14 08:03:09 +0200'
 categories:

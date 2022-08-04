@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-71/
 title: Numéro 71 - Semaine du 15 au 21 août 2011
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 423
 wordpress_url: http://revue.valhalla.fr/?p=423
 date: '2011-08-21 10:26:57 +0200'

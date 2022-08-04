@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-31/
 title: Numéro 31 - Semaine du 8 au 14 novembre 2010
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 166
 wordpress_url: http://revue.valhalla.fr/?p=166
 date: '2010-11-14 12:54:16 +0100'

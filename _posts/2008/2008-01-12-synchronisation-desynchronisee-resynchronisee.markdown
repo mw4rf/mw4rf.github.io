@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Synchronisation désynchronisée resynchronisée
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Quel titre étrange ! Il vaut mieux l'expliquer tout de suite : parmi les
   fonctionnalités proposées par le service .Mac d'Apple, la <i>synchronisation</i>
   permet de garder automatiquement certains éléments à jour sur plusieurs Mac simultanément.
@@ -24,7 +22,7 @@ excerpt: "Quel titre étrange ! Il vaut mieux l'expliquer tout de suite : parmi 
   le tout, ce qui est plus facile à dire qu'à faire. Cet article est le récit de deux
   mésaventures avec la synchronisation du trousseau 1Password et avec l'iDisk.\r\n\r\n"
 wordpress_id: 136
-wordpress_url: http://www.valhalla.fr/index.php/2008/01/12/synchronisation-desynchronisee-resynchronisee/
+wordpress_/index.php/2008/01/12/synchronisation-desynchronisee-resynchronisee/
 date: '2008-01-12 02:03:46 +0100'
 date_gmt: '2008-01-12 01:03:46 +0100'
 categories:

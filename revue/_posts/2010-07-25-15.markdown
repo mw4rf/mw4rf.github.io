@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-15/
 title: Numéro 15 - Semaine du 19 au 25 juillet 2010
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 79
 wordpress_url: http://revue.valhalla.fr/?p=79
 date: '2010-07-25 11:48:15 +0200'

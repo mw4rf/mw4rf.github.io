@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-102/
 title: Numéro 102 - Semaine du 14 au 20 mai 2012
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 535
 wordpress_url: http://revue.valhalla.fr/?p=535
 date: '2012-05-20 13:47:21 +0200'

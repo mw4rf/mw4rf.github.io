@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Francés et les connards
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 wordpress_id: 8
 wordpress_url: http://localhost/~guillaume/gfblog/wordpress/?p=8
 date: '2004-09-06 22:26:50 +0200'

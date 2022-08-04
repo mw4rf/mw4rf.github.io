@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: QuickTime, une merveille !
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "J'ai déjà écrit cet article. Mais j'ai dû formater mon disque, et j'ai tout
   perdu. C'était un coup de gueule, écrit sur le moment, après mes premiers essais
   de conversion de vidéos pour l'iPod 5G. Deux semaines plus tard, ma colère contre

@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Blâmez le contenant, oubliez le contenu
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "Je lis dans Le Monde (1), à propos de la récente affaire Hortefeux, que
   plusieurs personnalités de la droite française, ainsi que divers intellectuels,
   accusent le réseau Internet d'être « source de nouvelles dérives en matière d'information
@@ -25,7 +23,7 @@ excerpt: "Je lis dans Le Monde (1), à propos de la récente affaire Hortefeux, 
   » (A. Finkielkraut).\r\n\r\nJ'aimerais à mon tour, sans grande prétention, réagir
   à ces réactions.\r\n\r\n"
 wordpress_id: 285
-wordpress_url: http://www.valhalla.fr/?p=285
+wordpress_/?p=285
 date: '2009-09-19 18:30:56 +0200'
 date_gmt: '2009-09-19 16:30:56 +0200'
 categories:

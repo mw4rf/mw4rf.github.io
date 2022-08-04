@@ -4,14 +4,12 @@ status: publish
 published: true
 title: Installer et configurer un environnement de développement PHP/MySQL sur Mac
   OS X
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "<p>\r\nCet article est destiné à tout néophyte qui désire débuter dans la
   programmation Web avec le langage PHP et le serveur de base de données MySQL. Il
   vise à expliquer, pas à pas, la démarche pour installer et configurer \"proprement\"

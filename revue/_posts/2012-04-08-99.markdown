@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-99/
 title: Numéro 99 - Semaine du 2 au 8 avril 2012
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 526
 wordpress_url: http://revue.valhalla.fr/?p=526
 date: '2012-04-08 11:48:41 +0200'

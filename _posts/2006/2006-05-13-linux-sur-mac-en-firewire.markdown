@@ -3,14 +3,12 @@ layout: post
 status: publish
 published: true
 title: Linux sur Mac en Firewire
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: http://www.valhalla.fr
-author_login: gflorimond
-author_email: gf@valhalla.fr
-author_url: http://www.valhalla.fr
+
+  
+  
+
+
+
 excerpt: "J'avais envie d'installer Linux sur mon PowerBook G4, en plus de Mac OS
   X. Quoique qu'aventureux, je reste prudent: il n'était pas question de compromettre
   mon installation de Mac OS X, que j'utilise pour les choses sérieuses et dont j'ai

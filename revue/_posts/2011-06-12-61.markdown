@@ -4,13 +4,7 @@ status: publish
 published: true
 permalink: /revue/numero-61/
 title: Numéro 61 - Semaine du 6 au 12 juin 2011
-author:
-  display_name: GF
-  login: gflorimond
-  email: gf@valhalla.fr
-  url: ''
-author_login: gflorimond
-author_email: gf@valhalla.fr
+
 wordpress_id: 367
 wordpress_url: http://revue.valhalla.fr/?p=367
 date: '2011-06-12 13:20:25 +0200'
