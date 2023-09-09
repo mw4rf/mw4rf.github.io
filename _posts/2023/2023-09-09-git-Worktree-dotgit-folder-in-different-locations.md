@@ -16,7 +16,7 @@ permalink:  /2023/09/09/git-worktree-and-dotgit-folder-in-different-locations/
 
 # Worktree & dotgit folder in different locations
 
-You don't want to put a git repository in a Dropbox|iCloud|GoogleDrive|OneDrive|(WhatEverDrive) synced folder. Git has locked filed, they can't de synchronized properly and this seriously messes up the repository. Data gets corrupted and, in the end, lost.
+You don't want to put a git repository in a Dropbox/iCloud/GoogleDrive/OneDrive/(WhatEverDrive) synced folder. Git has locked filed, they can't de synchronized properly and this seriously messes up the repository. Data gets corrupted and, in the end, lost.
 
 But I need it. I want my [Obsidian.md](https://www.obsidian.md) notes on iCloud or Dropbox, because I use Obsidian Mobile. At the same time, I want my vault to be on a private GitHub repo.
 
