@@ -33,3 +33,4 @@ Edit the git configuration file at `~/git/obsidian/.git/config` adding a single 
   worktree = $HOME/Dropbox/obsidian/myvault
   ...
 ```
+Et voilà !
