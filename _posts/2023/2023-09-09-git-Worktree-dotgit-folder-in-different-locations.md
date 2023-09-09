@@ -30,6 +30,6 @@ Edit the git configuration file at `~/git/obsidian/.git/config` adding a single 
 
 ```.git/config
 [core]
-  worktree = $HOME/git/obsidian
+  worktree = $HOME/Dropbox/obsidian/myvault
   ...
 ```
