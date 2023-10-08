@@ -62,16 +62,16 @@ Je te sens confus, lecteur, alors laisse moi t'expliquer avec un exemple. Tu con
 
 Objectif: économiser la (petite) batterie des voiture thermiques.
 
-Mais tout cela, c'est en théorie. En pratique, c'est bien différent. Tu peux rouler le temps que tu veux, le résultat est totalement imprévisible. Parfois, la voiture t'autorise à écouter la radio (avoir l'aération, baisser/monter les vitres, etc.) pendant des heures sans broncher. D'autres fois, la voiture se met en mode économie d'énergie au bout de 3,2 secondes et coupe _tout_, absolument _tout_, si bien que la radio se coupe, l'aération s'arrête, les commandes des vitres ne répondent plus... bref, plus rien ne marche et, pour réactiver le bouzin, tu vois redémarrer le moteur comme pour repartir.
+Mais tout cela, c'est en théorie. En pratique, c'est bien différent. Tu peux rouler le temps que tu veux, le résultat est totalement imprévisible. Parfois, la voiture t'autorise à écouter la radio (avoir l'aération, baisser/monter les vitres, etc.) pendant des heures sans broncher. D'autres fois, la voiture se met en mode économie d'énergie au bout de 3,2 secondes et coupe _tout_, absolument _tout_, si bien que la radio se coupe, l'aération s'arrête, les commandes des vitres ne répondent plus... bref, plus rien ne marche et, pour réactiver le bouzin, tu dois redémarrer le moteur comme pour repartir.
 
 C'est incompréhensible, inexplicable, incohérent, stupide. _Monsieur Chef-de-projet_ a sans doute oublié un `rand()` quelque part dans le code. Erreur technique, donc, qui vient du fait (une fois de plus) que _celui qui conçoit le système ne l'utilise pas_.
 
 Mais il y a plus: une erreur (impardonnable) d'ordre conteptuel. Ce n'est plus une question de _oups! j'ai oublié de débugger_ ; c'est une question de _j'ai mal pensé le truc ab initio_. En effet, je me répète, mais la fonction en question, qui attire mon ire (!), est conçue pour économiser la batterie anémique des voitures thermiques. Mais j'ai une _voiture électrique_ avec une batterie énormissime pour ce qui est d'écouter la radio (même si, pour conduire, elle est ridiculement minuscule: cela fera l'objet d'un autre _post_ énervé). Je m'en tape de perdre 3% de batterie en écoutant la radio avec la ventilation ON pendant 3 heures ! Laissez-moi tranquille !
 
-Et voilà donc ma voiture <s>honie</s> chérie afficher le message sur son (petit) écran (dont le _screen estate_ est mal optimisé) : _mode économie d'énergie activé_. Comptez: 3...2...1...0 ! Tout s'arrête. J'appuie sur le bouton ON/OFF de cette daube. Immédiatement, elle redémarre, affiche de nouveau le message, et s'éteint au bout de 3 secondes. Et encore et encore, _bis repetita_ et _tutti quanti_.
+Et voilà donc ma voiture <s>honnie</s> chérie afficher le message sur son (petit) écran (dont le _screen estate_ est mal optimisé) : _mode économie d'énergie activé_. Comptez: 3...2...1...0 ! Tout s'arrête. J'appuie sur le bouton ON/OFF de cette daube. Immédiatement, elle redémarre, affiche de nouveau le message, et s'éteint au bout de 3 secondes. Et encore et encore, _bis repetita_ et _tutti quanti_.
 
-Cette bagnole ne veut pas me laisser écouter la radio quand je suis arrêté, peinard sur une place de parking. Et il n'y a aucune justification, ni technique, ni théorique, à cela. Pas de justificatiin, mais une explication : _les gens qui conçoivent ces systèmes ne les utilisent pas, ne les mettent pas à l'épreuve, ne sont pas conscients de leurs défauts de conception_. Bref, tous des cons.
+Cette bagnole ne veut pas me laisser écouter la radio quand je suis arrêté, peinard sur une place de parking. Et il n'y a aucune justification, ni technique, ni théorique, à cela. Pas de justification, mais une explication : _les gens qui conçoivent ces systèmes ne les utilisent pas, ne les mettent pas à l'épreuve, ne sont pas conscients de leurs défauts de conception_. Bref, tous des cons.
 
 C'était un article hashtag-coup-de-gueule. Mais j'en pense pas moins.
 
-PS: achetez une bagnole à essence. Et pas une française. Conseil d'ami.
+PS: achetez une bagnole à essence. Et pas une française.
